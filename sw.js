@@ -1,6 +1,6 @@
 /* App-shell cache: page, code, session data, generated audio. Materials images are
    cached on first view (cache-on-read) so reading works offline after one visit. */
-const CACHE = 'german-site-live3';
+const CACHE = 'german-site-live4';
 const CORE = ['./', './index.html', './css/style.css', './js/app.js', './data/session-1.json', './js/audio-1.js', './js/audio-2.js', './js/audio-3.js', './js/audio-4.js', './js/audio-5.js'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));
