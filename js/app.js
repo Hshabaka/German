@@ -448,6 +448,19 @@
     var e = p.errors.every(function (_, i) { return ans['e' + i] && ans['e' + i].result === 'correct'; });
     return b && e;
   }
+  function buildHint(guess, it) {
+    var g = guess.split(' '), t = it.answer.replace(/[.?]$/, '').split(' ');
+    var n = 0; while (n < g.length && g[n] === t[n]) n++;
+    var rule = '';
+    if (/\bkann\b/.test(it.answer)) rule = ' القاعدة: kann في المركز التاني، والفعل التاني (المصدر) في آخر الجملة.';
+    else if (/^Wie\b/.test(it.answer)) rule = ' القاعدة: في السؤال بـ Wie، الفعل بعد Wie على طول.';
+    else rule = ' القاعدة: الفعل في المركز التاني.';
+    return [
+      el('div', {}, ['ترتيبك: ', el('bdi', { dir: 'ltr' }, [guess])]),
+      el('div', {}, [n > 0 ? 'أول ' + arNum(n) + ' كلمة مظبوطة. الكلمة رقم ' + arNum(n + 1) + ' مش في مكانها.' : 'الكلمة الأولى مش مظبوطة.' + rule]),
+      n > 0 ? el('div', {}, [rule.trim()]) : null
+    ].filter(Boolean);
+  }
   function renderBuild(s) {
     var ans = store.data.answers;
     return s.practice.build.map(function (it, i) {
@@ -486,7 +499,7 @@
         ])
       ]);
       if (st.result === 'correct') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'correct', role: 'status' }, ['صح ✓ ', el('span', { dir: 'ltr' }, [it.answer])]));
-      if (st.result === 'wrong') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, ['لسه. جرّب ترتيب تاني، أو اضغط «من الأول».']));
+      if (st.result === 'wrong') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, buildHint(guess, it)));
       return wrap;
     });
   }
