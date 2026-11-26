@@ -63,6 +63,8 @@
     tab: 0,
     cardIndex: 0,
     revealed: false,
+    drill: 0,
+    shown: {},
     syncState: 'local' // local | synced | offline-queued | error
   };
 
@@ -324,7 +326,7 @@
     var list = el('ul', { class: 'words', role: 'tabpanel', 'aria-label': active.label },
       active.words.map(function (w) {
         return el('li', { class: 'word' }, [
-          w.audio ? audioButton(w.audio, 'اسمع: ' + w.de) : null,
+          w.audio ? audioButton(w.audio, 'اسمع: ' + w.de) : el('span', { class: 'noaudio', title: 'الصوت لسه مضافش' }, ['بدون صوت']),
           el('span', { class: 'word-de', dir: 'ltr' }, [articleSpan(w.article), w.de]),
           el('span', { class: 'word-ar' }, [w.ar])
         ]);
@@ -336,7 +338,7 @@
   function renderSentences(s) {
     var list = el('ul', { class: 'sentences' }, s.sentences.map(function (sent) {
       return el('li', { class: 'sentence' }, [
-        audioButton(sent.audio, 'اسمع: ' + sent.de),
+        sent.audio ? audioButton(sent.audio, 'اسمع: ' + sent.de) : el('span', { class: 'noaudio', title: 'الصوت لسه مضافش' }, ['بدون صوت']),
         el('span', { class: 'sentence-text' }, [
           el('span', { class: 'sentence-de', dir: 'ltr' }, [sent.de]),
           el('span', { class: 'sentence-ar' }, [sent.ar])
@@ -426,7 +428,7 @@
         ])
       ]);
       if (st && st.result === 'correct') qEl.appendChild(el('div', { class: 'feedback', 'data-kind': 'correct', role: 'status' }, ['صح ✓']));
-      if (st && st.result === 'wrong') qEl.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, ['لسه. الصح: ' + q.options[q.answer] + ' — ' + q.why]));
+      if (st && st.result === 'wrong') qEl.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, ['لسه. الصح: ', el('bdi', { dir: 'ltr' }, [q.options[q.answer]]), ' — ' + q.why]));
       grid.appendChild(qEl);
     });
     return panel('quiz', 'اختبار سريع', 'اختار إجابة واضغط «تحقق»', [
@@ -436,6 +438,102 @@
         el('button', { class: 'btn btn-ghost', type: 'button', onclick: function () { store.data.answers = {}; persist(); render(); } }, ['ابدأ من الأول'])
       ])
     ], '', 'span-12', 'sec-quiz');
+  }
+
+
+  /* ---------- practice drills (own content) ---------- */
+  function drillAllDone(s) {
+    var p = s.practice, ans = store.data.answers;
+    var b = p.build.every(function (_, i) { return ans['b' + i] && ans['b' + i].result === 'correct'; });
+    var e = p.errors.every(function (_, i) { return ans['e' + i] && ans['e' + i].result === 'correct'; });
+    return b && e;
+  }
+  function renderBuild(s) {
+    var ans = store.data.answers;
+    return s.practice.build.map(function (it, i) {
+      var key = 'b' + i;
+      var st = ans[key] || { picked: [], result: null };
+      var done = st.result === 'correct';
+      var picked = el('div', { class: 'answer-row', dir: 'ltr', 'aria-label': 'جملتك' }, st.picked.map(function (ti, pos) {
+        return el('button', { class: 'tile tile-picked', type: 'button', 'data-tile': it.tiles[ti], onclick: function () {
+          if (done) return;
+          var cur = ans[key] || { picked: [], result: null };
+          cur.picked.splice(pos, 1); cur.result = null; ans[key] = cur; persist(); render();
+        } }, [it.tiles[ti]]);
+      }));
+      var bank = el('div', { class: 'tile-bank', dir: 'ltr' }, it.tiles.map(function (t, ti) {
+        var used = st.picked.indexOf(ti) !== -1;
+        return el('button', { class: 'tile', type: 'button', 'data-tile': t, disabled: used || done ? '' : null, onclick: function () {
+          var cur = ans[key] || { picked: [], result: null };
+          cur.picked.push(ti); cur.result = null; ans[key] = cur; persist(); render();
+        } }, [t]);
+      }));
+      var guess = st.picked.map(function (ti) { return it.tiles[ti]; }).join(' ');
+      var wrap = el('div', { class: 'quiz-q build-q' }, [
+        el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)]), el('span', {}, ['رتّب الكلمات في جملة'])]),
+        picked, bank,
+        el('div', {}, [
+          el('button', { class: 'btn btn-secondary check-build', type: 'button',
+            disabled: (st.picked.length === it.tiles.length && !done) ? null : '',
+            onclick: function () {
+              var cur = ans[key]; if (!cur) return;
+              var built = cur.picked.map(function (ti) { return it.tiles[ti]; }).join(' ');
+              cur.result = (built === it.answer.replace(/[.?]$/, '')) ? 'correct' : 'wrong';
+              if (cur.result === 'correct' && drillAllDone(s)) markTracker('did-practice');
+              persist(); render();
+            } }, ['تحقق']),
+          el('button', { class: 'btn btn-ghost', type: 'button', onclick: function () { delete ans[key]; persist(); render(); } }, ['من الأول'])
+        ])
+      ]);
+      if (st.result === 'correct') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'correct', role: 'status' }, ['صح ✓ ', el('span', { dir: 'ltr' }, [it.answer])]));
+      if (st.result === 'wrong') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, ['لسه. جرّب ترتيب تاني، أو اضغط «من الأول».']));
+      return wrap;
+    });
+  }
+  function renderErrors(s) {
+    var ans = store.data.answers;
+    return s.practice.errors.map(function (it, i) {
+      var key = 'e' + i, st = ans[key];
+      var wrap = el('div', { class: 'quiz-q' }, [
+        el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)]), el('span', {}, ['أنهي جملة صح؟'])]),
+        el('div', { class: 'quiz-options', dir: 'ltr' }, it.options.map(function (opt, oi) {
+          var selected = st && st.choice === oi;
+          return el('button', { class: 'quiz-opt', type: 'button',
+            'data-selected': String(!!selected), 'data-correct': String(!!(st && st.result === 'correct' && oi === it.answer)), 'data-wrong': String(!!(selected && st.result === 'wrong')),
+            onclick: function () { if (st && st.result === 'correct') return; ans[key] = { choice: oi, result: null }; persist(); render(); }
+          }, [opt]);
+        })),
+        el('div', {}, [el('button', { class: 'btn btn-secondary', type: 'button', disabled: (!st || st.result === 'correct') ? '' : null,
+          onclick: function () {
+            ans[key].result = ans[key].choice === it.answer ? 'correct' : 'wrong';
+            if (ans[key].result === 'correct' && drillAllDone(s)) markTracker('did-practice');
+            persist(); render();
+          } }, ['تحقق'])])
+      ]);
+      if (st && st.result === 'correct') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'correct', role: 'status' }, ['صح ✓ ' + it.why]));
+      if (st && st.result === 'wrong') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, ['لسه. الصح: ', el('bdi', { dir: 'ltr' }, [it.options[it.answer]]), ' — ' + it.why]));
+      return wrap;
+    });
+  }
+  function renderTranslate(s) {
+    return s.practice.translate.map(function (it, i) {
+      var open = !!state.shown[i];
+      return el('div', { class: 'quiz-q' }, [
+        el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)]), el('span', {}, [it.ar])]),
+        el('p', { class: 'caption', style: 'margin:0 0 8px' }, ['قولها بالألماني بصوت عالي، وبعدين اكشف.']),
+        open ? el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [it.de]) : null,
+        el('div', {}, [el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [open ? 'إخفاء' : 'اكشف الإجابة'])])
+      ]);
+    });
+  }
+  function renderDrills(s) {
+    if (!s.practice) return null;
+    var modes = [['رتّب الجملة', renderBuild], ['لاقي الغلطة', renderErrors], ['ترجم واكشف', renderTranslate]];
+    var tabs = el('div', { class: 'tabs', role: 'tablist', 'aria-label': 'أنواع التدريب' }, modes.map(function (m, i) {
+      return el('button', { class: 'tab drill-tab', type: 'button', role: 'tab', 'aria-selected': String(i === state.drill), onclick: function () { state.drill = i; render(); } }, [m[0]]);
+    }));
+    var body = el('div', { class: 'quiz-grid drill-body' }, modes[state.drill][1](s));
+    return panel('cards', 'تدريب على الجمل', 'ثلاث خطوات قصيرة: رتّب، صحّح، ترجم', [tabs, body], '', 'span-12', 'sec-drills');
   }
 
   function renderExtra(s) {
@@ -460,7 +558,7 @@
   function renderNav() {
     var items = [
       ['tracker', 'تقدمك', 'chart'], ['lesson', 'الدرس', 'play'], ['vocab', 'الكلمات', 'book'],
-      ['practice', 'تدريب', 'cards'], ['quiz', 'اختبار', 'quiz']
+      ['practice', 'تدريب', 'cards'], ['drills', 'جمل', 'doc'], ['quiz', 'اختبار', 'quiz']
     ];
     return el('nav', { class: 'navbar', 'aria-label': 'أقسام الصفحة' }, [
       el('div', { class: 'navbar-inner' }, items.map(function (it) {
@@ -499,10 +597,11 @@
         renderSentences(s),
         renderGrammar(s),
         renderMaterials(s),
+        renderDrills(s),
         renderQuiz(s),
         renderExtra(s)
       ].filter(Boolean)),
-      el('p', { class: 'closing' }, ['الصوت تسجيل مولّد للتدريب، مش صوت المدرس. ده نموذج أولي بمحتوى الجلسة الأولى.'])
+      el('p', { class: 'closing' }, ['الصوت تسجيل مولّد للتدريب، مش صوت المدرس. ده نموذج أولي بمحتوى الجلسة الأولى. الكلمات والجمل اللي مكتوب جنبها «بدون صوت» صوتها لسه مش مضاف.'])
     ]));
   }
 
