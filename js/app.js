@@ -445,7 +445,7 @@
     links.forEach(function (l) {
       kids.push(el('p', { style: 'margin:0 0 10px' }, [el('a', { class: 'extra-link', href: l.url, target: '_blank', rel: 'noopener' }, [l.title + ' ↗'])]));
     });
-    kids.push(el('p', { class: 'caption' }, ['المصدر: Deutsche Welle (learngerman.dw.com)، بيتفتح على موقعهم الرسمي.']));
+    kids.push(el('p', { class: 'caption' }, ['العنوان الرسمي: ', el('bdi', { lang: 'de', dir: 'ltr' }, [s.extra.source_title || 'Nicos Weg']), ' · المصدر: ', el('bdi', { dir: 'ltr' }, ['learngerman.dw.com']), ' (بيتفتح على موقع DW)']));
     return panel('link', 'تدريب إضافي', 'مصدر مجاني رسمي من Deutsche Welle', kids, 'tone-night', 'span-12', null);
   }
 
