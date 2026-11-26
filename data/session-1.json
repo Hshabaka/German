@@ -1,0 +1,318 @@
+{
+  "id": "session-1",
+  "level": "A1",
+  "title": "الجلسة 1: كسر الحاجز (أنا أستطيع)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=RW1j4m1giP0",
+    "backup": "منسوخ في Notion",
+    "note": "فيديو الدرس من قناة المدرس على يوتيوب"
+  },
+  "vocab": [
+    {
+      "id": "verbs",
+      "label": "أفعال",
+      "words": [
+        {
+          "de": "ich lerne",
+          "ar": "أنا أتعلم",
+          "audio": "audio/vocab/01-ich-lerne.mp3"
+        },
+        {
+          "de": "ich lese",
+          "ar": "أنا أقرأ",
+          "audio": "audio/vocab/02-ich-lese.mp3"
+        },
+        {
+          "de": "ich spreche",
+          "ar": "أنا أتكلم",
+          "audio": "audio/vocab/03-ich-spreche.mp3"
+        },
+        {
+          "de": "ich trinke",
+          "ar": "أنا أشرب",
+          "audio": "audio/vocab/04-ich-trinke.mp3"
+        },
+        {
+          "de": "ich höre",
+          "ar": "أنا أسمع",
+          "audio": "audio/vocab/05-ich-hoere.mp3"
+        },
+        {
+          "de": "ich koche",
+          "ar": "أنا أطبخ",
+          "audio": "audio/vocab/06-ich-koche.mp3"
+        },
+        {
+          "de": "ich spiele",
+          "ar": "أنا ألعب",
+          "audio": "audio/vocab/07-ich-spiele.mp3"
+        },
+        {
+          "de": "ich gehe",
+          "ar": "أنا أروح",
+          "audio": "audio/vocab/08-ich-gehe.mp3"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "label": "أكل وشرب",
+      "words": [
+        {
+          "de": "Kaffee",
+          "article": "der",
+          "ar": "القهوة",
+          "audio": "audio/vocab/09-kaffee.mp3"
+        },
+        {
+          "de": "Tee",
+          "article": "der",
+          "ar": "الشاي",
+          "audio": "audio/vocab/10-tee.mp3"
+        },
+        {
+          "de": "Saft",
+          "article": "der",
+          "ar": "العصير",
+          "audio": "audio/vocab/11-saft.mp3"
+        },
+        {
+          "de": "Wasser",
+          "article": "das",
+          "ar": "الماء",
+          "audio": "audio/vocab/12-wasser.mp3"
+        },
+        {
+          "de": "Essen",
+          "article": "das",
+          "ar": "الأكل",
+          "audio": "audio/vocab/13-essen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "label": "أماكن وأشياء",
+      "words": [
+        {
+          "de": "Zeitung",
+          "article": "die",
+          "ar": "الجريدة",
+          "audio": "audio/vocab/14-zeitung.mp3"
+        },
+        {
+          "de": "Musik",
+          "article": "die",
+          "ar": "الموسيقى",
+          "audio": "audio/vocab/15-musik.mp3"
+        },
+        {
+          "de": "Gitarre",
+          "article": "die",
+          "ar": "الجيتار",
+          "audio": "audio/vocab/16-gitarre.mp3"
+        },
+        {
+          "de": "Kino",
+          "article": "das",
+          "ar": "السينما",
+          "audio": "audio/vocab/17-kino.mp3"
+        },
+        {
+          "de": "Radio",
+          "article": "das",
+          "ar": "الراديو",
+          "audio": "audio/vocab/18-radio.mp3"
+        },
+        {
+          "de": "Restaurant",
+          "article": "das",
+          "ar": "المطعم",
+          "audio": "audio/vocab/19-restaurant.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich lerne Deutsch.",
+      "ar": "أنا أتعلم الألماني.",
+      "audio": "audio/ich-lerne-deutsch.mp3"
+    },
+    {
+      "de": "Ich trinke Kaffee.",
+      "ar": "أنا أشرب قهوة.",
+      "audio": "audio/ich-trinke-kaffee.mp3"
+    },
+    {
+      "de": "Ich kann Deutsch sprechen.",
+      "ar": "أقدر أتكلم ألماني.",
+      "audio": "audio/ich-kann-deutsch-sprechen.mp3"
+    },
+    {
+      "de": "Ich kann Gitarre spielen.",
+      "ar": "أقدر أعزف جيتار.",
+      "audio": "audio/ich-kann-gitarre-spielen.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "ich lerne",
+      "ar": "أنا أتعلم"
+    },
+    {
+      "de": "ich trinke",
+      "ar": "أنا أشرب"
+    },
+    {
+      "de": "ich höre",
+      "ar": "أنا أسمع"
+    },
+    {
+      "de": "ich koche",
+      "ar": "أنا أطبخ"
+    },
+    {
+      "de": "Kaffee",
+      "article": "der",
+      "ar": "القهوة"
+    },
+    {
+      "de": "Wasser",
+      "article": "das",
+      "ar": "الماء"
+    },
+    {
+      "de": "Zeitung",
+      "article": "die",
+      "ar": "الجريدة"
+    },
+    {
+      "de": "Kino",
+      "article": "das",
+      "ar": "السينما"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich ______ Musik.",
+      "options": [
+        "höre",
+        "lese",
+        "trinke"
+      ],
+      "answer": 0,
+      "why": "الموسيقى بتتسمع، فالصح höre (أسمع)."
+    },
+    {
+      "prompt": "Ich kann Gitarre ______.",
+      "options": [
+        "spielen",
+        "spiele"
+      ],
+      "answer": 0,
+      "why": "بعد kann الفعل بيبقى مصدر في آخر الجملة: spielen."
+    },
+    {
+      "prompt": "Ich ______ Französisch.",
+      "options": [
+        "spreche",
+        "trinke"
+      ],
+      "answer": 0,
+      "why": "اللغة بنتكلمها: spreche (أتكلم)."
+    },
+    {
+      "prompt": "Ich kann ins Kino ______.",
+      "options": [
+        "gehen",
+        "gehe"
+      ],
+      "answer": 0,
+      "why": "بعد kann الفعل مصدر: gehen."
+    },
+    {
+      "prompt": "Ich kann das Radio ______.",
+      "options": [
+        "hören",
+        "höre"
+      ],
+      "answer": 0,
+      "why": "بعد kann الفعل مصدر: hören."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "قريت الكلمات في التابات"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "سمعت الجمل وكررتها بصوت عالي"
+    },
+    {
+      "id": "did-cards",
+      "title": "خلصت بطاقات الكلمات"
+    },
+    {
+      "id": "did-quiz",
+      "title": "خلصت الاختبار السريع"
+    },
+    {
+      "id": "review-1d",
+      "title": "راجعت بعد يوم"
+    },
+    {
+      "id": "review-7d",
+      "title": "راجعت بعد ٧ أيام"
+    }
+  ],
+  "extra": {
+    "label": "تدريب إضافي اختياري (DW)",
+    "url": "https://learngerman.dw.com/en/ich-hei%C3%9Fe-emma/l-37262882/le"
+  },
+  "lesson": {
+    "summary": "الجلسة دي أول خطوة: بتتعلم تكوّن جملة ألمانية كاملة عن نفسك من غير ما تحفظ قواعد معقدة. اتفرج على فيديو الدرس الأول، وبعدين اقرا القاعدة تحته، وبعدها كمّل التدريب اللي في الصفحة.",
+    "challenge": {
+      "title": "تحدي الكتابة (Barbarys Schreib-Challenge) ✍️",
+      "intro": "ترجم الجمل دي من فضلك:",
+      "items": [
+        "أنا أقدر أتعلم وأقرا وأكتب اللغة الألمانية.",
+        "أنا أقدر أطبخ الأكل.",
+        "أنا بشرب القهوة."
+      ],
+      "note": "الجزء التاني من الدرس: الهوايات وأوقات الفراغ (Freizeit)."
+    }
+  },
+  "grammar": [
+    {
+      "title": "الفعل مع «ich» (أنا)",
+      "rule": "مع «أنا» الفعل بياخد حرف e في الآخر. شيل الـ -en من المصدر وحط e: lernen ← ich lerne، machen ← ich mache.",
+      "examples": [
+        {
+          "de": "Ich lerne Deutsch.",
+          "ar": "أنا أتعلم الألماني."
+        },
+        {
+          "de": "Ich koche heute.",
+          "ar": "أنا أطبخ النهاردة."
+        }
+      ]
+    },
+    {
+      "title": "Ich kann … (أنا أقدر)",
+      "rule": "بعد kann باقي الجملة بيمشي عادي، والفعل التاني بيروح في الآخر في المصدر (بالـ -en).",
+      "examples": [
+        {
+          "de": "Ich kann Deutsch sprechen.",
+          "ar": "أقدر أتكلم ألماني."
+        },
+        {
+          "de": "Ich kann Gitarre spielen.",
+          "ar": "أقدر أعزف جيتار."
+        }
+      ]
+    }
+  ]
+}
