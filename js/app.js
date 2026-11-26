@@ -147,7 +147,7 @@
 
   function youtubeEmbed(url) {
     var m = /(?:youtube\.com\/watch\?v=|youtu\.be\/)([A-Za-z0-9_-]{6,})/.exec(url || '');
-    return m ? 'https://www.youtube-nocookie.com/embed/' + m[1] : null;
+    return m ? 'https://www.youtube.com/embed/' + m[1] : null;
   }
 
   function panel(iconName, title, hint, children, tone, span, id) {
@@ -262,6 +262,7 @@
         })
       ]));
       children.push(el('p', { class: 'caption' }, [(vid.note || 'فيديو الدرس') + (vid.backup ? ' · ' + vid.backup : '')]));
+      children.push(el('p', { class: 'caption' }, [el('a', { href: vid.url, target: '_blank', rel: 'noopener' }, ['افتح الفيديو على يوتيوب ↗']), ' (لو ظهرت إعلانات، افتحه من هنا وإنت داخل بحساب Premium)']));
     } else if (vid.url) {
       children.push(el('p', {}, [el('a', { href: vid.url, target: '_blank', rel: 'noopener' }, ['افتح فيديو الدرس'])]));
     }
@@ -438,11 +439,14 @@
   }
 
   function renderExtra(s) {
-    if (!s.extra || !s.extra.url) return null;
-    return panel('link', 'تدريب إضافي', 'مصدر مجاني رسمي من Deutsche Welle', [
-      el('p', { style: 'margin:0 0 12px' }, [s.extra.label + ':']),
-      el('p', { style: 'margin:0' }, [el('a', { class: 'extra-link', href: s.extra.url, target: '_blank', rel: 'noopener' }, ['افتح تدريب DW ↗'])])
-    ], 'tone-night', 'span-12', null);
+    if (!s.extra || !(s.extra.links || s.extra.url)) return null;
+    var links = s.extra.links || [{ title: 'افتح تدريب DW', url: s.extra.url }];
+    var kids = [el('p', { style: 'margin:0 0 12px' }, [s.extra.label + ':'])];
+    links.forEach(function (l) {
+      kids.push(el('p', { style: 'margin:0 0 10px' }, [el('a', { class: 'extra-link', href: l.url, target: '_blank', rel: 'noopener' }, [l.title + ' ↗'])]));
+    });
+    kids.push(el('p', { class: 'caption' }, ['المصدر: Deutsche Welle (learngerman.dw.com)، بيتفتح على موقعهم الرسمي.']));
+    return panel('link', 'تدريب إضافي', 'مصدر مجاني رسمي من Deutsche Welle', kids, 'tone-night', 'span-12', null);
   }
 
   function markTracker(id) {
