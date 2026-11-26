@@ -353,3 +353,13 @@ section { scroll-margin-top: 12px; }
 }
 .extra-link:active { background: var(--teal-soft); }
 .closing { color: var(--ink-3); font-size: 12px; text-align: center; margin: 22px 0 0; }
+
+/* ---------- drills + audio label ---------- */
+.noaudio { font-size: 11px; color: var(--ink-3, #8a8178); background: rgba(0,0,0,0.05); border-radius: 999px; padding: 4px 8px; white-space: nowrap; }
+.answer-row { min-height: 52px; display: flex; flex-wrap: wrap; gap: 8px; padding: 10px; margin-bottom: 10px; border: 1.5px dashed var(--hairline); border-radius: 14px; background: var(--paper); }
+.tile-bank { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.tile { appearance: none; border: 1.5px solid var(--hairline); background: #fff; color: var(--ink); font: inherit; font-weight: 700; font-size: 15px; border-radius: 12px; padding: 10px 14px; min-height: 44px; cursor: pointer; }
+.tile:disabled { opacity: 0.3; cursor: default; }
+.tile-picked { border-color: var(--teal); background: var(--teal-soft); color: var(--teal); }
+.build-q .btn { margin-inline-end: 8px; }
+.reveal { margin-bottom: 8px; }
