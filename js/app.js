@@ -131,23 +131,43 @@
   }
 
   var currentAudio = null;
+  var currentEl = null;
+  function playClip(src, host, stateEl) {
+    if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+    if (currentEl) { currentEl.dataset.state = ''; currentEl = null; }
+    var a = new Audio((window.AUDIO_DATA && window.AUDIO_DATA[src]) || src);
+    currentAudio = a;
+    currentEl = stateEl;
+    stateEl.dataset.state = 'playing';
+    function done() { if (currentAudio === a) { currentAudio = null; currentEl = null; } stateEl.dataset.state = ''; }
+    a.onended = done;
+    a.onerror = function () { done(); showAudioError(host); };
+    a.play().catch(function () { done(); showAudioError(host); });
+  }
+
   function audioButton(src, label) {
     var btn = el('button', { class: 'audio-btn', type: 'button', 'aria-label': label, title: label }, [icon('speaker', 20)]);
-    btn.addEventListener('click', function () {
-      if (currentAudio) { currentAudio.pause(); currentAudio = null; }
-      var a = new Audio((window.AUDIO_DATA && window.AUDIO_DATA[src]) || src);
-      currentAudio = a;
-      btn.dataset.state = 'playing';
-      a.onended = function () { if (currentAudio === a) currentAudio = null; btn.dataset.state = ''; };
-      a.onerror = function () { if (currentAudio === a) currentAudio = null; btn.dataset.state = ''; showAudioError(btn); };
-      a.play().catch(function () { if (currentAudio === a) currentAudio = null; btn.dataset.state = ''; showAudioError(btn); });
-    });
+    btn.addEventListener('click', function () { playClip(src, btn, btn); });
     return btn;
   }
 
+  /* Whole row is the play control (words and sentences). */
+  function tapRow(li, src, label) {
+    li.classList.add('tap-play');
+    li.setAttribute('role', 'button');
+    li.setAttribute('tabindex', '0');
+    li.setAttribute('aria-label', label);
+    li.addEventListener('click', function () { playClip(src, li, li); });
+    li.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); playClip(src, li, li); }
+    });
+    return li;
+  }
+
   function showAudioError(btn) {
-    if (btn.parentNode.querySelector('.audio-err')) return;
-    btn.parentNode.appendChild(el('span', { class: 'audio-err', role: 'status' }, ['Audio is not available right now']));
+    var box = btn.classList.contains('tap-play') ? btn : btn.parentNode;
+    if (box.querySelector('.audio-err')) return;
+    box.appendChild(el('span', { class: 'audio-err', role: 'status' }, ['Audio is not available right now']));
   }
 
   function setSync(s) { state.syncState = s; }
@@ -493,11 +513,13 @@
     ]);
     function wordLi(w) {
       var g = w.article || w.tint || '';
-      return el('li', { class: 'word' + (g ? ' wbg-' + g : '') }, [
-        w.audio ? audioButton(w.audio, 'Listen: ' + w.de) : el('span', { class: 'noaudio', title: 'No audio yet' }, ['No audio']),
+      var li = el('li', { class: 'word' + (g ? ' wbg-' + g : '') }, [
         el('span', { class: 'word-de', dir: 'ltr' }, [articleSpan(w.article), w.de]),
         el('span', { class: 'word-ar ar-text' }, [w.ar])
       ]);
+      if (w.audio) return tapRow(li, w.audio, 'Play: ' + w.de);
+      li.appendChild(el('span', { class: 'noaudio', title: 'No audio yet' }, ['No audio']));
+      return li;
     }
     var list;
     if (hasArt) {
@@ -515,13 +537,15 @@
 
   function renderSentences(s) {
     var list = el('ul', { class: 'sentences' }, s.sentences.map(function (sent) {
-      return el('li', { class: 'sentence' }, [
-        sent.audio ? audioButton(sent.audio, 'Listen: ' + sent.de) : el('span', { class: 'noaudio', title: 'No audio yet' }, ['No audio']),
+      var li = el('li', { class: 'sentence' }, [
         el('span', { class: 'sentence-text' }, [
           el('span', { class: 'sentence-de', dir: 'ltr' }, [sent.de]),
           el('span', { class: 'sentence-ar ar-text' }, [sent.ar])
         ])
       ]);
+      if (sent.audio) return tapRow(li, sent.audio, 'Play: ' + sent.de);
+      li.appendChild(el('span', { class: 'noaudio', title: 'No audio yet' }, ['No audio']));
+      return li;
     }));
     return panel('speaker', 'Listening to sentences', 'Listen, then repeat out loud', [list], 'tone-night', 'span-12', null);
   }
@@ -791,7 +815,7 @@
       var open = !!state.shown[i];
       return el('div', { class: 'quiz-q ctl tr' }, [
         el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [String(i + 1)]), el('span', { class: 'ar-text' }, [it.ar])]),
-        open ? el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [el('span', {}, [it.de]), audioButton(it.audio || ('audio/tr' + (i + 1) + '.mp3'), 'Listen: ' + it.de)]) : null,
+        open ? tapRow(el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [el('span', {}, [it.de])]), it.audio || ('audio/tr' + (i + 1) + '.mp3'), 'Play: ' + it.de) : null,
         speechBlock(it, i),
         el('div', { class: 'bq-act' }, [micBtn(it, i), el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', 'aria-label': open ? 'Hide answer' : 'Show answer', 'aria-expanded': String(open), title: open ? 'Hide answer' : 'Show answer', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [icon(open ? 'up' : 'down', 20)])])
       ]);
