@@ -341,15 +341,14 @@
     if (!t) return null;
     var a = el('audio', { controls: '', preload: 'none', style: 'width:100%;margin-top:6px', 'aria-label': 'Lesson audio', 'data-lesson': String(t.n) });
     AUD.el = a;
-    var ready = false;
-    if (t.src) { a.src = t.src; ready = true; }
-    a.addEventListener('play', function () {
-      if (ready) return;
-      a.pause();
-      audResolve(t).then(function (u) { ready = true; a.src = u; a.play(); }).catch(function () { a.parentNode.appendChild(el('span', { class: 'audio-err', role: 'status' }, ['Audio is not available right now'])); });
-    });
+    var msg = el('p', { class: 'caption', role: 'status', style: 'margin:4px 0 0' }, []);
+    if (t.src) { a.src = t.src; a.preload = 'metadata'; }
+    else {
+      msg.textContent = 'Loading the lesson audio...';
+      audResolve(t).then(function (u) { a.src = u; a.load(); msg.textContent = ''; }).catch(function () { msg.textContent = 'The lesson audio could not load. Reload the page to try again.'; });
+    }
     if ('mediaSession' in navigator) { try { navigator.mediaSession.metadata = new MediaMetadata({ title: t.title, artist: 'Deutsch by Barbary', album: 'A1' }); } catch (e) {} }
-    return el('div', { style: 'margin:10px 0 0' }, [a]);
+    return el('div', { style: 'margin:10px 0 0' }, [a, msg]);
   }
   function videoBlock() {
     var kids = [];
