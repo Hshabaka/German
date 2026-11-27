@@ -1,4 +1,6 @@
 (function () {
+  function pad2(v) { v = parseInt(v, 10); return 's' + (v < 10 ? '0' : '') + v; }
+  function code(v) { return 'A1-' + pad2(v).toUpperCase(); }
   'use strict';
   var app = document.getElementById('app');
   function el(tag, attrs, kids) {
@@ -75,7 +77,7 @@
   function show(idx, n) {
     app.textContent = '';
     var L = idx.lessons;
-    var sel = el('select', { 'aria-label': 'اختر الدرس', onchange: function () { if (this.value === '1') location.href = 'index.html'; else location.hash = this.value; } }, []);
+    var sel = el('select', { 'aria-label': 'اختر الدرس', onchange: function () { location.href = 'a1/' + pad2(this.value) + '/'; } }, []);
     L.forEach(function (x) { var o = el('option', { value: String(x.n) }, [x.title.replace(/^الدرس\s*(\d+)\s*[:：]\s*/, 'الدرس $1: ') + (window.A1Practice && window.A1Practice.done(x.n) ? ' ✓' : '')]); if (x.n === n) o.selected = true; sel.appendChild(o); });
     var wrapEl = el('div', { class: 'lx' }, [el('div', { class: 'lx-top' }, [sel])]);
     app.appendChild(wrapEl);
@@ -85,7 +87,7 @@
     wrapEl.appendChild(body);
     fetch('data/a1/lesson-' + n + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
       body.textContent = '';
-      body.appendChild(el('h1', {}, [d.title.replace(/^الدرس\s*(\d+)\s*[:：]\s*/, 'الدرس $1: ')]));
+      body.appendChild(el('h1', {}, [code(n) + ' · ' + d.title.replace(/^الدرس\s*(\d+)\s*[:：]\s*/, 'الدرس $1: ')]));
       var blocks = d.blocks.slice();
       var orig = null;
       if (blocks.length && blocks[0].type === 'callout' && plain(blocks[0].text).indexOf('مسودة مبدئية') === 0) { orig = blocks.shift(); }
@@ -109,8 +111,8 @@
       Array.prototype.forEach.call(body.querySelectorAll('li'), function (li) { if ((li.textContent.indexOf('ملفات الدرس') >= 0 && li.textContent.indexOf('Barbary') >= 0 && li.textContent.indexOf('نوشن') >= 0) && !li.querySelector('li') && pf.length) li.textContent = 'ملفات الدرس: تلاقيها تحت في صندوق "ملفات PDF للدرس".'; });
       if (window.A1Practice) { try { window.A1Practice.mount(body, d.blocks, n); } catch (e) {} }
       var nav = el('div', { class: 'lx-nav' }, []);
-      if (n > 2) nav.appendChild(el('a', { class: 'lx-btn', href: '#' + (n - 1) }, ['→ الدرس ' + (n - 1)]));
-      if (n < L.length) nav.appendChild(el('a', { class: 'lx-btn', href: '#' + (n + 1) }, ['الدرس ' + (n + 1) + ' ←']));
+      if (n > 1) nav.appendChild(el('a', { class: 'lx-btn', href: 'a1/' + pad2(n - 1) + '/' }, ['→ ' + code(n - 1)]));
+      if (n < L.length) nav.appendChild(el('a', { class: 'lx-btn', href: 'a1/' + pad2(n + 1) + '/' }, [code(n + 1) + ' ←']));
       body.appendChild(nav);
       window.scrollTo(0, 0);
     }).catch(function () { body.textContent = ''; body.appendChild(el('p', {}, ['الدرس ده لسه ما اتحمّلش على الموقع.'])); });
@@ -120,12 +122,11 @@
     var w = el('div', { class: 'lx' }, [el('h1', { style: 'font-size:22px;margin:0 0 6px' }, ['اختار درسك (A1)']), el('p', { style: 'margin:0 0 12px' }, ['الدروس بالترتيب من 1 لحد 28. ابدأ من الدرس 1.'])]);
     idx.lessons.forEach(function (x) {
       var done = window.A1Practice && window.A1Practice.done(x.n);
-      w.appendChild(el('a', { href: x.n === 1 ? 'index.html' : '#' + x.n, style: 'display:flex;align-items:center;gap:10px;min-height:52px;padding:10px 14px;margin:8px 0;border:1px solid #cbd5e1;border-radius:12px;color:inherit;text-decoration:none' }, [el('span', { style: 'font-weight:700;min-width:28px' }, [String(x.n)]), el('span', { style: 'flex:1' }, [x.title.replace(/^الدرس\s*\d+\s*[:：]\s*/, '')]), el('span', {}, [done ? '✓' : '←'])]));
+      w.appendChild(el('a', { href: 'a1/' + pad2(x.n) + '/', style: 'display:flex;align-items:center;gap:10px;min-height:52px;padding:10px 14px;margin:8px 0;border:1px solid #cbd5e1;border-radius:12px;color:inherit;text-decoration:none' }, [el('span', { style: 'font-weight:700;min-width:78px;direction:ltr' }, [code(x.n)]), el('span', { style: 'flex:1' }, [x.title.replace(/^الدرس\s*\d+\s*[:：]\s*/, '')]), el('span', {}, [done ? '✓' : '←'])]));
     });
     app.appendChild(w);
   }
   fetch('data/a1-pdfs.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }).then(function (p) { window.__a1pdfs = p; return fetch('data/a1-index.json'); }).then(function (r) { return r.json(); }).then(function (idx) {
-    function go() { var n = parseInt(location.hash.slice(1), 10); if (n >= 2) show(idx, n); else home(idx); }
-    window.addEventListener('hashchange', go); go();
+    var d = document.body.dataset; if (d.page === 'lesson') show(idx, parseInt(d.lesson, 10)); else home(idx);
   }).catch(function () { app.textContent = 'مش قادر أحمّل قايمة الدروس.'; });
 })();
