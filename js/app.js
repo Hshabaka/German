@@ -251,69 +251,50 @@
     return panel('chart', 'تقدمك في الجلسة', 'علّم كل خطوة تخلصها', [list, tools], '', 'span-12', 'sec-tracker');
   }
 
-  var LV = { url: null, name: '', note: '', video: null };
-  function mediaDb(cb) {
-    try {
-      var rq = indexedDB.open('german-course-media', 1);
-      rq.onupgradeneeded = function () { rq.result.createObjectStore('files'); };
-      rq.onsuccess = function () { cb(rq.result); };
-      rq.onerror = function () { cb(null); };
-    } catch (e) { cb(null); }
+  var NV = { url: null, expires: 0, video: null, wrap: null, busy: false };
+  function nowSec() { return Math.floor(Date.now() / 1000); }
+  function fetchVideoUrl(done) {
+    fetch('data/video-urls.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) { var e = d && d['session-1']; done(e && e.url && e.expires_at > nowSec() ? e : null); })
+      .catch(function () { done(null); });
   }
-  function mediaPut(key, blob, done) {
-    mediaDb(function (db) {
-      if (!db) return done(false);
-      try {
-        var tx = db.transaction('files', 'readwrite'); tx.objectStore('files').put(blob, key);
-        tx.oncomplete = function () { done(true); }; tx.onerror = tx.onabort = function () { done(false); };
-      } catch (e) { done(false); }
+  function swapVideo(e) {
+    var v = NV.video; if (!v || !e || e.url === NV.url) return;
+    var t = v.currentTime, playing = !v.paused && !v.ended;
+    NV.url = e.url; NV.expires = e.expires_at;
+    v.src = e.url;
+    v.addEventListener('loadedmetadata', function once() {
+      v.removeEventListener('loadedmetadata', once);
+      try { v.currentTime = t; } catch (x) {}
+      if (playing) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
     });
+    v.load();
   }
-  function mediaGet(key, done) {
-    mediaDb(function (db) {
-      if (!db) return done(null);
-      try { var g = db.transaction('files').objectStore('files').get(key); g.onsuccess = function () { done(g.result || null); }; g.onerror = function () { done(null); }; }
-      catch (e) { done(null); }
-    });
+  function refreshVideo() {
+    if (NV.busy) return; NV.busy = true;
+    fetchVideoUrl(function (e) { NV.busy = false; if (e) swapVideo(e); });
   }
-  function mediaDel(key, done) {
-    mediaDb(function (db) {
-      if (!db) return done();
-      try { var tx = db.transaction('files', 'readwrite'); tx.objectStore('files').delete(key); tx.oncomplete = tx.onerror = tx.onabort = function () { done(); }; } catch (e) { done(); }
-    });
-  }
-  function setLocalVideo(blob, name) {
-    if (LV.url) URL.revokeObjectURL(LV.url);
-    LV.url = URL.createObjectURL(blob); LV.name = name || ''; LV.video = null;
-  }
-  function loadLocalVideo(done) {
-    mediaGet('session-1-video', function (b) {
-      if (b && b.size) setLocalVideo(b, b.name || 'فيديو الدرس');
-      done();
-    });
-  }
-  function localVideoBlock() {
-    var kids = [el('h3', { class: 'lv-title' }, ['فيديو الدرس من ملف على جهازك (بدون إعلانات)'])];
-    if (LV.url) {
-      if (!LV.video) { LV.video = el('video', { controls: '', playsinline: '', preload: 'metadata', class: 'lv-video' }); LV.video.src = LV.url; }
-      kids.push(el('div', { class: 'video-wrap lv-wrap' }, [LV.video]));
-      kids.push(el('p', { class: 'caption' }, [LV.note || ('الملف محفوظ على الجهاز ده بس: ' + LV.name)]));
-      kids.push(el('button', { class: 'btn btn-ghost lv-del', type: 'button', onclick: function () {
-        mediaDel('session-1-video', function () { if (LV.url) URL.revokeObjectURL(LV.url); LV.url = null; LV.video = null; LV.note = ''; render(); });
-      } }, ['امسح الفيديو المحفوظ']));
+  function videoBlock() {
+    var kids = [];
+    if (NV.video) {
+      kids.push(el('div', { class: 'video-wrap lv-wrap' }, [NV.video]));
+      kids.push(el('p', { class: 'caption' }, ['فيديو الدرس بدون إعلانات.']));
     } else {
-      kids.push(el('p', { class: 'caption' }, ['نزّل ملف الفيديو من صفحة الجلسة في نوشن مرة واحدة، وبعدين اختاره هنا. بيتحفظ على الجهاز ده وبيشتغل جوه الصفحة، من غير يوتيوب وغير ما يتنشر لأي حد.']));
+      kids.push(el('p', { class: 'caption' }, ['بنجهّز فيديو الدرس من غير إعلانات…']));
     }
-    var input = el('input', { type: 'file', accept: 'video/*', class: 'lv-input', id: 'lv-input', 'aria-label': 'اختار ملف الفيديو' });
-    input.addEventListener('change', function () {
-      var f = input.files && input.files[0]; if (!f) return;
-      setLocalVideo(f, f.name);
-      LV.note = 'بيتحفظ…'; render();
-      mediaPut('session-1-video', f, function (ok) { LV.note = ok ? 'الملف محفوظ على الجهاز ده بس: ' + f.name : 'اشتغل دلوقتي بس، ما اتحفظش (المساحة أو إعدادات المتصفح). اختاره تاني في المرة الجاية.'; render(); });
-    });
-    kids.push(el('label', { class: 'btn btn-secondary lv-pick', for: 'lv-input' }, [LV.url ? 'غيّر الملف' : 'اختار ملف الفيديو']));
-    kids.push(input);
     return el('div', { class: 'lv' }, kids);
+  }
+  function startVideo() {
+    fetchVideoUrl(function (e) {
+      if (!e) return;
+      NV.url = e.url; NV.expires = e.expires_at;
+      NV.video = el('video', { controls: '', playsinline: '', preload: 'metadata', class: 'lv-video' });
+      NV.video.src = e.url;
+      NV.video.addEventListener('error', function () { refreshVideo(); });
+      if (state.session) render();
+    });
+    setInterval(function () { if (NV.video && NV.expires - nowSec() < 600) refreshVideo(); }, 30000);
   }
 
   function bidiParts(t) {
@@ -338,7 +319,7 @@
     } else if (vid.url) {
       children.push(el('p', {}, [el('a', { href: vid.url, target: '_blank', rel: 'noopener' }, ['افتح فيديو الدرس'])]));
     }
-    children.push(localVideoBlock());
+    if (NV.video) children.unshift(videoBlock());
     if (s.lesson && s.lesson.summary) children.push(el('p', {}, [s.lesson.summary]));
     if (s.lesson && s.lesson.challenge) {
       var ch = s.lesson.challenge;
@@ -713,7 +694,7 @@
   }
 
   store.loadLocal();
-  loadLocalVideo(function () { if (state.session) render(); });
+  startVideo();
   store.detectEndpoint(function () {
     store.pullRemote(function () {
       fetch(CONFIG.sessionUrl).then(function (r) { return r.json(); }).then(function (s) {
