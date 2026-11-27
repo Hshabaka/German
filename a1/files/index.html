@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ar" dir="rtl" class="locked">
+<head>
+<meta charset="utf-8">
+<script src="../../js/base.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ملفات A1</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/lessons.css">
+</head>
+<body>
+<main class="lx-wrap" style="max-width:720px;margin:0 auto;padding:16px">
+<p><a href="index.html">← الدرس 1</a> · <a href="lessons.html#2">دروس A1</a></p>
+<h1>ملفات A1 (PDF والتدريبات)</h1>
+<p>كل ملفات الدروس من 1 إلى 28 كما هي في الكورس الأصلي. الأسماء هي أسماء الملفات الأصلية.</p>
+<section style="margin:14px 0;padding:10px 14px;border:1px solid #cbd5e1;border-radius:10px"><h3 style="margin:0 0 6px">مقدمة الكورس (روابط فيديو يوتيوب، بتتفتح برا الصفحة)</h3>
+<p><a href="https://www.youtube.com/watch?v=iXOOk8C3qKI" target="_blank" rel="noopener">ابدأ من هنا: ازاي تذاكر الكورس</a></p>
+<p><a href="https://www.youtube.com/watch?v=EttOHd-Xc1E" target="_blank" rel="noopener">مقدمه الكورس</a></p></section>
+<div id="app">بيحمّل…</div>
+</main>
+<script>
+Promise.all([fetch('data/a1-pdfs.json').then(r=>r.json()),fetch('data/a1-index.json').then(r=>r.json())]).then(function(a){
+  var m=a[0],L=a[1].lessons,app=document.getElementById('app');app.textContent='';
+  L.forEach(function(l){
+    var fs=m[String(l.n)]||[];
+    var d=document.createElement('section');d.style.cssText='margin:14px 0;padding:10px 14px;border:1px solid #cbd5e1;border-radius:10px';
+    var h=document.createElement('h3');h.style.margin='0 0 6px';
+    var ha=document.createElement('a');ha.href='a1/s'+(l.n<10?'0':'')+l.n+'/';ha.textContent=l.title;h.appendChild(ha);d.appendChild(h);
+    if(!fs.length){var p=document.createElement('p');p.textContent='مفيش ملفات.';d.appendChild(p);}
+    fs.forEach(function(f){var p=document.createElement('p');p.style.margin='6px 0';var x=document.createElement('a');x.href=f.file;x.target='_blank';x.rel='noopener';x.style.cssText='display:inline-block;min-height:44px;line-height:44px';x.textContent='📄 '+f.label;p.appendChild(x);d.appendChild(p);});
+    app.appendChild(d);
+  });
+}).catch(function(){document.getElementById('app').textContent='مش قادر أحمّل القايمة.';});
+</script>
+<script src="js/gate.js"></script>
+</body>
+</html>
