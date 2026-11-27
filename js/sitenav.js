@@ -2,8 +2,9 @@
   var TOTAL = 28;
   function page() {
     var p = location.pathname;
+    if (/home\.html$/.test(p)) return { kind: 'home' };
     if (/materials\.html$/.test(p)) return { kind: 'files' };
-    if (/lessons\.html$/.test(p)) { var n = parseInt(location.hash.slice(1), 10); return n >= 2 ? { kind: 'lesson', n: n } : { kind: 'home' }; }
+    if (/lessons\.html$/.test(p)) { var n = parseInt(location.hash.slice(1), 10); return n >= 2 ? { kind: 'lesson', n: n } : { kind: 'list' }; }
     return { kind: 'lesson', n: 1 };
   }
   function href(n) { return n === 1 ? 'index.html' : 'lessons.html#' + n; }
@@ -12,18 +13,18 @@
   function draw() {
     var pg = page(); bar.textContent = '';
     var crumbs = document.createElement('div'); crumbs.className = 'sn-c';
-    if (pg.kind === 'home') { var s = document.createElement('strong'); s.textContent = 'الكورس › A1: كل الدروس'; crumbs.appendChild(s); }
-    else {
-      crumbs.appendChild(a('lessons.html', 'كل الدروس'));
-      var m = document.createElement('span'); m.textContent = ' › ' + (pg.kind === 'files' ? 'ملفات A1' : 'الدرس ' + pg.n); crumbs.appendChild(m);
-    }
+    crumbs.appendChild(a('home.html', 'الرئيسية'));
+    var sep = function (t) { var m = document.createElement('span'); m.textContent = ' › ' + t; crumbs.appendChild(m); };
+    if (pg.kind === 'home') { crumbs.lastChild.remove(); var s = document.createElement('strong'); s.textContent = 'الرئيسية'; crumbs.textContent = ''; crumbs.appendChild(s); }
+    else if (pg.kind === 'list') { sep('A1 (قايمة الدروس)'); }
+    else { sep(''); crumbs.lastChild.textContent = ' › '; crumbs.appendChild(a('lessons.html', 'A1')); sep(pg.kind === 'files' ? 'ملفات' : 'الدرس ' + pg.n); }
     bar.appendChild(crumbs);
     var acts = document.createElement('div'); acts.className = 'sn-a';
     if (pg.kind === 'lesson') {
       if (pg.n > 1) acts.appendChild(a(href(pg.n - 1), '→ السابق'));
       if (pg.n < TOTAL) acts.appendChild(a(href(pg.n + 1), 'التالي ←'));
     }
-    if (pg.kind !== 'files') acts.appendChild(a('materials.html', 'ملفات PDF'));
+    if (pg.kind === 'lesson' || pg.kind === 'list') acts.appendChild(a('materials.html', 'ملفات PDF'));
     bar.appendChild(acts);
   }
   draw(); window.addEventListener('hashchange', draw);
