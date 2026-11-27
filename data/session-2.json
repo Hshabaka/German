@@ -507,14 +507,164 @@
   }
  ],
  "extra": {
-  "label": "Optional extra practice from the official DW site (opposite adjectives)",
+  "label": "Matched supplementary video: Nicos Weg A1, Folge 24 \"Das Auto ist rot\" (Deutsche Welle). Describing things with adjectives, like Session 2.",
+  "source_title": "Nicos Weg A1 · Das Auto ist rot (DW)",
+  "video_key": "session-2-extra",
   "links": [
    {
-    "title": "Adjectives and their opposites on DW",
+    "title": "Original DW lesson page (video, official exercises)",
+    "url": "https://learngerman.dw.com/de/das-auto-ist-rot/l-40397612"
+   },
+   {
+    "title": "Official DW script and vocabulary (PDF)",
+    "url": "https://static.dw.com/downloads/52719956/nicos-weg-a1-e5-l4-manuskript-und-wortschatz-englisch.pdf"
+   },
+   {
+    "title": "Official DW exercise: opposite adjectives",
     "url": "https://learngerman.dw.com/de/adjektive-und-ihre-gegenteile-1/l-40397612/e-40399271"
    }
   ],
-  "source_title": "Nicos Weg · Adjektive und ihre Gegenteile"
+  "transcript_note": "German text = DW's official script (Deutsche Welle). Arabic lines are our own translation.",
+  "transcript": [
+   {
+    "who": "LISA",
+    "de": "Also … ich sehe was, was du nicht siehst, und das ist … groß und rot.",
+    "ar": "طيب... أنا شايفة حاجة إنت مش شايفها، وهي... كبيرة وحمرا."
+   },
+   {
+    "who": "NICO",
+    "de": "Das Auto.",
+    "ar": "العربية."
+   },
+   {
+    "who": "LISA",
+    "de": "Das Auto ist rot, aber es ist nicht groß, es ist klein.",
+    "ar": "العربية حمرا، بس مش كبيرة، دي صغيرة."
+   },
+   {
+    "who": "NICO",
+    "de": "Das Haus.",
+    "ar": "البيت."
+   },
+   {
+    "who": "LISA",
+    "de": "Ja, richtig! Du bist dran.",
+    "ar": "أيوه، صح! دورك."
+   },
+   {
+    "who": "NICO",
+    "de": "Ich sehe was, was du nicht siehst, und das ist ... groß und klein.",
+    "ar": "أنا شايف حاجة إنتي مش شايفاها، وهي... كبيرة وصغيرة."
+   },
+   {
+    "who": "LISA",
+    "de": "Ich glaube nicht …",
+    "ar": "مش مصدقة..."
+   },
+   {
+    "who": "NICO",
+    "de": "Ah! Ich sehe was, was du nicht siehst, und das ist ... groß und gelb.",
+    "ar": "آه! أنا شايف حاجة إنتي مش شايفاها، وهي... كبيرة وصفرا."
+   },
+   {
+    "who": "LISA",
+    "de": "Das Haus.",
+    "ar": "البيت."
+   },
+   {
+    "who": "NICO",
+    "de": "Ja.",
+    "ar": "أيوه."
+   },
+   {
+    "who": "LISA",
+    "de": "Das hier ist die August-Straußberg-Gasse 23. Aber wo ist der Fahrradladen?",
+    "ar": "ده شارع August-Straußberg رقم 23. بس فين محل العجل؟"
+   },
+   {
+    "who": "NICO",
+    "de": "Hier ist kein Fahrradladen.",
+    "ar": "مفيش هنا محل عجل."
+   },
+   {
+    "who": "LISA",
+    "de": "Ja, aber wir sind richtig.",
+    "ar": "أيوه، بس إحنا في المكان الصح."
+   },
+   {
+    "who": "NICO",
+    "de": "Ich sehe was, was du nicht siehst, … und das ist nicht da.",
+    "ar": "أنا شايف حاجة إنتي مش شايفاها،... وهي مش موجودة."
+   },
+   {
+    "who": "LISA",
+    "de": "Die Adresse ist falsch. Es gibt hier wirklich keinen Fahrradladen. Es tut mir leid, Nico … Komm!",
+    "ar": "العنوان غلط. فعلاً مفيش هنا محل عجل. أنا آسفة يا Nico... تعالى!"
+   }
+  ],
+  "exercises_note": "Questions below are written by us for this session. They are not DW's exercises.",
+  "exercises": [
+   {
+    "q": "Das Auto ist rot, aber es ist nicht groß, es ist ...",
+    "why": "الجملة بتقول إن العربية مش كبيرة. عكس groß هو klein.",
+    "options": [
+     "klein",
+     "teuer",
+     "falsch"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "Nico sagt: \"groß und gelb.\" Lisa antwortet: \"Das ...\"",
+    "why": "Lisa خمنت البيت: Das Haus.",
+    "options": [
+     "Auto",
+     "Haus",
+     "Gasse"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "Was bedeutet \"Hier ist kein Fahrradladen\"?",
+    "why": "kein معناها \"مفيش/مش فيه\" قدام الاسم: مفيش هنا محل عجل.",
+    "options": [
+     "فيه محل عجل هنا",
+     "مفيش هنا محل عجل",
+     "المحل بعيد"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "Stimmt das? \"Die Adresse ist richtig.\"",
+    "why": "لأ. Lisa بتقول Die Adresse ist falsch (العنوان غلط).",
+    "options": [
+     "Ja, stimmt",
+     "Nein, die Adresse ist falsch",
+     "Das sagt niemand"
+    ],
+    "answer": 1
+   },
+   {
+    "q": "Das Gegenteil von \"alt\" ist ...",
+    "why": "alt (قديم) عكسها neu (جديد). نفس فكرة Das Auto ist neu.",
+    "options": [
+     "neu",
+     "klein",
+     "gelb"
+    ],
+    "answer": 0
+   },
+   {
+    "q": "Was bedeutet \"Es tut mir leid\"?",
+    "why": "جملة اعتذار: أنا آسف/آسفة.",
+    "options": [
+     "أنا آسف",
+     "أنا جعان",
+     "أنا موافق"
+    ],
+    "answer": 0
+   }
+  ]
  },
  "lesson": {
   "summary": "الجلسة دي بتخلّي جملتك فيها «روح». هتتعلم تقول إن حاجة سهلة أو غالية أو حلوة، وتربط فكرتين بـ und و aber، وتنفي بـ nicht. اتفرج على الفيديو، وبعدين اقرا القواعد تحته، وكمّل التدريب في الصفحة.",
