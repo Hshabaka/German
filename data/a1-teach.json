@@ -336,6 +336,331 @@
   "comma before aber": [
    "https://www.scribbr.de/kommasetzung/komma-vor-aber/",
    "https://korrektur.de/komma-vor-aber"
+  ],
+  "verb at the end of a damit clause, comma before it": [
+   "https://learngerman.dw.com/en/subordinate-clauses-dass/l-38046791/gr-38317878",
+   "https://learningdeutsch.de/en/grammar/subordinate-clauses/"
+  ],
+  "separable prefix goes to the end in the imperative (Mach das Radio aus)": [
+   "https://coerll.utexas.edu/gg/gr/vimp_01.html",
+   "https://blog.rosettastone.com/how-does-the-imperative-work-in-german/"
+  ],
+  "imperative: du drops ending and pronoun (Mach), ihr keeps -t (Macht)": [
+   "https://germanfluent.com/grammar/topics/imperative/",
+   "https://www.verbformen.com/conjugation/imperativ/machen.htm"
+  ],
+  "yes/no question starts with the verb (Hast du Hunger?)": [
+   "https://deutsch1.net/glossar/ja-nein-frage/",
+   "https://ecampusontario.pressbooks.pub/discoveringgerman/chapter/8-3-ja-nein-fragen/"
+  ],
+  "modal + two infinitives at the end (muss einkaufen gehen)": [
+   "https://german.stackexchange.com/questions/52295/modalverb-im-pr%C3%A4sens-mit-zwei-verben-im-infinitiv"
+  ],
+  "dürfen (nicht dürfen = prohibition), möchten = would like, modal list": [
+   "https://coerll.utexas.edu/gg/gr/vm_01.html"
   ]
+ },
+ "6": {
+  "ex": {
+   "1": {
+    "m": "لازم أروح أتسوق.",
+    "w": "muss تاني كلمة بعد Ich، وفعلين المصدر einkaufen gehen يروحوا آخر الجملة مع بعض."
+   },
+   "2": {
+    "m": "لازم يروح الشغل.",
+    "w": "مع er بنقول muss (من غير نهاية)، والمصدرين arbeiten gehen في الآخر."
+   },
+   "3": {
+    "m": "لازم أتعلم ألماني.",
+    "w": "muss تاني كلمة، ومصدر lernen في آخر الجملة."
+   },
+   "4": {
+    "m": "التذكرة غالية، بس لازم أشتريها.",
+    "w": "بدل ما نكرر Das Ticket بنقول es (ضمير لحاجة)."
+   },
+   "5": {
+    "m": "لازم ينام.",
+    "w": "muss تاني كلمة بعد Er، والمصدرين schlafen gehen في آخر الجملة."
+   },
+   "6": {
+    "m": "لازم تشتري الكتاب.",
+    "w": "مع Sie (هي) بنقول muss. das Buch قبل المصدر kaufen اللي في الآخر."
+   },
+   "7": {
+    "w": "لازم = muss مع ich، دلوقتي = jetzt، أروح الشغل = arbeiten gehen، والمصدرين في آخر الجملة."
+   },
+   "8": {
+    "w": "بعد aber بتيجي جملة كاملة: er muss es kaufen. es بدل das Handy اللي اتذكر قبل كده."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Er muss arbeiten gehen.",
+    "m": "لازم يروح الشغل.",
+    "w": "مع er بنقول muss من غير نهاية زيادة.",
+    "o": {
+     "B": "musst مع du.",
+     "C": "müssen مع wir أو sie (هم)."
+    }
+   },
+   "2": {
+    "f": "Ich muss das Auto kaufen.",
+    "m": "لازم أشتري العربية.",
+    "w": "بعد muss الفعل التاني مصدر في الآخر.",
+    "o": {
+     "B": "kaufe بتتصرف مع ich، وبعد muss لازم المصدر."
+    }
+   },
+   "3": {
+    "f": "Ich muss schlafen gehen.",
+    "m": "لازم أروح أنام.",
+    "w": "gehen مصدر مع schlafen في آخر الجملة بعد muss.",
+    "o": {
+     "B": "gehe بتتصرف مع ich، وبعد muss لازم المصدر gehen."
+    }
+   },
+   "4": {
+    "f": "Das Handy ist teuer, aber sie muss es kaufen.",
+    "m": "الموبايل غالي، بس هي لازم تشتريه.",
+    "w": "es بدل Das Handy علشان منكررش الاسم."
+   },
+   "5": {
+    "m": "أنا مش قادر أسافر معاك.",
+    "w": "مش قادر = kann nicht. nicht قبل المصدر reisen في الآخر، ومعاك = mit dir."
+   }
+  }
+ },
+ "7": {
+  "ex": {
+   "1": {
+    "m": "عندك عطش؟ (إنت عطشان؟)",
+    "w": "السؤال اللي إجابته آه أو لأ بيبدأ بالفعل، وبعده الفاعل: Hast du ... ؟ بدل Du hast ..."
+   },
+   "2": {
+    "m": "حضرتك جعان؟",
+    "w": "مع Sie بنقول haben، وفي السؤال الفعل في الأول: Haben Sie Hunger?"
+   },
+   "3": {
+    "f": "Das Brot schmeckt lecker.",
+    "m": "العيش طعمه لذيذ.",
+    "w": "lecker = لذيذ، ومعناها اللي في القوسين (لذيذ). schmeckt مع Das Brot (هو/هي)."
+   },
+   "4": {
+    "f": "Das Essen schmeckt mir nicht.",
+    "m": "الأكل مش عاجبني.",
+    "w": "nicht معناها مش. schmeckt mir nicht = مش عاجبني."
+   },
+   "5": {
+    "f": "Ich muss etwas trinken.",
+    "m": "لازم أشرب حاجة.",
+    "w": "بعد muss الفعل التاني بيجي مصدر: trinken."
+   },
+   "6": {
+    "m": "أنا باكل عيش كل صباح.",
+    "w": "esse تاني كلمة بعد Ich، وبعدها الزمن jeden Morgen قبل الاسم Brot."
+   },
+   "7": {
+    "m": "إنت جعان؟",
+    "w": "السؤال بيبدأ بالفعل Hast وبعده du: Hast du Hunger?"
+   },
+   "8": {
+    "w": "schmeckt mir nicht = مش عاجبني. السمك = der Fisch وهو الفاعل."
+   },
+   "9": {
+    "w": "عطشان بالألماني بنقولها Durst haben (عندك عطش): Hast du Durst? والفعل في الأول لأنه سؤال."
+   },
+   "10": {
+    "w": "schmeckt gut = طعمه كويس، وund بتربط جملة تانية ich habe Hunger (habe مع ich)."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Hast du Hunger?",
+    "m": "إنت جعان؟",
+    "w": "مع du بنقول hast."
+   },
+   "2": {
+    "f": "Haben Sie Durst?",
+    "m": "حضرتك عطشان؟",
+    "w": "مع Sie (حضرتك) بنقول haben."
+   },
+   "3": {
+    "f": "Das Essen schmeckt lecker.",
+    "m": "الأكل طعمه لذيذ.",
+    "w": "Das Essen هو فاعل مفرد، فالفعل schmeckt."
+   },
+   "4": {
+    "f": "Ich muss etwas essen.",
+    "m": "لازم آكل حاجة.",
+    "w": "بعد muss لازم المصدر essen."
+   },
+   "5": {
+    "w": "عجبني = schmeckt mir، جدًا = sehr، والأكل = Das Essen. gut بعد sehr: sehr gut."
+   }
+  }
+ },
+ "8": {
+  "ex": {
+   "1": {
+    "m": "طفّي الراديو!",
+    "w": "الأمر لواحد بنقوله من غير du: Mach. aus مع الفعل المنفصل بتروح آخر الجملة: Mach das Radio aus."
+   },
+   "2": {
+    "m": "شغّلوا التابلت!",
+    "w": "الأمر لأكتر من واحد بنقوله بالنهاية t: Macht. وan بتروح الآخر: Macht das Tablet an."
+   },
+   "3": {
+    "f": "Es ist dunkel. Mach das Licht an.",
+    "m": "الدنيا ضلمة. شغّل النور.",
+    "w": "dunkel = ضلمة، فنشغل النور: an. aus معناها نطفي."
+   },
+   "4": {
+    "f": "Ich muss schlafen. Ich mache das Radio aus.",
+    "m": "لازم أنام. بطفي الراديو.",
+    "w": "عايز أنام فبطفي الراديو: aus. an للتشغيل."
+   },
+   "5": {
+    "m": "شغّل النور علشان أقدر أشوف.",
+    "w": "damit = علشان، وبعدها الفعل المتصرف kann في آخر الجملة: damit ich sehen kann. وقبل damit فاصلة."
+   },
+   "6": {
+    "m": "طفّي الراديو علشان أقدر أنام.",
+    "w": "نفس القاعدة: damit ich schlafen kann، والفعل المتصرف kann في الآخر وقبل damit فاصلة."
+   },
+   "7": {
+    "w": "مع muss، الفعل ausmachen بيرجع كلمة واحدة في الآخر: das Handy ausmachen. damit ich lernen kann: الفعل المتصرف kann في الآخر."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "الآخر",
+    "m": "علشان أقدر أشوف.",
+    "w": "في جملة damit الفعل المتصرف بيروح آخر الجملة (زي: damit ich sehen kann). في الجملة العادية والأمر ده مش بيحصل."
+   },
+   "2": {
+    "f": "Es ist dunkel. Ich mache das Licht an, damit ich sehen kann.",
+    "m": "الدنيا ضلمة. بشغّل النور علشان أقدر أشوف.",
+    "w": "عايز أشوف في الضلمة فبشغّل النور: an."
+   },
+   "3": {
+    "m": "شغّل النور علشان أقدر أشوف. / طفّوا الراديو علشان أقدر أنام.",
+    "w": "لازم فاصلة قبل damit، والفعل المتصرف في آخر جملة damit: damit ich sehen kann. وفي الجملة التانية ناقص kann: damit ich schlafen kann."
+   },
+   "4": {
+    "w": "damit = علشان، lesen = أقرأ، والفعل المتصرف kann في الآخر: damit ich lesen kann."
+   }
+  }
+ },
+ "9": {
+  "ex": {
+   "1": {
+    "m": "أنا عايز أطبخ الأكل.",
+    "w": "wollen = عايز. مع ich بنقول will (من غير نهاية)، والمصدر kochen في الآخر."
+   },
+   "2": {
+    "m": "أنا حابب أشرب قهوة.",
+    "w": "möchten = حابب أو عايز بأدب. مع ich بنقول möchte، والمصدر trinken في الآخر."
+   },
+   "3": {
+    "m": "المفروض ينام.",
+    "w": "sollen = المفروض. مع er بنقول soll من غير نهاية، والمصدرين schlafen gehen في الآخر."
+   },
+   "4": {
+    "f": "Du darfst hier nicht rauchen.",
+    "m": "ممنوع تدخن هنا.",
+    "w": "dürfen هو فعل مساعد، ومع du بيبقى darfst. nicht قبل المصدر rauchen في الآخر."
+   },
+   "5": {
+    "f": "Wir möchten viel Wasser trinken.",
+    "m": "احنا حابين نشرب مية كتير.",
+    "w": "مع wir الفعل المساعد بياخد النهاية en زي المصدر: möchten. möchte مع ich/er، وmöchtest مع du."
+   },
+   "6": {
+    "m": "هو المفروض ياخد الدواء.",
+    "w": "المفروض = soll مع er. das Medikament = الدواء، والمصدر nehmen في الآخر."
+   },
+   "7": {
+    "m": "هم مش عايزين يفضلوا في السرير.",
+    "w": "عايزين = wollen، ومع sie (هم) بنقول wollen. nicht قبل im Bett، والمصدر bleiben في الآخر."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Ich darf nicht schlafen.",
+    "m": "ممنوع أنام (مش مسموح لي أنام).",
+    "w": "مع ich الفعل المساعد dürfen بيبقى darf من غير نهاية."
+   },
+   "2": {
+    "f": "Sie möchten viel Wasser trinken.",
+    "m": "هم حابين يشربوا مية كتير.",
+    "w": "الفاعل Sie هنا جمع (هم أو حضرتك)، فالفعل möchten."
+   },
+   "3": {
+    "m": "أنا حابب أشرب قهوة.",
+    "w": "möchte تاني كلمة بعد ich، والمصدر trinken في الآخر، وKaffee قبله."
+   },
+   "4": {
+    "m": "هو عايز يطبخ الأكل. / ممنوع أنام.",
+    "w": "بعد will لازم المصدر kochen مش kocht. ومع ich بنقول darf (darfst مع du)."
+   },
+   "5": {
+    "w": "ممنوع = darf nicht، المفروض = soll. كل فعل مساعد في تاني مكان في جملته، والمصدرين rauchen وtrinken في آخر كل جملة، وund بتربطهم."
+   }
+  }
+ },
+ "10": {
+  "ex": {
+   "4": {
+    "f": "Ich bin 20 Jahre alt.",
+    "m": "أنا عندي ٢٠ سنة.",
+    "w": "السن بنقوله بفعل الكينونة: Ich bin ... Jahre alt (مش haben). heiße للاسم بس."
+   },
+   "5": {
+    "f": "Ich wohne in Kairo.",
+    "m": "أنا ساكن في القاهرة.",
+    "w": "wohnen = ساكن، و in قبل المدينة. komme معناها جاي من."
+   },
+   "6": {
+    "f": "Ich komme aus Ägypten.",
+    "m": "أنا من مصر.",
+    "w": "komme aus = جاي من، وبعدها البلد. wohne معناها ساكن."
+   },
+   "7": {
+    "m": "هي جاية من سوريا.",
+    "w": "مع sie (هي) بنقول kommt: نشيل en ونزود t."
+   },
+   "8": {
+    "m": "هي مدرسة.",
+    "w": "مع sie (هي) فعل الكينونة بيبقى ist."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Ich bin 20 Jahre alt.",
+    "m": "أنا عندي ٢٠ سنة.",
+    "w": "السن بنقوله بفعل الكينونة bin مع alt.",
+    "o": {
+     "A": "habe معناها عندي، لكن السن مش بنقوله بيها.",
+     "C": "heiße للاسم مش للسن."
+    }
+   },
+   "2": {
+    "f": "Ich komme aus Ägypten.",
+    "m": "أنا من مصر.",
+    "w": "بنقول aus قبل البلد اللي جاي منها. in بتبقى للمكان اللي إنت فيه."
+   },
+   "3": {
+    "f": "Sie wohnt in Kairo.",
+    "m": "هي ساكنة في القاهرة.",
+    "w": "مع sie (هي) الفعل بياخد t: wohnt."
+   },
+   "4": {
+    "m": "أنا من مصر.",
+    "w": "جاي من = komme aus مش in."
+   },
+   "5": {
+    "w": "هي = sie، مدرسة = Lehrerin، ist مع sie، وبتتكلم = spricht (e بتتحول i مع sie)."
+   }
+  }
  }
 }
