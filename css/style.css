@@ -391,9 +391,11 @@ html.locked body > *:not(#gate) { display: none !important; }
 .wcols { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
 @media (min-width: 560px) { .wcols { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .wcol { grid-template-columns: minmax(0, 1fr) !important; align-content: start; }
-.wcol .word { flex-wrap: wrap; gap: 4px 8px; }
-.wcol .word-de { flex: 1 1 90px; min-width: 0; }
-.wcol .word-ar { flex: 1 1 100%; padding-inline-start: 46px; }
+@media (min-width: 560px) {
+  .wcol .word { flex-wrap: wrap; gap: 4px 8px; }
+  .wcol .word-de { flex: 1 1 90px; min-width: 0; }
+  .wcol .word-ar { flex: 1 1 100%; padding-inline-start: 46px; }
+}
 .wrest { grid-template-columns: minmax(0, 1fr) !important; }
 @media (min-width: 560px) { .wrest { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; } }
 .art-legend { justify-content: flex-start; }
