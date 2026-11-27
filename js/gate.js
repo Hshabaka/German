@@ -1,6 +1,7 @@
 /* Cosmetic screen lock: hides the course from onlookers on a shared screen.
    It is not file protection. The hash is public by design. */
 (function () {
+  var BASE = (document.currentScript && document.currentScript.src) ? document.currentScript.src.replace(/js\/gate\.js[^\/]*$/, '') : '';
   var root = document.documentElement;
   var KEY = 'german-unlocked';
   function hex(buf) { return Array.prototype.map.call(new Uint8Array(buf), function (b) { return ('0' + b.toString(16)).slice(-2); }).join(''); }
@@ -41,7 +42,7 @@
   function start() {
     var unlocked = false; try { unlocked = sessionStorage.getItem(KEY) === '1'; } catch (e) {}
     if (unlocked) { root.classList.remove('locked'); addLockButton(); } else showGate();
-    fetch('data/gate.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { gateData = d; }).catch(function () {});
+    fetch(BASE + 'data/gate.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { gateData = d; }).catch(function () {});
   }
   if (document.body) start(); else document.addEventListener('DOMContentLoaded', start);
 })();
