@@ -39,3 +39,12 @@ html,body{overflow-x:hidden}
 .pr-self { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
 .pr-card { display: block; width: 100%; min-height: 120px; font-size: 26px; padding: 16px; border: 2px solid #0f172a; border-radius: 14px; background: #f8fafc; cursor: pointer; margin: 6px 0 10px; }
 .pr-reset { margin-top: 12px; min-height: 44px; }
+.pr-tag { display: inline-block; font-size: 12px; font-weight: 400; color: #475569; background: #e2e8f0; border-radius: 6px; padding: 1px 8px; margin-inline-start: 6px; }
+.pr-full { margin: 6px 0 0; font-size: 19px; font-weight: 600; color: #0f172a; }
+.pr-mean { margin: 2px 0 6px; font-size: 13px; font-weight: 400; color: #64748b; }
+.pr-why { margin: 4px 0; font-size: 13px; color: #92400e; background: #fffbeb; border-radius: 6px; padding: 4px 8px; }
+.pr-say { margin: 2px 0; font-size: 15px; color: #7f1d1d; }
+.pr-extra { margin: 0 0 6px; font-size: 15px; color: #334155; white-space: pre-wrap; }
+.pr-opt { display: flex; gap: 8px; align-items: center; min-height: 44px; font-size: 17px; }
+.pr-opt input { width: 22px; height: 22px; }
+.pr-ordtxt { flex: 1 1 200px; font-size: 17px; align-self: center; }
