@@ -413,3 +413,8 @@ html.locked body > *:not(#gate) { display: none !important; }
 .sw-miss { background: #fee2e2; color: #7f1d1d; }
 .speech-sum { font-weight: 700; }
 .speech-ar { font-size: 13px; color: var(--ink-2); }
+.ar-text { font-size: 16px; line-height: 1.75; }
+.word-ar, .sentence-ar, .rule-ar { font-size: 16px; }
+.flashcard-ar { font-size: 26px; }
+.rule { direction: ltr; text-align: left; }
+.rule h3 { text-align: left; }
