@@ -788,7 +788,7 @@
       var open = !!state.shown[i];
       return el('div', { class: 'quiz-q ctl tr' }, [
         el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [String(i + 1)]), el('span', { class: 'ar-text' }, [it.ar])]),
-        open ? el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [el('span', {}, [it.de]), audioButton('audio/tr' + (i + 1) + '.mp3', 'Listen: ' + it.de)]) : null,
+        open ? el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [el('span', {}, [it.de]), audioButton(it.audio || ('audio/tr' + (i + 1) + '.mp3'), 'Listen: ' + it.de)]) : null,
         speechBlock(it, i),
         el('div', { class: 'bq-act' }, [micBtn(it, i), el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', 'aria-label': open ? 'Hide answer' : 'Show answer', 'aria-expanded': String(open), title: open ? 'Hide answer' : 'Show answer', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [icon(open ? 'up' : 'down', 20)])])
       ]);
