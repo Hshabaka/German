@@ -388,12 +388,6 @@
   "seit + dative / duration (example 'seit einem Monat')": [
    "https://learngerman.dw.com/en/prepositions-of-time-vor-seit/l-38051792/gr-38312901"
   ],
-  "der/den/dem endings table (page read at heading level only)": [
-   "https://sites.lsa.umich.edu/german-resources/grammatik/basic-chart/"
-  ],
-  "separable verb + modal infinitive at end (page seen at heading level only, WEAK)": [
-   "https://coerll.utexas.edu/gg/gr/v_04.html"
-  ],
   "dative plural den Kindern (Duden declension table, excerpt-level)": [
    "https://www.duden.de/deklination/substantive/Kind"
   ],
@@ -404,9 +398,6 @@
   "um + clock time, am + weekday, im + month/season": [
    "https://learningdeutsch.de/grammatik/zeitangaben/"
   ],
-  "two-way prepositions: accusative for movement, dative for no movement": [
-   "https://www.coerll.utexas.edu/gg/pr/cas_09.html"
-  ],
   "werden + infinitive; present + time word for plans": [
    "https://hallootti.com/en/grammar/future-and-werden"
   ],
@@ -414,6 +405,22 @@
    "https://deutsch.lingolia.com/en/grammar/tenses/present-perfect",
    "https://boisestate.pressbooks.pub/grammardeutschimblickgerm101/chapter/das-perfekt-verben-mit-prafixen-the-conversational-past-tense-verbs-with-prefixes/",
    "https://www.coerll.utexas.edu/gg/gr/vcp_07.html"
+  ],
+  "two-way prepositions (coerll, read): accusative when they describe movement from one place to another; dative when there is no movement or the movement stays within one place": [
+   "https://www.coerll.utexas.edu/gg/pr/cas_09.html"
+  ],
+  "fragen takes the person in accusative (positive source: 'Bei jemanden fragen steht die Person im Akkusativ. Ich frage den Arzt.')": [
+   "https://www.anleitung-deutsch-lernen.de/dativ-oder-akkusativ-trainer/"
+  ],
+  "separable verb + modal: modal in position 2, separable verb as one infinitive at the end (Ich muss morgen früh aufstehen)": [
+   "https://learningdeutsch.de/en/grammar/separable-verbs/",
+   "https://www.gymglish.com/en/wunderbla/german-grammar/separable-verbs-used-with-modal-verbs"
+  ],
+  "Perfekt with sein: verbs of motion (gehen, fahren, kommen), change of state (aufstehen), sein and bleiben": [
+   "https://www.deutschstep.com/en/learn/A2/past-tense/perfekt-mit-sein"
+  ],
+  "der/das/die and ein-word endings incl. dative table (mit, bei, seit + Dativ; den + n in dative plural; der/einer feminine dative)": [
+   "https://sites.lsa.umich.edu/german-resources/grammatik/basic-chart/"
   ]
  },
  "6": {
@@ -1741,42 +1748,42 @@
    "1": {
     "f": "Wohin",
     "m": "لفين؟ (اتجاه)",
-    "w": "الجملة فيها حركة لمكان (gehe auf den Markt)، فالسؤال Wohin."
+    "w": "الجملة بتوصف حركة من مكان لمكان تاني (الوجهة: السوق)، فالسؤال Wohin."
    },
    "2": {
     "f": "Wo",
     "m": "فين؟ (مكان)",
-    "w": "Ich bin im Zimmer مجرد وجود في مكان من غير حركة لمكان تاني، فالسؤال Wo."
+    "w": "Ich bin im Zimmer بتوصف مكان وجودك من غير انتقال لمكان تاني، فالسؤال Wo."
    },
    "3": {
     "f": "Ich gehe auf den Markt.",
     "m": "أنا رايح السوق.",
-    "w": "حرف الجر auf ممكن ياخد Akkusativ أو Dativ. مع حركة لمكان (Wohin) بيبقى Akkusativ فـ den."
+    "w": "auf ممكن ياخد Akkusativ أو Dativ. لما الجملة بتوصف حركة من مكان لمكان تاني (الوجهة)، بتاخد Akkusativ فـ den."
    },
    "4": {
     "f": "Ich bin auf dem Markt.",
     "m": "أنا في السوق.",
-    "w": "وجود في مكان (Wo) بيبقى Dativ فـ dem."
+    "w": "لما مفيش حركة لمكان تاني (مجرد مكان وجود) بتاخد Dativ فـ dem. (القاعدة مش كلمة حركة لوحدها: الحركة الباقية جوه نفس المكان كمان Dativ.)"
    },
    "5": {
     "f": "Ich lege das Buch auf den Tisch.",
     "m": "أنا بحط الكتاب على الترابيزة.",
-    "w": "legen فيها حركة (بحط الكتاب في مكان) فبتاخد Akkusativ: den Tisch."
+    "w": "legen بتنقل الكتاب لمكان جديد (الوجهة: على الترابيزة) فبتاخد Akkusativ: den Tisch."
    },
    "6": {
     "f": "Das Handy liegt auf dem Tisch.",
     "m": "الموبايل على الترابيزة.",
-    "w": "liegen بتوصف مكان ثابت فبتاخد Dativ: dem Tisch."
+    "w": "liegen بتوصف مكان وجود الموبايل من غير انتقال فبتاخد Dativ: dem Tisch."
    },
    "7": {
     "f": "Ich gehe in den Supermarkt.",
     "m": "أنا رايح السوبر ماركت.",
-    "w": "gehen = حركة لمكان فـ in + Akkusativ: den Supermarkt (المذكّر)."
+    "w": "الجملة بتوصف حركة لمكان تاني (الوجهة: السوبر ماركت) فـ in + Akkusativ: den Supermarkt (المذكّر)."
    },
    "8": {
     "f": "Ich bin im Zimmer.",
     "m": "أنا في الأوضة.",
-    "w": "im = in + dem (Dativ) لأن ده مكان ثابت."
+    "w": "im = in + dem (Dativ) لأن ده مكان وجود من غير انتقال لمكان تاني."
    },
    "9": {
     "f": "Ich warte auf dich.",
@@ -1786,40 +1793,40 @@
    "10": {
     "f": "Ich sitze am Tisch.",
     "m": "أنا قاعد عند الترابيزة.",
-    "w": "sitzen مكان ثابت فـ Dativ: an dem = am."
+    "w": "sitzen بتوصف مكان وجود ثابت فـ Dativ: an dem = am."
    }
   },
   "quiz": {
    "1": {
     "f": "Ich bin auf dem Markt.",
     "m": "أنا في السوق.",
-    "w": "وجود في مكان (Wo) = Dativ.",
+    "w": "مكان وجود من غير انتقال (Wo) = Dativ.",
     "o": {
-     "auf den Markt": "auf den = Akkusativ للحركة لمكان."
+     "auf den Markt": "auf den = Akkusativ، بيتقال لما فيه وجهة جديدة (رايح السوق)."
     }
    },
    "2": {
     "f": "Ich gehe in den Supermarkt.",
     "m": "أنا رايح السوبر ماركت.",
-    "w": "حركة لمكان (Wohin) = Akkusativ.",
+    "w": "انتقال لوجهة جديدة (Wohin) = Akkusativ.",
     "o": {
-     "in dem Supermarkt": "Dativ للمكان الثابت."
+     "in dem Supermarkt": "Dativ لمكان الوجود من غير انتقال."
     }
    },
    "3": {
     "f": "Ich lege das Buch auf den Tisch.",
     "m": "بحط الكتاب على الترابيزة.",
-    "w": "legen فيها حركة فـ Akkusativ.",
+    "w": "legen بتنقل الكتاب لوجهة جديدة فـ Akkusativ.",
     "o": {
-     "auf dem Tisch": "Dativ لمكان ثابت."
+     "auf dem Tisch": "Dativ لمكان وجود ثابت، وهنا فيه وجهة جديدة."
     }
    },
    "4": {
     "f": "Das Handy liegt auf dem Tisch.",
     "m": "الموبايل على الترابيزة.",
-    "w": "liegen مكان ثابت فـ Dativ.",
+    "w": "liegen = مكان وجود ثابت فـ Dativ.",
     "o": {
-     "auf den Tisch": "Akkusativ للحركة."
+     "auf den Tisch": "Akkusativ لوجهة جديدة، وهنا الموبايل موجود وثابت."
     }
    },
    "5": {
