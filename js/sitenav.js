@@ -13,6 +13,9 @@
     file: '<path d="M7 3h7l5 5v13H7zM14 3v5h5"/>',
     lock: '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/>',
     refresh: '<path d="M20 11a8 8 0 10-2.3 5.7M20 4v7h-7"/>',
+    next: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+    prev: '<path d="M19 12H5M11 6l-6 6 6 6"/>',
+    reset: '<path d="M4 4v6h6M4.5 15a8 8 0 100-6"/>',
     globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>'
   };
   function icon(n) { var s = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); s.setAttribute('viewBox', '0 0 24 24'); s.setAttribute('width', '22'); s.setAttribute('height', '22'); s.setAttribute('fill', 'none'); s.setAttribute('stroke', 'currentColor'); s.setAttribute('stroke-width', '2'); s.setAttribute('stroke-linecap', 'round'); s.setAttribute('stroke-linejoin', 'round'); s.setAttribute('aria-hidden', 'true'); s.innerHTML = I[n]; return s; }
@@ -49,8 +52,30 @@
     menuBtn = ibtn('menu', t.menu, function (e) { e.stopPropagation(); if (Date.now() - hoverAt < 800) return; toggle(); }); menuBtn.setAttribute('aria-haspopup', 'true'); menuBtn.setAttribute('aria-expanded', 'false'); menuBtn.className += ' hb-m';
     hdr.appendChild(menuBtn);
     var ti = el('div', 'ht', title()); ti.setAttribute('aria-current', 'page'); hdr.appendChild(ti);
+    if (PG.kind === 'lesson') {
+      var rtl = L === 'ar';
+      function il(h, ic, label) { var e = el('a', 'hb hb-s'); e.href = h; e.setAttribute('aria-label', label); e.title = label; e.appendChild(icon(ic)); return e; }
+      var grp = el('div', 'hg');
+      if (PG.n > 1) grp.appendChild(il(href(PG.n - 1), rtl ? 'next' : 'prev', t.prev));
+      if (PG.n < TOTAL) grp.appendChild(il(href(PG.n + 1), rtl ? 'prev' : 'next', t.next));
+      grp.appendChild(il('a1/files/', 'file', t.files));
+      if (PG.n === 28) grp.appendChild(il('a1/s28/exam/', 'list', t.exam));
+      if (PG.n === 1) { var rb = ibtn('reset', RS[L].t, askReset); rb.className += ' hb-s'; grp.appendChild(rb); }
+      hdr.appendChild(grp);
+    }
     updB = ibtn('refresh', t.upd, proxy('upd-btn')); lockB = ibtn('lock', t.lock, proxy('lock-btn')); hdr.appendChild(updB); hdr.appendChild(lockB);
     syncGate();
+  }
+  var RS = { en: { t: 'Reset answers', q: 'Reset all answers in this session? Your checklist progress stays.', y: 'Reset', n: 'Cancel' }, ar: { t: 'مسح الإجابات', q: 'تمسح كل إجابات الجلسة دي؟ تقدّم القايمة هيفضل زي ما هو.', y: 'امسح', n: 'إلغاء' } };
+  function askReset() {
+    var old = document.getElementById('sn-rs'); if (old) old.remove();
+    var r = RS[L], w = el('div', 'rs'); w.id = 'sn-rs'; w.setAttribute('dir', dir()); w.setAttribute('role', 'dialog');
+    var box = el('div', 'rsb'); box.appendChild(el('p', '', r.q));
+    var row = el('div', 'rsr'), y = el('button', 'sbn rs-y', r.y), n = el('button', 'sbn', r.n); y.type = n.type = 'button';
+    n.addEventListener('click', function () { w.remove(); });
+    y.addEventListener('click', function () { w.remove(); if (window.__resetAnswers) window.__resetAnswers(); });
+    w.addEventListener('click', function (e) { if (e.target === w) w.remove(); });
+    row.appendChild(y); row.appendChild(n); box.appendChild(row); w.appendChild(box); document.body.appendChild(w);
   }
   function syncGate() { var on = !!document.getElementById('lock-btn'); if (updB) updB.style.display = on ? '' : 'none'; if (lockB) lockB.style.display = on ? '' : 'none'; }
   function drawPanel() {
@@ -88,13 +113,8 @@
   function drawActions() {
     var t = T[L], k = PG.kind, rtl = L === 'ar'; sub.textContent = ''; sub.setAttribute('dir', dir());
     var any = false; function add(x) { sub.appendChild(x); any = true; }
-    if (k === 'lesson') {
-      if (PG.n > 1) add(a(href(PG.n - 1), (rtl ? '→ ' : '← ') + t.prev));
-      if (PG.n < TOTAL) add(a(href(PG.n + 1), t.next + (rtl ? ' ←' : ' →')));
-      if (PG.n === 28) add(a('a1/s28/exam/', t.exam));
-    }
     if (k === 'list') add(a('a1/playlist/', t.playlist, 'sn-g'));
-    if (k === 'lesson' || k === 'list') add(a('a1/files/', t.files));
+    if (k === 'list') add(a('a1/files/', t.files));
     sub.style.display = any ? '' : 'none';
   }
   function applyHub() {
@@ -132,6 +152,9 @@
     + 'html.sn-dark .tile{background:#222f3d;color:#ece7e1;border-color:#3a4a5c}html.sn-dark .tile:disabled,html.sn-dark .tile.used{background:#2b3541;color:#6b7683}'
     + '.ms{margin-top:4px;padding-top:4px;gap:0}.sr{min-height:30px;gap:4px;padding:0 4px}.sl{font-size:12px}.sbn{min-width:34px;height:28px;padding:0 9px;font-size:12px;border-radius:7px}.sv{font-size:12px;min-width:34px}'
     + 'html.sn-dark button:disabled,html.sn-dark .btn:disabled{color:#9aa5b1;opacity:1;border-color:#3a4a5c}html.sn-dark .tile.used,html.sn-dark .tile:disabled{color:#7f8b98}'
+    + '.hg{display:flex;align-items:center;gap:0;margin-inline-start:auto}.hb-s{min-width:34px;height:34px;padding:0 4px;border-radius:10px;color:inherit;text-decoration:none}.hb-s svg{width:19px;height:19px}.ht{flex:0 1 auto}'
+    + '.rs{position:fixed;inset:0;z-index:2147483000;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;padding:20px}.rsb{background:#fff;color:#0f172a;border-radius:16px;padding:18px;max-width:320px;width:100%;box-shadow:0 20px 50px rgba(0,0,0,.4)}.rsb p{margin:0 0 14px;font-size:15px;line-height:1.6}.rsr{display:flex;gap:8px;justify-content:flex-end}.rsr .sbn{height:38px;font-size:14px;padding:0 16px}.rs-y{background:#b91c1c;color:#fff;border-color:#b91c1c}html.sn-dark .rsb{background:#1a2430;color:#ece7e1}'
+    + '.build-q{display:grid;grid-template-columns:auto 1fr auto;gap:6px 8px;align-items:center;padding:10px 0}.build-q .quiz-prompt{margin:0}.build-q .answer-row{min-height:40px;padding:5px 6px;margin:0;gap:6px;border-radius:10px}.build-q .tile{min-height:34px;padding:4px 10px;font-size:14px;border-radius:9px}.build-q .tile-bank{grid-column:1/-1;gap:6px;margin:0}.build-q .bq-act{display:flex;gap:4px;align-items:center}.build-q .bq-act .btn{margin:0;min-height:34px;padding:2px 10px;font-size:13px}.build-q .feedback{grid-column:1/-1;margin:2px 0 0;padding:8px 10px;font-size:13px}'
     + 'html.sn-dark .sn a{background:#223040;color:#ece7e1;border:1px solid #3a4a5c}html.sn-dark .sn a.sn-g{background:#0f766e;color:#fff}'
     + '@media(min-width:900px){.navbar{top:auto!important;bottom:12px!important}body.has-sn #app{padding-bottom:104px}}@media(max-width:899px){body.has-sn #app{padding-bottom:96px}}';
   document.head.appendChild(st);
