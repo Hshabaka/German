@@ -1,5 +1,7 @@
 (function () {
   function pad2(v) { v = parseInt(v, 10); return 's' + (v < 10 ? '0' : '') + v; }
+  var EN_T = ["Breaking the ice (\"I can\")", "Giving the sentence life", "Review and locking in the building blocks", "Starting with the other pronouns", "Obligation and need", "Travel and being able to buy things", "How to give your opinion about food", "The imperative and giving reasons", "The full family of modal verbs", "The capstone: introducing yourself", "The world of nouns and articles", "Numbers and age", "My family and my things", "Comparing adjectives (bigger than / better than)", "Cancelling a formal appointment", "At the doctor and describing pain", "Master class (part 1)", "Master class (part 2)", "Master class (part 3: the finale)", "All about questions (how to ask in German)", "The weather", "When? (time prepositions)", "Where and where to? (place prepositions)", "How to talk about the future", "What happened? (the perfect tense, Perfekt)", "The quick storytelling past", "Writing an email", "The form and the conversation"];
+  function enT(n) { return 'Session ' + n + ': ' + (EN_T[n - 1] || ''); }
   function code(v) { return 'A1-' + pad2(v).toUpperCase(); }
   'use strict';
   var app = document.getElementById('app');
@@ -78,7 +80,7 @@
     app.textContent = '';
     var L = idx.lessons;
     var sel = el('select', { 'aria-label': 'Choose a lesson', onchange: function () { location.href = 'a1/' + pad2(this.value) + '/'; } }, []);
-    L.forEach(function (x) { var o = el('option', { value: String(x.n) }, [x.title.replace(/^الدرس\s*(\d+)\s*[:：]\s*/, 'الدرس $1: ') + (window.A1Practice && window.A1Practice.done(x.n) ? ' ✓' : '')]); if (x.n === n) o.selected = true; sel.appendChild(o); });
+    L.forEach(function (x) { var o = el('option', { value: String(x.n) }, [enT(x.n) + (window.A1Practice && window.A1Practice.done(x.n) ? ' ✓' : '')]); if (x.n === n) o.selected = true; sel.appendChild(o); });
     var wrapEl = el('div', { class: 'lx' }, [el('div', { class: 'lx-top' }, [sel])]);
     app.appendChild(wrapEl);
     var item = L.filter(function (x) { return x.n === n; })[0];
@@ -87,16 +89,16 @@
     wrapEl.appendChild(body);
     fetch('data/a1/lesson-' + n + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
       body.textContent = '';
-      body.appendChild(el('h1', {}, [code(n) + ' · ' + d.title.replace(/^الدرس\s*(\d+)\s*[:：]\s*/, 'الدرس $1: ')]));
+      body.appendChild(el('h1', {}, [code(n) + ' · ' + enT(n)]));
       var blocks = d.blocks.slice();
       var orig = null;
       if (blocks.length && blocks[0].type === 'callout' && plain(blocks[0].text).indexOf('مسودة مبدئية') === 0) { orig = blocks.shift(); }
       var cov = el('div', { class: 'callout' }, [el('span', {}, ['ℹ️']), el('div', {}, [])]);
       var ct = cov.lastChild;
-      ct.appendChild(el('p', {}, [el('strong', {}, ['عرض قراءة للدرس مع الصوت.']), ' تحت فيه تمارين واختبار للدرس: تصحيح تلقائي لما فيه إجابة في الملف، وتقييم ذاتي في الباقي، وشرح تعليمي مضاف مش من ملف المدرس. نتايجك بتتحفظ على المتصفح ده بس ومش بتتزامن مع أجهزة تانية. لسه مش بنفس تجربة الدرس 1 التفاعلية الكاملة.']));
-      ct.appendChild(el('p', {}, ['المحتوى مكتوب من ملفات الدرس ومن الترجمة التلقائية للفيديو، ولسه ما اتراجعش مع المدرس. الفيديو الأصلي برابط يوتيوب (مش فيديو Notion داخل الصفحة). ملفات الـ PDF بتاعة الدرس تحت.']));
+      ct.appendChild(el('p', {}, [el('strong', {}, ['Reading view of the lesson with audio.']), ' Below are lesson exercises and a test: automatic checking where the file has an answer, self-assessment for the rest, and added teaching explanations that are not from the teacher\'s file. Your results are saved on this browser only and do not sync to other devices. This lesson is not yet as fully interactive as Session 1.']));
+      ct.appendChild(el('p', {}, ['The content is written from the lesson files and the automatic video transcript, and has not yet been reviewed with the teacher. The original video is a YouTube link (not an embedded Notion video). The lesson PDF files are below.']));
       if (orig) {
-        var det = el('details', {}, [el('summary', {}, ['ملاحظة المصدر الأصلية من Notion'])]);
+        var det = el('details', {}, [el('summary', {}, ['Original source note from Notion'])]);
         det.appendChild(runs(orig.text));
         ct.appendChild(det);
       }
@@ -134,7 +136,7 @@
     var w = el('div', { class: 'lx' }, [el('h1', { style: 'font-size:22px;margin:0 0 6px' }, ['Choose your lesson (A1)']), el('p', { style: 'margin:0 0 12px' }, ['Lessons are in order from 1 to 28. Start with lesson 1.'])]);
     idx.lessons.forEach(function (x) {
       var done = window.A1Practice && window.A1Practice.done(x.n);
-      w.appendChild(el('a', { href: 'a1/' + pad2(x.n) + '/', style: 'display:flex;align-items:center;gap:10px;min-height:52px;padding:10px 14px;margin:8px 0;border:1px solid #cbd5e1;border-radius:12px;color:inherit;text-decoration:none' }, [el('span', { style: 'font-weight:700;min-width:78px;direction:ltr' }, [code(x.n)]), el('span', { style: 'flex:1' }, [x.title.replace(/^الدرس\s*\d+\s*[:：]\s*/, '')]), el('span', {}, [done ? '✓' : '←'])]));
+      w.appendChild(el('a', { href: 'a1/' + pad2(x.n) + '/', style: 'display:flex;align-items:center;gap:10px;min-height:52px;padding:10px 14px;margin:8px 0;border:1px solid #cbd5e1;border-radius:12px;color:inherit;text-decoration:none' }, [el('span', { style: 'font-weight:700;min-width:78px;direction:ltr' }, [code(x.n)]), el('span', { style: 'flex:1' }, [(EN_T[x.n - 1] || '')]), el('span', {}, [done ? '✓' : '←'])]));
     });
     app.appendChild(w);
   }
