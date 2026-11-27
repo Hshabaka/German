@@ -18,3 +18,24 @@ html,body{overflow-x:hidden}
 .lx .miss{color:var(--ink-3,#8a8178);font-size:.9em}
 .lx code{background:var(--sand-1,#f6f0e9);padding:0 .3em;border-radius:6px}
 .lx-nav{display:flex;justify-content:space-between;gap:8px;margin-top:24px}
+
+.pr-wrap { margin: 28px 0; padding: 14px 16px; border: 2px solid #0f172a; border-radius: 14px; background: #fff; }
+.pr-wrap h2 { margin: 0 0 6px; font-size: 20px; }
+.pr-wrap h3 { margin: 18px 0 8px; font-size: 17px; }
+.pr-note { color: #475569; font-size: 14px; margin: 4px 0 10px; }
+.pr-score { font-size: 14px; color: #334155; margin: 0 0 10px; }
+.pr-item { padding: 10px 0; border-top: 1px solid #e2e8f0; border-inline-start: 4px solid transparent; padding-inline-start: 10px; }
+.pr-item.ok { border-inline-start-color: #16a34a; }
+.pr-item.bad { border-inline-start-color: #dc2626; }
+.pr-ctx { margin: 0 0 4px; color: #475569; font-size: 14px; }
+.pr-q { margin: 0 0 8px; font-size: 18px; white-space: pre-wrap; }
+.pr-line { display: flex; gap: 8px; flex-wrap: wrap; }
+.pr-in { flex: 1 1 200px; min-height: 48px; font-size: 18px; padding: 8px 12px; border: 2px solid #94a3b8; border-radius: 10px; }
+.pr-chk, .pr-self .lx-btn, .pr-line .lx-btn { min-height: 48px; }
+.pr-fb { margin-top: 6px; }
+.pr-good { color: #15803d; font-weight: 700; margin: 4px 0; }
+.pr-wrong { color: #b91c1c; margin: 4px 0; }
+.pr-model { margin: 2px 0; font-size: 17px; white-space: pre-wrap; background: #f1f5f9; padding: 6px 10px; border-radius: 8px; }
+.pr-self { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+.pr-card { display: block; width: 100%; min-height: 120px; font-size: 26px; padding: 16px; border: 2px solid #0f172a; border-radius: 14px; background: #f8fafc; cursor: pointer; margin: 6px 0 10px; }
+.pr-reset { margin-top: 12px; min-height: 44px; }
