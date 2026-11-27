@@ -865,7 +865,7 @@
           el('div', {}, [el('b', {}, [t.who + ': ']), t.de]),
           el('div', { dir: 'rtl', style: 'opacity:.8;font-size:.95em' }, [t.ar])]);
       });
-      kids.push(el('details', { style: 'margin:8px 0 12px' }, [el('summary', { style: 'cursor:pointer;font-weight:600;padding:6px 0' }, ['Transcript (German + Arabic)']), el('p', { class: 'caption' }, [x.transcript_note || '']) ].concat(rows)));
+      kids.push(el('details', { style: 'margin:8px 0 12px' }, [el('summary', { style: 'cursor:pointer;font-weight:600;padding:6px 0' }, ['Short excerpt (German + Arabic)']), el('p', { class: 'caption' }, [x.transcript_note || '']) ].concat(rows)));
     }
     if (x.exercises && x.exercises.length) {
       var box = el('div', {}, []);
@@ -886,7 +886,7 @@
     links.forEach(function (l) {
       kids.push(el('p', { style: 'margin:0 0 10px' }, [el('a', { class: 'extra-link', href: l.url, target: '_blank', rel: 'noopener' }, [l.title + ' ↗'])]));
     });
-    return panel('link', 'Extra practice', 'Matched video, transcript and questions', kids, 'tone-night', 'span-12', null);
+    return panel('link', 'Extra practice', 'Official source link, short excerpt and our questions', kids, 'tone-night', 'span-12', null);
   }
 
   function markTracker(id) {
