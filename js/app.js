@@ -532,10 +532,9 @@
     });
     return panel('quiz', 'اختبار سريع', 'اختار إجابة واضغط «تحقق»', [
       grid,
-      el('div', { class: 'quiz-summary' }, [
-        el('span', {}, [checked > 0 ? 'نتيجتك: ' + arNum(correct) + ' من ' + arNum(s.quiz.length) + ' صح' : 'جاوب الأسئلة بالترتيب اللي يريحك.']),
-        el('button', { class: 'btn btn-ghost', type: 'button', onclick: function () { store.data.answers = {}; persist(); render(); } }, ['ابدأ من الأول'])
-      ])
+      checked > 0 ? el('div', { class: 'quiz-summary' }, [
+        el('span', {}, ['نتيجتك: ' + arNum(correct) + ' من ' + arNum(s.quiz.length) + ' صح'])
+      ]) : null
     ], '', 'span-12', 'sec-quiz');
   }
 
@@ -661,7 +660,6 @@
       return el('button', { class: 'tab drill-tab', type: 'button', role: 'tab', 'aria-selected': String(i === state.drill), onclick: function () { state.drill = i; render(); } }, [m[0]]);
     }));
     var items = modes[state.drill][1](s);
-    if (state.drill === 2) items.unshift(el('p', { class: 'caption tr-note' }, ['قولها بالألماني بصوت عالي، وبعدين اكشف.']));
     var body = el('div', { class: 'quiz-grid drill-body' }, items);
     return panel('cards', 'تدريب على الجمل', 'ثلاث خطوات قصيرة: رتّب، صحّح، ترجم', [tabs, body], '', 'span-12', 'sec-drills');
   }
