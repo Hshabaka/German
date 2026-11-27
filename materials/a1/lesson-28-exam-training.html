@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A1 Prüfungstraining — Formular &amp; Sprechen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+    --paper:#EEF0E9;
+    --paper-raised:#FFFFFF;
+    --card-stock:#FBF6E8;
+    --ink:#15283F;
+    --ink-soft:#57677B;
+    --prussian:#1F4A73;
+    --prussian-deep:#123252;
+    --seal:#9C2B3A;
+    --seal-bg:#F5E4E4;
+    --brass:#8C7A45;
+    --brass-bg:#EFEAD6;
+    --moss:#3E6B4C;
+    --moss-bg:#E4EDE3;
+    --rule:#CBCEC1;
+    --shadow-card:0 14px 26px -10px rgba(21,40,63,.38), 0 2px 6px rgba(21,40,63,.16);
+    --font-serif:'IBM Plex Serif', Georgia, 'Times New Roman', serif;
+    --font-sans:'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-ar:'IBM Plex Sans Arabic', Tahoma, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#12161C;
+      --paper-raised:#1B2129;
+      --card-stock:#242A25;
+      --ink:#E7E9E3;
+      --ink-soft:#A7B0BC;
+      --prussian:#7FA8D6;
+      --prussian-deep:#BBD3EC;
+      --seal:#E08585;
+      --seal-bg:#3A1E20;
+      --brass:#C9B77E;
+      --brass-bg:#2E2A18;
+      --moss:#7FBF97;
+      --moss-bg:#193226;
+      --rule:#333B44;
+      --shadow-card:0 14px 26px -10px rgba(0,0,0,.6), 0 2px 6px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#12161C;
+    --paper-raised:#1B2129;
+    --card-stock:#242A25;
+    --ink:#E7E9E3;
+    --ink-soft:#A7B0BC;
+    --prussian:#7FA8D6;
+    --prussian-deep:#BBD3EC;
+    --seal:#E08585;
+    --seal-bg:#3A1E20;
+    --brass:#C9B77E;
+    --brass-bg:#2E2A18;
+    --moss:#7FBF97;
+    --moss-bg:#193226;
+    --rule:#333B44;
+    --shadow-card:0 14px 26px -10px rgba(0,0,0,.6), 0 2px 6px rgba(0,0,0,.4);
+  }
+  *,*::before,*::after{box-sizing:border-box;}
+  html{scroll-padding-top:env(safe-area-inset-top,0px);-webkit-text-size-adjust:100%;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-sans);line-height:1.55;-webkit-font-smoothing:antialiased;}
+  [hidden]{display:none !important;}
+  h1,h2,h3,p,ul,form{margin:0;}
+  button{font-family:inherit;}
+  .ar{font-family:var(--font-ar);unicode-bidi:isolate;}
+
+  /* ---------- Chrome ---------- */
+  .topbar{position:sticky;top:0;z-index:30;background:var(--paper);padding-top:env(safe-area-inset-top,0px);}
+  .topbar-inner{max-width:760px;margin:0 auto;display:flex;align-items:center;gap:14px;padding:14px 18px 0;}
+  .brand{font-family:var(--font-serif);font-weight:600;font-size:1rem;color:var(--ink);white-space:nowrap;}
+  .icon-btn{margin-left:auto;background:none;border:1px solid var(--rule);border-radius:6px;width:34px;height:34px;font-size:1rem;cursor:pointer;color:var(--ink);flex-shrink:0;}
+  .stepper-wrap{max-width:760px;margin:10px auto 0;padding:0 18px;overflow-x:auto;scrollbar-width:none;}
+  .stepper-wrap::-webkit-scrollbar{display:none;}
+  .stepper{display:flex;border-bottom:1px solid var(--ink);min-width:max-content;}
+  .step-tab{flex-shrink:0;position:relative;top:1px;background:var(--paper);border:1px solid var(--rule);border-bottom:1px solid var(--ink);border-radius:7px 7px 0 0;padding:7px 14px 6px;font-size:.82rem;color:var(--ink-soft);cursor:pointer;margin-right:4px;}
+  .step-tab.reached{color:var(--ink);}
+  .step-tab.active{background:var(--paper-raised);border-color:var(--ink);border-bottom-color:var(--paper-raised);font-weight:600;color:var(--ink);}
+  .step-tab.locked{opacity:.4;cursor:not-allowed;}
+  .progress-rail{height:3px;background:var(--rule);max-width:760px;margin:0 auto;}
+  .progress-fill{height:100%;background:var(--prussian);transition:width .3s ease;}
+  .main{max-width:760px;margin:0 auto;padding:34px 18px 60px;}
+  .footer{text-align:center;color:var(--ink-soft);font-size:.78rem;padding:10px 20px calc(24px + env(safe-area-inset-bottom,0px));}
+
+  /* ---------- Generic bits ---------- */
+  .kicker{font-size:.8rem;color:var(--brass);margin:0 0 6px;letter-spacing:.02em;font-weight:600;}
+  .heading{font-family:var(--font-serif);font-weight:600;font-size:clamp(1.5rem,4.4vw,2rem);color:var(--ink);margin:0 0 14px;}
+  .body-text{color:var(--ink);font-size:1.02rem;line-height:1.75;max-width:56ch;}
+  .center{text-align:center;}
+  .btn{border:none;border-radius:7px;padding:12px 22px;font-weight:600;font-size:.95rem;cursor:pointer;background:var(--prussian);color:#fff;}
+  .btn:disabled{opacity:.4;cursor:not-allowed;}
+  .btn:hover:not(:disabled){background:var(--prussian-deep);}
+  .btn-quiet{background:none;color:var(--ink-soft);border:1px solid var(--rule);}
+  .btn-quiet:hover:not(:disabled){color:var(--ink);border-color:var(--ink-soft);}
+  .btn-reveal{background:var(--moss);}
+  .btn-reveal:hover:not(:disabled){filter:brightness(1.07);}
+  .row{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;}
+  .row.center{justify-content:center;}
+
+  /* ---------- Landing (exam cover sheet) ---------- */
+  .cover{background:var(--paper-raised);border:1px solid var(--ink);border-radius:5px;padding:clamp(26px,6vw,46px);}
+  .cover-eyebrow{font-size:.78rem;letter-spacing:.03em;color:var(--ink-soft);margin-bottom:10px;}
+  .cover-title{font-family:var(--font-serif);font-weight:700;font-size:clamp(1.9rem,6vw,2.5rem);color:var(--ink);margin:0 0 6px;}
+  .cover-sub{color:var(--ink-soft);font-size:1.05rem;margin-bottom:4px;}
+  .cover-ar{color:var(--ink-soft);font-family:var(--font-ar);font-size:1rem;line-height:2;margin:14px 0 22px;padding-top:14px;border-top:1px solid var(--rule);}
+  .meta-table{display:grid;grid-template-columns:1fr 1fr;gap:14px 24px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:16px 0;margin-bottom:24px;}
+  .meta-item dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-soft);margin-bottom:2px;}
+  .meta-item dd{margin:0;font-size:1rem;color:var(--ink);font-weight:600;}
+  .howto{list-style:none;padding:0;margin:0 0 26px;counter-reset:step;}
+  .howto li{counter-increment:step;position:relative;padding-left:34px;margin-bottom:12px;color:var(--ink);font-size:.98rem;}
+  .howto li::before{content:counter(step);position:absolute;left:0;top:-1px;width:22px;height:22px;border:1px solid var(--ink);border-radius:50%;font-size:.75rem;display:flex;align-items:center;justify-content:center;color:var(--ink);font-weight:600;}
+  .resume-box{background:var(--brass-bg);border:1px solid var(--brass);border-radius:5px;padding:14px 16px;margin-bottom:22px;font-size:.95rem;}
+  .resume-box p{margin-bottom:10px;}
+
+  /* ---------- Section intro ---------- */
+  .intro-block{padding:10px 0 4px;}
+
+  /* ---------- Document sheet (Formular) ---------- */
+  .sheet{background:var(--paper-raised);border:1px solid var(--ink);border-radius:5px;}
+  .sheet-head{display:flex;justify-content:space-between;align-items:baseline;padding:16px 22px 12px;border-bottom:2px solid var(--ink);gap:10px;}
+  .sheet-head h2{font-family:var(--font-serif);font-weight:600;font-size:1.25rem;color:var(--ink);}
+  .sheet-ref{font-size:.78rem;color:var(--ink-soft);font-variant-numeric:tabular-nums;white-space:nowrap;}
+  .sheet-body{padding:20px 22px 26px;}
+  .diff-meter{display:flex;align-items:center;gap:6px;margin:2px 0 16px;font-size:.78rem;color:var(--ink-soft);}
+  .diff-dots{display:inline-flex;gap:3px;}
+  .diff-dots span{width:6px;height:6px;border-radius:50%;background:var(--rule);}
+  .diff-dots span.on{background:var(--brass);}
+  .spoken-line{border-left:2px solid var(--rule);padding-left:13px;font-style:italic;color:var(--ink-soft);margin:0 0 16px;font-size:.95rem;}
+  .audio-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:4px;}
+  .transcript{border-left:2px solid var(--prussian);padding-left:13px;margin:14px 0 4px;color:var(--ink);font-size:.97rem;line-height:1.65;}
+  .form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:6px 22px;margin:20px 0 4px;}
+  .field{margin-bottom:14px;}
+  .field label{display:block;font-size:.74rem;color:var(--ink-soft);margin-bottom:4px;letter-spacing:.01em;}
+  .field input{width:100%;border:none;border-bottom:1.5px solid var(--rule);background:transparent;padding:6px 2px;font-size:1.04rem;font-family:var(--font-sans);color:var(--ink);}
+  .field input:focus{outline:none;border-bottom-color:var(--prussian);}
+  .field input:disabled{color:var(--ink-soft);}
+  .field-solution{margin-top:5px;font-size:.88rem;font-weight:600;color:var(--moss);}
+
+  /* ---------- Timer ---------- */
+  .timer-zone{margin:20px 0 6px;}
+  .timer-banner{font-family:var(--font-serif);font-weight:600;font-size:1.02rem;color:var(--prussian);margin-bottom:9px;}
+  .timer-banner.done{color:var(--seal);}
+  .timer-row{display:flex;align-items:center;gap:12px;}
+  .timer-track{flex:1;height:3px;background:var(--rule);}
+  .timer-bar{height:100%;width:100%;background:var(--prussian);transition:width 1s linear, background-color .3s;}
+  .timer-bar.urgent{background:var(--seal);}
+  .timer-num{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.15rem;color:var(--ink);min-width:2.2ch;text-align:right;}
+  .speak-cue{margin-top:10px;font-size:.92rem;color:var(--ink-soft);}
+
+  /* ---------- Index card (Sprechen: Fragen stellen / Bitten) ---------- */
+  .card-stage{padding:6px 0 2px;text-align:center;}
+  .index-card{display:inline-block;min-width:min(300px,78vw);background:var(--card-stock);border:1px solid var(--rule);border-radius:3px;padding:38px 26px 30px;margin:18px auto 22px;transform:rotate(-1.3deg);box-shadow:var(--shadow-card);position:relative;}
+  .index-card::before{content:'';position:absolute;top:11px;left:50%;transform:translateX(-50%);width:9px;height:9px;border-radius:50%;background:var(--paper);border:1px solid var(--rule);}
+  .index-card-word{display:block;font-family:var(--font-serif);font-weight:600;font-size:clamp(1.6rem,7vw,2.3rem);color:var(--ink);letter-spacing:.01em;word-break:break-word;}
+  .card-counter{font-size:.85rem;color:var(--ink-soft);margin-bottom:2px;}
+
+  /* ---------- Dialogue (Sprechen: Antworten) ---------- */
+  .dialogue-cap{font-size:.8rem;color:var(--ink-soft);margin-bottom:6px;}
+  .dialogue-q{font-family:var(--font-serif);font-weight:600;font-size:clamp(1.25rem,4.6vw,1.6rem);color:var(--ink);border-left:3px solid var(--prussian);padding-left:16px;margin:8px 0 4px;}
+
+  /* ---------- Solution reveal ---------- */
+  .reveal{background:var(--moss-bg);border-left:3px solid var(--moss);padding:14px 18px;margin-top:16px;border-radius:0 5px 5px 0;}
+  .reveal-lead{font-weight:700;color:var(--moss);margin:0 0 6px;font-size:.82rem;text-transform:uppercase;letter-spacing:.03em;}
+  .reveal-main{font-size:1.1rem;color:var(--ink);margin:3px 0;font-family:var(--font-serif);}
+  .reveal-alt{font-size:.93rem;color:var(--ink-soft);margin:2px 0 0;}
+
+  /* ---------- Final solutions ---------- */
+  .sol-subhead{font-family:var(--font-serif);font-size:1.1rem;color:var(--ink);margin:28px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--rule);}
+  .sol-list{list-style:none;padding:0;margin:0;display:grid;gap:8px;}
+  .sol-list li{background:var(--paper);border:1px solid var(--rule);border-radius:4px;padding:10px 14px;font-size:.95rem;}
+  .sol-grid{display:grid;gap:10px;}
+  .sol-item{border:1px solid var(--rule);border-radius:4px;padding:13px 16px;}
+  .sol-item-num{font-size:.72rem;font-weight:700;color:var(--brass);text-transform:uppercase;letter-spacing:.04em;margin:0 0 4px;}
+  .sol-item-task{margin:0 0 5px;color:var(--ink);}
+  .sol-item-answer{margin:0;color:var(--moss);font-weight:600;}
+
+  @media (max-width: 480px){
+    .meta-table{grid-template-columns:1fr;}
+    .form-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+<div class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <span class="brand">A1 Prüfungstraining</span>
+    <button class="icon-btn" id="audioToggle" title="Audio an/aus">🔊</button>
+  </div>
+  <div class="stepper-wrap"><nav class="stepper" id="stepper"></nav></div>
+</div>
+<div class="progress-rail"><div class="progress-fill" id="progressFill"></div></div>
+<main class="main" id="content"></main>
+<p class="footer">Originales Übungsmaterial im Stil von Goethe-Zertifikat A1 und telc Deutsch A1. Kein offizielles Prüfungsdokument.</p>
+
+<script>
+(function(){
+'use strict';
+
+/* ===================== DATA ===================== */
+
+var FORMULAR_ITEMS = [
+  {
+    title:'Anmeldeformular', diff:'Leicht', diffLevel:1,
+    instructionSpoken:'Sie hören jetzt Informationen. Füllen Sie das Formular aus.',
+    audioText:'Hallo, ich heiße Lisa Bauer. Ich wohne in München.',
+    fields:[{key:'vorname',label:'Vorname'},{key:'nachname',label:'Nachname'},{key:'wohnort',label:'Wohnort'}],
+    answers:{vorname:'Lisa',nachname:'Bauer',wohnort:'München'},
+    seconds:30
+  },
+  {
+    title:'Anmeldeformular', diff:'Leicht', diffLevel:1,
+    instructionSpoken:'Sie hören jetzt Informationen. Füllen Sie das Formular aus.',
+    audioText:'Guten Tag. Mein Name ist Ahmed Al-Sayed. Ich bin am 3. Juli 1995 geboren. Ich komme aus Ägypten.',
+    fields:[{key:'vorname',label:'Vorname'},{key:'nachname',label:'Nachname'},{key:'geburtsdatum',label:'Geburtsdatum'},{key:'land',label:'Land'}],
+    answers:{vorname:'Ahmed',nachname:'Al-Sayed',geburtsdatum:'03.07.1995',land:'Ägypten'},
+    seconds:40
+  },
+  {
+    title:'Anmeldeformular', diff:'Mittel', diffLevel:2,
+    instructionSpoken:'Sie hören jetzt Informationen. Füllen Sie das Formular aus. Achtung: Es gibt ähnliche Zahlen und Namen.',
+    audioText:'Ich heiße Sara Meyer, M-E-Y-E-R, nicht Maier. Ich wohne in der Schillerstraße, Hausnummer sechzehn, nicht sechzig. Die Postleitzahl ist sechs null drei eins drei.',
+    fields:[{key:'vorname',label:'Vorname'},{key:'nachname',label:'Nachname'},{key:'hausnummer',label:'Hausnummer'},{key:'plz',label:'Postleitzahl'}],
+    answers:{vorname:'Sara',nachname:'Meyer',hausnummer:'16',plz:'60313'},
+    seconds:45
+  },
+  {
+    title:'Anmeldeformular', diff:'Mittel', diffLevel:2,
+    instructionSpoken:'Sie hören jetzt Informationen. Füllen Sie das Formular aus. Der Name wird buchstabiert.',
+    audioText:'Mein Vorname ist Deniz. Mein Nachname ist Yilmaz. Ich buchstabiere: Y – I – L – M – A – Z. Ich bin am 9. November 1999 in Izmir geboren.',
+    fields:[{key:'vorname',label:'Vorname'},{key:'nachname',label:'Nachname'},{key:'geburtsdatum',label:'Geburtsdatum'},{key:'geburtsort',label:'Geburtsort'}],
+    answers:{vorname:'Deniz',nachname:'Yilmaz',geburtsdatum:'09.11.1999',geburtsort:'Izmir'},
+    seconds:45
+  },
+  {
+    title:'Anmeldeformular', diff:'Mittel', diffLevel:2,
+    instructionSpoken:'Sie hören jetzt Informationen. Füllen Sie das Formular aus.',
+    audioText:'Ich heiße Paul Fischer. Meine Telefonnummer ist: null eins fünf sieben, zwei zwei drei drei vier vier fünf. Meine E-Mail-Adresse ist: paul Punkt fischer at g-m-x Punkt de.',
+    fields:[{key:'vorname',label:'Vorname'},{key:'nachname',label:'Nachname'},{key:'telefon',label:'Telefonnummer'},{key:'email',label:'E-Mail-Adresse'}],
+    answers:{vorname:'Paul',nachname:'Fischer',telefon:'0157 2233445',email:'paul.fischer@gmx.de'},
+    seconds:50
+  },
+  {
+    title:'Anmeldeformular', diff:'Schwer', diffLevel:3,
+    instructionSpoken:'Sie hören jetzt Informationen. Füllen Sie das Formular aus. Hören Sie genau zu — die Person korrigiert sich.',
+    audioText:'Guten Tag, ich heiße Julia Hoffmann. Ich wohne in der Lindenstraße... Entschuldigung, das ist falsch. Ich wohne in der Parkstraße, Hausnummer acht, in Leipzig.',
+    fields:[{key:'vorname',label:'Vorname'},{key:'nachname',label:'Nachname'},{key:'strasse',label:'Straße'},{key:'hausnummer',label:'Hausnummer'},{key:'wohnort',label:'Wohnort'}],
+    answers:{vorname:'Julia',nachname:'Hoffmann',strasse:'Parkstraße',hausnummer:'8',wohnort:'Leipzig'},
+    seconds:45
+  },
+  {
+    title:'Anmeldeformular', diff:'Schwer', diffLevel:3,
+    instructionSpoken:'Sie hören jetzt Informationen. Füllen Sie das Formular aus. Diesmal gibt es viele Details.',
+    audioText:'Hallo, mein Name ist Fatima Nasser. Ich bin am 21. Januar 1992 in Beirut geboren. Ich wohne in der Goethestraße 45, Postleitzahl eins null eins eins fünf, in Berlin. Meine Telefonnummer ist: null eins sieben sechs, neun neun acht acht sieben sieben sechs. Ich bin Krankenschwester von Beruf.',
+    fields:[{key:'vorname',label:'Vorname'},{key:'nachname',label:'Nachname'},{key:'geburtsdatum',label:'Geburtsdatum'},{key:'geburtsort',label:'Geburtsort'},{key:'strasse',label:'Straße'},{key:'hausnummer',label:'Hausnummer'},{key:'plz',label:'Postleitzahl'},{key:'wohnort',label:'Wohnort'},{key:'telefon',label:'Telefonnummer'},{key:'beruf',label:'Beruf'}],
+    answers:{vorname:'Fatima',nachname:'Nasser',geburtsdatum:'21.01.1992',geburtsort:'Beirut',strasse:'Goethestraße',hausnummer:'45',plz:'10115',wohnort:'Berlin',telefon:'0176 9988776',beruf:'Krankenschwester'},
+    seconds:60
+  },
+  {
+    title:'Anmeldeformular', diff:'Prüfungsniveau', diffLevel:4,
+    instructionSpoken:'Sie hören jetzt eine Nachricht. Füllen Sie das Formular aus. Die Informationen kommen nicht in der Reihenfolge des Formulars.',
+    audioText:'Hallo, hier ist eine Nachricht für die Sprachschule. Ich heiße Karim Boutros und komme ursprünglich aus dem Libanon. Ich wohne jetzt in Frankfurt, die Postleitzahl hier ist sechs null drei null sechs. Geboren bin ich am 14. August 1988. Sie können mich unter null eins fünf eins, drei drei vier vier fünf fünf sechs erreichen, oder schreiben Sie mir: karim Punkt boutros at yahoo Punkt com. Vielen Dank!',
+    fields:[{key:'vorname',label:'Vorname'},{key:'nachname',label:'Nachname'},{key:'geburtsdatum',label:'Geburtsdatum'},{key:'land',label:'Land'},{key:'wohnort',label:'Wohnort'},{key:'plz',label:'Postleitzahl'},{key:'telefon',label:'Telefonnummer'},{key:'email',label:'E-Mail-Adresse'}],
+    answers:{vorname:'Karim',nachname:'Boutros',geburtsdatum:'14.08.1988',land:'Libanon',wohnort:'Frankfurt',plz:'60306',telefon:'0151 3344556',email:'karim.boutros@yahoo.com'},
+    seconds:60
+  }
+];
+
+var FINAL_FORMULAR = {
+  title:'Anmeldeformular',
+  instructionSpoken:'Wir beginnen jetzt mit der Prüfung. Sie hören jetzt Informationen. Füllen Sie das Formular aus.',
+  audioText:'Guten Morgen! Ich stelle mich kurz vor: Mein Name ist Yasmin Abdallah. Ich bin am 30. März 1997 in Damaskus geboren, aber ich komme aus Syrien. Jetzt wohne ich in Köln, in der Blumenstraße 12, Postleitzahl fünf null sechs sechs sieben. Ich arbeite als Friseurin. Sie erreichen mich unter der Nummer null eins sechs null, eins eins zwei zwei drei drei vier, oder per E-Mail: yasmin Punkt abdallah at outlook Punkt de.',
+  fields:[{key:'vorname',label:'Vorname'},{key:'nachname',label:'Nachname'},{key:'geburtsdatum',label:'Geburtsdatum'},{key:'geburtsort',label:'Geburtsort'},{key:'land',label:'Land'},{key:'strasse',label:'Straße'},{key:'hausnummer',label:'Hausnummer'},{key:'plz',label:'Postleitzahl'},{key:'wohnort',label:'Wohnort'},{key:'beruf',label:'Beruf'},{key:'telefon',label:'Telefonnummer'},{key:'email',label:'E-Mail-Adresse'}],
+  answers:{vorname:'Yasmin',nachname:'Abdallah',geburtsdatum:'30.03.1997',geburtsort:'Damaskus',land:'Syrien',strasse:'Blumenstraße',hausnummer:'12',plz:'50667',wohnort:'Köln',beruf:'Friseurin',telefon:'0160 1122334',email:'yasmin.abdallah@outlook.de'},
+  seconds:75,
+  deferReveal:true
+};
+
+var FRAGE_ITEMS = [
+  {card:'KAFFEE', model:'Trinken Sie gern Kaffee?', modelAlt:'Wie viel Kaffee trinken Sie am Tag?'},
+  {card:'WASSER', model:'Möchten Sie ein Glas Wasser?', modelAlt:'Trinken Sie viel Wasser?'},
+  {card:'FAMILIE', model:'Wie groß ist Ihre Familie?', modelAlt:'Haben Sie Geschwister?'},
+  {card:'WOCHENENDE', model:'Was machen Sie am Wochenende?'},
+  {card:'SPORT', model:'Machen Sie gern Sport?', modelAlt:'Welchen Sport machen Sie?'},
+  {card:'MUSIK', model:'Hören Sie gern Musik?', modelAlt:'Was für Musik hören Sie gern?'},
+  {card:'URLAUB', model:'Wohin fahren Sie im Urlaub?', modelAlt:'Wann haben Sie Urlaub?'},
+  {card:'AUTO', model:'Haben Sie ein Auto?'},
+  {card:'BUS', model:'Fahren Sie oft mit dem Bus?'},
+  {card:'RESTAURANT', model:'Gehen Sie gern ins Restaurant?'},
+  {card:'KINO', model:'Wie oft gehen Sie ins Kino?'},
+  {card:'GEBURTSTAG', model:'Wann haben Sie Geburtstag?'},
+  {card:'WOHNUNG', model:'Wie ist Ihre Wohnung?', modelAlt:'Wo wohnen Sie?'},
+  {card:'ARBEIT', model:'Was sind Sie von Beruf?', modelAlt:'Wo arbeiten Sie?'},
+  {card:'SCHULE', model:'Gehen Sie noch zur Schule?'},
+  {card:'EINKAUFEN', model:'Wo kaufen Sie gern ein?'},
+  {card:'FUSSBALL', model:'Spielen Sie gern Fußball?'},
+  {card:'BUCH', model:'Lesen Sie gern Bücher?'},
+  {card:'REISE', model:'Reisen Sie gern?', modelAlt:'Wohin möchten Sie reisen?'},
+  {card:'FERIEN', model:'Was machen Sie in den Ferien?'}
+].map(function(it){
+  return Object.assign({}, it, {
+    type:'frage-stellen',
+    instructionSpoken:'Sie haben die Karte ' + it.card + '. Stellen Sie eine Frage.',
+    seconds:12
+  });
+});
+
+var ANTWORT_ITEMS = [
+  {question:'Wie heißen Sie?', models:['Ich heiße Nour.','Mein Name ist Omar.']},
+  {question:'Woher kommen Sie?', models:['Ich komme aus Ägypten.','Ich komme aus Syrien.']},
+  {question:'Was machen Sie am Wochenende?', models:['Am Wochenende spiele ich Fußball.','Ich treffe meine Freunde.']},
+  {question:'Was essen Sie gern?', models:['Ich esse gern Pizza.','Ich esse gern Reis mit Hähnchen.']},
+  {question:'Was trinken Sie zum Frühstück?', models:['Ich trinke Tee zum Frühstück.','Ich trinke Kaffee mit Milch.']},
+  {question:'Wo arbeiten Sie?', models:['Ich arbeite in einem Büro.','Ich arbeite in einem Restaurant.']},
+  {question:'Wie kommen Sie zur Arbeit?', models:['Ich fahre mit dem Bus.','Ich fahre mit dem Auto.']},
+  {question:'Wie ist das Wetter heute?', models:['Das Wetter ist schön und warm.','Es regnet.']},
+  {question:'Wann haben Sie Geburtstag?', models:['Mein Geburtstag ist am 5. Mai.','Ich habe im Dezember Geburtstag.']},
+  {question:'Wo wohnen Sie?', models:['Ich wohne in Berlin.','Ich wohne in einer kleinen Wohnung in Hamburg.']},
+  {question:'Was kaufen Sie gern im Supermarkt?', models:['Ich kaufe gern Obst und Gemüse.','Ich kaufe Brot und Milch.']},
+  {question:'Welche Kleidung tragen Sie gern?', models:['Ich trage gern Jeans und ein T-Shirt.','Ich trage gern einen Pullover.']},
+  {question:'Wie spät ist es jetzt?', models:['Es ist zehn Uhr.','Es ist halb drei.']},
+  {question:'Telefonieren Sie oft mit Ihrer Familie?', models:['Ja, ich telefoniere jeden Tag mit meiner Familie.','Ich telefoniere einmal in der Woche.']},
+  {question:'Waren Sie schon im Urlaub in Deutschland?', models:['Ja, ich war letztes Jahr in Hamburg.','Nein, aber ich möchte gern nach Deutschland reisen.']}
+].map(function(it){ return Object.assign({}, it, {type:'antworten', seconds:15}); });
+
+var BITTE_ITEMS = [
+  {card:'WASSER', model:'Kann ich bitte Wasser haben?', modelAlt:'Bitte geben Sie mir Wasser.'},
+  {card:'KAFFEE', model:'Ich möchte bitte einen Kaffee.', modelAlt:'Kann ich bitte einen Kaffee bekommen?'},
+  {card:'FENSTER', model:'Können Sie bitte das Fenster öffnen?', modelAlt:'Öffnen Sie bitte das Fenster.'},
+  {card:'TÜR', model:'Können Sie bitte die Tür schließen?', modelAlt:'Machen Sie bitte die Tür zu.'},
+  {card:'STIFT', model:'Haben Sie bitte einen Stift für mich?', modelAlt:'Kann ich bitte einen Stift haben?'},
+  {card:'BUCH', model:'Kann ich bitte das Buch haben?', modelAlt:'Geben Sie mir bitte das Buch.'},
+  {card:'HANDY', model:'Kann ich bitte Ihr Handy benutzen?', modelAlt:'Darf ich bitte kurz telefonieren?'},
+  {card:'HILFE', model:'Können Sie mir bitte helfen?', modelAlt:'Ich brauche bitte Hilfe.'},
+  {card:'TASCHE', model:'Können Sie mir bitte die Tasche geben?', modelAlt:'Ist das Ihre Tasche? Geben Sie sie mir bitte.'},
+  {card:'GELD', model:'Können Sie mir bitte Geld wechseln?', modelAlt:'Haben Sie bitte zwei Euro für mich?'},
+  {card:'UHR', model:'Können Sie mir bitte sagen, wie spät es ist?', modelAlt:'Wie spät ist es bitte?'},
+  {card:'ADRESSE', model:'Können Sie mir bitte Ihre Adresse geben?', modelAlt:'Wie ist Ihre Adresse, bitte?'},
+  {card:'TELEFONNUMMER', model:'Können Sie mir bitte Ihre Telefonnummer geben?', modelAlt:'Wie ist Ihre Telefonnummer, bitte?'}
+].map(function(it){
+  return Object.assign({}, it, {
+    type:'bitte',
+    instructionSpoken:'Sie brauchen: ' + it.card + '. Bitten Sie höflich darum.',
+    seconds:12
+  });
+});
+
+var FINAL_ITEMS = [
+  {type:'frage-stellen', card:'TELEFON', instructionSpoken:'Sie haben die Karte TELEFON. Stellen Sie eine Frage.', model:'Haben Sie ein Telefon zu Hause?', modelAlt:'Wie oft telefonieren Sie?', seconds:12},
+  {type:'antworten', question:'Was machen Sie gern in der Freizeit?', models:['Ich lese gern Bücher.','Ich höre gern Musik.'], seconds:15},
+  {type:'frage-stellen', card:'SUPERMARKT', instructionSpoken:'Sie haben die Karte SUPERMARKT. Stellen Sie eine Frage.', model:'Wo ist hier ein Supermarkt?', modelAlt:'Ist der Supermarkt heute geöffnet?', seconds:12},
+  {type:'bitte', card:'STIFT', instructionSpoken:'Sie brauchen: STIFT. Bitten Sie höflich darum.', model:'Haben Sie bitte einen Stift für mich?', modelAlt:'Kann ich bitte einen Stift haben?', seconds:12},
+  {type:'antworten', question:'Wie ist das Wetter heute?', models:['Das Wetter ist schön und warm.','Es regnet.'], seconds:15},
+  {type:'frage-stellen', card:'RESTAURANT', instructionSpoken:'Sie haben die Karte RESTAURANT. Stellen Sie eine Frage.', model:'Kennen Sie ein gutes Restaurant hier?', modelAlt:'Gehen Sie oft ins Restaurant?', seconds:12},
+  {type:'bitte', card:'HILFE', instructionSpoken:'Sie brauchen: HILFE. Bitten Sie höflich darum.', model:'Können Sie mir bitte helfen?', modelAlt:'Ich brauche bitte Hilfe.', seconds:12},
+  {type:'antworten', question:'Wo wohnen Sie?', models:['Ich wohne in Berlin.','Ich wohne in einer Wohnung in Hamburg.'], seconds:15}
+].map(function(it){ return Object.assign({}, it, {deferReveal:true}); });
+
+/* ===================== STEP GRAPH ===================== */
+
+function buildSteps(){
+  var steps = [];
+  steps.push({type:'start', group:'start'});
+
+  steps.push({type:'section-intro', group:'formular', kicker:'Teil 1', heading:'Formular ausfüllen',
+    headingAr:'القسم الأول: تعبئة استمارة',
+    body:'Sie hören Informationen über eine Person. Füllen Sie danach das Formular aus. Acht Übungen, von leicht bis Prüfungsniveau.'});
+  FORMULAR_ITEMS.forEach(function(it,i){
+    steps.push(Object.assign({}, it, {type:'formular', group:'formular', index:i+1, total:FORMULAR_ITEMS.length}));
+  });
+
+  steps.push({type:'section-intro', group:'sprechen', kicker:'Teil 2', heading:'Sprechen',
+    headingAr:'القسم الثاني: التحدث',
+    body:'Jetzt üben wir das Sprechen wie in der echten Prüfung. Sie bekommen Karten und Fragen. Sprechen Sie Ihre Antwort laut, bevor Sie die Lösung sehen.'});
+
+  steps.push({type:'section-intro', group:'sprechen', kicker:'Sprechen, Teil 1', heading:'Fragen stellen',
+    headingAr:'تكوين الأسئلة',
+    body:'Sie sehen ein Wort auf einer Karte. Bilden Sie eine passende Frage dazu. Zwanzig Karten.'});
+  FRAGE_ITEMS.forEach(function(it,i){
+    steps.push(Object.assign({}, it, {group:'sprechen', index:i+1, total:FRAGE_ITEMS.length}));
+  });
+
+  steps.push({type:'section-intro', group:'sprechen', kicker:'Sprechen, Teil 2', heading:'Antworten',
+    headingAr:'الإجابة عن الأسئلة',
+    body:'Der Prüfer stellt eine Frage. Antworten Sie laut. Fünfzehn Fragen.'});
+  ANTWORT_ITEMS.forEach(function(it,i){
+    steps.push(Object.assign({}, it, {group:'sprechen', index:i+1, total:ANTWORT_ITEMS.length}));
+  });
+
+  steps.push({type:'section-intro', group:'sprechen', kicker:'Sprechen, Teil 3', heading:'Bitten und Aufforderungen',
+    headingAr:'الطلبات المهذبة',
+    body:'Sie sehen ein Wort. Bitten Sie höflich darum. Dreizehn Situationen.'});
+  BITTE_ITEMS.forEach(function(it,i){
+    steps.push(Object.assign({}, it, {group:'sprechen', index:i+1, total:BITTE_ITEMS.length}));
+  });
+
+  steps.push({type:'section-intro', group:'pruefung', kicker:'Abschlussprüfung', heading:'Wir beginnen jetzt mit der Prüfung.',
+    headingAr:'الامتحان النهائي التجريبي',
+    body:'Ein Formular und acht Sprechaufgaben, ohne Lösungen zwischendurch. Die Lösungen sehen Sie erst ganz am Ende.'});
+  steps.push(Object.assign({}, FINAL_FORMULAR, {type:'formular', group:'pruefung', final:true, index:1, total:1}));
+  FINAL_ITEMS.forEach(function(it,i){
+    steps.push(Object.assign({}, it, {group:'pruefung', final:true, index:i+1, total:FINAL_ITEMS.length}));
+  });
+
+  steps.push({type:'final-solutions', group:'loesungen'});
+  steps.push({type:'complete', group:'ende'});
+  return steps;
+}
+var STEPS = buildSteps();
+
+var GROUP_LABELS = [
+  {key:'start', label:'Start'},
+  {key:'formular', label:'Formular'},
+  {key:'sprechen', label:'Sprechen'},
+  {key:'pruefung', label:'Prüfung'},
+  {key:'loesungen', label:'Lösungen'},
+  {key:'ende', label:'Fertig'}
+];
+
+/* ===================== STATE ===================== */
+var current = 0, maxReached = 0, timerHandle = null, audioEnabled = true, savedProgress = null;
+
+/* ===================== TTS ===================== */
+var deVoice = null;
+function refreshVoices(){
+  if(!('speechSynthesis' in window)) return;
+  var voices = window.speechSynthesis.getVoices();
+  deVoice = voices.find(function(v){return v.lang==='de-DE';}) ||
+            voices.find(function(v){return v.lang && v.lang.toLowerCase().indexOf('de')===0;}) || null;
+}
+if('speechSynthesis' in window){
+  refreshVoices();
+  window.speechSynthesis.onvoiceschanged = refreshVoices;
+}
+function speak(text, onend){
+  if(!audioEnabled || !('speechSynthesis' in window)){ if(onend) onend(false); return false; }
+  try{
+    window.speechSynthesis.cancel();
+    var u = new SpeechSynthesisUtterance(text);
+    u.lang = 'de-DE';
+    if(deVoice) u.voice = deVoice;
+    u.rate = 0.93;
+    if(onend) u.onend = function(){ onend(true); };
+    window.speechSynthesis.speak(u);
+    return true;
+  }catch(e){ if(onend) onend(false); return false; }
+}
+function stopSpeak(){ try{ if('speechSynthesis' in window) window.speechSynthesis.cancel(); }catch(e){} }
+
+/* ===================== TIMER ===================== */
+function clearActiveTimer(){ if(timerHandle){ clearInterval(timerHandle); timerHandle = null; } }
+function runTimer(seconds, els, onDone){
+  clearActiveTimer();
+  var remaining = seconds, total = seconds;
+  function paint(){
+    els.num.textContent = remaining <= 0 ? '0' : String(remaining);
+    var pct = Math.max(0, remaining/total*100);
+    els.bar.style.width = pct + '%';
+    if(remaining <= Math.ceil(total*0.2) && remaining>0){ els.bar.classList.add('urgent'); }
+  }
+  paint();
+  timerHandle = setInterval(function(){
+    remaining--;
+    if(remaining < 0){ clearActiveTimer(); onDone(); return; }
+    paint();
+  }, 1000);
+}
+
+/* ===================== PERSISTENCE ===================== */
+var STORAGE_KEY = 'a1_pruefungstraining_progress_v1';
+function saveProgress(){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify({current:current, maxReached:maxReached})); }catch(e){}
+}
+function loadProgress(){
+  try{
+    var raw = localStorage.getItem(STORAGE_KEY);
+    if(!raw) return null;
+    var data = JSON.parse(raw);
+    if(typeof data.current === 'number') return data;
+  }catch(e){}
+  return null;
+}
+function clearProgress(){
+  try{ localStorage.removeItem(STORAGE_KEY); }catch(e){}
+  maxReached = 0;
+}
+
+/* ===================== NAVIGATION ===================== */
+function goTo(i){
+  clearActiveTimer();
+  stopSpeak();
+  current = Math.max(0, Math.min(STEPS.length-1, i));
+  if(current > maxReached) maxReached = current;
+  saveProgress();
+  render();
+  window.scrollTo(0,0);
+}
+function next(){ goTo(current+1); }
+
+/* ===================== CHROME ===================== */
+function firstIndexOfGroup(g){
+  for(var i=0;i<STEPS.length;i++){ if(STEPS[i].group===g) return i; }
+  return 0;
+}
+function renderChrome(step){
+  var stepper = document.getElementById('stepper');
+  stepper.innerHTML = GROUP_LABELS.map(function(g){
+    var idx = firstIndexOfGroup(g.key);
+    var reached = idx <= maxReached;
+    var cls = 'step-tab' + (step.group===g.key?' active':'') + (reached?' reached':' locked');
+    return '<button class="'+cls+'" data-idx="'+idx+'" '+(reached?'':'disabled')+'>'+g.label+'</button>';
+  }).join('');
+  Array.prototype.forEach.call(stepper.querySelectorAll('.step-tab'), function(btn){
+    btn.addEventListener('click', function(){
+      var idx = parseInt(btn.getAttribute('data-idx'),10);
+      if(!isNaN(idx)) goTo(idx);
+    });
+  });
+  var pct = Math.round((current/(STEPS.length-1))*100);
+  document.getElementById('progressFill').style.width = pct + '%';
+}
+
+/* ===================== RENDER: START ===================== */
+function renderStart(el){
+  var resumeHtml = '';
+  if(savedProgress && savedProgress.current > 1){
+    resumeHtml = '<div class="resume-box"><p>Sie haben gespeicherten Fortschritt: Schritt ' + savedProgress.current + ' von ' + (STEPS.length-1) + '.</p>' +
+      '<div class="row"><button class="btn" id="resumeBtn">Weitermachen</button><button class="btn btn-quiet" id="restartBtn">Neu starten</button></div></div>';
+  }
+  el.innerHTML =
+    '<div class="cover">' +
+      '<p class="cover-eyebrow">Goethe-Zertifikat A1 &middot; telc Deutsch A1</p>' +
+      '<h1 class="cover-title">Prüfungstraining A1</h1>' +
+      '<p class="cover-sub">Formular ausfüllen und Sprechen</p>' +
+      '<dl class="meta-table">' +
+        '<div class="meta-item"><dt>Niveau</dt><dd>A1</dd></div>' +
+        '<div class="meta-item"><dt>Dauer</dt><dd>ca. 35–40 Minuten</dd></div>' +
+        '<div class="meta-item"><dt>Teil 1</dt><dd>Formular ausfüllen, 8 Übungen</dd></div>' +
+        '<div class="meta-item"><dt>Teil 2</dt><dd>Sprechen, 48 Karten und Fragen</dd></div>' +
+      '</dl>' +
+      '<ol class="howto">' +
+        '<li>Sie hören eine Aufgabe und bekommen Zeit zum Nachdenken.</li>' +
+        '<li>Sie schreiben oder sprechen Ihre Antwort laut, bevor die Zeit endet.</li>' +
+        '<li>Erst danach zeigt das Training die Lösung zum Vergleich.</li>' +
+      '</ol>' +
+      resumeHtml +
+      '<p class="cover-ar ar" dir="rtl" lang="ar">هذا برنامج تدريب كامل على امتحان اللغة الألمانية A1. استمع جيدًا، فكّر، ثم اكتب إجابتك أو تحدث بصوت عالٍ. لا تنظر إلى الحل إلا بعد انتهاء الوقت المحدد.</p>' +
+      '<div class="row"><button class="btn" id="startBtn">Training beginnen</button></div>' +
+    '</div>';
+  if(savedProgress && savedProgress.current > 1){
+    document.getElementById('resumeBtn').addEventListener('click', function(){ goTo(savedProgress.current); });
+    document.getElementById('restartBtn').addEventListener('click', function(){ clearProgress(); savedProgress=null; goTo(0); });
+  }
+  document.getElementById('startBtn').addEventListener('click', next);
+}
+
+/* ===================== RENDER: SECTION INTRO ===================== */
+function renderSectionIntro(el, step){
+  el.innerHTML =
+    '<div class="intro-block">' +
+      '<p class="kicker">' + step.kicker + '</p>' +
+      '<h2 class="heading">' + step.heading + '</h2>' +
+      (step.headingAr ? '<p class="body-text ar" dir="rtl" lang="ar" style="color:var(--ink-soft);margin-bottom:14px;">' + step.headingAr + '</p>' : '') +
+      '<p class="body-text">' + step.body + '</p>' +
+      '<div class="row"><button class="btn" id="continueBtn">Weiter</button></div>' +
+    '</div>';
+  document.getElementById('continueBtn').addEventListener('click', next);
+}
+
+/* ===================== RENDER: FORMULAR ===================== */
+function renderFormular(el, step){
+  var playsLeft = 2;
+  var diffDots = '';
+  if(step.diff){
+    diffDots = '<div class="diff-meter"><span>' + step.diff + '</span><span class="diff-dots">' +
+      [1,2,3,4].map(function(n){ return '<span class="'+(n<=step.diffLevel?'on':'')+'"></span>'; }).join('') +
+      '</span></div>';
+  }
+  var fieldsHtml = step.fields.map(function(f){
+    return '<div class="field"><label for="f_'+f.key+'">'+f.label+'</label>' +
+      '<input type="text" id="f_'+f.key+'" autocomplete="off" spellcheck="false">' +
+      '<div class="field-solution" id="sol_'+f.key+'" hidden></div></div>';
+  }).join('');
+  var refText = step.final ? 'Abschlussprüfung' : ('Übung ' + step.index + ' von ' + step.total);
+
+  el.innerHTML =
+    '<div class="sheet">' +
+      '<div class="sheet-head"><h2>' + step.title + '</h2><span class="sheet-ref">' + refText + '</span></div>' +
+      '<div class="sheet-body">' +
+        diffDots +
+        '<p class="spoken-line">„' + step.instructionSpoken + '"</p>' +
+        '<div class="audio-row">' +
+          '<button class="btn btn-quiet" id="playBtn">🔊 Abspielen <span id="playsLeftLbl">(2× möglich)</span></button>' +
+          '<button class="btn btn-quiet" id="transcriptToggle">Text anzeigen (Hilfe)</button>' +
+        '</div>' +
+        '<p class="transcript" id="transcriptBox" hidden></p>' +
+        '<div class="form-grid" id="formGrid">' + fieldsHtml + '</div>' +
+        '<div class="timer-zone" id="timerZone" hidden>' +
+          '<div class="timer-banner" id="timerBanner">Ihre Zeit beginnt jetzt!</div>' +
+          '<div class="timer-row"><div class="timer-track"><div class="timer-bar" id="timerBar"></div></div><div class="timer-num" id="timerNum">' + step.seconds + '</div></div>' +
+        '</div>' +
+        '<div class="row">' +
+          '<button class="btn" id="startBtn">Zeit starten</button>' +
+          '<button class="btn btn-reveal" id="revealBtn" hidden>Lösung anzeigen</button>' +
+          '<button class="btn" id="nextBtn" hidden>' + (step.final ? 'Weiter' : 'Nächste Aufgabe') + '</button>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+
+  document.getElementById('transcriptBox').textContent = step.audioText;
+  document.getElementById('transcriptToggle').addEventListener('click', function(){
+    var box = document.getElementById('transcriptBox');
+    box.hidden = !box.hidden;
+  });
+  var playBtn = document.getElementById('playBtn');
+  playBtn.addEventListener('click', function(){
+    if(playsLeft <= 0) return;
+    var ok = speak(step.audioText);
+    playsLeft--;
+    document.getElementById('playsLeftLbl').textContent = playsLeft>0 ? ('('+playsLeft+'× möglich)') : '(0× übrig)';
+    if(playsLeft<=0) playBtn.disabled = true;
+    if(!ok) document.getElementById('transcriptBox').hidden = false;
+  });
+  document.getElementById('startBtn').addEventListener('click', function(){
+    this.hidden = true;
+    document.getElementById('timerZone').hidden = false;
+    var banner = document.getElementById('timerBanner');
+    banner.textContent = 'Ihre Zeit beginnt jetzt!';
+    banner.className = 'timer-banner';
+    speak(step.instructionSpoken, function(){
+      if(playsLeft>0) playBtn.click();
+    });
+    runTimer(step.seconds, {num:document.getElementById('timerNum'), bar:document.getElementById('timerBar')}, function(){
+      banner.textContent = 'Die Zeit ist vorbei.';
+      banner.classList.add('done');
+      step.fields.forEach(function(f){ document.getElementById('f_'+f.key).disabled = true; });
+      if(step.deferReveal){ document.getElementById('nextBtn').hidden = false; }
+      else { document.getElementById('revealBtn').hidden = false; }
+    });
+  });
+  var revealBtn = document.getElementById('revealBtn');
+  if(revealBtn){
+    revealBtn.addEventListener('click', function(){
+      step.fields.forEach(function(f){
+        var sol = document.getElementById('sol_'+f.key);
+        sol.hidden = false;
+        sol.textContent = '✓ ' + step.answers[f.key];
+      });
+      revealBtn.hidden = true;
+      document.getElementById('nextBtn').hidden = false;
+    });
+  }
+  document.getElementById('nextBtn').addEventListener('click', next);
+}
+
+/* ===================== RENDER: CARD SPEAKING (frage-stellen / bitte) ===================== */
+function renderCardSpeaking(el, step){
+  var isFrage = step.type === 'frage-stellen';
+  var counterLabel = step.final ? 'Aufgabe' : (isFrage ? 'Karte' : 'Situation');
+  el.innerHTML =
+    '<p class="card-counter center">' + counterLabel + ' ' + step.index + ' von ' + step.total + '</p>' +
+    '<div class="card-stage"><div class="index-card"><span class="index-card-word">' + step.card + '</span></div></div>' +
+    '<p class="spoken-line center" style="border-left:none;padding-left:0;">„' + step.instructionSpoken + '"</p>' +
+    '<div class="timer-zone center" id="timerZone" hidden>' +
+      '<div class="timer-banner" id="timerBanner">Ihre Zeit beginnt jetzt!</div>' +
+      '<div class="timer-row"><div class="timer-track"><div class="timer-bar" id="timerBar"></div></div><div class="timer-num" id="timerNum">' + step.seconds + '</div></div>' +
+      '<p class="speak-cue">🎤 Sprechen Sie jetzt laut.</p>' +
+    '</div>' +
+    '<div class="row center">' +
+      '<button class="btn" id="startBtn">Zeit starten</button>' +
+      '<button class="btn btn-reveal" id="revealBtn" hidden>Lösung anzeigen</button>' +
+      '<button class="btn" id="nextBtn" hidden>' + (step.final ? 'Weiter' : 'Nächste Aufgabe') + '</button>' +
+    '</div>' +
+    '<div id="solutionBox"></div>';
+
+  document.getElementById('startBtn').addEventListener('click', function(){
+    this.hidden = true;
+    document.getElementById('timerZone').hidden = false;
+    speak(step.instructionSpoken);
+    runTimer(step.seconds, {num:document.getElementById('timerNum'), bar:document.getElementById('timerBar')}, function(){
+      var banner = document.getElementById('timerBanner');
+      banner.textContent = 'Die Zeit ist vorbei.';
+      banner.classList.add('done');
+      if(step.deferReveal){ document.getElementById('nextBtn').hidden = false; }
+      else { document.getElementById('revealBtn').hidden = false; }
+    });
+  });
+  var revealBtn = document.getElementById('revealBtn');
+  if(revealBtn){
+    revealBtn.addEventListener('click', function(){
+      var lead = isFrage ? 'Eine mögliche Frage ist' : 'Mögliche Bitte';
+      var html = '<div class="reveal center"><p class="reveal-lead">' + lead + '</p><p class="reveal-main">„' + step.model + '"</p>';
+      if(step.modelAlt) html += '<p class="reveal-alt">oder: „' + step.modelAlt + '"</p>';
+      html += '</div>';
+      document.getElementById('solutionBox').innerHTML = html;
+      revealBtn.hidden = true;
+      document.getElementById('nextBtn').hidden = false;
+    });
+  }
+  document.getElementById('nextBtn').addEventListener('click', next);
+}
+
+/* ===================== RENDER: ANTWORTEN ===================== */
+function renderAntworten(el, step){
+  var counterLabel = step.final ? 'Aufgabe' : 'Frage';
+  el.innerHTML =
+    '<p class="card-counter">' + counterLabel + ' ' + step.index + ' von ' + step.total + '</p>' +
+    '<p class="dialogue-cap">Die Prüferin fragt</p>' +
+    '<p class="dialogue-q">„' + step.question + '"</p>' +
+    '<div class="timer-zone" id="timerZone" hidden>' +
+      '<div class="timer-banner" id="timerBanner">Ihre Zeit beginnt jetzt!</div>' +
+      '<div class="timer-row"><div class="timer-track"><div class="timer-bar" id="timerBar"></div></div><div class="timer-num" id="timerNum">' + step.seconds + '</div></div>' +
+      '<p class="speak-cue">🎤 Antworten Sie jetzt laut.</p>' +
+    '</div>' +
+    '<div class="row">' +
+      '<button class="btn" id="startBtn">Zeit starten</button>' +
+      '<button class="btn btn-reveal" id="revealBtn" hidden>Lösung anzeigen</button>' +
+      '<button class="btn" id="nextBtn" hidden>' + (step.final ? 'Weiter' : 'Nächste Aufgabe') + '</button>' +
+    '</div>' +
+    '<div id="solutionBox"></div>';
+
+  document.getElementById('startBtn').addEventListener('click', function(){
+    this.hidden = true;
+    document.getElementById('timerZone').hidden = false;
+    speak(step.question);
+    runTimer(step.seconds, {num:document.getElementById('timerNum'), bar:document.getElementById('timerBar')}, function(){
+      var banner = document.getElementById('timerBanner');
+      banner.textContent = 'Die Zeit ist vorbei.';
+      banner.classList.add('done');
+      if(step.deferReveal){ document.getElementById('nextBtn').hidden = false; }
+      else { document.getElementById('revealBtn').hidden = false; }
+    });
+  });
+  var revealBtn = document.getElementById('revealBtn');
+  if(revealBtn){
+    revealBtn.addEventListener('click', function(){
+      var html = '<div class="reveal"><p class="reveal-lead">Mögliche Antworten</p>' +
+        step.models.map(function(m){ return '<p class="reveal-main">„'+m+'"</p>'; }).join('') + '</div>';
+      document.getElementById('solutionBox').innerHTML = html;
+      revealBtn.hidden = true;
+      document.getElementById('nextBtn').hidden = false;
+    });
+  }
+  document.getElementById('nextBtn').addEventListener('click', next);
+}
+
+/* ===================== RENDER: FINAL SOLUTIONS ===================== */
+function renderFinalSolutions(el){
+  var formAnswersHtml = FINAL_FORMULAR.fields.map(function(f){
+    return '<li><strong>' + f.label + ':</strong> ' + FINAL_FORMULAR.answers[f.key] + '</li>';
+  }).join('');
+  var itemsHtml = FINAL_ITEMS.map(function(it, i){
+    var taskLabel, taskContent, answer;
+    if(it.type==='frage-stellen'){
+      taskLabel = 'Karte (Frage stellen)'; taskContent = it.card;
+      answer = 'Mögliche Frage: „' + it.model + '"' + (it.modelAlt ? ' &nbsp;oder: „'+it.modelAlt+'"' : '');
+    } else if(it.type==='bitte'){
+      taskLabel = 'Karte (Bitte)'; taskContent = it.card;
+      answer = 'Mögliche Bitte: „' + it.model + '"' + (it.modelAlt ? ' &nbsp;oder: „'+it.modelAlt+'"' : '');
+    } else {
+      taskLabel = 'Frage (Antworten)'; taskContent = it.question;
+      answer = 'Mögliche Antworten: ' + it.models.map(function(m){return '„'+m+'"';}).join(' / ');
+    }
+    return '<div class="sol-item"><p class="sol-item-num">Aufgabe ' + (i+1) + '</p>' +
+      '<p class="sol-item-task"><strong>' + taskLabel + ':</strong> ' + taskContent + '</p>' +
+      '<p class="sol-item-answer">' + answer + '</p></div>';
+  }).join('');
+
+  el.innerHTML =
+    '<div class="intro-block">' +
+      '<p class="kicker">Abschlussprüfung</p>' +
+      '<h2 class="heading">Lösungen / Modellantworten</h2>' +
+      '<h3 class="sol-subhead">Formular</h3>' +
+      '<ul class="sol-list">' + formAnswersHtml + '</ul>' +
+      '<h3 class="sol-subhead">Sprechen</h3>' +
+      '<div class="sol-grid">' + itemsHtml + '</div>' +
+      '<div class="row"><button class="btn" id="continueBtn">Weiter</button></div>' +
+    '</div>';
+  document.getElementById('continueBtn').addEventListener('click', next);
+}
+
+/* ===================== RENDER: COMPLETE ===================== */
+function renderComplete(el){
+  el.innerHTML =
+    '<div class="cover center">' +
+      '<p class="cover-eyebrow">Training abgeschlossen</p>' +
+      '<h1 class="cover-title">Geschafft!</h1>' +
+      '<p class="cover-sub">Sie haben neun Formulare und sechsundfünfzig Sprechaufgaben bearbeitet.</p>' +
+      '<p class="cover-ar ar" dir="rtl" lang="ar">أحسنت! لقد أكملت برنامج التدريب الكامل. يمكنك إعادة أي قسم في أي وقت من الأعلى.</p>' +
+      '<div class="row center"><button class="btn" id="restartBtn2">Von vorne beginnen</button></div>' +
+    '</div>';
+  document.getElementById('restartBtn2').addEventListener('click', function(){ clearProgress(); goTo(0); });
+}
+
+/* ===================== DISPATCH ===================== */
+function render(){
+  var step = STEPS[current];
+  renderChrome(step);
+  var content = document.getElementById('content');
+  content.innerHTML = '';
+  switch(step.type){
+    case 'start': renderStart(content); break;
+    case 'section-intro': renderSectionIntro(content, step); break;
+    case 'formular': renderFormular(content, step); break;
+    case 'frage-stellen': renderCardSpeaking(content, step); break;
+    case 'bitte': renderCardSpeaking(content, step); break;
+    case 'antworten': renderAntworten(content, step); break;
+    case 'final-solutions': renderFinalSolutions(content); break;
+    case 'complete': renderComplete(content); break;
+  }
+}
+
+/* ===================== INIT ===================== */
+function init(){
+  savedProgress = loadProgress();
+  if(savedProgress && typeof savedProgress.maxReached === 'number') maxReached = savedProgress.maxReached;
+  var toggle = document.getElementById('audioToggle');
+  toggle.addEventListener('click', function(){
+    audioEnabled = !audioEnabled;
+    toggle.textContent = audioEnabled ? '🔊' : '🔇';
+    if(!audioEnabled) stopSpeak();
+  });
+  render();
+}
+document.addEventListener('DOMContentLoaded', init);
+
+})();
+</script>
+</body>
+</html>
