@@ -13,8 +13,11 @@
     fetch('data/registry.json').then(function (r) { return r.json(); }),
     fetch('data/audio.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
   ]).then(function (res) {
-    var L = res[0].levels.a1.lessons, A = {}; ((res[1] && res[1].a1) || []).forEach(function (x) { A[x.n] = x.src; });
-    var T = L.map(function (x) { return { n: x.n, title: x.title, src: A[x.n] || null }; });
+    var L = res[0].levels.a1.lessons, A = {}; ((res[1] && res[1].a1) || []).forEach(function (x) { A[x.n] = x; });
+    var T = L.map(function (x) { return { n: x.n, title: x.title, e: A[x.n] || null, src: null }; });
+    T.forEach(function (t) { t.src = t.e ? true : null; });
+    function resolve(t) { var e = t.e; if (e.src) return Promise.resolve(e.src); if (!t.p) t.p = Promise.all(e.parts.map(function (q) { return fetch(q).then(function (r) { if (!r.ok) throw new Error('part'); return r.text(); }); })).then(function (x) { var bin = atob(x.join('').replace(/\\s+/g, '')), u = new Uint8Array(bin.length); for (var i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return URL.createObjectURL(new Blob([u], { type: e.mime || 'audio/mp4' })); }); return t.p; }
+    T.forEach(function (t) { if (t.e && !t.e.src) resolve(t).catch(function () {}); });
     var cur = -1;
     var au = el('audio', { preload: 'none', 'aria-label': 'Playlist player' });
     var now = el('p', { class: 'pl-now' }, ['Pick a lesson; the next one plays automatically']);
@@ -34,7 +37,7 @@
       sub.textContent = c + ' of ' + T.length + ' lessons ready with audio';
     }
     function go(i, play) {
-      if (i < 0 || !T[i].src) return; cur = i; au.src = T[i].src; now.textContent = T[i].title; rg.value = 0; tc.textContent = '0:00'; td.textContent = '0:00';
+      if (i < 0 || !T[i].src) return; cur = i; now.textContent = T[i].title; var tk = T[i], pl = play; resolve(tk).then(function (u) { if (cur !== i) return; au.src = u; if (pl) { var q = au.play(); if (q && q.catch) q.catch(function () {}); } }); play = false; rg.value = 0; tc.textContent = '0:00'; td.textContent = '0:00';
       if ('mediaSession' in navigator) {
         try { navigator.mediaSession.metadata = new MediaMetadata({ title: T[i].title, artist: 'Deutsch by Barbary', album: 'A1' }); } catch (e) {}
         navigator.mediaSession.setActionHandler('nexttrack', function () { nxt(true); });
