@@ -20,6 +20,16 @@
      "audio": "audio/s3/vocab/01-entschuldigung.mp3"
     },
     {
+     "de": "Hallo",
+     "ar": "مرحبا",
+     "audio": "audio/s3/vocab/60-hallo.mp3"
+    },
+    {
+     "de": "Hi",
+     "ar": "هاي",
+     "audio": "audio/s3/vocab/62-hi.mp3"
+    },
+    {
      "de": "aber",
      "ar": "لكن، بس",
      "audio": "audio/s3/vocab/02-aber.mp3"
@@ -65,9 +75,15 @@
      "audio": "audio/s3/vocab/10-jetzt.mp3"
     },
     {
-     "de": "das Essen",
+     "de": "Essen",
+     "article": "das",
      "ar": "الأكل",
      "audio": "audio/s3/vocab/11-das-essen.mp3"
+    },
+    {
+     "de": "Arabisch",
+     "ar": "عربي",
+     "audio": "audio/s3/vocab/61-arabisch.mp3"
     }
    ]
   },
@@ -183,22 +199,26 @@
    "label": "Nouns to review",
    "words": [
     {
-     "de": "der Kaffee",
+     "de": "Kaffee",
+     "article": "der",
      "ar": "القهوة",
      "audio": "audio/s3/vocab/30-der-kaffee.mp3"
     },
     {
-     "de": "die Pizza",
+     "de": "Pizza",
+     "article": "die",
      "ar": "البيتزا",
      "audio": "audio/s3/vocab/31-die-pizza.mp3"
     },
     {
-     "de": "das Klavier",
+     "de": "Klavier",
+     "article": "das",
      "ar": "البيانو",
      "audio": "audio/s3/vocab/32-das-klavier.mp3"
     },
     {
-     "de": "die Gitarre",
+     "de": "Gitarre",
+     "article": "die",
      "ar": "الجيتار",
      "audio": "audio/s3/vocab/33-die-gitarre.mp3"
     }
@@ -305,35 +325,43 @@
  "cards": [
   {
    "de": "Entschuldigung",
-   "ar": "آسف / بعد إذنك"
+   "ar": "آسف / بعد إذنك",
+   "audio": "audio/s3/vocab/01-entschuldigung.mp3"
   },
   {
    "de": "aber",
-   "ar": "لكن، بس"
+   "ar": "لكن، بس",
+   "audio": "audio/s3/vocab/02-aber.mp3"
   },
   {
    "de": "für mich",
-   "ar": "بالنسبة لي"
+   "ar": "بالنسبة لي",
+   "audio": "audio/s3/vocab/06-fuer-mich.mp3"
   },
   {
    "de": "für dich",
-   "ar": "بالنسبة لك"
+   "ar": "بالنسبة لك",
+   "audio": "audio/s3/vocab/07-fuer-dich.mp3"
   },
   {
    "de": "mit dir",
-   "ar": "معاك"
+   "ar": "معاك",
+   "audio": "audio/s3/vocab/09-mit-dir.mp3"
   },
   {
    "de": "jetzt",
-   "ar": "دلوقتي"
+   "ar": "دلوقتي",
+   "audio": "audio/s3/vocab/10-jetzt.mp3"
   },
   {
    "de": "sehr",
-   "ar": "جدًا"
+   "ar": "جدًا",
+   "audio": "audio/s3/vocab/04-sehr.mp3"
   },
   {
    "de": "nicht",
-   "ar": "مش"
+   "ar": "مش",
+   "audio": "audio/s3/vocab/05-nicht.mp3"
   }
  ],
  "quiz": [
