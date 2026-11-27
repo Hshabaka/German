@@ -1,0 +1,47 @@
+{
+"_note": "شرح تعليمي مضاف. مش من ملف المدرس. اتكتب للمراجعة.",
+"2": {
+ "ex": {
+  "1": {"f":"Das ist sehr teuer.","m":"ده غالي جدًا.","w":"sehr معناها جدًا وبتتحط قبل الصفة علشان تقوّيها. teuer = غالي. القالب: Das ist + sehr + صفة."},
+  "2": {"f":"Das ist nicht einfach für mich.","m":"ده مش سهل بالنسبة لي.","w":"بالنسبة لـ بنقولها für. وبعد für بنستخدم mich مش ich."},
+  "3": {"f":"Das ist einfach.","m":"ده سهل.","w":"الجملة محتاجة فاعل في الأول. ده بالألماني Das، وبعده ist وبعده الصفة."},
+  "4": {"w":"ده = Das، جميل = schön، جدًا = sehr (قبل الصفة)، بالنسبة لي = für mich. الترتيب: Das ist sehr schön für mich."},
+  "5": {"w":"النفي بـ nicht بيتحط قبل الصفة مباشرة. nicht billig = مش رخيص."},
+  "6": {"w":"Vielleicht = ربما. لما الجملة تبدأ بـ Vielleicht، الفعل ist لازم يبقى تاني كلمة، فالفاعل das ييجي بعده: Vielleicht ist das schwierig."},
+  "7": {"w":"und بتربط جملتين، وكل جملة بتحافظ على ترتيبها. nicht sehr einfach = مش سهل جدًا: nicht قبل sehr قبل الصفة. und das ist ... بتبدأ جملة جديدة."},
+  "8": {"m":"ده سهل جدًا بالنسبة لي.","w":"بعد für بنستخدم mich مش ich. ich بيستخدم كفاعل بس."},
+  "9": {"m":"ده مش غالي.","w":"ist لازم ييجي بعد الفاعل Das على طول، وnicht بيتحط قبل الصفة: Das ist nicht teuer."},
+  "10": {"w":"lerne مع ich. und بتربط. toll = رائع. aber = لكن، وبعدها جملة كاملة: das ist schwierig. für dich = بالنسبة لك."}
+ },
+ "quiz": {
+  "1": {"f":"Das ist nicht einfach.","m":"ده مش سهل.","w":"النفي بنعمله بـ nicht قبل الصفة.","o":{"A":"nein معناها لا كإجابة، مش بتنفي صفة.","C":"kein بتنفي اسم (زي kein Auto)، وeinfach صفة، فبنستخدم nicht."}},
+  "2": {"f":"Das ist sehr teuer für mich.","m":"ده غالي جدًا بالنسبة لي.","w":"بعد für بنستخدم mich.","o":{"A":"ich للفاعل، مش بعد für."}},
+  "3": {"m":"ده مش جميل جدًا.","w":"الترتيب: فاعل + ist + nicht + sehr + صفة."},
+  "4": {"f":"aber","m":"لكن.","w":"aber بتربط جملتين متعارضتين، زي: Das ist schwierig, aber ich lerne."},
+  "5": {"m":"أنا أقدر أتكلم ألماني وده سهل.","w":"kann مع ich والفعل التاني sprechen في آخر الجملة بالمصدر. und بتربط بجملة جديدة: das ist einfach."}
+ }
+},
+"4": {
+ "ex": {
+  "1": {"f":"Du kochst.","m":"إنت بتطبخ.","w":"مع du بنشيل en من المصدر ونزود st: koch + st."},
+  "2": {"f":"Er lernt.","m":"هو بيتعلم.","w":"مع er بنشيل en ونزود t: lern + t."},
+  "3": {"f":"Ihr arbeitet.","m":"انتم بتشتغلوا.","w":"مع ihr النهاية t. وبما إن جذر arbeit بينتهي بـ t بنزود e قبل النهاية علشان النطق: arbeitet."},
+  "4": {"f":"Wir schlafen.","m":"احنا بننام.","w":"مع wir الفعل بيفضل زي المصدر بالظبط: schlafen."},
+  "5": {"f":"Du liest.","m":"إنت بتقرأ.","w":"lesen بيغيّر e لـ ie مع du و er. وجذر lies بينتهي بـ s فالنهاية هنا t بس: liest."},
+  "6": {"f":"Er spricht.","m":"هو بيتكلم.","w":"sprechen بيغيّر e لـ i مع du و er، والنهاية t: spricht."},
+  "7": {"m":"إنت تقدر تشتري قهوة.","w":"kann مع du بتبقى kannst. kaufen بتفضل مصدر في آخر الجملة."},
+  "8": {"m":"هو بيكتب الإيميل.","w":"مع er بنشيل en من schreiben ونزود t: schreibt."},
+  "9": {"f":"Sie kochen. / Sie kocht.","m":"حضرتك بتطبخ (أو هم). / هي بتطبخ.","w":"الفرق في نهاية الفعل: Sie بحرف S كبير أو sie (هم) بياخدوا en، و sie (هي) بتاخد t."},
+  "10": {"w":"sie (هي) مع kann. hören مصدر في آخر الجملة الأولى. aber + جملة كاملة: sie ist müde (ist مع sie)."}
+ },
+ "quiz": {
+  "1": {"f":"Du lernst Deutsch.","m":"إنت بتتعلم ألماني.","w":"مع du النهاية st.","o":{"A":"lerne مع ich.","C":"lernt مع er/sie/ihr."}},
+  "2": {"f":"Wir können das Essen kochen.","m":"احنا نقدر نطبخ الأكل.","w":"wir مع können، وkochen في آخر الجملة.","o":{"A":"kann مع ich و er.","B":"kannst مع du."}},
+  "3": {"f":"Er spricht Arabisch.","m":"هو بيتكلم عربي.","w":"er مع sprechen بتبقى spricht (e بتتحول i ونهاية t).","o":{"A":"sprechen شكل المصدر، مع wir أو sie (هم).","B":"sprichst مع du."}},
+  "4": {"f":"Ihr arbeitet jetzt.","m":"انتم بتشتغلوا دلوقتي.","w":"ihr مع النهاية t، وبنزود e قبلها: arbeitet.","o":{"B":"arbeite مع ich.","C":"arbeitest مع du."}},
+  "5": {"m":"إنت تقدر تطبخ الأكل.","w":"الفعل المتصرّف kannst تاني كلمة بعد du، والمصدر kochen في آخر الجملة."},
+  "6": {"m":"هو بيتعلم ألماني. / احنا نقدر ننام.","w":"er لازم t: lernt (lernst لـ du). wir مع kann بتبقى können."},
+  "7": {"m":"احنا نقدر نشتغل مع بعض.","w":"wir + können، zusammen = مع بعض، arbeiten مصدر في الآخر."}
+ }
+}
+}
