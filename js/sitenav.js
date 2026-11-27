@@ -26,6 +26,7 @@
       if (pg.n < TOTAL) acts.appendChild(a(href(pg.n + 1), 'التالي ←'));
     }
     if (pg.kind === 'lesson' && pg.n === 28) acts.appendChild(a('a1/s28/exam/', 'تدريب الامتحان'));
+    if (pg.kind === 'list') { var pl = a('a1/playlist/', '🎧 بلاي ليست'); pl.style.background = '#0f766e'; pl.style.color = '#fff'; acts.appendChild(pl); }
     if (pg.kind === 'lesson' || pg.kind === 'list') acts.appendChild(a('a1/files/', 'ملفات PDF'));
     bar.appendChild(acts);
   }
