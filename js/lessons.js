@@ -120,6 +120,7 @@
   function home(idx) {
     app.textContent = '';
     var w = el('div', { class: 'lx' }, [el('h1', { style: 'font-size:22px;margin:0 0 6px' }, ['اختار درسك (A1)']), el('p', { style: 'margin:0 0 12px' }, ['الدروس بالترتيب من 1 لحد 28. ابدأ من الدرس 1.'])]);
+    w.appendChild(el('a', { href: 'a1/playlist/', style: 'display:flex;align-items:center;gap:10px;min-height:56px;padding:10px 14px;margin:10px 0;border-radius:12px;background:#0f172a;color:#fff;text-decoration:none;font-weight:700' }, [el('span', {}, ['🎧']), el('span', {}, ['بلاي ليست A1 (صوت فقط)'])]));
     idx.lessons.forEach(function (x) {
       var done = window.A1Practice && window.A1Practice.done(x.n);
       w.appendChild(el('a', { href: 'a1/' + pad2(x.n) + '/', style: 'display:flex;align-items:center;gap:10px;min-height:52px;padding:10px 14px;margin:8px 0;border:1px solid #cbd5e1;border-radius:12px;color:inherit;text-decoration:none' }, [el('span', { style: 'font-weight:700;min-width:78px;direction:ltr' }, [code(x.n)]), el('span', { style: 'flex:1' }, [x.title.replace(/^الدرس\s*\d+\s*[:：]\s*/, '')]), el('span', {}, [done ? '✓' : '←'])]));
