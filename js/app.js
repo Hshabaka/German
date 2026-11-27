@@ -315,7 +315,7 @@
     var a = el('audio', { controls: '', preload: 'none', style: 'width:100%;margin-top:6px', 'aria-label': 'صوت الدرس' });
     AUD.el = a;
     a.addEventListener('ended', function () { if (AUD.all) audNext(true); });
-    var btn = el('button', { type: 'button', style: 'min-height:32px;padding:3px 11px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit;font-size:13px', onclick: function () { AUD.all = true; audSet(0); a.play(); } }, ['🎧 تشغيل الكل (صوت)']);
+    var btn = el('button', { type: 'button', style: 'min-height:32px;padding:3px 11px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit;font-size:13px', onclick: function () { AUD.all = false; audSet(0); a.play(); } }, ['🎧 صوت الدرس فقط']);
     var title = el('span', { id: 'aud-title', class: 'caption', style: 'margin-inline-start:8px' }, [AUD.list[AUD.i].title]);
     var box = el('div', { style: 'margin:10px 0 0' }, [btn, title, a]);
     setTimeout(function () { audSet(AUD.i); }, 0);
