@@ -447,3 +447,8 @@ html.sn-dark .tab[aria-selected="true"] .tab-count{background:rgba(94,234,212,.2
 .wcol .word .audio-btn svg, .wrest .word .audio-btn svg { width: 14px; height: 14px; }
 .wcols { gap: 6px; }
 .wcol { gap: 4px !important; }
+#sec-vocab .word { padding: 3px 8px !important; gap: 6px; border-radius: 10px; min-height: 0; }
+#sec-vocab .word-de { font-size: 13px !important; }
+#sec-vocab .word-ar { font-size: 13px !important; }
+#sec-vocab .word .audio-btn { width: 28px !important; height: 28px !important; min-width: 28px; min-height: 28px; }
+#sec-vocab .word .audio-btn svg { width: 14px; height: 14px; }
