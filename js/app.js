@@ -581,8 +581,7 @@
               if (answers[qi].result === 'correct' && s.quiz.every(function (_, i) { return answers[i] && answers[i].result === 'correct'; })) markTracker('did-quiz');
               persist(); render();
             }
-          }, ['✓']),
-          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'Reset', onclick: function () { delete answers[qi]; persist(); render(); } }, ['↺'])
+          }, ['✓'])
         ]),
         el('div', { class: 'quiz-options', dir: 'ltr' }, q.options.map(function (opt, oi) {
           var selected = st && st.choice === oi;
@@ -683,8 +682,7 @@
               cur.result = (built === it.answer.replace(/[.?]$/, '')) ? 'correct' : 'wrong';
               if (cur.result === 'correct' && drillAllDone(s)) markTracker('did-practice');
               persist(); render();
-            } }, ['✓']),
-          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'Reset', onclick: function () { delete ans[key]; persist(); render(); } }, ['↺'])
+            } }, ['✓'])
         ]),
         bank
       ]);
@@ -703,8 +701,7 @@
             ans[key].result = ans[key].choice === it.answer ? 'correct' : 'wrong';
             if (ans[key].result === 'correct' && drillAllDone(s)) markTracker('did-practice');
             persist(); render();
-          } }, ['✓']),
-          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'Reset', onclick: function () { delete ans[key]; persist(); render(); } }, ['↺'])]),
+          } }, ['✓'])]),
         el('div', { class: 'quiz-options', dir: 'ltr' }, it.options.map(function (opt, oi) {
           var selected = st && st.choice === oi;
           return el('button', { class: 'quiz-opt' + ' long', type: 'button',
@@ -789,6 +786,23 @@
       ]);
     });
   }
+  function withReset(sec, label, fn) {
+    if (!sec) return sec;
+    var b = el('button', { type: 'button', class: 'sec-reset', 'aria-label': 'Reset ' + label, title: 'Reset all questions in this section', onclick: function () {
+      fn(); persist(); render();
+    } }, ['↺ Reset']);
+    sec.querySelector('.panel-head').appendChild(b);
+    return sec;
+  }
+  function resetQuizAll() {
+    var a = store.data.answers; Object.keys(a).forEach(function (k) { if (/^\d+$/.test(k)) delete a[k]; });
+  }
+  function resetDrillsAll() {
+    var a = store.data.answers; Object.keys(a).forEach(function (k) { if (/^[bet]\d+$/.test(k)) delete a[k]; });
+    if (state.speech) Object.keys(state.speech).forEach(function (k) { delete state.speech[k]; });
+    if (state.shown) Object.keys(state.shown).forEach(function (k) { delete state.shown[k]; });
+  }
+
   function renderDrills(s) {
     if (!s.practice) return null;
     var modes = [['Sentence order', renderBuild], ['Find the mistake', renderErrors], ['Translate', renderTranslate]];
@@ -860,8 +874,8 @@
         renderSentences(s),
         renderGrammar(s),
         renderMaterials(s),
-        renderDrills(s),
-        renderQuiz(s),
+        withReset(renderDrills(s), 'sentence exercises', resetDrillsAll),
+        withReset(renderQuiz(s), 'test', resetQuizAll),
         renderExtra(s)
       ].filter(Boolean))
     ]));
