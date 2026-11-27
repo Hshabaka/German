@@ -267,8 +267,7 @@
     {
      "de": "joggen",
      "ar": "يجري",
-     "noaudio": true,
-     "audio_target": "audio/vocab/42-joggen.mp3"
+     "audio": "audio/vocab/42-joggen.mp3"
     },
     {
      "de": "reiten",
@@ -450,39 +449,47 @@
  "cards": [
   {
    "de": "ich lerne",
-   "ar": "أنا أتعلم"
+   "ar": "أنا أتعلم",
+   "audio": "audio/vocab/01-ich-lerne.mp3"
   },
   {
    "de": "ich trinke",
-   "ar": "أنا أشرب"
+   "ar": "أنا أشرب",
+   "audio": "audio/vocab/04-ich-trinke.mp3"
   },
   {
    "de": "ich höre",
-   "ar": "أنا أسمع"
+   "ar": "أنا أسمع",
+   "audio": "audio/vocab/05-ich-hoere.mp3"
   },
   {
    "de": "ich koche",
-   "ar": "أنا أطبخ"
+   "ar": "أنا أطبخ",
+   "audio": "audio/vocab/06-ich-koche.mp3"
   },
   {
    "de": "Kaffee",
    "article": "der",
-   "ar": "القهوة"
+   "ar": "القهوة",
+   "audio": "audio/vocab/09-kaffee.mp3"
   },
   {
    "de": "Wasser",
    "article": "das",
-   "ar": "الماء"
+   "ar": "الماء",
+   "audio": "audio/vocab/12-wasser.mp3"
   },
   {
    "de": "Zeitung",
    "article": "die",
-   "ar": "الجريدة"
+   "ar": "الجريدة",
+   "audio": "audio/vocab/14-zeitung.mp3"
   },
   {
    "de": "Kino",
    "article": "das",
-   "ar": "السينما"
+   "ar": "السينما",
+   "audio": "audio/vocab/17-kino.mp3"
   }
  ],
  "quiz": [
