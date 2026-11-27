@@ -452,3 +452,4 @@ html.sn-dark .tab[aria-selected="true"] .tab-count{background:rgba(94,234,212,.2
 #sec-vocab .word-ar { font-size: 13px !important; }
 #sec-vocab .word .audio-btn { width: 28px !important; height: 28px !important; min-width: 28px; min-height: 28px; }
 #sec-vocab .word .audio-btn svg { width: 14px; height: 14px; }
+.sec-reset{margin-left:auto;min-height:44px;padding:0 14px;border-radius:12px;border:1px solid var(--hairline);background:transparent;color:var(--ink);font-size:14px;font-weight:700;cursor:pointer;flex:0 0 auto}
