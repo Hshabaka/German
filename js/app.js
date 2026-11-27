@@ -840,7 +840,7 @@
     var x = s.extra;
     if (!x || !(x.links || x.url)) return null;
     var links = x.links || [{ title: 'Open the DW exercise', url: x.url }];
-    var kids = [el('p', { style: 'margin:0 0 12px' }, [x.label + (x.video_key ? '' : ':')])];
+    var kids = [el('p', { style: 'margin:0 0 12px' }, [x.label + (x.video_key || /[.!?:]$/.test(x.label) ? '' : ':')])];
     if (x.video_key) {
       var vwrap = el('div', { style: 'margin:0 0 6px;border-radius:12px;overflow:hidden;background:#000' }, []);
       var vmsg = el('p', { class: 'caption', style: 'margin:6px 0' }, ['Loading the video...']);
