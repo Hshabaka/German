@@ -205,7 +205,7 @@
         el('div', { class: 'hero-main' }, [
           el('div', { class: 'hero-chips' }, [
             el('span', { class: 'chip chip-level' }, ['German ' + s.level]),
-            el('span', { class: 'chip' }, ['A1-S01'])
+            el('span', { class: 'chip' }, ['A1-S' + (SN < 10 ? '0' : '') + SN])
           ]),
           el('h1', {}, [String(s.title)]),
           el('p', { class: 'hero-sub' }, ['Lesson video, grammar and practice on one page.'])
