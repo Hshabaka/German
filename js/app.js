@@ -10,7 +10,7 @@
     localKey: 'german-site.progress.v1'
   };
 
-  var arNum = function (n) { return Number(n).toLocaleString('ar-EG'); };
+  var arNum = function (n) { return String(n); };
 
   var store = {
     data: { answers: {}, tracker: {}, updatedAt: null },
@@ -59,7 +59,7 @@
   };
 
   var state = {
-    sortColor: {},
+    sortColor: {}, speech: {},
     session: null,
     tab: 0,
     cardIndex: 0,
@@ -109,6 +109,17 @@
     return s;
   }
 
+  function rich(text) {
+    var out = [], re = /[A-Za-zÄÖÜäöüß]+(?:[ \-][A-Za-zÄÖÜäöüß]+)*/g, last = 0, m, t = String(text == null ? '' : text);
+    while ((m = re.exec(t))) {
+      if (m.index > last) out.push(t.slice(last, m.index));
+      out.push(el('bdi', { class: 'lt', dir: 'ltr' }, [m[0]]));
+      last = m.index + m[0].length;
+    }
+    if (last < t.length) out.push(t.slice(last));
+    return out;
+  }
+
   function articleSpan(article) {
     if (!article) return null;
     return el('span', { class: 'art art-' + article, dir: 'ltr' }, [article]);
@@ -131,18 +142,18 @@
 
   function showAudioError(btn) {
     if (btn.parentNode.querySelector('.audio-err')) return;
-    btn.parentNode.appendChild(el('span', { class: 'audio-err', role: 'status' }, ['الصوت مش متاح دلوقتي']));
+    btn.parentNode.appendChild(el('span', { class: 'audio-err', role: 'status' }, ['Audio is not available right now']));
   }
 
   function renderBanner() {
     var kind, text;
-    if (state.syncState === 'synced') { kind = 'ok'; text = 'تقدمك محفوظ ومتحدّث.'; }
-    else if (state.syncState === 'error') { kind = 'error'; text = 'حصل خطأ في الحفظ.'; }
-    else if (state.syncState === 'offline-queued') { kind = 'wait'; text = CONFIG.progressEndpoint ? 'أوفلاين — تعديلاتك محفوظة هنا وهتتبعت لما الإنترنت يرجع.' : 'أوفلاين — تعديلاتك محفوظة على الجهاز ده. الإرسال المركزي لسه مش مفعّل.'; }
-    else { kind = 'wait'; text = 'الحفظ حاليًا على هذا الجهاز بس. المزامنة المركزية لسه مش شغالة — هتتفعّل لما خادم المزامنة يجهز.'; }
+    if (state.syncState === 'synced') { kind = 'ok'; text = 'Your progress is saved and up to date.'; }
+    else if (state.syncState === 'error') { kind = 'error'; text = 'Saving failed.'; }
+    else if (state.syncState === 'offline-queued') { kind = 'wait'; text = CONFIG.progressEndpoint ? 'Offline. Your changes are saved here and will be sent when the connection returns.' : 'Offline. Your changes are saved on this device. Central sync is not enabled yet.'; }
+    else { kind = 'wait'; text = 'Progress is saved on this device only. Central sync is not enabled yet.'; }
     return el('div', { class: 'banner', 'data-kind': kind, role: 'status' }, [
       el('span', {}, [text]),
-      el('button', { class: 'btn btn-secondary', type: 'button', onclick: function () { store.flush(setSync); render(); } }, ['إعادة القراءة'])
+      el('button', { class: 'btn btn-secondary', type: 'button', onclick: function () { store.flush(setSync); render(); } }, ['Reload'])
     ]);
   }
 
@@ -188,17 +199,17 @@
       el('div', { class: 'wrap hero-row' }, [
         el('div', { class: 'hero-main' }, [
           el('div', { class: 'hero-chips' }, [
-            el('span', { class: 'chip chip-level' }, ['ألماني ' + s.level]),
+            el('span', { class: 'chip chip-level' }, ['German ' + s.level]),
             el('span', { class: 'chip' }, ['A1-S01'])
           ]),
-          el('h1', {}, [String(s.title).replace(/^الجلسة\s*(\d+)/, 'الدرس $1')]),
-          el('p', { class: 'hero-sub' }, ['فيديو الدرس والقاعدة والتدريب في صفحة واحدة.'])
+          el('h1', {}, [String(s.title)]),
+          el('p', { class: 'hero-sub' }, ['Lesson video, grammar and practice on one page.'])
         ]),
-        el('div', { class: 'ring', role: 'img', 'aria-label': 'نسبة الإنجاز ' + arNum(pct) + ' في المية' }, [
+        el('div', { class: 'ring', role: 'img', 'aria-label': 'Progress ' + pct + ' percent' }, [
           svg,
           el('div', { class: 'ring-label' }, [
-            el('span', { class: 'ring-pct' }, [arNum(pct) + '٪']),
-            el('span', { class: 'ring-cap' }, ['منجز'])
+            el('span', { class: 'ring-pct' }, [pct + '%']),
+            el('span', { class: 'ring-cap' }, ['Done'])
           ])
         ])
       ])
@@ -245,11 +256,11 @@
           var a = el('a', { href: URL.createObjectURL(blob), download: 'german-progress.json' });
           document.body.appendChild(a); a.click(); a.remove();
         }
-      }, ['نزّل ملف تقدمك']),
-      el('button', { class: 'btn btn-ghost', type: 'button', onclick: function () { fileInput.click(); } }, ['ارفع ملف تقدم']),
+      }, ['Download progress file']),
+      el('button', { class: 'btn btn-ghost', type: 'button', onclick: function () { fileInput.click(); } }, ['Upload progress file']),
       fileInput
     ]);
-    return panel('chart', 'تقدمك في الجلسة', 'علّم كل خطوة تخلصها', [list, tools], '', 'span-12', 'sec-tracker');
+    return panel('chart', 'Your progress', 'Tick each step when you finish it', [list, tools], '', 'span-12', 'sec-tracker');
   }
 
   var NV = { state: 'loading', url: null, expires: 0, video: null, wrap: null, busy: false };
@@ -285,17 +296,17 @@
   function ytRow() {
     var yt = REG.yt || (state.session && state.session.video && state.session.video.open_url) || '';
     if (!/^https:\/\/www\.youtube\.com\//.test(yt)) return null;
-    return el('p', { class: 'caption', style: 'margin:8px 0 0' }, [el('a', { href: yt, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:3px 11px;border-radius:999px;background:#c4302b;color:#fff;text-decoration:none;font-size:13px', 'aria-label': 'افتح الفيديو على يوتيوب' }, ['▶ يوتيوب ↗'])]);
+    return el('p', { class: 'caption', style: 'margin:8px 0 0' }, [el('a', { href: yt, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:3px 11px;border-radius:999px;background:#c4302b;color:#fff;text-decoration:none;font-size:13px', 'aria-label': 'Open the video on YouTube' }, ['▶ YouTube ↗'])]);
   }
   function notionRow() {
     if (!REG.nr) return null;
-    return el('a', { href: REG.nr, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:3px 11px;border-radius:999px;background:#fff;color:#111;border:1px solid #111;text-decoration:none;margin-inline-start:8px;font-size:13px', 'aria-label': 'افتح السيشن في Notion' }, [el('span', { style: 'display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;border-radius:3px;border:1.3px solid #111;font:700 11px serif', 'aria-hidden': 'true' }, ['N']), 'Notion ↗']);
+    return el('a', { href: REG.nr, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:3px 11px;border-radius:999px;background:#fff;color:#111;border:1px solid #111;text-decoration:none;margin-inline-start:8px;font-size:13px', 'aria-label': 'Open the session in Notion' }, [el('span', { style: 'display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;border-radius:3px;border:1.3px solid #111;font:700 11px serif', 'aria-hidden': 'true' }, ['N']), 'Notion ↗']);
   }
   function ytFrame() {
     var yt = REG.yt || (state.session && state.session.video && state.session.video.open_url) || '';
     var u = youtubeEmbed(yt);
     if (!u) return null;
-    return el('div', { class: 'video-wrap lv-wrap' }, [el('iframe', { src: u + '?rel=0&playsinline=1', title: 'فيديو السيشن على يوتيوب', style: 'width:100%;aspect-ratio:16/9;border:0;display:block', allow: 'accelerometer; encrypted-media; picture-in-picture; fullscreen', allowfullscreen: '', referrerpolicy: 'strict-origin-when-cross-origin' })]);
+    return el('div', { class: 'video-wrap lv-wrap' }, [el('iframe', { src: u + '?rel=0&playsinline=1', title: 'Session video on YouTube', style: 'width:100%;aspect-ratio:16/9;border:0;display:block', allow: 'accelerometer; encrypted-media; picture-in-picture; fullscreen', allowfullscreen: '', referrerpolicy: 'strict-origin-when-cross-origin' })]);
   }
   var AUD = { list: [], i: 0, el: null, all: false };
   fetch('data/audio.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (g) {
@@ -313,7 +324,7 @@
   function audNext(play) { if (AUD.i + 1 < AUD.list.length) { audSet(AUD.i + 1); if (play) AUD.el.play(); } }
   function audioRow() {
     if (!AUD.list.length) return null;
-    var a = el('audio', { controls: '', preload: 'none', style: 'width:100%;margin-top:6px', 'aria-label': 'صوت الدرس' });
+    var a = el('audio', { controls: '', preload: 'none', style: 'width:100%;margin-top:6px', 'aria-label': 'Lesson audio' });
     AUD.el = a;
     a.addEventListener('ended', function () { if (AUD.all) audNext(true); });
     var box = el('div', { style: 'margin:10px 0 0' }, [a]);
@@ -335,10 +346,10 @@
     if (NV.video) {
       kids.push(el('div', { class: 'video-wrap lv-wrap' }, [NV.video]));
     } else if (NV.state === 'loading') {
-      kids.push(el('p', { class: 'caption' }, ['بنجهّز الفيديو…']));
+      kids.push(el('p', { class: 'caption' }, ['Preparing the video…']));
     } else {
-      kids.push(el('p', { class: 'caption' }, ['الفيديو مش شغال هنا دلوقتي (رابطه انتهى). ده عطل عندنا.']));
-      kids.push(el('p', { class: 'caption' }, [el('button', { type: 'button', style: 'min-height:44px;padding:8px 16px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit', onclick: function () { NV.state = 'loading'; if (state.session) render(); startVideo(true); } }, ['جرّب تاني'])]));
+      kids.push(el('p', { class: 'caption' }, ['The video is not working here right now (its link expired). This is a fault on our side.']));
+      kids.push(el('p', { class: 'caption' }, [el('button', { type: 'button', style: 'min-height:44px;padding:8px 16px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit', onclick: function () { NV.state = 'loading'; if (state.session) render(); startVideo(true); } }, ['Try again'])]));
     }
     var r = ytRow(); if (r) kids.push(r);
     return el('div', { class: 'lv' }, kids);
@@ -376,7 +387,7 @@
         el('p', { class: 'caption' }, [ch.note])
       ]));
     }
-    return panel('play', 'الدرس', 'الفيديو وتحدي الجلسة', children, 'tone-night', 'span-7', 'sec-lesson');
+    return panel('play', 'Lesson', 'Video and the session challenge', children, 'tone-night', 'span-7', 'sec-lesson');
   }
 
   function renderGrammar(s) {
@@ -384,83 +395,84 @@
     var grid = el('div', { class: 'rules' + (s.grammar.length > 2 ? ' cols-3' : '') }, s.grammar.map(function (r) {
       return el('div', { class: 'rule' }, [
         el('h3', {}, [r.title]),
-        el('p', {}, [r.rule]),
+        el('p', { class: 'ar-text' }, rich(r.rule)),
         r.forms ? el('ul', { class: 'rule-forms', dir: 'ltr' }, r.forms.map(function (f) { return el('li', {}, [f]); })) : null,
-        r.note ? el('p', {}, [r.note]) : null,
+        r.note ? el('p', { class: 'ar-text' }, rich(r.note)) : null,
         el('ul', { class: 'rule-examples' }, r.examples.map(function (x) {
           return el('li', {}, [
             el('span', { class: 'rule-de', dir: 'ltr' }, [x.de]),
-            el('span', { class: 'rule-ar' }, [x.ar])
+            el('span', { class: 'rule-ar ar-text' }, [x.ar])
           ]);
         }))
       ]);
     }));
-    return panel('grammar', 'القاعدة', 'خمس قواعد بسيطة للجلسة', [el('details', { class: 'rule-toggle' }, [el('summary', { style: 'cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700' }, ['اعرض / اخفِ القاعدة']), grid])], 'tone-amber', 'span-7', null);
+    return panel('grammar', 'Grammar', 'Five simple rules for this session', [el('details', { class: 'rule-toggle' }, [el('summary', { style: 'cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700' }, ['Show / hide the rules']), grid])], 'tone-amber', 'span-7', null);
   }
 
   function renderMaterials(s) {
     if (!s.materials || !s.materials.length) return null;
     var blocks = s.materials.map(function (m) {
       return el('details', { class: 'material' }, [
-        el('summary', {}, [m.title + ' (' + arNum(m.pages.length) + ' صفحات)']),
+        el('summary', {}, [m.title + ' (' + m.pages.length + ' pages)']),
         el('div', { class: 'material-body' }, [
           el('p', { class: 'caption' }, [m.source || '']),
           el('div', { class: 'pages' }, m.pages.map(function (p, i) {
-            return el('img', { src: p, loading: 'lazy', alt: m.title + ' — صفحة ' + (i + 1) });
+            return el('img', { src: p, loading: 'lazy', alt: m.title + ' - page ' + (i + 1) });
           }))
         ])
       ]);
     });
-    return panel('doc', 'مذاكرة الجلسة', 'الملفات الأصلية للقراءة — افتح أي ملف واقرا بالترتيب', blocks, 'tone-gold', 'span-12', null);
+    return panel('doc', 'Study files', 'The original files for reading. Open any file and read in order.', blocks, 'tone-gold', 'span-12', null);
   }
 
   function renderVocab(s) {
     var active = s.vocab[state.tab];
-    var tabs = el('div', { class: 'tabs', role: 'tablist', 'aria-label': 'تصنيفات الكلمات' },
+    var tabs = el('div', { class: 'tabs', role: 'tablist', 'aria-label': 'Word categories' },
       s.vocab.map(function (v, i) {
         return el('button', {
           class: 'tab', type: 'button', role: 'tab', 'aria-selected': String(i === state.tab),
           onclick: function () { state.tab = i; render(); }
         }, [v.label, el('span', { class: 'tab-count' }, [arNum(v.words.length)])]);
       }));
-    var hasArt = active.words.some(function (w) { return !!w.article; });
-    var words = active.words.slice();
-    if (hasArt && state.sortColor[state.tab]) {
-      var ord = { der: 0, die: 1, das: 2 };
-      words = words.map(function (w, i) { return { w: w, i: i }; }).sort(function (a, b) {
-        var x = a.w.article in ord ? ord[a.w.article] : 3, y = b.w.article in ord ? ord[b.w.article] : 3;
-        return x - y || a.i - b.i;
-      }).map(function (p) { return p.w; });
-    }
+    var hasArt = active.words.some(function (w) { return !!(w.article || w.tint); });
     var legend = el('div', { class: 'art-legend', dir: 'ltr' }, [
       el('span', { class: 'art-ico art-ico-der' }, ['der']),
       el('span', { class: 'art-ico art-ico-die' }, ['die']),
-      el('span', { class: 'art-ico art-ico-das' }, ['das']),
-      hasArt ? el('button', { class: 'btn btn-ghost sort-color', type: 'button', 'aria-pressed': String(!!state.sortColor[state.tab]), 'aria-label': 'رتّب حسب اللون',
-        onclick: function () { state.sortColor[state.tab] = !state.sortColor[state.tab]; render(); } }, ['رتّب حسب اللون']) : null
+      el('span', { class: 'art-ico art-ico-das' }, ['das'])
     ]);
-    var list = el('ul', { class: 'words', role: 'tabpanel', 'aria-label': active.label },
-      words.map(function (w) {
-        return el('li', { class: 'word' + (w.article ? ' wbg-' + w.article : '') }, [
-          w.audio ? audioButton(w.audio, 'اسمع: ' + w.de) : el('span', { class: 'noaudio', title: 'الصوت لسه مضافش' }, ['بدون صوت']),
-          el('span', { class: 'word-de', dir: 'ltr' }, [articleSpan(w.article), w.de]),
-          el('span', { class: 'word-ar' }, [w.ar])
-        ]);
-      }));
-    return panel('book', 'الكلمات', '', [tabs, legend, list], '', 'span-12', 'sec-vocab');
+    function wordLi(w) {
+      var g = w.article || w.tint || '';
+      return el('li', { class: 'word' + (g ? ' wbg-' + g : '') }, [
+        w.audio ? audioButton(w.audio, 'Listen: ' + w.de) : el('span', { class: 'noaudio', title: 'No audio yet' }, ['No audio']),
+        el('span', { class: 'word-de', dir: 'ltr' }, [articleSpan(w.article), w.de]),
+        el('span', { class: 'word-ar ar-text' }, [w.ar])
+      ]);
+    }
+    var list;
+    if (hasArt) {
+      var cols = ['der', 'die', 'das'].map(function (g) {
+        return el('ul', { class: 'words wcol wcol-' + g }, active.words.filter(function (w) { return (w.article || w.tint) === g; }).map(wordLi));
+      });
+      var rest = active.words.filter(function (w) { return !(w.article || w.tint); });
+      list = el('div', { class: 'wgroups', role: 'tabpanel', 'aria-label': active.label }, [el('div', { class: 'wcols' }, cols)]
+        .concat(rest.length ? [el('ul', { class: 'words wrest' }, rest.map(wordLi))] : []));
+    } else {
+      list = el('ul', { class: 'words', role: 'tabpanel', 'aria-label': active.label }, active.words.map(wordLi));
+    }
+    return panel('book', 'Vocabulary', '', [legend, tabs, list], '', 'span-12', 'sec-vocab');
   }
 
   function renderSentences(s) {
     var list = el('ul', { class: 'sentences' }, s.sentences.map(function (sent) {
       return el('li', { class: 'sentence' }, [
-        sent.audio ? audioButton(sent.audio, 'اسمع: ' + sent.de) : el('span', { class: 'noaudio', title: 'الصوت لسه مضافش' }, ['بدون صوت']),
+        sent.audio ? audioButton(sent.audio, 'Listen: ' + sent.de) : el('span', { class: 'noaudio', title: 'No audio yet' }, ['No audio']),
         el('span', { class: 'sentence-text' }, [
           el('span', { class: 'sentence-de', dir: 'ltr' }, [sent.de]),
-          el('span', { class: 'sentence-ar' }, [sent.ar])
+          el('span', { class: 'sentence-ar ar-text' }, [sent.ar])
         ])
       ]);
     }));
-    return panel('speaker', 'الجمل بالصوت', 'اسمع وكرر بصوت عالي', [list], 'tone-night', 'span-5', null);
+    return panel('speaker', 'Listening to sentences', 'Listen, then repeat out loud', [list], 'tone-night', 'span-5', null);
   }
 
   function renderCards(s) {
@@ -469,26 +481,26 @@
     var flash = el('button', {
       class: 'flashcard', type: 'button',
       'data-flipped': String(state.revealed),
-      'aria-label': state.revealed ? 'إخفاء المعنى' : 'كشف المعنى',
+      'aria-label': state.revealed ? 'Hide meaning' : 'Show meaning',
       onclick: function () { state.revealed = !state.revealed; render(); }
     }, [
       el('span', { class: 'flash-face flash-front' }, [
         el('span', { class: 'flashcard-de', dir: 'ltr' }, [articleSpan(card.article), card.de]),
-        el('span', { class: 'flashcard-hint' }, ['قول المعنى بصوت عالي، وبعدين اضغط تتأكد'])
+        el('span', { class: 'flashcard-hint' }, ['Say the meaning out loud, then tap to check'])
       ]),
       el('span', { class: 'flash-face flash-back' }, [
-        el('span', { class: 'flashcard-ar' }, [card.ar]),
-        el('span', { class: 'flashcard-hint' }, ['اضغط ترجع للكلمة'])
+        el('span', { class: 'flashcard-ar ar-text' }, [card.ar]),
+        el('span', { class: 'flashcard-hint' }, ['Tap to go back to the word'])
       ])
     ]);
-    return panel('cards', 'تدريب الكلمات', 'كروت سريعة للحفظ', [
+    return panel('cards', 'Word practice', 'Quick cards for memorising', [
       el('div', { class: 'card-progress' }, [
-        el('span', {}, ['كارت ' + arNum(state.cardIndex + 1) + ' من ' + arNum(s.cards.length)]),
+        el('span', {}, ['Card ' + (state.cardIndex + 1) + ' of ' + s.cards.length]),
         el('span', { class: 'progressbar' }, [el('i', { style: 'width:' + pct + '%' })])
       ]),
       el('div', { class: 'flash-scene' }, [flash]),
       el('div', { class: 'card-actions' }, [
-        el('button', { class: 'btn btn-secondary', type: 'button', onclick: function () { state.revealed = !state.revealed; render(); } }, [state.revealed ? 'إخفاء' : 'كشف المعنى']),
+        el('button', { class: 'btn btn-secondary', type: 'button', onclick: function () { state.revealed = !state.revealed; render(); } }, [state.revealed ? 'Hide' : 'Show meaning']),
         el('button', {
           class: 'btn btn-primary', type: 'button', onclick: function () {
             state.cardIndex = (state.cardIndex + 1) % s.cards.length;
@@ -496,7 +508,7 @@
             if (state.cardIndex === 0) markTracker('did-cards');
             render();
           }
-        }, ['التالي'])
+        }, ['Next'])
       ])
     ], 'tone-red', 'span-5', 'sec-practice');
   }
@@ -516,7 +528,7 @@
         ]),
         el('div', { class: 'bq-act' }, [
           el('button', {
-            class: 'btn btn-secondary', type: 'button', 'aria-label': 'تحقق',
+            class: 'btn btn-secondary', type: 'button', 'aria-label': 'Check',
             disabled: (!st || st.result === 'correct') ? '' : null,
             onclick: function () {
               if (!answers[qi]) return;
@@ -525,7 +537,7 @@
               persist(); render();
             }
           }, ['✓']),
-          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'من الأول', onclick: function () { delete answers[qi]; persist(); render(); } }, ['↺'])
+          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'Reset', onclick: function () { delete answers[qi]; persist(); render(); } }, ['↺'])
         ]),
         el('div', { class: 'quiz-options', dir: 'ltr' }, q.options.map(function (opt, oi) {
           var selected = st && st.choice === oi;
@@ -547,10 +559,10 @@
       if (st && st.result === 'wrong') qEl.appendChild(fbBox(false, qFull, q.ar, q.why));
       grid.appendChild(qEl);
     });
-    return panel('quiz', 'اختبار سريع', 'اختار إجابة واضغط «تحقق»', [
+    return panel('quiz', 'Short test', 'Choose an answer, then press Check', [
       grid,
       checked > 0 ? el('div', { class: 'quiz-summary' }, [
-        el('span', {}, ['نتيجتك: ' + arNum(correct) + ' من ' + arNum(s.quiz.length) + ' صح'])
+        el('span', {}, ['Score: ' + correct + ' of ' + s.quiz.length + ' correct'])
       ]) : null
     ], '', 'span-12', 'sec-quiz');
   }
@@ -573,9 +585,9 @@
     else if (/^Wie\b/.test(it.answer)) rule = ' القاعدة: في السؤال بـ Wie، الفعل بعد Wie على طول.';
     else rule = ' القاعدة: الفعل في المركز التاني.';
     return [
-      el('div', {}, ['ترتيبك: ', el('bdi', { dir: 'ltr' }, [guess])]),
-      el('div', {}, [n > 0 ? 'أول ' + arNum(n) + ' كلمة مظبوطة. الكلمة رقم ' + arNum(n + 1) + ' مش في مكانها.' : 'الكلمة الأولى مش مظبوطة.' + rule]),
-      n > 0 ? el('div', {}, [rule.trim()]) : null
+      el('div', {}, ['Your order: ', el('bdi', { dir: 'ltr' }, [guess])]),
+      el('div', { class: 'ar-text' }, rich(n > 0 ? 'أول ' + n + ' كلمة مظبوطة. الكلمة رقم ' + (n + 1) + ' مش في مكانها.' : 'الكلمة الأولى مش مظبوطة.' + rule)),
+      n > 0 ? el('div', { class: 'ar-text' }, rich(rule.trim())) : null
     ].filter(Boolean);
   }
   function ruleFor(full) {
@@ -584,12 +596,12 @@
     return 'الفعل في المركز التاني.';
   }
   function fbBox(ok, full, ar, why, extra) {
-    var kids = [el('div', { class: 'fb-head' }, [ok ? 'صح ✓' : 'لسه.'])];
+    var kids = [el('div', { class: 'fb-head' }, [ok ? 'Correct ✓' : 'Not yet.'])];
     if (extra) kids.push(el('div', { class: 'fb-note' }, extra));
     var note = [];
     note.push(el('div', { dir: 'ltr', style: 'text-align:left' }, [full]));
-    if (ar) note.push(el('div', {}, [ar]));
-    if (why) note.push(el('div', {}, [why]));
+    if (ar) note.push(el('div', { class: 'ar-text' }, [ar]));
+    if (why) note.push(el('div', { class: 'ar-text' }, rich(why)));
     kids.push(el('div', { class: 'fb-note' }, note));
     return el('div', { class: 'feedback', 'data-kind': ok ? 'correct' : 'wrong', role: 'status' }, kids);
   }
@@ -599,7 +611,7 @@
       var key = 'b' + i;
       var st = ans[key] || { picked: [], result: null };
       var done = st.result === 'correct';
-      var picked = el('div', { class: 'answer-row', dir: 'ltr', 'aria-label': 'جملتك' }, st.picked.map(function (ti, pos) {
+      var picked = el('div', { class: 'answer-row', dir: 'ltr', 'aria-label': 'Your sentence' }, st.picked.map(function (ti, pos) {
         return el('button', { class: 'tile tile-picked', type: 'button', 'data-tile': it.tiles[ti], onclick: function () {
           if (done) return;
           var cur = ans[key] || { picked: [], result: null };
@@ -615,10 +627,10 @@
       }));
       var guess = st.picked.map(function (ti) { return it.tiles[ti]; }).join(' ');
       var wrap = el('div', { class: 'quiz-q build-q ctl' }, [
-        el('div', { class: 'quiz-prompt', 'aria-label': 'رتّب الكلمات في جملة' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)])]),
+        el('div', { class: 'quiz-prompt', 'aria-label': 'Put the words in order' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)])]),
         picked,
         el('div', { class: 'bq-act' }, [
-          el('button', { class: 'btn btn-secondary check-build', type: 'button', 'aria-label': 'تحقق',
+          el('button', { class: 'btn btn-secondary check-build', type: 'button', 'aria-label': 'Check',
             disabled: (st.picked.length === it.tiles.length && !done) ? null : '',
             onclick: function () {
               var cur = ans[key]; if (!cur) return;
@@ -627,12 +639,12 @@
               if (cur.result === 'correct' && drillAllDone(s)) markTracker('did-practice');
               persist(); render();
             } }, ['✓']),
-          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'من الأول', onclick: function () { delete ans[key]; persist(); render(); } }, ['↺'])
+          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'Reset', onclick: function () { delete ans[key]; persist(); render(); } }, ['↺'])
         ]),
         bank
       ]);
       if (st.result === 'correct') wrap.appendChild(fbBox(true, it.answer, it.ar, ruleFor(it.answer)));
-      if (st.result === 'wrong') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, [el('div', { class: 'fb-head' }, ['لسه.']), el('div', { class: 'fb-note' }, buildHint(guess, it))]));
+      if (st.result === 'wrong') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, [el('div', { class: 'fb-head' }, ['Not yet.']), el('div', { class: 'fb-note' }, buildHint(guess, it))]));
       return wrap;
     });
   }
@@ -641,13 +653,13 @@
     return s.practice.errors.map(function (it, i) {
       var key = 'e' + i, st = ans[key];
       var wrap = el('div', { class: 'quiz-q qa ctl er' }, [
-        el('div', { class: 'bq-act' }, [el('button', { class: 'btn btn-secondary', type: 'button', 'aria-label': 'تحقق', disabled: (!st || st.result === 'correct') ? '' : null,
+        el('div', { class: 'bq-act' }, [el('button', { class: 'btn btn-secondary', type: 'button', 'aria-label': 'Check', disabled: (!st || st.result === 'correct') ? '' : null,
           onclick: function () {
             ans[key].result = ans[key].choice === it.answer ? 'correct' : 'wrong';
             if (ans[key].result === 'correct' && drillAllDone(s)) markTracker('did-practice');
             persist(); render();
           } }, ['✓']),
-          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'من الأول', onclick: function () { delete ans[key]; persist(); render(); } }, ['↺'])]),
+          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'Reset', onclick: function () { delete ans[key]; persist(); render(); } }, ['↺'])]),
         el('div', { class: 'quiz-options', dir: 'ltr' }, it.options.map(function (opt, oi) {
           var selected = st && st.choice === oi;
           return el('button', { class: 'quiz-opt' + ' long', type: 'button',
@@ -660,35 +672,97 @@
       return wrap;
     });
   }
+  /* ---------- spoken-answer comparison (approximate, browser speech service) ---------- */
+  var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var CONSENT_KEY = 'german-site.speech-ok';
+  function hasConsent() { try { return localStorage.getItem(CONSENT_KEY) === '1'; } catch (e) { return false; } }
+  function normWords(t) { return String(t).toLowerCase().replace(/ß/g, 'ss').replace(/[.,!?;:"'“”„]/g, ' ').split(/\s+/).filter(Boolean); }
+  function compareWords(expected, heard) {
+    var a = normWords(expected), b = normWords(heard), m = a.length, n = b.length, i, j;
+    var L = []; for (i = 0; i <= m; i++) { L.push(new Array(n + 1).fill(0)); }
+    for (i = m - 1; i >= 0; i--) for (j = n - 1; j >= 0; j--) L[i][j] = a[i] === b[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+    var ok = new Array(m).fill(false); i = 0; j = 0;
+    while (i < m && j < n) { if (a[i] === b[j]) { ok[i] = true; i++; j++; } else if (L[i + 1][j] >= L[i][j + 1]) i++; else j++; }
+    return { words: a, ok: ok, matched: ok.filter(Boolean).length };
+  }
+  function startSpeech(i, expected) {
+    var st = state.speech[i] = { status: 'listening' };
+    var rec = new SR();
+    rec.lang = 'de-DE'; rec.interimResults = false; rec.maxAlternatives = 1; rec.continuous = false;
+    rec.onresult = function (ev) { var r = ev.results[0][0]; st.status = 'done'; st.heard = r.transcript; };
+    rec.onerror = function (ev) {
+      st.status = 'error';
+      st.err = ev.error === 'not-allowed' || ev.error === 'service-not-allowed' ? 'Microphone or speech service permission was denied.'
+        : ev.error === 'no-speech' ? 'No speech was heard. Try again.'
+        : ev.error === 'network' ? 'The speech service could not be reached.'
+        : ev.error === 'audio-capture' ? 'No microphone was found.' : 'Speech check failed (' + ev.error + ').';
+    };
+    rec.onend = function () { if (st.status === 'listening') { st.status = 'error'; st.err = 'No speech was heard. Try again.'; } render(); };
+    try { rec.start(); } catch (e) { st.status = 'error'; st.err = 'Speech check could not start.'; }
+    render();
+  }
+  function speechBlock(it, i) {
+    var st = state.speech[i];
+    if (!SR) return el('p', { class: 'caption speech-note' }, ['Speech check is not available in this browser. Try Chrome or Edge on Android or desktop, or Safari.']);
+    var kids = [];
+    if (st && st.status === 'consent') {
+      kids.push(el('div', { class: 'speech-consent', dir: 'rtl' }, [
+        el('p', {}, ['قبل ما نسجّل: التعرّف على الكلام بيتم من خلال المتصفح. حسب المتصفح، تسجيل صوتك ممكن يتبعت لخدمة التعرّف على الكلام عند الشركة اللي عملت المتصفح عشان يتحوّل لنص. الموقع نفسه ما بيحفظ صوتك.']),
+        el('p', {}, ['النتيجة تقريبية: بتقارن الكلام اللي المتصفح سمعه بالجملة المطلوبة. دي مش درجة للنطق.']),
+        el('div', { class: 'speech-consent-act', dir: 'ltr' }, [
+          el('button', { class: 'btn btn-secondary', type: 'button', onclick: function () { try { localStorage.setItem(CONSENT_KEY, '1'); } catch (e) {} startSpeech(i, it.de); } }, ['I agree, start']),
+          el('button', { class: 'btn btn-ghost', type: 'button', onclick: function () { delete state.speech[i]; render(); } }, ['Cancel'])
+        ])
+      ]));
+    } else if (st && st.status === 'listening') {
+      kids.push(el('div', { class: 'speech-live', role: 'status' }, ['Listening… say the sentence in German.']));
+    } else if (st && st.status === 'error') {
+      kids.push(el('div', { class: 'speech-live', role: 'status' }, [st.err]));
+    } else if (st && st.status === 'done') {
+      var c = compareWords(it.de, st.heard);
+      kids.push(el('div', { class: 'speech-res', role: 'status', dir: 'ltr' }, [
+        el('div', { class: 'speech-heard' }, ['Heard: ', el('bdi', {}, [st.heard])]),
+        el('div', { class: 'speech-words' }, c.words.map(function (w, k) { return el('span', { class: 'sw ' + (c.ok[k] ? 'sw-ok' : 'sw-miss') }, [it.de.replace(/[.,!?]/g, '').split(/\s+/)[k] || w]); })),
+        el('div', { class: 'speech-sum' }, [c.matched + ' of ' + c.words.length + ' words matched']),
+        el('div', { class: 'speech-ar', dir: 'rtl' }, ['مقارنة تقريبية بين النص اللي سمعه المتصفح والجملة المطلوبة. مش تقييم للنطق.'])
+      ]));
+    }
+    var label = st && st.status === 'listening' ? 'Listening…' : (st && st.status === 'done' ? 'Say it again' : 'Say it in German');
+    kids.unshift(el('button', { class: 'btn btn-ghost mic-btn', type: 'button', disabled: (st && st.status === 'listening') ? '' : null, onclick: function () {
+      if (hasConsent()) startSpeech(i, it.de); else { state.speech[i] = { status: 'consent' }; render(); }
+    } }, ['🎤 ' + label]));
+    return el('div', { class: 'speech' }, kids);
+  }
   function renderTranslate(s) {
     return s.practice.translate.map(function (it, i) {
       var open = !!state.shown[i];
       return el('div', { class: 'quiz-q ctl tr' }, [
-        el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)]), el('span', {}, [it.ar])]),
-        open ? el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [it.de]) : null,
-        el('div', { class: 'bq-act' }, [el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [open ? 'إخفاء' : 'اكشف'])])
+        el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [String(i + 1)]), el('span', { class: 'ar-text' }, [it.ar])]),
+        open ? el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [el('span', {}, [it.de]), audioButton('audio/tr' + (i + 1) + '.mp3', 'Listen: ' + it.de)]) : null,
+        speechBlock(it, i),
+        el('div', { class: 'bq-act' }, [el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [open ? 'Hide' : 'Reveal'])])
       ]);
     });
   }
   function renderDrills(s) {
     if (!s.practice) return null;
-    var modes = [['رتّب الجملة', renderBuild], ['لاقي الغلطة', renderErrors], ['ترجم واكشف', renderTranslate]];
-    var tabs = el('div', { class: 'tabs', role: 'tablist', 'aria-label': 'أنواع التدريب' }, modes.map(function (m, i) {
+    var modes = [['Sentence order', renderBuild], ['Find the mistake', renderErrors], ['Translate', renderTranslate]];
+    var tabs = el('div', { class: 'tabs', role: 'tablist', 'aria-label': 'Exercise types' }, modes.map(function (m, i) {
       return el('button', { class: 'tab drill-tab', type: 'button', role: 'tab', 'aria-selected': String(i === state.drill), onclick: function () { state.drill = i; render(); } }, [m[0]]);
     }));
     var items = modes[state.drill][1](s);
     var body = el('div', { class: 'quiz-grid drill-body' }, items);
-    return panel('cards', 'تدريب على الجمل', 'ثلاث خطوات قصيرة: رتّب، صحّح، ترجم', [tabs, body], '', 'span-12', 'sec-drills');
+    return panel('cards', 'Sentence exercises', 'Three short steps: order, correct, translate', [tabs, body], '', 'span-12', 'sec-drills');
   }
 
   function renderExtra(s) {
     if (!s.extra || !(s.extra.links || s.extra.url)) return null;
-    var links = s.extra.links || [{ title: 'افتح تدريب DW', url: s.extra.url }];
+    var links = s.extra.links || [{ title: 'Open the DW exercise', url: s.extra.url }];
     var kids = [el('p', { style: 'margin:0 0 12px' }, [s.extra.label + ':'])];
     links.forEach(function (l) {
       kids.push(el('p', { style: 'margin:0 0 10px' }, [el('a', { class: 'extra-link', href: l.url, target: '_blank', rel: 'noopener' }, [l.title + ' ↗'])]));
     });
-    return panel('link', 'تدريب إضافي', 'مصدر مجاني رسمي من Deutsche Welle', kids, 'tone-night', 'span-12', null);
+    return panel('link', 'Extra practice', 'Free official source from Deutsche Welle', kids, 'tone-night', 'span-12', null);
   }
 
   function markTracker(id) {
@@ -701,10 +775,10 @@
   /* ---------- nav ---------- */
   function renderNav() {
     var items = [
-      ['tracker', 'تقدمك', 'chart'], ['lesson', 'الدرس', 'play'], ['vocab', 'الكلمات', 'book'],
-      ['practice', 'تدريب', 'cards'], ['drills', 'جمل', 'doc'], ['quiz', 'اختبار', 'quiz']
+      ['tracker', 'Progress', 'chart'], ['lesson', 'Lesson', 'play'], ['vocab', 'Words', 'book'],
+      ['practice', 'Cards', 'cards'], ['drills', 'Sentences', 'doc'], ['quiz', 'Test', 'quiz']
     ];
-    return el('nav', { class: 'navbar', 'aria-label': 'أقسام الصفحة' }, [
+    return el('nav', { class: 'navbar', 'aria-label': 'Page sections' }, [
       el('div', { class: 'navbar-inner' }, items.map(function (it) {
         return el('button', {
           class: 'navbtn', type: 'button',
@@ -728,7 +802,7 @@
     var app = document.getElementById('app');
     app.textContent = '';
     var s = state.session;
-    if (!s) { app.appendChild(el('p', { class: 'loading' }, ['بيحمّل…'])); return; }
+    if (!s) { app.appendChild(el('p', { class: 'loading' }, ['Loading…'])); return; }
     app.appendChild(renderNav());
     app.appendChild(renderHero(s));
     app.appendChild(el('div', { class: 'wrap' }, [
@@ -765,7 +839,7 @@
         render();
       }).catch(function () {
         document.getElementById('app').textContent = '';
-        document.getElementById('app').appendChild(el('p', { class: 'loading' }, ['مش قادر أحمّل بيانات الجلسة. جرّب تحديث الصفحة لما الإنترنت يرجع.']));
+        document.getElementById('app').appendChild(el('p', { class: 'loading' }, ['Could not load the session data. Try refreshing the page when the connection returns.']));
       });
     });
   });
