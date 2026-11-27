@@ -407,7 +407,7 @@
    "prompt": "Das ist ______ teuer.",
    "options": [
     "nicht",
-    "aber"
+    "und"
    ],
    "answer": 0,
    "why": "nicht = مش، وبتيجي قبل الصفة.",
