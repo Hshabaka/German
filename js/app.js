@@ -87,6 +87,10 @@
   }
 
   var ICONS = {
+    mic: '<rect x="9" y="3" width="6" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M9 21h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+    down: '<path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>',
+    up: '<path d="M6 15l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>',
+    reset: '<path d="M4 12a8 8 0 1 0 2.6-5.9M4 4v5h5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>',
     chart: '<circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3v9l6.5 3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
     play: '<circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 8.5l5 3.5-5 3.5z" fill="currentColor"/>',
     book: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M4 5.5v15" stroke="currentColor" stroke-width="2"/>',
@@ -516,7 +520,7 @@
         ])
       ]);
     }));
-    return panel('speaker', 'Listening to sentences', 'Listen, then repeat out loud', [list], 'tone-night', 'span-5', null);
+    return panel('speaker', 'Listening to sentences', 'Listen, then repeat out loud', [list], 'tone-night', 'span-12', null);
   }
 
   function renderCards(s) {
@@ -742,6 +746,14 @@
     try { rec.start(); } catch (e) { st.status = 'error'; st.err = 'Speech check could not start.'; }
     render();
   }
+  function micBtn(it, i) {
+    if (!SR) return null;
+    var st = state.speech[i];
+    var label = st && st.status === 'listening' ? 'Listening' : (st && st.status === 'done' ? 'Say it again in German' : 'Say it in German');
+    return el('button', { class: 'btn btn-ghost mic-btn', type: 'button', 'aria-label': label, title: label, disabled: (st && st.status === 'listening') ? '' : null, onclick: function () {
+      if (hasConsent()) startSpeech(i, it.de); else { state.speech[i] = { status: 'consent' }; render(); }
+    } }, [icon('mic', 20)]);
+  }
   function speechBlock(it, i) {
     var st = state.speech[i];
     if (!SR) return el('p', { class: 'caption speech-note' }, ['Speech check is not available in this browser. Try Chrome or Edge on Android or desktop, or Safari.']);
@@ -768,10 +780,6 @@
         el('div', { class: 'speech-ar', dir: 'rtl' }, ['مقارنة تقريبية بين النص اللي سمعه المتصفح والجملة المطلوبة. مش تقييم للنطق.'])
       ]));
     }
-    var label = st && st.status === 'listening' ? 'Listening…' : (st && st.status === 'done' ? 'Say it again' : 'Say it in German');
-    kids.unshift(el('button', { class: 'btn btn-ghost mic-btn', type: 'button', disabled: (st && st.status === 'listening') ? '' : null, onclick: function () {
-      if (hasConsent()) startSpeech(i, it.de); else { state.speech[i] = { status: 'consent' }; render(); }
-    } }, ['🎤 ' + label]));
     return el('div', { class: 'speech' }, kids);
   }
   function renderTranslate(s) {
@@ -781,7 +789,7 @@
         el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [String(i + 1)]), el('span', { class: 'ar-text' }, [it.ar])]),
         open ? el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [el('span', {}, [it.de]), audioButton('audio/tr' + (i + 1) + '.mp3', 'Listen: ' + it.de)]) : null,
         speechBlock(it, i),
-        el('div', { class: 'bq-act' }, [el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [open ? 'Hide' : 'Reveal'])])
+        el('div', { class: 'bq-act' }, [micBtn(it, i), el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', 'aria-label': open ? 'Hide answer' : 'Show answer', 'aria-expanded': String(open), title: open ? 'Hide answer' : 'Show answer', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [icon(open ? 'up' : 'down', 20)])])
       ]);
     });
   }
@@ -789,7 +797,7 @@
     if (!sec) return sec;
     var b = el('button', { type: 'button', class: 'sec-reset', 'aria-label': 'Reset ' + label, title: 'Reset all questions in this section', onclick: function () {
       fn(); persist(); render();
-    } }, ['↺ Reset']);
+    } }, [icon('reset', 20)]);
     sec.querySelector('.panel-head').appendChild(b);
     return sec;
   }
