@@ -160,6 +160,7 @@
         fb.appendChild(el('p', { class: 'pr-neutral' }, [k === 'open' ? 'الملف نفسه بيقول إن الأسئلة والإجابات دي أمثلة وممكن تختلف، فمفيش تصحيح تلقائي. قارن بنفسك:' : 'مش مطابقة للإجابة النموذجية بالضبط. ممكن صياغة تانية تبقى صح، قارن بنفسك:']));
         a.lines.forEach(function (l) { fb.appendChild(el('p', { class: 'pr-model', dir: 'auto' }, [l])); });
         if (it.extras.length && k !== 'choice') { /* hints stay visible above */ }
+        if (T && T.w) { if (T.f) fb.appendChild(el('p', { class: 'pr-full', dir: 'ltr' }, [T.f])); if (T.m) fb.appendChild(el('p', { class: 'pr-mean' }, [T.m])); fb.appendChild(why(userAns)); }
         fb.appendChild(el('div', { class: 'pr-self' }, [
           el('button', { type: 'button', class: 'lx-btn', onclick: function () { finish(1, 'self', userAns); } }, ['قيّمت نفسي: كنت صح']),
           el('button', { type: 'button', class: 'lx-btn', onclick: function () { finish(0, 'self', userAns); } }, ['قيّمت نفسي: محتاج مراجعة'])
@@ -168,6 +169,7 @@
       if (k === 'nokey' || k === 'free' || k === 'free-example') {
         it.extras.forEach(function (x) { row.appendChild(el('p', { class: 'pr-extra', dir: 'auto' }, [x])); });
         row.appendChild(el('p', { class: 'pr-note' }, [k === 'nokey' ? 'مفيش إجابة نموذجية مطابقة للسؤال ده في ملف الدرس، فمفيش تصحيح.' : 'إجابة حرة، مفيش تصحيح تلقائي.' + (k === 'free-example' ? ' المثال في الملف:' : '')]));
+        if (T && T.w) { if (T.m) row.appendChild(el('p', { class: 'pr-mean' }, [T.m])); row.appendChild(why('')); }
         if (k === 'free-example') a.lines.forEach(function (l) { row.appendChild(el('p', { class: 'pr-model', dir: 'auto' }, [l])); });
         box.appendChild(row); return;
       }
