@@ -1,0 +1,785 @@
+{
+ "id": "session-2",
+ "level": "A1",
+ "title": "Session 2: Giving the sentence life",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=W8ZPOBI3wR4",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=W8ZPOBI3wR4"
+ },
+ "vocab": [
+  {
+   "id": "adj",
+   "label": "Opposite adjectives",
+   "words": [
+    {
+     "de": "einfach",
+     "ar": "سهل",
+     "audio": "audio/s2/vocab/01-einfach.mp3"
+    },
+    {
+     "de": "schwierig",
+     "ar": "صعب",
+     "audio": "audio/s2/vocab/02-schwierig.mp3"
+    },
+    {
+     "de": "teuer",
+     "ar": "غالي",
+     "audio": "audio/s2/vocab/03-teuer.mp3"
+    },
+    {
+     "de": "billig",
+     "ar": "رخيص",
+     "audio": "audio/s2/vocab/04-billig.mp3"
+    },
+    {
+     "de": "schön",
+     "ar": "جميل",
+     "audio": "audio/s2/vocab/05-schoen.mp3"
+    },
+    {
+     "de": "hässlich",
+     "ar": "وحش",
+     "audio": "audio/s2/vocab/06-haesslich.mp3"
+    },
+    {
+     "de": "gut",
+     "ar": "كويس",
+     "audio": "audio/s2/vocab/07-gut.mp3"
+    },
+    {
+     "de": "schlecht",
+     "ar": "وحش، مش كويس",
+     "audio": "audio/s2/vocab/08-schlecht.mp3"
+    },
+    {
+     "de": "groß",
+     "ar": "كبير",
+     "audio": "audio/s2/vocab/09-gross.mp3"
+    },
+    {
+     "de": "klein",
+     "ar": "صغير",
+     "audio": "audio/s2/vocab/10-klein.mp3"
+    },
+    {
+     "de": "neu",
+     "ar": "جديد",
+     "audio": "audio/s2/vocab/11-neu.mp3"
+    },
+    {
+     "de": "alt",
+     "ar": "قديم",
+     "audio": "audio/s2/vocab/12-alt.mp3"
+    }
+   ]
+  },
+  {
+   "id": "adj2",
+   "label": "More adjectives",
+   "words": [
+    {
+     "de": "lecker",
+     "ar": "طعمه حلو",
+     "audio": "audio/s2/vocab/13-lecker.mp3"
+    },
+    {
+     "de": "wichtig",
+     "ar": "مهم",
+     "audio": "audio/s2/vocab/14-wichtig.mp3"
+    },
+    {
+     "de": "langweilig",
+     "ar": "ممل",
+     "audio": "audio/s2/vocab/15-langweilig.mp3"
+    },
+    {
+     "de": "interessant",
+     "ar": "مثير للاهتمام",
+     "audio": "audio/s2/vocab/16-interessant.mp3"
+    },
+    {
+     "de": "toll",
+     "ar": "رائع",
+     "audio": "audio/s2/vocab/17-toll.mp3"
+    },
+    {
+     "de": "schwer",
+     "ar": "صعب، تقيل",
+     "audio": "audio/s2/vocab/18-schwer.mp3"
+    }
+   ]
+  },
+  {
+   "id": "small",
+   "label": "Small connecting words",
+   "words": [
+    {
+     "de": "aber",
+     "ar": "لكن، بس",
+     "audio": "audio/s2/vocab/19-aber.mp3"
+    },
+    {
+     "de": "und",
+     "ar": "و",
+     "audio": "audio/s2/vocab/20-und.mp3"
+    },
+    {
+     "de": "nicht",
+     "ar": "مش",
+     "audio": "audio/s2/vocab/21-nicht.mp3"
+    },
+    {
+     "de": "sehr",
+     "ar": "جدًا",
+     "audio": "audio/s2/vocab/22-sehr.mp3"
+    },
+    {
+     "de": "vielleicht",
+     "ar": "يمكن",
+     "audio": "audio/s2/vocab/23-vielleicht.mp3"
+    },
+    {
+     "de": "wirklich",
+     "ar": "فعلًا",
+     "audio": "audio/s2/vocab/24-wirklich.mp3"
+    },
+    {
+     "de": "warum",
+     "ar": "ليه",
+     "audio": "audio/s2/vocab/25-warum.mp3"
+    },
+    {
+     "de": "jetzt",
+     "ar": "دلوقتي",
+     "audio": "audio/s2/vocab/26-jetzt.mp3"
+    },
+    {
+     "de": "für dich",
+     "ar": "ليك",
+     "audio": "audio/s2/vocab/27-fuer-dich.mp3"
+    },
+    {
+     "de": "für mich",
+     "ar": "ليا",
+     "audio": "audio/s2/vocab/28-fuer-mich.mp3"
+    },
+    {
+     "de": "mit dir",
+     "ar": "معاك",
+     "audio": "audio/s2/vocab/29-mit-dir.mp3"
+    },
+    {
+     "de": "mit mir",
+     "ar": "معايا",
+     "audio": "audio/s2/vocab/30-mit-mir.mp3"
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "label": "Food and drink",
+   "words": [
+    {
+     "de": "Kaffee",
+     "ar": "القهوة",
+     "audio": "audio/s2/vocab/31-der-kaffee.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Tee",
+     "ar": "الشاي",
+     "audio": "audio/s2/vocab/32-der-tee.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Wasser",
+     "ar": "الماء",
+     "audio": "audio/s2/vocab/33-das-wasser.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Brot",
+     "ar": "العيش",
+     "audio": "audio/s2/vocab/34-das-brot.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Pizza",
+     "ar": "البيتزا",
+     "audio": "audio/s2/vocab/35-die-pizza.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Salat",
+     "ar": "السلطة",
+     "audio": "audio/s2/vocab/36-der-salat.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Fleisch",
+     "ar": "اللحمة",
+     "audio": "audio/s2/vocab/37-das-fleisch.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Apfel",
+     "ar": "التفاحة",
+     "audio": "audio/s2/vocab/38-der-apfel.mp3",
+     "article": "der"
+    }
+   ]
+  },
+  {
+   "id": "things",
+   "label": "Things",
+   "words": [
+    {
+     "de": "Auto",
+     "ar": "العربية",
+     "audio": "audio/s2/vocab/39-das-auto.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Haus",
+     "ar": "البيت",
+     "audio": "audio/s2/vocab/40-das-haus.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Handy",
+     "ar": "الموبايل",
+     "audio": "audio/s2/vocab/41-das-handy.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Buch",
+     "ar": "الكتاب",
+     "audio": "audio/s2/vocab/42-das-buch.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Tasche",
+     "ar": "الشنطة",
+     "audio": "audio/s2/vocab/43-die-tasche.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Schuhe",
+     "ar": "الجزم",
+     "audio": "audio/s2/vocab/44-die-schuhe.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Kleidung",
+     "ar": "الهدوم",
+     "audio": "audio/s2/vocab/45-die-kleidung.mp3",
+     "article": "die"
+    },
+    {
+     "de": "T-Shirt",
+     "ar": "التيشيرت",
+     "audio": "audio/s2/vocab/46-das-t-shirt.mp3",
+     "article": "das"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Das ist einfach.",
+   "ar": "هذا سهل.",
+   "audio": "audio/s2/s01-das-ist-einfach.mp3"
+  },
+  {
+   "de": "Das ist sehr einfach für mich.",
+   "ar": "ده سهل جدًا بالنسبة لي.",
+   "audio": "audio/s2/s02-das-ist-sehr-einfach-fuer-mich.mp3"
+  },
+  {
+   "de": "Das ist nicht sehr einfach für dich.",
+   "ar": "ده مش سهل قوي بالنسبة لك.",
+   "audio": "audio/s2/s03-das-ist-nicht-sehr-einfach-fuer-dich.mp3"
+  },
+  {
+   "de": "Das ist schön, aber teuer.",
+   "ar": "ده جميل بس غالي.",
+   "audio": "audio/s2/s04-das-ist-schoen-aber-teuer.mp3"
+  },
+  {
+   "de": "Der Kaffee ist gut und billig.",
+   "ar": "القهوة كويسة ورخيصة.",
+   "audio": "audio/s2/s05-der-kaffee-ist-gut-und-billig.mp3"
+  },
+  {
+   "de": "Das Auto ist neu, aber nicht billig.",
+   "ar": "العربية جديدة بس مش رخيصة.",
+   "audio": "audio/s2/s06-das-auto-ist-neu-aber-nicht-billig.mp3"
+  },
+  {
+   "de": "Ich lerne Deutsch und das ist sehr einfach für mich.",
+   "ar": "أنا بتعلم ألماني وده سهل جدًا بالنسبة لي.",
+   "audio": "audio/s2/s07-ich-lerne-deutsch-und-das-ist-sehr-einfa.mp3"
+  },
+  {
+   "de": "Das Buch ist sehr interessant.",
+   "ar": "الكتاب مثير للاهتمام جدًا.",
+   "audio": "audio/s2/s08-das-buch-ist-sehr-interessant.mp3"
+  },
+  {
+   "de": "Die Pizza ist wirklich lecker.",
+   "ar": "البيتزا لذيذة فعلًا.",
+   "audio": "audio/s2/s09-die-pizza-ist-wirklich-lecker.mp3"
+  },
+  {
+   "de": "Warum ist das teuer?",
+   "ar": "ليه ده غالي؟",
+   "audio": "audio/s2/s10-warum-ist-das-teuer.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "einfach",
+   "ar": "سهل"
+  },
+  {
+   "de": "schwierig",
+   "ar": "صعب"
+  },
+  {
+   "de": "teuer",
+   "ar": "غالي"
+  },
+  {
+   "de": "billig",
+   "ar": "رخيص"
+  },
+  {
+   "de": "schön",
+   "ar": "جميل"
+  },
+  {
+   "de": "hässlich",
+   "ar": "وحش"
+  },
+  {
+   "de": "aber",
+   "ar": "لكن، بس"
+  },
+  {
+   "de": "nicht",
+   "ar": "مش"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Das ist ______ einfach für mich.",
+   "options": [
+    "sehr",
+    "und",
+    "für"
+   ],
+   "answer": 0,
+   "why": "sehr = جدًا، وبتتحط قبل الصفة.",
+   "ar": "ده سهل جدًا بالنسبة لي."
+  },
+  {
+   "prompt": "Das ist ______ teuer.",
+   "options": [
+    "nicht",
+    "aber"
+   ],
+   "answer": 0,
+   "why": "nicht = مش، وبتيجي قبل الصفة.",
+   "ar": "ده مش غالي."
+  },
+  {
+   "prompt": "Das ist schön, ______ teuer.",
+   "options": [
+    "aber",
+    "und"
+   ],
+   "answer": 0,
+   "why": "aber = لكن، بنستخدمها لما الفكرة التانية عكس الأولى.",
+   "ar": "ده جميل بس غالي."
+  },
+  {
+   "prompt": "Der Kaffee ist gut ______ billig.",
+   "options": [
+    "und",
+    "aber"
+   ],
+   "answer": 0,
+   "why": "und = و، الاتنين حلوين فبنربطهم بـ und.",
+   "ar": "القهوة كويسة ورخيصة."
+  },
+  {
+   "prompt": "Das ist wichtig ______ mich.",
+   "options": [
+    "für",
+    "mit"
+   ],
+   "answer": 0,
+   "why": "«بالنسبة لي» = für mich.",
+   "ar": "ده مهم بالنسبة لي."
+  },
+  {
+   "prompt": "Ich spiele ______ dir.",
+   "options": [
+    "mit",
+    "für"
+   ],
+   "answer": 0,
+   "why": "«معاك» = mit dir.",
+   "ar": "أنا بلعب معاك."
+  },
+  {
+   "prompt": "Das Buch ist ______.",
+   "options": [
+    "interessant",
+    "lecker"
+   ],
+   "answer": 0,
+   "why": "lecker للأكل بس. الكتاب بيبقى interessant.",
+   "ar": "الكتاب مثير للاهتمام."
+  },
+  {
+   "prompt": "Die Pizza ist ______.",
+   "options": [
+    "lecker",
+    "langweilig"
+   ],
+   "answer": 0,
+   "why": "البيتزا بتبقى lecker (طعمها حلو).",
+   "ar": "البيتزا لذيذة."
+  },
+  {
+   "prompt": "Das Haus ist nicht klein, das Haus ist ______.",
+   "options": [
+    "groß",
+    "klein"
+   ],
+   "answer": 0,
+   "why": "عكس klein هو groß.",
+   "ar": "البيت مش صغير، البيت كبير."
+  },
+  {
+   "prompt": "Das ist ______ einfach, das ist schwierig.",
+   "options": [
+    "nicht",
+    "sehr"
+   ],
+   "answer": 0,
+   "why": "الجملة التانية بتقول «صعب»، فالأولى لازم تبقى «مش سهل».",
+   "ar": "ده مش سهل، ده صعب."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "extra": {
+  "label": "Optional extra practice from the official DW site (opposite adjectives)",
+  "links": [
+   {
+    "title": "Adjectives and their opposites on DW",
+    "url": "https://learngerman.dw.com/de/adjektive-und-ihre-gegenteile-1/l-40397612/e-40399271"
+   }
+  ],
+  "source_title": "Nicos Weg · Adjektive und ihre Gegenteile"
+ },
+ "lesson": {
+  "summary": "الجلسة دي بتخلّي جملتك فيها «روح». هتتعلم تقول إن حاجة سهلة أو غالية أو حلوة، وتربط فكرتين بـ und و aber، وتنفي بـ nicht. اتفرج على الفيديو، وبعدين اقرا القواعد تحته، وكمّل التدريب في الصفحة.",
+  "challenge": {
+   "title": "Writing challenge (Barbarys Schreib-Challenge) ✍️",
+   "intro": "Translate these sentences into German:",
+   "items": [
+    "أنا بتعلم ألماني وده سهل جدًا بالنسبة لي، لكن مش سهل جدًا بالنسبة لك.",
+    "أنا بتكلم ألماني وده رائع جدًا بالنسبة لي، لكن ده صعب بالنسبة لك.",
+    "القهوة رخيصة وكويسة."
+   ],
+   "note": "Use the pattern: Das ist (nicht) (sehr) adjective (für mich / für dich)."
+  }
+ },
+ "grammar": [
+  {
+   "title": "Das ist (nicht) (sehr) adjective",
+   "rule": "ده القالب الأساسي للجلسة. بتبدأ بـ Das ist، وبعدين تضيف sehr أو nicht لو عايز، وبعدها الصفة، وفي الآخر لو عايز تقول لمين: für mich أو für dich.",
+   "forms": [
+    "Das ist einfach",
+    "Das ist sehr einfach",
+    "Das ist nicht sehr einfach",
+    "Das ist sehr einfach für mich"
+   ],
+   "examples": [
+    {
+     "de": "Das ist einfach.",
+     "ar": "ده سهل."
+    },
+    {
+     "de": "Das ist nicht sehr einfach für dich.",
+     "ar": "ده مش سهل قوي بالنسبة لك."
+    }
+   ]
+  },
+  {
+   "title": "nicht and sehr",
+   "rule": "الاتنين بيتحطوا قبل الصفة على طول. sehr بتقوّيها (جدًا)، و nicht بتنفيها (مش).",
+   "forms": [
+    "sehr teuer",
+    "nicht teuer",
+    "nicht sehr teuer"
+   ],
+   "note": "الصفة بعد ist بتفضل زي ما هي، من غير أي تغيير.",
+   "examples": [
+    {
+     "de": "Das ist sehr teuer.",
+     "ar": "ده غالي جدًا."
+    },
+    {
+     "de": "Das ist nicht teuer.",
+     "ar": "ده مش غالي."
+    }
+   ]
+  },
+  {
+   "title": "und and aber",
+   "rule": "und معناها «و» وبتربط حاجتين زي بعض. aber معناها «لكن» وبتربط حاجتين عكس بعض. بعد الاتنين ترتيب الجملة بيفضل عادي، والفعل في المركز التاني.",
+   "forms": [
+    "gut und billig",
+    "schön, aber teuer"
+   ],
+   "examples": [
+    {
+     "de": "Der Kaffee ist gut und billig.",
+     "ar": "القهوة كويسة ورخيصة."
+    },
+    {
+     "de": "Das ist schön, aber teuer.",
+     "ar": "ده جميل بس غالي."
+    }
+   ]
+  },
+  {
+   "title": "für mich, für dich, mit mir, mit dir",
+   "rule": "بتقول لمين الكلام ينطبق بـ für: für mich (ليا)، für dich (ليك). وبتقول «مع مين» بـ mit: mit mir (معايا)، mit dir (معاك).",
+   "forms": [
+    "für mich",
+    "für dich",
+    "mit mir",
+    "mit dir"
+   ],
+   "examples": [
+    {
+     "de": "Das ist wichtig für mich.",
+     "ar": "ده مهم بالنسبة لي."
+    },
+    {
+     "de": "Ich spiele mit dir.",
+     "ar": "أنا بلعب معاك."
+    }
+   ]
+  },
+  {
+   "title": "Opposites and nouns with articles",
+   "rule": "احفظ الصفات في أزواج عكس بعض، فكل كلمة بتفكّرك بعكسها. وللأسماء احفظ الأداة معاها: der أو die أو das.",
+   "forms": [
+    "einfach ↔ schwierig",
+    "teuer ↔ billig",
+    "schön ↔ hässlich",
+    "gut ↔ schlecht",
+    "groß ↔ klein",
+    "neu ↔ alt"
+   ],
+   "examples": [
+    {
+     "de": "Das Auto ist neu.",
+     "ar": "العربية جديدة."
+    },
+    {
+     "de": "Die Pizza ist wirklich lecker.",
+     "ar": "البيتزا لذيذة فعلًا."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "ist",
+     "Das",
+     "einfach",
+     "sehr"
+    ],
+    "answer": "Das ist sehr einfach.",
+    "ar": "ده سهل جدًا."
+   },
+   {
+    "tiles": [
+     "nicht",
+     "ist",
+     "Das",
+     "teuer"
+    ],
+    "answer": "Das ist nicht teuer.",
+    "ar": "ده مش غالي."
+   },
+   {
+    "tiles": [
+     "Kaffee",
+     "Der",
+     "gut",
+     "ist"
+    ],
+    "answer": "Der Kaffee ist gut.",
+    "ar": "القهوة كويسة."
+   },
+   {
+    "tiles": [
+     "aber",
+     "Das",
+     "schön,",
+     "ist",
+     "teuer"
+    ],
+    "answer": "Das ist schön, aber teuer.",
+    "ar": "ده جميل بس غالي."
+   },
+   {
+    "tiles": [
+     "für",
+     "Das",
+     "mich",
+     "einfach",
+     "ist",
+     "sehr"
+    ],
+    "answer": "Das ist sehr einfach für mich.",
+    "ar": "ده سهل جدًا بالنسبة لي."
+   },
+   {
+    "tiles": [
+     "Das",
+     "Auto",
+     "ist",
+     "neu",
+     "und",
+     "schön"
+    ],
+    "answer": "Das Auto ist neu und schön.",
+    "ar": "العربية جديدة وجميلة."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Das ist einfach nicht.",
+     "Das ist nicht einfach."
+    ],
+    "answer": 1,
+    "why": "nicht بتيجي قبل الصفة.",
+    "ar": "ده مش سهل."
+   },
+   {
+    "options": [
+     "Das ist sehr teuer für mich.",
+     "Das ist teuer sehr für mich."
+    ],
+    "answer": 0,
+    "why": "sehr قبل الصفة.",
+    "ar": "ده غالي جدًا بالنسبة لي."
+   },
+   {
+    "options": [
+     "Das ist sehr nicht einfach für dich.",
+     "Das ist nicht sehr einfach für dich."
+    ],
+    "answer": 1,
+    "why": "الترتيب: nicht، وبعدها sehr، وبعدها الصفة.",
+    "ar": "ده مش سهل قوي بالنسبة لك."
+   },
+   {
+    "options": [
+     "Das ist wichtig für mich.",
+     "Das ist wichtig mit mich."
+    ],
+    "answer": 0,
+    "why": "«بالنسبة لي» = für mich. و mit بتبقى mit mir.",
+    "ar": "ده مهم بالنسبة لي."
+   },
+   {
+    "options": [
+     "Das ist sehr langweilig.",
+     "Das ist langweilig sehr."
+    ],
+    "answer": 0,
+    "why": "sehr قبل الصفة.",
+    "ar": "ده ممل جدًا."
+   },
+   {
+    "options": [
+     "Die Kaffee ist gut.",
+     "Der Kaffee ist gut."
+    ],
+    "answer": 1,
+    "why": "Kaffee أداته der.",
+    "ar": "القهوة كويسة."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "ده سهل جدًا بالنسبة لي.",
+    "de": "Das ist sehr einfach für mich."
+   },
+   {
+    "ar": "ده مش غالي.",
+    "de": "Das ist nicht teuer."
+   },
+   {
+    "ar": "القهوة كويسة.",
+    "de": "Der Kaffee ist gut."
+   },
+   {
+    "ar": "العربية جديدة بس غالية.",
+    "de": "Das Auto ist neu, aber teuer."
+   },
+   {
+    "ar": "الكتاب ممل.",
+    "de": "Das Buch ist langweilig."
+   },
+   {
+    "ar": "الشنطة جميلة ومهمة بالنسبة لي.",
+    "de": "Die Tasche ist schön und wichtig für mich."
+   }
+  ]
+ }
+}
