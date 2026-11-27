@@ -507,9 +507,8 @@
   }
  ],
  "extra": {
-  "label": "Matched supplementary video: Nicos Weg A1, Folge 24 \"Das Auto ist rot\" (Deutsche Welle). Describing things with adjectives, like Session 2.",
+  "label": "Matched extra source: Nicos Weg A1, Folge 24 \"Das Auto ist rot\" (Deutsche Welle). Describing things with adjectives, like Session 2. Watch the video and the full script on DW (opens separately); the questions below are ours.",
   "source_title": "Nicos Weg A1 · Das Auto ist rot (DW)",
-  "video_key": "session-2-extra",
   "links": [
    {
     "title": "Original DW lesson page (video, official exercises)",
@@ -524,7 +523,7 @@
     "url": "https://learngerman.dw.com/de/adjektive-und-ihre-gegenteile-1/l-40397612/e-40399271"
    }
   ],
-  "transcript_note": "German text = DW's official script (Deutsche Welle). Arabic lines are our own translation.",
+  "transcript_note": "Short excerpt from the official DW script (Deutsche Welle, Nicos Weg A1). Full script and video: see the DW links below. Arabic lines are our own translation.",
   "transcript": [
    {
     "who": "LISA",
@@ -535,71 +534,6 @@
     "who": "NICO",
     "de": "Das Auto.",
     "ar": "العربية."
-   },
-   {
-    "who": "LISA",
-    "de": "Das Auto ist rot, aber es ist nicht groß, es ist klein.",
-    "ar": "العربية حمرا، بس مش كبيرة، دي صغيرة."
-   },
-   {
-    "who": "NICO",
-    "de": "Das Haus.",
-    "ar": "البيت."
-   },
-   {
-    "who": "LISA",
-    "de": "Ja, richtig! Du bist dran.",
-    "ar": "أيوه، صح! دورك."
-   },
-   {
-    "who": "NICO",
-    "de": "Ich sehe was, was du nicht siehst, und das ist ... groß und klein.",
-    "ar": "أنا شايف حاجة إنتي مش شايفاها، وهي... كبيرة وصغيرة."
-   },
-   {
-    "who": "LISA",
-    "de": "Ich glaube nicht …",
-    "ar": "مش مصدقة..."
-   },
-   {
-    "who": "NICO",
-    "de": "Ah! Ich sehe was, was du nicht siehst, und das ist ... groß und gelb.",
-    "ar": "آه! أنا شايف حاجة إنتي مش شايفاها، وهي... كبيرة وصفرا."
-   },
-   {
-    "who": "LISA",
-    "de": "Das Haus.",
-    "ar": "البيت."
-   },
-   {
-    "who": "NICO",
-    "de": "Ja.",
-    "ar": "أيوه."
-   },
-   {
-    "who": "LISA",
-    "de": "Das hier ist die August-Straußberg-Gasse 23. Aber wo ist der Fahrradladen?",
-    "ar": "ده شارع August-Straußberg رقم 23. بس فين محل العجل؟"
-   },
-   {
-    "who": "NICO",
-    "de": "Hier ist kein Fahrradladen.",
-    "ar": "مفيش هنا محل عجل."
-   },
-   {
-    "who": "LISA",
-    "de": "Ja, aber wir sind richtig.",
-    "ar": "أيوه، بس إحنا في المكان الصح."
-   },
-   {
-    "who": "NICO",
-    "de": "Ich sehe was, was du nicht siehst, … und das ist nicht da.",
-    "ar": "أنا شايف حاجة إنتي مش شايفاها،... وهي مش موجودة."
-   },
-   {
-    "who": "LISA",
-    "de": "Die Adresse ist falsch. Es gibt hier wirklich keinen Fahrradladen. Es tut mir leid, Nico … Komm!",
-    "ar": "العنوان غلط. فعلاً مفيش هنا محل عجل. أنا آسفة يا Nico... تعالى!"
    }
   ],
   "exercises_note": "Questions below are written by us for this session. They are not DW's exercises.",
