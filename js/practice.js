@@ -126,7 +126,7 @@
         var m = ar || dm; if (ar && T && T.m && it.n && /\.$/.test(ar) === false) { m = ar; }
         var note = it.extras.filter(function (x) { return /^المعنى\s*:/.test(x); })[0];
         var w = el('div', {}, [el('p', { class: 'pr-mean' }, [m ? m : 'ترجمة الجملة كاملة مش مكتوبة في ملف الدرس.'])]);
-        if (note) w.appendChild(el('p', { class: 'pr-mean' }, ['من الملف: ' + note]));
+        if (note) w.appendChild(el('p', { class: 'pr-mean' }, ['من الملف (معنى الكلمة الناقصة): ' + note.replace(/^المعنى\s*:\s*/, '')]));
         return w;
       }
       function tag(m) { return el('span', { class: 'pr-tag' }, [m === 'auto' ? 'تصحيح تلقائي (مطابقة لإجابة الملف)' : 'تقييم ذاتي (مش تصحيح تلقائي)']); }
