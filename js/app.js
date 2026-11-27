@@ -661,7 +661,6 @@
       return el('button', { class: 'tab drill-tab', type: 'button', role: 'tab', 'aria-selected': String(i === state.drill), onclick: function () { state.drill = i; render(); } }, [m[0]]);
     }));
     var items = modes[state.drill][1](s);
-    if (state.drill === 1) items.unshift(el('p', { class: 'caption tr-note' }, ['أنهي جملة صح؟ اختار الجملة الصح.']));
     if (state.drill === 2) items.unshift(el('p', { class: 'caption tr-note' }, ['قولها بالألماني بصوت عالي، وبعدين اكشف.']));
     var body = el('div', { class: 'quiz-grid drill-body' }, items);
     return panel('cards', 'تدريب على الجمل', 'ثلاث خطوات قصيرة: رتّب، صحّح، ترجم', [tabs, body], '', 'span-12', 'sec-drills');
