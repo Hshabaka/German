@@ -63,13 +63,13 @@
         d.firstChild.appendChild(runs(b.text)); list(b.children || []).forEach(function (k) { d.appendChild(k); }); return d;
       case 'to_do': return el('p', {}, [(b.checked ? '☑ ' : '☐ ') + plain(b.text)]);
       case 'divider': return el('hr', {}, []);
-      case 'audio': return b.file ? el('audio', { controls: '', preload: 'none', src: b.file }, []) : el('p', { class: 'miss' }, ['صوت ناقص (ما اتحفظش)']);
+      case 'audio': return b.file ? el('audio', { controls: '', preload: 'none', src: b.file }, []) : el('p', { class: 'miss' }, ['Audio missing (not saved)']);
       case 'table': var t = el('table', {}, []);
         b.rows.forEach(function (r, ri) { var tr = el('tr', {}, []); r.forEach(function (cell) { var td = el(ri === 0 ? 'th' : 'td', { class: cls(cell) }, []); td.appendChild(runs(cell)); tr.appendChild(td); }); t.appendChild(tr); });
         return t;
       case 'bulleted_list_item': case 'numbered_list_item': return list([b])[0];
       case 'pdf': case 'file': case 'video': case 'image': case 'embed': case 'bookmark':
-        var p = el('p', { class: 'miss' }, ['ملف/وسائط في Notion، مش منقولة هنا: ' + (plain(b.caption) || b.type)]);
+        var p = el('p', { class: 'miss' }, ['File or media in Notion, not copied here: ' + (plain(b.caption) || b.type)]);
         return p;
       default: return plain(b.text) ? wrap('p', b) : null;
     }
@@ -77,13 +77,13 @@
   function show(idx, n) {
     app.textContent = '';
     var L = idx.lessons;
-    var sel = el('select', { 'aria-label': 'اختر الدرس', onchange: function () { location.href = 'a1/' + pad2(this.value) + '/'; } }, []);
+    var sel = el('select', { 'aria-label': 'Choose a lesson', onchange: function () { location.href = 'a1/' + pad2(this.value) + '/'; } }, []);
     L.forEach(function (x) { var o = el('option', { value: String(x.n) }, [x.title.replace(/^الدرس\s*(\d+)\s*[:：]\s*/, 'الدرس $1: ') + (window.A1Practice && window.A1Practice.done(x.n) ? ' ✓' : '')]); if (x.n === n) o.selected = true; sel.appendChild(o); });
     var wrapEl = el('div', { class: 'lx' }, [el('div', { class: 'lx-top' }, [sel])]);
     app.appendChild(wrapEl);
     var item = L.filter(function (x) { return x.n === n; })[0];
-    if (!item) { wrapEl.appendChild(el('p', {}, ['الدرس ده مش موجود.'])); return; }
-    var body = el('div', {}, [el('p', { class: 'loading' }, ['بيحمّل الدرس…'])]);
+    if (!item) { wrapEl.appendChild(el('p', {}, ['This lesson does not exist.'])); return; }
+    var body = el('div', {}, [el('p', { class: 'loading' }, ['Loading the lesson…'])]);
     wrapEl.appendChild(body);
     fetch('data/a1/lesson-' + n + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
       body.textContent = '';
@@ -108,7 +108,7 @@
         if (!h) return;
         var det = document.createElement('details'); det.className = 'rule-toggle';
         var sm = document.createElement('summary'); sm.setAttribute('style', 'cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700;font-size:1.15rem');
-        sm.textContent = h.textContent + '  (اضغط للفتح / الإغلاق)';
+        sm.textContent = h.textContent + '  (tap to open / close)';
         det.appendChild(sm);
         h.parentNode.insertBefore(det, h);
         var n = h.nextSibling; h.remove();
@@ -116,7 +116,7 @@
       })();
       var pf = (window.__a1pdfs || {})[String(n)] || [];
       if (pf.length) {
-        var ps = el('div', { class: 'callout' }, [el('span', {}, ['📄']), el('div', {}, [el('p', {}, [el('strong', {}, ['ملفات PDF للدرس'])])])]);
+        var ps = el('div', { class: 'callout' }, [el('span', {}, ['📄']), el('div', {}, [el('p', {}, [el('strong', {}, ['Lesson PDF files'])])])]);
         pf.forEach(function (f) { ps.lastChild.appendChild(el('p', {}, [el('a', { href: f.file, target: '_blank', rel: 'noopener' }, [f.label])])); });
         body.appendChild(ps);
       }
@@ -127,11 +127,11 @@
       if (n < L.length) nav.appendChild(el('a', { class: 'lx-btn', href: 'a1/' + pad2(n + 1) + '/' }, [code(n + 1) + ' ←']));
       body.appendChild(nav);
       window.scrollTo(0, 0);
-    }).catch(function () { body.textContent = ''; body.appendChild(el('p', {}, ['الدرس ده لسه ما اتحمّلش على الموقع.'])); });
+    }).catch(function () { body.textContent = ''; body.appendChild(el('p', {}, ['This lesson is not on the site yet.'])); });
   }
   function home(idx) {
     app.textContent = '';
-    var w = el('div', { class: 'lx' }, [el('h1', { style: 'font-size:22px;margin:0 0 6px' }, ['اختار درسك (A1)']), el('p', { style: 'margin:0 0 12px' }, ['الدروس بالترتيب من 1 لحد 28. ابدأ من الدرس 1.'])]);
+    var w = el('div', { class: 'lx' }, [el('h1', { style: 'font-size:22px;margin:0 0 6px' }, ['Choose your lesson (A1)']), el('p', { style: 'margin:0 0 12px' }, ['Lessons are in order from 1 to 28. Start with lesson 1.'])]);
     idx.lessons.forEach(function (x) {
       var done = window.A1Practice && window.A1Practice.done(x.n);
       w.appendChild(el('a', { href: 'a1/' + pad2(x.n) + '/', style: 'display:flex;align-items:center;gap:10px;min-height:52px;padding:10px 14px;margin:8px 0;border:1px solid #cbd5e1;border-radius:12px;color:inherit;text-decoration:none' }, [el('span', { style: 'font-weight:700;min-width:78px;direction:ltr' }, [code(x.n)]), el('span', { style: 'flex:1' }, [x.title.replace(/^الدرس\s*\d+\s*[:：]\s*/, '')]), el('span', {}, [done ? '✓' : '←'])]));
@@ -143,5 +143,5 @@
   regLoad().catch(legacyLoad).then(function (o) {
     window.__a1pdfs = o.p; window.__a1registry = o.reg || null;
     var d = document.body.dataset; if (d.page === 'lesson') show(o.idx, parseInt(d.lesson, 10)); else home(o.idx);
-  }).catch(function () { app.textContent = 'مش قادر أحمّل قايمة الدروس.'; });
+  }).catch(function () { app.textContent = 'Could not load the lesson list.'; });
 })();
