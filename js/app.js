@@ -284,17 +284,42 @@
   function ytRow() {
     var yt = REG.yt || (state.session && state.session.video && state.session.video.open_url) || '';
     if (!/^https:\/\/www\.youtube\.com\//.test(yt)) return null;
-    return el('p', { class: 'caption', style: 'margin:8px 0 0' }, [el('a', { href: yt, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 16px;border-radius:999px;background:#c4302b;color:#fff;text-decoration:none', 'aria-label': 'افتح الفيديو على يوتيوب' }, ['▶ يوتيوب ↗'])]);
+    return el('p', { class: 'caption', style: 'margin:8px 0 0' }, [el('a', { href: yt, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:3px 11px;border-radius:999px;background:#c4302b;color:#fff;text-decoration:none;font-size:13px', 'aria-label': 'افتح الفيديو على يوتيوب' }, ['▶ يوتيوب ↗'])]);
   }
   function notionRow() {
     if (!REG.nr) return null;
-    return el('a', { href: REG.nr, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 16px;border-radius:999px;background:#fff;color:#111;border:1px solid #111;text-decoration:none;margin-inline-start:8px', 'aria-label': 'افتح السيشن في Notion' }, [el('span', { style: 'display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:4px;border:1.5px solid #111;font:700 14px serif', 'aria-hidden': 'true' }, ['N']), 'Notion ↗']);
+    return el('a', { href: REG.nr, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:3px 11px;border-radius:999px;background:#fff;color:#111;border:1px solid #111;text-decoration:none;margin-inline-start:8px;font-size:13px', 'aria-label': 'افتح السيشن في Notion' }, [el('span', { style: 'display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;border-radius:3px;border:1.3px solid #111;font:700 11px serif', 'aria-hidden': 'true' }, ['N']), 'Notion ↗']);
   }
   function ytFrame() {
     var yt = REG.yt || (state.session && state.session.video && state.session.video.open_url) || '';
     var u = youtubeEmbed(yt);
     if (!u) return null;
     return el('div', { class: 'video-wrap lv-wrap' }, [el('iframe', { src: u + '?rel=0&playsinline=1', title: 'فيديو السيشن على يوتيوب', style: 'width:100%;aspect-ratio:16/9;border:0;display:block', allow: 'accelerometer; encrypted-media; picture-in-picture; fullscreen', allowfullscreen: '', referrerpolicy: 'strict-origin-when-cross-origin' })]);
+  }
+  var AUD = { list: [], i: 0, el: null, all: false };
+  fetch('data/audio.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (g) {
+    var l = g && g.a1; if (l && l.length) { AUD.list = l; if (state.session) render(); }
+  }).catch(function () {});
+  function audSet(i) {
+    var t = AUD.list[i]; if (!t || !AUD.el) return; AUD.i = i; AUD.el.src = t.src;
+    var lab = document.getElementById('aud-title'); if (lab) lab.textContent = t.title;
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.metadata = new MediaMetadata({ title: t.title, artist: 'Deutsch by Barbary', album: 'A1' });
+      navigator.mediaSession.setActionHandler('nexttrack', AUD.list.length > 1 ? function () { audNext(true); } : null);
+      navigator.mediaSession.setActionHandler('previoustrack', AUD.list.length > 1 ? function () { if (AUD.i > 0) { audSet(AUD.i - 1); AUD.el.play(); } } : null);
+    }
+  }
+  function audNext(play) { if (AUD.i + 1 < AUD.list.length) { audSet(AUD.i + 1); if (play) AUD.el.play(); } }
+  function audioRow() {
+    if (!AUD.list.length) return null;
+    var a = el('audio', { controls: '', preload: 'none', style: 'width:100%;margin-top:6px', 'aria-label': 'صوت الدرس' });
+    AUD.el = a;
+    a.addEventListener('ended', function () { if (AUD.all) audNext(true); });
+    var btn = el('button', { type: 'button', style: 'min-height:32px;padding:3px 11px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit;font-size:13px', onclick: function () { AUD.all = true; audSet(0); a.play(); } }, ['🎧 تشغيل الكل (صوت)']);
+    var title = el('span', { id: 'aud-title', class: 'caption', style: 'margin-inline-start:8px' }, [AUD.list[AUD.i].title]);
+    var box = el('div', { style: 'margin:10px 0 0' }, [btn, title, a]);
+    setTimeout(function () { audSet(AUD.i); }, 0);
+    return box;
   }
   function videoBlock() {
     var kids = [];
@@ -305,6 +330,7 @@
       var yr = ytRow(); if (yr) { var a = yr.firstChild; a.style.marginInlineStart = '0'; row.appendChild(a); }
       var nr = notionRow(); if (nr) row.appendChild(nr);
       kids.push(row);
+      var ar = audioRow(); if (ar) kids.push(ar);
       return el('div', { class: 'lv' }, kids);
     }
     if (NV.video) {
