@@ -18,7 +18,7 @@
 <div id="app">بيحمّل…</div>
 </main>
 <script>
-Promise.all([fetch('data/a1-pdfs.json').then(r=>r.json()),fetch('data/a1-index.json').then(r=>r.json())]).then(function(a){
+(fetch('data/registry.json').then(r=>{if(!r.ok)throw 0;return r.json()}).then(g=>{var L=g.levels.a1.lessons,p={};L.forEach(x=>{p[String(x.n)]=x.pdfs||[]});return [p,{level:'A1',lessons:L.map(x=>({n:x.n,title:x.title,page_id:x.page_id}))}]}).catch(()=>Promise.all([fetch('data/a1-pdfs.json').then(r=>r.json()),fetch('data/a1-index.json').then(r=>r.json())]))).then(function(a){
   var m=a[0],L=a[1].lessons,app=document.getElementById('app');app.textContent='';
   L.forEach(function(l){
     var fs=m[String(l.n)]||[];
