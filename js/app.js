@@ -150,18 +150,6 @@
     btn.parentNode.appendChild(el('span', { class: 'audio-err', role: 'status' }, ['Audio is not available right now']));
   }
 
-  function renderBanner() {
-    var kind, text;
-    if (state.syncState === 'synced') { kind = 'ok'; text = 'Your progress is saved and up to date.'; }
-    else if (state.syncState === 'error') { kind = 'error'; text = 'Saving failed.'; }
-    else if (state.syncState === 'offline-queued') { kind = 'wait'; text = CONFIG.progressEndpoint ? 'Offline. Your changes are saved here and will be sent when the connection returns.' : 'Offline. Your changes are saved on this device. Central sync is not enabled yet.'; }
-    else { kind = 'wait'; text = 'Progress is saved on this device only. Central sync is not enabled yet.'; }
-    return el('div', { class: 'banner', 'data-kind': kind, role: 'status' }, [
-      el('span', {}, [text]),
-      el('button', { class: 'btn btn-secondary', type: 'button', onclick: function () { store.flush(setSync); render(); } }, ['Reload'])
-    ]);
-  }
-
   function setSync(s) { state.syncState = s; }
 
   function youtubeEmbed(url) {
@@ -877,7 +865,6 @@
     app.appendChild(renderNav());
     app.appendChild(renderHero(s));
     app.appendChild(el('div', { class: 'wrap' }, [
-      renderBanner(),
       el('div', { class: 'grid' }, [
         renderTracker(s),
         renderLesson(s),
