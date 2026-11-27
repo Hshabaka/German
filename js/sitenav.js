@@ -19,7 +19,7 @@
     globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>'
   };
   function icon(n) { var s = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); s.setAttribute('viewBox', '0 0 24 24'); s.setAttribute('width', '22'); s.setAttribute('height', '22'); s.setAttribute('fill', 'none'); s.setAttribute('stroke', 'currentColor'); s.setAttribute('stroke-width', '2'); s.setAttribute('stroke-linecap', 'round'); s.setAttribute('stroke-linejoin', 'round'); s.setAttribute('aria-hidden', 'true'); s.innerHTML = I[n]; return s; }
-  function getLang() { try { return localStorage.getItem(KEY) === 'ar' ? 'ar' : 'en'; } catch (e) { return 'en'; } }
+  function getLang() { return 'en'; }
   var L = getLang();
   function page() {
     var p = location.pathname, m;
@@ -102,7 +102,7 @@
     var box = el('div', 'ms');
     function srow(label) { var r = el('div', 'sr'); r.appendChild(el('span', 'sl', label)); box.appendChild(r); return r; }
     function sb(txt, aria, fn, pressed) { var b = el('button', 'sbn', txt); b.type = 'button'; b.setAttribute('aria-label', aria); if (pressed != null) b.setAttribute('aria-pressed', pressed ? 'true' : 'false'); b.addEventListener('click', function (e) { e.stopPropagation(); fn(); }); return b; }
-    var r1 = srow(t.langRow); r1.appendChild(sb('English', 'English', function () { setLang('en'); }, L === 'en')); r1.appendChild(sb('العربية', 'العربية', function () { setLang('ar'); }, L === 'ar'));
+    
     var r2 = srow(t.theme); r2.appendChild(sb(getTheme() === 'dark' ? 'ON' : 'OFF', t.theme, function () { setTheme(getTheme() === 'dark' ? 'light' : 'dark'); }, getTheme() === 'dark'));
     var r3 = srow(t.zoom); r3.appendChild(sb('−', t.zout, function () { setZoom(getZoom() - 0.1); })); r3.appendChild(el('span', 'zv', Math.round(getZoom() * 100) + '%')); r3.appendChild(sb('+', t.zin, function () { setZoom(getZoom() + 0.1); }));
     panel.appendChild(box);
