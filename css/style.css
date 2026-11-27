@@ -477,3 +477,8 @@ html.sn-dark .tab[aria-selected="true"] .tab-count{background:rgba(94,234,212,.2
 .ctl.tr .bq-act .btn{min-width:34px !important;width:34px;min-height:40px;padding:0 !important;font-size:16px}
 .ctl.tr .bq-act .reveal-btn{font-size:18px}
 .sec-reset{min-width:44px;padding:0 12px;font-size:20px;line-height:1}
+@media (min-width: 900px) {
+  #sec-practice { display: flex; flex-direction: column; }
+  #sec-practice .flash-scene { flex: 1; display: flex; min-height: 210px; }
+  #sec-practice .flashcard { flex: 1; height: auto; }
+}
