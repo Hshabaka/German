@@ -483,3 +483,10 @@ html.sn-dark .tab[aria-selected="true"] .tab-count{background:rgba(94,234,212,.2
   #sec-practice .flash-scene { flex: 1; display: flex; min-height: 210px; }
   #sec-practice .flashcard { flex: 1; height: auto; }
 }
+
+/* Tap-to-play rows (words and sentences) */
+.tap-play { cursor: pointer; -webkit-tap-highlight-color: transparent; user-select: none; transition: box-shadow .15s, transform .1s; }
+.tap-play:hover { box-shadow: 0 0 0 2px var(--teal); }
+.tap-play:active { transform: scale(0.99); }
+.tap-play:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+.tap-play[data-state="playing"] { box-shadow: 0 0 0 2px var(--teal); }
