@@ -384,6 +384,8 @@
       return el('div', { class: 'rule' }, [
         el('h3', {}, [r.title]),
         el('p', {}, [r.rule]),
+        r.forms ? el('ul', { class: 'rule-forms', dir: 'ltr' }, r.forms.map(function (f) { return el('li', {}, [f]); })) : null,
+        r.note ? el('p', {}, [r.note]) : null,
         el('ul', { class: 'rule-examples' }, r.examples.map(function (x) {
           return el('li', {}, [
             el('span', { class: 'rule-de', dir: 'ltr' }, [x.de]),
@@ -392,7 +394,7 @@
         }))
       ]);
     }));
-    return panel('grammar', 'القاعدة', 'Ich kann + الفعل في الآخر', [el('details', { class: 'rule-toggle' }, [el('summary', { style: 'cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700' }, ['اعرض / اخفِ القاعدة']), grid])], 'tone-amber', 'span-7', null);
+    return panel('grammar', 'القاعدة', 'خمس قواعد بسيطة للجلسة', [el('details', { class: 'rule-toggle' }, [el('summary', { style: 'cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700' }, ['اعرض / اخفِ القاعدة']), grid])], 'tone-amber', 'span-7', null);
   }
 
   function renderMaterials(s) {
@@ -429,7 +431,7 @@
         ]);
       }));
     return panel('book', 'الكلمات', 'der أزرق · die أحمر · das أخضر', [tabs, list,
-      el('p', { class: 'caption' }, ['اضغط زر السماعة جنب أي كلمة تسمع نطقها.'])], '', 'span-12', 'sec-vocab');
+    ], '', 'span-12', 'sec-vocab');
   }
 
   function renderSentences(s) {
