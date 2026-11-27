@@ -3,6 +3,7 @@
   function page() {
     var p = location.pathname, m;
     if (/\/a1\/files\/?$/.test(p)) return { kind: 'files' };
+    if (/\/a1\/playlist\/?(index\.html)?$/.test(p)) return { kind: 'playlist' };
     if ((m = p.match(/\/a1\/s(\d\d)\/?$/))) return { kind: 'lesson', n: parseInt(m[1], 10) };
     if (/\/a1\/(index\.html)?$/.test(p)) return { kind: 'list' };
     return { kind: 'home' };
@@ -17,7 +18,7 @@
     var sep = function (t) { var m = document.createElement('span'); m.textContent = ' › ' + t; crumbs.appendChild(m); };
     if (pg.kind === 'home') { crumbs.lastChild.remove(); var s = document.createElement('strong'); s.textContent = 'الرئيسية'; crumbs.textContent = ''; crumbs.appendChild(s); }
     else if (pg.kind === 'list') { sep('A1 (قايمة الدروس)'); }
-    else { sep(''); crumbs.lastChild.textContent = ' › '; crumbs.appendChild(a('a1/', 'A1')); sep(pg.kind === 'files' ? 'ملفات' : 'A1-S' + (pg.n < 10 ? '0' : '') + pg.n); }
+    else { sep(''); crumbs.lastChild.textContent = ' › '; crumbs.appendChild(a('a1/', 'A1')); sep(pg.kind === 'playlist' ? 'بلاي ليست' : pg.kind === 'files' ? 'ملفات' : 'A1-S' + (pg.n < 10 ? '0' : '') + pg.n); }
     bar.appendChild(crumbs);
     var acts = document.createElement('div'); acts.className = 'sn-a';
     if (pg.kind === 'lesson') {
