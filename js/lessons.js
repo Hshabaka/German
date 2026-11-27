@@ -92,7 +92,7 @@
       var cov = el('div', { class: 'callout' }, [el('span', {}, ['ℹ️']), el('div', {}, [])]);
       var ct = cov.lastChild;
       ct.appendChild(el('p', {}, [el('strong', {}, ['عرض قراءة للدرس مع الصوت.']), ' ده مش بنفس تجربة الدرس 1 التفاعلية (مفيش اختبار أو تتبّع تقدّم هنا).']));
-      ct.appendChild(el('p', {}, ['المحتوى مكتوب من ملفات الدرس ومن الترجمة التلقائية للفيديو، ولسه ما اتراجعش مع المدرس. التسجيلات الألمانية مولّدة للتدريب، مش صوت المدرس. ملفات PDF والفيديو الأصلي مش موجودة هنا: الفيديو برابط يوتيوب والملفات على Barbary.']));
+      ct.appendChild(el('p', {}, ['المحتوى مكتوب من ملفات الدرس ومن الترجمة التلقائية للفيديو، ولسه ما اتراجعش مع المدرس. التسجيلات الألمانية مولّدة للتدريب، مش صوت المدرس. الفيديو الأصلي برابط يوتيوب (مش فيديو Notion داخل الصفحة). ملفات الـ PDF بتاعة الدرس تحت.']));
       if (orig) {
         var det = el('details', {}, [el('summary', {}, ['ملاحظة المصدر الأصلية من Notion'])]);
         det.appendChild(runs(orig.text));
@@ -100,6 +100,12 @@
       }
       body.appendChild(cov);
       list(blocks).forEach(function (k) { body.appendChild(k); });
+      var pf = (window.__a1pdfs || {})[String(n)] || [];
+      if (pf.length) {
+        var ps = el('div', { class: 'callout' }, [el('span', {}, ['📄']), el('div', {}, [el('p', {}, [el('strong', {}, ['ملفات PDF للدرس'])])])]);
+        pf.forEach(function (f) { ps.lastChild.appendChild(el('p', {}, [el('a', { href: f.file, target: '_blank', rel: 'noopener' }, [f.label])])); });
+        body.appendChild(ps);
+      }
       var nav = el('div', { class: 'lx-nav' }, []);
       if (n > 2) nav.appendChild(el('a', { class: 'lx-btn', href: '#' + (n - 1) }, ['→ الدرس ' + (n - 1)]));
       if (n < L.length) nav.appendChild(el('a', { class: 'lx-btn', href: '#' + (n + 1) }, ['الدرس ' + (n + 1) + ' ←']));
@@ -107,7 +113,7 @@
       window.scrollTo(0, 0);
     }).catch(function () { body.textContent = ''; body.appendChild(el('p', {}, ['الدرس ده لسه ما اتحمّلش على الموقع.'])); });
   }
-  fetch('data/a1-index.json').then(function (r) { return r.json(); }).then(function (idx) {
+  fetch('data/a1-pdfs.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }).then(function (p) { window.__a1pdfs = p; return fetch('data/a1-index.json'); }).then(function (r) { return r.json(); }).then(function (idx) {
     function go() { var n = parseInt(location.hash.slice(1), 10); show(idx, n >= 2 ? n : 2); }
     window.addEventListener('hashchange', go); go();
   }).catch(function () { app.textContent = 'مش قادر أحمّل قايمة الدروس.'; });
