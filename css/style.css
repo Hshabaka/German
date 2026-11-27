@@ -421,3 +421,4 @@ html.locked body > *:not(#gate) { display: none !important; }
 .lx > h1, .lx > p { direction: ltr; text-align: left; }
 .lx p, .lx li, .lx td, .lx th, .lx summary, .lx blockquote, .lx h2, .lx h3, .lx h4, .lx .callout div { unicode-bidi: plaintext; text-align: start; }
 .lx .callout > div, .lx .callout > div > div, .lx div.callout { unicode-bidi: plaintext; text-align: start; }
+.lx div, .lx p, .lx li, .lx td, .lx th, .lx summary, .lx h2, .lx h3, .lx h4 { unicode-bidi: plaintext !important; text-align: start !important; }
