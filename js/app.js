@@ -550,8 +550,8 @@
         el('span', { class: 'progressbar' }, [el('i', { style: 'width:' + pct + '%' })])
       ]),
       el('div', { class: 'flash-scene' }, [flash]),
-      card.audio ? el('div', { class: 'card-listen' }, [audioButton(card.audio, 'Listen: ' + card.de)]) : null,
       el('div', { class: 'card-actions' }, [
+        card.audio ? audioButton(card.audio, 'Listen: ' + card.de) : null,
         el('button', { class: 'btn btn-secondary', type: 'button', onclick: function () { state.revealed = !state.revealed; render(); } }, [state.revealed ? 'Hide' : 'Show meaning']),
         el('button', {
           class: 'btn btn-primary', type: 'button', onclick: function () {
