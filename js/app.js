@@ -316,6 +316,11 @@
     return el('div', { class: 'lv' }, kids);
   }
 
+  function bidiParts(t) {
+    return String(t).split(/([A-Za-z][A-Za-z\- ]*[A-Za-z])/).map(function (p, i) {
+      return i % 2 ? el('bdi', { dir: 'ltr', style: 'white-space:nowrap' }, [p]) : p;
+    });
+  }
   function renderLesson(s) {
     var vid = s.video || {};
     var embed = vid.provider === 'youtube' ? youtubeEmbed(vid.url) : null;
@@ -338,7 +343,7 @@
     if (s.lesson && s.lesson.challenge) {
       var ch = s.lesson.challenge;
       children.push(el('div', { class: 'challenge' }, [
-        el('h3', {}, [ch.title]),
+        el('h3', {}, bidiParts(ch.title)),
         el('p', {}, [ch.intro]),
         el('ol', {}, ch.items.map(function (t) { return el('li', {}, [t]); })),
         el('p', { class: 'caption' }, [ch.note])
