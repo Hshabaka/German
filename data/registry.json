@@ -1,0 +1,519 @@
+{
+ "version": 1,
+ "note": "Single editable source for lesson list, titles, routes, YouTube links, Notion row links and PDF paths. Stable links only. Notion file/download links are temporary (about 1 hour) and are never stored here.",
+ "notion_library": "https://app.notion.com/p/425e697c9519818abd4ccb27dbe3cf7f",
+ "levels": {
+  "a1": {
+   "code": "A1",
+   "path": "a1/",
+   "lessons": [
+    {
+     "n": 1,
+     "code": "A1-S01",
+     "route": "a1/s01/",
+     "title": "الدرس 1: كسر الحاجز (أنا أستطيع)",
+     "page_id": "424e697c-9519-8183-af75-f3467faed791",
+     "youtube": "https://www.youtube.com/watch?v=RW1j4m1giP0",
+     "notion_row": "https://app.notion.com/p/1-425e697c9519812191c8ec0d2f3044cf",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-01-1.pdf",
+       "label": "Ep-1"
+      },
+      {
+       "file": "pdf/a1/lesson-01-2.pdf",
+       "label": "الدرس الاول الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "code": "A1-S02",
+     "route": "a1/s02/",
+     "title": "الدرس 2: إعطاء الجملة روح",
+     "page_id": "424e697c-9519-81a7-b47d-f36b76cb407e",
+     "youtube": "https://www.youtube.com/watch?v=W8ZPOBI3wR4",
+     "notion_row": "https://app.notion.com/p/2-425e697c951981d49602e93f1aa7ba9a",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-02-1.pdf",
+       "label": "Ep-2"
+      },
+      {
+       "file": "pdf/a1/lesson-02-2.pdf",
+       "label": "Ep-2.1"
+      },
+      {
+       "file": "pdf/a1/lesson-02-3.pdf",
+       "label": "الدرس الثاني الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "code": "A1-S03",
+     "route": "a1/s03/",
+     "title": "الدرس 3: المراجعة وتثبيت المكعبات",
+     "page_id": "424e697c-9519-813d-8c2a-e1b9c490870f",
+     "youtube": "https://www.youtube.com/watch?v=VMh_46Ynxr8",
+     "notion_row": "https://app.notion.com/p/3-425e697c9519818c9f14e7f7ba0e8cf8",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-03-1.pdf",
+       "label": "Ep-3"
+      },
+      {
+       "file": "pdf/a1/lesson-03-2.pdf",
+       "label": "الدرس الثالث الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "code": "A1-S04",
+     "route": "a1/s04/",
+     "title": "الدرس 4: الانطلاق مع باقي الضمائر",
+     "page_id": "424e697c-9519-8193-981b-c53e89855538",
+     "youtube": "https://www.youtube.com/watch?v=LNWPU9BkvPM",
+     "notion_row": "https://app.notion.com/p/4-425e697c9519818a9268d88336f1bb26",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-04-1.pdf",
+       "label": "الدرس الرابع متريل (1)"
+      },
+      {
+       "file": "pdf/a1/lesson-04-2.pdf",
+       "label": "ملف تدريبات وحل"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "code": "A1-S05",
+     "route": "a1/s05/",
+     "title": "الدرس 5: الإلزام والاحتياج",
+     "page_id": "424e697c-9519-814a-8713-e2c6abc03726",
+     "youtube": "https://www.youtube.com/watch?v=8BFgyj-Pfec",
+     "notion_row": "https://app.notion.com/p/5-425e697c951981a4ac8acd5afffc2e1d",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-05-1.pdf",
+       "label": "Ep-5"
+      },
+      {
+       "file": "pdf/a1/lesson-05-2.pdf",
+       "label": "الدرس الخامس الدرس الفرعي (1)"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "code": "A1-S06",
+     "route": "a1/s06/",
+     "title": "الدرس 6: السفر والقدرة على شراء الأشياء",
+     "page_id": "424e697c-9519-8162-b01f-f434d397b7e7",
+     "youtube": "https://www.youtube.com/watch?v=TUWARNtdnWU",
+     "notion_row": "https://app.notion.com/p/6-425e697c95198147944ae6d14307c5e5",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-06-1.pdf",
+       "label": "الدرس السادس الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "code": "A1-S07",
+     "route": "a1/s07/",
+     "title": "الدرس 7: إزاي تعبر عن رأيك في الأكل؟",
+     "page_id": "424e697c-9519-8121-a801-c60823fc75e9",
+     "youtube": "https://www.youtube.com/watch?v=7DJ1JayGVm0",
+     "notion_row": "https://app.notion.com/p/7-425e697c9519816ea73bddc8fcadbaf3",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-07-1.pdf",
+       "label": "الدرس السابع الدرس الفرعي"
+      },
+      {
+       "file": "pdf/a1/lesson-07-2.pdf",
+       "label": "الدرس السابع تدريبات واختبار"
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "code": "A1-S08",
+     "route": "a1/s08/",
+     "title": "الدرس8: صيغة الأمر والسبب",
+     "page_id": "424e697c-9519-8186-8fd1-e61c2979b9a8",
+     "youtube": "https://www.youtube.com/watch?v=gb9DcXLF8mQ",
+     "notion_row": "https://app.notion.com/p/8-425e697c951981769c4df276450d30b5",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-08-1.pdf",
+       "label": "Ep-8"
+      },
+      {
+       "file": "pdf/a1/lesson-08-2.pdf",
+       "label": "الدرس الثامن الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "code": "A1-S09",
+     "route": "a1/s09/",
+     "title": "الدرس 9: عائلة الأفعال المساعدة بالكامل",
+     "page_id": "424e697c-9519-8125-862d-cc2a1c0532a6",
+     "youtube": "https://www.youtube.com/watch?v=lj_KLme_pMk",
+     "notion_row": "https://app.notion.com/p/9-425e697c9519812981a9f714b625d461",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-09-1.pdf",
+       "label": "عائلة الأفعال المساعدة - الدرس التاسع"
+      },
+      {
+       "file": "pdf/a1/lesson-09-2.pdf",
+       "label": "الدرس التاسع الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "code": "A1-S10",
+     "route": "a1/s10/",
+     "title": "الدرس 10: التتويج والتعريف بالنفس",
+     "page_id": "424e697c-9519-8144-9c55-e19cf122f1eb",
+     "youtube": "https://www.youtube.com/watch?v=NCcN5KY9HVE",
+     "notion_row": "https://app.notion.com/p/10-425e697c95198105bd57c4a0f6337a1a",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-10-1.pdf",
+       "label": "Ep-10"
+      },
+      {
+       "file": "pdf/a1/lesson-10-2.pdf",
+       "label": "الدرس العاشر الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "code": "A1-S11",
+     "route": "a1/s11/",
+     "title": "الدرس 11: عالم الأسماء والأدوات",
+     "page_id": "424e697c-9519-8151-b61b-d4e32637faba",
+     "youtube": "https://www.youtube.com/watch?v=vMHOoXtAtN0",
+     "notion_row": "https://app.notion.com/p/11-425e697c951981b0bd02d51fc53ce843",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-11-1.pdf",
+       "label": "الدرس 11 الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "code": "A1-S12",
+     "route": "a1/s12/",
+     "title": "الدرس 12: الأرقام والعمر",
+     "page_id": "424e697c-9519-81a9-b2e0-eaaefaed6652",
+     "youtube": "https://www.youtube.com/watch?v=KIS8k1rgO4E",
+     "notion_row": "https://app.notion.com/p/12-425e697c9519810a9c3feeb5aa9059f2",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-12-1.pdf",
+       "label": "الدرس 12 الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "code": "A1-S13",
+     "route": "a1/s13/",
+     "title": "الدرس 13: عائلتي وأشيائي",
+     "page_id": "424e697c-9519-81c0-a42e-e3b4f645e580",
+     "youtube": "https://www.youtube.com/watch?v=GMlUvMxIShY",
+     "notion_row": "https://app.notion.com/p/13-425e697c95198124b149ef22d86c0d9d",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-13-1.pdf",
+       "label": "الدرس 13 الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "code": "A1-S14",
+     "route": "a1/s14/",
+     "title": "الدرس 14: مقارنة الصفات (أكبر من / أحسن من)",
+     "page_id": "424e697c-9519-8165-a692-db0b1f01011d",
+     "youtube": "https://www.youtube.com/watch?v=4LOEp4zZR50",
+     "notion_row": "https://app.notion.com/p/14-425e697c951981e9870cd90a13dff0d0",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-14-1.pdf",
+       "label": "Ep-14"
+      },
+      {
+       "file": "pdf/a1/lesson-14-2.pdf",
+       "label": "شرح_قاعدة_Der_Superlativ (2)"
+      },
+      {
+       "file": "pdf/a1/lesson-14-3.pdf",
+       "label": "الدرس 14 الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "code": "A1-S15",
+     "route": "a1/s15/",
+     "title": "الدرس 15: إلغاء موعد رسمي",
+     "page_id": "424e697c-9519-81e2-8442-e90a419e63a0",
+     "youtube": "https://www.youtube.com/watch?v=iSLGFTPsFWc",
+     "notion_row": "https://app.notion.com/p/15-425e697c951981699186e62074e2bfb5",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-15-1.pdf",
+       "label": "الدرس 15 الدرس الفرعي (1)"
+      },
+      {
+       "file": "pdf/a1/lesson-15-2.pdf",
+       "label": "تدريبات واختبار شامل"
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "code": "A1-S16",
+     "route": "a1/s16/",
+     "title": "الدرس 16: عند الطبيب والتعبير عن الألم",
+     "page_id": "424e697c-9519-81c8-b4d9-dc65535fc4d6",
+     "youtube": "https://www.youtube.com/watch?v=CkMhpS9I5II",
+     "notion_row": "https://app.notion.com/p/16-425e697c9519815dbcc3c09f4205e537",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-16-1.pdf",
+       "label": "الدرس 16 الدرس الفرعي"
+      },
+      {
+       "file": "pdf/a1/lesson-16-2.pdf",
+       "label": "ملزمة التدريبات والاختبار الشامل (الدروس 1 - 16)"
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "code": "A1-S17",
+     "route": "a1/s17/",
+     "title": "الدرس 17: الماستر كلاس (الجزء الأول)",
+     "page_id": "424e697c-9519-8190-9c47-ef6d5662fcfb",
+     "youtube": "https://www.youtube.com/watch?v=m_4BqV0xBiA",
+     "notion_row": "https://app.notion.com/p/17-425e697c9519810699e6fccea27bb93e",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-17-1.pdf",
+       "label": "الدرس 17 الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "code": "A1-S18",
+     "route": "a1/s18/",
+     "title": "الدرس 18: الماستر كلاس (الجزء الثاني)",
+     "page_id": "424e697c-9519-81d5-a1db-c204a2fc6a4e",
+     "youtube": "https://www.youtube.com/watch?v=qAB1dWpJiqk",
+     "notion_row": "https://app.notion.com/p/18-425e697c951981b097bbd9dc4d99ec20",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-18-1.pdf",
+       "label": "الدرس 18 الدرس الفرعي"
+      },
+      {
+       "file": "pdf/a1/lesson-18-2.pdf",
+       "label": "تدريبات وكلمات وامتحان"
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "code": "A1-S19",
+     "route": "a1/s19/",
+     "title": "الدرس 19: الماستر كلاس (الجزء الثالث - القفلة)",
+     "page_id": "424e697c-9519-8144-a7e9-e77c189f4e8b",
+     "youtube": "https://www.youtube.com/watch?v=ZaJbDMpSyNc",
+     "notion_row": "https://app.notion.com/p/19-425e697c9519819e8b35fbf124f2e10d",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-19-1.pdf",
+       "label": "الدرس 19 الشامل (لعبة المحايد والجمع)"
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "code": "A1-S20",
+     "route": "a1/s20/",
+     "title": "الدرس 20: السؤال كُله (كيف تسأل بالألماني؟)",
+     "page_id": "424e697c-9519-81e3-a87d-d147e5211929",
+     "youtube": "https://www.youtube.com/watch?v=BFkgx3gxS60",
+     "notion_row": "https://app.notion.com/p/20-425e697c951981ae8a0eec1ef95e3e6e",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-20-1.pdf",
+       "label": "الدرس 20 الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "code": "A1-S21",
+     "route": "a1/s21/",
+     "title": "الدرس 21: حالة الطقس",
+     "page_id": "424e697c-9519-8186-b503-f1222c0369c3",
+     "youtube": "https://www.youtube.com/watch?v=iEWaYQ5D8Tk",
+     "notion_row": "https://app.notion.com/p/21-425e697c95198147804fc43c961237ef",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-21-1.pdf",
+       "label": "الدرس 21 الدرس الفرعي"
+      },
+      {
+       "file": "pdf/a1/lesson-21-2.pdf",
+       "label": "تدريبات الدرس 21 والاختبار الشامل الأكبر (1 - 21)"
+      }
+     ]
+    },
+    {
+     "n": 22,
+     "code": "A1-S22",
+     "route": "a1/s22/",
+     "title": "الدرس 22: متى؟ (حروف الجر الزمنية)",
+     "page_id": "424e697c-9519-81f9-b132-fff76ede3e79",
+     "youtube": "https://www.youtube.com/watch?v=vCJjuJCrjXs",
+     "notion_row": "https://app.notion.com/p/22-425e697c951981a8aa60f882acd7ef24",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-22-1.pdf",
+       "label": "الدرس 22 الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 23,
+     "code": "A1-S23",
+     "route": "a1/s23/",
+     "title": "الدرس 23: أين وإلى أين؟ (حروف الجر المكانية)",
+     "page_id": "424e697c-9519-81d5-ab17-e21d23a7a719",
+     "youtube": "https://www.youtube.com/watch?v=YEyE6Vh1IEQ",
+     "notion_row": "https://app.notion.com/p/23-425e697c951981f98779e79c08ec552c",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-23-1.pdf",
+       "label": "23 جزء اول"
+      },
+      {
+       "file": "pdf/a1/lesson-23-2.pdf",
+       "label": "23 جزء ثاني"
+      },
+      {
+       "file": "pdf/a1/lesson-23-3.pdf",
+       "label": "الدرس 23 الشامل"
+      }
+     ]
+    },
+    {
+     "n": 24,
+     "code": "A1-S24",
+     "route": "a1/s24/",
+     "title": "الدرس 24: إزاي تتكلم عن المستقبل؟",
+     "page_id": "424e697c-9519-8103-8d4c-d2b0b58d6752",
+     "youtube": "https://www.youtube.com/watch?v=1kqgVosjOTo",
+     "notion_row": "https://app.notion.com/p/24-425e697c951981c0a0b2f77eb3e1105b",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-24-1.pdf",
+       "label": "الدرس 24 الشامل (المستقبل، لغة الشارع، وقاعدة sobald)"
+      }
+     ]
+    },
+    {
+     "n": 25,
+     "code": "A1-S25",
+     "route": "a1/s25/",
+     "title": "الدرس 25: ماذا حدث؟ (الماضي المركب Perfekt)",
+     "page_id": "424e697c-9519-8186-aede-e96730ed50f4",
+     "youtube": "https://www.youtube.com/watch?v=LIIED4JJ9aE",
+     "notion_row": "https://app.notion.com/p/25-Perfekt-425e697c95198102b415eebbdcfd4a9d",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-25-1.pdf",
+       "label": "الدرس 25 الدرس الفرعي"
+      },
+      {
+       "file": "pdf/a1/lesson-25-2.pdf",
+       "label": "Lektion25_Perfekt"
+      }
+     ]
+    },
+    {
+     "n": 26,
+     "code": "A1-S26",
+     "route": "a1/s26/",
+     "title": "الدرس 26: ماضي الحكايات السريع",
+     "page_id": "424e697c-9519-8137-a3ad-da4a3120c3b1",
+     "youtube": "https://www.youtube.com/watch?v=jw0wNnRmsDw",
+     "notion_row": "https://app.notion.com/p/26-425e697c9519816a8ee4f0f211ddab02",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-26-1.pdf",
+       "label": "الدرس 26 الدرس الفرعي"
+      }
+     ]
+    },
+    {
+     "n": 27,
+     "code": "A1-S27",
+     "route": "a1/s27/",
+     "title": "الدرس 27: كتابة الإيميل",
+     "page_id": "424e697c-9519-8183-8b46-f784c411b323",
+     "youtube": "https://www.youtube.com/watch?v=ZFbzzSqEElQ",
+     "notion_row": "https://app.notion.com/p/27-425e697c951981c2bdeeea6be4d27c99",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-27-1.pdf",
+       "label": "الدرس 27 الدرس الفرعي (حجز فندق - كتابة الإيميل)"
+      }
+     ]
+    },
+    {
+     "n": 28,
+     "code": "A1-S28",
+     "route": "a1/s28/",
+     "title": "الدرس 28: الاستمارة والمحادثة",
+     "page_id": "424e697c-9519-8106-a8e9-fde1c4f69191",
+     "youtube": null,
+     "notion_row": "https://app.notion.com/p/28-425e697c951981989adbeb31274c2579",
+     "pdfs": [
+      {
+       "file": "pdf/a1/lesson-28-1.pdf",
+       "label": "الدرس 28 الدرس الفرعي"
+      },
+      {
+       "file": "materials/a1/lesson-28-exam-training.html",
+       "label": "A1 Prüfungstraining — Formular & Sprechen (صفحة تدريب تفاعلية، مش PDF)"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "video": {
+  "a1-s01": {
+   "player": "data/video-urls.json",
+   "note": "temporary signed Notion link, expires about 1 hour, not durable"
+  }
+ }
+}
