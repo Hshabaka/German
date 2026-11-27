@@ -492,10 +492,23 @@
       var st = answers[qi];
       if (st && st.result) checked += 1;
       if (st && st.result === 'correct') correct += 1;
-      var qEl = el('div', { class: 'quiz-q' }, [
+      var qEl = el('div', { class: 'quiz-q qa' }, [
         el('div', { class: 'quiz-prompt' }, [
           el('span', { class: 'quiz-num' }, [arNum(qi + 1)]),
           el('span', { dir: 'ltr' }, [q.prompt])
+        ]),
+        el('div', { class: 'bq-act' }, [
+          el('button', {
+            class: 'btn btn-secondary', type: 'button', 'aria-label': 'تحقق',
+            disabled: (!st || st.result === 'correct') ? '' : null,
+            onclick: function () {
+              if (!answers[qi]) return;
+              answers[qi].result = answers[qi].choice === q.answer ? 'correct' : 'wrong';
+              if (answers[qi].result === 'correct' && s.quiz.every(function (_, i) { return answers[i] && answers[i].result === 'correct'; })) markTracker('did-quiz');
+              persist(); render();
+            }
+          }, ['✓']),
+          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'من الأول', onclick: function () { delete answers[qi]; persist(); render(); } }, ['↺'])
         ]),
         el('div', { class: 'quiz-options', dir: 'ltr' }, q.options.map(function (opt, oi) {
           var selected = st && st.choice === oi;
@@ -510,19 +523,7 @@
               persist(); render();
             }
           }, [opt]);
-        })),
-        el('div', {}, [
-          el('button', {
-            class: 'btn btn-secondary', type: 'button',
-            disabled: (!st || st.result === 'correct') ? '' : null,
-            onclick: function () {
-              if (!answers[qi]) return;
-              answers[qi].result = answers[qi].choice === q.answer ? 'correct' : 'wrong';
-              if (answers[qi].result === 'correct' && s.quiz.every(function (_, i) { return answers[i] && answers[i].result === 'correct'; })) markTracker('did-quiz');
-              persist(); render();
-            }
-          }, ['تحقق'])
-        ])
+        }))
       ]);
       var qFull = q.prompt.replace(/_+/, q.options[q.answer]);
       if (st && st.result === 'correct') qEl.appendChild(fbBox(true, qFull, q.ar, q.why));
@@ -623,21 +624,22 @@
     var ans = store.data.answers;
     return s.practice.errors.map(function (it, i) {
       var key = 'e' + i, st = ans[key];
-      var wrap = el('div', { class: 'quiz-q' }, [
+      var wrap = el('div', { class: 'quiz-q qa' }, [
         el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)]), el('span', {}, ['أنهي جملة صح؟'])]),
+        el('div', { class: 'bq-act' }, [el('button', { class: 'btn btn-secondary', type: 'button', 'aria-label': 'تحقق', disabled: (!st || st.result === 'correct') ? '' : null,
+          onclick: function () {
+            ans[key].result = ans[key].choice === it.answer ? 'correct' : 'wrong';
+            if (ans[key].result === 'correct' && drillAllDone(s)) markTracker('did-practice');
+            persist(); render();
+          } }, ['✓']),
+          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'من الأول', onclick: function () { delete ans[key]; persist(); render(); } }, ['↺'])]),
         el('div', { class: 'quiz-options', dir: 'ltr' }, it.options.map(function (opt, oi) {
           var selected = st && st.choice === oi;
           return el('button', { class: 'quiz-opt', type: 'button',
             'data-selected': String(!!selected), 'data-correct': String(!!(st && st.result === 'correct' && oi === it.answer)), 'data-wrong': String(!!(selected && st.result === 'wrong')),
             onclick: function () { if (st && st.result === 'correct') return; ans[key] = { choice: oi, result: null }; persist(); render(); }
           }, [opt]);
-        })),
-        el('div', {}, [el('button', { class: 'btn btn-secondary', type: 'button', disabled: (!st || st.result === 'correct') ? '' : null,
-          onclick: function () {
-            ans[key].result = ans[key].choice === it.answer ? 'correct' : 'wrong';
-            if (ans[key].result === 'correct' && drillAllDone(s)) markTracker('did-practice');
-            persist(); render();
-          } }, ['تحقق'])])
+        }))
       ]);
       if (st && st.result) wrap.appendChild(fbBox(st.result === 'correct', it.options[it.answer], it.ar, it.why));
       return wrap;
