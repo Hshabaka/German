@@ -15,11 +15,28 @@
     }).then(function (bits) { return hex(bits) === gateData.hash; });
   }
   function unlock() { try { sessionStorage.setItem(KEY, '1'); } catch (e) {} root.classList.remove('locked'); var g = document.getElementById('gate'); if (g) g.remove(); addLockButton(); }
-  function lock() { try { sessionStorage.removeItem(KEY); } catch (e) {} var b = document.getElementById('lock-btn'); if (b) b.remove(); showGate(); }
+  function lock() { try { sessionStorage.removeItem(KEY); } catch (e) {} var b = document.getElementById('lock-btn'); if (b) b.remove(); var u = document.getElementById('upd-btn'); if (u) u.remove(); showGate(); }
   function addLockButton() {
     if (document.getElementById('lock-btn')) return;
     var b = mk('button', { id: 'lock-btn', type: 'button', 'aria-label': 'قفل الشاشة' }, 'قفل 🔒');
     b.addEventListener('click', lock); document.body.appendChild(b);
+    var u = mk('button', { id: 'upd-btn', type: 'button', 'aria-label': 'تحديث الموقع ومسح الملفات المخزنة' }, 'تحديث ↻');
+    u.setAttribute('style', 'position:fixed;top:52px;left:10px;z-index:50;border:1px solid rgba(28,25,23,.35);border-radius:999px;padding:7px 14px;background:rgba(255,253,251,.92);color:#1c1917;font-size:13px;cursor:pointer');
+    u.addEventListener('click', refreshSite); document.body.appendChild(u);
+  }
+  /* Clears only this site's cached files (service worker + Cache Storage + HTTP cache copies), then reloads.
+     Progress and settings (localStorage) and the unlock state (sessionStorage) are not touched. */
+  function refreshSite() {
+    var u = document.getElementById('upd-btn'); if (u) { u.disabled = true; u.textContent = 'بيتحدّث…'; }
+    var urls = [location.href];
+    Array.prototype.forEach.call(document.querySelectorAll('script[src],link[rel=stylesheet][href]'), function (n) { urls.push(n.src || n.href); });
+    ['data/registry.json', 'data/audio.json', 'sw.js'].forEach(function (f) { urls.push(BASE + f); });
+    var done = function () { var q = location.search.replace(/[?&]_r=\d+/, ''); location.replace(location.pathname + (q ? q + '&' : '?') + '_r=' + Date.now() + location.hash); };
+    var regs = navigator.serviceWorker ? navigator.serviceWorker.getRegistrations().then(function (r) { return Promise.all(r.map(function (x) { return x.unregister(); })); }) : Promise.resolve();
+    var cs = window.caches ? caches.keys().then(function (k) { return Promise.all(k.map(function (x) { return caches.delete(x); })); }) : Promise.resolve();
+    Promise.all([regs, cs]).catch(function () {}).then(function () {
+      return Promise.all(urls.map(function (x) { return fetch(x, { cache: 'reload' }).catch(function () {}); }));
+    }).then(done, done);
   }
   function showGate() {
     root.classList.add('locked');
@@ -47,6 +64,7 @@
   function start() {
     var unlocked = false; try { unlocked = sessionStorage.getItem(KEY) === '1'; } catch (e) {}
     if (unlocked) { root.classList.remove('locked'); addLockButton(); } else showGate();
+    if ('serviceWorker' in navigator) { try { navigator.serviceWorker.register(BASE + 'sw.js', { updateViaCache: 'none' }).then(function (r) { return r.update(); }).catch(function () {}); } catch (e) {} }
     fetch(BASE + 'data/gate.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { gateData = d; }).catch(function () {});
   }
   if (document.body) start(); else document.addEventListener('DOMContentLoaded', start);
