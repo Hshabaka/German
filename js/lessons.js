@@ -77,7 +77,7 @@
     var L = idx.lessons;
     var sel = el('select', { 'aria-label': 'اختر الدرس', onchange: function () { if (this.value === '1') location.href = 'index.html'; else location.hash = this.value; } }, []);
     L.forEach(function (x) { var o = el('option', { value: String(x.n) }, [x.title + (window.A1Practice && window.A1Practice.done(x.n) ? ' ✓' : '')]); if (x.n === n) o.selected = true; sel.appendChild(o); });
-    var wrapEl = el('div', { class: 'lx' }, [el('div', { class: 'lx-top' }, [el('a', { href: 'index.html' }, ['الدرس 1 (الرئيسية)']), sel])]);
+    var wrapEl = el('div', { class: 'lx' }, [el('div', { class: 'lx-top' }, [sel])]);
     app.appendChild(wrapEl);
     var item = L.filter(function (x) { return x.n === n; })[0];
     if (!item) { wrapEl.appendChild(el('p', {}, ['الدرس ده مش موجود.'])); return; }
@@ -115,8 +115,17 @@
       window.scrollTo(0, 0);
     }).catch(function () { body.textContent = ''; body.appendChild(el('p', {}, ['الدرس ده لسه ما اتحمّلش على الموقع.'])); });
   }
+  function home(idx) {
+    app.textContent = '';
+    var w = el('div', { class: 'lx' }, [el('h1', { style: 'font-size:22px;margin:0 0 6px' }, ['اختار درسك (A1)']), el('p', { style: 'margin:0 0 12px' }, ['الدروس بالترتيب من 1 لحد 28. ابدأ من الدرس 1.'])]);
+    idx.lessons.forEach(function (x) {
+      var done = window.A1Practice && window.A1Practice.done(x.n);
+      w.appendChild(el('a', { href: x.n === 1 ? 'index.html' : '#' + x.n, style: 'display:flex;align-items:center;gap:10px;min-height:52px;padding:10px 14px;margin:8px 0;border:1px solid #cbd5e1;border-radius:12px;color:inherit;text-decoration:none' }, [el('span', { style: 'font-weight:700;min-width:28px' }, [String(x.n)]), el('span', { style: 'flex:1' }, [x.title.replace(/^الدرس \d+:\s*/, '')]), el('span', {}, [done ? '✓' : '←'])]));
+    });
+    app.appendChild(w);
+  }
   fetch('data/a1-pdfs.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }).then(function (p) { window.__a1pdfs = p; return fetch('data/a1-index.json'); }).then(function (r) { return r.json(); }).then(function (idx) {
-    function go() { var n = parseInt(location.hash.slice(1), 10); show(idx, n >= 2 ? n : 2); }
+    function go() { var n = parseInt(location.hash.slice(1), 10); if (n >= 2) show(idx, n); else home(idx); }
     window.addEventListener('hashchange', go); go();
   }).catch(function () { app.textContent = 'مش قادر أحمّل قايمة الدروس.'; });
 })();
