@@ -387,27 +387,72 @@
         el('p', { class: 'caption' }, [ch.note])
       ]));
     }
-    return panel('play', 'Lesson', 'Video and the session challenge', children, 'tone-night', 'span-7', 'sec-lesson');
+    var lp = panel('play', 'Lesson', 'Video and the session challenge', children, 'tone-night', 'span-7', 'sec-lesson');
+    if (s.grammar && s.grammar.length) {
+      var gb = el('button', { type: 'button', class: 'gram-btn', 'aria-label': 'Open grammar summary', title: 'Grammar' }, [icon('grammar', 22)]);
+      gb.addEventListener('click', function () { openGrammar(s, gb); });
+      lp.querySelector('.panel-head').appendChild(gb);
+    }
+    return lp;
   }
 
-  function renderGrammar(s) {
-    if (!s.grammar || !s.grammar.length) return null;
-    var grid = el('div', { class: 'rules' + (s.grammar.length > 2 ? ' cols-3' : '') }, s.grammar.map(function (r) {
-      return el('div', { class: 'rule' }, [
-        el('h3', {}, [r.title]),
-        el('p', { class: 'ar-text' }, rich(r.rule)),
-        r.forms ? el('ul', { class: 'rule-forms', dir: 'ltr' }, r.forms.map(function (f) { return el('li', {}, [f]); })) : null,
-        r.note ? el('p', { class: 'ar-text' }, rich(r.note)) : null,
-        el('ul', { class: 'rule-examples' }, r.examples.map(function (x) {
-          return el('li', {}, [
-            el('span', { class: 'rule-de', dir: 'ltr' }, [x.de]),
-            el('span', { class: 'rule-ar ar-text' }, [x.ar])
-          ]);
-        }))
-      ]);
-    }));
-    return panel('grammar', 'Grammar', 'Five simple rules for this session', [el('details', { class: 'rule-toggle' }, [el('summary', { style: 'cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700' }, ['Show / hide the rules']), grid])], 'tone-amber', 'span-7', null);
+  function ruleCard(r) {
+    return el('div', { class: 'rule' }, [
+      el('h3', {}, [r.title]),
+      el('p', { class: 'ar-text' }, rich(r.rule)),
+      r.forms ? el('ul', { class: 'rule-forms', dir: 'ltr' }, r.forms.map(function (f) { return el('li', {}, [f]); })) : null,
+      r.note ? el('p', { class: 'ar-text' }, rich(r.note)) : null,
+      el('ul', { class: 'rule-examples' }, r.examples.map(function (x) {
+        return el('li', {}, [
+          el('span', { class: 'rule-de', dir: 'ltr' }, [x.de]),
+          el('span', { class: 'rule-ar ar-text' }, [x.ar])
+        ]);
+      }))
+    ]);
   }
+
+  function openGrammar(s, opener) {
+    var rules = s.grammar, idx = 0;
+    var old = document.getElementById('gram-modal'); if (old) old.remove();
+    var body = el('div', { class: 'gram-body' }, []);
+    var count = el('span', { class: 'gram-count', 'aria-live': 'polite' }, []);
+    var dots = el('div', { class: 'gram-dots' }, rules.map(function (r, i) {
+      var d = el('button', { type: 'button', class: 'gram-dot', 'aria-label': 'Rule ' + (i + 1) }, []);
+      d.addEventListener('click', function () { show(i); });
+      return d;
+    }));
+    var prev = el('button', { type: 'button', class: 'btn gram-nav' }, ['← Previous']);
+    var next = el('button', { type: 'button', class: 'btn gram-nav' }, ['Next →']);
+    var close = el('button', { type: 'button', class: 'gram-close', 'aria-label': 'Close grammar' }, ['×']);
+    var box = el('div', { class: 'gram-box', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'Grammar summary', tabindex: '-1' }, [
+      el('div', { class: 'gram-top' }, [el('strong', {}, ['Grammar']), count, close]),
+      body, dots,
+      el('div', { class: 'gram-foot' }, [prev, next])
+    ]);
+    var ov = el('div', { id: 'gram-modal', class: 'gram-overlay' }, [box]);
+    function show(i) {
+      idx = Math.max(0, Math.min(rules.length - 1, i));
+      body.innerHTML = ''; body.appendChild(ruleCard(rules[idx])); body.scrollTop = 0;
+      count.textContent = (idx + 1) + ' / ' + rules.length;
+      prev.disabled = idx === 0; next.disabled = idx === rules.length - 1;
+      Array.prototype.forEach.call(dots.children, function (d, k) { d.setAttribute('aria-current', k === idx ? 'true' : 'false'); });
+    }
+    function shut() { document.removeEventListener('keydown', key); ov.remove(); document.body.style.overflow = ''; if (opener) opener.focus(); }
+    function key(e) {
+      if (e.key === 'Escape') shut();
+      else if (e.key === 'ArrowRight') show(idx + 1);
+      else if (e.key === 'ArrowLeft') show(idx - 1);
+    }
+    prev.addEventListener('click', function () { show(idx - 1); });
+    next.addEventListener('click', function () { show(idx + 1); });
+    close.addEventListener('click', shut);
+    ov.addEventListener('click', function (e) { if (e.target === ov) shut(); });
+    document.addEventListener('keydown', key);
+    document.body.appendChild(ov); document.body.style.overflow = 'hidden';
+    show(0); box.focus();
+  }
+
+  function renderGrammar(s) { return null; }
 
   function renderMaterials(s) {
     if (!s.materials || !s.materials.length) return null;
