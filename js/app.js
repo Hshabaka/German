@@ -648,11 +648,10 @@
   function renderTranslate(s) {
     return s.practice.translate.map(function (it, i) {
       var open = !!state.shown[i];
-      return el('div', { class: 'quiz-q ctl' }, [
+      return el('div', { class: 'quiz-q ctl tr' }, [
         el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)]), el('span', {}, [it.ar])]),
-        el('p', { class: 'caption', style: 'margin:0 0 8px' }, ['قولها بالألماني بصوت عالي، وبعدين اكشف.']),
         open ? el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [it.de]) : null,
-        el('div', { class: 'bq-act' }, [el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [open ? 'إخفاء' : 'اكشف الإجابة'])])
+        el('div', { class: 'bq-act' }, [el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [open ? 'إخفاء' : 'اكشف'])])
       ]);
     });
   }
@@ -662,7 +661,9 @@
     var tabs = el('div', { class: 'tabs', role: 'tablist', 'aria-label': 'أنواع التدريب' }, modes.map(function (m, i) {
       return el('button', { class: 'tab drill-tab', type: 'button', role: 'tab', 'aria-selected': String(i === state.drill), onclick: function () { state.drill = i; render(); } }, [m[0]]);
     }));
-    var body = el('div', { class: 'quiz-grid drill-body' }, modes[state.drill][1](s));
+    var items = modes[state.drill][1](s);
+    if (state.drill === 2) items.unshift(el('p', { class: 'caption tr-note' }, ['قولها بالألماني بصوت عالي، وبعدين اكشف.']));
+    var body = el('div', { class: 'quiz-grid drill-body' }, items);
     return panel('cards', 'تدريب على الجمل', 'ثلاث خطوات قصيرة: رتّب، صحّح، ترجم', [tabs, body], '', 'span-12', 'sec-drills');
   }
 
