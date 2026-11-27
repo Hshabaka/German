@@ -375,6 +375,45 @@
   "profession: Was bist du von Beruf? / Ich arbeite als ...": [
    "https://lernen.goethe.de/deutschonline/A1/PDF/DE/deutschonline_Redemittel_und_Grammatik_1-18.pdf",
    "https://www.deutschstep.com/de/learn/A2/profession-application/ueber-den-beruf-sprechen"
+  ],
+  "comparative -er, umlaut (alt/älter), gut/besser, viel/mehr, e-drop": [
+   "https://www.duden.de/sprachwissen/sprachratgeber/steigerung-komparation-deutsche-adjektive"
+  ],
+  "als with comparative, wie with equality": [
+   "https://www.duden.de/sprachwissen/sprachratgeber/als-oder-wie-steigerung-komparation"
+  ],
+  "verbs with dative: helfen, antworten (fragen is not in the list: accusative)": [
+   "https://learningdeutsch.de/en/grammar/verbs-with-dative/"
+  ],
+  "seit + dative / duration (example 'seit einem Monat')": [
+   "https://learngerman.dw.com/en/prepositions-of-time-vor-seit/l-38051792/gr-38312901"
+  ],
+  "der/den/dem endings table (page read at heading level only)": [
+   "https://sites.lsa.umich.edu/german-resources/grammatik/basic-chart/"
+  ],
+  "separable verb + modal infinitive at end (page seen at heading level only, WEAK)": [
+   "https://coerll.utexas.edu/gg/gr/v_04.html"
+  ],
+  "dative plural den Kindern (Duden declension table, excerpt-level)": [
+   "https://www.duden.de/deklination/substantive/Kind"
+  ],
+  "feelings in dative: Mir ist kalt": [
+   "https://www.olesentuition.co.uk/single-post/how-do-you-say-i-m-cold-or-i-m-hot-in-german",
+   "https://www.lernlaterne.de/deutsch/kurs-a1/nehmen-sie-den-regenschirm-mit-csc031/grammatik/empfinden-dativ"
+  ],
+  "um + clock time, am + weekday, im + month/season": [
+   "https://learningdeutsch.de/grammatik/zeitangaben/"
+  ],
+  "two-way prepositions: accusative for movement, dative for no movement": [
+   "https://www.coerll.utexas.edu/gg/pr/cas_09.html"
+  ],
+  "werden + infinitive; present + time word for plans": [
+   "https://hallootti.com/en/grammar/future-and-werden"
+  ],
+  "Perfekt = haben/sein + Partizip II; ge- inside separable verbs; sein with bleiben": [
+   "https://deutsch.lingolia.com/en/grammar/tenses/present-perfect",
+   "https://boisestate.pressbooks.pub/grammardeutschimblickgerm101/chapter/das-perfekt-verben-mit-prafixen-the-conversational-past-tense-verbs-with-prefixes/",
+   "https://www.coerll.utexas.edu/gg/gr/vcp_07.html"
   ]
  },
  "6": {
@@ -649,6 +688,22 @@
    "8": {
     "m": "هي مدرسة.",
     "w": "مع sie (هي) فعل الكينونة بيبقى ist."
+   },
+   "1": {
+    "m": "اسمك إيه؟",
+    "w": "سؤال بكلمة استفهام: Wie في الأول والفعل heißt في التاني. الجواب: Ich heiße ... (بدون إجابة نموذجية في ملف المدرس، جاوب بنفسك)."
+   },
+   "2": {
+    "m": "إنت جاي منين؟",
+    "w": "الجواب: Ich komme aus + البلد. (جاوب بنفسك)"
+   },
+   "3": {
+    "m": "إنت ساكن فين؟",
+    "w": "الجواب: Ich wohne in + المدينة. (جاوب بنفسك)"
+   },
+   "9": {
+    "m": "فقرة من ٤ جمل.",
+    "w": "مثال للشكل: Ich heiße ... Ich bin ... Jahre alt. Ich komme aus ... Ich wohne in ... (إجابة حرة، راجعها بنفسك)."
    }
   },
   "quiz": {
@@ -909,6 +964,1285 @@
    "5": {
     "m": "ده أبوه ودي أمه.",
     "w": "المالك هو فـ sein: sein Vater (مذكّر) وseine Mutter (مؤنثة)."
+   }
+  }
+ },
+ "14": {
+  "ex": {
+   "1": {
+    "f": "klein → kleiner",
+    "m": "أصغر.",
+    "w": "المقارنة بتتكوّن بإضافة -er للصفة."
+   },
+   "2": {
+    "f": "schön → schöner",
+    "m": "أجمل.",
+    "w": "إضافة -er. مفيش umlaut هنا لأن schön فيها ö أصلًا."
+   },
+   "3": {
+    "f": "alt → älter",
+    "m": "أكبر في السن / أقدم.",
+    "w": "صفات قليلة بتاخد umlaut مع -er، ومنها alt (a تتحول ä)."
+   },
+   "4": {
+    "f": "teuer → teurer",
+    "m": "أغلى.",
+    "w": "لما الصفة تنتهي بـ -er بيسقط الـ e اللي قبل الآخر: teuer تبقى teurer."
+   },
+   "5": {
+    "f": "gut → besser",
+    "m": "أحسن.",
+    "w": "gut صيغتها شاذة: besser. لازم تتحفظ."
+   },
+   "6": {
+    "f": "viel → mehr",
+    "m": "أكتر.",
+    "w": "viel كمان شاذة: mehr."
+   },
+   "7": {
+    "f": "Die Hose ist billiger (billig) als die Schuhe.",
+    "m": "البنطلون أرخص من الجزم.",
+    "w": "billig + er = billiger، وبعد المقارنة بنقول als مش wie."
+   },
+   "8": {
+    "f": "Mein Vater ist älter (alt) als ich.",
+    "m": "أبويا أكبر مني في السن.",
+    "w": "alt بتاخد umlaut في المقارنة: älter، وبعدها als."
+   },
+   "9": {
+    "w": "أمتع = interessanter (interessant + er، من غير umlaut)، والمقارنة بـ als: Das Buch ist interessanter als der Film."
+   },
+   "10": {
+    "w": "أصغر = jünger (jung بتاخد umlaut)، وbin مع ich، وبعد المقارنة als: Ich bin jünger als mein Bruder."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Der Hund ist größer als die Katze.",
+    "m": "الكلب أكبر من القطة.",
+    "w": "في المقارنة (صفة + er) بنربط بـ als. wie بتبقى للتساوي (so groß wie) ومش مع -er.",
+    "o": {
+     "A": "größer wie: wie بتستخدم مع التساوي (so groß wie). مع المقارنة الصح als."
+    }
+   },
+   "2": {
+    "f": "Das Wasser ist billiger als der Kaffee.",
+    "m": "الميه أرخص من القهوة.",
+    "w": "الجملة فيها als فالمطلوب صيغة المقارنة billiger مش billig.",
+    "o": {
+     "billig": "billig هي الصفة الأساسية، ومع als لازم صيغة المقارنة (+er)."
+    }
+   },
+   "3": {
+    "f": "Mein Bruder ist jünger als ich. / Das Handy ist teurer als das Buch.",
+    "m": "أخويا أصغر مني. / الموبايل أغلى من الكتاب.",
+    "w": "jung بتاخد umlaut فتبقى jünger مش junger. وteuer بيسقط منها e فتبقى teurer مش teuerer."
+   },
+   "4": {
+    "f": "Das Wetter ist schlechter als gestern.",
+    "m": "الجو أسوأ من إمبارح.",
+    "w": "schlecht + er = schlechter، وبعدها als."
+   },
+   "5": {
+    "f": "Schwarz ist besser als Weiß.",
+    "m": "الأسود أحسن من الأبيض.",
+    "w": "أحسن = besser (صيغة gut الشاذة)، وبعدها als."
+   }
+  }
+ },
+ "15": {
+  "ex": {
+   "1": {
+    "f": "Ich habe heute einen Termin.",
+    "m": "عندي ميعاد النهارده.",
+    "w": "الفاعل ثم الفعل في المركز التاني. Termin مذكّر والمفعول بيتحول لـ einen (حالة المفعول به)."
+   },
+   "2": {
+    "f": "Ich sage diesen Termin ab.",
+    "m": "أنا بلغي الميعاد ده.",
+    "w": "absagen فعل منفصل: في الجملة العادية sage في المكان التاني وab في آخر الجملة."
+   },
+   "3": {
+    "f": "Leider muss ich diesen Termin absagen.",
+    "m": "للأسف لازم ألغي الميعاد ده.",
+    "w": "Leider في الأول فالفعل muss يجي تاني قبل ich. ومع الفعل المساعد muss الفعل التاني absagen يرجع كامل في الآخر."
+   },
+   "4": {
+    "f": "Er kann heute nicht kommen.",
+    "m": "هو مش قادر ييجي النهارده.",
+    "w": "kann في المركز التاني، وkommen في الآخر، وnicht قبله."
+   },
+   "5": {
+    "f": "Ich muss diesen Termin absagen.",
+    "m": "لازم ألغي الميعاد ده.",
+    "w": "بعد muss لازم فعل كامل في الآخر (absagen) مش ab لوحدها."
+   },
+   "6": {
+    "f": "Er sagt diesen Termin ab.",
+    "m": "هو بيلغي الميعاد ده.",
+    "w": "من غير فعل مساعد الفعل بينفصل: sagt في التاني وab في الآخر، وبياخد t مع er."
+   },
+   "7": {
+    "f": "Sie ist krank.",
+    "m": "هي عيانة.",
+    "w": "sie + ist وkrank صفة."
+   },
+   "8": {
+    "f": "Leider kann ich heute nicht kommen.",
+    "m": "للأسف مش هقدر آجي النهارده.",
+    "w": "Leider في الأول فالفعل kann يجي بعده مباشرة ثم ich، وkommen في الآخر."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Leider muss er diesen Termin absagen.",
+    "m": "للأسف لازم يلغي الميعاد ده.",
+    "w": "Leider في الأول، muss في التاني، وabsagen كاملة في الآخر."
+   },
+   "2": {
+    "f": "Leider kann ich heute nicht kommen.",
+    "m": "للأسف مش هقدر آجي النهارده.",
+    "w": "لما leider تبدأ الجملة، الفعل kann لازم يجي بعدها مباشرة قبل ich."
+   },
+   "3": {
+    "f": "Er ist krank und er hat heute einen Termin.",
+    "m": "هو عيان وعنده ميعاد النهارده.",
+    "w": "جملتين مربوطين بـ und، وكل جملة فيها فعل في المركز التاني. einen لأن Termin مذكّر ومفعول."
+   },
+   "4": {
+    "f": "Ich sage den Termin ab.",
+    "m": "أنا بلغي الميعاد.",
+    "w": "absagen فعل منفصل: sage في التاني وab في الآخر. den لأن Termin مذكّر ومفعول."
+   },
+   "5": {
+    "m": "هي عيانة. / لازم تلغي الميعاد. / مش هتقدر تيجي المكتب.",
+    "w": "أي ٣ جمل صحيحة مقبولة. الأمثلة: Sie ist krank. Sie muss den Termin absagen. Sie kann nicht ins Büro kommen. (ins = in das، لأن Büro محايد وفيه اتجاه)."
+   }
+  }
+ },
+ "16": {
+  "ex": {
+   "1": {
+    "f": "Wie kann ich Ihnen helfen?",
+    "m": "إزاي أقدر أساعدك؟",
+    "w": "helfen فعل بيتبعه شخص في حالة dativ، علشان كده Ihnen (مش Sie). والفعل المساعد kann في التاني وhelfen في الآخر."
+   },
+   "2": {
+    "f": "Ich hätte gerne einen Termin.",
+    "m": "كنت عايز ميعاد (بشكل مهذب).",
+    "w": "hätte gerne صيغة مهذبة لطلب حاجة. Termin مذكّر والمفعول فبيبقى einen."
+   },
+   "3": {
+    "f": "Welche Beschwerden haben Sie?",
+    "m": "إيه الأعراض اللي عندك؟",
+    "w": "Beschwerden جمع، وبعد كلمة السؤال (Welche) الفعل haben في التاني قبل Sie."
+   },
+   "4": {
+    "f": "Seit wann haben Sie Schmerzen?",
+    "m": "من إمتى عندك ألم؟",
+    "w": "seit بمعنى من وقت ما، وseit wann = من إمتى. الفعل بعد كلمة السؤال في التاني."
+   },
+   "5": {
+    "f": "Rückenschmerzen",
+    "m": "وجع الضهر.",
+    "w": "الكلمة المركبة في الألماني بتتكوّن بلصق الكلمتين: Rücken + Schmerzen."
+   },
+   "6": {
+    "f": "Bauchschmerzen",
+    "m": "وجع البطن.",
+    "w": "Bauch + Schmerzen لصق الكلمتين."
+   },
+   "7": {
+    "f": "Sie hat Fieber.",
+    "m": "هي عندها سخونية.",
+    "w": "مع sie (هي) فعل haben بيبقى hat مش habe."
+   },
+   "8": {
+    "f": "Sie hat Husten.",
+    "m": "هي عندها كحة.",
+    "w": "نفس القاعدة: sie hat."
+   },
+   "9": {
+    "f": "Ich habe seit zwei Tagen Magenschmerzen.",
+    "m": "عندي وجع في المعدة من يومين.",
+    "w": "seit بتعبّر عن المدة اللي لسه مستمرة، والفعل haben بالمضارع (مش الماضي). Magen + Schmerzen."
+   },
+   "10": {
+    "f": "Er hat Fieber.",
+    "m": "هو عنده سخونية.",
+    "w": "er + hat."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Ich hätte gerne einen Termin.",
+    "m": "كنت عايز ميعاد.",
+    "w": "الفاعل Ich ثم hätte في التاني، وgerne بعده، وeinen Termin في الآخر."
+   },
+   "2": {
+    "f": "Sie hat seit gestern Halsschmerzen.",
+    "m": "هي عندها وجع في الزور من إمبارح.",
+    "w": "sie (هي) مع haben بتبقى hat.",
+    "o": {
+     "habe": "habe بتتكتب مع ich فقط."
+    }
+   },
+   "3": {
+    "f": "Welche Beschwerden haben Sie?",
+    "m": "إيه الأعراض اللي عندك؟",
+    "w": "في أسئلة كلمة الاستفهام الفعل بييجي بعدها مباشرة (Beschwerden haben) ثم الفاعل Sie، مش بعد الفاعل."
+   },
+   "4": {
+    "f": "Seit zwei Tagen.",
+    "m": "من يومين.",
+    "w": "seit + المدة."
+   },
+   "5": {
+    "m": "أنا عايز ميعاد عندك. / عندي صداع من إمبارح.",
+    "w": "إجابة حرة (مش بتتصحح تلقائي). مثال: Ich habe seit gestern Kopfschmerzen. راجعها: الفعل haben في التاني، وseit قبل المدة."
+   }
+  }
+ },
+ "17": {
+  "ex": {
+   "1": {
+    "f": "Nominativ",
+    "m": "الكلب صغير.",
+    "w": "Hund هو اللي بيتكلم عنه في الجملة (الفاعل) فهو Nominativ وأداته der."
+   },
+   "2": {
+    "f": "Akkusativ",
+    "m": "احنا بنشوف الكلب.",
+    "w": "Hund هو اللي بيتشاف (مفعول به) فهو Akkusativ، والمذكّر der بيتحول den."
+   },
+   "3": {
+    "f": "Dativ",
+    "m": "احنا بنساعد الراجل.",
+    "w": "helfen من الأفعال اللي بيتبعها الشخص في Dativ، والمذكّر der بيتحول dem."
+   },
+   "4": {
+    "f": "Wir sehen den Arzt.",
+    "m": "احنا بنشوف الدكتور.",
+    "w": "sehen بتاخد مفعول Akkusativ فالمذكّر den."
+   },
+   "5": {
+    "f": "Wir helfen dem Arzt.",
+    "m": "احنا بنساعد الدكتور.",
+    "w": "helfen + Dativ فالمذكّر dem."
+   },
+   "6": {
+    "f": "Ich trinke einen Kaffee.",
+    "m": "أنا بشرب قهوة.",
+    "w": "trinken مفعوله Akkusativ، وein للمذكّر بتبقى einen."
+   },
+   "7": {
+    "f": "Ich trinke keinen Kaffee.",
+    "m": "أنا مبشربش قهوة.",
+    "w": "kein بتتصرف زي ein: المذكّر Akkusativ keinen."
+   },
+   "8": {
+    "f": "Ich gebe meinem Freund einen Kaffee.",
+    "m": "أنا بدي صاحبي قهوة.",
+    "w": "geben معاه شخص في Dativ (meinem Freund) وشيء في Akkusativ (einen Kaffee). mein بتتصرف زي ein: المذكّر Dativ meinem."
+   },
+   "9": {
+    "f": "Der Arzt fragt den Mann.",
+    "m": "الدكتور بيسأل الراجل.",
+    "w": "fragen بتاخد شخص في Akkusativ (مش Dativ) فـ den Mann."
+   },
+   "10": {
+    "f": "Wir antworten dem Arzt.",
+    "m": "احنا بنرد على الدكتور.",
+    "w": "antworten من الأفعال اللي بيتبعها شخص في Dativ فـ dem Arzt."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Nominativ",
+    "m": "الراجل هنا.",
+    "w": "Der Mann هو الفاعل فهو Nominativ."
+   },
+   "2": {
+    "f": "Ich sehe den Hund.",
+    "m": "أنا بشوف الكلب.",
+    "w": "sehen + Akkusativ، المذكّر den.",
+    "o": {
+     "dem": "dem هي Dativ، وsehen مش من أفعال الـ Dativ."
+    }
+   },
+   "3": {
+    "f": "Ich helfe dem Mann.",
+    "m": "أنا بساعد الراجل.",
+    "w": "helfen + Dativ، المذكّر dem.",
+    "o": {
+     "den": "den هي Akkusativ، وhelfen بتاخد Dativ."
+    }
+   },
+   "4": {
+    "f": "Ich trinke einen Kaffee. (ein)",
+    "m": "أنا بشرب قهوة.",
+    "w": "trinken + Akkusativ، المذكّر einen.",
+    "o": {
+     "einem": "einem هي Dativ، ومفيش هنا فعل Dativ."
+    }
+   },
+   "5": {
+    "f": "Ich gebe meinem Freund einen Kaffee.",
+    "m": "أنا بدي صاحبي قهوة.",
+    "w": "الشخص (صاحبي) في Dativ: meinem Freund، والشيء (قهوة) في Akkusativ: einen Kaffee."
+   }
+  }
+ },
+ "18": {
+  "ex": {
+   "1": {
+    "f": "Wir sehen die Frau.",
+    "m": "احنا بنشوف الست.",
+    "w": "sehen + Akkusativ، والمؤنث die تفضل die في Akkusativ."
+   },
+   "2": {
+    "f": "Wir helfen der Frau.",
+    "m": "احنا بنساعد الست.",
+    "w": "helfen + Dativ، والمؤنث die بتتحول der في Dativ."
+   },
+   "3": {
+    "f": "Die Lehrerin kommt heute.",
+    "m": "المدرّسة جاية النهارده.",
+    "w": "Lehrerin هي الفاعل (Nominativ) والمؤنث Nominativ = die."
+   },
+   "4": {
+    "f": "Ihr antwortet der Lehrerin.",
+    "m": "انتم بتردوا على المدرّسة.",
+    "w": "antworten + Dativ فالمؤنث der."
+   },
+   "5": {
+    "f": "Ich esse eine Pizza.",
+    "m": "أنا باكل بيتزا.",
+    "w": "essen مفعوله Akkusativ، والمؤنث eine."
+   },
+   "6": {
+    "f": "Ich antworte einer Frau.",
+    "m": "أنا برد على ست.",
+    "w": "antworten + Dativ فالمؤنث ein بتتحول einer."
+   },
+   "7": {
+    "f": "Das ist keine Schule.",
+    "m": "دي مش مدرسة.",
+    "w": "Schule مؤنثة فالنفي keine."
+   },
+   "8": {
+    "f": "Ich helfe keiner Frau.",
+    "m": "أنا مبساعدش أي ست.",
+    "w": "helfen + Dativ والمؤنث kein بتتحول keiner."
+   },
+   "9": {
+    "f": "Ihr fragt die Frau.",
+    "m": "انتم بتسألوا الست.",
+    "w": "fragen + Akkusativ، والمؤنث die."
+   },
+   "10": {
+    "f": "Ihr helft der Lehrerin.",
+    "m": "انتم بتساعدوا المدرّسة.",
+    "w": "helfen + Dativ، والمؤنث der. ومع ihr بتبقى helft."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Ich esse die Pizza.",
+    "m": "أنا باكل البيتزا.",
+    "w": "essen + Akkusativ والمؤنث die.",
+    "o": {
+     "der": "der للمؤنث في Dativ، وهنا مفعول مباشر (Akkusativ)."
+    }
+   },
+   "2": {
+    "f": "Ich helfe der Mutter.",
+    "m": "أنا بساعد الأم.",
+    "w": "helfen + Dativ والمؤنث der.",
+    "o": {
+     "die": "die للمؤنث في Nominativ/Akkusativ، وhelfen بتاخد Dativ."
+    }
+   },
+   "3": {
+    "f": "Das ist keine Pizza. (مش)",
+    "m": "دي مش بيتزا.",
+    "w": "Pizza مؤنثة فالنفي keine.",
+    "o": {
+     "kein": "kein للمذكّر والمحايد، والمؤنث keine."
+    }
+   },
+   "4": {
+    "f": "a) Ihr helft der Frau. b) Ihr fragt die Lehrerin.",
+    "m": "انتم بتساعدوا الست. / انتم بتسألوا المدرّسة.",
+    "w": "a) helfen بتاخد Dativ فـ der Frau. b) fragen بتاخد Akkusativ فـ die Lehrerin."
+   },
+   "5": {
+    "f": "Ihr antwortet der Lehrerin.",
+    "m": "انتم بتردوا على المدرّسة.",
+    "w": "antworten + Dativ فالمؤنث der."
+   }
+  }
+ },
+ "19": {
+  "ex": {
+   "1": {
+    "f": "Wir sehen das Kind.",
+    "m": "احنا بنشوف الطفل.",
+    "w": "Kind محايد (das). sehen + Akkusativ والمحايد في Akkusativ بيفضل das.",
+    "o": {
+     "dem": "dem للمحايد في Dativ، وsehen مش فعل Dativ."
+    }
+   },
+   "2": {
+    "f": "Das Auto gehört dem Mann.",
+    "m": "العربية بتاعة الراجل.",
+    "w": "gehören بتاخد صاحب الشيء في Dativ فالمذكّر dem."
+   },
+   "3": {
+    "f": "Sie helfen den Kindern.",
+    "m": "هم بيساعدوا الأطفال.",
+    "w": "helfen + Dativ، والجمع في Dativ أداته den وبيزيد -n على الاسم: Kindern."
+   },
+   "4": {
+    "f": "Die Bücher sind sehr gut.",
+    "m": "الكتب كويسة جدًا.",
+    "w": "Bücher جمع وفاعل (Nominativ) فأداته die."
+   },
+   "5": {
+    "f": "Ihr fragt die Kinder.",
+    "m": "انتم بتسألوا الأطفال.",
+    "w": "fragen + Akkusativ والجمع في Akkusativ أداته die."
+   },
+   "6": {
+    "f": "Das Buch gehört dem Kind.",
+    "m": "الكتاب بتاع الطفل.",
+    "w": "gehören + Dativ، والمحايد das بيتحول dem."
+   },
+   "7": {
+    "f": "Wir rufen das Kind.",
+    "m": "احنا بننادي الطفل.",
+    "w": "rufen + Akkusativ. Kind محايد فأداته das مش den (den للمذكّر)."
+   },
+   "8": {
+    "f": "Sie helfen den Kindern.",
+    "m": "هم بيساعدوا الأطفال.",
+    "w": "الجمع في Dativ بيزيد -n على الاسم: Kindern."
+   },
+   "9": {
+    "f": "Das Handy gehört den Kindern.",
+    "m": "الموبايل بتاع الأطفال.",
+    "w": "الجمع في Dativ: den + الاسم + n."
+   },
+   "10": {
+    "f": "Das Buch gehört dem Arzt.",
+    "m": "الكتاب بتاع الدكتور.",
+    "w": "gehören + Dativ، والمذكّر dem."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Sie rufen die Kinder.",
+    "m": "هم بينادوا الأطفال.",
+    "w": "rufen + Akkusativ والجمع die.",
+    "o": {
+     "den": "den للجمع في Dativ، وrufen بتاخد Akkusativ."
+    }
+   },
+   "2": {
+    "f": "Das Buch gehört dem Kind.",
+    "m": "الكتاب بتاع الطفل.",
+    "w": "gehören + Dativ، المحايد dem.",
+    "o": {
+     "das": "das أداة Nominativ/Akkusativ، وgehören لازم Dativ."
+    }
+   },
+   "3": {
+    "f": "Wir danken den Kindern.",
+    "m": "احنا بنشكر الأطفال.",
+    "w": "danken من أفعال Dativ والجمع den + n.",
+    "o": {
+     "die": "die للجمع في Akkusativ، وdanken بتاخد Dativ."
+    }
+   },
+   "4": {
+    "f": "Die Bücher gehören den Kindern.",
+    "m": "الكتب بتاعة الأطفال.",
+    "w": "gehören + Dativ، والجمع den ويتزود -n على الاسم: Kindern."
+   },
+   "5": {
+    "f": "Die Kinder spielen hier.",
+    "m": "الأطفال بيلعبوا هنا.",
+    "w": "الفاعل جمع Nominativ (die Kinder) والفعل بصيغة الجمع spielen."
+   }
+  }
+ },
+ "20": {
+  "ex": {
+   "1": {
+    "f": "Lernst du Deutsch?",
+    "m": "بتتعلم ألماني؟",
+    "w": "سؤال نعم/لا الفعل فيه بيبقى في أول الجملة."
+   },
+   "2": {
+    "f": "Kommt er aus Syrien?",
+    "m": "هو جاي من سوريا؟",
+    "w": "الفعل kommt في الأول قبل er."
+   },
+   "3": {
+    "f": "Arbeiten Sie heute?",
+    "m": "حضرتك بتشتغل النهارده؟",
+    "w": "الفعل في الأول، ومع Sie (حضرتك) صيغة الجمع arbeiten."
+   },
+   "4": {
+    "f": "Woher kommst du?",
+    "m": "إنت جاي منين؟",
+    "w": "woher بتسأل عن الأصل (جاي منين)."
+   },
+   "5": {
+    "f": "Wo wohnst du?",
+    "m": "إنت ساكن فين؟",
+    "w": "wo بتسأل عن المكان اللي الحاجة موجودة فيه."
+   },
+   "6": {
+    "f": "Wohin gehst du?",
+    "m": "إنت رايح فين؟",
+    "w": "wohin بتسأل عن الاتجاه (رايح لفين)."
+   },
+   "7": {
+    "f": "Warum lernst du Deutsch?",
+    "m": "ليه بتتعلم ألماني؟",
+    "w": "warum = ليه، والجواب بيبقى السبب."
+   },
+   "8": {
+    "f": "Was machst du heute?",
+    "m": "بتعمل إيه النهارده؟",
+    "w": "كلمة السؤال Was في الأول والفعل machst في التاني."
+   },
+   "9": {
+    "f": "Wann kommst du?",
+    "m": "هتيجي إمتى؟",
+    "w": "wann = إمتى، والفعل بعدها مباشرة."
+   },
+   "10": {
+    "m": "إجابة حرة: أنا ساكن في القاهرة.",
+    "w": "سؤال Wo بيتجاوب بمكان. مثال: Ich wohne in Kairo (in + المدينة)."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Arbeitest du heute?",
+    "m": "بتشتغل النهارده؟",
+    "w": "سؤال نعم/لا فالفعل أول كلمة. arbeitest فيها e زيادة قبل st لأن جذر الفعل بينتهي بـ t."
+   },
+   "2": {
+    "f": "Was machst du heute?",
+    "m": "بتعمل إيه النهارده؟",
+    "w": "Was أول كلمة والفعل في التاني."
+   },
+   "3": {
+    "f": "Kommst du aus Ägypten?",
+    "m": "إنت من مصر؟",
+    "w": "الأصل الجملة خبرية فيها الفعل في التاني. لتحويلها لسؤال نعم/لا نحط الفعل أول: Kommst du ..."
+   },
+   "4": {
+    "f": "Wohin gehst du?",
+    "m": "إنت رايح فين؟",
+    "w": "رايح فين = wohin (اتجاه)."
+   },
+   "5": {
+    "f": "Warum lernen Sie Deutsch?",
+    "m": "حضرتك بتتعلم ألماني ليه؟",
+    "w": "warum = ليه، وSie (حضرتك) مع lernen."
+   }
+  }
+ },
+ "21": {
+  "ex": {
+   "1": {
+    "f": "Was bedeutet das?",
+    "m": "ده معناه إيه؟",
+    "w": "Was في الأول والفعل bedeutet في التاني."
+   },
+   "2": {
+    "f": "Ich bin sehr beschäftigt.",
+    "m": "أنا مشغول جدًا.",
+    "w": "sehr قبل الصفة."
+   },
+   "3": {
+    "f": "Kommt mit!",
+    "m": "تعالوا معانا!",
+    "w": "الأمر لمجموعة (ihr) بيبقى زي صيغة ihr من غير ihr: Kommt. وmit بتتحط في الآخر (فعل منفصل)."
+   },
+   "4": {
+    "f": "Das Wetter ist nicht gut.",
+    "m": "الطقس مش كويس.",
+    "w": "nicht قبل الصفة gut."
+   },
+   "5": {
+    "f": "Im Winter ist das Wetter kalt.",
+    "m": "في الشتا الطقس بارد.",
+    "w": "Im Winter في الأول فالفعل ist يجي تاني قبل das Wetter."
+   },
+   "6": {
+    "f": "Ihm ist kalt.",
+    "m": "هو بردان.",
+    "w": "للإحساس بالبرد بنستخدم ضمير في Dativ (ihm/mir) مع ist kalt بدل فاعل عادي."
+   },
+   "7": {
+    "f": "Komm mit!",
+    "m": "تعالى معايا!",
+    "w": "الأمر لواحد صاحبك (du) = الجذر من غير st: Komm."
+   },
+   "8": {
+    "f": "Kommt mit!",
+    "m": "تعالوا معانا!",
+    "w": "الأمر لمجموعة = Kommt."
+   },
+   "9": {
+    "f": "Kommen Sie mit!",
+    "m": "تفضل معانا!",
+    "w": "الأمر الرسمي (مديرك) = Kommen Sie مع Sie بعد الفعل."
+   },
+   "10": {
+    "f": "Entschuldigung, aber ich bin beschäftigt.",
+    "m": "آسف، بس أنا مشغول.",
+    "w": "فيه فاصلة قبل aber."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Mir ist kalt.",
+    "m": "أنا بردان.",
+    "w": "الإحساس بالبرد بيتقال بضمير Dativ: Mir ist kalt.",
+    "o": {
+     "Ich bin kalt": "Ich bin kalt معناها إنك أنت بارد (مش إنك حاسس ببرد)."
+    }
+   },
+   "2": {
+    "f": "Komm mit!",
+    "m": "تعالى معايا!",
+    "w": "لواحد (du) الأمر Komm.",
+    "o": {
+     "Kommt mit": "Kommt لمجموعة (ihr)."
+    }
+   },
+   "3": {
+    "f": "Es regnet heute.",
+    "m": "النهارده بتمطر.",
+    "w": "es فاعل شكلي مع الطقس، وregnet في التاني بعد es."
+   },
+   "4": {
+    "f": "Das Wetter ist sehr schlecht und es regnet heute.",
+    "m": "الطقس وحش جدًا والنهارده بتمطر.",
+    "w": "جملتين بـ und، كل جملة الفعل فيها في التاني."
+   },
+   "5": {
+    "f": "Ich bin ein bisschen beschäftigt.",
+    "m": "أنا مشغول شوية.",
+    "w": "ein bisschen = شوية قبل الصفة."
+   }
+  }
+ },
+ "22": {
+  "ex": {
+   "1": {
+    "f": "Ich komme am Freitag.",
+    "m": "أنا جاي يوم الجمعة.",
+    "w": "مع أيام الأسبوع بنستخدم am."
+   },
+   "2": {
+    "f": "Ich arbeite um neun Uhr.",
+    "m": "أنا بشتغل الساعة ٩.",
+    "w": "مع الساعة بنستخدم um."
+   },
+   "3": {
+    "f": "Im August.",
+    "m": "في أغسطس.",
+    "w": "مع الشهور والفصول بنستخدم im."
+   },
+   "4": {
+    "f": "Von Montag bis Freitag.",
+    "m": "من الاتنين للجمعة.",
+    "w": "von ... bis ... = من ... لـ ..."
+   },
+   "5": {
+    "f": "Ich fahre mit dem Bus.",
+    "m": "أنا رايح بالأتوبيس.",
+    "w": "mit دايمًا بعدها Dativ، فالمذكّر der Bus تبقى dem Bus."
+   },
+   "6": {
+    "f": "Ich arbeite am Montag.",
+    "m": "أنا بشتغل يوم الاتنين.",
+    "w": "am مع الأيام."
+   },
+   "7": {
+    "f": "Ich arbeite um acht Uhr.",
+    "m": "أنا بشتغل الساعة ٨.",
+    "w": "um مع الساعة."
+   },
+   "8": {
+    "f": "Im Sommer.",
+    "m": "في الصيف.",
+    "w": "im مع الفصول."
+   },
+   "9": {
+    "f": "mit der Frau",
+    "m": "مع الست.",
+    "w": "mit + Dativ، والمؤنث die بتتحول der."
+   },
+   "10": {
+    "f": "mit den Kindern",
+    "m": "مع الأطفال.",
+    "w": "mit + Dativ، والجمع den ويتزود -n على الاسم."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "am Montag",
+    "m": "يوم الاتنين.",
+    "w": "أيام الأسبوع بتاخد am.",
+    "o": {
+     "um Montag": "um بتتكتب مع الساعة مش مع اليوم."
+    }
+   },
+   "2": {
+    "f": "im Sommer",
+    "m": "في الصيف.",
+    "w": "الفصول بتاخد im.",
+    "o": {
+     "am Sommer": "am للأيام."
+    }
+   },
+   "3": {
+    "f": "um acht Uhr",
+    "m": "الساعة ٨.",
+    "w": "الساعة بتاخد um.",
+    "o": {
+     "im acht Uhr": "im للشهور والفصول."
+    }
+   },
+   "4": {
+    "f": "mit dem Kind",
+    "m": "مع الطفل.",
+    "w": "mit + Dativ والمحايد das بتتحول dem.",
+    "o": {
+     "mit der Kind": "der للمؤنث في Dativ، وKind محايد."
+    }
+   },
+   "5": {
+    "f": "von Montag bis Freitag",
+    "m": "من الاتنين للجمعة.",
+    "w": "von ... bis ..."
+   }
+  }
+ },
+ "23": {
+  "ex": {
+   "1": {
+    "f": "Wohin",
+    "m": "لفين؟ (اتجاه)",
+    "w": "الجملة فيها حركة لمكان (gehe auf den Markt)، فالسؤال Wohin."
+   },
+   "2": {
+    "f": "Wo",
+    "m": "فين؟ (مكان)",
+    "w": "Ich bin im Zimmer مجرد وجود في مكان من غير حركة لمكان تاني، فالسؤال Wo."
+   },
+   "3": {
+    "f": "Ich gehe auf den Markt.",
+    "m": "أنا رايح السوق.",
+    "w": "حرف الجر auf ممكن ياخد Akkusativ أو Dativ. مع حركة لمكان (Wohin) بيبقى Akkusativ فـ den."
+   },
+   "4": {
+    "f": "Ich bin auf dem Markt.",
+    "m": "أنا في السوق.",
+    "w": "وجود في مكان (Wo) بيبقى Dativ فـ dem."
+   },
+   "5": {
+    "f": "Ich lege das Buch auf den Tisch.",
+    "m": "أنا بحط الكتاب على الترابيزة.",
+    "w": "legen فيها حركة (بحط الكتاب في مكان) فبتاخد Akkusativ: den Tisch."
+   },
+   "6": {
+    "f": "Das Handy liegt auf dem Tisch.",
+    "m": "الموبايل على الترابيزة.",
+    "w": "liegen بتوصف مكان ثابت فبتاخد Dativ: dem Tisch."
+   },
+   "7": {
+    "f": "Ich gehe in den Supermarkt.",
+    "m": "أنا رايح السوبر ماركت.",
+    "w": "gehen = حركة لمكان فـ in + Akkusativ: den Supermarkt (المذكّر)."
+   },
+   "8": {
+    "f": "Ich bin im Zimmer.",
+    "m": "أنا في الأوضة.",
+    "w": "im = in + dem (Dativ) لأن ده مكان ثابت."
+   },
+   "9": {
+    "f": "Ich warte auf dich.",
+    "m": "أنا مستنيك.",
+    "w": "warten بتتبعها auf ومعاها Akkusativ (dich). ده ارتباط ثابت بالفعل مش حركة."
+   },
+   "10": {
+    "f": "Ich sitze am Tisch.",
+    "m": "أنا قاعد عند الترابيزة.",
+    "w": "sitzen مكان ثابت فـ Dativ: an dem = am."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Ich bin auf dem Markt.",
+    "m": "أنا في السوق.",
+    "w": "وجود في مكان (Wo) = Dativ.",
+    "o": {
+     "auf den Markt": "auf den = Akkusativ للحركة لمكان."
+    }
+   },
+   "2": {
+    "f": "Ich gehe in den Supermarkt.",
+    "m": "أنا رايح السوبر ماركت.",
+    "w": "حركة لمكان (Wohin) = Akkusativ.",
+    "o": {
+     "in dem Supermarkt": "Dativ للمكان الثابت."
+    }
+   },
+   "3": {
+    "f": "Ich lege das Buch auf den Tisch.",
+    "m": "بحط الكتاب على الترابيزة.",
+    "w": "legen فيها حركة فـ Akkusativ.",
+    "o": {
+     "auf dem Tisch": "Dativ لمكان ثابت."
+    }
+   },
+   "4": {
+    "f": "Das Handy liegt auf dem Tisch.",
+    "m": "الموبايل على الترابيزة.",
+    "w": "liegen مكان ثابت فـ Dativ.",
+    "o": {
+     "auf den Tisch": "Akkusativ للحركة."
+    }
+   },
+   "5": {
+    "f": "Ich warte auf dich.",
+    "m": "أنا مستنيك.",
+    "w": "warten + auf + Akkusativ."
+   }
+  }
+ },
+ "24": {
+  "ex": {
+   "1": {
+    "f": "Ich gehe heute einkaufen.",
+    "m": "أنا هروح أتسوق النهارده.",
+    "w": "في الكلام اليومي بنستخدم المضارع مع كلمة وقت (heute) بدل werden."
+   },
+   "2": {
+    "f": "Wir arbeiten morgen.",
+    "m": "احنا هنشتغل بكرة.",
+    "w": "المضارع + morgen بيعبر عن المستقبل في الكلام اليومي."
+   },
+   "3": {
+    "f": "Du wirst morgen arbeiten.",
+    "m": "إنت هتشتغل بكرة.",
+    "w": "المستقبل الرسمي = werden (متصرف) في التاني + الفعل الأصلي مصدر في الآخر. مع du: wirst."
+   },
+   "4": {
+    "f": "Ich werde morgen arbeiten.",
+    "m": "أنا هشتغل بكرة.",
+    "w": "مع ich: werde."
+   },
+   "5": {
+    "f": "Du wirst bald arbeiten.",
+    "m": "إنت هتشتغل قريب.",
+    "w": "مع du: wirst."
+   },
+   "6": {
+    "f": "Wir werden ins Kino gehen.",
+    "m": "احنا هنروح السينما.",
+    "w": "مع wir: werden، وgehen مصدر في الآخر."
+   },
+   "7": {
+    "f": "Ich gehe heute einkaufen, sobald ich Zeit habe.",
+    "m": "هروح أتسوق النهارده أول ما يبقى عندي وقت.",
+    "w": "sobald بتبدأ جملة فرعية والفعل المتصرف habe في آخرها. وفيه فاصلة قبلها."
+   },
+   "8": {
+    "f": "Du kaufst das Geschenk, sobald du Geld hast.",
+    "m": "هتشتري الهدية أول ما يبقى معاك فلوس.",
+    "w": "sobald + فاعل + ... + الفعل المتصرف في الآخر (hast)."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Ich arbeite morgen.",
+    "m": "أنا هشتغل بكرة.",
+    "w": "في الكلام اليومي المضارع + morgen.",
+    "o": {
+     "Ich werde arbeite morgen": "بعد werde الفعل الأصلي لازم يبقى مصدر في الآخر (arbeiten)."
+    }
+   },
+   "2": {
+    "f": "Wir werden ins Kino gehen.",
+    "m": "هنروح السينما.",
+    "w": "werden في التاني وgehen مصدر في الآخر.",
+    "o": {
+     "Wir werden gehen ins Kino": "المصدر لازم يبقى في آخر الجملة."
+    }
+   },
+   "3": {
+    "f": "في الآخر",
+    "m": "في آخر الجملة الفرعية.",
+    "w": "بعد sobald الجملة بتبقى فرعية والفعل المتصرف يروح الآخر (sobald ich Zeit habe)."
+   },
+   "4": {
+    "f": "Ich gehe heute einkaufen, sobald ich Zeit habe.",
+    "m": "هروح أتسوق النهارده أول ما يبقى عندي وقت.",
+    "w": "الجملة الرئيسية أول، وبعد الفاصلة sobald والفعل habe في الآخر."
+   },
+   "5": {
+    "f": "Du kaufst das Geschenk, sobald du Geld hast.",
+    "m": "هتشتري الهدية أول ما يبقى معاك فلوس.",
+    "w": "sobald بتودي الفعل hast للآخر."
+   }
+  }
+ },
+ "25": {
+  "ex": {
+   "1": {
+    "f": "Ich habe Deutsch gelernt.",
+    "m": "أنا اتعلمت ألماني.",
+    "w": "الماضي (Perfekt) = haben أو sein متصرف في التاني + اسم المفعول (Partizip II) في الآخر. lernen فعل منتظم: ge + lern + t = gelernt."
+   },
+   "2": {
+    "f": "Er hat Fußball gespielt.",
+    "m": "هو لعب كورة.",
+    "w": "spielen منتظم: gespielt، مع haben."
+   },
+   "3": {
+    "f": "Ich habe gearbeitet.",
+    "m": "أنا اشتغلت.",
+    "w": "arbeiten منتظم، وبيزيد e قبل t علشان النطق: gearbeitet."
+   },
+   "4": {
+    "f": "Er hat Kaffee getrunken.",
+    "m": "هو شرب قهوة.",
+    "w": "trinken غير منتظم: getrunken (حرف العلة بيتغير ومفيش t). لازم يتحفظ."
+   },
+   "5": {
+    "f": "Ich habe Pizza gegessen.",
+    "m": "أنا أكلت بيتزا.",
+    "w": "essen غير منتظم: gegessen."
+   },
+   "6": {
+    "f": "Wir sind ins Kino gegangen.",
+    "m": "احنا رحنا السينما.",
+    "w": "gehen فعل حركة من مكان لمكان فبياخد sein مش haben. اسم المفعول gegangen غير منتظم."
+   },
+   "7": {
+    "f": "Er ist um acht Uhr gekommen.",
+    "m": "هو جه الساعة ٨.",
+    "w": "kommen حركة نحو مكان فبياخد sein: gekommen."
+   },
+   "8": {
+    "f": "Ich habe das Fenster aufgemacht.",
+    "m": "أنا فتحت الشباك.",
+    "w": "aufmachen فعل منفصل، وge بتتحط بين auf والجذر: aufgemacht. ومعاه مفعول فبياخد haben."
+   },
+   "9": {
+    "f": "Er ist um acht Uhr aufgestanden.",
+    "m": "هو صحي الساعة ٨.",
+    "w": "aufstehen = تغيّر حالة (من نايم لواقف) فبياخد sein. وge بين auf وstanden: aufgestanden."
+   },
+   "10": {
+    "f": "Ich bin zu Hause geblieben.",
+    "m": "أنا قعدت في البيت.",
+    "w": "bleiben فعل حالة/سكون لكنه استثناء بياخد sein: geblieben."
+   },
+   "11": {
+    "f": "Er hat gut Deutsch gesprochen.",
+    "m": "هو اتكلم ألماني كويس.",
+    "w": "sprechen غير منتظم: gesprochen، مع haben."
+   },
+   "12": {
+    "f": "Ich habe im Supermarkt eingekauft.",
+    "m": "أنا اتسوقت في السوبر ماركت.",
+    "w": "einkaufen منفصل: ge بين ein وkauft: eingekauft، مع haben."
+   },
+   "13": {
+    "f": "Er hat am Wochenende Fußball gespielt.",
+    "m": "هو لعب كورة في الويك إند.",
+    "w": "haben + gespielt. am Wochenende = يوم/في الويك إند."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Ich habe Deutsch gelernt.",
+    "m": "أنا اتعلمت ألماني.",
+    "w": "lernen بتاخد haben. sein للحركة أو تغيير الحالة.",
+    "o": {
+     "Ich bin Deutsch gelernt": "lernen مفيهاش حركة ومعاها مفعول (Deutsch) فبتاخد haben."
+    }
+   },
+   "2": {
+    "f": "Er ist nach Kairo gefahren.",
+    "m": "هو سافر القاهرة.",
+    "w": "fahren هنا بمعنى سافر لمكان (حركة) فبتاخد sein.",
+    "o": {
+     "Er hat nach Kairo gefahren": "مع الحركة لمكان الفعل المساعد sein."
+    }
+   },
+   "3": {
+    "f": "Ich bin um acht Uhr aufgestanden.",
+    "m": "أنا صحيت الساعة ٨.",
+    "w": "aufstehen = تغيّر حالة فبتاخد sein.",
+    "o": {
+     "Ich habe aufgestanden": "aufstehen بتاخد sein مش haben."
+    }
+   },
+   "4": {
+    "f": "gesprochen",
+    "m": "تكلّم.",
+    "w": "sprechen غير منتظم فاسم المفعول gesprochen (ge + حرف علة متغير + en)."
+   },
+   "5": {
+    "m": "bleiben بياخد sein.",
+    "w": "ملاحظة: bleiben بيدل على حالة/سكون، لكنه من الاستثناءات اللي بتاخد sein. الإجابة: sein."
+   }
+  }
+ },
+ "26": {
+  "ex": {
+   "1": {
+    "f": "Ich war gestern in Berlin.",
+    "m": "أنا كنت في برلين إمبارح.",
+    "w": "war هي ماضي sein مع ich (Präteritum)."
+   },
+   "2": {
+    "f": "Wir waren früher klein.",
+    "m": "احنا كنا صغيرين زمان.",
+    "w": "مع wir: waren."
+   },
+   "3": {
+    "f": "Ich hatte gestern Zeit.",
+    "m": "كان عندي وقت إمبارح.",
+    "w": "hatte هي ماضي haben مع ich."
+   },
+   "4": {
+    "f": "Wir hatten einen Hund.",
+    "m": "كان عندنا كلب.",
+    "w": "مع wir: hatten. وHund مذكّر ومفعول فـ einen."
+   },
+   "5": {
+    "f": "Ich war krank.",
+    "m": "أنا كنت عيّان.",
+    "w": "ماضي sein مع ich: war."
+   },
+   "6": {
+    "f": "Ich hatte Kopfschmerzen.",
+    "m": "كان عندي صداع.",
+    "w": "ماضي haben مع ich: hatte."
+   },
+   "7": {
+    "f": "Wir waren sehr glücklich.",
+    "m": "احنا كنا سعداء جدًا.",
+    "w": "ماضي sein مع wir: waren."
+   },
+   "8": {
+    "f": "Wir hatten ein Auto.",
+    "m": "كان عندنا عربية.",
+    "w": "hatten + Auto (محايد، مفعول) فـ ein."
+   },
+   "9": {
+    "f": "Wir hatten keinen Stress.",
+    "m": "ما كانش عندنا توتر.",
+    "w": "Stress مذكّر، والنفي مع المفعول المذكّر keinen."
+   },
+   "10": {
+    "f": "Ich war beim Arzt und ich hatte Angst.",
+    "m": "كنت عند الدكتور وكنت خايف.",
+    "w": "beim = bei + dem (bei بتاخد Dativ). hatte Angst = كنت خايف (بنقول عنده خوف)."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Ich war krank.",
+    "m": "أنا كنت عيّان.",
+    "w": "الحالة (عيّان) بتتقال بـ sein: war.",
+    "o": {
+     "Ich hatte krank": "hatte معناها كان عندي، ومينفعش مع صفة."
+    }
+   },
+   "2": {
+    "f": "Ich hatte Kopfschmerzen.",
+    "m": "كان عندي صداع.",
+    "w": "الصداع حاجة عندك فـ haben: hatte.",
+    "o": {
+     "Ich war Kopfschmerzen": "war معناها كنت (حالة)، مش كان عندي."
+    }
+   },
+   "3": {
+    "f": "wir waren",
+    "m": "احنا كنا.",
+    "w": "waren = ماضي sein مع wir.",
+    "o": {
+     "wir hatten": "hatten معناها كان عندنا."
+    }
+   },
+   "4": {
+    "f": "Wir hatten einen Hund.",
+    "m": "كان عندنا كلب.",
+    "w": "Hund مذكّر ومفعول بعد hatten فبياخد einen.",
+    "o": {
+     "ein": "ein للمذكّر في Nominativ فقط (أو للمحايد). المفعول المذكّر einen."
+    }
+   },
+   "5": {
+    "f": "Ich hatte gestern Zeit.",
+    "m": "كان عندي وقت إمبارح.",
+    "w": "hatte + gestern + Zeit."
+   }
+  }
+ },
+ "27": {
+  "ex": {
+   "6": {
+    "f": "Wir schreiben Ihnen, weil wir ein Zimmer buchen möchten.",
+    "m": "بنكتبلكم عشان عايزين نحجز أوضة.",
+    "w": "schreiben + Ihnen (Dativ). weil بتبدأ جملة فرعية والفعل المتصرف möchten في آخرها بعد المصدر buchen."
+   },
+   "7": {
+    "f": "Wir kommen am Montag an.",
+    "m": "هنوصل يوم الاتنين.",
+    "w": "ankommen منفصل: kommen في التاني وan في الآخر."
+   },
+   "8": {
+    "f": "Ich möchte im August nach Berlin fahren.",
+    "m": "أنا عايز أسافر برلين في أغسطس.",
+    "w": "möchte في التاني والمصدر fahren في الآخر. nach مع أسماء المدن."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Sehr geehrte Damen und Herren,",
+    "m": "السادة المحترمين،",
+    "w": "افتتاحية رسمية لشخص أو جهة مش معروفة بالاسم، زي الفندق. Lieber Ali بتتقال لصديق.",
+    "o": {
+     "Lieber Ali,": "Lieber للصديق ومش رسمي."
+    }
+   },
+   "2": {
+    "f": "Mit freundlichen Grüßen",
+    "m": "مع خالص التحية.",
+    "w": "خاتمة رسمية. Viele Grüße أقل رسمية.",
+    "o": {
+     "Viele Grüße": "Viele Grüße أقل رسمية."
+    }
+   },
+   "3": {
+    "f": "في الآخر",
+    "m": "في آخر الجملة الفرعية.",
+    "w": "weil بتبدأ جملة فرعية فالفعل المتصرف يروح آخرها."
+   },
+   "4": {
+    "f": "Wir kommen am Freitag an.",
+    "m": "هنوصل يوم الجمعة.",
+    "w": "ankommen منفصل: an في الآخر. am للأيام."
+   },
+   "5": {
+    "f": "Wie viel kostet das Zimmer?",
+    "m": "الأوضة بكام؟",
+    "w": "Wie viel كلمة سؤال فالفعل kostet في التاني."
+   }
+  }
+ },
+ "28": {
+  "ex": {
+   "1": {
+    "f": "Hören Sie gern Musik?",
+    "m": "بتحب تسمع موسيقى؟",
+    "w": "سؤال نعم/لا فالفعل الأول. gern = بحب/بيحب."
+   },
+   "2": {
+    "f": "Wohin fahren Sie im Urlaub?",
+    "m": "بتروح فين في الإجازة؟",
+    "w": "Wohin للاتجاه، والفعل بعدها في التاني."
+   },
+   "3": {
+    "f": "Haben Sie ein Auto?",
+    "m": "عندك عربية؟",
+    "w": "سؤال نعم/لا. Auto محايد ومفعول فـ ein."
+   },
+   "4": {
+    "f": "Gehen Sie gern ins Kino?",
+    "m": "بتحب تروح السينما؟",
+    "w": "ins = in das (حركة لمكان فـ Akkusativ، Kino محايد)."
+   },
+   "5": {
+    "m": "إجابة بتخصك: أنا من مصر.",
+    "w": "سؤال Woher بيتجاوب بـ Ich komme aus + البلد. (إجابة حرة)"
+   },
+   "6": {
+    "m": "إجابة بتخصك: أنا ساكن في الرياض.",
+    "w": "سؤال Wo بيتجاوب بـ Ich wohne in + المدينة. (إجابة حرة)"
+   },
+   "7": {
+    "m": "إجابة بتخصك: عيد ميلادي يوم كذا.",
+    "w": "التاريخ بنقوله بـ am + رقم ترتيبي: am 17. Mai. (إجابة حرة)"
+   },
+   "8": {
+    "f": "Kann ich bitte einen Stift haben?",
+    "m": "ممكن قلم لو سمحت؟",
+    "w": "kann في التاني وhaben في الآخر. Stift مذكّر ومفعول فـ einen."
+   },
+   "9": {
+    "f": "Können Sie bitte das Fenster aufmachen?",
+    "m": "ممكن تفتح الشباك لو سمحت؟",
+    "w": "Können Sie في الأول وaufmachen كاملة في الآخر."
+   },
+   "10": {
+    "f": "Können Sie mir bitte helfen?",
+    "m": "ممكن تساعدني لو سمحت؟",
+    "w": "helfen + Dativ فـ mir."
+   },
+   "11": {
+    "f": "Füllen Sie bitte das Formular aus.",
+    "m": "املا الاستمارة لو سمحت.",
+    "w": "الأمر الرسمي: الفعل ثم Sie، وausfüllen منفصل فـ aus في الآخر."
+   },
+   "12": {
+    "f": "Unterschreiben Sie bitte hier.",
+    "m": "وقّع هنا لو سمحت.",
+    "w": "الأمر الرسمي: الفعل ثم Sie."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Ziehen Sie bitte eine Karte",
+    "m": "اسحب كارت لو سمحت.",
+    "w": "مع شخص رسمي بنستخدم Sie بعد الفعل.",
+    "o": {
+     "Zieh bitte eine Karte": "Zieh لشخص قريب (du)."
+    }
+   },
+   "2": {
+    "f": "Haben Sie ein Auto?",
+    "m": "عندك عربية؟",
+    "w": "سؤال نعم/لا من الكارت AUTO."
+   },
+   "3": {
+    "f": "05.05.1990",
+    "m": "٥/٥/١٩٩٠",
+    "w": "التاريخ في الاستمارات: يوم.شهر.سنة. Mai هو الشهر الخامس (05)."
+   },
+   "4": {
+    "f": "Können Sie mir bitte helfen?",
+    "m": "ممكن تساعدني؟",
+    "w": "helfen + Dativ فـ mir."
+   },
+   "5": {
+    "f": "fünf null sechs sechs sieben",
+    "m": "٥٠٦٦٧",
+    "w": "الرمز البريدي بيتقال رقم رقم."
    }
   }
  }
