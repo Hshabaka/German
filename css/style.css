@@ -418,3 +418,4 @@ html.locked body > *:not(#gate) { display: none !important; }
 .flashcard-ar { font-size: 26px; }
 .rule { direction: ltr; text-align: left; }
 .rule h3 { text-align: left; }
+.lx > h1, .lx > p { direction: ltr; text-align: left; }
