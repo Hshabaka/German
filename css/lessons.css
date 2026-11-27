@@ -48,3 +48,12 @@ html,body{overflow-x:hidden}
 .pr-opt { display: flex; gap: 8px; align-items: center; min-height: 44px; font-size: 17px; }
 .pr-opt input { width: 22px; height: 22px; }
 .pr-ordtxt { flex: 1 1 200px; font-size: 17px; align-self: center; }
+.pr-item.sok { border-inline-start-color: #2563eb; }
+.pr-item.sno { border-inline-start-color: #d97706; }
+.pr-neutral { color: #334155; margin: 4px 0; font-size: 15px; }
+.pr-selfok { color: #1d4ed8; font-weight: 600; margin: 4px 0; }
+.pr-selfno { color: #b45309; font-weight: 600; margin: 4px 0; }
+.pr-teach { margin: 6px 0; padding: 8px 10px; background: #eff6ff; border-radius: 8px; font-size: 14px; color: #1e293b; }
+.pr-teach p { margin: 2px 0; }
+.pr-teach-h { font-size: 12px; color: #1d4ed8; font-weight: 600; }
+.pr-teach-o { color: #7c2d12; }
