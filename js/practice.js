@@ -77,14 +77,14 @@
     var first = ansLine(a);
     if (a.free || /إجابة حرة/.test(first)) return 'free';
     var opts = it.extras.filter(function (x) { return OPT.test(x); });
-    if (opts.length >= 2 && /^\s*[A-D]\s*\)/.test(first)) return 'choice';
+    if (opts.length >= 2 && /^\s*[A-D]\b/.test(first)) return 'choice';
     if (/＿/.test(it.text)) return 'gap';
     if (/جاوب من حياتك/.test(a.lines.join(' '))) return 'free-example';
     if (sec.open) return 'open';
     return 'text';
   }
   function fillGap(text, ans) { return text.replace(/＿{2,}/, ans).replace(/＿+/g, ans); }
-  function leadLetter(s) { var m = s.match(/^\s*([A-D])\s*\)/); return m ? m[1] : null; }
+  function leadLetter(s) { var m = s.match(/^\s*([A-D])\b/); return m ? m[1] : null; }
 
   function exercisePanel(sec, parsed, n, kind, dict) {
     var st = load(); st[n] = st[n] || {}; st[n][kind] = st[n][kind] || {};
@@ -109,8 +109,11 @@
       function mark() { var r = rec(it.n); row.className = 'pr-item' + (r ? (r.v ? ' ok' : ' bad') : ''); }
       function why() { return el('p', { class: 'pr-why' }, ['ليه؟ راجع قاعدة الدرس فوق. شرح السبب لكل سؤال مش مكتوب في ملف الدرس الأصلي (محتاج مراجعة).']); }
       function meaning(full, ar) {
-        var m = ar || dict[norm(full)] || (it.extras.filter(function (x) { return /^المعنى\s*:/.test(x); })[0] || '').replace(/^المعنى\s*:\s*/, '');
-        return el('p', { class: 'pr-mean' }, [m ? m : 'ترجمة الجملة مش مكتوبة في ملف الدرس.']);
+        var m = ar || dict[norm(full)] || '';
+        var note = it.extras.filter(function (x) { return /^المعنى\s*:/.test(x); })[0];
+        var w = el('div', {}, [el('p', { class: 'pr-mean' }, [m ? m : 'ترجمة الجملة كاملة مش مكتوبة في ملف الدرس.'])]);
+        if (note) w.appendChild(el('p', { class: 'pr-mean' }, ['من الملف: ' + note]));
+        return w;
       }
       function tag(m) { return el('span', { class: 'pr-tag' }, [m === 'auto' ? 'تصحيح تلقائي (مطابقة لإجابة الملف)' : 'تقييم ذاتي (مش تصحيح تلقائي)']); }
       function showResult(r, userAns, needSelf) {
@@ -120,7 +123,7 @@
         else if (k === 'choice') {
           var L = leadLetter(first), optLine = it.extras.filter(function (x) { return OPT.test(x) && x.trim()[0] === L; })[0];
           var optTxt = optLine ? optLine.replace(OPT, '$2') : first.replace(/^\s*[A-D]\s*\)\s*/, '');
-          full = /＿/.test(it.text) ? fillGap(it.text, optTxt) : first.replace(/^\s*[A-D]\s*\)\s*/, '');
+          full = /＿/.test(it.text) ? fillGap(it.text, optTxt) : optTxt;
         } else { full = first; if (AR.test(it.text) && !LAT.test(it.text)) ar = it.text; }
         if (!needSelf) {
           fb.appendChild(el('p', { class: r.v ? 'pr-good' : 'pr-wrong' }, [(r.v ? '✅ صح ' : '❌ غلط ') ]));
@@ -138,7 +141,7 @@
       }
       function selfPrompt(userAns) {
         fb.textContent = '';
-        fb.appendChild(el('p', { class: 'pr-wrong' }, ['مش مطابقة للإجابة النموذجية بالضبط. ممكن صياغة تانية تبقى صح، قارن بنفسك:']));
+        fb.appendChild(el('p', { class: 'pr-wrong' }, [k === 'open' ? 'الملف نفسه بيقول إن الأسئلة والإجابات دي أمثلة وممكن تختلف، فمفيش تصحيح تلقائي. قارن بنفسك:' : 'مش مطابقة للإجابة النموذجية بالضبط. ممكن صياغة تانية تبقى صح، قارن بنفسك:']));
         a.lines.forEach(function (l) { fb.appendChild(el('p', { class: 'pr-model', dir: 'auto' }, [l])); });
         if (it.extras.length && k !== 'choice') { /* hints stay visible above */ }
         fb.appendChild(el('div', { class: 'pr-self' }, [
