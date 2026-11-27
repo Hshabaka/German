@@ -108,7 +108,7 @@
         if (!h) return;
         var det = document.createElement('details'); det.className = 'rule-toggle';
         var sm = document.createElement('summary'); sm.setAttribute('style', 'cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700;font-size:1.15rem');
-        sm.textContent = h.textContent + '  (tap to open / close)';
+        sm.textContent = h.textContent;
         det.appendChild(sm);
         h.parentNode.insertBefore(det, h);
         var n = h.nextSibling; h.remove();
