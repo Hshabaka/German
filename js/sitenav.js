@@ -1,30 +1,31 @@
 (function () {
   var TOTAL = 28;
   function page() {
-    var p = location.pathname;
-    if (/home\.html$/.test(p)) return { kind: 'home' };
-    if (/materials\.html$/.test(p)) return { kind: 'files' };
-    if (/lessons\.html$/.test(p)) { var n = parseInt(location.hash.slice(1), 10); return n >= 2 ? { kind: 'lesson', n: n } : { kind: 'list' }; }
-    return { kind: 'lesson', n: 1 };
+    var p = location.pathname, m;
+    if (/\/a1\/files\/?$/.test(p)) return { kind: 'files' };
+    if ((m = p.match(/\/a1\/s(\d\d)\/?$/))) return { kind: 'lesson', n: parseInt(m[1], 10) };
+    if (/\/a1\/(index\.html)?$/.test(p)) return { kind: 'list' };
+    return { kind: 'home' };
   }
-  function href(n) { return n === 1 ? 'index.html' : 'lessons.html#' + n; }
+  function href(n) { return 'a1/s' + (n < 10 ? '0' : '') + n + '/'; }
   function a(h, t, c) { var e = document.createElement('a'); e.href = h; e.textContent = t; if (c) e.className = c; return e; }
   var bar = document.createElement('nav'); bar.className = 'sn'; bar.setAttribute('aria-label', 'التنقل في الكورس');
   function draw() {
     var pg = page(); bar.textContent = '';
     var crumbs = document.createElement('div'); crumbs.className = 'sn-c';
-    crumbs.appendChild(a('home.html', 'الرئيسية'));
+    crumbs.appendChild(a('./', 'الرئيسية'));
     var sep = function (t) { var m = document.createElement('span'); m.textContent = ' › ' + t; crumbs.appendChild(m); };
     if (pg.kind === 'home') { crumbs.lastChild.remove(); var s = document.createElement('strong'); s.textContent = 'الرئيسية'; crumbs.textContent = ''; crumbs.appendChild(s); }
     else if (pg.kind === 'list') { sep('A1 (قايمة الدروس)'); }
-    else { sep(''); crumbs.lastChild.textContent = ' › '; crumbs.appendChild(a('lessons.html', 'A1')); sep(pg.kind === 'files' ? 'ملفات' : 'الدرس ' + pg.n); }
+    else { sep(''); crumbs.lastChild.textContent = ' › '; crumbs.appendChild(a('a1/', 'A1')); sep(pg.kind === 'files' ? 'ملفات' : 'A1-S' + (pg.n < 10 ? '0' : '') + pg.n); }
     bar.appendChild(crumbs);
     var acts = document.createElement('div'); acts.className = 'sn-a';
     if (pg.kind === 'lesson') {
       if (pg.n > 1) acts.appendChild(a(href(pg.n - 1), '→ السابق'));
       if (pg.n < TOTAL) acts.appendChild(a(href(pg.n + 1), 'التالي ←'));
     }
-    if (pg.kind === 'lesson' || pg.kind === 'list') acts.appendChild(a('materials.html', 'ملفات PDF'));
+    if (pg.kind === 'lesson' && pg.n === 28) acts.appendChild(a('a1/s28/exam/', 'تدريب الامتحان'));
+    if (pg.kind === 'lesson' || pg.kind === 'list') acts.appendChild(a('a1/files/', 'ملفات PDF'));
     bar.appendChild(acts);
   }
   draw(); window.addEventListener('hashchange', draw);
