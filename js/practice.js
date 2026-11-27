@@ -109,7 +109,8 @@
       function mark() { var r = rec(it.n); row.className = 'pr-item' + (r ? (r.v ? ' ok' : ' bad') : ''); }
       function why() { return el('p', { class: 'pr-why' }, ['ليه؟ راجع قاعدة الدرس فوق. شرح السبب لكل سؤال مش مكتوب في ملف الدرس الأصلي (محتاج مراجعة).']); }
       function meaning(full, ar) {
-        var m = ar || dict[norm(full)] || '';
+        var dm = dict[norm(full)] || ''; if (dm.split(/\s+/).length < 2) dm = '';
+        var m = ar || dm;
         var note = it.extras.filter(function (x) { return /^المعنى\s*:/.test(x); })[0];
         var w = el('div', {}, [el('p', { class: 'pr-mean' }, [m ? m : 'ترجمة الجملة كاملة مش مكتوبة في ملف الدرس.'])]);
         if (note) w.appendChild(el('p', { class: 'pr-mean' }, ['من الملف: ' + note]));
