@@ -601,7 +601,7 @@
         el('div', { class: 'quiz-prompt', 'aria-label': 'رتّب الكلمات في جملة' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)])]),
         picked,
         el('div', { class: 'bq-act' }, [
-          el('button', { class: 'btn btn-secondary check-build', type: 'button',
+          el('button', { class: 'btn btn-secondary check-build', type: 'button', 'aria-label': 'تحقق',
             disabled: (st.picked.length === it.tiles.length && !done) ? null : '',
             onclick: function () {
               var cur = ans[key]; if (!cur) return;
@@ -609,7 +609,7 @@
               cur.result = (built === it.answer.replace(/[.?]$/, '')) ? 'correct' : 'wrong';
               if (cur.result === 'correct' && drillAllDone(s)) markTracker('did-practice');
               persist(); render();
-            } }, ['تحقق']),
+            } }, ['✓']),
           el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'من الأول', onclick: function () { delete ans[key]; persist(); render(); } }, ['↺'])
         ]),
         bank
