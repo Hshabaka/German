@@ -106,6 +106,7 @@
         pf.forEach(function (f) { ps.lastChild.appendChild(el('p', {}, [el('a', { href: f.file, target: '_blank', rel: 'noopener' }, [f.label])])); });
         body.appendChild(ps);
       }
+      Array.prototype.forEach.call(body.querySelectorAll('li'), function (li) { if (li.textContent.indexOf('ملفات الدرس على Barbary') === 0 && pf.length) li.textContent = 'ملفات الدرس: تلاقيها تحت في صندوق "ملفات PDF للدرس".'; });
       var nav = el('div', { class: 'lx-nav' }, []);
       if (n > 2) nav.appendChild(el('a', { class: 'lx-btn', href: '#' + (n - 1) }, ['→ الدرس ' + (n - 1)]));
       if (n < L.length) nav.appendChild(el('a', { class: 'lx-btn', href: '#' + (n + 1) }, ['الدرس ' + (n + 1) + ' ←']));
