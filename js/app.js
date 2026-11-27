@@ -281,7 +281,7 @@
       kids.push(el('div', { class: 'video-wrap lv-wrap' }, [NV.video]));
       kids.push(el('p', { class: 'caption' }, ['فيديو الدرس بدون إعلانات.']));
     } else {
-      kids.push(el('p', { class: 'caption' }, ['بنجهّز فيديو الدرس من غير إعلانات…']));
+      kids.push(el('p', { class: 'caption' }, ['بنجهّز فيديو الدرس… لو اتأخر، حدّث الصفحة.']));
     }
     return el('div', { class: 'lv' }, kids);
   }
@@ -304,22 +304,8 @@
   }
   function renderLesson(s) {
     var vid = s.video || {};
-    var embed = vid.provider === 'youtube' ? youtubeEmbed(vid.url) : null;
     var children = [];
-    if (embed) {
-      children.push(el('div', { class: 'video-wrap' }, [
-        el('iframe', {
-          src: embed, title: 'فيديو الدرس', loading: 'lazy',
-          allow: 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
-          allowfullscreen: ''
-        })
-      ]));
-      children.push(el('p', { class: 'caption' }, [(vid.note || 'فيديو الدرس') + (vid.backup ? ' · ' + vid.backup : '')]));
-      children.push(el('p', { class: 'caption' }, [el('a', { href: vid.url, target: '_blank', rel: 'noopener' }, ['افتح الفيديو على يوتيوب ↗']), ' (لو ظهرت إعلانات، افتحه من هنا وإنت داخل بحساب Premium)']));
-    } else if (vid.url) {
-      children.push(el('p', {}, [el('a', { href: vid.url, target: '_blank', rel: 'noopener' }, ['افتح فيديو الدرس'])]));
-    }
-    if (NV.video) children.unshift(videoBlock());
+    children.push(videoBlock());
     if (s.lesson && s.lesson.summary) children.push(el('p', {}, [s.lesson.summary]));
     if (s.lesson && s.lesson.challenge) {
       var ch = s.lesson.challenge;
