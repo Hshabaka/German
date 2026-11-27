@@ -18,9 +18,13 @@ jobs:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           VIDEO_PAGES: ${{ secrets.VIDEO_PAGES }}
         run: python3 scripts/refresh_videos.py
+      - name: Update screen lock hash
+        env:
+          SITE_PASSCODE: ${{ secrets.SITE_PASSCODE }}
+        run: python3 scripts/make_gate.py
       - name: Commit if changed
         run: |
           git config user.name "video-refresh"
           git config user.email "video-refresh@users.noreply.github.com"
-          git add data/video-urls.json
+          git add data/video-urls.json data/gate.json
           git diff --cached --quiet || (git commit -m "refresh video urls" && git push)
