@@ -126,7 +126,10 @@
     });
     app.appendChild(w);
   }
-  fetch('data/a1-pdfs.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }).then(function (p) { window.__a1pdfs = p; return fetch('data/a1-index.json'); }).then(function (r) { return r.json(); }).then(function (idx) {
-    var d = document.body.dataset; if (d.page === 'lesson') show(idx, parseInt(d.lesson, 10)); else home(idx);
+  function legacyLoad() { return fetch('data/a1-pdfs.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }).then(function (p) { return fetch('data/a1-index.json').then(function (r) { return r.json(); }).then(function (idx) { return { idx: idx, p: p }; }); }); }
+  function regLoad() { return fetch('data/registry.json').then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (reg) { var L = reg.levels.a1.lessons, p = {}; L.forEach(function (x) { p[String(x.n)] = x.pdfs || []; }); return { idx: { level: 'A1', lessons: L.map(function (x) { return { n: x.n, title: x.title, page_id: x.page_id }; }) }, p: p, reg: reg }; }); }
+  regLoad().catch(legacyLoad).then(function (o) {
+    window.__a1pdfs = o.p; window.__a1registry = o.reg || null;
+    var d = document.body.dataset; if (d.page === 'lesson') show(o.idx, parseInt(d.lesson, 10)); else home(o.idx);
   }).catch(function () { app.textContent = 'مش قادر أحمّل قايمة الدروس.'; });
 })();
