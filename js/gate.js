@@ -33,8 +33,13 @@
     card.appendChild(h); card.appendChild(input); card.appendChild(btn); card.appendChild(msg);
     card.addEventListener('submit', function (ev) {
       ev.preventDefault();
-      if (!gateData) { msg.textContent = 'القفل لسه بيتجهّز، جرّب كمان لحظة.'; return; }
+      var tries = 0;
+      (function go() {
+        if (!gateData && tries++ < 50) { msg.textContent = 'ثواني...'; return setTimeout(go, 100); }
+        if (!gateData) { msg.textContent = 'القفل لسه بيتجهّز، جرّب كمان لحظة.'; return; }
+        msg.textContent = '';
       check(input.value).then(function (ok) { if (ok) unlock(); else { msg.textContent = 'الرمز غلط، جرّب تاني.'; input.value = ''; input.focus(); } });
+      })();
     });
     box.appendChild(card); document.body.appendChild(box);
     setTimeout(function () { input.focus(); }, 50);
