@@ -315,9 +315,7 @@
     var a = el('audio', { controls: '', preload: 'none', style: 'width:100%;margin-top:6px', 'aria-label': 'صوت الدرس' });
     AUD.el = a;
     a.addEventListener('ended', function () { if (AUD.all) audNext(true); });
-    var btn = el('button', { type: 'button', style: 'min-height:32px;padding:3px 11px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit;font-size:13px', onclick: function () { AUD.all = false; audSet(0); a.play(); } }, ['🎧 صوت الدرس فقط']);
-    var title = el('span', { id: 'aud-title', class: 'caption', style: 'margin-inline-start:8px' }, [AUD.list[AUD.i].title]);
-    var box = el('div', { style: 'margin:10px 0 0' }, [btn, title, a]);
+    var box = el('div', { style: 'margin:10px 0 0' }, [a]);
     setTimeout(function () { audSet(AUD.i); }, 0);
     return box;
   }
@@ -541,6 +539,8 @@
   }
 
 
+  window.__resetAnswers = function () { store.data.answers = {}; persist(); render(); };
+
   /* ---------- practice drills (own content) ---------- */
   function drillAllDone(s) {
     var p = s.practice, ans = store.data.answers;
@@ -598,9 +598,9 @@
       }));
       var guess = st.picked.map(function (ti) { return it.tiles[ti]; }).join(' ');
       var wrap = el('div', { class: 'quiz-q build-q' }, [
-        el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)]), el('span', {}, ['رتّب الكلمات في جملة'])]),
-        picked, bank,
-        el('div', {}, [
+        el('div', { class: 'quiz-prompt', 'aria-label': 'رتّب الكلمات في جملة' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)])]),
+        picked,
+        el('div', { class: 'bq-act' }, [
           el('button', { class: 'btn btn-secondary check-build', type: 'button',
             disabled: (st.picked.length === it.tiles.length && !done) ? null : '',
             onclick: function () {
@@ -610,8 +610,9 @@
               if (cur.result === 'correct' && drillAllDone(s)) markTracker('did-practice');
               persist(); render();
             } }, ['تحقق']),
-          el('button', { class: 'btn btn-ghost', type: 'button', onclick: function () { delete ans[key]; persist(); render(); } }, ['من الأول'])
-        ])
+          el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'من الأول', onclick: function () { delete ans[key]; persist(); render(); } }, ['↺'])
+        ]),
+        bank
       ]);
       if (st.result === 'correct') wrap.appendChild(fbBox(true, it.answer, it.ar, ruleFor(it.answer)));
       if (st.result === 'wrong') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, [el('div', { class: 'fb-head' }, ['لسه.']), el('div', { class: 'fb-note' }, buildHint(guess, it))]));
