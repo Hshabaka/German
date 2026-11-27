@@ -4,10 +4,11 @@
 (function () {
   'use strict';
 
+  var SN = parseInt(document.body && document.body.getAttribute('data-session'), 10) || 1;
   var CONFIG = {
-    sessionUrl: 'data/session-1.json',
+    sessionUrl: 'data/session-' + SN + '.json',
     progressEndpoint: null, // set to the intermediary URL when it exists, e.g. 'https://<worker>/progress'
-    localKey: 'german-site.progress.v1'
+    localKey: SN === 1 ? 'german-site.progress.v1' : 'german-site.progress.s' + SN + '.v1'
   };
 
   var arNum = function (n) { return String(n); };
@@ -270,7 +271,7 @@
   var NV = { state: 'loading', url: null, expires: 0, video: null, wrap: null, busy: false };
   var REG = { yt: '', nr: '' };
   fetch('data/registry.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (g) {
-    var l = g && g.levels && g.levels.a1 && g.levels.a1.lessons && g.levels.a1.lessons[0];
+    var l = g && g.levels && g.levels.a1 && g.levels.a1.lessons && g.levels.a1.lessons[SN - 1];
     if (l && /^https:\/\/app\.notion\.com\//.test(l.notion_row || '')) REG.nr = l.notion_row;
     if (l && /^https:\/\/www\.youtube\.com\//.test(l.youtube || '') && l.youtube !== REG.yt) { REG.yt = l.youtube; if (state.session) render(); } else if (state.session) render();
   }).catch(function () {});
@@ -278,7 +279,7 @@
   function fetchVideoUrl(done) {
     fetch('data/video-urls.json?t=' + Date.now(), { cache: 'no-store' })
       .then(function (r) { return r.ok ? r.json() : null; })
-      .then(function (d) { var e = d && d['session-1']; done(e && e.url && e.expires_at > nowSec() ? e : null); })
+      .then(function (d) { var e = d && d['session-' + SN]; done(e && e.url && e.expires_at > nowSec() ? e : null); })
       .catch(function () { done(null); });
   }
   function swapVideo(e) {
