@@ -86,7 +86,20 @@
     fetch('data/a1/lesson-' + n + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
       body.textContent = '';
       body.appendChild(el('h1', {}, [d.title]));
-      list(d.blocks).forEach(function (k) { body.appendChild(k); });
+      var blocks = d.blocks.slice();
+      var orig = null;
+      if (blocks.length && blocks[0].type === 'callout' && plain(blocks[0].text).indexOf('مسودة مبدئية') === 0) { orig = blocks.shift(); }
+      var cov = el('div', { class: 'callout' }, [el('span', {}, ['ℹ️']), el('div', {}, [])]);
+      var ct = cov.lastChild;
+      ct.appendChild(el('p', {}, [el('strong', {}, ['عرض قراءة للدرس مع الصوت.']), ' ده مش بنفس تجربة الدرس 1 التفاعلية (مفيش اختبار أو تتبّع تقدّم هنا).']));
+      ct.appendChild(el('p', {}, ['المحتوى مكتوب من ملفات الدرس ومن الترجمة التلقائية للفيديو، ولسه ما اتراجعش مع المدرس. التسجيلات الألمانية مولّدة للتدريب، مش صوت المدرس. ملفات PDF والفيديو الأصلي مش موجودة هنا: الفيديو برابط يوتيوب والملفات على Barbary.']));
+      if (orig) {
+        var det = el('details', {}, [el('summary', {}, ['ملاحظة المصدر الأصلية من Notion'])]);
+        det.appendChild(runs(orig.text));
+        ct.appendChild(det);
+      }
+      body.appendChild(cov);
+      list(blocks).forEach(function (k) { body.appendChild(k); });
       var nav = el('div', { class: 'lx-nav' }, []);
       if (n > 2) nav.appendChild(el('a', { class: 'lx-btn', href: '#' + (n - 1) }, ['→ الدرس ' + (n - 1)]));
       if (n < L.length) nav.appendChild(el('a', { class: 'lx-btn', href: '#' + (n + 1) }, ['الدرس ' + (n + 1) + ' ←']));
