@@ -758,27 +758,33 @@
   "translate": [
    {
     "ar": "ده سهل جدًا بالنسبة لي.",
-    "de": "Das ist sehr einfach für mich."
+    "de": "Das ist sehr einfach für mich.",
+    "audio": "audio/s2/tr1.mp3"
    },
    {
     "ar": "ده مش غالي.",
-    "de": "Das ist nicht teuer."
+    "de": "Das ist nicht teuer.",
+    "audio": "audio/s2/tr2.mp3"
    },
    {
     "ar": "القهوة كويسة.",
-    "de": "Der Kaffee ist gut."
+    "de": "Der Kaffee ist gut.",
+    "audio": "audio/s2/tr3.mp3"
    },
    {
     "ar": "العربية جديدة بس غالية.",
-    "de": "Das Auto ist neu, aber teuer."
+    "de": "Das Auto ist neu, aber teuer.",
+    "audio": "audio/s2/tr4.mp3"
    },
    {
     "ar": "الكتاب ممل.",
-    "de": "Das Buch ist langweilig."
+    "de": "Das Buch ist langweilig.",
+    "audio": "audio/s2/tr5.mp3"
    },
    {
     "ar": "الشنطة جميلة ومهمة بالنسبة لي.",
-    "de": "Die Tasche ist schön und wichtig für mich."
+    "de": "Die Tasche ist schön und wichtig für mich.",
+    "audio": "audio/s2/tr6.mp3"
    }
   ]
  }
