@@ -421,13 +421,12 @@
       d.addEventListener('click', function () { show(i); });
       return d;
     }));
-    var prev = el('button', { type: 'button', class: 'btn gram-nav' }, ['← Previous']);
-    var next = el('button', { type: 'button', class: 'btn gram-nav' }, ['Next →']);
+    var prev = el('button', { type: 'button', class: 'gram-nav', 'aria-label': 'Previous rule' }, ['←']);
+    var next = el('button', { type: 'button', class: 'gram-nav', 'aria-label': 'Next rule' }, ['→']);
     var close = el('button', { type: 'button', class: 'gram-close', 'aria-label': 'Close grammar' }, ['×']);
     var box = el('div', { class: 'gram-box', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'Grammar summary', tabindex: '-1' }, [
-      el('div', { class: 'gram-top' }, [el('strong', {}, ['Grammar']), count, close]),
-      body, dots,
-      el('div', { class: 'gram-foot' }, [prev, next])
+      el('div', { class: 'gram-top' }, [el('strong', {}, ['Grammar']), el('div', { class: 'gram-pager' }, [prev, count, next]), close]),
+      body, dots
     ]);
     var ov = el('div', { id: 'gram-modal', class: 'gram-overlay' }, [box]);
     function show(i) {
