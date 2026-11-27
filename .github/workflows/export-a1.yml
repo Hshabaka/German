@@ -1,0 +1,24 @@
+name: export-a1-lessons
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: export-a1-lessons
+  cancel-in-progress: false
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Export A1 lessons from Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python3 scripts/export_a1.py
+      - name: Commit if changed
+        run: |
+          git config user.name "a1-export"
+          git config user.email "a1-export@users.noreply.github.com"
+          git add data/a1 audio/a1
+          git diff --cached --quiet || (git commit -m "export a1 lessons" && git push)
