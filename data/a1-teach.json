@@ -64,9 +64,9 @@
     "w": "الترتيب: فاعل + ist + nicht + sehr + صفة."
    },
    "4": {
-    "f": "aber",
-    "m": "لكن.",
-    "w": "aber بتربط جملتين متعارضتين، زي: Das ist schwierig, aber ich lerne."
+    "f": "Ich lerne Deutsch und das ist toll für mich, aber das ist schwierig für dich.",
+    "m": "أنا بتعلم ألماني وده رائع بالنسبة لي، لكن صعب بالنسبة لك.",
+    "w": "الإجابة: aber. (الجملة اللي فوق مثال من ملف الدرس.) aber بتربط جملتين متعارضتين، زي: Das ist schwierig, aber ich lerne."
    },
    "5": {
     "m": "أنا أقدر أتكلم ألماني وده سهل.",
@@ -596,9 +596,9 @@
   },
   "quiz": {
    "1": {
-    "f": "الآخر",
-    "m": "علشان أقدر أشوف.",
-    "w": "في جملة damit الفعل المتصرف بيروح آخر الجملة (زي: damit ich sehen kann). في الجملة العادية والأمر ده مش بيحصل."
+    "f": "Mach das Licht an, damit ich sehen kann.",
+    "m": "افتح النور عشان أقدر أشوف.",
+    "w": "الإجابة: في الآخر. (الجملة اللي فوق مثال من ملف الدرس.) في جملة damit الفعل المتصرف بيروح آخر الجملة (زي: damit ich sehen kann). في الجملة العادية والأمر ده مش بيحصل."
    },
    "2": {
     "f": "Es ist dunkel. Ich mache das Licht an, damit ich sehen kann.",
@@ -1213,19 +1213,19 @@
  "17": {
   "ex": {
    "1": {
-    "f": "Nominativ",
+    "f": "Der Hund ist klein.",
     "m": "الكلب صغير.",
-    "w": "Hund هو اللي بيتكلم عنه في الجملة (الفاعل) فهو Nominativ وأداته der."
+    "w": "الإجابة: Nominativ. Hund هو اللي بيتكلم عنه في الجملة (الفاعل) فهو Nominativ وأداته der."
    },
    "2": {
-    "f": "Akkusativ",
+    "f": "Wir sehen den Hund.",
     "m": "احنا بنشوف الكلب.",
-    "w": "Hund هو اللي بيتشاف (مفعول به) فهو Akkusativ، والمذكّر der بيتحول den."
+    "w": "الإجابة: Akkusativ. Hund هو اللي بيتشاف (مفعول به) فهو Akkusativ، والمذكّر der بيتحول den."
    },
    "3": {
-    "f": "Dativ",
+    "f": "Wir helfen dem Mann.",
     "m": "احنا بنساعد الراجل.",
-    "w": "helfen من الأفعال اللي بيتبعها الشخص في Dativ، والمذكّر der بيتحول dem."
+    "w": "الإجابة: Dativ. helfen من الأفعال اللي بيتبعها الشخص في Dativ، والمذكّر der بيتحول dem."
    },
    "4": {
     "f": "Wir sehen den Arzt.",
@@ -1265,9 +1265,9 @@
   },
   "quiz": {
    "1": {
-    "f": "Nominativ",
+    "f": "Der Mann ist hier.",
     "m": "الراجل هنا.",
-    "w": "Der Mann هو الفاعل فهو Nominativ."
+    "w": "الإجابة: Nominativ. Der Mann هو الفاعل فهو Nominativ."
    },
    "2": {
     "f": "Ich sehe den Hund.",
@@ -1746,14 +1746,14 @@
  "23": {
   "ex": {
    "1": {
-    "f": "Wohin",
-    "m": "لفين؟ (اتجاه)",
-    "w": "الجملة بتوصف حركة من مكان لمكان تاني (الوجهة: السوق)، فالسؤال Wohin."
+    "f": "Ich gehe auf den Markt.",
+    "m": "أنا رايح السوق.",
+    "w": "الإجابة: Wohin. الجملة بتوصف حركة من مكان لمكان تاني (الوجهة: السوق)، فالسؤال Wohin."
    },
    "2": {
-    "f": "Wo",
-    "m": "فين؟ (مكان)",
-    "w": "Ich bin im Zimmer بتوصف مكان وجودك من غير انتقال لمكان تاني، فالسؤال Wo."
+    "f": "Ich bin im Zimmer.",
+    "m": "أنا في الأوضة.",
+    "w": "الإجابة: Wo. Ich bin im Zimmer بتوصف مكان وجودك من غير انتقال لمكان تاني، فالسؤال Wo."
    },
    "3": {
     "f": "Ich gehe auf den Markt.",
@@ -1897,9 +1897,9 @@
     }
    },
    "3": {
-    "f": "في الآخر",
-    "m": "في آخر الجملة الفرعية.",
-    "w": "بعد sobald الجملة بتبقى فرعية والفعل المتصرف يروح الآخر (sobald ich Zeit habe)."
+    "f": "Ich gehe heute einkaufen, sobald ich Zeit habe.",
+    "m": "هروح أتسوق النهارده أول ما يبقى عندي وقت.",
+    "w": "الإجابة: في الآخر. (الجملة اللي فوق مثال من ملف الدرس.) بعد sobald الجملة بتبقى فرعية والفعل المتصرف يروح الآخر (sobald ich Zeit habe)."
    },
    "4": {
     "f": "Ich gehe heute einkaufen, sobald ich Zeit habe.",
@@ -2007,9 +2007,9 @@
     }
    },
    "4": {
-    "f": "gesprochen",
-    "m": "تكلّم.",
-    "w": "sprechen غير منتظم فاسم المفعول gesprochen (ge + حرف علة متغير + en)."
+    "f": "Er hat gut Deutsch gesprochen.",
+    "m": "هو اتكلم ألماني كويس.",
+    "w": "الإجابة: gesprochen (Partizip II لـ sprechen). (الجملة اللي فوق مثال من ملف الدرس.) sprechen غير منتظم فاسم المفعول gesprochen (ge + حرف علة متغير + en)."
    },
    "5": {
     "m": "bleiben بياخد sein.",
@@ -2146,9 +2146,9 @@
     }
    },
    "3": {
-    "f": "في الآخر",
-    "m": "في آخر الجملة الفرعية.",
-    "w": "weil بتبدأ جملة فرعية فالفعل المتصرف يروح آخرها."
+    "f": "Wir schreiben Ihnen, weil wir ein Zimmer buchen möchten.",
+    "m": "بنكتبلكم عشان عايزين نحجز أوضة.",
+    "w": "الإجابة: في الآخر. (الجملة اللي فوق مثال من ملف الدرس.) weil بتبدأ جملة فرعية فالفعل المتصرف يروح آخرها."
    },
    "4": {
     "f": "Wir kommen am Freitag an.",
