@@ -76,7 +76,7 @@
     app.textContent = '';
     var L = idx.lessons;
     var sel = el('select', { 'aria-label': 'اختر الدرس', onchange: function () { if (this.value === '1') location.href = 'index.html'; else location.hash = this.value; } }, []);
-    L.forEach(function (x) { var o = el('option', { value: String(x.n) }, [x.title]); if (x.n === n) o.selected = true; sel.appendChild(o); });
+    L.forEach(function (x) { var o = el('option', { value: String(x.n) }, [x.title + (window.A1Practice && window.A1Practice.done(x.n) ? ' ✓' : '')]); if (x.n === n) o.selected = true; sel.appendChild(o); });
     var wrapEl = el('div', { class: 'lx' }, [el('div', { class: 'lx-top' }, [el('a', { href: 'index.html' }, ['الدرس 1 (الرئيسية)']), sel])]);
     app.appendChild(wrapEl);
     var item = L.filter(function (x) { return x.n === n; })[0];
@@ -107,6 +107,7 @@
         body.appendChild(ps);
       }
       Array.prototype.forEach.call(body.querySelectorAll('li'), function (li) { if ((li.textContent.indexOf('ملفات الدرس') >= 0 && li.textContent.indexOf('Barbary') >= 0 && li.textContent.indexOf('نوشن') >= 0) && !li.querySelector('li') && pf.length) li.textContent = 'ملفات الدرس: تلاقيها تحت في صندوق "ملفات PDF للدرس".'; });
+      if (window.A1Practice) { try { window.A1Practice.mount(body, d.blocks, n); } catch (e) {} }
       var nav = el('div', { class: 'lx-nav' }, []);
       if (n > 2) nav.appendChild(el('a', { class: 'lx-btn', href: '#' + (n - 1) }, ['→ الدرس ' + (n - 1)]));
       if (n < L.length) nav.appendChild(el('a', { class: 'lx-btn', href: '#' + (n + 1) }, ['الدرس ' + (n + 1) + ' ←']));
