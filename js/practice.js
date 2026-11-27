@@ -47,13 +47,13 @@
     var items = [], answers = {}, lastA = null, notes = [], lastItem = null, group = [], afterHeader = false, orderN = 0, order = null;
     sec.blocks.forEach(function (b) {
       if (b.type === 'toggle') {
-        (b.children || []).forEach(function (c) {
-          var t = plain(c.text), mr = t.match(/^\s*(\d+)\s*-\s*(\d+)\s*\)\s*(.*)$/), m2 = t.match(ITEM);
+        (b.children || []).forEach(function (c) { plain(c.text).split('\n').forEach(function (t) {
+          var mr = t.match(/^\s*(\d+)\s*-\s*(\d+)\s*\)\s*(.*)$/), m2 = t.match(ITEM);
           if (mr) { for (var i = +mr[1]; i <= +mr[2]; i++) answers[i] = { free: true, lines: [] }; lastA = { free: true, lines: [mr[3]], range: true }; }
           else if (m2) { lastA = { lines: [m2[2]] }; answers[+m2[1]] = lastA; }
           else if (lastA && !/^\(.*\)$/.test(t.trim())) { lastA.lines.push(t); }
           else if (t.trim()) { notes.push(t); }
-        });
+        }); });
         return;
       }
       if (b.type !== 'paragraph') return;
@@ -86,6 +86,11 @@
   function fillGap(text, ans) { return text.replace(/＿{2,}/, ans).replace(/＿+/g, ans); }
   function leadLetter(s) { var m = s.match(/^\s*([A-D])\b/); return m ? m[1] : null; }
 
+  var TEACH = null, teachTried = false;
+  function loadTeach(cb) {
+    if (teachTried) return; teachTried = true;
+    try { fetch('data/a1-teach.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (j) { if (j) { TEACH = j; cb(); } }).catch(function () {}); } catch (e) {}
+  }
   function exercisePanel(sec, parsed, n, kind, dict) {
     var st = load(); st[n] = st[n] || {}; st[n][kind] = st[n][kind] || {};
     var P = st[n][kind];
@@ -100,17 +105,25 @@
     box.appendChild(score);
     parsed.items.forEach(function (it) {
       var a = parsed.answers[it.n], k = classify(it, a, parsed);
+      var T = (TEACH && TEACH[n] && TEACH[n][kind] && TEACH[n][kind][it.n]) || null;
       var row = el('div', { class: 'pr-item' }, []);
       if (it.head) row.appendChild(el('p', { class: 'pr-ctx' }, [it.head]));
       var qt = it.kind === 'order' ? it.head : (it.n + ') ' + it.text.replace(/＿{2,}/g, '＿＿＿'));
       var q = el('p', { class: 'pr-q' }, [it.kind === 'order' ? '' : qt]);
       if (it.kind !== 'order') { if (LAT.test(it.text) && !AR.test(it.text)) q.setAttribute('dir', 'ltr'); row.appendChild(q); }
       var fb = el('div', { class: 'pr-fb', 'aria-live': 'polite' }, []);
-      function mark() { var r = rec(it.n); row.className = 'pr-item' + (r ? (r.v ? ' ok' : ' bad') : ''); }
-      function why() { return el('p', { class: 'pr-why' }, ['ليه؟ راجع قاعدة الدرس فوق. شرح السبب لكل سؤال مش مكتوب في ملف الدرس الأصلي (محتاج مراجعة).']); }
+      function mark() { var r = rec(it.n); row.className = 'pr-item' + (r ? (r.m === 'self' ? (r.v ? ' sok' : ' sno') : (r.v ? ' ok' : ' bad')) : ''); }
+      function why(userAns) {
+        if (T && T.w) {
+          var w = el('div', { class: 'pr-teach' }, [el('p', { class: 'pr-teach-h' }, ['ليه؟ (شرح تعليمي مضاف، مش من ملف المدرس)']), el('p', {}, [T.w])]);
+          if (T.o && userAns && T.o[userAns]) w.appendChild(el('p', { class: 'pr-teach-o' }, ['اختيارك (' + userAns + '): ' + T.o[userAns]]));
+          return w;
+        }
+        return el('p', { class: 'pr-why' }, ['ليه؟ راجع قاعدة الدرس فوق. شرح السبب لكل سؤال مش مكتوب في ملف الدرس الأصلي (محتاج مراجعة).']);
+      }
       function meaning(full, ar) {
-        var dm = dict[norm(full)] || ''; if (dm.split(/\s+/).length < 2) dm = '';
-        var m = ar || dm;
+        var dm = (T && T.m) || dict[norm(full)] || ''; if (!(T && T.m) && dm.split(/\s+/).length < 2) dm = '';
+        var m = ar || dm; if (ar && T && T.m && it.n && /\.$/.test(ar) === false) { m = ar; }
         var note = it.extras.filter(function (x) { return /^المعنى\s*:/.test(x); })[0];
         var w = el('div', {}, [el('p', { class: 'pr-mean' }, [m ? m : 'ترجمة الجملة كاملة مش مكتوبة في ملف الدرس.'])]);
         if (note) w.appendChild(el('p', { class: 'pr-mean' }, ['من الملف: ' + note]));
@@ -126,13 +139,14 @@
           var optTxt = optLine ? optLine.replace(OPT, '$2') : first.replace(/^\s*[A-D]\s*\)\s*/, '');
           full = /＿/.test(it.text) ? fillGap(it.text, optTxt) : optTxt;
         } else { full = first; if (AR.test(it.text) && !LAT.test(it.text)) ar = it.text; }
+        if (T && T.f) full = T.f;
         if (!needSelf) {
-          fb.appendChild(el('p', { class: r.v ? 'pr-good' : 'pr-wrong' }, [(r.v ? '✅ صح ' : '❌ غلط ') ]));
+          fb.appendChild(el('p', { class: r.m === 'self' ? (r.v ? 'pr-selfok' : 'pr-selfno') : (r.v ? 'pr-good' : 'pr-wrong') }, [r.m === 'self' ? (r.v ? '✔ قيّمت نفسي: صح ' : '↻ قيّمت نفسي: محتاج مراجعة ') : (r.v ? '✅ صح ' : '❌ غلط ') ]));
           fb.lastChild.appendChild(tag(r.m));
-          if (!r.v) fb.appendChild(el('p', { class: 'pr-say' }, ['إجابتك: ' + (userAns || '(فاضي)')]));
+          if (!r.v || r.m === 'self') fb.appendChild(el('p', { class: 'pr-say' }, ['إجابتك: ' + (userAns || '(فاضي)')]));
           var line = el('p', { class: 'pr-full', dir: 'ltr' }, [full]); fb.appendChild(line);
           fb.appendChild(meaning(full, ar));
-          fb.appendChild(why());
+          fb.appendChild(why(userAns));
           if (a.lines.length > 1 && k !== 'gap' && k !== 'choice') a.lines.slice(1).forEach(function (l) { fb.appendChild(el('p', { class: 'pr-mean' }, [l])); });
         }
       }
@@ -142,7 +156,7 @@
       }
       function selfPrompt(userAns) {
         fb.textContent = '';
-        fb.appendChild(el('p', { class: 'pr-wrong' }, [k === 'open' ? 'الملف نفسه بيقول إن الأسئلة والإجابات دي أمثلة وممكن تختلف، فمفيش تصحيح تلقائي. قارن بنفسك:' : 'مش مطابقة للإجابة النموذجية بالضبط. ممكن صياغة تانية تبقى صح، قارن بنفسك:']));
+        fb.appendChild(el('p', { class: 'pr-neutral' }, [k === 'open' ? 'الملف نفسه بيقول إن الأسئلة والإجابات دي أمثلة وممكن تختلف، فمفيش تصحيح تلقائي. قارن بنفسك:' : 'مش مطابقة للإجابة النموذجية بالضبط. ممكن صياغة تانية تبقى صح، قارن بنفسك:']));
         a.lines.forEach(function (l) { fb.appendChild(el('p', { class: 'pr-model', dir: 'auto' }, [l])); });
         if (it.extras.length && k !== 'choice') { /* hints stay visible above */ }
         fb.appendChild(el('div', { class: 'pr-self' }, [
@@ -173,13 +187,28 @@
         var ob = el('button', { type: 'button', class: 'lx-btn pr-chk', onclick: function () {
           var vals = sel.map(function (s) { return s.value; }); if (vals.some(function (v) { return !v; })) { fb.textContent = 'رتّب كل الأسطر الأول.'; return; }
           var ok = okKey && it.lines.every(function (l, i) { return String(key[l]) === vals[i]; });
-          P.ord = { v: ok ? 1 : 0, m: 'auto', a: vals.join(',') }; save(st); mark(); upd();
+          function listKey() {
+            for (var i = 1; i <= it.lines.length; i++) fb.appendChild(el('p', { class: 'pr-full', dir: 'ltr' }, [i + ') ' + ansLine(parsed.answers[i])]));
+          }
+          function done(v, m) { P.ord = { v: v, m: m, a: vals.join(',') }; save(st); mark(); upd(); }
           fb.textContent = '';
-          fb.appendChild(el('p', { class: ok ? 'pr-good' : 'pr-wrong' }, [ok ? '✅ صح ' : '❌ مش زي ترتيب الملف ']));
-          fb.lastChild.appendChild(tag('auto'));
-          fb.appendChild(el('p', { class: 'pr-note' }, ['الترتيب في ملف الدرس (الملف نفسه بيقول إن ترتيب الأسئلة والجمل في النص ممكن يتبدل):']));
-          for (var i = 1; i <= it.lines.length; i++) fb.appendChild(el('p', { class: 'pr-full', dir: 'ltr' }, [i + ') ' + ansLine(parsed.answers[i])]));
-          if (!okKey) fb.appendChild(el('p', { class: 'pr-why' }, ['مفتاح الترتيب مش مطابق تمامًا للأسطر، التصحيح هنا غير مضمون (محتاج مراجعة).']));
+          if (ok) {
+            done(1, 'auto');
+            fb.appendChild(el('p', { class: 'pr-good' }, ['✅ نفس ترتيب الملف ']));
+            fb.lastChild.appendChild(tag('auto'));
+            listKey();
+          } else {
+            var prev = rec('ord');
+            if (prev && prev.m === 'self') done(prev.v, 'self'); else { delete P.ord; save(st); mark(); upd(); }
+            fb.appendChild(el('p', { class: 'pr-neutral' }, ['ترتيبك مختلف عن ترتيب ملف الدرس. الملف نفسه بيقول إن أكتر من ترتيب ممكن يكون صح، فده مش بيتعلّم غلط تلقائي. قارن بنفسك:']));
+            if (prev && prev.m === 'self') fb.appendChild(el('p', { class: prev.v ? 'pr-selfok' : 'pr-selfno' }, [prev.v ? '✔ تقييمك المحفوظ: ترتيبي مقبول' : '↻ تقييمك المحفوظ: محتاج مراجعة']));
+            listKey();
+            fb.appendChild(el('div', { class: 'pr-self' }, [
+              el('button', { type: 'button', class: 'lx-btn', onclick: function () { done(1, 'self'); ob.click(); } }, ['قيّمت نفسي: ترتيبي مقبول']),
+              el('button', { type: 'button', class: 'lx-btn', onclick: function () { done(0, 'self'); ob.click(); } }, ['قيّمت نفسي: محتاج مراجعة'])
+            ]));
+          }
+          if (!okKey) fb.appendChild(el('p', { class: 'pr-why' }, ['مفتاح الترتيب مش مطابق تمامًا للأسطر، المقارنة هنا غير مضمونة (محتاج مراجعة).']));
         } }, ['تحقق']);
         row.appendChild(ob); row.appendChild(fb); box.appendChild(row);
         var rr = rec('ord'); if (rr) { ob.click(); } mark(); return;
@@ -276,7 +305,7 @@
         });
         if (!made) wrap.textContent = '';
       }
-      mountAgain = build; build();
+      mountAgain = build; build(); loadTeach(function () { try { build(); } catch (e) {} });
       if (wrap.firstChild) container.insertBefore(wrap, anchor || null);
     },
     done: function (n) {
