@@ -251,6 +251,71 @@
     return panel('chart', 'تقدمك في الجلسة', 'علّم كل خطوة تخلصها', [list, tools], '', 'span-12', 'sec-tracker');
   }
 
+  var LV = { url: null, name: '', note: '', video: null };
+  function mediaDb(cb) {
+    try {
+      var rq = indexedDB.open('german-course-media', 1);
+      rq.onupgradeneeded = function () { rq.result.createObjectStore('files'); };
+      rq.onsuccess = function () { cb(rq.result); };
+      rq.onerror = function () { cb(null); };
+    } catch (e) { cb(null); }
+  }
+  function mediaPut(key, blob, done) {
+    mediaDb(function (db) {
+      if (!db) return done(false);
+      try {
+        var tx = db.transaction('files', 'readwrite'); tx.objectStore('files').put(blob, key);
+        tx.oncomplete = function () { done(true); }; tx.onerror = tx.onabort = function () { done(false); };
+      } catch (e) { done(false); }
+    });
+  }
+  function mediaGet(key, done) {
+    mediaDb(function (db) {
+      if (!db) return done(null);
+      try { var g = db.transaction('files').objectStore('files').get(key); g.onsuccess = function () { done(g.result || null); }; g.onerror = function () { done(null); }; }
+      catch (e) { done(null); }
+    });
+  }
+  function mediaDel(key, done) {
+    mediaDb(function (db) {
+      if (!db) return done();
+      try { var tx = db.transaction('files', 'readwrite'); tx.objectStore('files').delete(key); tx.oncomplete = tx.onerror = tx.onabort = function () { done(); }; } catch (e) { done(); }
+    });
+  }
+  function setLocalVideo(blob, name) {
+    if (LV.url) URL.revokeObjectURL(LV.url);
+    LV.url = URL.createObjectURL(blob); LV.name = name || ''; LV.video = null;
+  }
+  function loadLocalVideo(done) {
+    mediaGet('session-1-video', function (b) {
+      if (b && b.size) setLocalVideo(b, b.name || 'فيديو الدرس');
+      done();
+    });
+  }
+  function localVideoBlock() {
+    var kids = [el('h3', { class: 'lv-title' }, ['فيديو الدرس من ملف على جهازك (بدون إعلانات)'])];
+    if (LV.url) {
+      if (!LV.video) { LV.video = el('video', { controls: '', playsinline: '', preload: 'metadata', class: 'lv-video' }); LV.video.src = LV.url; }
+      kids.push(el('div', { class: 'video-wrap lv-wrap' }, [LV.video]));
+      kids.push(el('p', { class: 'caption' }, [LV.note || ('الملف محفوظ على الجهاز ده بس: ' + LV.name)]));
+      kids.push(el('button', { class: 'btn btn-ghost lv-del', type: 'button', onclick: function () {
+        mediaDel('session-1-video', function () { if (LV.url) URL.revokeObjectURL(LV.url); LV.url = null; LV.video = null; LV.note = ''; render(); });
+      } }, ['امسح الفيديو المحفوظ']));
+    } else {
+      kids.push(el('p', { class: 'caption' }, ['نزّل ملف الفيديو من صفحة الجلسة في نوشن مرة واحدة، وبعدين اختاره هنا. بيتحفظ على الجهاز ده وبيشتغل جوه الصفحة، من غير يوتيوب وغير ما يتنشر لأي حد.']));
+    }
+    var input = el('input', { type: 'file', accept: 'video/*', class: 'lv-input', id: 'lv-input', 'aria-label': 'اختار ملف الفيديو' });
+    input.addEventListener('change', function () {
+      var f = input.files && input.files[0]; if (!f) return;
+      setLocalVideo(f, f.name);
+      LV.note = 'بيتحفظ…'; render();
+      mediaPut('session-1-video', f, function (ok) { LV.note = ok ? 'الملف محفوظ على الجهاز ده بس: ' + f.name : 'اشتغل دلوقتي بس، ما اتحفظش (المساحة أو إعدادات المتصفح). اختاره تاني في المرة الجاية.'; render(); });
+    });
+    kids.push(el('label', { class: 'btn btn-secondary lv-pick', for: 'lv-input' }, [LV.url ? 'غيّر الملف' : 'اختار ملف الفيديو']));
+    kids.push(input);
+    return el('div', { class: 'lv' }, kids);
+  }
+
   function renderLesson(s) {
     var vid = s.video || {};
     var embed = vid.provider === 'youtube' ? youtubeEmbed(vid.url) : null;
@@ -268,6 +333,7 @@
     } else if (vid.url) {
       children.push(el('p', {}, [el('a', { href: vid.url, target: '_blank', rel: 'noopener' }, ['افتح فيديو الدرس'])]));
     }
+    children.push(localVideoBlock());
     if (s.lesson && s.lesson.summary) children.push(el('p', {}, [s.lesson.summary]));
     if (s.lesson && s.lesson.challenge) {
       var ch = s.lesson.challenge;
@@ -427,8 +493,9 @@
           }, ['تحقق'])
         ])
       ]);
-      if (st && st.result === 'correct') qEl.appendChild(el('div', { class: 'feedback', 'data-kind': 'correct', role: 'status' }, ['صح ✓']));
-      if (st && st.result === 'wrong') qEl.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, ['لسه. الصح: ', el('bdi', { dir: 'ltr' }, [q.options[q.answer]]), ' — ' + q.why]));
+      var qFull = q.prompt.replace(/_+/, q.options[q.answer]);
+      if (st && st.result === 'correct') qEl.appendChild(fbBox(true, qFull, q.ar, q.why));
+      if (st && st.result === 'wrong') qEl.appendChild(fbBox(false, qFull, q.ar, q.why));
       grid.appendChild(qEl);
     });
     return panel('quiz', 'اختبار سريع', 'اختار إجابة واضغط «تحقق»', [
@@ -460,6 +527,21 @@
       el('div', {}, [n > 0 ? 'أول ' + arNum(n) + ' كلمة مظبوطة. الكلمة رقم ' + arNum(n + 1) + ' مش في مكانها.' : 'الكلمة الأولى مش مظبوطة.' + rule]),
       n > 0 ? el('div', {}, [rule.trim()]) : null
     ].filter(Boolean);
+  }
+  function ruleFor(full) {
+    if (/\bkann\b/.test(full)) return 'kann في المركز التاني، والفعل التاني (المصدر) في آخر الجملة.';
+    if (/^Wie\b/.test(full)) return 'في السؤال بـ Wie، الفعل بعد Wie على طول.';
+    return 'الفعل في المركز التاني.';
+  }
+  function fbBox(ok, full, ar, why, extra) {
+    var kids = [el('div', { class: 'fb-head' }, [ok ? 'صح ✓' : 'لسه.'])];
+    if (extra) kids.push(el('div', { class: 'fb-note' }, extra));
+    var note = [];
+    note.push(el('div', { dir: 'ltr', style: 'text-align:left' }, [full]));
+    if (ar) note.push(el('div', {}, [ar]));
+    if (why) note.push(el('div', {}, [why]));
+    kids.push(el('div', { class: 'fb-note' }, note));
+    return el('div', { class: 'feedback', 'data-kind': ok ? 'correct' : 'wrong', role: 'status' }, kids);
   }
   function renderBuild(s) {
     var ans = store.data.answers;
@@ -498,8 +580,8 @@
           el('button', { class: 'btn btn-ghost', type: 'button', onclick: function () { delete ans[key]; persist(); render(); } }, ['من الأول'])
         ])
       ]);
-      if (st.result === 'correct') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'correct', role: 'status' }, ['صح ✓ ', el('span', { dir: 'ltr' }, [it.answer])]));
-      if (st.result === 'wrong') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, buildHint(guess, it)));
+      if (st.result === 'correct') wrap.appendChild(fbBox(true, it.answer, it.ar, ruleFor(it.answer)));
+      if (st.result === 'wrong') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, [el('div', { class: 'fb-head' }, ['لسه.']), el('div', { class: 'fb-note' }, buildHint(guess, it))]));
       return wrap;
     });
   }
@@ -523,8 +605,7 @@
             persist(); render();
           } }, ['تحقق'])])
       ]);
-      if (st && st.result === 'correct') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'correct', role: 'status' }, ['صح ✓ ' + it.why]));
-      if (st && st.result === 'wrong') wrap.appendChild(el('div', { class: 'feedback', 'data-kind': 'wrong', role: 'status' }, ['لسه. الصح: ', el('bdi', { dir: 'ltr' }, [it.options[it.answer]]), ' — ' + it.why]));
+      if (st && st.result) wrap.appendChild(fbBox(st.result === 'correct', it.options[it.answer], it.ar, it.why));
       return wrap;
     });
   }
@@ -627,6 +708,7 @@
   }
 
   store.loadLocal();
+  loadLocalVideo(function () { if (state.session) render(); });
   store.detectEndpoint(function () {
     store.pullRemote(function () {
       fetch(CONFIG.sessionUrl).then(function (r) { return r.json(); }).then(function (s) {
