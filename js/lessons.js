@@ -76,7 +76,7 @@
     app.textContent = '';
     var L = idx.lessons;
     var sel = el('select', { 'aria-label': 'اختر الدرس', onchange: function () { if (this.value === '1') location.href = 'index.html'; else location.hash = this.value; } }, []);
-    L.forEach(function (x) { var o = el('option', { value: String(x.n) }, [x.title + (window.A1Practice && window.A1Practice.done(x.n) ? ' ✓' : '')]); if (x.n === n) o.selected = true; sel.appendChild(o); });
+    L.forEach(function (x) { var o = el('option', { value: String(x.n) }, [x.title.replace(/^الدرس\s*(\d+)\s*[:：]\s*/, 'الدرس $1: ') + (window.A1Practice && window.A1Practice.done(x.n) ? ' ✓' : '')]); if (x.n === n) o.selected = true; sel.appendChild(o); });
     var wrapEl = el('div', { class: 'lx' }, [el('div', { class: 'lx-top' }, [sel])]);
     app.appendChild(wrapEl);
     var item = L.filter(function (x) { return x.n === n; })[0];
@@ -85,7 +85,7 @@
     wrapEl.appendChild(body);
     fetch('data/a1/lesson-' + n + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
       body.textContent = '';
-      body.appendChild(el('h1', {}, [d.title]));
+      body.appendChild(el('h1', {}, [d.title.replace(/^الدرس\s*(\d+)\s*[:：]\s*/, 'الدرس $1: ')]));
       var blocks = d.blocks.slice();
       var orig = null;
       if (blocks.length && blocks[0].type === 'callout' && plain(blocks[0].text).indexOf('مسودة مبدئية') === 0) { orig = blocks.shift(); }
