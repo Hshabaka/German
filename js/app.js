@@ -394,7 +394,7 @@
         }))
       ]);
     }));
-    return panel('grammar', 'القاعدة', 'Ich kann + الفعل في الآخر', [grid], 'tone-amber', 'span-7', null);
+    return panel('grammar', 'القاعدة', 'Ich kann + الفعل في الآخر', [el('details', { class: 'rule-toggle' }, [el('summary', { style: 'cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700' }, ['اعرض / اخفِ القاعدة']), grid])], 'tone-amber', 'span-7', null);
   }
 
   function renderMaterials(s) {
