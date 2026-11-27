@@ -439,3 +439,11 @@ html.locked body > *:not(#gate) { display: none !important; }
 .rule h3{text-align:left !important;direction:ltr !important}
 html.sn-dark .tab[aria-selected="true"]{color:#5eead4 !important;border-color:#5eead4 !important;background:#12342f !important}
 html.sn-dark .tab[aria-selected="true"] .tab-count{background:rgba(94,234,212,.2);color:#5eead4}
+/* smaller vocab rows */
+.wcol .word, .wrest .word { padding: 3px 8px !important; gap: 6px; border-radius: 10px; }
+.wcol .word-de, .wrest .word-de { font-size: 13px !important; gap: 5px; }
+.wcol .word-ar, .wrest .word-ar { font-size: 13px !important; }
+.wcol .word .audio-btn, .wrest .word .audio-btn { width: 28px !important; height: 28px !important; min-width: 28px; min-height: 28px; }
+.wcol .word .audio-btn svg, .wrest .word .audio-btn svg { width: 14px; height: 14px; }
+.wcols { gap: 6px; }
+.wcol { gap: 4px !important; }
