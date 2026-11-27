@@ -252,10 +252,11 @@
   }
 
   var NV = { state: 'loading', url: null, expires: 0, video: null, wrap: null, busy: false };
-  var REG = { yt: '' };
+  var REG = { yt: '', nr: '' };
   fetch('data/registry.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (g) {
     var l = g && g.levels && g.levels.a1 && g.levels.a1.lessons && g.levels.a1.lessons[0];
-    if (l && /^https:\/\/www\.youtube\.com\//.test(l.youtube || '') && l.youtube !== REG.yt) { REG.yt = l.youtube; if (state.session) render(); }
+    if (l && /^https:\/\/app\.notion\.com\//.test(l.notion_row || '')) REG.nr = l.notion_row;
+    if (l && /^https:\/\/www\.youtube\.com\//.test(l.youtube || '') && l.youtube !== REG.yt) { REG.yt = l.youtube; if (state.session) render(); } else if (state.session) render();
   }).catch(function () {});
   function nowSec() { return Math.floor(Date.now() / 1000); }
   function fetchVideoUrl(done) {
@@ -285,8 +286,27 @@
     if (!/^https:\/\/www\.youtube\.com\//.test(yt)) return null;
     return el('p', { class: 'caption', style: 'margin:8px 0 0' }, [el('a', { href: yt, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 16px;border-radius:999px;background:#c4302b;color:#fff;text-decoration:none', 'aria-label': 'افتح الفيديو على يوتيوب' }, ['▶ يوتيوب ↗'])]);
   }
+  function notionRow() {
+    if (!REG.nr) return null;
+    return el('a', { href: REG.nr, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 16px;border-radius:999px;background:#fff;color:#111;border:1px solid #111;text-decoration:none;margin-inline-start:8px', 'aria-label': 'افتح السيشن في Notion' }, [el('span', { style: 'display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:4px;border:1.5px solid #111;font:700 14px serif', 'aria-hidden': 'true' }, ['N']), 'Notion ↗']);
+  }
+  function ytFrame() {
+    var yt = REG.yt || (state.session && state.session.video && state.session.video.open_url) || '';
+    var u = youtubeEmbed(yt);
+    if (!u) return null;
+    return el('div', { class: 'video-wrap lv-wrap' }, [el('iframe', { src: u + '?rel=0&playsinline=1', title: 'فيديو السيشن على يوتيوب', style: 'width:100%;aspect-ratio:16/9;border:0;display:block', allow: 'accelerometer; encrypted-media; picture-in-picture; fullscreen', allowfullscreen: '', referrerpolicy: 'strict-origin-when-cross-origin' })]);
+  }
   function videoBlock() {
     var kids = [];
+    var yf = ytFrame();
+    if (yf) {
+      kids.push(yf);
+      var row = el('p', { class: 'caption', style: 'margin:8px 0 0;display:flex;flex-wrap:wrap;gap:8px;align-items:center' }, []);
+      var yr = ytRow(); if (yr) { var a = yr.firstChild; a.style.marginInlineStart = '0'; row.appendChild(a); }
+      var nr = notionRow(); if (nr) row.appendChild(nr);
+      kids.push(row);
+      return el('div', { class: 'lv' }, kids);
+    }
     if (NV.video) {
       kids.push(el('div', { class: 'video-wrap lv-wrap' }, [NV.video]));
     } else if (NV.state === 'loading') {
