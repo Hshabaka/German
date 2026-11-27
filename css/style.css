@@ -419,3 +419,4 @@ html.locked body > *:not(#gate) { display: none !important; }
 .rule { direction: ltr; text-align: left; }
 .rule h3 { text-align: left; }
 .lx > h1, .lx > p { direction: ltr; text-align: left; }
+.lx p, .lx li, .lx td, .lx th, .lx summary, .lx blockquote, .lx h2, .lx h3, .lx h4, .lx .callout div { unicode-bidi: plaintext; text-align: start; }
