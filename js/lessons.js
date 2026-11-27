@@ -1,4 +1,5 @@
 (function () {
+  document.documentElement.lang = 'en'; document.documentElement.dir = 'ltr';
   function pad2(v) { v = parseInt(v, 10); return 's' + (v < 10 ? '0' : '') + v; }
   var EN_T = ["Breaking the ice (\"I can\")", "Giving the sentence life", "Review and locking in the building blocks", "Starting with the other pronouns", "Obligation and need", "Travel and being able to buy things", "How to give your opinion about food", "The imperative and giving reasons", "The full family of modal verbs", "The capstone: introducing yourself", "The world of nouns and articles", "Numbers and age", "My family and my things", "Comparing adjectives (bigger than / better than)", "Cancelling a formal appointment", "At the doctor and describing pain", "Master class (part 1)", "Master class (part 2)", "Master class (part 3: the finale)", "All about questions (how to ask in German)", "The weather", "When? (time prepositions)", "Where and where to? (place prepositions)", "How to talk about the future", "What happened? (the perfect tense, Perfekt)", "The quick storytelling past", "Writing an email", "The form and the conversation"];
   function enT(n) { return 'Session ' + n + ': ' + (EN_T[n - 1] || ''); }
@@ -136,7 +137,7 @@
     var w = el('div', { class: 'lx' }, [el('h1', { style: 'font-size:22px;margin:0 0 6px' }, ['Choose your lesson (A1)']), el('p', { style: 'margin:0 0 12px' }, ['Lessons are in order from 1 to 28. Start with lesson 1.'])]);
     idx.lessons.forEach(function (x) {
       var done = window.A1Practice && window.A1Practice.done(x.n);
-      w.appendChild(el('a', { href: 'a1/' + pad2(x.n) + '/', style: 'display:flex;align-items:center;gap:10px;min-height:52px;padding:10px 14px;margin:8px 0;border:1px solid #cbd5e1;border-radius:12px;color:inherit;text-decoration:none' }, [el('span', { style: 'font-weight:700;min-width:78px;direction:ltr' }, [code(x.n)]), el('span', { style: 'flex:1' }, [(EN_T[x.n - 1] || '')]), el('span', {}, [done ? '✓' : '←'])]));
+      w.appendChild(el('a', { href: 'a1/' + pad2(x.n) + '/', style: 'display:flex;align-items:center;gap:10px;min-height:52px;padding:10px 14px;margin:8px 0;border:1px solid #cbd5e1;border-radius:12px;color:inherit;text-decoration:none' }, [el('span', { style: 'font-weight:700;min-width:78px;direction:ltr' }, [code(x.n)]), el('span', { style: 'flex:1' }, [(EN_T[x.n - 1] || '')]), el('span', {}, [done ? '✓' : '→'])]));
     });
     app.appendChild(w);
   }
