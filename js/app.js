@@ -252,6 +252,11 @@
   }
 
   var NV = { state: 'loading', url: null, expires: 0, video: null, wrap: null, busy: false };
+  var REG = { yt: '' };
+  fetch('data/registry.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (g) {
+    var l = g && g.levels && g.levels.a1 && g.levels.a1.lessons && g.levels.a1.lessons[0];
+    if (l && /^https:\/\/www\.youtube\.com\//.test(l.youtube || '') && l.youtube !== REG.yt) { REG.yt = l.youtube; if (state.session) render(); }
+  }).catch(function () {});
   function nowSec() { return Math.floor(Date.now() / 1000); }
   function fetchVideoUrl(done) {
     fetch('data/video-urls.json?t=' + Date.now(), { cache: 'no-store' })
@@ -276,7 +281,7 @@
     fetchVideoUrl(function (e) { NV.busy = false; if (e) swapVideo(e); });
   }
   function ytRow() {
-    var yt = (state.session && state.session.video && state.session.video.open_url) || '';
+    var yt = REG.yt || (state.session && state.session.video && state.session.video.open_url) || '';
     if (!/^https:\/\/www\.youtube\.com\//.test(yt)) return null;
     return el('p', { class: 'caption', style: 'margin:8px 0 0' }, [el('a', { href: yt, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 16px;border-radius:999px;background:#c4302b;color:#fff;text-decoration:none', 'aria-label': 'افتح الفيديو على يوتيوب' }, ['▶ يوتيوب ↗'])]);
   }
