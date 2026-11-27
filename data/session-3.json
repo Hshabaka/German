@@ -1,0 +1,715 @@
+{
+ "id": "session-3",
+ "level": "A1",
+ "title": "Session 3: Review and locking in the building blocks",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=VMh_46Ynxr8",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=VMh_46Ynxr8"
+ },
+ "vocab": [
+  {
+   "id": "new",
+   "label": "New words and small phrases",
+   "words": [
+    {
+     "de": "Entschuldigung",
+     "ar": "آسف / بعد إذنك",
+     "audio": "audio/s3/vocab/01-entschuldigung.mp3"
+    },
+    {
+     "de": "aber",
+     "ar": "لكن، بس",
+     "audio": "audio/s3/vocab/02-aber.mp3"
+    },
+    {
+     "de": "und",
+     "ar": "و",
+     "audio": "audio/s3/vocab/03-und.mp3"
+    },
+    {
+     "de": "sehr",
+     "ar": "جدًا",
+     "audio": "audio/s3/vocab/04-sehr.mp3"
+    },
+    {
+     "de": "nicht",
+     "ar": "مش",
+     "audio": "audio/s3/vocab/05-nicht.mp3"
+    },
+    {
+     "de": "für mich",
+     "ar": "ليا، بالنسبة لي",
+     "audio": "audio/s3/vocab/06-fuer-mich.mp3"
+    },
+    {
+     "de": "für dich",
+     "ar": "ليك، بالنسبة لك",
+     "audio": "audio/s3/vocab/07-fuer-dich.mp3"
+    },
+    {
+     "de": "für uns",
+     "ar": "لينا، بالنسبة لنا",
+     "audio": "audio/s3/vocab/08-fuer-uns.mp3"
+    },
+    {
+     "de": "mit dir",
+     "ar": "معاك",
+     "audio": "audio/s3/vocab/09-mit-dir.mp3"
+    },
+    {
+     "de": "jetzt",
+     "ar": "دلوقتي",
+     "audio": "audio/s3/vocab/10-jetzt.mp3"
+    },
+    {
+     "de": "das Essen",
+     "ar": "الأكل",
+     "audio": "audio/s3/vocab/11-das-essen.mp3"
+    }
+   ]
+  },
+  {
+   "id": "verbs",
+   "label": "Verbs to review (after kann)",
+   "words": [
+    {
+     "de": "sprechen",
+     "ar": "يتكلم",
+     "audio": "audio/s3/vocab/12-sprechen.mp3"
+    },
+    {
+     "de": "lernen",
+     "ar": "يتعلم",
+     "audio": "audio/s3/vocab/13-lernen.mp3"
+    },
+    {
+     "de": "lesen",
+     "ar": "يقرا",
+     "audio": "audio/s3/vocab/14-lesen.mp3"
+    },
+    {
+     "de": "schreiben",
+     "ar": "يكتب",
+     "audio": "audio/s3/vocab/15-schreiben.mp3"
+    },
+    {
+     "de": "kochen",
+     "ar": "يطبخ",
+     "audio": "audio/s3/vocab/16-kochen.mp3"
+    },
+    {
+     "de": "trinken",
+     "ar": "يشرب",
+     "audio": "audio/s3/vocab/17-trinken.mp3"
+    },
+    {
+     "de": "essen",
+     "ar": "ياكل",
+     "audio": "audio/s3/vocab/18-essen.mp3"
+    },
+    {
+     "de": "spielen",
+     "ar": "يلعب أو يعزف",
+     "audio": "audio/s3/vocab/19-spielen.mp3"
+    },
+    {
+     "de": "hören",
+     "ar": "يسمع",
+     "audio": "audio/s3/vocab/20-hoeren.mp3"
+    }
+   ]
+  },
+  {
+   "id": "adj",
+   "label": "Adjectives to review",
+   "words": [
+    {
+     "de": "einfach",
+     "ar": "سهل",
+     "audio": "audio/s3/vocab/21-einfach.mp3"
+    },
+    {
+     "de": "schwierig",
+     "ar": "صعب",
+     "audio": "audio/s3/vocab/22-schwierig.mp3"
+    },
+    {
+     "de": "interessant",
+     "ar": "ممتع، شيق",
+     "audio": "audio/s3/vocab/23-interessant.mp3"
+    },
+    {
+     "de": "langweilig",
+     "ar": "ممل",
+     "audio": "audio/s3/vocab/24-langweilig.mp3"
+    },
+    {
+     "de": "lecker",
+     "ar": "طعمه حلو",
+     "audio": "audio/s3/vocab/25-lecker.mp3"
+    },
+    {
+     "de": "toll",
+     "ar": "رائع",
+     "audio": "audio/s3/vocab/26-toll.mp3"
+    },
+    {
+     "de": "teuer",
+     "ar": "غالي",
+     "audio": "audio/s3/vocab/27-teuer.mp3"
+    },
+    {
+     "de": "billig",
+     "ar": "رخيص",
+     "audio": "audio/s3/vocab/28-billig.mp3"
+    },
+    {
+     "de": "gut",
+     "ar": "كويس",
+     "audio": "audio/s3/vocab/29-gut.mp3"
+    }
+   ]
+  },
+  {
+   "id": "things",
+   "label": "Nouns to review",
+   "words": [
+    {
+     "de": "der Kaffee",
+     "ar": "القهوة",
+     "audio": "audio/s3/vocab/30-der-kaffee.mp3"
+    },
+    {
+     "de": "die Pizza",
+     "ar": "البيتزا",
+     "audio": "audio/s3/vocab/31-die-pizza.mp3"
+    },
+    {
+     "de": "das Klavier",
+     "ar": "البيانو",
+     "audio": "audio/s3/vocab/32-das-klavier.mp3"
+    },
+    {
+     "de": "die Gitarre",
+     "ar": "الجيتار",
+     "audio": "audio/s3/vocab/33-die-gitarre.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Ich spreche Deutsch.",
+   "ar": "أنا بتكلم ألماني.",
+   "audio": "audio/s3/s01-ich-spreche-deutsch.mp3"
+  },
+  {
+   "de": "Ich lerne Deutsch.",
+   "ar": "أنا بتعلم ألماني.",
+   "audio": "audio/s3/s02-ich-lerne-deutsch.mp3"
+  },
+  {
+   "de": "Ich lese Deutsch.",
+   "ar": "أنا بقرا ألماني.",
+   "audio": "audio/s3/s03-ich-lese-deutsch.mp3"
+  },
+  {
+   "de": "Ich koche das Essen.",
+   "ar": "أنا بطبخ الأكل.",
+   "audio": "audio/s3/s04-ich-koche-das-essen.mp3"
+  },
+  {
+   "de": "Ich kann das Essen kochen.",
+   "ar": "أنا أقدر أطبخ الأكل.",
+   "audio": "audio/s3/s05-ich-kann-das-essen-kochen.mp3"
+  },
+  {
+   "de": "Das ist sehr einfach für mich.",
+   "ar": "ده سهل جدًا بالنسبة لي.",
+   "audio": "audio/s3/s06-das-ist-sehr-einfach-fuer-mich.mp3"
+  },
+  {
+   "de": "Das ist nicht sehr einfach für mich.",
+   "ar": "ده مش سهل جدًا بالنسبة لي.",
+   "audio": "audio/s3/s07-das-ist-nicht-sehr-einfach-fuer-mich.mp3"
+  },
+  {
+   "de": "Ich kann Deutsch lernen und das ist nicht sehr einfach für mich.",
+   "ar": "أنا أقدر أتعلم ألماني، وده مش سهل جدًا بالنسبة لي.",
+   "audio": "audio/s3/s08-ich-kann-deutsch-lernen-und-das-ist-nich.mp3"
+  },
+  {
+   "de": "Ich kann Deutsch lernen, aber das ist nicht sehr einfach für mich.",
+   "ar": "أنا أقدر أتعلم ألماني، بس ده مش سهل جدًا بالنسبة لي.",
+   "audio": "audio/s3/s09-ich-kann-deutsch-lernen-aber-das-ist-nic.mp3"
+  },
+  {
+   "de": "Entschuldigung, ich kann jetzt nicht sprechen.",
+   "ar": "آسف، مقدرش أتكلم دلوقتي.",
+   "audio": "audio/s3/s10-entschuldigung-ich-kann-jetzt-nicht-spre.mp3"
+  },
+  {
+   "de": "Ich kann Kaffee trinken, aber das ist nicht gut für mich.",
+   "ar": "أقدر أشرب قهوة، بس ده مش كويس بالنسبة لي.",
+   "audio": "audio/s3/s11-ich-kann-kaffee-trinken-aber-das-ist-nic.mp3"
+  },
+  {
+   "de": "Ich kann mit dir Deutsch sprechen.",
+   "ar": "أقدر أتكلم معاك ألماني.",
+   "audio": "audio/s3/s12-ich-kann-mit-dir-deutsch-sprechen.mp3"
+  },
+  {
+   "de": "Ich kann Klavier spielen und das ist sehr interessant für mich, aber das ist sehr langweilig für dich.",
+   "ar": "أقدر أعزف بيانو وده ممتع جدًا بالنسبة لي، بس ده ممل جدًا بالنسبة لك.",
+   "audio": "audio/s3/s13-ich-kann-klavier-spielen-und-das-ist-seh.mp3"
+  },
+  {
+   "de": "Ich kann Pizza essen. Das ist sehr lecker für mich, aber das ist teuer für dich.",
+   "ar": "أقدر آكل بيتزا. دي حلوة جدًا بالنسبة لي، بس غالية بالنسبة لك.",
+   "audio": "audio/s3/s14-ich-kann-pizza-essen-das-ist-sehr-lecker.mp3"
+  },
+  {
+   "de": "Ich kann Gitarre spielen. Das ist sehr toll für mich, aber das ist nicht sehr toll für dich.",
+   "ar": "أقدر أعزف جيتار. ده رائع جدًا بالنسبة لي، بس مش رائع جدًا بالنسبة لك.",
+   "audio": "audio/s3/s15-ich-kann-gitarre-spielen-das-ist-sehr-to.mp3"
+  },
+  {
+   "de": "Und ich kann das Essen kochen.",
+   "ar": "وأنا أقدر أطبخ الأكل.",
+   "audio": "audio/s3/s16-und-ich-kann-das-essen-kochen.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "Entschuldigung",
+   "ar": "آسف / بعد إذنك"
+  },
+  {
+   "de": "aber",
+   "ar": "لكن، بس"
+  },
+  {
+   "de": "für mich",
+   "ar": "بالنسبة لي"
+  },
+  {
+   "de": "für dich",
+   "ar": "بالنسبة لك"
+  },
+  {
+   "de": "mit dir",
+   "ar": "معاك"
+  },
+  {
+   "de": "jetzt",
+   "ar": "دلوقتي"
+  },
+  {
+   "de": "sehr",
+   "ar": "جدًا"
+  },
+  {
+   "de": "nicht",
+   "ar": "مش"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Ich spreche Deutsch, ______ ich kann nicht schreiben.",
+   "options": [
+    "aber",
+    "für",
+    "mit"
+   ],
+   "answer": 0,
+   "why": "aber = لكن، بتربط فكرتين متعاكستين وقبلها فاصلة.",
+   "ar": "أنا بتكلم ألماني، بس مقدرش أكتب."
+  },
+  {
+   "prompt": "______, ich kann jetzt nicht sprechen.",
+   "options": [
+    "Entschuldigung",
+    "Aber",
+    "Sehr"
+   ],
+   "answer": 0,
+   "why": "Entschuldigung = آسف أو بعد إذنك، وبتتقال في أول الجملة.",
+   "ar": "آسف، مقدرش أتكلم دلوقتي."
+  },
+  {
+   "prompt": "Das ist sehr teuer ______ mich.",
+   "options": [
+    "für",
+    "mit",
+    "und"
+   ],
+   "answer": 0,
+   "why": "بالنسبة لـ = für.",
+   "ar": "ده غالي جدًا بالنسبة لي."
+  },
+  {
+   "prompt": "Ich kann Deutsch ______.",
+   "options": [
+    "sprechen",
+    "spreche",
+    "spricht"
+   ],
+   "answer": 0,
+   "why": "بعد kann الفعل التاني بيجي مصدر (sprechen) في آخر الجملة.",
+   "ar": "أنا أقدر أتكلم ألماني."
+  },
+  {
+   "prompt": "Ich kann ______ dir Deutsch sprechen.",
+   "options": [
+    "mit",
+    "für",
+    "aber"
+   ],
+   "answer": 0,
+   "why": "معاك = mit dir.",
+   "ar": "أقدر أتكلم معاك ألماني."
+  },
+  {
+   "prompt": "Das ist ______ einfach für mich.",
+   "options": [
+    "nicht sehr",
+    "sehr nicht",
+    "nicht nicht"
+   ],
+   "answer": 0,
+   "why": "الترتيب: nicht ثم sehr ثم الصفة.",
+   "ar": "ده مش سهل جدًا بالنسبة لي."
+  },
+  {
+   "prompt": "Ich kann Kaffee trinken, ______ das ist teuer.",
+   "options": [
+    "aber",
+    "mit"
+   ],
+   "answer": 0,
+   "why": "aber = بس، وبعدها جملة كاملة: das ist teuer.",
+   "ar": "أقدر أشرب قهوة، بس ده غالي."
+  },
+  {
+   "prompt": "Ich kann das Essen ______.",
+   "options": [
+    "kochen",
+    "koche",
+    "kocht"
+   ],
+   "answer": 0,
+   "why": "بعد kann المصدر في الآخر: kochen.",
+   "ar": "أقدر أطبخ الأكل."
+  },
+  {
+   "prompt": "Ich kann Gitarre spielen ______ das ist sehr toll für mich.",
+   "options": [
+    "und",
+    "für",
+    "jetzt"
+   ],
+   "answer": 0,
+   "why": "und = و، بتربط فكرتين زي بعض.",
+   "ar": "أقدر أعزف جيتار وده رائع جدًا بالنسبة لي."
+  },
+  {
+   "prompt": "Das ist sehr schwierig ______ dich.",
+   "options": [
+    "für",
+    "mich",
+    "mit"
+   ],
+   "answer": 0,
+   "why": "für + dich = بالنسبة لك.",
+   "ar": "ده صعب جدًا بالنسبة لك."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "الجلسة دي مراجعة وتثبيت. هتدمج اللي اتعلمته في الجلسة الأولى (أنا أقدر + هواية أو أكل) واللي اتعلمته في التانية (ده سهل أو غالي) في جمل طويلة زي الألمان. اتفرج على الفيديو، وبعدين اقرا القواعد، وكمّل التدريب.",
+  "challenge": {
+   "title": "Writing challenge (Barbarys Schreib-Challenge) ✍️",
+   "intro": "Translate these sentences into German:",
+   "items": [
+    "آسف، أنا أقدر أشرب قهوة معاك، لكن ده مش رخيص.",
+    "أنا بتكلم ألماني معاك دلوقتي وده سهل جدًا بالنسبة لي."
+   ],
+   "note": "Build three long sentences with 'Ich kann ... und / aber das ist ... für mich / für dich'."
+  }
+ },
+ "grammar": [
+  {
+   "title": "The long sentence formula",
+   "rule": "الجلسة دي بتلم اللي اتعلمناه في الجلستين في جملة طويلة: أنا أقدر + اللي بعمله + و أو لكن + ده + (مش) (جدًا) + الصفة + بالنسبة لمين.",
+   "forms": [
+    "Ich kann + Pizza essen",
+    "und / aber",
+    "das ist + sehr lecker",
+    "für mich / für dich"
+   ],
+   "examples": [
+    {
+     "de": "Ich kann Pizza essen. Das ist sehr lecker für mich.",
+     "ar": "أقدر آكل بيتزا. دي حلوة جدًا بالنسبة لي."
+    },
+    {
+     "de": "Ich kann Gitarre spielen, aber das ist nicht sehr toll für dich.",
+     "ar": "أقدر أعزف جيتار، بس ده مش رائع جدًا بالنسبة لك."
+    }
+   ]
+  },
+  {
+   "title": "kann + the verb at the end",
+   "rule": "kann بيقعد في المركز التاني بعد Ich. الفعل التاني بيروح آخر الجملة على شكل المصدر.",
+   "forms": [
+    "Ich kann das Essen kochen",
+    "Ich kann Deutsch lernen",
+    "Ich kann mit dir Deutsch sprechen"
+   ],
+   "note": "الأفعال اللي اتعلمناها هنا (sprechen, lernen, lesen, kochen) كلها مصادر في آخر الجملة.",
+   "examples": [
+    {
+     "de": "Ich kann das Essen kochen.",
+     "ar": "أنا أقدر أطبخ الأكل."
+    },
+    {
+     "de": "Ich kann mit dir Deutsch sprechen.",
+     "ar": "أقدر أتكلم معاك ألماني."
+    }
+   ]
+  },
+  {
+   "title": "aber, und and the comma",
+   "rule": "und معناها و، وaber معناها لكن. قبل aber بنحط فاصلة، وبعدها الجملة بترجع عادية: das ist ... والفعل ist تاني كلمة.",
+   "forms": [
+    "... und das ist sehr einfach für mich",
+    "..., aber das ist nicht sehr einfach für mich"
+   ],
+   "examples": [
+    {
+     "de": "Ich kann Deutsch lernen, aber das ist nicht sehr einfach für mich.",
+     "ar": "أقدر أتعلم ألماني، بس ده مش سهل جدًا بالنسبة لي."
+    },
+    {
+     "de": "Ich kann Deutsch lernen und das ist nicht sehr einfach für mich.",
+     "ar": "أقدر أتعلم ألماني وده مش سهل جدًا بالنسبة لي."
+    }
+   ]
+  },
+  {
+   "title": "Entschuldigung, für mich / für dich, mit dir",
+   "rule": "Entschuldigung في أول الجملة للاعتذار أو لفت الانتباه. für mich وfür dich وfür uns بتقول الكلام لمين. mit dir بتقول مع مين. حذر: بعد mit بنقول dir مش dich.",
+   "forms": [
+    "Entschuldigung, ich kann jetzt nicht sprechen",
+    "für mich / für dich / für uns",
+    "mit dir"
+   ],
+   "examples": [
+    {
+     "de": "Entschuldigung, ich kann jetzt nicht sprechen.",
+     "ar": "آسف، مقدرش أتكلم دلوقتي."
+    },
+    {
+     "de": "Das ist sehr teuer für mich.",
+     "ar": "ده غالي جدًا بالنسبة لي."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "sprechen",
+     "Deutsch",
+     "dir",
+     "mit",
+     "kann",
+     "Ich"
+    ],
+    "answer": "Ich kann mit dir Deutsch sprechen.",
+    "ar": "أقدر أتكلم معاك ألماني."
+   },
+   {
+    "tiles": [
+     "mich",
+     "für",
+     "einfach",
+     "nicht",
+     "ist",
+     "Das"
+    ],
+    "answer": "Das ist nicht einfach für mich.",
+    "ar": "ده مش سهل بالنسبة لي."
+   },
+   {
+    "tiles": [
+     "kann",
+     "Ich",
+     "trinken",
+     "Kaffee"
+    ],
+    "answer": "Ich kann Kaffee trinken.",
+    "ar": "أنا أقدر أشرب قهوة."
+   },
+   {
+    "tiles": [
+     "kann",
+     "aber",
+     "schwer",
+     "Deutsch",
+     "das",
+     "Ich",
+     "lernen,",
+     "ist"
+    ],
+    "answer": "Ich kann Deutsch lernen, aber das ist schwer.",
+    "ar": "أقدر أتعلم ألماني بس ده صعب."
+   },
+   {
+    "tiles": [
+     "mich",
+     "für",
+     "toll",
+     "sehr",
+     "ist",
+     "Das"
+    ],
+    "answer": "Das ist sehr toll für mich.",
+    "ar": "ده رائع جدًا بالنسبة لي."
+   },
+   {
+    "tiles": [
+     "sprechen",
+     "nicht",
+     "jetzt",
+     "kann",
+     "ich",
+     "Entschuldigung,"
+    ],
+    "answer": "Entschuldigung, ich kann jetzt nicht sprechen.",
+    "ar": "آسف، مقدرش أتكلم دلوقتي."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Ich kann sprechen Deutsch.",
+     "Ich kann Deutsch sprechen."
+    ],
+    "answer": 1,
+    "why": "بعد kann المصدر لازم يروح في آخر الجملة.",
+    "ar": "أنا أقدر أتكلم ألماني."
+   },
+   {
+    "options": [
+     "Ich kann mit dich Deutsch sprechen.",
+     "Ich kann mit dir Deutsch sprechen."
+    ],
+    "answer": 1,
+    "why": "بعد mit بنقول dir مش dich.",
+    "ar": "أقدر أتكلم معاك ألماني."
+   },
+   {
+    "options": [
+     "Das ist sehr nicht einfach.",
+     "Das ist nicht sehr einfach."
+    ],
+    "answer": 1,
+    "why": "الترتيب الصح: nicht قبل sehr.",
+    "ar": "ده مش سهل جدًا."
+   },
+   {
+    "options": [
+     "Ich kann Deutsch sprechen, aber das schwer ist.",
+     "Ich kann Deutsch sprechen, aber das ist schwer."
+    ],
+    "answer": 1,
+    "why": "بعد aber الجملة بترجع عادية: das ist (الفعل ist تاني كلمة).",
+    "ar": "أقدر أتكلم ألماني، بس ده صعب."
+   },
+   {
+    "options": [
+     "Das ist sehr teuer für ich.",
+     "Das ist sehr teuer für mich."
+    ],
+    "answer": 1,
+    "why": "بعد für بنقول mich: für mich.",
+    "ar": "ده غالي جدًا بالنسبة لي."
+   },
+   {
+    "options": [
+     "Ich kann koche das Essen.",
+     "Ich kann das Essen kochen."
+    ],
+    "answer": 1,
+    "why": "بعد kann لازم المصدر kochen في الآخر، مش koche.",
+    "ar": "أقدر أطبخ الأكل."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "آسف، أقدر أشرب قهوة معاك، بس ده مش رخيص.",
+    "de": "Entschuldigung, ich kann mit dir Kaffee trinken, aber das ist nicht billig.",
+    "audio": "audio/s3/tr1.mp3"
+   },
+   {
+    "ar": "أنا بتكلم ألماني معاك دلوقتي وده سهل جدًا بالنسبة لي.",
+    "de": "Ich spreche jetzt Deutsch mit dir und das ist sehr einfach für mich.",
+    "audio": "audio/s3/tr2.mp3"
+   },
+   {
+    "ar": "ده مش سهل بالنسبة لي.",
+    "de": "Das ist nicht einfach für mich.",
+    "audio": "audio/s3/tr3.mp3"
+   },
+   {
+    "ar": "أنا أقدر أطبخ الأكل.",
+    "de": "Ich kann das Essen kochen.",
+    "audio": "audio/s3/tr4.mp3"
+   },
+   {
+    "ar": "ده رائع جدًا بالنسبة لي.",
+    "de": "Das ist sehr toll für mich.",
+    "audio": "audio/s3/tr5.mp3"
+   },
+   {
+    "ar": "أقدر أعزف جيتار، بس ده صعب.",
+    "de": "Ich kann Gitarre spielen, aber das ist schwer.",
+    "audio": "audio/s3/tr6.mp3"
+   }
+  ]
+ }
+}
