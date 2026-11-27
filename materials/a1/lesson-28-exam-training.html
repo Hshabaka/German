@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" class="locked">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -187,6 +187,15 @@
     .meta-table{grid-template-columns:1fr;}
     .form-grid{grid-template-columns:1fr;}
   }
+</style>
+<style>html.locked body > *:not(#gate) { display: none !important; }
+#gate { position: fixed; inset: 0; z-index: 9999; display: flex; align-items: center; justify-content: center; background: #f6f1ec; padding: 24px; }
+.gate-card { width: min(360px, 100%); background: #fff; border-radius: 20px; padding: 28px 22px; box-shadow: 0 8px 30px rgba(28,25,23,.12); display: flex; flex-direction: column; gap: 14px; text-align: center; }
+.gate-card h1 { margin: 0; font-size: 22px; }
+.gate-card input { font-size: 18px; padding: 14px; border: 2px solid #a8a29e; border-radius: 12px; text-align: center; direction: ltr; }
+.gate-card button { font-size: 17px; padding: 14px; border: 0; border-radius: 12px; background: #1c1917; color: #fff; cursor: pointer; min-height: 48px; }
+.gate-msg { min-height: 20px; margin: 0; color: #b42318; font-size: 14px; }
+#lock-btn { position: fixed; top: 10px; left: 10px; z-index: 50; border: 0; border-radius: 999px; padding: 8px 14px; background: rgba(28,25,23,.85); color: #fff; font-size: 13px; cursor: pointer; }
 </style>
 </head>
 <body>
@@ -834,5 +843,6 @@ document.addEventListener('DOMContentLoaded', init);
 
 })();
 </script>
+<script src="../../js/gate.js"></script>
 </body>
 </html>
