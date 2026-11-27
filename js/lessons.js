@@ -102,6 +102,18 @@
       }
       body.appendChild(cov);
       list(blocks).forEach(function (k) { body.appendChild(k); });
+      (function () {
+        var kids = Array.prototype.slice.call(body.children), h = null;
+        for (var i = 0; i < kids.length; i++) { if (kids[i].tagName === 'H2' && kids[i].textContent.indexOf('القاعدة') >= 0) { h = kids[i]; break; } }
+        if (!h) return;
+        var det = document.createElement('details'); det.className = 'rule-toggle';
+        var sm = document.createElement('summary'); sm.setAttribute('style', 'cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:700;font-size:1.15rem');
+        sm.textContent = h.textContent + '  (اضغط للفتح / الإغلاق)';
+        det.appendChild(sm);
+        h.parentNode.insertBefore(det, h);
+        var n = h.nextSibling; h.remove();
+        while (n && n.tagName !== 'H2') { var nx = n.nextSibling; det.appendChild(n); n = nx; }
+      })();
       var pf = (window.__a1pdfs || {})[String(n)] || [];
       if (pf.length) {
         var ps = el('div', { class: 'callout' }, [el('span', {}, ['📄']), el('div', {}, [el('p', {}, [el('strong', {}, ['ملفات PDF للدرس'])])])]);
