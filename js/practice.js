@@ -1,5 +1,7 @@
 /* A1 interactive practice built from each lesson's own exercise and quiz sections.
-   Progress is saved only in this browser (localStorage). Nothing is synced. */
+   Progress (answers + results) is saved only in this browser (localStorage). Nothing is synced.
+   Every result is tagged: "تصحيح تلقائي" (matched against the lesson's own answer key)
+   or "تقييم ذاتي" (the learner judged own answer). Explanations beyond the source are flagged. */
 (function () {
   var KEY = 'german-a1-progress';
   function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { return {}; } }
@@ -11,13 +13,12 @@
     return e;
   }
   function plain(parts) { return (parts || []).map(function (p) { return p.t; }).join(''); }
-  function norm(s) {
-    return String(s).toLowerCase().replace(/[\u064B-\u065F]/g, '').replace(/[.,!?;:()"'«»،؟]/g, ' ').replace(/\s+/g, ' ').trim();
-  }
+  function norm(s) { return String(s).toLowerCase().replace(/[\u064B-\u065F]/g, '').replace(/[.,!?;:()"'«»،؟]/g, ' ').replace(/\s+/g, ' ').trim(); }
+  var AR = /[\u0600-\u06FF]/, LAT = /[A-Za-zÄÖÜäöüß]/;
   var ITEM = /^\s*(\d+)\s*\)\s*(.*)$/;
-  var SUB = /^\s*([a-z])\s*\)\s*(.*)$/i;
+  var OPT = /^\s*([A-D])\s*\)\s*(.*)$/;
+  function digits(s) { return String(s).replace(/[٠-٩]/g, function (d) { return String(d.charCodeAt(0) - 1632); }); }
 
-  // Split a lesson into sections by heading_2 and pull out items and answers.
   function sections(blocks) {
     var out = [], cur = null;
     blocks.forEach(function (b) {
@@ -26,85 +27,204 @@
     });
     return out;
   }
+  // Arabic meanings that the lesson itself gives for German sentences.
+  function dictionary(blocks) {
+    var D = {};
+    function add(g, a) { g = norm(g); if (g && a) D[g] = a.trim(); }
+    function walk(bs) {
+      (bs || []).forEach(function (b) {
+        if (b.type === 'table') { b.rows.slice(1).forEach(function (r) { if (r.length >= 2) add(plain(r[0]), plain(r[1])); }); }
+        var t = plain(b.text);
+        var m = t.match(/^([^\u0600-\u06FF]*[A-Za-zÄÖÜäöüß][^\u0600-\u06FF]*?)\s+([\u0600-\u06FF].*)$/);
+        if (m && b.type !== 'toggle') add(m[1], m[2]);
+        walk(b.children);
+      });
+    }
+    walk(blocks);
+    return D;
+  }
   function parseSection(sec) {
-    var items = [], ctx = [], answers = {}, lastA = null, notes = [];
+    var items = [], answers = {}, lastA = null, notes = [], lastItem = null, group = [], afterHeader = false, orderN = 0, order = null;
     sec.blocks.forEach(function (b) {
       if (b.type === 'toggle') {
         (b.children || []).forEach(function (c) {
-          var t = plain(c.text), m = t.match(/^\s*(\d+)\s*-\s*(\d+)\s*\)\s*(.*)$/), m2 = t.match(ITEM);
-          if (m) { for (var i = +m[1]; i <= +m[2]; i++) answers[i] = { free: true, text: '' }; lastA = null; notes.push(m[3]); }
-          else if (m2) { lastA = { text: m2[2] }; answers[+m2[1]] = lastA; }
-          else if (lastA) { lastA.text += '\n' + t; }
+          var t = plain(c.text), mr = t.match(/^\s*(\d+)\s*-\s*(\d+)\s*\)\s*(.*)$/), m2 = t.match(ITEM);
+          if (mr) { for (var i = +mr[1]; i <= +mr[2]; i++) answers[i] = { free: true, lines: [] }; lastA = { free: true, lines: [mr[3]], range: true }; }
+          else if (m2) { lastA = { lines: [m2[2]] }; answers[+m2[1]] = lastA; }
+          else if (lastA && !/^\(.*\)$/.test(t.trim())) { lastA.lines.push(t); }
+          else if (t.trim()) { notes.push(t); }
         });
-      } else if (b.type === 'paragraph') {
-        var t = plain(b.text), m = t.match(ITEM);
-        if (m) { items.push({ n: +m[1], text: m[2], ctx: ctx.join('  ') }); ctx = []; }
-        else if (SUB.test(t) && items.length) { items[items.length - 1].text += '\n' + t; }
-        else if (t.trim()) ctx.push(t);
+        return;
       }
+      if (b.type !== 'paragraph') return;
+      var t = plain(b.text), tt = t.trim();
+      if (!tt) return;
+      if (orderN > 0) { order.lines.push(tt); orderN--; if (!orderN) { items.push(order); order = null; lastItem = null; } return; }
+      var om = tt.match(/رتب.*[(（]\s*([١-٩\d]+)\s*إلى\s*([١-٩\d]+)\s*[)）]/);
+      if (om) { orderN = parseInt(digits(om[2]), 10); order = { kind: 'order', n: 'ord', head: tt, lines: [], extras: [] }; return; }
+      var m = t.match(ITEM);
+      if (m) { lastItem = { n: +m[1], text: m[2], head: group.join('  '), extras: [] }; group = []; afterHeader = false; items.push(lastItem); return; }
+      if (/[:：]\s*$/.test(tt)) { group = group.concat([tt]); afterHeader = true; lastItem = null; return; }
+      if (afterHeader || !lastItem) group.push(tt); else lastItem.extras.push(tt);
     });
-    return { items: items, answers: answers };
+    var open = notes.some(function (x) { return /ممكن تختلف|مثال|ممكن تتبدل/.test(x); });
+    return { items: items, answers: answers, notes: notes, open: open };
   }
-
-  function checkItem(item, ans) {
-    var a = ans.text.split('\n')[0];
-    // gap items: strip leading "a) " and allow alternatives separated by " / "
-    var alts = a.split(/\s+\/\s+/).map(norm);
-    return function (input) { var u = norm(input); return !!u && alts.indexOf(u) >= 0; };
+  function ansLine(a) { return a && a.lines && a.lines[0] ? a.lines[0] : ''; }
+  function classify(it, a, sec) {
+    if (it.kind === 'order') return 'order';
+    if (!a) return 'nokey';
+    var first = ansLine(a);
+    if (a.free || /إجابة حرة/.test(first)) return 'free';
+    var opts = it.extras.filter(function (x) { return OPT.test(x); });
+    if (opts.length >= 2 && /^\s*[A-D]\s*\)/.test(first)) return 'choice';
+    if (/＿/.test(it.text)) return 'gap';
+    if (/جاوب من حياتك/.test(a.lines.join(' '))) return 'free-example';
+    if (sec.open) return 'open';
+    return 'text';
   }
+  function fillGap(text, ans) { return text.replace(/＿{2,}/, ans).replace(/＿+/g, ans); }
+  function leadLetter(s) { var m = s.match(/^\s*([A-D])\s*\)/); return m ? m[1] : null; }
 
-  function exercisePanel(sec, parsed, n, kind) {
+  function exercisePanel(sec, parsed, n, kind, dict) {
     var st = load(); st[n] = st[n] || {}; st[n][kind] = st[n][kind] || {};
     var P = st[n][kind];
     var box = el('div', { class: 'pr-box' }, []);
     var score = el('div', { class: 'pr-score' }, []);
+    function rec(id) { var r = P[id]; return (r && typeof r === 'object') ? r : (r === undefined ? null : { v: r, m: 'auto', a: '' }); }
     function upd() {
-      var done = 0, ok = 0, total = 0;
-      parsed.items.forEach(function (it) { if (parsed.answers[it.n]) { total++; if (P[it.n] !== undefined) { done++; if (P[it.n] === 1) ok++; } } });
-      score.textContent = 'اتحلّ ' + done + ' من ' + total + ' · صح ' + ok;
-      return { done: done, total: total, ok: ok };
+      var c = { aok: 0, abad: 0, sok: 0, sbad: 0 }, total = 0;
+      parsed.items.forEach(function (it) { var k = classify(it, parsed.answers[it.n], parsed); if (k === 'gap' || k === 'choice' || k === 'text' || k === 'open' || k === 'order') total++; var r = rec(it.n); if (r) { if (r.m === 'auto') { r.v ? c.aok++ : c.abad++; } else { r.v ? c.sok++ : c.sbad++; } } });
+      score.textContent = 'اتحلّ ' + (c.aok + c.abad + c.sok + c.sbad) + ' من ' + total + ' · تصحيح تلقائي: صح ' + c.aok + '، غلط ' + c.abad + ' · تقييم ذاتي: صح ' + c.sok + '، محتاج مراجعة ' + c.sbad;
     }
     box.appendChild(score);
     parsed.items.forEach(function (it) {
-      var ans = parsed.answers[it.n];
+      var a = parsed.answers[it.n], k = classify(it, a, parsed);
       var row = el('div', { class: 'pr-item' }, []);
-      if (it.ctx) row.appendChild(el('p', { class: 'pr-ctx' }, [it.ctx]));
-      var q = el('p', { class: 'pr-q' }, [it.n + ') ' + it.text.replace(/＿{2,}/g, '＿＿＿')]);
-      if (/[A-Za-zÄÖÜäöüß]/.test(it.text) && !/[\u0600-\u06FF]/.test(it.text)) q.setAttribute('dir', 'ltr');
-      row.appendChild(q);
-      if (!ans || ans.free) {
-        row.appendChild(el('p', { class: 'pr-note' }, [ans && ans.free ? 'إجابة حرة، مفيش تصحيح تلقائي.' : 'مفيش إجابة نموذجية مطابقة للسؤال ده في الملف.']));
+      if (it.head) row.appendChild(el('p', { class: 'pr-ctx' }, [it.head]));
+      var qt = it.kind === 'order' ? it.head : (it.n + ') ' + it.text.replace(/＿{2,}/g, '＿＿＿'));
+      var q = el('p', { class: 'pr-q' }, [it.kind === 'order' ? '' : qt]);
+      if (it.kind !== 'order') { if (LAT.test(it.text) && !AR.test(it.text)) q.setAttribute('dir', 'ltr'); row.appendChild(q); }
+      var fb = el('div', { class: 'pr-fb', 'aria-live': 'polite' }, []);
+      function mark() { var r = rec(it.n); row.className = 'pr-item' + (r ? (r.v ? ' ok' : ' bad') : ''); }
+      function why() { return el('p', { class: 'pr-why' }, ['ليه؟ راجع قاعدة الدرس فوق. شرح السبب لكل سؤال مش مكتوب في ملف الدرس الأصلي (محتاج مراجعة).']); }
+      function meaning(full, ar) {
+        var m = ar || dict[norm(full)] || (it.extras.filter(function (x) { return /^المعنى\s*:/.test(x); })[0] || '').replace(/^المعنى\s*:\s*/, '');
+        return el('p', { class: 'pr-mean' }, [m ? m : 'ترجمة الجملة مش مكتوبة في ملف الدرس.']);
+      }
+      function tag(m) { return el('span', { class: 'pr-tag' }, [m === 'auto' ? 'تصحيح تلقائي (مطابقة لإجابة الملف)' : 'تقييم ذاتي (مش تصحيح تلقائي)']); }
+      function showResult(r, userAns, needSelf) {
+        fb.textContent = '';
+        var first = ansLine(a), full, ar = null;
+        if (k === 'gap') full = fillGap(it.text, first);
+        else if (k === 'choice') {
+          var L = leadLetter(first), optLine = it.extras.filter(function (x) { return OPT.test(x) && x.trim()[0] === L; })[0];
+          var optTxt = optLine ? optLine.replace(OPT, '$2') : first.replace(/^\s*[A-D]\s*\)\s*/, '');
+          full = /＿/.test(it.text) ? fillGap(it.text, optTxt) : first.replace(/^\s*[A-D]\s*\)\s*/, '');
+        } else { full = first; if (AR.test(it.text) && !LAT.test(it.text)) ar = it.text; }
+        if (!needSelf) {
+          fb.appendChild(el('p', { class: r.v ? 'pr-good' : 'pr-wrong' }, [(r.v ? '✅ صح ' : '❌ غلط ') ]));
+          fb.lastChild.appendChild(tag(r.m));
+          if (!r.v) fb.appendChild(el('p', { class: 'pr-say' }, ['إجابتك: ' + (userAns || '(فاضي)')]));
+          var line = el('p', { class: 'pr-full', dir: 'ltr' }, [full]); fb.appendChild(line);
+          fb.appendChild(meaning(full, ar));
+          fb.appendChild(why());
+          if (a.lines.length > 1 && k !== 'gap' && k !== 'choice') a.lines.slice(1).forEach(function (l) { fb.appendChild(el('p', { class: 'pr-mean' }, [l])); });
+        }
+      }
+      function finish(v, m, userAns) {
+        P[it.n] = { v: v, m: m, a: userAns }; save(st); mark(); upd();
+        showResult(P[it.n], userAns, false);
+      }
+      function selfPrompt(userAns) {
+        fb.textContent = '';
+        fb.appendChild(el('p', { class: 'pr-wrong' }, ['مش مطابقة للإجابة النموذجية بالضبط. ممكن صياغة تانية تبقى صح، قارن بنفسك:']));
+        a.lines.forEach(function (l) { fb.appendChild(el('p', { class: 'pr-model', dir: 'auto' }, [l])); });
+        if (it.extras.length && k !== 'choice') { /* hints stay visible above */ }
+        fb.appendChild(el('div', { class: 'pr-self' }, [
+          el('button', { type: 'button', class: 'lx-btn', onclick: function () { finish(1, 'self', userAns); } }, ['قيّمت نفسي: كنت صح']),
+          el('button', { type: 'button', class: 'lx-btn', onclick: function () { finish(0, 'self', userAns); } }, ['قيّمت نفسي: محتاج مراجعة'])
+        ]));
+      }
+      if (k === 'nokey' || k === 'free' || k === 'free-example') {
+        it.extras.forEach(function (x) { row.appendChild(el('p', { class: 'pr-extra', dir: 'auto' }, [x])); });
+        row.appendChild(el('p', { class: 'pr-note' }, [k === 'nokey' ? 'مفيش إجابة نموذجية مطابقة للسؤال ده في ملف الدرس، فمفيش تصحيح.' : 'إجابة حرة، مفيش تصحيح تلقائي.' + (k === 'free-example' ? ' المثال في الملف:' : '')]));
+        if (k === 'free-example') a.lines.forEach(function (l) { row.appendChild(el('p', { class: 'pr-model', dir: 'auto' }, [l])); });
         box.appendChild(row); return;
       }
-      var inp = el('input', { type: 'text', class: 'pr-in', dir: 'auto', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', 'aria-label': 'إجابة السؤال ' + it.n }, []);
-      var fb = el('div', { class: 'pr-fb', 'aria-live': 'polite' }, []);
-      var chk = checkItem(it, ans);
-      function mark() { row.className = 'pr-item' + (P[it.n] === 1 ? ' ok' : P[it.n] === 0 ? ' bad' : ''); }
-      function show(auto) {
-        fb.textContent = '';
-        var modelLines = ans.text.split('\n');
-        var correct = chk(inp.value);
-        if (correct) { P[it.n] = 1; fb.appendChild(el('p', { class: 'pr-good' }, ['✅ صح']));
-        } else if (/＿/.test(it.text)) { P[it.n] = 0; fb.appendChild(el('p', { class: 'pr-wrong' }, ['❌ غلط. الإجابة: ' + modelLines[0]]));
-        } else {
-          fb.appendChild(el('p', { class: 'pr-wrong' }, ['الإجابة النموذجية (ممكن تكون في صياغات تانية صح):']));
-          modelLines.forEach(function (l) { var p = el('p', { class: 'pr-model', dir: 'auto' }, [l]); fb.appendChild(p); });
-          fb.appendChild(el('div', { class: 'pr-self' }, [
-            el('button', { type: 'button', class: 'lx-btn', onclick: function () { P[it.n] = 1; save(st); mark(); upd(); fb.querySelector('.pr-self').textContent = 'اتسجّل: كنت صح'; } }, ['كنت صح']),
-            el('button', { type: 'button', class: 'lx-btn', onclick: function () { P[it.n] = 0; save(st); mark(); upd(); fb.querySelector('.pr-self').textContent = 'اتسجّل: محتاج مراجعة'; } }, ['محتاج مراجعة'])
-          ]));
-          mark(); upd(); return;
-        }
-        save(st); mark(); upd();
+      if (k === 'order') {
+        row.appendChild(el('p', { class: 'pr-q' }, [it.head]));
+        var sel = [];
+        var key = {}; // line -> correct position (from the numbered answers 1..N in the key)
+        it.lines.forEach(function (l) { for (var i = 1; i <= it.lines.length; i++) { var al = parsed.answers[i]; if (al && norm(ansLine(al)) === norm(l)) key[l] = i; } });
+        var okKey = it.lines.every(function (l) { return key[l]; });
+        it.lines.forEach(function (l) {
+          var s = el('select', { class: 'pr-in', 'aria-label': 'ترتيب: ' + l }, [el('option', { value: '' }, ['؟'])]);
+          for (var i = 1; i <= it.lines.length; i++) s.appendChild(el('option', { value: String(i) }, [String(i)]));
+          sel.push(s);
+          var ln = el('div', { class: 'pr-line' }, [s, el('span', { class: 'pr-ordtxt', dir: 'ltr' }, [l])]); row.appendChild(ln);
+        });
+        var r0 = rec('ord');
+        if (r0 && r0.a) { var pv = r0.a.split(','); sel.forEach(function (s, i) { s.value = pv[i] || ''; }); }
+        var ob = el('button', { type: 'button', class: 'lx-btn pr-chk', onclick: function () {
+          var vals = sel.map(function (s) { return s.value; }); if (vals.some(function (v) { return !v; })) { fb.textContent = 'رتّب كل الأسطر الأول.'; return; }
+          var ok = okKey && it.lines.every(function (l, i) { return String(key[l]) === vals[i]; });
+          P.ord = { v: ok ? 1 : 0, m: 'auto', a: vals.join(',') }; save(st); mark(); upd();
+          fb.textContent = '';
+          fb.appendChild(el('p', { class: ok ? 'pr-good' : 'pr-wrong' }, [ok ? '✅ صح ' : '❌ مش زي ترتيب الملف ']));
+          fb.lastChild.appendChild(tag('auto'));
+          fb.appendChild(el('p', { class: 'pr-note' }, ['الترتيب في ملف الدرس (الملف نفسه بيقول إن ترتيب الأسئلة والجمل في النص ممكن يتبدل):']));
+          for (var i = 1; i <= it.lines.length; i++) fb.appendChild(el('p', { class: 'pr-full', dir: 'ltr' }, [i + ') ' + ansLine(parsed.answers[i])]));
+          if (!okKey) fb.appendChild(el('p', { class: 'pr-why' }, ['مفتاح الترتيب مش مطابق تمامًا للأسطر، التصحيح هنا غير مضمون (محتاج مراجعة).']));
+        } }, ['تحقق']);
+        row.appendChild(ob); row.appendChild(fb); box.appendChild(row);
+        var rr = rec('ord'); if (rr) { ob.click(); } mark(); return;
       }
-      var btn = el('button', { type: 'button', class: 'lx-btn pr-chk', onclick: function () { show(); } }, ['تحقق']);
-      inp.onkeydown = function (e) { if (e.key === 'Enter') show(); };
-      row.appendChild(el('div', { class: 'pr-line' }, [inp, btn]));
+      // options for multiple choice
+      var optLines = it.extras.filter(function (x) { return OPT.test(x); });
+      it.extras.forEach(function (x) { if (k === 'choice' && OPT.test(x)) return; if (/^المعنى\s*:/.test(x)) return; row.appendChild(el('p', { class: 'pr-extra', dir: 'auto' }, [x])); });
+      var inp = null, picked = null, radios = [];
+      if (k === 'choice') {
+        optLines.forEach(function (x) {
+          var L = x.trim()[0];
+          var rd = el('input', { type: 'radio', name: 'q' + n + kind + it.n, value: L, 'aria-label': x }, []);
+          rd.onchange = function () { picked = L; };
+          radios.push(rd);
+          row.appendChild(el('label', { class: 'pr-opt', dir: 'auto' }, [rd, ' ' + x]));
+        });
+      } else {
+        inp = el('input', { type: 'text', class: 'pr-in', dir: 'auto', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', 'aria-label': 'إجابة السؤال ' + it.n }, []);
+      }
+      function run() {
+        var userAns;
+        if (k === 'choice') {
+          if (!picked) { fb.textContent = 'اختار إجابة الأول.'; return; }
+          userAns = picked; finish(picked === leadLetter(ansLine(a)) ? 1 : 0, 'auto', picked); return;
+        }
+        userAns = inp.value;
+        if (!norm(userAns)) { fb.textContent = 'اكتب إجابتك الأول.'; return; }
+        var alts = ansLine(a).split(/\s+\/\s+/).map(norm);
+        var exact = a.lines.length === 1 && alts.indexOf(norm(userAns)) >= 0;
+        if (k === 'gap') { finish(alts.indexOf(norm(userAns)) >= 0 ? 1 : 0, 'auto', userAns); return; }
+        if (k === 'text' && exact) { finish(1, 'auto', userAns); return; }
+        selfPrompt(userAns);
+      }
+      var btn = el('button', { type: 'button', class: 'lx-btn pr-chk', onclick: run }, ['تحقق']);
+      if (inp) { inp.onkeydown = function (e) { if (e.key === 'Enter') run(); }; row.appendChild(el('div', { class: 'pr-line' }, [inp, btn])); }
+      else row.appendChild(btn);
       row.appendChild(fb);
       box.appendChild(row);
+      // restore a previous answer and result so the field never looks ungraded
+      var r = rec(it.n);
+      if (r) {
+        if (inp) inp.value = r.a || '';
+        if (k === 'choice') radios.forEach(function (rd) { if (rd.value === r.a) { rd.checked = true; picked = r.a; } });
+        showResult(r, r.a, false);
+        fb.insertBefore(el('p', { class: 'pr-note' }, ['نتيجتك المحفوظة من آخر مرة:']), fb.firstChild);
+      }
       mark();
     });
-    var s = upd();
+    upd();
     box.appendChild(el('button', { type: 'button', class: 'lx-btn pr-reset', onclick: function () { st = load(); if (st[n]) delete st[n][kind]; save(st); mountAgain(); } }, ['امسح تقدّم الجزء ده']));
     return box;
   }
@@ -124,7 +244,7 @@
     function draw() {
       card.textContent = flipped ? rows[i][1] : rows[i][0];
       card.setAttribute('dir', flipped ? 'rtl' : 'ltr');
-      info.textContent = 'كلمة ' + (i + 1) + ' من ' + rows.length + ' · عرفت ' + known();
+      info.textContent = 'كلمة ' + (i + 1) + ' من ' + rows.length + ' · عرفت ' + known() + ' (تقييم ذاتي)';
     }
     card.onclick = function () { flipped = !flipped; draw(); };
     function next(v) { V[rows[i][0]] = v; save(st); i = (i + 1) % rows.length; flipped = false; draw(); }
@@ -136,18 +256,18 @@
 
   var A1 = {
     mount: function (container, blocks, n, anchor) {
-      var secs = sections(blocks), wrap = el('div', { class: 'pr-wrap' }, []);
+      var secs = sections(blocks), wrap = el('div', { class: 'pr-wrap' }, []), dict = dictionary(blocks);
       function build() {
         wrap.textContent = '';
         wrap.appendChild(el('h2', {}, ['تدريب تفاعلي (من تمارين الدرس نفسه)']));
-        wrap.appendChild(el('p', { class: 'pr-note' }, ['التصحيح هنا بيطابق إجابتك مع الإجابة النموذجية في ملف الدرس. التقدّم محفوظ في المتصفح ده بس.']));
+        wrap.appendChild(el('p', { class: 'pr-note' }, ['التصحيح التلقائي بيطابق إجابتك مع الإجابة النموذجية في ملف الدرس. لو الإجابة مش مطابقة بالضبط في الجمل المفتوحة، بتقارن وتقيّم نفسك وده بيتسجّل "تقييم ذاتي". التقدّم محفوظ في المتصفح ده بس.']));
         var made = false;
         secs.forEach(function (s) {
           var kind = s.h.indexOf('تمرين') >= 0 ? 'ex' : s.h.indexOf('اختبار') >= 0 ? 'quiz' : s.h.indexOf('كلمات') >= 0 ? 'vocab' : null;
           if (!kind) return;
           var panel = null, title = null;
           if (kind === 'vocab') { panel = vocabPanel(s, n); title = 'بطاقات الكلمات'; }
-          else { var p = parseSection(s); if (p.items.length) { panel = exercisePanel(s, p, n, kind); title = kind === 'ex' ? 'تمرين' : 'اختبار الدرس'; } }
+          else { var p = parseSection(s); if (p.items.length) { panel = exercisePanel(s, p, n, kind, dict); title = kind === 'ex' ? 'تمرين' : 'اختبار الدرس'; } }
           if (panel) { made = true; wrap.appendChild(el('h3', {}, [title])); wrap.appendChild(panel); }
         });
         if (!made) wrap.textContent = '';
@@ -157,16 +277,11 @@
     },
     done: function (n) {
       var s = load()[n]; if (!s) return false;
-      var k = (s.ex ? Object.keys(s.ex).length : 0) + (s.quiz ? Object.keys(s.quiz).length : 0);
-      return k > 0;
+      return ((s.ex ? Object.keys(s.ex).length : 0) + (s.quiz ? Object.keys(s.quiz).length : 0)) > 0;
     },
-    summary: function () {
-      var s = load(), lessons = 0, ok = 0, tot = 0;
-      Object.keys(s).forEach(function (n) { var any = 0; ['ex', 'quiz'].forEach(function (k) { Object.keys(s[n][k] || {}).forEach(function (q) { any++; tot++; if (s[n][k][q] === 1) ok++; }); }); if (any) lessons++; });
-      return { lessons: lessons, ok: ok, answered: tot };
-    },
-    _parse: function (blocks) { return sections(blocks).map(function (s) { return { h: s.h, p: parseSection(s) }; }); }
+    _parse: function (blocks) { var d = dictionary(blocks); return sections(blocks).map(function (s) { var p = parseSection(s); return { h: s.h, p: p, kinds: p.items.map(function (it) { return classify(it, p.answers[it.n], p); }), dict: d }; }); },
+    _dict: dictionary, _norm: norm
   };
   window.A1Practice = A1;
-  if (typeof module !== 'undefined') module.exports = { A1: A1, norm: norm };
+  if (typeof module !== 'undefined') module.exports = { A1: A1 };
 })();
