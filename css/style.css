@@ -420,3 +420,22 @@ html.locked body > *:not(#gate) { display: none !important; }
 .lx p, .lx li, .lx td, .lx th, .lx summary, .lx blockquote, .lx h2, .lx h3, .lx h4, .lx .callout div { unicode-bidi: plaintext; text-align: start; }
 .lx .callout > div, .lx .callout > div > div, .lx div.callout { unicode-bidi: plaintext; text-align: start; }
 .lx div, .lx p, .lx li, .lx td, .lx th, .lx summary, .lx h2, .lx h3, .lx h4 { unicode-bidi: plaintext !important; text-align: start !important; }
+
+/* grammar popup */
+.gram-btn{margin-left:auto;width:44px;height:44px;border-radius:12px;border:1px solid var(--hairline);background:var(--amber-soft);color:var(--amber);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;flex:0 0 auto}
+.gram-overlay{position:fixed;inset:0;background:rgba(10,17,25,.6);z-index:2000;display:flex;align-items:center;justify-content:center;padding:12px}
+.gram-box{background:var(--paper);color:var(--ink);border:1px solid var(--hairline);border-radius:18px;width:100%;max-width:560px;max-height:92vh;display:flex;flex-direction:column;box-shadow:var(--shadow);outline:none;direction:ltr;text-align:left}
+.gram-top{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid var(--hairline)}
+.gram-count{margin-left:auto;color:var(--ink-3);font-size:13px}
+.gram-close{width:44px;height:44px;border-radius:12px;border:1px solid var(--hairline);background:transparent;color:var(--ink);font-size:26px;line-height:1;cursor:pointer}
+.gram-body{padding:12px 14px;overflow:auto;flex:1 1 auto}
+.gram-body .rule{border:0;padding:0;background:transparent}
+.gram-dots{display:flex;gap:8px;justify-content:center;padding:6px 0}
+.gram-dot{width:12px;height:12px;border-radius:50%;border:1px solid var(--ink-3);background:transparent;padding:0;cursor:pointer}
+.gram-dot[aria-current="true"]{background:var(--ink);border-color:var(--ink)}
+.gram-foot{display:flex;justify-content:space-between;gap:10px;padding:10px 14px 14px}
+.gram-nav{min-height:44px;flex:1}
+.gram-nav:disabled{opacity:.4}
+.rule h3{text-align:left !important;direction:ltr !important}
+html.sn-dark .tab[aria-selected="true"]{color:#5eead4 !important;border-color:#5eead4 !important;background:#12342f !important}
+html.sn-dark .tab[aria-selected="true"] .tab-count{background:rgba(94,234,212,.2);color:#5eead4}
