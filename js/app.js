@@ -492,7 +492,7 @@
       var st = answers[qi];
       if (st && st.result) checked += 1;
       if (st && st.result === 'correct') correct += 1;
-      var qEl = el('div', { class: 'quiz-q qa' }, [
+      var qEl = el('div', { class: 'quiz-q qa ctl' }, [
         el('div', { class: 'quiz-prompt' }, [
           el('span', { class: 'quiz-num' }, [arNum(qi + 1)]),
           el('span', { dir: 'ltr' }, [q.prompt])
@@ -515,7 +515,7 @@
           var lockedRight = st && st.result === 'correct' && oi === q.answer;
           var wrong = selected && st.result === 'wrong';
           return el('button', {
-            class: 'quiz-opt', type: 'button',
+            class: 'quiz-opt' + (String(q.options[oi]).length > 14 ? ' long' : ''), type: 'button',
             'data-selected': String(!!selected), 'data-correct': String(!!lockedRight), 'data-wrong': String(!!wrong),
             onclick: function () {
               if (answers[qi] && answers[qi].result === 'correct') return;
@@ -598,7 +598,7 @@
         } }, [t]);
       }));
       var guess = st.picked.map(function (ti) { return it.tiles[ti]; }).join(' ');
-      var wrap = el('div', { class: 'quiz-q build-q' }, [
+      var wrap = el('div', { class: 'quiz-q build-q ctl' }, [
         el('div', { class: 'quiz-prompt', 'aria-label': 'رتّب الكلمات في جملة' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)])]),
         picked,
         el('div', { class: 'bq-act' }, [
@@ -624,7 +624,7 @@
     var ans = store.data.answers;
     return s.practice.errors.map(function (it, i) {
       var key = 'e' + i, st = ans[key];
-      var wrap = el('div', { class: 'quiz-q qa' }, [
+      var wrap = el('div', { class: 'quiz-q qa ctl' }, [
         el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)]), el('span', {}, ['أنهي جملة صح؟'])]),
         el('div', { class: 'bq-act' }, [el('button', { class: 'btn btn-secondary', type: 'button', 'aria-label': 'تحقق', disabled: (!st || st.result === 'correct') ? '' : null,
           onclick: function () {
@@ -635,7 +635,7 @@
           el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'من الأول', onclick: function () { delete ans[key]; persist(); render(); } }, ['↺'])]),
         el('div', { class: 'quiz-options', dir: 'ltr' }, it.options.map(function (opt, oi) {
           var selected = st && st.choice === oi;
-          return el('button', { class: 'quiz-opt', type: 'button',
+          return el('button', { class: 'quiz-opt' + (String(it.options[oi]).length > 14 ? ' long' : ''), type: 'button',
             'data-selected': String(!!selected), 'data-correct': String(!!(st && st.result === 'correct' && oi === it.answer)), 'data-wrong': String(!!(selected && st.result === 'wrong')),
             onclick: function () { if (st && st.result === 'correct') return; ans[key] = { choice: oi, result: null }; persist(); render(); }
           }, [opt]);
@@ -648,11 +648,11 @@
   function renderTranslate(s) {
     return s.practice.translate.map(function (it, i) {
       var open = !!state.shown[i];
-      return el('div', { class: 'quiz-q' }, [
+      return el('div', { class: 'quiz-q ctl' }, [
         el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)]), el('span', {}, [it.ar])]),
         el('p', { class: 'caption', style: 'margin:0 0 8px' }, ['قولها بالألماني بصوت عالي، وبعدين اكشف.']),
         open ? el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [it.de]) : null,
-        el('div', {}, [el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [open ? 'إخفاء' : 'اكشف الإجابة'])])
+        el('div', { class: 'bq-act' }, [el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [open ? 'إخفاء' : 'اكشف الإجابة'])])
       ]);
     });
   }
