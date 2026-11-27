@@ -229,7 +229,7 @@
         persist(); render();
       });
       var li = el('li', { class: 'step' }, [box, el('label', { 'for': 'tr-' + step.id }, [step.title])]);
-      if (doneAt) li.appendChild(el('span', { class: 'done-at' }, [new Date(doneAt).toLocaleDateString('ar-EG')]));
+      if (doneAt) li.appendChild(el('span', { class: 'done-at' }, [new Date(doneAt).toLocaleDateString('en-GB')]));
       return li;
     }));
     var fileInput = el('input', { type: 'file', accept: 'application/json,.json', style: 'display:none' });
