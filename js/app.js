@@ -251,7 +251,7 @@
     return panel('chart', 'تقدمك في الجلسة', 'علّم كل خطوة تخلصها', [list, tools], '', 'span-12', 'sec-tracker');
   }
 
-  var NV = { url: null, expires: 0, video: null, wrap: null, busy: false };
+  var NV = { state: 'loading', url: null, expires: 0, video: null, wrap: null, busy: false };
   function nowSec() { return Math.floor(Date.now() / 1000); }
   function fetchVideoUrl(done) {
     fetch('data/video-urls.json?t=' + Date.now(), { cache: 'no-store' })
@@ -281,20 +281,31 @@
       kids.push(el('div', { class: 'video-wrap lv-wrap' }, [NV.video]));
       kids.push(el('p', { class: 'caption' }, ['فيديو الدرس بدون إعلانات.']));
     } else {
-      kids.push(el('p', { class: 'caption' }, ['بنجهّز فيديو الدرس… لو اتأخر، حدّث الصفحة.']));
+      if (NV.state === 'loading') {
+        kids.push(el('p', { class: 'caption' }, ['بنجهّز فيديو الدرس…']));
+      } else {
+        kids.push(el('p', { class: 'caption' }, ['فيديو الدرس مش شغال دلوقتي: رابط الفيديو في Notion انتهى والتجديد التلقائي لسه واقف. ده عطل عندنا مش عندك.']));
+        var row = el('p', { class: 'caption' }, []);
+        row.appendChild(el('button', { type: 'button', style: 'min-height:44px;padding:8px 16px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit', onclick: function () { NV.state = 'loading'; if (state.session) render(); startVideo(true); } }, ['جرّب تاني']));
+        var yt = (state.session && state.session.video && state.session.video.open_url) || '';
+        if (/^https:\/\/www\.youtube\.com\//.test(yt)) { row.appendChild(document.createTextNode(' ')); row.appendChild(el('a', { href: yt, target: '_blank', rel: 'noopener' }, ['الفيديو الأصلي على يوتيوب (بيفتح برا الصفحة وفيه إعلانات)'])); }
+        kids.push(row);
+      }
     }
     return el('div', { class: 'lv' }, kids);
   }
-  function startVideo() {
+  function startVideo(retry) {
+    if (!retry) NV.state = 'loading';
     fetchVideoUrl(function (e) {
-      if (!e) return;
+      if (!e) { NV.state = 'unavailable'; if (state.session) render(); return; }
+      NV.state = 'ready';
       NV.url = e.url; NV.expires = e.expires_at;
       NV.video = el('video', { controls: '', playsinline: '', preload: 'metadata', class: 'lv-video' });
       NV.video.src = e.url;
       NV.video.addEventListener('error', function () { refreshVideo(); });
       if (state.session) render();
     });
-    setInterval(function () { if (NV.video && NV.expires - nowSec() < 600) refreshVideo(); }, 30000);
+    if (!retry) setInterval(function () { if (NV.video && NV.expires - nowSec() < 600) refreshVideo(); }, 30000);
   }
 
   function bidiParts(t) {
