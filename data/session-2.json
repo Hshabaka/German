@@ -175,6 +175,11 @@
      "de": "mit mir",
      "ar": "معايا",
      "audio": "audio/s2/vocab/30-mit-mir.mp3"
+    },
+    {
+     "de": "Englisch",
+     "ar": "إنجليزي",
+     "audio": "audio/s2/vocab/60-englisch.mp3"
     }
    ]
   },
@@ -229,6 +234,11 @@
      "ar": "التفاحة",
      "audio": "audio/s2/vocab/38-der-apfel.mp3",
      "article": "der"
+    },
+    {
+     "de": "essen",
+     "ar": "ياكل",
+     "audio": "audio/s2/vocab/61-essen.mp3"
     }
    ]
   },
@@ -342,35 +352,43 @@
  "cards": [
   {
    "de": "einfach",
-   "ar": "سهل"
+   "ar": "سهل",
+   "audio": "audio/s2/vocab/01-einfach.mp3"
   },
   {
    "de": "schwierig",
-   "ar": "صعب"
+   "ar": "صعب",
+   "audio": "audio/s2/vocab/02-schwierig.mp3"
   },
   {
    "de": "teuer",
-   "ar": "غالي"
+   "ar": "غالي",
+   "audio": "audio/s2/vocab/03-teuer.mp3"
   },
   {
    "de": "billig",
-   "ar": "رخيص"
+   "ar": "رخيص",
+   "audio": "audio/s2/vocab/04-billig.mp3"
   },
   {
    "de": "schön",
-   "ar": "جميل"
+   "ar": "جميل",
+   "audio": "audio/s2/vocab/05-schoen.mp3"
   },
   {
    "de": "hässlich",
-   "ar": "وحش"
+   "ar": "وحش",
+   "audio": "audio/s2/vocab/06-haesslich.mp3"
   },
   {
    "de": "aber",
-   "ar": "لكن، بس"
+   "ar": "لكن، بس",
+   "audio": "audio/s2/vocab/19-aber.mp3"
   },
   {
    "de": "nicht",
-   "ar": "مش"
+   "ar": "مش",
+   "audio": "audio/s2/vocab/21-nicht.mp3"
   }
  ],
  "quiz": [
