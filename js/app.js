@@ -313,28 +313,43 @@
     if (!u) return null;
     return el('div', { class: 'video-wrap lv-wrap' }, [el('iframe', { src: u + '?rel=0&playsinline=1', title: 'Session video on YouTube', style: 'width:100%;aspect-ratio:16/9;border:0;display:block', allow: 'accelerometer; encrypted-media; picture-in-picture; fullscreen', allowfullscreen: '', referrerpolicy: 'strict-origin-when-cross-origin' })]);
   }
-  var AUD = { list: [], i: 0, el: null, all: false };
+  var AUD = { list: [], el: null, cache: {} };
   fetch('data/audio.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (g) {
     var l = g && g.a1; if (l && l.length) { AUD.list = l; if (state.session) render(); }
   }).catch(function () {});
-  function audSet(i) {
-    var t = AUD.list[i]; if (!t || !AUD.el) return; AUD.i = i; AUD.el.src = t.src;
-    var lab = document.getElementById('aud-title'); if (lab) lab.textContent = t.title;
-    if ('mediaSession' in navigator) {
-      navigator.mediaSession.metadata = new MediaMetadata({ title: t.title, artist: 'Deutsch by Barbary', album: 'A1' });
-      navigator.mediaSession.setActionHandler('nexttrack', AUD.list.length > 1 ? function () { audNext(true); } : null);
-      navigator.mediaSession.setActionHandler('previoustrack', AUD.list.length > 1 ? function () { if (AUD.i > 0) { audSet(AUD.i - 1); AUD.el.play(); } } : null);
-    }
+  function sessionNo() {
+    var m = state.session && /(\d+)\s*$/.exec(String(state.session.id || ''));
+    return m ? parseInt(m[1], 10) : 0;
   }
-  function audNext(play) { if (AUD.i + 1 < AUD.list.length) { audSet(AUD.i + 1); if (play) AUD.el.play(); } }
+  function audMine() {
+    var n = sessionNo();
+    return n ? AUD.list.filter(function (x) { return x.n === n; })[0] || null : null;
+  }
+  function audResolve(t) {
+    if (t.src) return Promise.resolve(t.src);
+    if (!AUD.cache[t.n]) {
+      AUD.cache[t.n] = Promise.all(t.parts.map(function (p) { return fetch(p).then(function (r) { if (!r.ok) throw new Error('part'); return r.text(); }); })).then(function (x) {
+        var bin = atob(x.join('').replace(/\s+/g, '')), u = new Uint8Array(bin.length);
+        for (var i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
+        return URL.createObjectURL(new Blob([u], { type: t.mime || 'audio/mp4' }));
+      });
+    }
+    return AUD.cache[t.n];
+  }
   function audioRow() {
-    if (!AUD.list.length) return null;
-    var a = el('audio', { controls: '', preload: 'none', style: 'width:100%;margin-top:6px', 'aria-label': 'Lesson audio' });
+    var t = audMine();
+    if (!t) return null;
+    var a = el('audio', { controls: '', preload: 'none', style: 'width:100%;margin-top:6px', 'aria-label': 'Lesson audio', 'data-lesson': String(t.n) });
     AUD.el = a;
-    a.addEventListener('ended', function () { if (AUD.all) audNext(true); });
-    var box = el('div', { style: 'margin:10px 0 0' }, [a]);
-    setTimeout(function () { audSet(AUD.i); }, 0);
-    return box;
+    var ready = false;
+    if (t.src) { a.src = t.src; ready = true; }
+    a.addEventListener('play', function () {
+      if (ready) return;
+      a.pause();
+      audResolve(t).then(function (u) { ready = true; a.src = u; a.play(); }).catch(function () { a.parentNode.appendChild(el('span', { class: 'audio-err', role: 'status' }, ['Audio is not available right now'])); });
+    });
+    if ('mediaSession' in navigator) { try { navigator.mediaSession.metadata = new MediaMetadata({ title: t.title, artist: 'Deutsch by Barbary', album: 'A1' }); } catch (e) {} }
+    return el('div', { style: 'margin:10px 0 0' }, [a]);
   }
   function videoBlock() {
     var kids = [];
