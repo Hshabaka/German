@@ -59,6 +59,7 @@
   };
 
   var state = {
+    sortColor: {},
     session: null,
     tab: 0,
     cardIndex: 0,
@@ -422,16 +423,31 @@
           onclick: function () { state.tab = i; render(); }
         }, [v.label, el('span', { class: 'tab-count' }, [arNum(v.words.length)])]);
       }));
+    var hasArt = active.words.some(function (w) { return !!w.article; });
+    var words = active.words.slice();
+    if (hasArt && state.sortColor[state.tab]) {
+      var ord = { der: 0, die: 1, das: 2 };
+      words = words.map(function (w, i) { return { w: w, i: i }; }).sort(function (a, b) {
+        var x = a.w.article in ord ? ord[a.w.article] : 3, y = b.w.article in ord ? ord[b.w.article] : 3;
+        return x - y || a.i - b.i;
+      }).map(function (p) { return p.w; });
+    }
+    var legend = el('div', { class: 'art-legend', dir: 'ltr' }, [
+      el('span', { class: 'art-ico art-ico-der' }, ['der']),
+      el('span', { class: 'art-ico art-ico-die' }, ['die']),
+      el('span', { class: 'art-ico art-ico-das' }, ['das']),
+      hasArt ? el('button', { class: 'btn btn-ghost sort-color', type: 'button', 'aria-pressed': String(!!state.sortColor[state.tab]), 'aria-label': 'رتّب حسب اللون',
+        onclick: function () { state.sortColor[state.tab] = !state.sortColor[state.tab]; render(); } }, ['رتّب حسب اللون']) : null
+    ]);
     var list = el('ul', { class: 'words', role: 'tabpanel', 'aria-label': active.label },
-      active.words.map(function (w) {
-        return el('li', { class: 'word' }, [
+      words.map(function (w) {
+        return el('li', { class: 'word' + (w.article ? ' wbg-' + w.article : '') }, [
           w.audio ? audioButton(w.audio, 'اسمع: ' + w.de) : el('span', { class: 'noaudio', title: 'الصوت لسه مضافش' }, ['بدون صوت']),
           el('span', { class: 'word-de', dir: 'ltr' }, [articleSpan(w.article), w.de]),
           el('span', { class: 'word-ar' }, [w.ar])
         ]);
       }));
-    return panel('book', 'الكلمات', 'der أزرق · die أحمر · das أخضر', [tabs, list,
-    ], '', 'span-12', 'sec-vocab');
+    return panel('book', 'الكلمات', '', [tabs, legend, list], '', 'span-12', 'sec-vocab');
   }
 
   function renderSentences(s) {
@@ -444,8 +460,7 @@
         ])
       ]);
     }));
-    return panel('speaker', 'الجمل بالصوت', 'اسمع وكرر بصوت عالي', [list,
-      el('p', { class: 'caption' }, ['الصوت تسجيل مولّد للتدريب، مش صوت المدرس.'])], 'tone-night', 'span-5', null);
+    return panel('speaker', 'الجمل بالصوت', 'اسمع وكرر بصوت عالي', [list], 'tone-night', 'span-5', null);
   }
 
   function renderCards(s) {
