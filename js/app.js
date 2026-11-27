@@ -188,9 +188,9 @@
         el('div', { class: 'hero-main' }, [
           el('div', { class: 'hero-chips' }, [
             el('span', { class: 'chip chip-level' }, ['ألماني ' + s.level]),
-            el('span', { class: 'chip' }, ['الجلسة الأولى'])
+            el('span', { class: 'chip' }, ['الدرس 1 من 28'])
           ]),
-          el('h1', {}, [s.title]),
+          el('h1', {}, [String(s.title).replace(/^الجلسة\s*(\d+)/, 'الدرس $1')]),
           el('p', { class: 'hero-sub' }, ['فيديو الدرس والقاعدة والتدريب في صفحة واحدة.'])
         ]),
         el('div', { class: 'ring', role: 'img', 'aria-label': 'نسبة الإنجاز ' + arNum(pct) + ' في المية' }, [
@@ -275,23 +275,22 @@
     if (NV.busy) return; NV.busy = true;
     fetchVideoUrl(function (e) { NV.busy = false; if (e) swapVideo(e); });
   }
+  function ytRow() {
+    var yt = (state.session && state.session.video && state.session.video.open_url) || '';
+    if (!/^https:\/\/www\.youtube\.com\//.test(yt)) return null;
+    return el('p', { class: 'caption', style: 'margin:8px 0 0' }, [el('a', { href: yt, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 16px;border-radius:999px;background:#c4302b;color:#fff;text-decoration:none', 'aria-label': 'افتح الفيديو على يوتيوب' }, ['▶ يوتيوب ↗'])]);
+  }
   function videoBlock() {
     var kids = [];
     if (NV.video) {
       kids.push(el('div', { class: 'video-wrap lv-wrap' }, [NV.video]));
-      kids.push(el('p', { class: 'caption' }, ['فيديو الدرس بدون إعلانات.']));
+    } else if (NV.state === 'loading') {
+      kids.push(el('p', { class: 'caption' }, ['بنجهّز الفيديو…']));
     } else {
-      if (NV.state === 'loading') {
-        kids.push(el('p', { class: 'caption' }, ['بنجهّز فيديو الدرس…']));
-      } else {
-        kids.push(el('p', { class: 'caption' }, ['فيديو الدرس مش شغال دلوقتي: رابط الفيديو في Notion انتهى والتجديد التلقائي لسه واقف. ده عطل عندنا مش عندك.']));
-        var row = el('p', { class: 'caption' }, []);
-        row.appendChild(el('button', { type: 'button', style: 'min-height:44px;padding:8px 16px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit', onclick: function () { NV.state = 'loading'; if (state.session) render(); startVideo(true); } }, ['جرّب تاني']));
-        var yt = (state.session && state.session.video && state.session.video.open_url) || '';
-        if (/^https:\/\/www\.youtube\.com\//.test(yt)) { row.appendChild(document.createTextNode(' ')); row.appendChild(el('a', { href: yt, target: '_blank', rel: 'noopener' }, ['الفيديو الأصلي على يوتيوب (بيفتح برا الصفحة وفيه إعلانات)'])); }
-        kids.push(row);
-      }
+      kids.push(el('p', { class: 'caption' }, ['الفيديو مش شغال هنا دلوقتي (رابطه انتهى). ده عطل عندنا.']));
+      kids.push(el('p', { class: 'caption' }, [el('button', { type: 'button', style: 'min-height:44px;padding:8px 16px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit', onclick: function () { NV.state = 'loading'; if (state.session) render(); startVideo(true); } }, ['جرّب تاني'])]));
     }
+    var r = ytRow(); if (r) kids.push(r);
     return el('div', { class: 'lv' }, kids);
   }
   function startVideo(retry) {
