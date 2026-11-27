@@ -1,0 +1,839 @@
+{
+ "id": "session-4",
+ "level": "A1",
+ "title": "Session 4: Starting with the other pronouns",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=LNWPU9BkvPM",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=LNWPU9BkvPM"
+ },
+ "vocab": [
+  {
+   "id": "verbs",
+   "label": "New verbs",
+   "words": [
+    {
+     "de": "arbeiten",
+     "ar": "يعمل",
+     "audio": "audio/s4/vocab/01-arbeiten.mp3"
+    },
+    {
+     "de": "trinken",
+     "ar": "يشرب",
+     "audio": "audio/s4/vocab/02-trinken.mp3"
+    },
+    {
+     "de": "schreiben",
+     "ar": "يكتب",
+     "audio": "audio/s4/vocab/03-schreiben.mp3"
+    },
+    {
+     "de": "hören",
+     "ar": "يسمع",
+     "audio": "audio/s4/vocab/04-hoeren.mp3"
+    },
+    {
+     "de": "kaufen",
+     "ar": "يشتري",
+     "audio": "audio/s4/vocab/05-kaufen.mp3"
+    },
+    {
+     "de": "schlafen",
+     "ar": "ينام",
+     "audio": "audio/s4/vocab/06-schlafen.mp3"
+    },
+    {
+     "de": "machen",
+     "ar": "يفعل",
+     "audio": "audio/s4/vocab/07-machen.mp3"
+    },
+    {
+     "de": "verstehen",
+     "ar": "يفهم",
+     "audio": "audio/s4/vocab/08-verstehen.mp3"
+    },
+    {
+     "de": "fragen",
+     "ar": "يسأل",
+     "audio": "audio/s4/vocab/09-fragen.mp3"
+    },
+    {
+     "de": "antworten",
+     "ar": "يجيب",
+     "audio": "audio/s4/vocab/10-antworten.mp3"
+    }
+   ]
+  },
+  {
+   "id": "nouns",
+   "label": "New nouns",
+   "words": [
+    {
+     "de": "Kaffee",
+     "ar": "القهوة",
+     "audio": "audio/s4/vocab/11-der-kaffee.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Tee",
+     "ar": "الشاي",
+     "audio": "audio/s4/vocab/12-der-tee.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Wasser",
+     "ar": "الماء",
+     "audio": "audio/s4/vocab/13-das-wasser.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Brief",
+     "ar": "الخطاب",
+     "audio": "audio/s4/vocab/14-der-brief.mp3",
+     "article": "der"
+    },
+    {
+     "de": "E-Mail",
+     "ar": "الإيميل",
+     "audio": "audio/s4/vocab/15-die-e-mail.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Musik",
+     "ar": "الموسيقى",
+     "audio": "audio/s4/vocab/16-die-musik.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Auto",
+     "ar": "السيارة",
+     "audio": "audio/s4/vocab/17-das-auto.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Hausaufgabe",
+     "ar": "الواجب",
+     "audio": "audio/s4/vocab/18-die-hausaufgabe.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Frage",
+     "ar": "السؤال",
+     "audio": "audio/s4/vocab/19-die-frage.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Antwort",
+     "ar": "الإجابة",
+     "audio": "audio/s4/vocab/20-die-antwort.mp3",
+     "article": "die"
+    }
+   ]
+  },
+  {
+   "id": "adj",
+   "label": "Adverbs and adjectives",
+   "words": [
+    {
+     "de": "heute",
+     "ar": "اليوم",
+     "audio": "audio/s4/vocab/21-heute.mp3"
+    },
+    {
+     "de": "morgen",
+     "ar": "غدًا",
+     "audio": "audio/s4/vocab/22-morgen.mp3"
+    },
+    {
+     "de": "jetzt",
+     "ar": "الآن / دلوقتي",
+     "audio": "audio/s4/vocab/23-jetzt.mp3"
+    },
+    {
+     "de": "schnell",
+     "ar": "بسرعة / سريع",
+     "audio": "audio/s4/vocab/24-schnell.mp3"
+    },
+    {
+     "de": "langsam",
+     "ar": "ببطء / بطيء",
+     "audio": "audio/s4/vocab/25-langsam.mp3"
+    },
+    {
+     "de": "wichtig",
+     "ar": "مهم",
+     "audio": "audio/s4/vocab/26-wichtig.mp3"
+    },
+    {
+     "de": "richtig",
+     "ar": "صحيح",
+     "audio": "audio/s4/vocab/27-richtig.mp3"
+    },
+    {
+     "de": "falsch",
+     "ar": "خطأ",
+     "audio": "audio/s4/vocab/28-falsch.mp3"
+    },
+    {
+     "de": "müde",
+     "ar": "متعب",
+     "audio": "audio/s4/vocab/29-muede.mp3"
+    },
+    {
+     "de": "zusammen",
+     "ar": "معًا",
+     "audio": "audio/s4/vocab/30-zusammen.mp3"
+    }
+   ]
+  },
+  {
+   "id": "pronouns",
+   "label": "Pronouns and für-phrases",
+   "words": [
+    {
+     "de": "du",
+     "ar": "أنت",
+     "audio": "audio/s4/vocab/31-du.mp3"
+    },
+    {
+     "de": "er",
+     "ar": "هو",
+     "audio": "audio/s4/vocab/32-er.mp3"
+    },
+    {
+     "de": "sie",
+     "ar": "هي",
+     "audio": "audio/s4/vocab/33-sie.mp3"
+    },
+    {
+     "de": "wir",
+     "ar": "نحن",
+     "audio": "audio/s4/vocab/34-wir.mp3"
+    },
+    {
+     "de": "ihr",
+     "ar": "أنتم",
+     "audio": "audio/s4/vocab/35-ihr.mp3"
+    },
+    {
+     "de": "Sie",
+     "ar": "حضرتك",
+     "audio": "audio/s4/vocab/36-sie.mp3"
+    },
+    {
+     "de": "für dich",
+     "ar": "ليك / بالنسبة لك",
+     "audio": "audio/s4/vocab/37-fuer-dich.mp3"
+    },
+    {
+     "de": "für ihn",
+     "ar": "له / بالنسبة له",
+     "audio": "audio/s4/vocab/38-fuer-ihn.mp3"
+    },
+    {
+     "de": "für sie",
+     "ar": "لها / بالنسبة لها",
+     "audio": "audio/s4/vocab/39-fuer-sie.mp3"
+    },
+    {
+     "de": "für uns",
+     "ar": "لينا / بالنسبة لنا",
+     "audio": "audio/s4/vocab/40-fuer-uns.mp3"
+    },
+    {
+     "de": "für euch",
+     "ar": "لكم / بالنسبة لكم",
+     "audio": "audio/s4/vocab/41-fuer-euch.mp3"
+    },
+    {
+     "de": "für Sie",
+     "ar": "لحضرتك / بالنسبة لحضرتك",
+     "audio": "audio/s4/vocab/42-fuer-sie.mp3"
+    }
+   ]
+  },
+  {
+   "id": "du-forms",
+   "label": "Verbs with du",
+   "words": [
+    {
+     "de": "du arbeitest",
+     "ar": "أنت بتشتغل",
+     "audio": "audio/s4/vocab/43-du-arbeitest.mp3"
+    },
+    {
+     "de": "du schläfst",
+     "ar": "أنت بتنام",
+     "audio": "audio/s4/vocab/44-du-schlaefst.mp3"
+    },
+    {
+     "de": "du trinkst",
+     "ar": "أنت بتشرب",
+     "audio": "audio/s4/vocab/45-du-trinkst.mp3"
+    },
+    {
+     "de": "du schreibst",
+     "ar": "أنت بتكتب",
+     "audio": "audio/s4/vocab/46-du-schreibst.mp3"
+    },
+    {
+     "de": "du hörst",
+     "ar": "أنت بتسمع",
+     "audio": "audio/s4/vocab/47-du-hoerst.mp3"
+    },
+    {
+     "de": "du lernst",
+     "ar": "أنت بتتعلم",
+     "audio": "audio/s4/vocab/48-du-lernst.mp3"
+    },
+    {
+     "de": "du kochst",
+     "ar": "أنت بتطبخ",
+     "audio": "audio/s4/vocab/49-du-kochst.mp3"
+    },
+    {
+     "de": "du sprichst",
+     "ar": "أنت بتتكلم",
+     "audio": "audio/s4/vocab/50-du-sprichst.mp3"
+    },
+    {
+     "de": "du liest",
+     "ar": "أنت بتقرا",
+     "audio": "audio/s4/vocab/51-du-liest.mp3"
+    },
+    {
+     "de": "du kannst",
+     "ar": "أنت تقدر / تستطيع",
+     "audio": "audio/s4/vocab/52-du-kannst.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Du sprichst Deutsch.",
+   "ar": "أنت بتتكلم ألماني.",
+   "audio": "audio/s4/s01-du-sprichst-deutsch.mp3"
+  },
+  {
+   "de": "Du kannst das Essen kochen und das ist sehr einfach für dich.",
+   "ar": "أنت تقدر تطبخ الأكل وده سهل جدًا بالنسبة لك.",
+   "audio": "audio/s4/s02-du-kannst-das-essen-kochen-und-das-ist-s.mp3"
+  },
+  {
+   "de": "Er lernt Deutsch.",
+   "ar": "هو بيتعلم ألماني.",
+   "audio": "audio/s4/s03-er-lernt-deutsch.mp3"
+  },
+  {
+   "de": "Er kann die E-Mail schreiben, aber er ist sehr müde.",
+   "ar": "هو يقدر يكتب الإيميل، لكنه متعب جدًا.",
+   "audio": "audio/s4/s04-er-kann-die-e-mail-schreiben-aber-er-ist.mp3"
+  },
+  {
+   "de": "Sie liest Deutsch.",
+   "ar": "هي بتقرا ألماني.",
+   "audio": "audio/s4/s05-sie-liest-deutsch.mp3"
+  },
+  {
+   "de": "Sie kann jetzt schlafen und das ist sehr gut für sie.",
+   "ar": "هي تقدر تنام دلوقتي وده كويس جدًا بالنسبة لها.",
+   "audio": "audio/s4/s06-sie-kann-jetzt-schlafen-und-das-ist-sehr.mp3"
+  },
+  {
+   "de": "Wir arbeiten zusammen.",
+   "ar": "احنا بنشتغل مع بعض.",
+   "audio": "audio/s4/s07-wir-arbeiten-zusammen.mp3"
+  },
+  {
+   "de": "Wir können das Essen kochen und das ist sehr einfach für uns.",
+   "ar": "احنا نقدر نطبخ الأكل وده سهل جدًا بالنسبة لنا.",
+   "audio": "audio/s4/s08-wir-koennen-das-essen-kochen-und-das-ist.mp3"
+  },
+  {
+   "de": "Ihr hört die Musik.",
+   "ar": "انتوا بتسمعوا الموسيقى.",
+   "audio": "audio/s4/s09-ihr-hoert-die-musik.mp3"
+  },
+  {
+   "de": "Ihr könnt die Musik hören, aber das ist sehr langsam.",
+   "ar": "انتوا تقدروا تسمعوا الموسيقى، لكن ده بطيء جدًا.",
+   "audio": "audio/s4/s10-ihr-koennt-die-musik-hoeren-aber-das-ist.mp3"
+  },
+  {
+   "de": "Sie machen die Hausaufgabe.",
+   "ar": "حضرتك بتعمل الواجب.",
+   "audio": "audio/s4/s11-sie-machen-die-hausaufgabe.mp3"
+  },
+  {
+   "de": "Sie können die Hausaufgabe machen und das ist sehr gut für Sie.",
+   "ar": "حضرتك تقدر تعمل الواجب وده كويس جدًا بالنسبة لحضرتك.",
+   "audio": "audio/s4/s12-sie-koennen-die-hausaufgabe-machen-und-d.mp3"
+  },
+  {
+   "de": "Du trinkst heute Kaffee.",
+   "ar": "أنت بتشرب قهوة النهاردة.",
+   "audio": "audio/s4/s13-du-trinkst-heute-kaffee.mp3"
+  },
+  {
+   "de": "Du kannst heute Kaffee trinken und das ist sehr wichtig für dich.",
+   "ar": "أنت تقدر تشرب قهوة النهاردة وده مهم جدًا بالنسبة لك.",
+   "audio": "audio/s4/s14-du-kannst-heute-kaffee-trinken-und-das-i.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "arbeiten",
+   "ar": "يعمل",
+   "audio": "audio/s4/vocab/01-arbeiten.mp3"
+  },
+  {
+   "de": "schlafen",
+   "ar": "ينام",
+   "audio": "audio/s4/vocab/06-schlafen.mp3"
+  },
+  {
+   "de": "trinken",
+   "ar": "يشرب",
+   "audio": "audio/s4/vocab/02-trinken.mp3"
+  },
+  {
+   "de": "schreiben",
+   "ar": "يكتب",
+   "audio": "audio/s4/vocab/03-schreiben.mp3"
+  },
+  {
+   "de": "hören",
+   "ar": "يسمع",
+   "audio": "audio/s4/vocab/04-hoeren.mp3"
+  },
+  {
+   "de": "der Kaffee",
+   "ar": "القهوة",
+   "audio": "audio/s4/vocab/11-der-kaffee.mp3"
+  },
+  {
+   "de": "der Tee",
+   "ar": "الشاي",
+   "audio": "audio/s4/vocab/12-der-tee.mp3"
+  },
+  {
+   "de": "das Wasser",
+   "ar": "الماء",
+   "audio": "audio/s4/vocab/13-das-wasser.mp3"
+  },
+  {
+   "de": "die E-Mail",
+   "ar": "الإيميل",
+   "audio": "audio/s4/vocab/15-die-e-mail.mp3"
+  },
+  {
+   "de": "die Musik",
+   "ar": "الموسيقى",
+   "audio": "audio/s4/vocab/16-die-musik.mp3"
+  },
+  {
+   "de": "das Auto",
+   "ar": "السيارة",
+   "audio": "audio/s4/vocab/17-das-auto.mp3"
+  },
+  {
+   "de": "die Hausaufgabe",
+   "ar": "الواجب",
+   "audio": "audio/s4/vocab/18-die-hausaufgabe.mp3"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "______ lernst Deutsch.",
+   "options": [
+    "Ich",
+    "Du",
+    "Er"
+   ],
+   "answer": 1,
+   "why": "lernst تصريف du: أنت بتتعلم.",
+   "ar": "أنت بتتعلم ألماني."
+  },
+  {
+   "prompt": "Wir ______ das Essen kochen.",
+   "options": [
+    "kann",
+    "könnt",
+    "können"
+   ],
+   "answer": 2,
+   "why": "مع wir التصريف können.",
+   "ar": "احنا نقدر نطبخ الأكل."
+  },
+  {
+   "prompt": "Er ______ Arabisch.",
+   "options": [
+    "sprechen",
+    "sprichst",
+    "spricht"
+   ],
+   "answer": 2,
+   "why": "مع er التصريف spricht.",
+   "ar": "هو بيتكلم عربي."
+  },
+  {
+   "prompt": "Ihr ______ das Buch.",
+   "options": [
+    "lest",
+    "liest",
+    "lesen"
+   ],
+   "answer": 0,
+   "why": "مع ihr التصريف lest، أما liest لـ du وer.",
+   "ar": "انتوا بتقراوا الكتاب."
+  },
+  {
+   "prompt": "Sie ______ zusammen. (حضرتك)",
+   "options": [
+    "arbeitet",
+    "arbeiten",
+    "arbeitest"
+   ],
+   "answer": 1,
+   "why": "Sie الرسمي تصريفه زي المصدر: arbeiten.",
+   "ar": "حضرتك بتشتغل مع الناس."
+  },
+  {
+   "prompt": "Du ______ jetzt.",
+   "options": [
+    "schläfst",
+    "schlaft",
+    "schlafe"
+   ],
+   "answer": 0,
+   "why": "schlafen بيغيّر الحرف المتحرك مع du: schläfst.",
+   "ar": "أنت بتنام دلوقتي."
+  },
+  {
+   "prompt": "Das ist sehr einfach für ______.",
+   "options": [
+    "mich",
+    "ich",
+    "mein"
+   ],
+   "answer": 0,
+   "why": "بعد für بنستخدم mich مش ich.",
+   "ar": "ده سهل جدًا بالنسبة لي."
+  },
+  {
+   "prompt": "______ du Musik hören?",
+   "options": [
+    "Könnt",
+    "Kannst",
+    "Können"
+   ],
+   "answer": 1,
+   "why": "مع du: kannst.",
+   "ar": "أنت تقدر تسمع موسيقى؟"
+  },
+  {
+   "prompt": "Sie ______ Wasser. (هي)",
+   "options": [
+    "trinke",
+    "trinkt",
+    "trinken"
+   ],
+   "answer": 1,
+   "why": "هي sie تصريفها trinkt.",
+   "ar": "هي بتشرب مياه."
+  },
+  {
+   "prompt": "Ich höre Musik, ______ das ist sehr interessant.",
+   "options": [
+    "und",
+    "aber"
+   ],
+   "answer": 0,
+   "why": "الجملتين متفقتين، فبنستخدم und؛ أما aber للتضاد.",
+   "ar": "أنا بسمع موسيقى وده شيق جدًا."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "الجلسة دي بتوسّع الجملة لباقي الضمائر: أنت، هو، هي، احنا، انتوا، حضرتك. نفس تركيب الجملة اللي اتعلمناه، بس بتصريف الفعل الصح لكل ضمير. اتفرج على فيديو الدرس الرابع، راجع جداول التصريح تحته، وبعدين كمّل التدريب.",
+  "challenge": {
+   "title": "Writing challenge (Barbarys Schreib-Challenge) ✍️",
+   "intro": "Translate these sentences into German:",
+   "items": [
+    "أنت تقدر تطبخ الأكل وده سهل جدًا بالنسبة لك.",
+    "احنا نقدر نتعلم ألماني مع بعض.",
+    "هي بتقرا الكتاب دلوقتي."
+   ],
+   "note": "Build two long sentences with 'Du kannst ... und / aber das ist ... für dich'."
+  }
+ },
+ "grammar": [
+  {
+   "title": "du, er/sie, wir, ihr, Sie: the verb endings",
+   "rule": "كل ضمير ليه نهاية فعل ثابتة: du بتاخد -st، وer/sie بتاخد -t، وwir وSie بيفضلوا زي المصدر -en، وihr بياخد -t.",
+   "forms": [
+    "lernen: du lernst, er/sie lernt",
+    "arbeiten: du arbeitest, er/sie arbeitet",
+    "wir lernen, ihr lernt, Sie lernen",
+    "wir arbeiten, ihr arbeitet, Sie arbeiten"
+   ],
+   "examples": [
+    {
+     "de": "Du lernst Deutsch.",
+     "ar": "أنت بتتعلم ألماني."
+    },
+    {
+     "de": "Wir arbeiten zusammen.",
+     "ar": "احنا بنشتغل مع بعض."
+    }
+   ]
+  },
+  {
+   "title": "können with every pronoun",
+   "rule": "können مش منتظم: ich kann, du kannst, er/sie kann, wir können, ihr könnt, Sie können.",
+   "forms": [
+    "ich kann",
+    "du kannst",
+    "er/sie kann",
+    "wir können",
+    "ihr könnt",
+    "Sie können"
+   ],
+   "examples": [
+    {
+     "de": "Ihr könnt jetzt schlafen.",
+     "ar": "انتوا تقدروا تناموا دلوقتي."
+    },
+    {
+     "de": "Sie können die Hausaufgabe machen.",
+     "ar": "حضرتك تقدر تعمل الواجب."
+    }
+   ]
+  },
+  {
+   "title": "Vowel change with du and er/sie",
+   "rule": "أفعال زي schlafen وlesen وsprechen بتغيّر الحرف المتحرك مع du وer/sie: schlafen ← schläfst/schläft، lesen ← liest، sprechen ← sprichst/spricht.",
+   "forms": [
+    "schlafen → du schläfst, er schläft",
+    "lesen → du liest, er liest",
+    "sprechen → du sprichst, er spricht"
+   ],
+   "examples": [
+    {
+     "de": "Du schläfst jetzt.",
+     "ar": "أنت بتنام دلوقتي."
+    },
+    {
+     "de": "Er liest das Buch.",
+     "ar": "هو بيقرا الكتاب."
+    }
+   ]
+  },
+  {
+   "title": "für + the right pronoun",
+   "rule": "بعد für الضمير بيتغير: ich ← mich، du ← dich، er ← ihn، sie ← sie، wir ← uns، ihr ← euch، Sie ← Sie.",
+   "forms": [
+    "für mich / für dich / für ihn",
+    "für sie / für uns / für euch / für Sie"
+   ],
+   "examples": [
+    {
+     "de": "Das ist sehr einfach für dich.",
+     "ar": "ده سهل جدًا بالنسبة لك."
+    },
+    {
+     "de": "Das ist sehr wichtig für uns.",
+     "ar": "ده مهم جدًا بالنسبة لنا."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "kochen",
+     "Essen",
+     "das",
+     "kann",
+     "Ich"
+    ],
+    "answer": "Ich kann das Essen kochen.",
+    "ar": "أنا أقدر أطبخ الأكل."
+   },
+   {
+    "tiles": [
+     "Deutsch",
+     "du",
+     "Kannst",
+     "sprechen"
+    ],
+    "answer": "Kannst du Deutsch sprechen?",
+    "ar": "أنت تقدر تتكلم ألماني؟"
+   },
+   {
+    "tiles": [
+     "wichtig",
+     "sehr",
+     "ist",
+     "Das",
+     "mich",
+     "für"
+    ],
+    "answer": "Das ist sehr wichtig für mich.",
+    "ar": "ده مهم جدًا بالنسبة لي."
+   },
+   {
+    "tiles": [
+     "die",
+     "jetzt",
+     "schreibt",
+     "Er",
+     "E-Mail"
+    ],
+    "answer": "Er schreibt jetzt die E-Mail.",
+    "ar": "هو بيكتب الإيميل دلوقتي."
+   },
+   {
+    "tiles": [
+     "Hausaufgabe",
+     "die",
+     "machen",
+     "Wir"
+    ],
+    "answer": "Wir machen die Hausaufgabe.",
+    "ar": "احنا بنعمل الواجب."
+   },
+   {
+    "tiles": [
+     "jetzt",
+     "könnt",
+     "Ihr",
+     "schlafen"
+    ],
+    "answer": "Ihr könnt jetzt schlafen.",
+    "ar": "انتوا تقدروا تناموا دلوقتي."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Ich kann das Essen kochst.",
+     "Ich kann das Essen kochen."
+    ],
+    "answer": 1,
+    "why": "بعد kann الفعل بيرجع للمصدر في آخر الجملة: kochen مش kochst.",
+    "ar": "أنا أقدر أطبخ الأكل."
+   },
+   {
+    "options": [
+     "Du liest das Buch schnell.",
+     "Du lesen das Buch schnell."
+    ],
+    "answer": 0,
+    "why": "مع du التصريف liest مش المصدر lesen.",
+    "ar": "أنت بتقرا الكتاب بسرعة."
+   },
+   {
+    "options": [
+     "Er sprecht sehr gut Deutsch.",
+     "Er spricht sehr gut Deutsch."
+    ],
+    "answer": 1,
+    "why": "مع er التصريف spricht مش sprecht، والحرف المتحرك بيتغير لـ i.",
+    "ar": "هو بيتكلم ألماني كويس جدًا."
+   },
+   {
+    "options": [
+     "Wir kann heute arbeiten.",
+     "Wir können heute arbeiten."
+    ],
+    "answer": 1,
+    "why": "مع wir التصريف können مش kann.",
+    "ar": "احنا نقدر نشتغل النهاردة."
+   },
+   {
+    "options": [
+     "Ihr arbeitet heute zusammen.",
+     "Ihr arbeiten heute zusammen."
+    ],
+    "answer": 0,
+    "why": "مع ihr التصريف arbeitet مش المصدر arbeiten.",
+    "ar": "انتوا بتشتغلوا مع بعض النهاردة."
+   },
+   {
+    "options": [
+     "Das ist schwierig für ich.",
+     "Das ist schwierig für mich."
+    ],
+    "answer": 1,
+    "why": "بعد für الضمير بيتغير: ich تبقى mich.",
+    "ar": "ده صعب بالنسبة لي."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "أنا أقدر أتعلم ألماني.",
+    "de": "Ich kann Deutsch lernen.",
+    "audio": "audio/s4/tr1.mp3"
+   },
+   {
+    "ar": "أنت بتتكلم ألماني وده سهل جدًا بالنسبة لك.",
+    "de": "Du sprichst Deutsch und das ist sehr einfach für dich.",
+    "audio": "audio/s4/tr2.mp3"
+   },
+   {
+    "ar": "هو بيقرا الكتاب دلوقتي.",
+    "de": "Er liest jetzt das Buch.",
+    "audio": "audio/s4/tr3.mp3"
+   },
+   {
+    "ar": "احنا نقدر نطبخ الأكل.",
+    "de": "Wir können das Essen kochen.",
+    "audio": "audio/s4/tr4.mp3"
+   },
+   {
+    "ar": "انتوا بتسمعوا الموسيقى ببطء.",
+    "de": "Ihr hört die Musik langsam.",
+    "audio": "audio/s4/tr5.mp3"
+   },
+   {
+    "ar": "هي تقدر تنام دلوقتي.",
+    "de": "Sie kann jetzt schlafen.",
+    "audio": "audio/s4/tr6.mp3"
+   }
+  ]
+ }
+}
