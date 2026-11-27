@@ -358,6 +358,23 @@
   ],
   "dürfen (nicht dürfen = prohibition), möchten = would like, modal list": [
    "https://coerll.utexas.edu/gg/gr/vm_01.html"
+  ],
+  "possessives in nominative: mein/dein/sein/ihr, -e for feminine and plural": [
+   "https://preply.com/en/blog/german-possessive-articles-guide/",
+   "https://ecampusontario.pressbooks.pub/discoveringgerman/chapter/10-1-possessivpronomen/"
+  ],
+  "numbers: teens, tens, units-und-tens, sechzehn shortening, dreißig": [
+   "https://atlasruna.com/learn/de/numbers/teens/guide/",
+   "https://kilolingo.com/german/grammar/numbers",
+   "https://deutsch-meister.de/grammar/a1.2/numbers-counting/"
+  ],
+  "kein/keine (plural keine), same endings as ein": [
+   "https://learngerman.dw.com/en/article-negation/l-37382992/gr-38306441",
+   "https://grammar.collinsdictionary.com/de/deutsch-grammatik-lernen/how-is-the-german-indefinite-article-used-in-negative-sentences"
+  ],
+  "profession: Was bist du von Beruf? / Ich arbeite als ...": [
+   "https://lernen.goethe.de/deutschonline/A1/PDF/DE/deutschonline_Redemittel_und_Grammatik_1-18.pdf",
+   "https://www.deutschstep.com/de/learn/A2/profession-application/ueber-den-beruf-sprechen"
   ]
  },
  "6": {
@@ -660,6 +677,238 @@
    },
    "5": {
     "w": "هي = sie، مدرسة = Lehrerin، ist مع sie، وبتتكلم = spricht (e بتتحول i مع sie)."
+   }
+  }
+ },
+ "11": {
+  "ex": {
+   "1": {
+    "f": "die Wohnung",
+    "m": "الشقة.",
+    "w": "Wohnung مؤنثة فأداتها die. جنس الكلمة بتحفظه مع الكلمة نفسها."
+   },
+   "2": {
+    "f": "das Bett",
+    "m": "السرير.",
+    "w": "Bett محايدة فأداتها das."
+   },
+   "3": {
+    "f": "die Küche",
+    "m": "المطبخ.",
+    "w": "Küche مؤنثة فأداتها die."
+   },
+   "4": {
+    "f": "der Tisch",
+    "m": "الترابيزة.",
+    "w": "Tisch مذكّرة فأداتها der."
+   },
+   "5": {
+    "f": "Das ist ein Haus.",
+    "m": "ده بيت.",
+    "w": "Haus محايدة، وأداة النكرة معاها ein."
+   },
+   "6": {
+    "f": "Das ist eine Küche.",
+    "m": "ده مطبخ.",
+    "w": "Küche مؤنثة، وأداة النكرة معاها eine."
+   },
+   "7": {
+    "f": "Das ist kein Balkon.",
+    "m": "ده مش بلكونة.",
+    "w": "kein بتنفي الاسم (ein Balkon تتحول kein Balkon). nicht بتنفي صفة أو فعل مش اسم بأداة ein."
+   },
+   "8": {
+    "f": "Das sind keine Kinder.",
+    "m": "دول مش أطفال.",
+    "w": "Kinder جمع، فالنفي keine مع الجمع."
+   },
+   "9": {
+    "w": "السرير Bett محايد، فالنفي kein: Das ist kein Bett."
+   },
+   "10": {
+    "w": "عندنا = Wir haben، وأداة النكرة ein للمحايد: ein Zimmer وein Bad (كلهم محايدين)."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Das ist eine Wohnung.",
+    "m": "دي شقة.",
+    "w": "Wohnung مؤنثة فمعاها eine."
+   },
+   "2": {
+    "f": "Das ist das Haus.",
+    "m": "ده البيت.",
+    "w": "Haus محايد فأداته das."
+   },
+   "3": {
+    "f": "Das sind keine Kinder.",
+    "m": "دول مش أطفال.",
+    "w": "Kinder جمع فالنفي keine."
+   },
+   "4": {
+    "m": "دي مطبخ. / ده مش بيت.",
+    "w": "Küche مؤنثة فمعاها eine مش ein. وHaus محايد، فالنفي kein مش keine."
+   },
+   "5": {
+    "w": "الشقة = die Wohnung، صغيرة = klein، منورة = hell، aber بتربط الصفتين."
+   }
+  }
+ },
+ "12": {
+  "ex": {
+   "1": {
+    "m": "سبعة.",
+    "w": "7 = sieben."
+   },
+   "2": {
+    "m": "اتناشر.",
+    "w": "12 = zwölf (كلمة خاصة، مش بتتركب)."
+   },
+   "3": {
+    "m": "ستاشر.",
+    "w": "16 = sechzehn: sechs + zehn، وبنشيل s من sechs."
+   },
+   "4": {
+    "m": "سبعتاشر.",
+    "w": "17 = siebzehn: sieben + zehn، وsieben بتتقصّر لـ sieb."
+   },
+   "5": {
+    "m": "اتنين وعشرين.",
+    "w": "من ٢١ لـ ٩٩ بنقول الآحاد الأول وبعدين und وبعدين العشرات: zwei + und + zwanzig."
+   },
+   "6": {
+    "m": "تمانية وتلاتين.",
+    "w": "نفس الترتيب: acht + und + dreißig (dreißig بـ ß)."
+   },
+   "7": {
+    "m": "سبعة وستين.",
+    "w": "sieben + und + sechzig. sechs بتتقصّر لـ sech في sechzig."
+   },
+   "8": {
+    "m": "أربعة وتمانين.",
+    "w": "vier + und + achtzig."
+   },
+   "9": {
+    "f": "15",
+    "m": "خمستاشر.",
+    "w": "fünf + zehn = fünfzehn = 15."
+   },
+   "10": {
+    "f": "44",
+    "m": "أربعة وأربعين.",
+    "w": "vier + und + vierzig = 44."
+   },
+   "11": {
+    "m": "أنا عندي تلاتين سنة.",
+    "w": "السن بنقوله بـ bin ... Jahre alt. dreißig = ٣٠."
+   },
+   "12": {
+    "m": "بتشتغل إيه؟",
+    "w": "السؤال عن الشغل بنقوله Was bist du von Beruf؟ يعني (إيه شغلك)."
+   },
+   "13": {
+    "m": "أنا بشتغل مهندس.",
+    "w": "بنقول arbeite als + المهنة. als هنا معناها بصفة."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Ich bin 20 Jahre alt.",
+    "m": "أنا عندي ٢٠ سنة.",
+    "w": "السن بنقوله بـ bin مع alt، مش بـ haben.",
+    "o": {
+     "A": "habe معناها عندي، لكن السن بنقوله بـ bin ... Jahre alt."
+    }
+   },
+   "2": {
+    "f": "vierzehn",
+    "m": "أربعتاشر (14).",
+    "w": "vier + zehn = vierzehn (13 لـ 19 بتنتهي بـ zehn). vierzig معناها 40."
+   },
+   "3": {
+    "f": "vierzig",
+    "m": "أربعين (40).",
+    "w": "vier + zig = vierzig (العشرات بتنتهي بـ zig). vierzehn معناها 14."
+   },
+   "4": {
+    "f": "einundzwanzig",
+    "m": "واحد وعشرين (21).",
+    "w": "من 21 لـ 99 بنقول الآحاد الأول: ein + und + zwanzig = einundzwanzig. zwanzigein ترتيب غلط."
+   },
+   "5": {
+    "m": "رقم بيتي ١٥.",
+    "w": "رقم البيت = Hausnummer، وfünfzehn = 15 (fünf + zehn). Meine لأن Hausnummer مؤنثة."
+   }
+  }
+ },
+ "13": {
+  "ex": {
+   "1": {
+    "f": "Das ist mein Vater.",
+    "m": "ده أبويا.",
+    "w": "Vater مذكّر، فمعاه mein من غير e."
+   },
+   "2": {
+    "f": "Das ist meine Mutter.",
+    "m": "دي أمي.",
+    "w": "Mutter مؤنثة، فمعاها meine بحرف e."
+   },
+   "3": {
+    "f": "Das ist dein Auto.",
+    "m": "ده عربيتك.",
+    "w": "Auto محايد، فمعاه dein من غير e."
+   },
+   "4": {
+    "f": "Das sind seine Kinder.",
+    "m": "دول أولاده.",
+    "w": "Kinder جمع، والجمع بياخد e: seine."
+   },
+   "5": {
+    "f": "Das ist ihr Bruder.",
+    "m": "ده أخوها.",
+    "w": "Bruder مذكّر، فمعاه ihr من غير e. ihr هنا معناها بتاعها (هي)."
+   },
+   "6": {
+    "f": "Das ist ihre Familie.",
+    "m": "دي عيلتها.",
+    "w": "Familie مؤنثة، فمعاها ihre بحرف e."
+   },
+   "7": {
+    "f": "Das sind ihre Eltern.",
+    "m": "دول أهلها.",
+    "w": "Eltern جمع، فمعاه ihre."
+   },
+   "8": {
+    "m": "دي شنطتي.",
+    "w": "Tasche مؤنثة، فمعاها meine بحرف e."
+   },
+   "9": {
+    "m": "ده كتابك.",
+    "w": "Buch محايد، فمعاه dein من غير e."
+   }
+  },
+  "quiz": {
+   "1": {
+    "f": "Das ist seine Schwester.",
+    "m": "دي أخته.",
+    "w": "المالك هو (er) فنقول sein، والكلمة Schwester مؤنثة فبنزود e: seine."
+   },
+   "2": {
+    "f": "Das ist ihr Handy.",
+    "m": "ده موبايلها.",
+    "w": "المالك هي (sie) فنقول ihr، والكلمة Handy محايدة فمن غير e."
+   },
+   "3": {
+    "m": "ده أخويا. / دول أهلي.",
+    "w": "Bruder مذكّر فمعاه mein. Eltern جمع فمعاه meine."
+   },
+   "4": {
+    "m": "دي عيلتها.",
+    "w": "دي = Das ist، عيلتها = ihre Familie (Familie مؤنثة)."
+   },
+   "5": {
+    "m": "ده أبوه ودي أمه.",
+    "w": "المالك هو فـ sein: sein Vater (مذكّر) وseine Mutter (مؤنثة)."
    }
   }
  }
