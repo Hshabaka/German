@@ -624,8 +624,7 @@
     var ans = store.data.answers;
     return s.practice.errors.map(function (it, i) {
       var key = 'e' + i, st = ans[key];
-      var wrap = el('div', { class: 'quiz-q qa ctl' }, [
-        el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [arNum(i + 1)]), el('span', {}, ['أنهي جملة صح؟'])]),
+      var wrap = el('div', { class: 'quiz-q qa ctl er' }, [
         el('div', { class: 'bq-act' }, [el('button', { class: 'btn btn-secondary', type: 'button', 'aria-label': 'تحقق', disabled: (!st || st.result === 'correct') ? '' : null,
           onclick: function () {
             ans[key].result = ans[key].choice === it.answer ? 'correct' : 'wrong';
@@ -635,7 +634,7 @@
           el('button', { class: 'btn btn-ghost', type: 'button', 'aria-label': 'من الأول', onclick: function () { delete ans[key]; persist(); render(); } }, ['↺'])]),
         el('div', { class: 'quiz-options', dir: 'ltr' }, it.options.map(function (opt, oi) {
           var selected = st && st.choice === oi;
-          return el('button', { class: 'quiz-opt' + (String(it.options[oi]).length > 14 ? ' long' : ''), type: 'button',
+          return el('button', { class: 'quiz-opt' + ' long', type: 'button',
             'data-selected': String(!!selected), 'data-correct': String(!!(st && st.result === 'correct' && oi === it.answer)), 'data-wrong': String(!!(selected && st.result === 'wrong')),
             onclick: function () { if (st && st.result === 'correct') return; ans[key] = { choice: oi, result: null }; persist(); render(); }
           }, [opt]);
@@ -662,6 +661,7 @@
       return el('button', { class: 'tab drill-tab', type: 'button', role: 'tab', 'aria-selected': String(i === state.drill), onclick: function () { state.drill = i; render(); } }, [m[0]]);
     }));
     var items = modes[state.drill][1](s);
+    if (state.drill === 1) items.unshift(el('p', { class: 'caption tr-note' }, ['أنهي جملة صح؟ اختار الجملة الصح.']));
     if (state.drill === 2) items.unshift(el('p', { class: 'caption tr-note' }, ['قولها بالألماني بصوت عالي، وبعدين اكشف.']));
     var body = el('div', { class: 'quiz-grid drill-body' }, items);
     return panel('cards', 'تدريب على الجمل', 'ثلاث خطوات قصيرة: رتّب، صحّح، ترجم', [tabs, body], '', 'span-12', 'sec-drills');
