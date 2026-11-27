@@ -137,6 +137,11 @@
      "audio": "audio/s3/vocab/22-schwierig.mp3"
     },
     {
+     "de": "schwer",
+     "ar": "صعب، تقيل",
+     "audio": "audio/s3/vocab/34-schwer.mp3"
+    },
+    {
      "de": "interessant",
      "ar": "ممتع، شيق",
      "audio": "audio/s3/vocab/23-interessant.mp3"
@@ -280,6 +285,21 @@
    "de": "Und ich kann das Essen kochen.",
    "ar": "وأنا أقدر أطبخ الأكل.",
    "audio": "audio/s3/s16-und-ich-kann-das-essen-kochen.mp3"
+  },
+  {
+   "de": "Ich kann Deutsch lernen und das ist sehr einfach für mich, aber das ist sehr schwierig für dich.",
+   "ar": "أنا أقدر أتعلم ألماني وده سهل جدًا بالنسبة لي، بس ده صعب جدًا بالنسبة لك.",
+   "audio": "audio/s3/s17.mp3"
+  },
+  {
+   "de": "Und ich kann Deutsch sprechen.",
+   "ar": "وأنا أقدر أتكلم ألماني.",
+   "audio": "audio/s3/s18.mp3"
+  },
+  {
+   "de": "Das ist nicht sehr einfach für mich, aber das ist sehr schwierig für dich.",
+   "ar": "ده مش سهل جدًا بالنسبة لي، بس ده صعب جدًا بالنسبة لك.",
+   "audio": "audio/s3/s19.mp3"
   }
  ],
  "cards": [
