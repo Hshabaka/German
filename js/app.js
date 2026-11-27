@@ -188,7 +188,7 @@
         el('div', { class: 'hero-main' }, [
           el('div', { class: 'hero-chips' }, [
             el('span', { class: 'chip chip-level' }, ['ألماني ' + s.level]),
-            el('span', { class: 'chip' }, ['الدرس 1 من 28'])
+            el('span', { class: 'chip' }, ['A1-S01'])
           ]),
           el('h1', {}, [String(s.title).replace(/^الجلسة\s*(\d+)/, 'الدرس $1')]),
           el('p', { class: 'hero-sub' }, ['فيديو الدرس والقاعدة والتدريب في صفحة واحدة.'])
