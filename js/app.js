@@ -836,58 +836,6 @@
     return panel('cards', 'Sentence exercises', 'Three short steps: order, correct, translate', [tabs, body], '', 'span-12', 'sec-drills');
   }
 
-  function renderExtra(s) {
-    var x = s.extra;
-    if (!x || !(x.links || x.url)) return null;
-    var links = x.links || [{ title: 'Open the DW exercise', url: x.url }];
-    var kids = [el('p', { style: 'margin:0 0 12px' }, [x.label + (x.video_key || /[.!?:]$/.test(x.label) ? '' : ':')])];
-    if (x.video_key) {
-      var vwrap = el('div', { style: 'margin:0 0 6px;border-radius:12px;overflow:hidden;background:#000' }, []);
-      var vmsg = el('p', { class: 'caption', style: 'margin:6px 0' }, ['Loading the video...']);
-      var v = el('video', { controls: '', playsinline: '', preload: 'metadata', style: 'width:100%;height:auto;display:block;background:#000', 'aria-label': 'Supplementary video' }, []);
-      vwrap.appendChild(v);
-      var tried = 0;
-      var load = function () {
-        fetch('data/video-urls.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
-          var e = d && d[x.video_key];
-          if (e && e.url && e.expires_at > nowSec()) { v.src = e.url; vmsg.textContent = 'Video: Nicos Weg (Deutsche Welle), German subtitles on screen.'; }
-          else vmsg.textContent = 'The video link is refreshing. Open the original DW lesson below to watch it there.';
-        }).catch(function () { vmsg.textContent = 'Could not load the video. Open the original DW lesson below.'; });
-      };
-      v.addEventListener('error', function () { if (tried++ < 2) setTimeout(load, 1500); else vmsg.textContent = 'The video did not play. Open the original DW lesson below.'; });
-      load();
-      kids.push(vwrap, vmsg);
-    }
-    if (x.transcript && x.transcript.length) {
-      var rows = x.transcript.map(function (t) {
-        return el('div', { style: 'margin:0 0 10px' }, [
-          el('div', {}, [el('b', {}, [t.who + ': ']), t.de]),
-          el('div', { dir: 'rtl', style: 'opacity:.8;font-size:.95em' }, [t.ar])]);
-      });
-      kids.push(el('details', { style: 'margin:8px 0 12px' }, [el('summary', { style: 'cursor:pointer;font-weight:600;padding:6px 0' }, ['Short excerpt (German + Arabic)']), el('p', { class: 'caption' }, [x.transcript_note || '']) ].concat(rows)));
-    }
-    if (x.exercises && x.exercises.length) {
-      var box = el('div', {}, []);
-      x.exercises.forEach(function (q, qi) {
-        var fb = el('div', { class: 'caption', 'aria-live': 'polite', style: 'min-height:1.2em;margin-top:4px' }, []);
-        var opts = el('div', { style: 'display:flex;flex-wrap:wrap;gap:8px' }, q.options.map(function (o, oi) {
-          return el('button', { type: 'button', class: 'btn btn-secondary', style: 'min-height:40px', onclick: function () {
-            var ok = oi === q.answer;
-            fb.textContent = (ok ? 'Correct. ' : 'Not quite. ') + q.why;
-            fb.style.color = ok ? '#0a7a3b' : '#b3261e';
-          } }, [o]);
-        }));
-        box.appendChild(el('div', { style: 'margin:0 0 14px' }, [el('p', { style: 'margin:0 0 6px;font-weight:600' }, [(qi + 1) + '. ' + q.q]), opts, fb]));
-      });
-      kids.push(el('h3', { style: 'margin:14px 0 4px;font-size:1em' }, ['Practice questions']), el('p', { class: 'caption', style: 'margin:0 0 8px' }, [x.exercises_note || '']), box);
-    }
-    kids.push(el('p', { style: 'margin:8px 0 6px;font-weight:600' }, ['Original sources']));
-    links.forEach(function (l) {
-      kids.push(el('p', { style: 'margin:0 0 10px' }, [el('a', { class: 'extra-link', href: l.url, target: '_blank', rel: 'noopener' }, [l.title + ' ↗'])]));
-    });
-    return panel('link', 'Extra practice', 'Official source link, short excerpt and our questions', kids, 'tone-night', 'span-12', null);
-  }
-
   function markTracker(id) {
     if (!store.data.tracker[id]) {
       store.data.tracker[id] = new Date().toISOString();
@@ -939,8 +887,7 @@
         renderGrammar(s),
         renderMaterials(s),
         withReset(renderDrills(s), 'sentence exercises', resetDrillsAll),
-        withReset(renderQuiz(s), 'test', resetQuizAll),
-        renderExtra(s)
+        withReset(renderQuiz(s), 'test', resetQuizAll)
       ].filter(Boolean))
     ]));
   }
