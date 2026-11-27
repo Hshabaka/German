@@ -15,8 +15,9 @@
   function plain(parts) { return (parts || []).map(function (p) { return p.t; }).join(''); }
   function norm(s) { return String(s).toLowerCase().replace(/[\u064B-\u065F]/g, '').replace(/[.,!?;:()"'«»،؟]/g, ' ').replace(/\s+/g, ' ').trim(); }
   var AR = /[\u0600-\u06FF]/, LAT = /[A-Za-zÄÖÜäöüß]/;
-  var ITEM = /^\s*(\d+)\s*\)\s*(.*)$/;
+  var ITEM = /^\s*([\d٠-٩]+)\s*\)\s*(.*)$/;
   var OPT = /^\s*([A-D])\s*\)\s*(.*)$/;
+  function toN(x) { return parseInt(digits(x), 10); }
   function digits(s) { return String(s).replace(/[٠-٩]/g, function (d) { return String(d.charCodeAt(0) - 1632); }); }
 
   function sections(blocks) {
@@ -48,9 +49,9 @@
     sec.blocks.forEach(function (b) {
       if (b.type === 'toggle') {
         (b.children || []).forEach(function (c) { plain(c.text).split('\n').forEach(function (t) {
-          var mr = t.match(/^\s*(\d+)\s*-\s*(\d+)\s*\)\s*(.*)$/), m2 = t.match(ITEM);
-          if (mr) { for (var i = +mr[1]; i <= +mr[2]; i++) answers[i] = { free: true, lines: [] }; lastA = { free: true, lines: [mr[3]], range: true }; }
-          else if (m2) { lastA = { lines: [m2[2]] }; answers[+m2[1]] = lastA; }
+          var mr = t.match(/^\s*([\d٠-٩]+)\s*-\s*([\d٠-٩]+)\s*\)\s*(.*)$/), m2 = t.match(ITEM);
+          if (mr) { for (var i = toN(mr[1]); i <= toN(mr[2]); i++) answers[i] = { free: true, lines: [] }; lastA = { free: true, lines: [mr[3]], range: true }; }
+          else if (m2) { lastA = { lines: [m2[2]] }; answers[toN(m2[1])] = lastA; }
           else if (lastA && !/^\(.*\)$/.test(t.trim())) { lastA.lines.push(t); }
           else if (t.trim()) { notes.push(t); }
         }); });
@@ -63,7 +64,7 @@
       var om = tt.match(/رتب.*[(（]\s*([١-٩\d]+)\s*إلى\s*([١-٩\d]+)\s*[)）]/);
       if (om) { orderN = parseInt(digits(om[2]), 10); order = { kind: 'order', n: 'ord', head: tt, lines: [], extras: [] }; return; }
       var m = t.match(ITEM);
-      if (m) { lastItem = { n: +m[1], text: m[2], head: group.join('  '), extras: [] }; group = []; afterHeader = false; items.push(lastItem); return; }
+      if (m) { lastItem = { n: toN(m[1]), text: m[2], head: group.join('  '), extras: [] }; group = []; afterHeader = false; items.push(lastItem); return; }
       if (/[:：]\s*$/.test(tt)) { group = group.concat([tt]); afterHeader = true; lastItem = null; return; }
       if (afterHeader || !lastItem) group.push(tt); else lastItem.extras.push(tt);
     });
