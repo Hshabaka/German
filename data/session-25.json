@@ -1,0 +1,838 @@
+{
+  "id": 25,
+  "level": "a1",
+  "title": "Session 25: What happened? (the perfect tense, Perfekt)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=LIIED4JJ9aE",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "formula",
+      "label": "The Perfekt formula",
+      "words": [
+        {
+          "de": "haben / sein + Partizip II",
+          "ar": "المساعد في المركز 2 + التصريف الثالث في الآخر",
+          "audio": "audio/s25/vocab/01-haben-sein-partizip-ii.mp3"
+        },
+        {
+          "de": "haben",
+          "ar": "للسكون والحركة في نفس المكان",
+          "audio": "audio/s25/vocab/02-haben.mp3"
+        },
+        {
+          "de": "sein",
+          "ar": "للانتقال من مكان لمكان وتغيير الحالة",
+          "audio": "audio/s25/vocab/03-sein.mp3"
+        },
+        {
+          "de": "Partizip II",
+          "ar": "التصريف الثالث",
+          "audio": "audio/s25/vocab/04-partizip-ii.mp3"
+        },
+        {
+          "de": "Perfekt",
+          "ar": "الماضي التام",
+          "audio": "audio/s25/vocab/05-perfekt.mp3"
+        }
+      ]
+    },
+    {
+      "id": "regular",
+      "label": "Regular verbs (ge...t)",
+      "words": [
+        {
+          "de": "machen → hat gemacht",
+          "ar": "يفعل",
+          "audio": "audio/s25/vocab/06-machen-hat-gemacht.mp3"
+        },
+        {
+          "de": "lernen → hat gelernt",
+          "ar": "يتعلم",
+          "audio": "audio/s25/vocab/07-lernen-hat-gelernt.mp3"
+        },
+        {
+          "de": "kochen → hat gekocht",
+          "ar": "يطبخ",
+          "audio": "audio/s25/vocab/08-kochen-hat-gekocht.mp3"
+        },
+        {
+          "de": "spielen → hat gespielt",
+          "ar": "يلعب",
+          "audio": "audio/s25/vocab/09-spielen-hat-gespielt.mp3"
+        },
+        {
+          "de": "hören → hat gehört",
+          "ar": "يسمع",
+          "audio": "audio/s25/vocab/10-hoeren-hat-gehoert.mp3"
+        },
+        {
+          "de": "kaufen → hat gekauft",
+          "ar": "يشتري",
+          "audio": "audio/s25/vocab/11-kaufen-hat-gekauft.mp3"
+        },
+        {
+          "de": "arbeiten → hat gearbeitet",
+          "ar": "يشتغل (بنزود e للنطق)",
+          "audio": "audio/s25/vocab/12-arbeiten-hat-gearbeitet.mp3"
+        },
+        {
+          "de": "fragen → hat gefragt",
+          "ar": "يسأل",
+          "audio": "audio/s25/vocab/13-fragen-hat-gefragt.mp3"
+        },
+        {
+          "de": "sagen → hat gesagt",
+          "ar": "يقول",
+          "audio": "audio/s25/vocab/14-sagen-hat-gesagt.mp3"
+        },
+        {
+          "de": "reisen → ist gereist",
+          "ar": "يسافر (حركة وانتقال)",
+          "audio": "audio/s25/vocab/15-reisen-ist-gereist.mp3"
+        },
+        {
+          "de": "besuchen → hat besucht",
+          "ar": "يزور",
+          "audio": "audio/s25/vocab/16-besuchen-hat-besucht.mp3"
+        }
+      ]
+    },
+    {
+      "id": "separable",
+      "label": "Separable verbs (ge in the middle)",
+      "words": [
+        {
+          "de": "einkaufen → hat eingekauft",
+          "ar": "يتسوق",
+          "audio": "audio/s25/vocab/17-einkaufen-hat-eingekauft.mp3"
+        },
+        {
+          "de": "aufräumen → hat aufgeräumt",
+          "ar": "يرتب",
+          "audio": "audio/s25/vocab/18-aufraeumen-hat-aufgeraeumt.mp3"
+        },
+        {
+          "de": "aufmachen → hat aufgemacht",
+          "ar": "يفتح",
+          "audio": "audio/s25/vocab/19-aufmachen-hat-aufgemacht.mp3"
+        },
+        {
+          "de": "zumachen → hat zugemacht",
+          "ar": "يقفل",
+          "audio": "audio/s25/vocab/20-zumachen-hat-zugemacht.mp3"
+        },
+        {
+          "de": "abholen → hat abgeholt",
+          "ar": "يستلم/يجيب شخص",
+          "audio": "audio/s25/vocab/21-abholen-hat-abgeholt.mp3"
+        },
+        {
+          "de": "aufstehen → ist aufgestanden",
+          "ar": "يصحى (تغيير حالة)",
+          "audio": "audio/s25/vocab/22-aufstehen-ist-aufgestanden.mp3"
+        },
+        {
+          "de": "einschlafen → ist eingeschlafen",
+          "ar": "ينام (تغيير حالة)",
+          "audio": "audio/s25/vocab/23-einschlafen-ist-eingeschlafen.mp3"
+        },
+        {
+          "de": "ankommen → ist angekommen",
+          "ar": "يوصل (انتقال)",
+          "audio": "audio/s25/vocab/24-ankommen-ist-angekommen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "irregular",
+      "label": "Irregular verbs (-en, new stem)",
+      "words": [
+        {
+          "de": "sprechen → hat gesprochen",
+          "ar": "يتكلم",
+          "audio": "audio/s25/vocab/25-sprechen-hat-gesprochen.mp3"
+        },
+        {
+          "de": "essen → hat gegessen",
+          "ar": "يأكل",
+          "audio": "audio/s25/vocab/26-essen-hat-gegessen.mp3"
+        },
+        {
+          "de": "trinken → hat getrunken",
+          "ar": "يشرب",
+          "audio": "audio/s25/vocab/27-trinken-hat-getrunken.mp3"
+        },
+        {
+          "de": "lesen → hat gelesen",
+          "ar": "يقرأ",
+          "audio": "audio/s25/vocab/28-lesen-hat-gelesen.mp3"
+        },
+        {
+          "de": "schreiben → hat geschrieben",
+          "ar": "يكتب",
+          "audio": "audio/s25/vocab/29-schreiben-hat-geschrieben.mp3"
+        },
+        {
+          "de": "sehen → hat gesehen",
+          "ar": "يشوف",
+          "audio": "audio/s25/vocab/30-sehen-hat-gesehen.mp3"
+        },
+        {
+          "de": "schlafen → hat geschlafen",
+          "ar": "ينام",
+          "audio": "audio/s25/vocab/31-schlafen-hat-geschlafen.mp3"
+        },
+        {
+          "de": "finden → hat gefunden",
+          "ar": "يلاقي",
+          "audio": "audio/s25/vocab/32-finden-hat-gefunden.mp3"
+        },
+        {
+          "de": "gehen → ist gegangen",
+          "ar": "يروح",
+          "audio": "audio/s25/vocab/33-gehen-ist-gegangen.mp3"
+        },
+        {
+          "de": "fahren → ist gefahren",
+          "ar": "يسافر/يسوق",
+          "audio": "audio/s25/vocab/34-fahren-ist-gefahren.mp3"
+        },
+        {
+          "de": "kommen → ist gekommen",
+          "ar": "ييجي",
+          "audio": "audio/s25/vocab/35-kommen-ist-gekommen.mp3"
+        },
+        {
+          "de": "fliegen → ist geflogen",
+          "ar": "يطير",
+          "audio": "audio/s25/vocab/36-fliegen-ist-geflogen.mp3"
+        },
+        {
+          "de": "bleiben → ist geblieben",
+          "ar": "يفضل/يمكث (الاستثناء)",
+          "audio": "audio/s25/vocab/37-bleiben-ist-geblieben.mp3"
+        }
+      ]
+    },
+    {
+      "id": "weekend",
+      "label": "Weekend and story words",
+      "words": [
+        {
+          "de": "Wochenende",
+          "ar": "الويك إند",
+          "audio": "audio/s25/vocab/38-wochenende.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Fußball",
+          "ar": "كرة القدم",
+          "audio": "audio/s25/vocab/39-fussball.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Hausaufgabe",
+          "ar": "الواجب",
+          "audio": "audio/s25/vocab/40-hausaufgabe.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Freunde",
+          "ar": "الأصدقاء",
+          "audio": "audio/s25/vocab/41-freunde.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Kairo",
+          "ar": "القاهرة",
+          "audio": "audio/s25/vocab/42-kairo.mp3"
+        },
+        {
+          "de": "gestern",
+          "ar": "إمبارح",
+          "audio": "audio/s25/vocab/43-gestern.mp3"
+        },
+        {
+          "de": "dann",
+          "ar": "بعدين",
+          "audio": "audio/s25/vocab/44-dann.mp3"
+        },
+        {
+          "de": "am Abend",
+          "ar": "بالليل",
+          "audio": "audio/s25/vocab/45-am-abend.mp3"
+        },
+        {
+          "de": "Gestern",
+          "ar": "إمبارح (بداية جملة)",
+          "audio": "audio/s25/vocab/46-gestern.mp3"
+        },
+        {
+          "de": "zu Hause",
+          "ar": "في البيت",
+          "audio": "audio/s25/vocab/47-zu-hause.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Er hat am Wochenende Fußball gespielt.",
+      "ar": "هو لعب كورة في الويك إند.",
+      "audio": "audio/s25/s01-er-hat-am-wochenende-fussball-gespielt.mp3"
+    },
+    {
+      "de": "Er hat die Freunde besucht.",
+      "ar": "هو زار الأصدقاء.",
+      "audio": "audio/s25/s02-er-hat-die-freunde-besucht.mp3"
+    },
+    {
+      "de": "Er hat die Hausaufgabe gemacht.",
+      "ar": "هو عمل الواجب.",
+      "audio": "audio/s25/s03-er-hat-die-hausaufgabe-gemacht.mp3"
+    },
+    {
+      "de": "Er ist gestern zu Hause geblieben.",
+      "ar": "هو فضل في البيت إمبارح.",
+      "audio": "audio/s25/s04-er-ist-gestern-zu-hause-geblieben.mp3"
+    },
+    {
+      "de": "Er ist nach Kairo gefahren.",
+      "ar": "هو سافر القاهرة.",
+      "audio": "audio/s25/s05-er-ist-nach-kairo-gefahren.mp3"
+    },
+    {
+      "de": "Ich habe eine Pizza gegessen.",
+      "ar": "أنا أكلت بيتزا.",
+      "audio": "audio/s25/s06-ich-habe-eine-pizza-gegessen.mp3"
+    },
+    {
+      "de": "Wir haben gestern Fußball gespielt.",
+      "ar": "إحنا لعبنا كورة إمبارح.",
+      "audio": "audio/s25/s07-wir-haben-gestern-fussball-gespielt.mp3"
+    },
+    {
+      "de": "Sie ist um 7 Uhr aufgestanden.",
+      "ar": "هي صحيت الساعة 7.",
+      "audio": "audio/s25/s08-sie-ist-um-7-uhr-aufgestanden.mp3"
+    },
+    {
+      "de": "Ihr habt lange geschlafen.",
+      "ar": "إنتم نمتوا كتير.",
+      "audio": "audio/s25/s09-ihr-habt-lange-geschlafen.mp3"
+    },
+    {
+      "de": "Ali ist zu Hause geblieben.",
+      "ar": "علي فضل في البيت.",
+      "audio": "audio/s25/s10-ali-ist-zu-hause-geblieben.mp3"
+    },
+    {
+      "de": "Ich habe Deutsch gelernt.",
+      "ar": "أنا اتعلمت ألماني.",
+      "audio": "audio/s25/s11-ich-habe-deutsch-gelernt.mp3"
+    },
+    {
+      "de": "Wir haben im Supermarkt eingekauft.",
+      "ar": "إحنا اتسوقنا من السوبرماركت.",
+      "audio": "audio/s25/s12-wir-haben-im-supermarkt-eingekauft.mp3"
+    },
+    {
+      "de": "Er ist ins Kino gegangen.",
+      "ar": "هو راح السينما.",
+      "audio": "audio/s25/s13-er-ist-ins-kino-gegangen.mp3"
+    },
+    {
+      "de": "Sie hat Kaffee getrunken.",
+      "ar": "هي شربت قهوة.",
+      "audio": "audio/s25/s14-sie-hat-kaffee-getrunken.mp3"
+    },
+    {
+      "de": "Gestern bin ich um 7 Uhr aufgestanden.",
+      "ar": "إمبارح صحيت الساعة 7.",
+      "audio": "audio/s25/s15-gestern-bin-ich-um-7-uhr-aufgestanden.mp3"
+    },
+    {
+      "de": "Ich habe meinen Kaffee getrunken, dann bin ich nach Berlin gefahren.",
+      "ar": "شربت قهوتي وبعدين سافرت برلين.",
+      "audio": "audio/s25/s16-ich-habe-meinen-kaffee-getrunken-dann-bin-ic.mp3"
+    },
+    {
+      "de": "Am Abend habe ich ein Buch gelesen, und ich bin zu Hause geblieben.",
+      "ar": "بالليل قريت كتاب وفضلت في البيت.",
+      "audio": "audio/s25/s17-am-abend-habe-ich-ein-buch-gelesen-und-ich-b.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Wochenende",
+      "ar": "الويك إند",
+      "audio": "audio/s25/vocab/38-wochenende.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Fußball",
+      "ar": "كرة القدم",
+      "audio": "audio/s25/vocab/39-fussball.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Hausaufgabe",
+      "ar": "الواجب",
+      "audio": "audio/s25/vocab/40-hausaufgabe.mp3",
+      "article": "die"
+    },
+    {
+      "de": "gestern",
+      "ar": "إمبارح",
+      "audio": "audio/s25/vocab/43-gestern.mp3"
+    },
+    {
+      "de": "dann",
+      "ar": "بعدين",
+      "audio": "audio/s25/vocab/44-dann.mp3"
+    },
+    {
+      "de": "am Abend",
+      "ar": "بالليل",
+      "audio": "audio/s25/vocab/45-am-abend.mp3"
+    },
+    {
+      "de": "haben",
+      "ar": "للسكون والحركة في نفس المكان",
+      "audio": "audio/s25/vocab/02-haben.mp3"
+    },
+    {
+      "de": "sein",
+      "ar": "للانتقال من مكان لمكان وتغيير الحالة",
+      "audio": "audio/s25/vocab/03-sein.mp3"
+    },
+    {
+      "de": "Perfekt",
+      "ar": "الماضي التام",
+      "audio": "audio/s25/vocab/05-perfekt.mp3"
+    },
+    {
+      "de": "Partizip II",
+      "ar": "التصريف الثالث",
+      "audio": "audio/s25/vocab/04-partizip-ii.mp3"
+    },
+    {
+      "de": "bleiben → ist geblieben",
+      "ar": "يفضل/يمكث (الاستثناء)",
+      "audio": "audio/s25/vocab/37-bleiben-ist-geblieben.mp3"
+    },
+    {
+      "de": "gehen → ist gegangen",
+      "ar": "يروح",
+      "audio": "audio/s25/vocab/33-gehen-ist-gegangen.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich ___ eine Pizza gegessen.",
+      "options": [
+        "habe",
+        "bin",
+        "ist"
+      ],
+      "answer": 0,
+      "why": "essen = سكون: haben.",
+      "ar": "أكلت."
+    },
+    {
+      "prompt": "Er ___ nach Kairo gefahren.",
+      "options": [
+        "ist",
+        "hat",
+        "habe"
+      ],
+      "answer": 0,
+      "why": "fahren = انتقال: sein.",
+      "ar": "سافر."
+    },
+    {
+      "prompt": "Wir ___ gestern Fußball gespielt.",
+      "options": [
+        "haben",
+        "sind",
+        "ist"
+      ],
+      "answer": 0,
+      "why": "حركة في نفس المكان: haben.",
+      "ar": "لعبنا."
+    },
+    {
+      "prompt": "Sie ___ um 7 Uhr aufgestanden.",
+      "options": [
+        "ist",
+        "hat",
+        "haben"
+      ],
+      "answer": 0,
+      "why": "تغيير حالة: sein.",
+      "ar": "صحيت."
+    },
+    {
+      "prompt": "Ihr ___ lange geschlafen.",
+      "options": [
+        "habt",
+        "seid",
+        "haben"
+      ],
+      "answer": 0,
+      "why": "سكون: haben (ihr habt).",
+      "ar": "نمتوا."
+    },
+    {
+      "prompt": "Ali ___ zu Hause geblieben.",
+      "options": [
+        "ist",
+        "hat",
+        "habe"
+      ],
+      "answer": 0,
+      "why": "bleiben الاستثناء: sein.",
+      "ar": "فضل."
+    },
+    {
+      "prompt": "machen → ___",
+      "options": [
+        "gemacht",
+        "gemachen",
+        "gemachte"
+      ],
+      "answer": 0,
+      "why": "ge + جذر + t.",
+      "ar": "عمل."
+    },
+    {
+      "prompt": "gehen → ___",
+      "options": [
+        "gegangen",
+        "gegeht",
+        "gegehen"
+      ],
+      "answer": 0,
+      "why": "شاذ: gegangen.",
+      "ar": "راح."
+    },
+    {
+      "prompt": "einkaufen → ___",
+      "options": [
+        "eingekauft",
+        "geeinkauft",
+        "einkaufgt"
+      ],
+      "answer": 0,
+      "why": "ge في النص: ein+ge+kauft.",
+      "ar": "اتسوق."
+    },
+    {
+      "prompt": "ankommen → ___",
+      "options": [
+        "angekommen",
+        "geankommen",
+        "angekommt"
+      ],
+      "answer": 0,
+      "why": "an+ge+kommen.",
+      "ar": "وصل."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلمك الماضي التام (Perfekt): haben/sein في المركز التاني + Partizip II في الآخر، والفرق بين haben وsein، والأفعال المنتظمة والمنفصلة والشاذة."
+  },
+  "grammar": [
+    {
+      "title": "تركيبة الـ Perfekt",
+      "rule": "المساعد haben أو sein في المركز التاني + Partizip II (التصريف الثالث) في آخر الجملة.",
+      "forms": [
+        "haben / sein (المركز 2) + Partizip II (الآخر)"
+      ],
+      "examples": [
+        {
+          "de": "Ich habe eine Pizza gegessen.",
+          "ar": "أكلت بيتزا."
+        },
+        {
+          "de": "Er ist nach Kairo gefahren.",
+          "ar": "سافر القاهرة."
+        }
+      ]
+    },
+    {
+      "title": "haben ولا sein؟",
+      "rule": "haben: أفعال السكون والحركة في نفس المكان. sein: الانتقال من مكان لمكان، وتغيير الحالة (ينام/يصحى). الاستثناء: bleiben ياخد sein رغم إنه ثابت.",
+      "forms": [
+        "haben: essen, spielen, schlafen",
+        "sein: gehen, fahren, kommen, fliegen, reisen, ankommen",
+        "sein: aufstehen, einschlafen (تغيير حالة)",
+        "استثناء: bleiben → ist geblieben"
+      ],
+      "examples": [
+        {
+          "de": "Ali ist zu Hause geblieben.",
+          "ar": "علي فضل في البيت."
+        }
+      ]
+    },
+    {
+      "title": "الأفعال المنتظمة ge...t",
+      "rule": "ge في الأول وt في الآخر. لو الجذر بيخلص بـ t/d بنزود e: arbeiten → gearbeitet.",
+      "forms": [
+        "machen → gemacht",
+        "lernen → gelernt",
+        "kochen → gekocht",
+        "spielen → gespielt",
+        "hören → gehört",
+        "kaufen → gekauft",
+        "arbeiten → gearbeitet",
+        "fragen → gefragt",
+        "sagen → gesagt",
+        "reisen → gereist (sein)"
+      ],
+      "examples": [
+        {
+          "de": "Ich habe Deutsch gelernt.",
+          "ar": "اتعلمت ألماني."
+        }
+      ]
+    },
+    {
+      "title": "الأفعال المنفصلة: ge في النص",
+      "rule": "الـ ge بتدخل في النص بين البادئة والفعل.",
+      "forms": [
+        "einkaufen → eingekauft",
+        "aufräumen → aufgeräumt",
+        "aufmachen → aufgemacht",
+        "zumachen → zugemacht",
+        "abholen → abgeholt",
+        "aufstehen → aufgestanden (sein)",
+        "einschlafen → eingeschlafen (sein)",
+        "ankommen → angekommen (sein)"
+      ],
+      "examples": [
+        {
+          "de": "Wir haben im Supermarkt eingekauft.",
+          "ar": "اتسوقنا."
+        }
+      ]
+    },
+    {
+      "title": "الأفعال الشاذة (-en)",
+      "rule": "بتحتفظ بنهاية en وبيتغير شكلها.",
+      "forms": [
+        "sprechen → gesprochen",
+        "essen → gegessen",
+        "trinken → getrunken",
+        "lesen → gelesen",
+        "schreiben → geschrieben",
+        "sehen → gesehen",
+        "schlafen → geschlafen",
+        "finden → gefunden",
+        "gehen → gegangen (sein)",
+        "fahren → gefahren (sein)",
+        "kommen → gekommen (sein)",
+        "fliegen → geflogen (sein)",
+        "bleiben → geblieben (sein)"
+      ],
+      "examples": [
+        {
+          "de": "Er ist ins Kino gegangen.",
+          "ar": "راح السينما."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Er",
+          "hat",
+          "am",
+          "Wochenende",
+          "Fußball",
+          "gespielt"
+        ],
+        "answer": "Er hat am Wochenende Fußball gespielt",
+        "ar": "لعب كورة."
+      },
+      {
+        "tiles": [
+          "Er",
+          "ist",
+          "nach",
+          "Kairo",
+          "gefahren"
+        ],
+        "answer": "Er ist nach Kairo gefahren",
+        "ar": "سافر القاهرة."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "habe",
+          "Deutsch",
+          "gelernt"
+        ],
+        "answer": "Ich habe Deutsch gelernt",
+        "ar": "اتعلمت ألماني."
+      },
+      {
+        "tiles": [
+          "Sie",
+          "hat",
+          "Kaffee",
+          "getrunken"
+        ],
+        "answer": "Sie hat Kaffee getrunken",
+        "ar": "شربت قهوة."
+      },
+      {
+        "tiles": [
+          "Er",
+          "ist",
+          "ins",
+          "Kino",
+          "gegangen"
+        ],
+        "answer": "Er ist ins Kino gegangen",
+        "ar": "راح السينما."
+      },
+      {
+        "tiles": [
+          "Wir",
+          "haben",
+          "im",
+          "Supermarkt",
+          "eingekauft"
+        ],
+        "answer": "Wir haben im Supermarkt eingekauft",
+        "ar": "اتسوقنا."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Er ist gestern zu Hause geblieben.",
+          "Er hat gestern zu Hause geblieben."
+        ],
+        "answer": 0,
+        "why": "bleiben ياخد sein.",
+        "ar": "فضل."
+      },
+      {
+        "options": [
+          "Er ist nach Kairo gefahren.",
+          "Er hat nach Kairo gefahren."
+        ],
+        "answer": 0,
+        "why": "انتقال: sein.",
+        "ar": "سافر."
+      },
+      {
+        "options": [
+          "Ich habe eine Pizza gegessen.",
+          "Ich bin eine Pizza gegessen."
+        ],
+        "answer": 0,
+        "why": "essen: haben.",
+        "ar": "أكلت."
+      },
+      {
+        "options": [
+          "Sie ist aufgestanden.",
+          "Sie hat aufgestanden."
+        ],
+        "answer": 0,
+        "why": "aufstehen: sein.",
+        "ar": "صحيت."
+      },
+      {
+        "options": [
+          "Ich habe Deutsch gelernt.",
+          "Ich habe Deutsch lernt."
+        ],
+        "answer": 0,
+        "why": "الـ ge ضروري: gelernt.",
+        "ar": "اتعلمت."
+      },
+      {
+        "options": [
+          "Wir haben eingekauft.",
+          "Wir haben geeinkauft."
+        ],
+        "answer": 0,
+        "why": "ge في النص: eingekauft.",
+        "ar": "اتسوقنا."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "هو لعب كرة القدم في عطلة نهاية الأسبوع.",
+        "de": "Er hat am Wochenende Fußball gespielt.",
+        "audio": "audio/s25/tr1.mp3"
+      },
+      {
+        "ar": "هو سافر إلى القاهرة.",
+        "de": "Er ist nach Kairo gefahren.",
+        "audio": "audio/s25/tr2.mp3"
+      },
+      {
+        "ar": "أنا أكلت بيتزا.",
+        "de": "Ich habe eine Pizza gegessen.",
+        "audio": "audio/s25/tr3.mp3"
+      },
+      {
+        "ar": "هو ذهب إلى السينما.",
+        "de": "Er ist ins Kino gegangen.",
+        "audio": "audio/s25/tr4.mp3"
+      },
+      {
+        "ar": "هي شربت قهوة.",
+        "de": "Sie hat Kaffee getrunken.",
+        "audio": "audio/s25/tr5.mp3"
+      },
+      {
+        "ar": "أمس استيقظت في الساعة السابعة.",
+        "de": "Gestern bin ich um 7 Uhr aufgestanden.",
+        "audio": "audio/s25/tr6.mp3"
+      }
+    ]
+  }
+}
