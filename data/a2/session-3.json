@@ -1,0 +1,635 @@
+{
+ "id": 3,
+ "level": "a2",
+ "title": "Session 3: Plans cancelled (simple connectors)",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=fEscykc1s18",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=fEscykc1s18"
+ },
+ "vocab": [
+  {
+   "id": "verben",
+   "label": "Verbs",
+   "words": [
+    {
+     "de": "absagen",
+     "ar": "يلغي (معاد)",
+     "audio": "audio/a2/s3/vocab/01-absagen.mp3"
+    },
+    {
+     "de": "verschieben",
+     "ar": "يؤجل",
+     "audio": "audio/a2/s3/vocab/02-verschieben.mp3"
+    },
+    {
+     "de": "sich treffen",
+     "ar": "يتقابل",
+     "audio": "audio/a2/s3/vocab/03-sich-treffen.mp3"
+    },
+    {
+     "de": "mitkommen",
+     "ar": "يرافق / ييجي مع",
+     "audio": "audio/a2/s3/vocab/04-mitkommen.mp3"
+    },
+    {
+     "de": "bleiben",
+     "ar": "يفضل / يقعد",
+     "audio": "audio/a2/s3/vocab/05-bleiben.mp3"
+    },
+    {
+     "de": "ausgehen",
+     "ar": "يخرج (للتنزه)",
+     "audio": "audio/a2/s3/vocab/06-ausgehen.mp3"
+    },
+    {
+     "de": "warten",
+     "ar": "يستنى",
+     "audio": "audio/a2/s3/vocab/07-warten.mp3"
+    },
+    {
+     "de": "glauben",
+     "ar": "يعتقد / يظن",
+     "audio": "audio/a2/s3/vocab/08-glauben.mp3"
+    },
+    {
+     "de": "hoffen",
+     "ar": "يأمل",
+     "audio": "audio/a2/s3/vocab/09-hoffen.mp3"
+    }
+   ]
+  },
+  {
+   "id": "nomen",
+   "label": "Nouns",
+   "words": [
+    {
+     "de": "Plan",
+     "ar": "الخطة",
+     "audio": "audio/a2/s3/vocab/10-plan.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Grund",
+     "ar": "السبب",
+     "audio": "audio/a2/s3/vocab/11-grund.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Lust",
+     "ar": "الرغبة / المزاج",
+     "audio": "audio/a2/s3/vocab/12-lust.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Krankheit",
+     "ar": "المرض",
+     "audio": "audio/a2/s3/vocab/13-krankheit.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Fieber",
+     "ar": "السخونية",
+     "audio": "audio/a2/s3/vocab/14-fieber.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Kopfschmerzen",
+     "ar": "الصداع",
+     "audio": "audio/a2/s3/vocab/15-kopfschmerzen.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Wetter",
+     "ar": "الطقس",
+     "audio": "audio/a2/s3/vocab/16-wetter.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Regen",
+     "ar": "المطر",
+     "audio": "audio/a2/s3/vocab/17-regen.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Kino",
+     "ar": "السينما",
+     "audio": "audio/a2/s3/vocab/18-kino.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Konzert",
+     "ar": "الحفلة الموسيقية",
+     "audio": "audio/a2/s3/vocab/19-konzert.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Restaurant",
+     "ar": "المطعم",
+     "audio": "audio/a2/s3/vocab/20-restaurant.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Ausflug",
+     "ar": "الرحلة القصيرة / النزهة",
+     "audio": "audio/a2/s3/vocab/21-ausflug.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Besuch",
+     "ar": "الزيارة",
+     "audio": "audio/a2/s3/vocab/22-besuch.mp3",
+     "article": "der"
+    }
+   ]
+  },
+  {
+   "id": "adj-konn",
+   "label": "Adjectives and connectors",
+   "words": [
+    {
+     "de": "krank",
+     "ar": "مريض",
+     "audio": "audio/a2/s3/vocab/23-krank.mp3"
+    },
+    {
+     "de": "gesund",
+     "ar": "بصحة كويسة / معافى",
+     "audio": "audio/a2/s3/vocab/24-gesund.mp3"
+    },
+    {
+     "de": "müde",
+     "ar": "متعب",
+     "audio": "audio/a2/s3/vocab/25-muede.mp3"
+    },
+    {
+     "de": "kaputt",
+     "ar": "مكسور / مرهق جدًا",
+     "audio": "audio/a2/s3/vocab/26-kaputt.mp3"
+    },
+    {
+     "de": "schade",
+     "ar": "خسارة / للأسف",
+     "audio": "audio/a2/s3/vocab/27-schade.mp3"
+    },
+    {
+     "de": "leider",
+     "ar": "للأسف",
+     "audio": "audio/a2/s3/vocab/28-leider.mp3"
+    },
+    {
+     "de": "vielleicht",
+     "ar": "ممكن / ربما",
+     "audio": "audio/a2/s3/vocab/29-vielleicht.mp3"
+    },
+    {
+     "de": "und",
+     "ar": "و",
+     "audio": "audio/a2/s3/vocab/30-und.mp3"
+    },
+    {
+     "de": "aber",
+     "ar": "لكن",
+     "audio": "audio/a2/s3/vocab/31-aber.mp3"
+    },
+    {
+     "de": "oder",
+     "ar": "أو / ولا",
+     "audio": "audio/a2/s3/vocab/32-oder.mp3"
+    },
+    {
+     "de": "denn",
+     "ar": "عشان / لأن",
+     "audio": "audio/a2/s3/vocab/33-denn.mp3"
+    },
+    {
+     "de": "sondern",
+     "ar": "بل",
+     "audio": "audio/a2/s3/vocab/34-sondern.mp3"
+    },
+    {
+     "de": "nicht / kein-",
+     "ar": "أدوات النفي (ضرورية قبل sondern)",
+     "audio": "audio/a2/s3/vocab/35-nicht-kein.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Ich komme nicht, denn ich bin krank.",
+   "ar": "مش هاجي عشان أنا مريض.",
+   "audio": "audio/a2/s3/s01-ich-komme-nicht-denn-ich-bin-krank.mp3"
+  },
+  {
+   "de": "Ich habe Zeit, aber ich bin sehr müde.",
+   "ar": "عندي وقت، لكن أنا متعب جدًا.",
+   "audio": "audio/a2/s3/s02-ich-habe-zeit-aber-ich-bin-sehr-muede.mp3"
+  },
+  {
+   "de": "Gehen wir ins Kino, oder bleiben wir zu Hause?",
+   "ar": "نروح السينما ولا نقعد في البيت؟",
+   "audio": "audio/a2/s3/s03-gehen-wir-ins-kino-oder-bleiben-wir-zu-hause.mp3"
+  },
+  {
+   "de": "Wir treffen uns nicht heute, sondern morgen.",
+   "ar": "مش هنتقابل النهاردة، بل بكرة.",
+   "audio": "audio/a2/s3/s04-wir-treffen-uns-nicht-heute-sondern-morgen.mp3"
+  },
+  {
+   "de": "Ich kann leider nicht mitkommen, denn ich muss arbeiten.",
+   "ar": "للأسف مش أقدر أجي معاكم، عشان لازم أشتغل.",
+   "audio": "audio/a2/s3/s05-ich-kann-leider-nicht-mitkommen-denn-ich-mus.mp3"
+  },
+  {
+   "de": "Das ist sehr schade, aber ich habe keine Zeit.",
+   "ar": "ده مؤسف جدًا، لكن ماعنديش وقت.",
+   "audio": "audio/a2/s3/s06-das-ist-sehr-schade-aber-ich-habe-keine-zeit.mp3"
+  },
+  {
+   "de": "Wir können uns nicht heute treffen, sondern am Freitag.",
+   "ar": "مش نقدر نتقابل النهاردة، بل يوم الجمعة.",
+   "audio": "audio/a2/s3/s07-wir-koennen-uns-nicht-heute-treffen-sondern-.mp3"
+  },
+  {
+   "de": "Ich trinke keinen Kaffee, sondern ich trinke Tee.",
+   "ar": "مابشربش قهوة، بل بشرب شاي.",
+   "audio": "audio/a2/s3/s08-ich-trinke-keinen-kaffee-sondern-ich-trinke-.mp3"
+  },
+  {
+   "de": "Wir gehen heute spazieren, denn das Wetter ist sehr schön.",
+   "ar": "هنتمشى النهاردة عشان الجو حلو جدًا.",
+   "audio": "audio/a2/s3/s09-wir-gehen-heute-spazieren-denn-das-wetter-is.mp3"
+  },
+  {
+   "de": "Ich muss mich beeilen, denn ich habe einen Termin.",
+   "ar": "لازم أستعجل عشان عندي معاد.",
+   "audio": "audio/a2/s3/s10-ich-muss-mich-beeilen-denn-ich-habe-einen-te.mp3"
+  },
+  {
+   "de": "Er kann nicht kommen, denn er will sich ausruhen.",
+   "ar": "هو مش هيقدر ييجي عشان عايز يرتاح.",
+   "audio": "audio/a2/s3/s11-er-kann-nicht-kommen-denn-er-will-sich-ausru.mp3"
+  },
+  {
+   "de": "Wir treffen uns nicht am Morgen, sondern am Abend.",
+   "ar": "مش هنتقابل الصبح، بل بالليل.",
+   "audio": "audio/a2/s3/s12-wir-treffen-uns-nicht-am-morgen-sondern-am-a.mp3"
+  },
+  {
+   "de": "Ich habe keine Lust auf Kino.",
+   "ar": "ماعنديش مزاج للسينما.",
+   "audio": "audio/a2/s3/s13-ich-habe-keine-lust-auf-kino.mp3"
+  },
+  {
+   "de": "Ich habe Fieber, aber ich ruhe mich jetzt aus.",
+   "ar": "عندي سخونية، لكن بارتاح دلوقتي.",
+   "audio": "audio/a2/s3/s14-ich-habe-fieber-aber-ich-ruhe-mich-jetzt-aus.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "Plan",
+   "ar": "الخطة",
+   "audio": "audio/a2/s3/vocab/10-plan.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Grund",
+   "ar": "السبب",
+   "audio": "audio/a2/s3/vocab/11-grund.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Lust",
+   "ar": "الرغبة / المزاج",
+   "audio": "audio/a2/s3/vocab/12-lust.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Krankheit",
+   "ar": "المرض",
+   "audio": "audio/a2/s3/vocab/13-krankheit.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Fieber",
+   "ar": "السخونية",
+   "audio": "audio/a2/s3/vocab/14-fieber.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Kopfschmerzen",
+   "ar": "الصداع",
+   "audio": "audio/a2/s3/vocab/15-kopfschmerzen.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Wetter",
+   "ar": "الطقس",
+   "audio": "audio/a2/s3/vocab/16-wetter.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Regen",
+   "ar": "المطر",
+   "audio": "audio/a2/s3/vocab/17-regen.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Kino",
+   "ar": "السينما",
+   "audio": "audio/a2/s3/vocab/18-kino.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Konzert",
+   "ar": "الحفلة الموسيقية",
+   "audio": "audio/a2/s3/vocab/19-konzert.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Restaurant",
+   "ar": "المطعم",
+   "audio": "audio/a2/s3/vocab/20-restaurant.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Ausflug",
+   "ar": "الرحلة القصيرة / النزهة",
+   "audio": "audio/a2/s3/vocab/21-ausflug.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Besuch",
+   "ar": "الزيارة",
+   "audio": "audio/a2/s3/vocab/22-besuch.mp3",
+   "article": "der"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Ich trinke keinen Kaffee, ________ ich trinke Tee. (تصحيح معلومة)",
+   "options": [
+    "sondern",
+    "aber",
+    "denn"
+   ],
+   "answer": 0,
+   "why": "تصحيح معلومة بعد جملة منفية = sondern.",
+   "ar": "مابشربش قهوة، بل بشرب شاي."
+  },
+  {
+   "prompt": "Wir gehen heute spazieren, ________ das Wetter ist sehr schön. (سبب)",
+   "options": [
+    "denn",
+    "aber",
+    "oder"
+   ],
+   "answer": 0,
+   "why": "الجملة التانية بتقول السبب = denn.",
+   "ar": "هنتمشى النهاردة عشان الجو حلو."
+  },
+  {
+   "prompt": "Möchtest du Pizza essen, ________ möchtest du einen Hamburger? (تخيير)",
+   "options": [
+    "oder",
+    "sondern",
+    "denn"
+   ],
+   "answer": 0,
+   "why": "التخيير بين بديلين = oder.",
+   "ar": "عايز تاكل بيتزا ولا هامبورجر؟"
+  },
+  {
+   "prompt": "Mein Auto ist kaputt, ________ ich fahre mit dem Bus. (تناقض)",
+   "options": [
+    "aber",
+    "denn",
+    "oder"
+   ],
+   "answer": 0,
+   "why": "الجملة الأولى سبب والتانية نتيجة متناقضة، denn مش هتنفع هنا = aber.",
+   "ar": "عربيتي بايظة، لكن هروح بالباص."
+  },
+  {
+   "prompt": "Ich lerne viel Deutsch, ________ ich möchte in Berlin arbeiten. (سبب)",
+   "options": [
+    "denn",
+    "sondern",
+    "aber"
+   ],
+   "answer": 0,
+   "why": "الجملة التانية سبب = denn.",
+   "ar": "بذاكر ألماني كتير عشان عايز أشتغل في برلين."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "تالت حلقة في المستوى التاني: خططنا اتلغت! هتتعلم تعتذر وتلغي وتأجل معاد من غير ما تزعل حد، باستخدام روابط المركز صفر الخمسة (ADUSO): aber وdenn وund وsondern وoder، وتبني جمل طويلة فيها سبب وتناقض وتصحيح."
+ },
+ "grammar": [
+  {
+   "title": "روابط المركز صفر (ADUSO)",
+   "rule": "الروابط دي (aber, denn, und, sondern, oder) كوبري بين جملتين ومتغيرش ترتيب الجملة اللي بعدها: الفاعل الأول وبعدين الفعل المصرّف في المركز التاني زي أي جملة عادية.",
+   "forms": [
+    "aber",
+    "denn",
+    "und",
+    "sondern",
+    "oder"
+   ],
+   "examples": [
+    {
+     "de": "Ich komme nicht, denn ich bin krank.",
+     "ar": "مش هاجي عشان أنا مريض."
+    }
+   ]
+  },
+  {
+   "title": "denn: السبب",
+   "rule": "denn بتربط سبب بنتيجة: الجملة اللي بعدها بتقول ليه.",
+   "forms": [
+    "..., denn + جملة عادية"
+   ],
+   "examples": [
+    {
+     "de": "Ich muss mich beeilen, denn ich habe einen Termin.",
+     "ar": "لازم أستعجل عشان عندي معاد."
+    },
+    {
+     "de": "Wir gehen spazieren, denn das Wetter ist schön.",
+     "ar": "هنتمشى عشان الجو حلو."
+    }
+   ]
+  },
+  {
+   "title": "aber: التناقض",
+   "rule": "aber بتعبر عن تناقض أو حاجة غير متوقعة بعد الجملة الأولى.",
+   "forms": [
+    "..., aber + جملة عادية"
+   ],
+   "examples": [
+    {
+     "de": "Ich habe Zeit, aber ich bin sehr müde.",
+     "ar": "عندي وقت، لكن أنا متعب جدًا."
+    }
+   ]
+  },
+  {
+   "title": "oder و sondern: التخيير والتصحيح",
+   "rule": "oder للتخيير بين بديلين (غالبًا في الأسئلة). sondern لتصحيح معلومة، ولازم يكون قبلها جملة منفية بـ nicht أو kein.",
+   "forms": [
+    "oder",
+    "nicht/kein ..., sondern ..."
+   ],
+   "examples": [
+    {
+     "de": "Gehen wir ins Kino, oder bleiben wir zu Hause?",
+     "ar": "نروح السينما ولا نقعد في البيت؟"
+    },
+    {
+     "de": "Wir treffen uns nicht heute, sondern morgen.",
+     "ar": "مش هنتقابل النهاردة، بل بكرة."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "muss",
+     "mich",
+     "beeilen",
+     "denn",
+     "ich",
+     "habe",
+     "einen Termin",
+     "Ich"
+    ],
+    "answer": "Ich muss mich beeilen, denn ich habe einen Termin.",
+    "ar": "لازم أستعجل عشان عندي معاد."
+   },
+   {
+    "tiles": [
+     "kann",
+     "nicht",
+     "kommen",
+     "denn",
+     "er",
+     "will",
+     "sich ausruhen",
+     "Er"
+    ],
+    "answer": "Er kann nicht kommen, denn er will sich ausruhen.",
+    "ar": "مش هيقدر ييجي عشان عايز يرتاح."
+   },
+   {
+    "tiles": [
+     "treffen",
+     "uns",
+     "nicht",
+     "am Morgen",
+     "sondern",
+     "am Abend",
+     "Wir"
+    ],
+    "answer": "Wir treffen uns nicht am Morgen, sondern am Abend.",
+    "ar": "مش هنتقابل الصبح، بل بالليل."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Ich trinke keinen Kaffee, sondern Tee.",
+     "Ich trinke keinen Kaffee, aber Tee."
+    ],
+    "answer": 0,
+    "why": "بعد جملة منفية (keinen) بنصحح المعلومة بـ sondern مش aber.",
+    "ar": "مابشربش قهوة، بل شاي."
+   },
+   {
+    "options": [
+     "Ich komme nicht, denn ich bin krank.",
+     "Ich komme nicht, denn ich krank bin."
+    ],
+    "answer": 0,
+    "why": "denn من روابط المركز صفر: الجملة اللي بعدها ترتيبها عادي، الفعل في المركز التاني.",
+    "ar": "مش هاجي عشان أنا مريض."
+   },
+   {
+    "options": [
+     "Gehen wir ins Kino, oder bleiben wir zu Hause?",
+     "Gehen wir ins Kino, sondern bleiben wir zu Hause?"
+    ],
+    "answer": 0,
+    "why": "التخيير بين بديلين بياخد oder؛ sondern بتيجي بعد نفي بس.",
+    "ar": "نروح السينما ولا نقعد في البيت؟"
+   }
+  ],
+  "translate": [
+   {
+    "ar": "مش هقدر أجي عشان أنا مريض جدًا، لكن نقدر نتقابل بكرة.",
+    "de": "Ich kann nicht kommen, denn ich bin sehr krank, aber wir können uns morgen treffen.",
+    "audio": "audio/a2/s3/tr1.mp3"
+   },
+   {
+    "ar": "عندي وقت، لكن أنا متعب جدًا.",
+    "de": "Ich habe Zeit, aber ich bin sehr müde.",
+    "audio": "audio/a2/s3/tr2.mp3"
+   },
+   {
+    "ar": "نروح السينما ولا نقعد في البيت؟",
+    "de": "Gehen wir ins Kino, oder bleiben wir zu Hause?",
+    "audio": "audio/a2/s3/tr3.mp3"
+   },
+   {
+    "ar": "مش هنتقابل النهاردة، بل بكرة.",
+    "de": "Wir treffen uns nicht heute, sondern morgen.",
+    "audio": "audio/a2/s3/tr4.mp3"
+   },
+   {
+    "ar": "لازم ألغي المعاد عشان أنا مريض.",
+    "de": "Ich muss den Termin absagen, denn ich bin krank.",
+    "audio": "audio/a2/s3/tr5.mp3"
+   },
+   {
+    "ar": "أنا مريض وعندي صداع.",
+    "de": "Ich bin krank und ich habe Kopfschmerzen.",
+    "audio": "audio/a2/s3/tr6.mp3"
+   }
+  ]
+ }
+}
