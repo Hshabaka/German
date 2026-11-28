@@ -1,0 +1,1136 @@
+{
+ "id": 15,
+ "level": "a2",
+ "title": "Session 15: Where is the key? (Wechselpräpositionen 1+2)",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=D6RZP-Y79xY",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=D6RZP-Y79xY"
+ },
+ "vocab": [
+  {
+   "id": "haus",
+   "label": "The house (lesson 1: Wo?)",
+   "words": [
+    {
+     "de": "Tisch",
+     "ar": "الترابيزة",
+     "audio": "audio/a2/s15/vocab/01-tisch.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Stuhl",
+     "ar": "الكرسي",
+     "audio": "audio/a2/s15/vocab/02-stuhl.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Schrank",
+     "ar": "الدولاب",
+     "audio": "audio/a2/s15/vocab/03-schrank.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Sessel",
+     "ar": "الفوتيه",
+     "audio": "audio/a2/s15/vocab/04-sessel.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Teppich",
+     "ar": "السجادة",
+     "audio": "audio/a2/s15/vocab/05-teppich.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Spiegel",
+     "ar": "المراية",
+     "audio": "audio/a2/s15/vocab/06-spiegel.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Kühlschrank",
+     "ar": "التلاجة",
+     "audio": "audio/a2/s15/vocab/07-kuehlschrank.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Schreibtisch",
+     "ar": "المكتب",
+     "audio": "audio/a2/s15/vocab/08-schreibtisch.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Boden",
+     "ar": "الأرض",
+     "audio": "audio/a2/s15/vocab/09-boden.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Flur",
+     "ar": "الطرقة",
+     "audio": "audio/a2/s15/vocab/10-flur.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Balkon",
+     "ar": "البلكونة",
+     "audio": "audio/a2/s15/vocab/11-balkon.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Schlüssel",
+     "ar": "المفتاح",
+     "audio": "audio/a2/s15/vocab/12-schluessel.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Lampe",
+     "ar": "اللمبة / الأباجورة",
+     "audio": "audio/a2/s15/vocab/13-lampe.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Wand",
+     "ar": "الحيطة",
+     "audio": "audio/a2/s15/vocab/14-wand.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Tür",
+     "ar": "الباب",
+     "audio": "audio/a2/s15/vocab/15-tuer.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Küche",
+     "ar": "المطبخ",
+     "audio": "audio/a2/s15/vocab/16-kueche.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Ecke",
+     "ar": "الركن",
+     "audio": "audio/a2/s15/vocab/17-ecke.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Kommode",
+     "ar": "الكومودينو / التسريحة",
+     "audio": "audio/a2/s15/vocab/18-kommode.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Tasche",
+     "ar": "الشنطة",
+     "audio": "audio/a2/s15/vocab/19-tasche.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Sofa",
+     "ar": "الكنبة",
+     "audio": "audio/a2/s15/vocab/20-sofa.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Bett",
+     "ar": "السرير",
+     "audio": "audio/a2/s15/vocab/21-bett.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Regal",
+     "ar": "المكتبة / الرف",
+     "audio": "audio/a2/s15/vocab/22-regal.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Fenster",
+     "ar": "الشباك",
+     "audio": "audio/a2/s15/vocab/23-fenster.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Bild",
+     "ar": "الصورة",
+     "audio": "audio/a2/s15/vocab/24-bild.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Wohnzimmer",
+     "ar": "أوضة المعيشة / الصالة",
+     "audio": "audio/a2/s15/vocab/25-wohnzimmer.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Schlafzimmer",
+     "ar": "أوضة النوم",
+     "audio": "audio/a2/s15/vocab/26-schlafzimmer.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Bad",
+     "ar": "الحمام",
+     "audio": "audio/a2/s15/vocab/27-bad.mp3",
+     "article": "das"
+    }
+   ]
+  },
+  {
+   "id": "verben-wo",
+   "label": "Static-place verbs (Wo?)",
+   "words": [
+    {
+     "de": "liegen",
+     "ar": "نايم / مفرود (hat gelegen)",
+     "audio": "audio/a2/s15/vocab/28-liegen.mp3"
+    },
+    {
+     "de": "stehen",
+     "ar": "واقف (hat gestanden)",
+     "audio": "audio/a2/s15/vocab/29-stehen.mp3"
+    },
+    {
+     "de": "hängen",
+     "ar": "متعلق (hat gehangen)",
+     "audio": "audio/a2/s15/vocab/30-haengen.mp3"
+    },
+    {
+     "de": "sitzen",
+     "ar": "قاعد (hat gesessen)",
+     "audio": "audio/a2/s15/vocab/31-sitzen.mp3"
+    },
+    {
+     "de": "suchen",
+     "ar": "يدور (hat gesucht)",
+     "audio": "audio/a2/s15/vocab/32-suchen.mp3"
+    },
+    {
+     "de": "finden",
+     "ar": "يلاقي (hat gefunden)",
+     "audio": "audio/a2/s15/vocab/33-finden.mp3"
+    }
+   ]
+  },
+  {
+   "id": "adj-wo",
+   "label": "Adjectives",
+   "words": [
+    {
+     "de": "gemütlich",
+     "ar": "مريح / دافي",
+     "audio": "audio/a2/s15/vocab/34-gemuetlich.mp3"
+    },
+    {
+     "de": "hell",
+     "ar": "منور",
+     "audio": "audio/a2/s15/vocab/35-hell.mp3"
+    },
+    {
+     "de": "dunkel",
+     "ar": "ضلمة",
+     "audio": "audio/a2/s15/vocab/36-dunkel.mp3"
+    },
+    {
+     "de": "ordentlich",
+     "ar": "منظم",
+     "audio": "audio/a2/s15/vocab/37-ordentlich.mp3"
+    }
+   ]
+  },
+  {
+   "id": "umzug",
+   "label": "Moving house (lesson 2: Wohin?)",
+   "words": [
+    {
+     "de": "Umzug",
+     "ar": "العزال",
+     "audio": "audio/a2/s15/vocab/38-umzug.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Karton",
+     "ar": "الكرتونة",
+     "audio": "audio/a2/s15/vocab/39-karton.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Vorhang",
+     "ar": "الستارة",
+     "audio": "audio/a2/s15/vocab/40-vorhang.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Herd",
+     "ar": "البوتاجاز",
+     "audio": "audio/a2/s15/vocab/41-herd.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Fernseher",
+     "ar": "التلفزيون",
+     "audio": "audio/a2/s15/vocab/42-fernseher.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Keller",
+     "ar": "البدروم",
+     "audio": "audio/a2/s15/vocab/43-keller.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Nachbar",
+     "ar": "الجار",
+     "audio": "audio/a2/s15/vocab/44-nachbar.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Wohnung",
+     "ar": "الشقة",
+     "audio": "audio/a2/s15/vocab/45-wohnung.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Kiste",
+     "ar": "الصندوق",
+     "audio": "audio/a2/s15/vocab/46-kiste.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Pflanze",
+     "ar": "الزرعة",
+     "audio": "audio/a2/s15/vocab/47-pflanze.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Möbel",
+     "ar": "العفش",
+     "audio": "audio/a2/s15/vocab/48-moebel.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Waschmaschine",
+     "ar": "الغسالة",
+     "audio": "audio/a2/s15/vocab/49-waschmaschine.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Uhr",
+     "ar": "الساعة",
+     "audio": "audio/a2/s15/vocab/50-uhr.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Decke",
+     "ar": "البطانية / السقف",
+     "audio": "audio/a2/s15/vocab/51-decke.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Garage",
+     "ar": "الجراج",
+     "audio": "audio/a2/s15/vocab/52-garage.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Kissen",
+     "ar": "المخدة",
+     "audio": "audio/a2/s15/vocab/53-kissen.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Bücherregal",
+     "ar": "المكتبة",
+     "audio": "audio/a2/s15/vocab/54-buecherregal.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Licht",
+     "ar": "النور",
+     "audio": "audio/a2/s15/vocab/55-licht.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Erdgeschoss",
+     "ar": "الدور الأرضي",
+     "audio": "audio/a2/s15/vocab/56-erdgeschoss.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Kinderzimmer",
+     "ar": "أوضة الأطفال",
+     "audio": "audio/a2/s15/vocab/57-kinderzimmer.mp3",
+     "article": "das"
+    }
+   ]
+  },
+  {
+   "id": "verben-wohin",
+   "label": "Movement verbs (Wohin?)",
+   "words": [
+    {
+     "de": "legen",
+     "ar": "يحط نايم (hat gelegt)",
+     "audio": "audio/a2/s15/vocab/58-legen.mp3"
+    },
+    {
+     "de": "stellen",
+     "ar": "يحط واقف (hat gestellt)",
+     "audio": "audio/a2/s15/vocab/59-stellen.mp3"
+    },
+    {
+     "de": "setzen",
+     "ar": "يقعّد (hat gesetzt)",
+     "audio": "audio/a2/s15/vocab/60-setzen.mp3"
+    },
+    {
+     "de": "umziehen",
+     "ar": "يعزّل (ist umgezogen)",
+     "audio": "audio/a2/s15/vocab/61-umziehen.mp3"
+    },
+    {
+     "de": "tragen",
+     "ar": "يشيل (hat getragen)",
+     "audio": "audio/a2/s15/vocab/62-tragen.mp3"
+    },
+    {
+     "de": "auspacken",
+     "ar": "يفضي الكراتين (hat ausgepackt)",
+     "audio": "audio/a2/s15/vocab/63-auspacken.mp3"
+    },
+    {
+     "de": "aufräumen",
+     "ar": "يرتب (hat aufgeräumt)",
+     "audio": "audio/a2/s15/vocab/64-aufraeumen.mp3"
+    }
+   ]
+  },
+  {
+   "id": "adj-umzug",
+   "label": "Adjectives (moving)",
+   "words": [
+    {
+     "de": "schwer",
+     "ar": "تقيل",
+     "audio": "audio/a2/s15/vocab/65-schwer.mp3"
+    },
+    {
+     "de": "leicht",
+     "ar": "خفيف",
+     "audio": "audio/a2/s15/vocab/66-leicht.mp3"
+    },
+    {
+     "de": "leer",
+     "ar": "فاضي",
+     "audio": "audio/a2/s15/vocab/67-leer.mp3"
+    },
+    {
+     "de": "voll",
+     "ar": "مليان",
+     "audio": "audio/a2/s15/vocab/68-voll.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Wo ist mein Schlüssel?",
+   "ar": "مفتاحي فين؟",
+   "audio": "audio/a2/s15/s01-wo-ist-mein-schluessel.mp3"
+  },
+  {
+   "de": "Er liegt auf dem Tisch im Flur.",
+   "ar": "على الترابيزة في الطرقة.",
+   "audio": "audio/a2/s15/s02-er-liegt-auf-dem-tisch-im-flur.mp3"
+  },
+  {
+   "de": "Wo steht der Fernseher?",
+   "ar": "التلفزيون فين؟",
+   "audio": "audio/a2/s15/s03-wo-steht-der-fernseher.mp3"
+  },
+  {
+   "de": "Das Bild hängt an der Wand über dem Sofa.",
+   "ar": "الصورة متعلقة على الحيطة فوق الكنبة.",
+   "audio": "audio/a2/s15/s04-das-bild-haengt-an-der-wand-ueber-dem-sofa.mp3"
+  },
+  {
+   "de": "Ich bin in der Küche.",
+   "ar": "أنا في المطبخ.",
+   "audio": "audio/a2/s15/s05-ich-bin-in-der-kueche.mp3"
+  },
+  {
+   "de": "Das Bett steht am Fenster.",
+   "ar": "السرير جنب الشباك.",
+   "audio": "audio/a2/s15/s06-das-bett-steht-am-fenster.mp3"
+  },
+  {
+   "de": "Der Schlüssel liegt in der Tasche.",
+   "ar": "المفتاح في الشنطة.",
+   "audio": "audio/a2/s15/s07-der-schluessel-liegt-in-der-tasche.mp3"
+  },
+  {
+   "de": "Die Katze schläft unter dem Bett.",
+   "ar": "القطة نايمة تحت السرير.",
+   "audio": "audio/a2/s15/s08-die-katze-schlaeft-unter-dem-bett.mp3"
+  },
+  {
+   "de": "Das Auto steht vor dem Haus.",
+   "ar": "العربية واقفة قدام البيت.",
+   "audio": "audio/a2/s15/s09-das-auto-steht-vor-dem-haus.mp3"
+  },
+  {
+   "de": "Der Tisch steht zwischen dem Sofa und dem Fenster.",
+   "ar": "الترابيزة واقفة بين الكنبة والشباك.",
+   "audio": "audio/a2/s15/s10-der-tisch-steht-zwischen-dem-sofa-und-dem-fe.mp3"
+  },
+  {
+   "de": "Ich lege das Buch auf den Tisch.",
+   "ar": "بحط الكتاب على الترابيزة.",
+   "audio": "audio/a2/s15/s11-ich-lege-das-buch-auf-den-tisch.mp3"
+  },
+  {
+   "de": "Das Buch liegt auf dem Tisch.",
+   "ar": "الكتاب نايم على الترابيزة.",
+   "audio": "audio/a2/s15/s12-das-buch-liegt-auf-dem-tisch.mp3"
+  },
+  {
+   "de": "Wohin stellen wir das Sofa?",
+   "ar": "نحط الكنبة فين؟",
+   "audio": "audio/a2/s15/s13-wohin-stellen-wir-das-sofa.mp3"
+  },
+  {
+   "de": "Wohin soll ich den Karton tragen?",
+   "ar": "أشيل الكرتونة فين؟",
+   "audio": "audio/a2/s15/s14-wohin-soll-ich-den-karton-tragen.mp3"
+  },
+  {
+   "de": "Ich stelle den Schreibtisch ans Fenster.",
+   "ar": "بحط المكتب جنب الشباك.",
+   "audio": "audio/a2/s15/s15-ich-stelle-den-schreibtisch-ans-fenster.mp3"
+  },
+  {
+   "de": "Ich habe die Uhr an die Wand gehängt.",
+   "ar": "علّقت الساعة على الحيطة.",
+   "audio": "audio/a2/s15/s16-ich-habe-die-uhr-an-die-wand-gehaengt.mp3"
+  },
+  {
+   "de": "Wir stellen die Waschmaschine in den Keller.",
+   "ar": "هنحط الغسالة في البدروم.",
+   "audio": "audio/a2/s15/s17-wir-stellen-die-waschmaschine-in-den-keller.mp3"
+  },
+  {
+   "de": "Ich habe das Handy auf das Sofa gelegt, und jetzt liegt es auf dem Sofa.",
+   "ar": "حطيت الموبايل على الكنبة، ودلوقتي هو نايم عليها.",
+   "audio": "audio/a2/s15/s18-ich-habe-das-handy-auf-das-sofa-gelegt-und-j.mp3"
+  },
+  {
+   "de": "Mein Zimmer ist klein, aber gemütlich.",
+   "ar": "أوضتي صغيرة، لكن مريحة.",
+   "audio": "audio/a2/s15/s19-mein-zimmer-ist-klein-aber-gemuetlich.mp3"
+  },
+  {
+   "de": "Der Schrank ist schwer, deshalb tragen wir ihn zusammen in den Keller.",
+   "ar": "الدولاب تقيل، عشان كده هنشيله مع بعض للبدروم.",
+   "audio": "audio/a2/s15/s20-der-schrank-ist-schwer-deshalb-tragen-wir-ih.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "Tisch",
+   "ar": "الترابيزة",
+   "audio": "audio/a2/s15/vocab/01-tisch.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Stuhl",
+   "ar": "الكرسي",
+   "audio": "audio/a2/s15/vocab/02-stuhl.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Schrank",
+   "ar": "الدولاب",
+   "audio": "audio/a2/s15/vocab/03-schrank.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Sessel",
+   "ar": "الفوتيه",
+   "audio": "audio/a2/s15/vocab/04-sessel.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Teppich",
+   "ar": "السجادة",
+   "audio": "audio/a2/s15/vocab/05-teppich.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Spiegel",
+   "ar": "المراية",
+   "audio": "audio/a2/s15/vocab/06-spiegel.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Kühlschrank",
+   "ar": "التلاجة",
+   "audio": "audio/a2/s15/vocab/07-kuehlschrank.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Schreibtisch",
+   "ar": "المكتب",
+   "audio": "audio/a2/s15/vocab/08-schreibtisch.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Boden",
+   "ar": "الأرض",
+   "audio": "audio/a2/s15/vocab/09-boden.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Flur",
+   "ar": "الطرقة",
+   "audio": "audio/a2/s15/vocab/10-flur.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Balkon",
+   "ar": "البلكونة",
+   "audio": "audio/a2/s15/vocab/11-balkon.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Schlüssel",
+   "ar": "المفتاح",
+   "audio": "audio/a2/s15/vocab/12-schluessel.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Lampe",
+   "ar": "اللمبة / الأباجورة",
+   "audio": "audio/a2/s15/vocab/13-lampe.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Wand",
+   "ar": "الحيطة",
+   "audio": "audio/a2/s15/vocab/14-wand.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Tür",
+   "ar": "الباب",
+   "audio": "audio/a2/s15/vocab/15-tuer.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Küche",
+   "ar": "المطبخ",
+   "audio": "audio/a2/s15/vocab/16-kueche.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Ecke",
+   "ar": "الركن",
+   "audio": "audio/a2/s15/vocab/17-ecke.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Kommode",
+   "ar": "الكومودينو / التسريحة",
+   "audio": "audio/a2/s15/vocab/18-kommode.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Tasche",
+   "ar": "الشنطة",
+   "audio": "audio/a2/s15/vocab/19-tasche.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Sofa",
+   "ar": "الكنبة",
+   "audio": "audio/a2/s15/vocab/20-sofa.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Bett",
+   "ar": "السرير",
+   "audio": "audio/a2/s15/vocab/21-bett.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Regal",
+   "ar": "المكتبة / الرف",
+   "audio": "audio/a2/s15/vocab/22-regal.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Fenster",
+   "ar": "الشباك",
+   "audio": "audio/a2/s15/vocab/23-fenster.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Bild",
+   "ar": "الصورة",
+   "audio": "audio/a2/s15/vocab/24-bild.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Wohnzimmer",
+   "ar": "أوضة المعيشة / الصالة",
+   "audio": "audio/a2/s15/vocab/25-wohnzimmer.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Schlafzimmer",
+   "ar": "أوضة النوم",
+   "audio": "audio/a2/s15/vocab/26-schlafzimmer.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Bad",
+   "ar": "الحمام",
+   "audio": "audio/a2/s15/vocab/27-bad.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Umzug",
+   "ar": "العزال",
+   "audio": "audio/a2/s15/vocab/38-umzug.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Karton",
+   "ar": "الكرتونة",
+   "audio": "audio/a2/s15/vocab/39-karton.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Vorhang",
+   "ar": "الستارة",
+   "audio": "audio/a2/s15/vocab/40-vorhang.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Herd",
+   "ar": "البوتاجاز",
+   "audio": "audio/a2/s15/vocab/41-herd.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Fernseher",
+   "ar": "التلفزيون",
+   "audio": "audio/a2/s15/vocab/42-fernseher.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Keller",
+   "ar": "البدروم",
+   "audio": "audio/a2/s15/vocab/43-keller.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Nachbar",
+   "ar": "الجار",
+   "audio": "audio/a2/s15/vocab/44-nachbar.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Wohnung",
+   "ar": "الشقة",
+   "audio": "audio/a2/s15/vocab/45-wohnung.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Kiste",
+   "ar": "الصندوق",
+   "audio": "audio/a2/s15/vocab/46-kiste.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Pflanze",
+   "ar": "الزرعة",
+   "audio": "audio/a2/s15/vocab/47-pflanze.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Möbel",
+   "ar": "العفش",
+   "audio": "audio/a2/s15/vocab/48-moebel.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Waschmaschine",
+   "ar": "الغسالة",
+   "audio": "audio/a2/s15/vocab/49-waschmaschine.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Uhr",
+   "ar": "الساعة",
+   "audio": "audio/a2/s15/vocab/50-uhr.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Decke",
+   "ar": "البطانية / السقف",
+   "audio": "audio/a2/s15/vocab/51-decke.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Garage",
+   "ar": "الجراج",
+   "audio": "audio/a2/s15/vocab/52-garage.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Kissen",
+   "ar": "المخدة",
+   "audio": "audio/a2/s15/vocab/53-kissen.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Bücherregal",
+   "ar": "المكتبة",
+   "audio": "audio/a2/s15/vocab/54-buecherregal.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Licht",
+   "ar": "النور",
+   "audio": "audio/a2/s15/vocab/55-licht.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Erdgeschoss",
+   "ar": "الدور الأرضي",
+   "audio": "audio/a2/s15/vocab/56-erdgeschoss.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Kinderzimmer",
+   "ar": "أوضة الأطفال",
+   "audio": "audio/a2/s15/vocab/57-kinderzimmer.mp3",
+   "article": "das"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Das Buch liegt auf ______ Tisch.",
+   "options": [
+    "dem",
+    "den",
+    "der"
+   ],
+   "answer": 0,
+   "why": "الكتاب ثابت (Wo?) = Dativ، والمذكر der تبقى dem.",
+   "ar": "الكتاب على الترابيزة."
+  },
+  {
+   "prompt": "Ich lege das Handy auf ______ Tisch.",
+   "options": [
+    "den",
+    "dem",
+    "das"
+   ],
+   "answer": 0,
+   "why": "الحركة (Wohin?) = Akkusativ، والمذكر بس هو اللي بيتغير: den.",
+   "ar": "بحط الموبايل على الترابيزة."
+  },
+  {
+   "prompt": "Das Bild hängt an ______ Wand.",
+   "options": [
+    "der",
+    "die",
+    "den"
+   ],
+   "answer": 0,
+   "why": "متعلق ثابت (Wo?) = Dativ، والمؤنث die تفضل der.",
+   "ar": "الصورة متعلقة على الحيطة."
+  },
+  {
+   "prompt": "Ich hänge das Bild an ______ Wand.",
+   "options": [
+    "die",
+    "der",
+    "dem"
+   ],
+   "answer": 0,
+   "why": "حركة التعليق (Wohin?) = Akkusativ، والمؤنث مبتتغيرش: die.",
+   "ar": "بعلّق الصورة على الحيطة."
+  },
+  {
+   "prompt": "Die Kinder spielen ______ Kinderzimmer.",
+   "options": [
+    "im",
+    "ins",
+    "am"
+   ],
+   "answer": 0,
+   "why": "بيلعبوا في مكان ثابت (Wo?) = in dem = im.",
+   "ar": "الأطفال بيلعبوا في أوضة الأطفال."
+  },
+  {
+   "prompt": "Die Kinder gehen ______ Kinderzimmer.",
+   "options": [
+    "ins",
+    "im",
+    "in dem"
+   ],
+   "answer": 0,
+   "why": "بيتحركوا لمكان (Wohin?) = in das = ins.",
+   "ar": "الأطفال داخلين أوضة الأطفال."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "صفحة الدرس 15 بتغطي درسين كاملين: حروف الجر ذات الوشّين (Wechselpräpositionen). الجزء الأول: الحاجة ثابتة في مكانها (Wo?) يبقى Dativ. الجزء التاني: الحاجة بتتحرك (Wohin?) يبقى Akkusativ. ومعاهم ٦٦ كلمة عن البيت والعزال والأفعال الجوز legen/liegen وstellen/stehen."
+ },
+ "grammar": [
+  {
+   "title": "التريكة الذهبية: المفتاح نايم؟",
+   "rule": "لو الحاجة ثابتة ومبتتحركش (Wo?) يبقى Dativ. الـ 9 حروف جر: in وan وauf وüber وunter وvor وhinter وneben وzwischen.",
+   "forms": [
+    "Wo? - Dativ",
+    "dem / der / dem / den + n"
+   ],
+   "examples": [
+    {
+     "de": "Der Schlüssel liegt in der Tasche.",
+     "ar": "المفتاح في الشنطة."
+    },
+    {
+     "de": "Die Katze schläft unter dem Bett.",
+     "ar": "القطة نايمة تحت السرير."
+    }
+   ]
+  },
+  {
+   "title": "الأداة في الداتيف والدمج",
+   "rule": "der/das تبقى dem، die تبقى der، الجمع den + n. والدمج: in+dem=im وan+dem=am.",
+   "forms": [
+    "auf dem Tisch",
+    "neben der Lampe",
+    "zwischen den Stühlen",
+    "im Wohnzimmer",
+    "am Fenster"
+   ],
+   "examples": [
+    {
+     "de": "Ich bin im Wohnzimmer.",
+     "ar": "أنا في الصالة."
+    },
+    {
+     "de": "Er steht am Fenster.",
+     "ar": "هو واقف عند الشباك."
+    }
+   ]
+  },
+  {
+   "title": "الكنبة ماشية: Wohin? = Akkusativ",
+   "rule": "لو الحاجة بتتحرك لمكان (Wohin?) يبقى Akkusativ، والمذكر بس هو اللي بيتغير: der ← den. والدمج: in+das=ins وan+das=ans.",
+   "forms": [
+    "auf den Tisch",
+    "an die Wand",
+    "ins Wohnzimmer",
+    "ans Fenster"
+   ],
+   "examples": [
+    {
+     "de": "Ich lege das Buch auf den Tisch.",
+     "ar": "بحط الكتاب على الترابيزة."
+    },
+    {
+     "de": "Ich stelle den Schreibtisch ans Fenster.",
+     "ar": "بحط المكتب جنب الشباك."
+    }
+   ]
+  },
+  {
+   "title": "الأفعال الجوز",
+   "rule": "legen يحط نايم (حركة) ← liegen نايم (ثابت). stellen يحط واقف ← stehen واقف. setzen يقعّد ← sitzen قاعد. hängen يعلّق (hat gehängt) ← hängen متعلق (hat gehangen).",
+   "forms": [
+    "legen - liegen",
+    "stellen - stehen",
+    "setzen - sitzen",
+    "hängen - hängen"
+   ],
+   "examples": [
+    {
+     "de": "Ich lege das Handy auf das Sofa, und jetzt liegt es auf dem Sofa.",
+     "ar": "بحط الموبايل على الكنبة، ودلوقتي هو نايم عليها."
+    },
+    {
+     "de": "Die Flasche steht auf dem Tisch.",
+     "ar": "الزجاجة واقفة على الترابيزة."
+    }
+   ]
+  },
+  {
+   "title": "فخاخ الامتحان",
+   "rule": "خد بالك: المؤنث بس der في الداتيف (auf dem Tisch مش auf der Tisch)، الجمع ياخد n (zwischen den Stühlen)، الحيطة دايمًا an (an der Wand مش auf der Wand).",
+   "forms": [
+    "zwischen den Stühlen",
+    "an der Wand",
+    "auf dem Tisch"
+   ],
+   "examples": [
+    {
+     "de": "Das Bild hängt an der Wand.",
+     "ar": "الصورة متعلقة على الحيطة."
+    },
+    {
+     "de": "Der Tisch steht zwischen dem Sofa und dem Fenster.",
+     "ar": "الترابيزة بين الكنبة والشباك."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "liegt",
+     "auf dem Tisch",
+     "Das Handy"
+    ],
+    "answer": "Das Handy liegt auf dem Tisch.",
+    "ar": "الموبايل نايم على الترابيزة."
+   },
+   {
+    "tiles": [
+     "hängt",
+     "an der Wand",
+     "Das Bild"
+    ],
+    "answer": "Das Bild hängt an der Wand.",
+    "ar": "الصورة متعلقة على الحيطة."
+   },
+   {
+    "tiles": [
+     "lege",
+     "das Buch",
+     "auf den Tisch",
+     "Ich"
+    ],
+    "answer": "Ich lege das Buch auf den Tisch.",
+    "ar": "بحط الكتاب على الترابيزة."
+   },
+   {
+    "tiles": [
+     "stellen",
+     "die Waschmaschine",
+     "in den Keller",
+     "Wir"
+    ],
+    "answer": "Wir stellen die Waschmaschine in den Keller.",
+    "ar": "هنحط الغسالة في البدروم."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Das Buch liegt auf dem Tisch.",
+     "Das Buch liegt auf der Tisch."
+    ],
+    "answer": 0,
+    "why": "في الداتيف der للمؤنث بس؛ المذكر der Tisch تبقى dem.",
+    "ar": "الكتاب على الترابيزة."
+   },
+   {
+    "options": [
+     "Ich lege das Buch auf den Tisch.",
+     "Ich lege das Buch auf dem Tisch."
+    ],
+    "answer": 0,
+    "why": "حركة (Wohin?) = أكوزاتيف: den مش dem.",
+    "ar": "بحط الكتاب على الترابيزة."
+   },
+   {
+    "options": [
+     "Das Bild hängt an der Wand.",
+     "Das Bild hängt auf der Wand."
+    ],
+    "answer": 0,
+    "why": "الحيطة واقفة، فالصورة لازقة فيها: an مش auf.",
+    "ar": "الصورة متعلقة على الحيطة."
+   },
+   {
+    "options": [
+     "Ich lege das Handy auf das Sofa.",
+     "Ich liege das Handy auf das Sofa."
+    ],
+    "answer": 0,
+    "why": "الحركة فعلها legen؛ liegen معناها نايم (ثابت) ومبياخدش مفعول.",
+    "ar": "بحط الموبايل على الكنبة."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "الموبايل على الكنبة.",
+    "de": "Das Handy liegt auf dem Sofa.",
+    "audio": "audio/a2/s15/tr1.mp3"
+   },
+   {
+    "ar": "الصورة متعلقة على الحيطة جنب الشباك.",
+    "de": "Das Bild hängt an der Wand neben dem Fenster.",
+    "audio": "audio/a2/s15/tr2.mp3"
+   },
+   {
+    "ar": "القطة نايمة تحت السرير.",
+    "de": "Die Katze schläft unter dem Bett.",
+    "audio": "audio/a2/s15/tr3.mp3"
+   },
+   {
+    "ar": "حط الكرتونة على الترابيزة.",
+    "de": "Ich lege den Karton auf den Tisch.",
+    "audio": "audio/a2/s15/tr4.mp3"
+   },
+   {
+    "ar": "علّقت الساعة على الحيطة.",
+    "de": "Ich habe die Uhr an die Wand gehängt.",
+    "audio": "audio/a2/s15/tr5.mp3"
+   },
+   {
+    "ar": "هنحط الغسالة في البدروم.",
+    "de": "Wir stellen die Waschmaschine in den Keller.",
+    "audio": "audio/a2/s15/tr6.mp3"
+   }
+  ]
+ }
+}
