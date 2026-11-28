@@ -1,0 +1,667 @@
+{
+  "id": 20,
+  "level": "a1",
+  "title": "Session 20: All about questions (how to ask in German)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=BFkgx3gxS60",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "types",
+      "label": "Two kinds of questions",
+      "words": [
+        {
+          "de": "Ja/Nein-Fragen",
+          "ar": "أسئلة نعم/لا",
+          "audio": "audio/s20/vocab/01-ja-nein-fragen.mp3"
+        },
+        {
+          "de": "W-Fragen",
+          "ar": "أسئلة أدوات الاستفهام",
+          "audio": "audio/s20/vocab/02-w-fragen.mp3"
+        },
+        {
+          "de": "Arbeitest du heute?",
+          "ar": "هل تشتغل النهارده؟",
+          "audio": "audio/s20/vocab/03-arbeitest-du-heute.mp3"
+        },
+        {
+          "de": "Du arbeitest heute.",
+          "ar": "إنت بتشتغل النهارده.",
+          "audio": "audio/s20/vocab/04-du-arbeitest-heute.mp3"
+        }
+      ]
+    },
+    {
+      "id": "w",
+      "label": "Question words",
+      "words": [
+        {
+          "de": "Wo",
+          "ar": "فين",
+          "audio": "audio/s20/vocab/05-wo.mp3"
+        },
+        {
+          "de": "Wohin",
+          "ar": "لفين",
+          "audio": "audio/s20/vocab/06-wohin.mp3"
+        },
+        {
+          "de": "Wann",
+          "ar": "إمتى",
+          "audio": "audio/s20/vocab/07-wann.mp3"
+        },
+        {
+          "de": "Warum",
+          "ar": "ليه",
+          "audio": "audio/s20/vocab/08-warum.mp3"
+        },
+        {
+          "de": "Was",
+          "ar": "إيه/ماذا",
+          "audio": "audio/s20/vocab/09-was.mp3"
+        }
+      ]
+    },
+    {
+      "id": "wquestions",
+      "label": "W-questions with du",
+      "words": [
+        {
+          "de": "Wo arbeitest du?",
+          "ar": "فين بتشتغل؟",
+          "audio": "audio/s20/vocab/10-wo-arbeitest-du.mp3"
+        },
+        {
+          "de": "Wohin gehst du?",
+          "ar": "رايح فين؟",
+          "audio": "audio/s20/vocab/11-wohin-gehst-du.mp3"
+        },
+        {
+          "de": "Wann kommst du?",
+          "ar": "هتيجي إمتى؟",
+          "audio": "audio/s20/vocab/12-wann-kommst-du.mp3"
+        },
+        {
+          "de": "Warum lernst du Deutsch?",
+          "ar": "ليه بتتعلم ألماني؟",
+          "audio": "audio/s20/vocab/13-warum-lernst-du-deutsch.mp3"
+        },
+        {
+          "de": "Was machst du heute?",
+          "ar": "هتعمل إيه النهارده؟",
+          "audio": "audio/s20/vocab/14-was-machst-du-heute.mp3"
+        }
+      ]
+    },
+    {
+      "id": "freizeit",
+      "label": "Free time",
+      "words": [
+        {
+          "de": "Freizeit",
+          "ar": "وقت الفراغ",
+          "audio": "audio/s20/vocab/15-freizeit.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Wochenende",
+          "ar": "عطلة نهاية الأسبوع",
+          "audio": "audio/s20/vocab/16-wochenende.mp3",
+          "article": "das"
+        },
+        {
+          "de": "besuchen",
+          "ar": "يزور",
+          "audio": "audio/s20/vocab/17-besuchen.mp3"
+        },
+        {
+          "de": "Freund",
+          "ar": "الصديق",
+          "audio": "audio/s20/vocab/18-freund.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Freunde",
+          "ar": "الأصدقاء (جمع)",
+          "audio": "audio/s20/vocab/19-freunde.mp3",
+          "article": "die"
+        },
+        {
+          "de": "zusammen",
+          "ar": "مع بعض",
+          "audio": "audio/s20/vocab/20-zusammen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sie",
+      "label": "Formal Sie questions",
+      "words": [
+        {
+          "de": "Arbeiten Sie am Wochenende?",
+          "ar": "هل حضرتك بتشتغل في الويك إند؟",
+          "audio": "audio/s20/vocab/21-arbeiten-sie-am-wochenende.mp3"
+        },
+        {
+          "de": "Besuchen Sie Freunde in der Freizeit?",
+          "ar": "هل حضرتك بتزور أصدقاء في وقت الفراغ؟",
+          "audio": "audio/s20/vocab/22-besuchen-sie-freunde-in-der-freizeit.mp3"
+        },
+        {
+          "de": "Wo besuchen Sie die Freunde?",
+          "ar": "فين بتزور حضرتك الأصدقاء؟",
+          "audio": "audio/s20/vocab/23-wo-besuchen-sie-die-freunde.mp3"
+        },
+        {
+          "de": "Wann arbeiten Sie zusammen?",
+          "ar": "إمتى بتشتغلوا مع بعض؟",
+          "audio": "audio/s20/vocab/24-wann-arbeiten-sie-zusammen.mp3"
+        },
+        {
+          "de": "Warum lernen Sie zusammen Deutsch?",
+          "ar": "ليه بتتعلموا ألماني مع بعض؟",
+          "audio": "audio/s20/vocab/25-warum-lernen-sie-zusammen-deutsch.mp3"
+        },
+        {
+          "de": "Was machen Sie am Wochenende?",
+          "ar": "حضرتك بتعمل إيه في الويك إند؟",
+          "audio": "audio/s20/vocab/26-was-machen-sie-am-wochenende.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Du arbeitest heute.",
+      "ar": "إنت بتشتغل النهارده.",
+      "audio": "audio/s20/s01-du-arbeitest-heute.mp3"
+    },
+    {
+      "de": "Arbeitest du heute?",
+      "ar": "هل بتشتغل النهارده؟",
+      "audio": "audio/s20/s02-arbeitest-du-heute.mp3"
+    },
+    {
+      "de": "Wo arbeitest du?",
+      "ar": "فين بتشتغل؟",
+      "audio": "audio/s20/s03-wo-arbeitest-du.mp3"
+    },
+    {
+      "de": "Wohin gehst du?",
+      "ar": "رايح فين؟",
+      "audio": "audio/s20/s04-wohin-gehst-du.mp3"
+    },
+    {
+      "de": "Wann kommst du?",
+      "ar": "هتيجي إمتى؟",
+      "audio": "audio/s20/s05-wann-kommst-du.mp3"
+    },
+    {
+      "de": "Warum lernst du Deutsch?",
+      "ar": "ليه بتتعلم ألماني؟",
+      "audio": "audio/s20/s06-warum-lernst-du-deutsch.mp3"
+    },
+    {
+      "de": "Was machst du heute?",
+      "ar": "هتعمل إيه النهارده؟",
+      "audio": "audio/s20/s07-was-machst-du-heute.mp3"
+    },
+    {
+      "de": "Arbeiten Sie am Wochenende?",
+      "ar": "هل حضرتك بتشتغل في الويك إند؟",
+      "audio": "audio/s20/s08-arbeiten-sie-am-wochenende.mp3"
+    },
+    {
+      "de": "Besuchen Sie Freunde in der Freizeit?",
+      "ar": "هل حضرتك بتزور أصدقاء في وقت الفراغ؟",
+      "audio": "audio/s20/s09-besuchen-sie-freunde-in-der-freizeit.mp3"
+    },
+    {
+      "de": "Wo besuchen Sie die Freunde?",
+      "ar": "فين بتزور حضرتك الأصدقاء؟",
+      "audio": "audio/s20/s10-wo-besuchen-sie-die-freunde.mp3"
+    },
+    {
+      "de": "Wann arbeiten Sie zusammen?",
+      "ar": "إمتى بتشتغلوا مع بعض؟",
+      "audio": "audio/s20/s11-wann-arbeiten-sie-zusammen.mp3"
+    },
+    {
+      "de": "Warum lernen Sie zusammen Deutsch?",
+      "ar": "ليه بتتعلموا ألماني مع بعض؟",
+      "audio": "audio/s20/s12-warum-lernen-sie-zusammen-deutsch.mp3"
+    },
+    {
+      "de": "Was machen Sie am Wochenende?",
+      "ar": "حضرتك بتعمل إيه في الويك إند؟",
+      "audio": "audio/s20/s13-was-machen-sie-am-wochenende.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Freizeit",
+      "ar": "وقت الفراغ",
+      "audio": "audio/s20/vocab/15-freizeit.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Wochenende",
+      "ar": "عطلة نهاية الأسبوع",
+      "audio": "audio/s20/vocab/16-wochenende.mp3",
+      "article": "das"
+    },
+    {
+      "de": "besuchen",
+      "ar": "يزور",
+      "audio": "audio/s20/vocab/17-besuchen.mp3"
+    },
+    {
+      "de": "Freund",
+      "ar": "الصديق",
+      "audio": "audio/s20/vocab/18-freund.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Freunde",
+      "ar": "الأصدقاء (جمع)",
+      "audio": "audio/s20/vocab/19-freunde.mp3",
+      "article": "die"
+    },
+    {
+      "de": "zusammen",
+      "ar": "مع بعض",
+      "audio": "audio/s20/vocab/20-zusammen.mp3"
+    },
+    {
+      "de": "Wo",
+      "ar": "فين",
+      "audio": "audio/s20/vocab/05-wo.mp3"
+    },
+    {
+      "de": "Wohin",
+      "ar": "لفين",
+      "audio": "audio/s20/vocab/06-wohin.mp3"
+    },
+    {
+      "de": "Wann",
+      "ar": "إمتى",
+      "audio": "audio/s20/vocab/07-wann.mp3"
+    },
+    {
+      "de": "Warum",
+      "ar": "ليه",
+      "audio": "audio/s20/vocab/08-warum.mp3"
+    },
+    {
+      "de": "Was",
+      "ar": "إيه/ماذا",
+      "audio": "audio/s20/vocab/09-was.mp3"
+    },
+    {
+      "de": "Wo arbeitest du?",
+      "ar": "فين بتشتغل؟",
+      "audio": "audio/s20/vocab/10-wo-arbeitest-du.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ du heute? (هل تشتغل)",
+      "options": [
+        "Arbeitest",
+        "Du",
+        "Wo"
+      ],
+      "answer": 0,
+      "why": "سؤال نعم/لا: الفعل الأول.",
+      "ar": "هل تشتغل؟"
+    },
+    {
+      "prompt": "___ arbeitest du? (فين)",
+      "options": [
+        "Wo",
+        "Wohin",
+        "Warum"
+      ],
+      "answer": 0,
+      "why": "Wo = فين.",
+      "ar": "فين بتشتغل؟"
+    },
+    {
+      "prompt": "___ gehst du? (لفين)",
+      "options": [
+        "Wohin",
+        "Wo",
+        "Wann"
+      ],
+      "answer": 0,
+      "why": "Wohin = لفين.",
+      "ar": "رايح فين؟"
+    },
+    {
+      "prompt": "___ kommst du? (إمتى)",
+      "options": [
+        "Wann",
+        "Warum",
+        "Was"
+      ],
+      "answer": 0,
+      "why": "Wann = إمتى.",
+      "ar": "هتيجي إمتى؟"
+    },
+    {
+      "prompt": "___ lernst du Deutsch? (ليه)",
+      "options": [
+        "Warum",
+        "Wann",
+        "Wo"
+      ],
+      "answer": 0,
+      "why": "Warum = ليه.",
+      "ar": "ليه؟"
+    },
+    {
+      "prompt": "___ machst du heute? (إيه)",
+      "options": [
+        "Was",
+        "Wo",
+        "Wohin"
+      ],
+      "answer": 0,
+      "why": "Was = إيه.",
+      "ar": "هتعمل إيه؟"
+    },
+    {
+      "prompt": "Wo ___ du?",
+      "options": [
+        "arbeitest",
+        "arbeiten",
+        "du"
+      ],
+      "answer": 0,
+      "why": "أداة + فعل + فاعل.",
+      "ar": "فين بتشتغل؟"
+    },
+    {
+      "prompt": "Arbeiten ___ am Wochenende?",
+      "options": [
+        "Sie",
+        "sie",
+        "du"
+      ],
+      "answer": 0,
+      "why": "Sie الرسمية: الفعل في المصدر arbeiten.",
+      "ar": "حضرتك."
+    },
+    {
+      "prompt": "Was ___ Sie am Wochenende?",
+      "options": [
+        "machen",
+        "machst",
+        "macht"
+      ],
+      "answer": 0,
+      "why": "مع Sie: machen.",
+      "ar": "حضرتك بتعمل."
+    },
+    {
+      "prompt": "Wann ___ Sie zusammen?",
+      "options": [
+        "arbeiten",
+        "arbeitet",
+        "arbeitest"
+      ],
+      "answer": 0,
+      "why": "مع Sie: arbeiten.",
+      "ar": "إمتى."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلمك نوعين الأسئلة: نعم/لا (الفعل في الأول) وأسئلة W (أداة + فعل + فاعل)، بصيغة du وبصيغة Sie الرسمية، مع موضوع وقت الفراغ."
+  },
+  "grammar": [
+    {
+      "title": "أسئلة نعم/لا: حركة المقص",
+      "rule": "بنجيب الفعل في أول الجملة وبعده الفاعل: Du arbeitest heute. → Arbeitest du heute?",
+      "forms": [
+        "Du arbeitest heute.",
+        "Arbeitest du heute?"
+      ],
+      "examples": [
+        {
+          "de": "Arbeiten Sie am Wochenende?",
+          "ar": "هل حضرتك بتشتغل في الويك إند؟"
+        }
+      ]
+    },
+    {
+      "title": "أسئلة W: أداة + فعل + فاعل",
+      "rule": "أداة الاستفهام في الأول وبعدها الفعل فورًا وبعدين الفاعل.",
+      "forms": [
+        "Wo = فين",
+        "Wohin = لفين",
+        "Wann = إمتى",
+        "Warum = ليه",
+        "Was = إيه"
+      ],
+      "examples": [
+        {
+          "de": "Wo arbeitest du?",
+          "ar": "فين بتشتغل؟"
+        },
+        {
+          "de": "Wohin gehst du?",
+          "ar": "رايح فين؟"
+        },
+        {
+          "de": "Wann kommst du?",
+          "ar": "هتيجي إمتى؟"
+        }
+      ]
+    },
+    {
+      "title": "الصيغة الرسمية مع Sie",
+      "rule": "مع Sie الفعل بيفضل بالمصدر (en): arbeiten، besuchen، lernen، machen. نفس الترتيب في الأسئلتين.",
+      "forms": [
+        "Arbeiten Sie ...?",
+        "Wo besuchen Sie ...?",
+        "Was machen Sie ...?"
+      ],
+      "examples": [
+        {
+          "de": "Warum lernen Sie zusammen Deutsch?",
+          "ar": "ليه بتتعلموا ألماني مع بعض؟"
+        },
+        {
+          "de": "Wann arbeiten Sie zusammen?",
+          "ar": "إمتى بتشتغلوا مع بعض؟"
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Arbeitest",
+          "du",
+          "heute"
+        ],
+        "answer": "Arbeitest du heute",
+        "ar": "هل بتشتغل النهارده؟"
+      },
+      {
+        "tiles": [
+          "Wo",
+          "arbeitest",
+          "du"
+        ],
+        "answer": "Wo arbeitest du",
+        "ar": "فين بتشتغل؟"
+      },
+      {
+        "tiles": [
+          "Wohin",
+          "gehst",
+          "du"
+        ],
+        "answer": "Wohin gehst du",
+        "ar": "رايح فين؟"
+      },
+      {
+        "tiles": [
+          "Warum",
+          "lernst",
+          "du",
+          "Deutsch"
+        ],
+        "answer": "Warum lernst du Deutsch",
+        "ar": "ليه بتتعلم ألماني؟"
+      },
+      {
+        "tiles": [
+          "Was",
+          "machen",
+          "Sie",
+          "am",
+          "Wochenende"
+        ],
+        "answer": "Was machen Sie am Wochenende",
+        "ar": "حضرتك بتعمل إيه؟"
+      },
+      {
+        "tiles": [
+          "Besuchen",
+          "Sie",
+          "Freunde",
+          "in",
+          "der",
+          "Freizeit"
+        ],
+        "answer": "Besuchen Sie Freunde in der Freizeit",
+        "ar": "بتزور أصدقاء؟"
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Arbeitest du heute?",
+          "Du arbeitest heute?"
+        ],
+        "answer": 0,
+        "why": "سؤال نعم/لا: الفعل في الأول.",
+        "ar": "هل بتشتغل؟"
+      },
+      {
+        "options": [
+          "Wo arbeitest du?",
+          "Wo du arbeitest?"
+        ],
+        "answer": 0,
+        "why": "W + فعل + فاعل.",
+        "ar": "فين؟"
+      },
+      {
+        "options": [
+          "Wann kommst du?",
+          "Wann du kommst?"
+        ],
+        "answer": 0,
+        "why": "الفعل بعد أداة الاستفهام.",
+        "ar": "إمتى؟"
+      },
+      {
+        "options": [
+          "Was machen Sie am Wochenende?",
+          "Was Sie machen am Wochenende?"
+        ],
+        "answer": 0,
+        "why": "W + فعل + Sie.",
+        "ar": "بتعمل إيه؟"
+      },
+      {
+        "options": [
+          "Warum lernst du Deutsch?",
+          "Warum du lernst Deutsch?"
+        ],
+        "answer": 0,
+        "why": "الفعل رقم 2.",
+        "ar": "ليه؟"
+      },
+      {
+        "options": [
+          "Besuchen Sie Freunde?",
+          "Sie besuchen Freunde?"
+        ],
+        "answer": 0,
+        "why": "سؤال نعم/لا: الفعل الأول.",
+        "ar": "بتزور؟"
+      }
+    ],
+    "translate": [
+      {
+        "ar": "هل تعمل اليوم؟",
+        "de": "Arbeitest du heute?",
+        "audio": "audio/s20/tr1.mp3"
+      },
+      {
+        "ar": "أين تعمل؟",
+        "de": "Wo arbeitest du?",
+        "audio": "audio/s20/tr2.mp3"
+      },
+      {
+        "ar": "إلى أين تذهب؟",
+        "de": "Wohin gehst du?",
+        "audio": "audio/s20/tr3.mp3"
+      },
+      {
+        "ar": "متى ستأتي؟",
+        "de": "Wann kommst du?",
+        "audio": "audio/s20/tr4.mp3"
+      },
+      {
+        "ar": "لماذا تتعلم الألمانية؟",
+        "de": "Warum lernst du Deutsch?",
+        "audio": "audio/s20/tr5.mp3"
+      },
+      {
+        "ar": "ماذا تفعل حضرتك في عطلة نهاية الأسبوع؟",
+        "de": "Was machen Sie am Wochenende?",
+        "audio": "audio/s20/tr6.mp3"
+      }
+    ]
+  }
+}
