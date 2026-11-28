@@ -1,0 +1,675 @@
+{
+  "id": 8,
+  "level": "a1",
+  "title": "Session 8: The imperative and giving reasons",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=gb9DcXLF8mQ",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "separable",
+      "label": "Separable verbs",
+      "words": [
+        {
+          "de": "anmachen",
+          "ar": "يشغّل (نور/جهاز)",
+          "audio": "audio/s8/vocab/01-anmachen.mp3"
+        },
+        {
+          "de": "ausmachen",
+          "ar": "يطفي (نور/جهاز)",
+          "audio": "audio/s8/vocab/02-ausmachen.mp3"
+        },
+        {
+          "de": "machen",
+          "ar": "يفعل / يصنع",
+          "audio": "audio/s8/vocab/03-machen.mp3"
+        },
+        {
+          "de": "sehen",
+          "ar": "يشوف / يرى",
+          "audio": "audio/s8/vocab/04-sehen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "devices",
+      "label": "Devices",
+      "words": [
+        {
+          "de": "Licht",
+          "ar": "النور",
+          "audio": "audio/s8/vocab/05-das-licht.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Radio",
+          "ar": "الراديو",
+          "audio": "audio/s8/vocab/06-das-radio.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Handy",
+          "ar": "الموبايل",
+          "audio": "audio/s8/vocab/07-das-handy.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Tablet",
+          "ar": "التابلت",
+          "audio": "audio/s8/vocab/08-das-tablet.mp3",
+          "article": "das"
+        }
+      ]
+    },
+    {
+      "id": "more-verbs",
+      "label": "More verbs",
+      "words": [
+        {
+          "de": "hören",
+          "ar": "يسمع",
+          "audio": "audio/s8/vocab/09-hoeren.mp3"
+        },
+        {
+          "de": "lernen",
+          "ar": "يذاكر / يتعلم",
+          "audio": "audio/s8/vocab/10-lernen.mp3"
+        },
+        {
+          "de": "lesen",
+          "ar": "يقرأ",
+          "audio": "audio/s8/vocab/11-lesen.mp3"
+        },
+        {
+          "de": "sprechen",
+          "ar": "يتكلم",
+          "audio": "audio/s8/vocab/12-sprechen.mp3"
+        },
+        {
+          "de": "schlafen",
+          "ar": "ينام",
+          "audio": "audio/s8/vocab/21-schlafen.mp3"
+        },
+        {
+          "de": "arbeiten",
+          "ar": "يشتغل",
+          "audio": "audio/s8/vocab/22-arbeiten.mp3"
+        }
+      ]
+    },
+    {
+      "id": "imperative",
+      "label": "Commands",
+      "words": [
+        {
+          "de": "Mach!",
+          "ar": "افتح/اعمل! (لواحد)",
+          "audio": "audio/s8/vocab/13-mach.mp3"
+        },
+        {
+          "de": "Macht!",
+          "ar": "افتحوا/اعملوا! (لجمع)",
+          "audio": "audio/s8/vocab/14-macht.mp3"
+        },
+        {
+          "de": "bitte",
+          "ar": "من فضلك",
+          "audio": "audio/s8/vocab/15-bitte.mp3"
+        },
+        {
+          "de": "Ihr müsst schlafen",
+          "ar": "لازم عليكم تناموا",
+          "audio": "audio/s8/vocab/16-ihr-muesst-schlafen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "connectors",
+      "label": "Connectors",
+      "words": [
+        {
+          "de": "damit",
+          "ar": "عشان / لكي",
+          "audio": "audio/s8/vocab/17-damit.mp3"
+        },
+        {
+          "de": "aber",
+          "ar": "بس / لكن",
+          "audio": "audio/s8/vocab/18-aber.mp3"
+        },
+        {
+          "de": "dunkel",
+          "ar": "ضلمة",
+          "audio": "audio/s8/vocab/19-dunkel.mp3"
+        },
+        {
+          "de": "müde",
+          "ar": "تعبان",
+          "audio": "audio/s8/vocab/20-muede.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich mache das Licht an.",
+      "ar": "أنا بفتح النور.",
+      "audio": "audio/s8/s01-ich-mache-das-licht-an.mp3"
+    },
+    {
+      "de": "Ich mache das Licht aus.",
+      "ar": "أنا بقفل النور.",
+      "audio": "audio/s8/s02-ich-mache-das-licht-aus.mp3"
+    },
+    {
+      "de": "Mach das Licht an!",
+      "ar": "افتح النور!",
+      "audio": "audio/s8/s03-mach-das-licht-an.mp3"
+    },
+    {
+      "de": "Mach das Licht aus!",
+      "ar": "اقفل النور!",
+      "audio": "audio/s8/s04-mach-das-licht-aus.mp3"
+    },
+    {
+      "de": "Mach das Licht aus, damit ich schlafen kann.",
+      "ar": "اقفل النور عشان أقدر أنام.",
+      "audio": "audio/s8/s05-mach-aus-damit-schlafen.mp3"
+    },
+    {
+      "de": "Mach das Licht an, damit ich sehen kann.",
+      "ar": "افتح النور عشان أقدر أشوف.",
+      "audio": "audio/s8/s06-mach-an-damit-sehen.mp3"
+    },
+    {
+      "de": "Mach das Licht an, damit ich arbeiten kann.",
+      "ar": "افتح النور عشان أقدر أشتغل.",
+      "audio": "audio/s8/s07-mach-an-damit-arbeiten.mp3"
+    },
+    {
+      "de": "Mach das Licht an, damit ich lesen kann.",
+      "ar": "افتح النور عشان أقدر أقرأ.",
+      "audio": "audio/s8/s08-mach-an-damit-lesen.mp3"
+    },
+    {
+      "de": "Ihr macht das Radio an.",
+      "ar": "أنتم بتشغلوا الراديو.",
+      "audio": "audio/s8/s09-ihr-macht-das-radio-an.mp3"
+    },
+    {
+      "de": "Macht das Radio aus!",
+      "ar": "اقفلوا الراديو!",
+      "audio": "audio/s8/s10-macht-das-radio-aus.mp3"
+    },
+    {
+      "de": "Macht das Radio aus, damit ihr schlafen könnt.",
+      "ar": "اقفلوا الراديو عشان تقدروا تناموا.",
+      "audio": "audio/s8/s11-macht-radio-aus-damit-koennt.mp3"
+    },
+    {
+      "de": "Macht das Tablet an, damit ihr arbeiten könnt.",
+      "ar": "افتحوا التابلت عشان تقدروا تشتغلوا.",
+      "audio": "audio/s8/s12-macht-tablet-an-damit-arbeiten.mp3"
+    },
+    {
+      "de": "Macht das Handy aus, damit ich lernen kann.",
+      "ar": "اقفلوا الموبايل عشان أقدر أذاكر.",
+      "audio": "audio/s8/s13-macht-handy-aus-damit-lernen.mp3"
+    },
+    {
+      "de": "Ich lerne Deutsch mit dir, damit ich sprechen kann.",
+      "ar": "أنا بتعلم ألماني معاك عشان أقدر أتكلم.",
+      "audio": "audio/s8/s14-ich-lerne-deutsch-mit-dir.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "anmachen",
+      "ar": "يشغّل",
+      "audio": "audio/s8/vocab/01-anmachen.mp3"
+    },
+    {
+      "de": "ausmachen",
+      "ar": "يطفي",
+      "audio": "audio/s8/vocab/02-ausmachen.mp3"
+    },
+    {
+      "de": "Licht",
+      "article": "das",
+      "ar": "النور",
+      "audio": "audio/s8/vocab/05-das-licht.mp3"
+    },
+    {
+      "de": "Radio",
+      "article": "das",
+      "ar": "الراديو",
+      "audio": "audio/s8/vocab/06-das-radio.mp3"
+    },
+    {
+      "de": "Tablet",
+      "article": "das",
+      "ar": "التابلت",
+      "audio": "audio/s8/vocab/08-das-tablet.mp3"
+    },
+    {
+      "de": "damit",
+      "ar": "عشان / لكي",
+      "audio": "audio/s8/vocab/17-damit.mp3"
+    },
+    {
+      "de": "Mach!",
+      "ar": "افتح! (لواحد)",
+      "audio": "audio/s8/vocab/13-mach.mp3"
+    },
+    {
+      "de": "Macht!",
+      "ar": "افتحوا! (لجمع)",
+      "audio": "audio/s8/vocab/14-macht.mp3"
+    },
+    {
+      "de": "sehen",
+      "ar": "يشوف",
+      "audio": "audio/s8/vocab/04-sehen.mp3"
+    },
+    {
+      "de": "hören",
+      "ar": "يسمع",
+      "audio": "audio/s8/vocab/09-hoeren.mp3"
+    },
+    {
+      "de": "müde",
+      "ar": "تعبان",
+      "audio": "audio/s8/vocab/20-muede.mp3"
+    },
+    {
+      "de": "dunkel",
+      "ar": "ضلمة",
+      "audio": "audio/s8/vocab/19-dunkel.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "أين يوضع الفعل مع damit؟",
+      "options": [
+        "في آخر الجملة تماماً",
+        "في المركز الثاني",
+        "في أول الجملة"
+      ],
+      "answer": 0,
+      "why": "damit بترمي الفعل المتصرف في آخر الجملة.",
+      "ar": "مكان الفعل مع damit."
+    },
+    {
+      "prompt": "Ich mache das Handy ______, damit ich Deutsch lernen kann. (بفتحه)",
+      "options": [
+        "an",
+        "aus",
+        "mit"
+      ],
+      "answer": 0,
+      "why": "بفتحه = an.",
+      "ar": "بفتح الموبايل عشان أتعلم ألماني."
+    },
+    {
+      "prompt": "Ich kann nicht ______, das Licht ist an.",
+      "options": [
+        "schlafen",
+        "sehe",
+        "koche"
+      ],
+      "answer": 0,
+      "why": "النور مفتوح يبقى مش قادر أنام: schlafen.",
+      "ar": "مش أقدر أنام، النور مفتوح."
+    },
+    {
+      "prompt": "Es ist dunkel, mach das Licht ______!",
+      "options": [
+        "an",
+        "aus",
+        "zu"
+      ],
+      "answer": 0,
+      "why": "ضلمة يبقى افتح النور: an.",
+      "ar": "الدنيا ضلمة، افتح النور!"
+    },
+    {
+      "prompt": "Ich bin müde, ich muss ______.",
+      "options": [
+        "schlafen",
+        "kaufen",
+        "kochen"
+      ],
+      "answer": 0,
+      "why": "تعبان يبقى لازم أنام.",
+      "ar": "أنا تعبان، لازم أنام."
+    },
+    {
+      "prompt": "Ich lerne Deutsch, ______ ich sprechen kann.",
+      "options": [
+        "damit",
+        "aber",
+        "und"
+      ],
+      "answer": 0,
+      "why": "الغرض: damit = عشان.",
+      "ar": "بتعلم ألماني عشان أقدر أتكلم."
+    },
+    {
+      "prompt": "______ das Radio aus! (لجمع)",
+      "options": [
+        "Macht",
+        "Mach",
+        "Machen"
+      ],
+      "answer": 0,
+      "why": "أمر الجمع = تصريف ihr من غير ضمير: Macht.",
+      "ar": "اقفلوا الراديو!"
+    },
+    {
+      "prompt": "Ich mache das Licht ______. (هقفله)",
+      "options": [
+        "aus",
+        "an",
+        "auf"
+      ],
+      "answer": 0,
+      "why": "أقفل = aus.",
+      "ar": "هقفل النور."
+    },
+    {
+      "prompt": "Mach das Licht an, damit ich sehen ______.",
+      "options": [
+        "kann",
+        "muss",
+        "will"
+      ],
+      "answer": 0,
+      "why": "الغرض قدرة: kann.",
+      "ar": "افتح النور عشان أقدر أشوف."
+    },
+    {
+      "prompt": "Das Licht ist teuer, ______ es aus!",
+      "options": [
+        "mach",
+        "macht",
+        "mache"
+      ],
+      "answer": 0,
+      "why": "أمر لواحد: mach.",
+      "ar": "النور غالي، اطفيه!"
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي فيها تلات مكعبات كبار: الأفعال المنفصلة (anmachen/ausmachen اللي بتتقسم نصين)، وصيغة الأمر للمفرد (Mach!) والجمع (Macht!)، وأداة الربط damit (عشان) اللي بترمي الفعل آخر الجملة. مع مكعبات الأجهزة: das Licht، das Radio، das Tablet."
+  },
+  "grammar": [
+    {
+      "title": "الأفعال المنفصلة: anmachen / ausmachen",
+      "rule": "أفعال بتتقسم نصين: الفعل مكانه التاني والجزء الثاني بيروح آخر الجملة: anmachen تبقى Ich mache das Licht an.",
+      "forms": [
+        "ich mache ... an",
+        "ich mache ... aus"
+      ],
+      "examples": [
+        {
+          "de": "Ich mache das Licht an.",
+          "ar": "أنا بفتح النور."
+        },
+        {
+          "de": "Ich mache das Handy aus.",
+          "ar": "أنا بقفل الموبايل."
+        }
+      ]
+    },
+    {
+      "title": "صيغة الأمر للمفرد: Mach!",
+      "rule": "عشان تدي أمر لشخص واحد (du) بنشيل الضمير والنهاية: Mach das Licht an!",
+      "forms": [
+        "Mach!",
+        "Mach das Licht aus!"
+      ],
+      "examples": [
+        {
+          "de": "Mach das Licht an!",
+          "ar": "افتح النور!"
+        },
+        {
+          "de": "Mach das Handy aus!",
+          "ar": "اقفل الموبايل!"
+        }
+      ]
+    },
+    {
+      "title": "صيغة الأمر للجمع: Macht!",
+      "rule": "مع أنتم (ihr) الفعل بياخد t في النهاية، والأمر هو نفس التصريف من غير الضمير: ihr macht تبقى Macht!",
+      "forms": [
+        "ihr macht → Macht!",
+        "ihr müsst → المودال: müsst"
+      ],
+      "examples": [
+        {
+          "de": "Macht das Radio aus!",
+          "ar": "اقفلوا الراديو!"
+        },
+        {
+          "de": "Macht das Tablet an!",
+          "ar": "افتحوا التابلت!"
+        }
+      ]
+    },
+    {
+      "title": "damit: عشان / لكي",
+      "rule": "damit بتربط السبب بالنتيجة وبترمي الفعل المتصرف في آخر الجملة تماماً: Mach das Licht aus, damit ich schlafen kann.",
+      "forms": [
+        "damit ich ... kann",
+        "damit ihr ... könnt"
+      ],
+      "examples": [
+        {
+          "de": "Mach das Licht an, damit ich sehen kann.",
+          "ar": "افتح النور عشان أقدر أشوف."
+        },
+        {
+          "de": "Macht das Radio aus, damit ihr schlafen könnt.",
+          "ar": "اقفلوا الراديو عشان تقدروا تناموا."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "kann",
+          "damit",
+          "ich",
+          "sehen",
+          "Licht",
+          "das",
+          "Mach",
+          "an"
+        ],
+        "answer": "Mach das Licht an, damit ich sehen kann.",
+        "ar": "افتح النور عشان أقدر أشوف."
+      },
+      {
+        "tiles": [
+          "schlafen",
+          "ich",
+          "kann",
+          "damit",
+          "aus",
+          "Licht",
+          "das",
+          "Mach"
+        ],
+        "answer": "Mach das Licht aus, damit ich schlafen kann.",
+        "ar": "اقفل النور عشان أقدر أنام."
+      },
+      {
+        "tiles": [
+          "aus",
+          "Radio",
+          "das",
+          "Macht"
+        ],
+        "answer": "Macht das Radio aus!",
+        "ar": "اقفلوا الراديو!"
+      },
+      {
+        "tiles": [
+          "mache",
+          "das",
+          "Licht",
+          "an",
+          "Ich"
+        ],
+        "answer": "Ich mache das Licht an.",
+        "ar": "أنا بفتح النور."
+      },
+      {
+        "tiles": [
+          "Handy",
+          "aus",
+          "das",
+          "Macht"
+        ],
+        "answer": "Macht das Handy aus!",
+        "ar": "اقفلوا الموبايل!"
+      },
+      {
+        "tiles": [
+          "lerne",
+          "Deutsch",
+          "mit",
+          "dir",
+          "Ich"
+        ],
+        "answer": "Ich lerne Deutsch mit dir.",
+        "ar": "أنا بتعلم ألماني معاك."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "...damit ich sehen kann.",
+          "...damit ich kann sehen."
+        ],
+        "answer": 0,
+        "why": "damit بترمي الفعل المتصرف الآخر: sehen kann.",
+        "ar": "عشان أقدر أشوف."
+      },
+      {
+        "options": [
+          "Das Licht ist teuer für mich.",
+          "Das Licht ist teuer für ich."
+        ],
+        "answer": 0,
+        "why": "بعد für: mich مش ich.",
+        "ar": "النور غالي بالنسبة لي."
+      },
+      {
+        "options": [
+          "...damit ich schlafen kann.",
+          "...damit ich schlafen."
+        ],
+        "answer": 0,
+        "why": "ناقص الفعل kann في الآخر.",
+        "ar": "عشان أقدر أنام."
+      },
+      {
+        "options": [
+          "Mach das Licht aus!",
+          "Machst das Licht aus!"
+        ],
+        "answer": 0,
+        "why": "الأمر للمفرد من غير نهاية: Mach.",
+        "ar": "اقفل النور!"
+      },
+      {
+        "options": [
+          "Macht das Radio an!",
+          "Mach das Radio an! (لجمع)"
+        ],
+        "answer": 0,
+        "why": "أمر الجمع: Macht.",
+        "ar": "افتحوا الراديو!"
+      },
+      {
+        "options": [
+          "Ich mache das Licht an.",
+          "Ich anmache das Licht."
+        ],
+        "answer": 0,
+        "why": "الفعل المنفصل: mache تاني وan آخر الجملة.",
+        "ar": "أنا بفتح النور."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "يجب أن أطفي النور لكي أستطيع النوم.",
+        "de": "Ich muss das Licht ausmachen, damit ich schlafen kann.",
+        "audio": "audio/s8/tr1.mp3"
+      },
+      {
+        "ar": "شغل النور من فضلك لكي أستطيع أن أرى الكتاب.",
+        "de": "Mach das Licht an, bitte, damit ich das Buch sehen kann.",
+        "audio": "audio/s8/tr2.mp3"
+      },
+      {
+        "ar": "أنا أتعلم الألماني معك لكي أستطيع التحدث.",
+        "de": "Ich lerne Deutsch mit dir, damit ich sprechen kann.",
+        "audio": "audio/s8/tr3.mp3"
+      },
+      {
+        "ar": "اقفلوا الراديو عشان تقدروا تناموا.",
+        "de": "Macht das Radio aus, damit ihr schlafen könnt.",
+        "audio": "audio/s8/tr4.mp3"
+      },
+      {
+        "ar": "افتح النور!",
+        "de": "Mach das Licht an!",
+        "audio": "audio/s8/tr5.mp3"
+      },
+      {
+        "ar": "أنا بقفل النور.",
+        "de": "Ich mache das Licht aus.",
+        "audio": "audio/s8/tr6.mp3"
+      }
+    ]
+  }
+}
