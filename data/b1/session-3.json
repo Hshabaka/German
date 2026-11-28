@@ -1,0 +1,469 @@
+{
+  "id": 3,
+  "level": "b1",
+  "title": "Episode 3: A second verb in the sentence (Infinitiv mit zu)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=7ogofcP0OGw",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel",
+    "open_url": "https://www.youtube.com/watch?v=7ogofcP0OGw"
+  },
+  "vocab": [
+    {
+      "id": "zu-verben",
+      "label": "Verbs with zu (18)",
+      "words": [
+        {
+          "de": "beginnen",
+          "ar": "يبدأ",
+          "audio": "audio/b1/s03/vocab/01-beginnen.mp3"
+        },
+        {
+          "de": "versuchen",
+          "ar": "يحاول",
+          "audio": "audio/b1/s03/vocab/02-versuchen.mp3"
+        },
+        {
+          "de": "vergessen",
+          "ar": "ينسى",
+          "audio": "audio/b1/s03/vocab/03-vergessen.mp3"
+        },
+        {
+          "de": "beschließen",
+          "ar": "يقرر",
+          "audio": "audio/b1/s03/vocab/04-beschliessen.mp3"
+        },
+        {
+          "de": "bereit sein",
+          "ar": "يكون مستعد",
+          "audio": "audio/b1/s03/vocab/05-bereit-sein.mp3"
+        },
+        {
+          "de": "erlaubt sein",
+          "ar": "يكون مسموح",
+          "audio": "audio/b1/s03/vocab/06-erlaubt-sein.mp3"
+        },
+        {
+          "de": "gesund sein",
+          "ar": "يكون صحي",
+          "audio": "audio/b1/s03/vocab/07-gesund-sein.mp3"
+        },
+        {
+          "de": "Zeit haben",
+          "ar": "يكون عنده وقت",
+          "audio": "audio/b1/s03/vocab/08-zeit-haben.mp3"
+        },
+        {
+          "de": "Lust haben",
+          "ar": "يكون عنده نفس",
+          "audio": "audio/b1/s03/vocab/09-lust-haben.mp3"
+        },
+        {
+          "de": "anbieten",
+          "ar": "يعرض",
+          "audio": "audio/b1/s03/vocab/10-anbieten.mp3"
+        },
+        {
+          "de": "vorschlagen",
+          "ar": "يقترح",
+          "audio": "audio/b1/s03/vocab/11-vorschlagen.mp3"
+        },
+        {
+          "de": "planen",
+          "ar": "يخطط",
+          "audio": "audio/b1/s03/vocab/12-planen.mp3"
+        },
+        {
+          "de": "helfen",
+          "ar": "يساعد",
+          "audio": "audio/b1/s03/vocab/13-helfen.mp3"
+        },
+        {
+          "de": "hoffen",
+          "ar": "يأمل",
+          "audio": "audio/b1/s03/vocab/14-hoffen.mp3"
+        },
+        {
+          "de": "denken an",
+          "ar": "يفكر في",
+          "audio": "audio/b1/s03/vocab/15-denken-an.mp3"
+        },
+        {
+          "de": "versprechen",
+          "ar": "يوعد",
+          "audio": "audio/b1/s03/vocab/16-versprechen.mp3"
+        },
+        {
+          "de": "raten",
+          "ar": "ينصح",
+          "audio": "audio/b1/s03/vocab/17-raten.mp3"
+        },
+        {
+          "de": "verbieten",
+          "ar": "يمنع",
+          "audio": "audio/b1/s03/vocab/18-verbieten.mp3"
+        }
+      ]
+    },
+    {
+      "id": "vip",
+      "label": "VIP verbs (no zu)",
+      "words": [
+        {
+          "de": "wollen",
+          "ar": "عايز",
+          "audio": "audio/b1/s03/vocab/19-wollen.mp3"
+        },
+        {
+          "de": "gehen",
+          "ar": "يروح",
+          "audio": "audio/b1/s03/vocab/20-gehen.mp3"
+        },
+        {
+          "de": "hören",
+          "ar": "يسمع",
+          "audio": "audio/b1/s03/vocab/21-hoeren.mp3"
+        },
+        {
+          "de": "lassen",
+          "ar": "يسيب / يخلي",
+          "audio": "audio/b1/s03/vocab/22-lassen.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich beginne, die Arbeit zu machen.",
+      "ar": "ببدأ الشغل.",
+      "audio": "audio/b1/s03/s01-ich-beginne-die-arbeit-zu-machen.mp3"
+    },
+    {
+      "de": "Ich versuche, am Mittwoch zu kommen.",
+      "ar": "بحاول أجي يوم الأربع.",
+      "audio": "audio/b1/s03/s02-ich-versuche-am-mittwoch-zu-kommen.mp3"
+    },
+    {
+      "de": "Ich habe vergessen, dir Bescheid zu sagen.",
+      "ar": "نسيت أقولك.",
+      "audio": "audio/b1/s03/s03-ich-habe-vergessen-dir-bescheid-zu-sagen.mp3"
+    },
+    {
+      "de": "Wir beschließen, eine Reise zu machen.",
+      "ar": "قررنا نعمل رحلة.",
+      "audio": "audio/b1/s03/s04-wir-beschliessen-eine-reise-zu-machen.mp3"
+    },
+    {
+      "de": "Ich bin bereit, dir zu helfen.",
+      "ar": "أنا مستعد أساعدك.",
+      "audio": "audio/b1/s03/s05-ich-bin-bereit-dir-zu-helfen.mp3"
+    },
+    {
+      "de": "Es ist nicht erlaubt, hier zu telefonieren.",
+      "ar": "مش مسموح تتكلم في التليفون هنا.",
+      "audio": "audio/b1/s03/s06-es-ist-nicht-erlaubt-hier-zu-telefonieren.mp3"
+    },
+    {
+      "de": "Es ist gesund, einen Apfel zu essen.",
+      "ar": "الصحي إنك تاكل تفاحة.",
+      "audio": "audio/b1/s03/s07-es-ist-gesund-einen-apfel-zu-essen.mp3"
+    },
+    {
+      "de": "Ich habe Zeit, dich zu besuchen.",
+      "ar": "عندي وقت أزورك.",
+      "audio": "audio/b1/s03/s08-ich-habe-zeit-dich-zu-besuchen.mp3"
+    },
+    {
+      "de": "Ich habe Lust, Pizza zu essen.",
+      "ar": "عندي نفس آكل بيتزا.",
+      "audio": "audio/b1/s03/s09-ich-habe-lust-pizza-zu-essen.mp3"
+    },
+    {
+      "de": "Er bietet an, Tee zu trinken.",
+      "ar": "هو بيعرض يشرب شاي.",
+      "audio": "audio/b1/s03/s10-er-bietet-an-tee-zu-trinken.mp3"
+    },
+    {
+      "de": "Ich schlage vor, am Samstag auszugehen.",
+      "ar": "بقترح نخرج يوم السبت.",
+      "audio": "audio/b1/s03/s11-ich-schlage-vor-am-samstag-auszugehen.mp3"
+    },
+    {
+      "de": "Der Arzt rät mir, viel Wasser zu trinken.",
+      "ar": "الدكتور بينصحني أشرب مية كتير.",
+      "audio": "audio/b1/s03/s12-der-arzt-raet-mir-viel-wasser-zu-trinken.mp3"
+    },
+    {
+      "de": "Ich gehe schlafen.",
+      "ar": "رايح أنام.",
+      "audio": "audio/b1/s03/s13-ich-gehe-schlafen.mp3"
+    },
+    {
+      "de": "Ich lasse das Auto reparieren.",
+      "ar": "هسيب العربية تتصلح.",
+      "audio": "audio/b1/s03/s14-ich-lasse-das-auto-reparieren.mp3"
+    }
+  ],
+  "cards": [],
+  "quiz": [
+    {
+      "prompt": "Herr Abdelrahman bietet an, uns _______",
+      "options": [
+        "zu helfen",
+        "helfen",
+        "geholfen"
+      ],
+      "answer": 0,
+      "why": "anbieten بياخد zu، والفعل المنفصل بيتحشر: an ... zu helfen.",
+      "ar": "الأستاذ عبد الرحمن بيعرض يساعدنا."
+    },
+    {
+      "prompt": "Ich weiß nicht, ob ich Zeit habe, am Sonntag _______",
+      "options": [
+        "auszugehen",
+        "zu ausgehen",
+        "ausgehen zu"
+      ],
+      "answer": 0,
+      "why": "الفعل المنفصل ausgehen بيتحشر مع zu: auszugehen.",
+      "ar": "مش عارف لو عندي وقت أخرج يوم الحد."
+    },
+    {
+      "prompt": "Mein Vater lässt mich nicht Café _______.",
+      "options": [
+        "besuchen",
+        "zu besuchen",
+        "besuche"
+      ],
+      "answer": 0,
+      "why": "lassen من الـ VIP: بدون zu.",
+      "ar": "بابا مش سايبني أروح الكافيه."
+    },
+    {
+      "prompt": "Es ist ungesund, jeden Tag 10 Eier _______.",
+      "options": [
+        "zu essen",
+        "essen",
+        "gegessen"
+      ],
+      "answer": 0,
+      "why": "ungesund sein تركيب بياخد zu.",
+      "ar": "مش صحي تاكل 10 بيضات كل يوم."
+    },
+    {
+      "prompt": "Ich plane, morgen einen Deutschkurs _______.",
+      "options": [
+        "zu besuchen",
+        "besuchen",
+        "besucht"
+      ],
+      "answer": 0,
+      "why": "planen بياخد zu.",
+      "ar": "بخطط أحضر كورس ألماني بكرة."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الحلقة ٣ من B1: إزاي تحط فعل تاني في الجملة. 18 فعل وتركيب بياخدوا zu في الآخر (مع تريكة الأفعال المنفصلة auszugehen)، والـ VIP اللي مبياخدوش zu: الشكلية والحركة والحواس وlassen."
+  },
+  "grammar": [
+    {
+      "title": "قاعدة zu: الفعل التاني",
+      "rule": "لما ييجي فعل تاني بعد الأفعال دي، بيروح الآخر في المصدر مع zu. والفعل المنفصل zu بتتحشر في النص: auszumachen, einzukaufen.",
+      "forms": [
+        "beginnen, ... zu machen",
+        "vergessen, ... auszumachen"
+      ],
+      "examples": [
+        {
+          "de": "Ich beginne, Deutsch zu lernen.",
+          "ar": "ببدأ أتعلم ألماني."
+        },
+        {
+          "de": "Er hat vergessen, das Licht auszumachen.",
+          "ar": "نسي يطفي النور."
+        }
+      ]
+    },
+    {
+      "title": "الـ 18: أفعال وتراكيب بتاخد zu",
+      "rule": "beginnen وversuchen وvergessen وbeschließen وplanen وhoffen وhelfen وanbieten وvorschlagen وversprechen وraten وverbieten وdenken an، وتراكيب bereit/erlaubt/gesund sein وZeit/Lust haben.",
+      "forms": [
+        "Ich habe Zeit, dich zu besuchen.",
+        "Er bietet an, Tee zu trinken."
+      ],
+      "examples": [
+        {
+          "de": "Wir beschließen, eine Reise zu machen.",
+          "ar": "قررنا نعمل رحلة."
+        },
+        {
+          "de": "Der Vater verbietet, das Handy zu benutzen.",
+          "ar": "الأب بيمنع استخدام الموبايل."
+        }
+      ]
+    },
+    {
+      "title": "الـ VIP: بدون zu",
+      "rule": "الأفعال الشكلية (wollen/müssen...) وأفعال الحركة (gehen) والحواس (hören/sehen) وlassen وbleiben: الفعل التاني من غير zu.",
+      "forms": [
+        "Ich will das Auto kaufen.",
+        "Ich gehe schlafen.",
+        "Ich lasse das Auto reparieren."
+      ],
+      "examples": [
+        {
+          "de": "Ich höre das Baby weinen.",
+          "ar": "سامع البيبي بيعيط."
+        },
+        {
+          "de": "Ich bleibe heute im Bett schlafen.",
+          "ar": "هفضل نايم في السرير النهارده."
+        }
+      ]
+    },
+    {
+      "title": "تريكة الأفعال المنفصلة في الامتحان",
+      "rule": "anbieten وvorschlagen أفعال منفصلة: الكومة بتتفرق في الآخرين — Er bietet an, uns zu helfen. وausgehen + zu = auszugehen.",
+      "forms": [
+        "anbieten: an ... zu helfen",
+        "ausgehen: auszugehen"
+      ],
+      "examples": [
+        {
+          "de": "Er bietet an, das Auto zu kaufen.",
+          "ar": "هو بيعرض يشتري العربية."
+        },
+        {
+          "de": "Ich schlage vor, am Samstag auszugehen.",
+          "ar": "بقترح نخرج يوم السبت."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "habe Lust,",
+          "Ich",
+          "Pizza zu essen."
+        ],
+        "answer": "Ich habe Lust, Pizza zu essen.",
+        "ar": "عندي نفس آكل بيتزا."
+      },
+      {
+        "tiles": [
+          "schlage vor,",
+          "Ich",
+          "am Samstag einzukaufen."
+        ],
+        "answer": "Ich schlage vor, am Samstag einzukaufen.",
+        "ar": "بقترح نشتري الحاجات يوم السبت."
+      },
+      {
+        "tiles": [
+          "beginne,",
+          "Ich",
+          "Deutsch zu lernen."
+        ],
+        "answer": "Ich beginne, Deutsch zu lernen.",
+        "ar": "ببدأ أتعلم ألماني."
+      },
+      {
+        "tiles": [
+          "habe vergessen,",
+          "Ich",
+          "dir Bescheid zu sagen."
+        ],
+        "answer": "Ich habe vergessen, dir Bescheid zu sagen.",
+        "ar": "نسيت أقولك."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Der Arzt hat mir geraten, viel Wasser zu trinken.",
+          "Der Arzt hat mir geraten, viel Wasser trinken."
+        ],
+        "answer": 0,
+        "why": "raten بياخد zu: geraten, viel Wasser zu trinken.",
+        "ar": "الدكتور نصحني أشرب مية كتير."
+      },
+      {
+        "options": [
+          "Deshalb will ich heute versuchen, gesund zu leben.",
+          "Deshalb ich will heute versuchen, gesund zu leben."
+        ],
+        "answer": 0,
+        "why": "بعد deshalb الفعل يجي رقم 2 والفاعل وراه (شقلبة).",
+        "ar": "عشان كده هحاول أعيش صحي النهارده."
+      },
+      {
+        "options": [
+          "Ich plane, morgen einen Deutschkurs zu besuchen.",
+          "Ich plane, morgen einen Deutschkurs besuchen."
+        ],
+        "answer": 0,
+        "why": "planen لازم معاها zu.",
+        "ar": "بخطط أحضر كورس ألماني بكرة."
+      },
+      {
+        "options": [
+          "Ich will jetzt nach Hause gehen.",
+          "Ich will jetzt nach Hause zu gehen."
+        ],
+        "answer": 0,
+        "why": "الأفعال الشكلية من الـ VIP: بدون zu.",
+        "ar": "عايز أروح البيت دلوقتي."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "معذرة، لقد نسيت أن أخبرك أنني خططت لإلغاء الموعد يوم الأربعاء.",
+        "de": "Entschuldigung, ich habe vergessen, dir Bescheid zu sagen, dass ich geplant habe, den Termin am Mittwoch abzusagen.",
+        "audio": "audio/b1/s03/tr1.mp3"
+      },
+      {
+        "ar": "الجو سيء جدًا وأنا بردان، لذلك أود الحصول على موعد عند الطبيب.",
+        "de": "Das Wetter ist sehr schlecht und mir ist kalt, deshalb hätte ich gerne einen Termin beim Arzt.",
+        "audio": "audio/b1/s03/tr2.mp3"
+      },
+      {
+        "ar": "الموبايل الجديد أغلى من الكتاب، لكنني أريد شراءه لأنني أحتاجه.",
+        "de": "Das neue Handy ist teurer als das Buch, aber ich will es kaufen, weil ich es brauche.",
+        "audio": "audio/b1/s03/tr3.mp3"
+      }
+    ]
+  }
+}
