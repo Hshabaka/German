@@ -1,0 +1,613 @@
+{
+  "id": 27,
+  "level": "a1",
+  "title": "Session 27: Writing an email",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=ZFbzzSqEElQ",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "hotel",
+      "label": "Hotel words",
+      "words": [
+        {
+          "de": "Hotel",
+          "ar": "الفندق",
+          "audio": "audio/s27/vocab/01-hotel.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Doppelzimmer",
+          "ar": "أوضة مزدوجة",
+          "audio": "audio/s27/vocab/02-doppelzimmer.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Einzelzimmer",
+          "ar": "أوضة فردية",
+          "audio": "audio/s27/vocab/03-einzelzimmer.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Nacht",
+          "ar": "الليلة",
+          "audio": "audio/s27/vocab/04-nacht.mp3",
+          "article": "die"
+        },
+        {
+          "de": "zwei Nächte",
+          "ar": "ليلتين",
+          "audio": "audio/s27/vocab/05-zwei-naechte.mp3"
+        },
+        {
+          "de": "ankommen",
+          "ar": "يوصل (فعل منفصل)",
+          "audio": "audio/s27/vocab/06-ankommen.mp3"
+        },
+        {
+          "de": "kosten",
+          "ar": "يتكلف / السعر",
+          "audio": "audio/s27/vocab/07-kosten.mp3"
+        },
+        {
+          "de": "buchen",
+          "ar": "يحجز",
+          "audio": "audio/s27/vocab/08-buchen.mp3"
+        },
+        {
+          "de": "bleiben",
+          "ar": "يفضل / يقعد",
+          "audio": "audio/s27/vocab/09-bleiben.mp3"
+        },
+        {
+          "de": "Informationen",
+          "ar": "معلومات",
+          "audio": "audio/s27/vocab/10-informationen.mp3",
+          "article": "die"
+        }
+      ]
+    },
+    {
+      "id": "email",
+      "label": "Formal email phrases",
+      "words": [
+        {
+          "de": "Sehr geehrte Damen und Herren,",
+          "ar": "سيداتي وسادتي المحترمين (افتتاحية)",
+          "audio": "audio/s27/vocab/11-sehr-geehrte-damen-und-herren.mp3"
+        },
+        {
+          "de": "Wir schreiben Ihnen, weil wir Informationen möchten",
+          "ar": "إحنا بنكتبلكم لأننا عايزين معلومات",
+          "audio": "audio/s27/vocab/12-wir-schreiben-ihnen-weil-wir-information.mp3"
+        },
+        {
+          "de": "Wir möchten ein Doppelzimmer im Hotel buchen",
+          "ar": "إحنا عايزين نحجز أوضة مزدوجة في الفندق",
+          "audio": "audio/s27/vocab/13-wir-moechten-ein-doppelzimmer-im-hotel-b.mp3"
+        },
+        {
+          "de": "Wir kommen am Freitag an",
+          "ar": "إحنا هنوصل يوم الجمعة",
+          "audio": "audio/s27/vocab/14-wir-kommen-am-freitag-an.mp3"
+        },
+        {
+          "de": "Wir möchten zwei Nächte bleiben",
+          "ar": "إحنا عايزين نقعد ليلتين",
+          "audio": "audio/s27/vocab/15-wir-moechten-zwei-naechte-bleiben.mp3"
+        },
+        {
+          "de": "Wie viel kostet das Zimmer?",
+          "ar": "الأوضة بكام؟",
+          "audio": "audio/s27/vocab/16-wie-viel-kostet-das-zimmer.mp3"
+        },
+        {
+          "de": "Mit freundlichen Grüßen",
+          "ar": "مع فائق الاحترام (خاتمة)",
+          "audio": "audio/s27/vocab/17-mit-freundlichen-gruessen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "label": "Grammar words",
+      "words": [
+        {
+          "de": "weil",
+          "ar": "لأن",
+          "audio": "audio/s27/vocab/18-weil.mp3"
+        },
+        {
+          "de": "möchten",
+          "ar": "عايزين (wir)",
+          "audio": "audio/s27/vocab/19-moechten.mp3"
+        },
+        {
+          "de": "am Freitag",
+          "ar": "يوم الجمعة",
+          "audio": "audio/s27/vocab/20-am-freitag.mp3"
+        },
+        {
+          "de": "am Montag",
+          "ar": "يوم الاثنين",
+          "audio": "audio/s27/vocab/21-am-montag.mp3"
+        },
+        {
+          "de": "Ich möchte ein Einzelzimmer",
+          "ar": "أنا عايز أوضة فردية",
+          "audio": "audio/s27/vocab/22-ich-moechte-ein-einzelzimmer.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Sehr geehrte Damen und Herren,",
+      "ar": "سيداتي وسادتي المحترمين،",
+      "audio": "audio/s27/s01-sehr-geehrte-damen-und-herren.mp3"
+    },
+    {
+      "de": "Wir schreiben Ihnen, weil wir Informationen möchten.",
+      "ar": "إحنا بنكتبلكم لأننا عايزين معلومات.",
+      "audio": "audio/s27/s02-wir-schreiben-ihnen-weil-wir-informationen-m.mp3"
+    },
+    {
+      "de": "Wir möchten ein Doppelzimmer im Hotel buchen.",
+      "ar": "إحنا عايزين نحجز أوضة مزدوجة في الفندق.",
+      "audio": "audio/s27/s03-wir-moechten-ein-doppelzimmer-im-hotel-buche.mp3"
+    },
+    {
+      "de": "Wir kommen am Freitag an.",
+      "ar": "إحنا هنوصل يوم الجمعة.",
+      "audio": "audio/s27/s04-wir-kommen-am-freitag-an.mp3"
+    },
+    {
+      "de": "Wir möchten zwei Nächte bleiben.",
+      "ar": "إحنا عايزين نقعد ليلتين.",
+      "audio": "audio/s27/s05-wir-moechten-zwei-naechte-bleiben.mp3"
+    },
+    {
+      "de": "Wie viel kostet das Zimmer?",
+      "ar": "الأوضة بكام؟",
+      "audio": "audio/s27/s06-wie-viel-kostet-das-zimmer.mp3"
+    },
+    {
+      "de": "Mit freundlichen Grüßen",
+      "ar": "مع فائق الاحترام",
+      "audio": "audio/s27/s07-mit-freundlichen-gruessen.mp3"
+    },
+    {
+      "de": "Ich möchte ein Einzelzimmer buchen.",
+      "ar": "أنا عايز أحجز أوضة فردية.",
+      "audio": "audio/s27/s08-ich-moechte-ein-einzelzimmer-buchen.mp3"
+    },
+    {
+      "de": "Ich komme am Montag an.",
+      "ar": "أنا هوصل يوم الاثنين.",
+      "audio": "audio/s27/s09-ich-komme-am-montag-an.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Hotel",
+      "ar": "الفندق",
+      "audio": "audio/s27/vocab/01-hotel.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Doppelzimmer",
+      "ar": "أوضة مزدوجة",
+      "audio": "audio/s27/vocab/02-doppelzimmer.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Einzelzimmer",
+      "ar": "أوضة فردية",
+      "audio": "audio/s27/vocab/03-einzelzimmer.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Nacht",
+      "ar": "الليلة",
+      "audio": "audio/s27/vocab/04-nacht.mp3",
+      "article": "die"
+    },
+    {
+      "de": "ankommen",
+      "ar": "يوصل (فعل منفصل)",
+      "audio": "audio/s27/vocab/06-ankommen.mp3"
+    },
+    {
+      "de": "kosten",
+      "ar": "يتكلف / السعر",
+      "audio": "audio/s27/vocab/07-kosten.mp3"
+    },
+    {
+      "de": "buchen",
+      "ar": "يحجز",
+      "audio": "audio/s27/vocab/08-buchen.mp3"
+    },
+    {
+      "de": "Informationen",
+      "ar": "معلومات",
+      "audio": "audio/s27/vocab/10-informationen.mp3",
+      "article": "die"
+    },
+    {
+      "de": "weil",
+      "ar": "لأن",
+      "audio": "audio/s27/vocab/18-weil.mp3"
+    },
+    {
+      "de": "Sehr geehrte Damen und Herren,",
+      "ar": "سيداتي وسادتي المحترمين (افتتاحية)",
+      "audio": "audio/s27/vocab/11-sehr-geehrte-damen-und-herren.mp3"
+    },
+    {
+      "de": "Mit freundlichen Grüßen",
+      "ar": "مع فائق الاحترام (خاتمة)",
+      "audio": "audio/s27/vocab/17-mit-freundlichen-gruessen.mp3"
+    },
+    {
+      "de": "Wie viel kostet das Zimmer?",
+      "ar": "الأوضة بكام؟",
+      "audio": "audio/s27/vocab/16-wie-viel-kostet-das-zimmer.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Wir ___ ein Doppelzimmer buchen.",
+      "options": [
+        "möchten",
+        "möchte",
+        "möchtest"
+      ],
+      "answer": 0,
+      "why": "مع wir: möchten.",
+      "ar": "عايزين."
+    },
+    {
+      "prompt": "Wir schreiben Ihnen, ___ wir Informationen möchten.",
+      "options": [
+        "weil",
+        "aber",
+        "und"
+      ],
+      "answer": 0,
+      "why": "weil = لأن.",
+      "ar": "لأن."
+    },
+    {
+      "prompt": "..., weil wir Informationen ___.",
+      "options": [
+        "möchten",
+        "wir möchten",
+        "möchtet"
+      ],
+      "answer": 0,
+      "why": "weil بترمي الفعل في الآخر.",
+      "ar": "عايزين."
+    },
+    {
+      "prompt": "Wir kommen am Freitag ___.",
+      "options": [
+        "an",
+        "ankommen",
+        "ab"
+      ],
+      "answer": 0,
+      "why": "ankommen منفصل: an في الآخر.",
+      "ar": "هنوصل."
+    },
+    {
+      "prompt": "Wir möchten zwei Nächte ___.",
+      "options": [
+        "bleiben",
+        "bleibt",
+        "blieb"
+      ],
+      "answer": 0,
+      "why": "المصدر في الآخر.",
+      "ar": "نقعد."
+    },
+    {
+      "prompt": "Wie viel ___ das Zimmer?",
+      "options": [
+        "kostet",
+        "kosten",
+        "kostest"
+      ],
+      "answer": 0,
+      "why": "مع das Zimmer: kostet.",
+      "ar": "بكام."
+    },
+    {
+      "prompt": "___ Damen und Herren,",
+      "options": [
+        "Sehr geehrte",
+        "Mit freundlichen",
+        "Wie viel"
+      ],
+      "answer": 0,
+      "why": "افتتاحية الإيميل الرسمي.",
+      "ar": "افتتاحية."
+    },
+    {
+      "prompt": "Mit freundlichen ___",
+      "options": [
+        "Grüßen",
+        "Grüße",
+        "Gruß"
+      ],
+      "answer": 0,
+      "why": "خاتمة ثابتة.",
+      "ar": "الاحترام."
+    },
+    {
+      "prompt": "Ich möchte ein ___ buchen. (فردية)",
+      "options": [
+        "Einzelzimmer",
+        "Doppelzimmer",
+        "Hotel"
+      ],
+      "answer": 0,
+      "why": "Einzelzimmer = فردية.",
+      "ar": "فردية."
+    },
+    {
+      "prompt": "Ich komme ___ Montag an.",
+      "options": [
+        "am",
+        "im",
+        "um"
+      ],
+      "answer": 0,
+      "why": "اليوم: am.",
+      "ar": "الاثنين."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلمك تكتب إيميل رسمي لحجز فندق: افتتاحية وخاتمة ثابتة، weil (الفعل في الآخر)، ankommen المنفصل، وأسئلة السعر والمدة."
+  },
+  "grammar": [
+    {
+      "title": "هيكل الإيميل الرسمي",
+      "rule": "افتتاحية: Sehr geehrte Damen und Herren, (لما متعرفش الاسم). وبعدين السبب، الطلب، الوصول، المدة، السؤال عن السعر. وخاتمة: Mit freundlichen Grüßen.",
+      "forms": [
+        "Sehr geehrte Damen und Herren,",
+        "Wir schreiben Ihnen, weil ...",
+        "Wir möchten ... buchen.",
+        "Wir kommen am Freitag an.",
+        "Wir möchten zwei Nächte bleiben.",
+        "Wie viel kostet das Zimmer?",
+        "Mit freundlichen Grüßen"
+      ],
+      "examples": [
+        {
+          "de": "Wir möchten ein Doppelzimmer im Hotel buchen.",
+          "ar": "عايزين نحجز أوضة مزدوجة."
+        }
+      ]
+    },
+    {
+      "title": "weil: الفعل في الآخر",
+      "rule": "weil بترمي الفعل المتصرف في آخر الجملة: ..., weil wir Informationen möchten.",
+      "forms": [
+        "..., weil wir Informationen möchten"
+      ],
+      "examples": [
+        {
+          "de": "Wir schreiben Ihnen, weil wir Informationen möchten.",
+          "ar": "بنكتبلكم لأننا عايزين معلومات."
+        }
+      ]
+    },
+    {
+      "title": "ankommen فعل منفصل",
+      "rule": "ankommen بيتقسم: Wir kommen am Freitag an.",
+      "forms": [
+        "Wir kommen ... an",
+        "Ich komme am Montag an"
+      ],
+      "examples": [
+        {
+          "de": "Wir kommen am Freitag an.",
+          "ar": "هنوصل الجمعة."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Wir",
+          "möchten",
+          "ein",
+          "Doppelzimmer",
+          "im",
+          "Hotel",
+          "buchen"
+        ],
+        "answer": "Wir möchten ein Doppelzimmer im Hotel buchen",
+        "ar": "عايزين نحجز أوضة مزدوجة."
+      },
+      {
+        "tiles": [
+          "Wir",
+          "kommen",
+          "am",
+          "Freitag",
+          "an"
+        ],
+        "answer": "Wir kommen am Freitag an",
+        "ar": "هنوصل الجمعة."
+      },
+      {
+        "tiles": [
+          "Wir",
+          "möchten",
+          "zwei",
+          "Nächte",
+          "bleiben"
+        ],
+        "answer": "Wir möchten zwei Nächte bleiben",
+        "ar": "نقعد ليلتين."
+      },
+      {
+        "tiles": [
+          "Wie",
+          "viel",
+          "kostet",
+          "das",
+          "Zimmer"
+        ],
+        "answer": "Wie viel kostet das Zimmer",
+        "ar": "الأوضة بكام؟"
+      },
+      {
+        "tiles": [
+          "Ich",
+          "möchte",
+          "ein",
+          "Einzelzimmer",
+          "buchen"
+        ],
+        "answer": "Ich möchte ein Einzelzimmer buchen",
+        "ar": "عايز فردية."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "komme",
+          "am",
+          "Montag",
+          "an"
+        ],
+        "answer": "Ich komme am Montag an",
+        "ar": "هوصل الاثنين."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Wir kommen am Freitag an.",
+          "Wir ankommen am Freitag."
+        ],
+        "answer": 0,
+        "why": "ankommen منفصل.",
+        "ar": "هنوصل."
+      },
+      {
+        "options": [
+          "..., weil wir Informationen möchten.",
+          "..., weil wir möchten Informationen."
+        ],
+        "answer": 0,
+        "why": "weil: الفعل في الآخر.",
+        "ar": "لأن."
+      },
+      {
+        "options": [
+          "Wir möchten zwei Nächte bleiben.",
+          "Wir möchten zwei Nächte bleibt."
+        ],
+        "answer": 0,
+        "why": "مصدر.",
+        "ar": "نقعد."
+      },
+      {
+        "options": [
+          "Wie viel kostet das Zimmer?",
+          "Wie viel kosten das Zimmer?"
+        ],
+        "answer": 0,
+        "why": "kostet.",
+        "ar": "بكام."
+      },
+      {
+        "options": [
+          "Mit freundlichen Grüßen",
+          "Mit freundlich Grüßen"
+        ],
+        "answer": 0,
+        "why": "خاتمة ثابتة.",
+        "ar": "احترام."
+      },
+      {
+        "options": [
+          "Ich komme am Montag an.",
+          "Ich komme im Montag an."
+        ],
+        "answer": 0,
+        "why": "am + يوم.",
+        "ar": "الاثنين."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "نحن نريد حجز غرفة مزدوجة في الفندق.",
+        "de": "Wir möchten ein Doppelzimmer im Hotel buchen.",
+        "audio": "audio/s27/tr1.mp3"
+      },
+      {
+        "ar": "نحن سنصل يوم الجمعة.",
+        "de": "Wir kommen am Freitag an.",
+        "audio": "audio/s27/tr2.mp3"
+      },
+      {
+        "ar": "نحن نريد البقاء ليلتين.",
+        "de": "Wir möchten zwei Nächte bleiben.",
+        "audio": "audio/s27/tr3.mp3"
+      },
+      {
+        "ar": "كم تتكلف الغرفة؟",
+        "de": "Wie viel kostet das Zimmer?",
+        "audio": "audio/s27/tr4.mp3"
+      },
+      {
+        "ar": "أنا أريد غرفة فردية.",
+        "de": "Ich möchte ein Einzelzimmer buchen.",
+        "audio": "audio/s27/tr5.mp3"
+      },
+      {
+        "ar": "أنا سأصل يوم الاثنين.",
+        "de": "Ich komme am Montag an.",
+        "audio": "audio/s27/tr6.mp3"
+      }
+    ]
+  }
+}
