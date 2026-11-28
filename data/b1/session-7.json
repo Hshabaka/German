@@ -1,0 +1,675 @@
+{
+  "id": 7,
+  "level": "b1",
+  "title": "Episode 7: Verbs with fixed prepositions",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=trFCjssqE-A",
+    "backup": "Copied in Notion",
+    "note": "Lesson video 1 of 3: the rule explained (Arabic)",
+    "open_url": "https://www.youtube.com/watch?v=trFCjssqE-A"
+  },
+  "vocab": [
+    {
+      "id": "auf",
+      "label": "auf (Akkusativ)",
+      "words": [
+        {
+          "de": "warten auf",
+          "ar": "ينتظر",
+          "audio": "audio/b1/s07/vocab/01-warten-auf.mp3"
+        },
+        {
+          "de": "aufpassen auf",
+          "ar": "ينتبه على / يهتم بـ",
+          "audio": "audio/b1/s07/vocab/02-aufpassen-auf.mp3"
+        },
+        {
+          "de": "achten auf",
+          "ar": "ياخد باله من",
+          "audio": "audio/b1/s07/vocab/03-achten-auf.mp3"
+        },
+        {
+          "de": "antworten auf",
+          "ar": "يجيب على",
+          "audio": "audio/b1/s07/vocab/04-antworten-auf.mp3"
+        },
+        {
+          "de": "sich verlassen auf",
+          "ar": "يعتمد على (شخص)",
+          "audio": "audio/b1/s07/vocab/05-sich-verlassen-auf.mp3"
+        },
+        {
+          "de": "sich freuen auf",
+          "ar": "يفرح بحاجة جاية",
+          "audio": "audio/b1/s07/vocab/06-sich-freuen-auf.mp3"
+        }
+      ]
+    },
+    {
+      "id": "ueber",
+      "label": "über (Akkusativ)",
+      "words": [
+        {
+          "de": "sich freuen über",
+          "ar": "يفرح بحاجة موجودة",
+          "audio": "audio/b1/s07/vocab/07-sich-freuen-ueber.mp3"
+        }
+      ]
+    },
+    {
+      "id": "zu",
+      "label": "zu (Dativ)",
+      "words": [
+        {
+          "de": "einladen zu",
+          "ar": "يدعو لـ",
+          "audio": "audio/b1/s07/vocab/08-einladen-zu.mp3"
+        }
+      ]
+    },
+    {
+      "id": "von",
+      "label": "von (Dativ)",
+      "words": [
+        {
+          "de": "träumen von",
+          "ar": "يحلم بـ",
+          "audio": "audio/b1/s07/vocab/09-traeumen-von.mp3"
+        },
+        {
+          "de": "sich entfernen von",
+          "ar": "يبتعد عن",
+          "audio": "audio/b1/s07/vocab/10-sich-entfernen-von.mp3"
+        },
+        {
+          "de": "abhängen von",
+          "ar": "يعتمد على (شيء)",
+          "audio": "audio/b1/s07/vocab/11-abhaengen-von.mp3"
+        }
+      ]
+    },
+    {
+      "id": "mit",
+      "label": "mit (Dativ)",
+      "words": [
+        {
+          "de": "telefonieren mit",
+          "ar": "يتكلم تليفون مع",
+          "audio": "audio/b1/s07/vocab/12-telefonieren-mit.mp3"
+        },
+        {
+          "de": "sprechen mit",
+          "ar": "يتكلم مع",
+          "audio": "audio/b1/s07/vocab/13-sprechen-mit.mp3"
+        },
+        {
+          "de": "sich unterhalten mit / über",
+          "ar": "يتكلم مع (أشخاص) وعن (موضوع)",
+          "audio": "audio/b1/s07/vocab/14-sich-unterhalten-mit-ueber.mp3"
+        },
+        {
+          "de": "sich auskennen mit",
+          "ar": "يعرف كويس في",
+          "audio": "audio/b1/s07/vocab/15-sich-auskennen-mit.mp3"
+        }
+      ]
+    },
+    {
+      "id": "nach-aus",
+      "label": "nach und aus (Dativ)",
+      "words": [
+        {
+          "de": "fragen nach",
+          "ar": "يسأل عن",
+          "audio": "audio/b1/s07/vocab/16-fragen-nach.mp3"
+        },
+        {
+          "de": "bestehen aus",
+          "ar": "يتكون من / مصنوع من",
+          "audio": "audio/b1/s07/vocab/17-bestehen-aus.mp3"
+        }
+      ]
+    },
+    {
+      "id": "arbeiten",
+      "label": "arbeiten in / bei / an (Dativ)",
+      "words": [
+        {
+          "de": "sich befinden in",
+          "ar": "يكون موجود في (مكان)",
+          "audio": "audio/b1/s07/vocab/18-sich-befinden-in.mp3"
+        },
+        {
+          "de": "arbeiten in",
+          "ar": "يشتغل في (مكان)",
+          "audio": "audio/b1/s07/vocab/19-arbeiten-in.mp3"
+        },
+        {
+          "de": "arbeiten bei",
+          "ar": "يشتغل عند (شركة)",
+          "audio": "audio/b1/s07/vocab/20-arbeiten-bei.mp3"
+        },
+        {
+          "de": "arbeiten an",
+          "ar": "يشتغل على (مشروع)",
+          "audio": "audio/b1/s07/vocab/21-arbeiten-an.mp3"
+        },
+        {
+          "de": "ändern an",
+          "ar": "يغير في",
+          "audio": "audio/b1/s07/vocab/22-aendern-an.mp3"
+        }
+      ]
+    },
+    {
+      "id": "um-gegen",
+      "label": "um and gegen (Akkusativ)",
+      "words": [
+        {
+          "de": "beneiden um",
+          "ar": "يحسد على",
+          "audio": "audio/b1/s07/vocab/23-beneiden-um.mp3"
+        },
+        {
+          "de": "sein gegen",
+          "ar": "يكون ضد",
+          "audio": "audio/b1/s07/vocab/24-sein-gegen.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich warte auf dich.",
+      "ar": "بستناك.",
+      "audio": "audio/b1/s07/s01-ich-warte-auf-dich.mp3"
+    },
+    {
+      "de": "Sie wartet auf einen Anruf.",
+      "ar": "هي مستنية مكالمة.",
+      "audio": "audio/b1/s07/s02-sie-wartet-auf-einen-anruf.mp3"
+    },
+    {
+      "de": "Sie passt auf die Sauberkeit im Haus auf.",
+      "ar": "هي بتهتم بالنضافة في البيت.",
+      "audio": "audio/b1/s07/s03-sie-passt-auf-die-sauberkeit-im-haus-auf.mp3"
+    },
+    {
+      "de": "Ich habe immer auf die Details geachtet.",
+      "ar": "كنت دايمًا باخد بالي من التفاصيل.",
+      "audio": "audio/b1/s07/s04-ich-habe-immer-auf-die-details-geachtet.mp3"
+    },
+    {
+      "de": "Ich antworte auf deine Nachricht.",
+      "ar": "برد على رسالتك.",
+      "audio": "audio/b1/s07/s05-ich-antworte-auf-deine-nachricht.mp3"
+    },
+    {
+      "de": "Ich verlasse mich auf dich.",
+      "ar": "بعتمد عليك.",
+      "audio": "audio/b1/s07/s06-ich-verlasse-mich-auf-dich.mp3"
+    },
+    {
+      "de": "Wir freuen uns auf das Wochenende.",
+      "ar": "فرحانين بالويك إند اللي جاي.",
+      "audio": "audio/b1/s07/s07-wir-freuen-uns-auf-das-wochenende.mp3"
+    },
+    {
+      "de": "Ich freue mich über das Geschenk.",
+      "ar": "فرحان بالهدية.",
+      "audio": "audio/b1/s07/s08-ich-freue-mich-ueber-das-geschenk.mp3"
+    },
+    {
+      "de": "Kann ich dich zu einem Kaffee einladen?",
+      "ar": "أقدر أدعيك على قهوة؟",
+      "audio": "audio/b1/s07/s09-kann-ich-dich-zu-einem-kaffee-einladen.mp3"
+    },
+    {
+      "de": "Ich träume von einem Haus am Meer.",
+      "ar": "بحلم ببيت على البحر.",
+      "audio": "audio/b1/s07/s10-ich-traeume-von-einem-haus-am-meer.mp3"
+    },
+    {
+      "de": "Mein Erfolg hängt von meiner harten Arbeit ab.",
+      "ar": "نجاحي بيعتمد على شغلي الجاد.",
+      "audio": "audio/b1/s07/s11-mein-erfolg-haengt-von-meiner-harten-arbeit-.mp3"
+    },
+    {
+      "de": "Ich habe gestern zwei Stunden mit meiner Schwester telefoniert.",
+      "ar": "كلمت أختي ساعتين في التليفون مبارح.",
+      "audio": "audio/b1/s07/s12-ich-habe-gestern-zwei-stunden-mit-meiner-sch.mp3"
+    },
+    {
+      "de": "Ich kenne mich gut mit der Grammatik aus.",
+      "ar": "أنا عارف القواعد كويس.",
+      "audio": "audio/b1/s07/s13-ich-kenne-mich-gut-mit-der-grammatik-aus.mp3"
+    },
+    {
+      "de": "Ich frage ihn nach seinem Namen.",
+      "ar": "بسأله عن اسمه.",
+      "audio": "audio/b1/s07/s14-ich-frage-ihn-nach-seinem-namen.mp3"
+    },
+    {
+      "de": "Der Schmuck besteht aus Gold.",
+      "ar": "المجوهرات مصنوعة من دهب.",
+      "audio": "audio/b1/s07/s15-der-schmuck-besteht-aus-gold.mp3"
+    },
+    {
+      "de": "Ich arbeite bei der Post.",
+      "ar": "أنا موظف في البريد.",
+      "audio": "audio/b1/s07/s16-ich-arbeite-bei-der-post.mp3"
+    },
+    {
+      "de": "Ich arbeite an meinem neuen Projekt.",
+      "ar": "بشتغل على المشروع الجديد بتاعي.",
+      "audio": "audio/b1/s07/s17-ich-arbeite-an-meinem-neuen-projekt.mp3"
+    },
+    {
+      "de": "Ich beneide sie um ihre Geduld.",
+      "ar": "بحسدها على صبرها.",
+      "audio": "audio/b1/s07/s18-ich-beneide-sie-um-ihre-geduld.mp3"
+    },
+    {
+      "de": "Ich bin gegen diesen Vorschlag.",
+      "ar": "أنا ضد الاقتراح ده.",
+      "audio": "audio/b1/s07/s19-ich-bin-gegen-diesen-vorschlag.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "warten auf",
+      "ar": "ينتظر",
+      "audio": "audio/b1/s07/vocab/01-warten-auf.mp3"
+    },
+    {
+      "de": "sich freuen auf",
+      "ar": "يفرح بحاجة جاية",
+      "audio": "audio/b1/s07/vocab/06-sich-freuen-auf.mp3"
+    },
+    {
+      "de": "sich freuen über",
+      "ar": "يفرح بحاجة موجودة",
+      "audio": "audio/b1/s07/vocab/07-sich-freuen-ueber.mp3"
+    },
+    {
+      "de": "einladen zu",
+      "ar": "يدعو لـ",
+      "audio": "audio/b1/s07/vocab/08-einladen-zu.mp3"
+    },
+    {
+      "de": "träumen von",
+      "ar": "يحلم بـ",
+      "audio": "audio/b1/s07/vocab/09-traeumen-von.mp3"
+    },
+    {
+      "de": "abhängen von",
+      "ar": "يعتمد على (شيء)",
+      "audio": "audio/b1/s07/vocab/11-abhaengen-von.mp3"
+    },
+    {
+      "de": "sich auskennen mit",
+      "ar": "يعرف كويس في",
+      "audio": "audio/b1/s07/vocab/15-sich-auskennen-mit.mp3"
+    },
+    {
+      "de": "fragen nach",
+      "ar": "يسأل عن",
+      "audio": "audio/b1/s07/vocab/16-fragen-nach.mp3"
+    },
+    {
+      "de": "bestehen aus",
+      "ar": "يتكون من / مصنوع من",
+      "audio": "audio/b1/s07/vocab/17-bestehen-aus.mp3"
+    },
+    {
+      "de": "arbeiten bei",
+      "ar": "يشتغل عند (شركة)",
+      "audio": "audio/b1/s07/vocab/20-arbeiten-bei.mp3"
+    },
+    {
+      "de": "arbeiten an",
+      "ar": "يشتغل على (مشروع)",
+      "audio": "audio/b1/s07/vocab/21-arbeiten-an.mp3"
+    },
+    {
+      "de": "beneiden um",
+      "ar": "يحسد على",
+      "audio": "audio/b1/s07/vocab/23-beneiden-um.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich warte _______ dich.",
+      "options": [
+        "auf",
+        "über",
+        "zu"
+      ],
+      "answer": 0,
+      "why": "warten auf = ينتظر.",
+      "ar": "بستناك."
+    },
+    {
+      "prompt": "Kann ich dich _______ einem Kaffee einladen?",
+      "options": [
+        "zu",
+        "von",
+        "mit"
+      ],
+      "answer": 0,
+      "why": "einladen zu = يدعو لـ (داتيف).",
+      "ar": "أقدر أدعيك على قهوة؟"
+    },
+    {
+      "prompt": "Ich träume _______ einem Haus am Meer.",
+      "options": [
+        "von",
+        "aus",
+        "nach"
+      ],
+      "answer": 0,
+      "why": "träumen von = يحلم بـ.",
+      "ar": "بحلم ببيت على البحر."
+    },
+    {
+      "prompt": "Der Schmuck besteht _______ Gold.",
+      "options": [
+        "aus",
+        "von",
+        "mit"
+      ],
+      "answer": 0,
+      "why": "bestehen aus = مصنوع من.",
+      "ar": "المجوهرات مصنوعة من دهب."
+    },
+    {
+      "prompt": "Ich arbeite _______ der Post.",
+      "options": [
+        "bei",
+        "in",
+        "an"
+      ],
+      "answer": 0,
+      "why": "bei = موظف عند الشركة.",
+      "ar": "أنا موظف في البريد."
+    },
+    {
+      "prompt": "Wir freuen uns _______ das Wochenende.",
+      "options": [
+        "auf",
+        "über",
+        "von"
+      ],
+      "answer": 0,
+      "why": "لسه جاي في المستقبل = auf.",
+      "ar": "فرحانين بالويك إند اللي جاي."
+    },
+    {
+      "prompt": "Ich freue mich _______ das Geschenk.",
+      "options": [
+        "über",
+        "auf",
+        "um"
+      ],
+      "answer": 0,
+      "why": "موجود دلوقتي = über.",
+      "ar": "فرحان بالهدية."
+    },
+    {
+      "prompt": "Sie wartet auf _______ Anruf.",
+      "options": [
+        "einen",
+        "ein",
+        "einem"
+      ],
+      "answer": 0,
+      "why": "auf أكوزاتيف = einen.",
+      "ar": "هي مستنية مكالمة."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الحلقة ٧ من B1: أفعال مع حروف جر ثابتة والحالة اللي بعدها (أكوزاتيف ولا داتيف). auf/über/um/gegen أكوزاتيف، zu/von/mit/nach/aus/in/bei/an داتيف، والفرق بين freuen auf وüber وبين arbeiten an/bei/in. (تلات فيديوهات - صياغة تعليمية مراجعة على التسجيلات الأصلية؛ المدرس بيشير لـ PDF تمارين على Barbary مش مرفوع هنا)"
+  },
+  "grammar": [
+    {
+      "title": "الفعل + حرف الجر = حزمة واحدة",
+      "rule": "فيه أفعال لازم حرف جر معين عشان المعنى يكمل، زي wait for في الإنجليزي. احفظ الفعل مع حرفه وحالته كحزمة، واتعلم الجملة كلها مرة واحدة.",
+      "forms": [
+        "warten auf",
+        "träumen von",
+        "bestehen aus"
+      ],
+      "examples": [
+        {
+          "de": "Ich warte auf dich.",
+          "ar": "بستناك."
+        }
+      ]
+    },
+    {
+      "title": "الحالة من حرف الجر مش الفعل",
+      "rule": "حرف الجر هو اللي بيحدد أكوزاتيف ولا داتيف. أكوزاتيف: auf, über, um, gegen. داتيف: zu, von, mit, nach, aus, in, bei, an. المدرس كرر النقطة دي في الفيديوهين الأول والتاني.",
+      "forms": [
+        "auf + Akkusativ",
+        "mit + Dativ"
+      ],
+      "examples": [
+        {
+          "de": "Sie wartet auf einen Anruf.",
+          "ar": "هي مستنية مكالمة."
+        },
+        {
+          "de": "Kann ich dich zu einem Kaffee einladen?",
+          "ar": "أقدر أدعيك على قهوة؟"
+        }
+      ]
+    },
+    {
+      "title": "freuen auf ولا über",
+      "rule": "auf لحاجة لسه جاية في المستقبل، über لحاجة حصلت أو موجودة دلوقتي.",
+      "forms": [
+        "sich freuen auf (مستقبل)",
+        "sich freuen über (دلوقتي)"
+      ],
+      "examples": [
+        {
+          "de": "Wir freuen uns auf das Wochenende.",
+          "ar": "فرحانين بالويك إند اللي جاي."
+        },
+        {
+          "de": "Ich freue mich über das Geschenk.",
+          "ar": "فرحان بالهدية."
+        }
+      ]
+    },
+    {
+      "title": "arbeiten an / bei / in",
+      "rule": "an = مشروع شغال عليه، bei = موظف عند شركة، in = المكان اللي بتشتغل فيه. التلاتة متشابهين ومحتاجين تركيز.",
+      "forms": [
+        "arbeiten an",
+        "arbeiten bei",
+        "arbeiten in"
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite an meinem neuen Projekt.",
+          "ar": "بشتغل على المشروع الجديد بتاعي."
+        },
+        {
+          "de": "Ich arbeite bei der Post.",
+          "ar": "أنا موظف في البريد."
+        }
+      ]
+    },
+    {
+      "title": "حدود الحلقة",
+      "rule": "القايمة دي أفعال الفيديوهات التلاتة بس (٩ + ١٥)، وفيه أفعال كتير تانية ممكن تيجي فيديوهات جاية. المدرس بيشير لـ PDF تمارين على Barbary (مش مرفوع هنا). الجمل صياغة تعليمية مراجعة على التسجيلات.",
+      "forms": [
+        "حفظ كحزمة: فعل + حرف + حالة"
+      ],
+      "examples": [
+        {
+          "de": "Ich beneide sie um ihre Geduld.",
+          "ar": "بحسدها على صبرها."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "warte",
+          "Ich",
+          "auf dich."
+        ],
+        "answer": "Ich warte auf dich.",
+        "ar": "بستناك."
+      },
+      {
+        "tiles": [
+          "freuen",
+          "Wir",
+          "uns auf das Wochenende."
+        ],
+        "answer": "Wir freuen uns auf das Wochenende.",
+        "ar": "فرحانين بالويك إند اللي جاي."
+      },
+      {
+        "tiles": [
+          "träume",
+          "Ich",
+          "von einem Haus am Meer."
+        ],
+        "answer": "Ich träume von einem Haus am Meer.",
+        "ar": "بحلم ببيت على البحر."
+      },
+      {
+        "tiles": [
+          "kenne",
+          "Ich",
+          "mich gut mit der Grammatik aus."
+        ],
+        "answer": "Ich kenne mich gut mit der Grammatik aus.",
+        "ar": "أنا عارف القواعد كويس."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich warte auf dich.",
+          "Ich warte dich."
+        ],
+        "answer": 0,
+        "why": "warten لازم معاها auf، زي الإنجليزي wait for.",
+        "ar": "بستناك."
+      },
+      {
+        "options": [
+          "Ich freue mich über das Geschenk.",
+          "Ich freue mich auf das Geschenk."
+        ],
+        "answer": 0,
+        "why": "الهدية موجودة دلوقتي = über. auf للحاجة اللي لسه جاية.",
+        "ar": "فرحان بالهدية."
+      },
+      {
+        "options": [
+          "Ich kenne mich gut mit der Grammatik aus.",
+          "Ich kenne mich gut aus mit der Grammatik."
+        ],
+        "answer": 0,
+        "why": "الفعل منفصل: aus في آخر الجملة.",
+        "ar": "أنا عارف القواعد كويس."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "بستناك.",
+        "de": "Ich warte auf dich.",
+        "audio": "audio/b1/s07/tr1.mp3"
+      },
+      {
+        "ar": "بحلم ببيت على البحر.",
+        "de": "Ich träume von einem Haus am Meer.",
+        "audio": "audio/b1/s07/tr2.mp3"
+      },
+      {
+        "ar": "أنا موظف في البريد.",
+        "de": "Ich arbeite bei der Post.",
+        "audio": "audio/b1/s07/tr3.mp3"
+      },
+      {
+        "ar": "فرحانين بالويك إند اللي جاي.",
+        "de": "Wir freuen uns auf das Wochenende.",
+        "audio": "audio/b1/s07/tr4.mp3"
+      }
+    ]
+  },
+  "provenance": {
+    "type": "video-sourced",
+    "caveat_ar": "الحلقة دي تلات فيديوهات على نفس الصفحة. مفيش ملف PDF مرفوع هنا؛ المدرس بيشير في الفيديو الأول لملف PDF تمارين تحت الفيديو على Barbary (مش مرفوع هنا). المحتوى اتراجع على التسجيلات الصوتية الأصلية التلاتة: المواضيع والشرح والأمثلة والتمارين مطابقة. الصياغة الألمانية المكتوبة صياغة تعليمية من إعداد المدرس، مش نسخ حرفي موثق من كلام الفيديوهات.",
+    "caveat_en": "This lesson has three videos on one page. No PDF is uploaded here; the teacher references an exercise PDF under the video on Barbary (not uploaded here). Content reviewed against the three original recordings (topics, teaching, examples, exercises match); the written German is educational rendering, not verbatim-verified transcription.",
+    "source_video": "https://www.youtube.com/watch?v=trFCjssqE-A",
+    "source_videos": [
+      "https://www.youtube.com/watch?v=trFCjssqE-A",
+      "https://www.youtube.com/watch?v=kcu-l-uhaQQ",
+      "https://www.youtube.com/watch?v=akVLp0R-hiU"
+    ],
+    "source_row": "425e697c-9519-81c4-8631-fc4c6ed49af1"
+  },
+  "videos": [
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=trFCjssqE-A",
+      "backup": "Copied in Notion",
+      "note": "Lesson video 1 of 3: the rule explained (Arabic)",
+      "open_url": "https://www.youtube.com/watch?v=trFCjssqE-A"
+    },
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=kcu-l-uhaQQ",
+      "backup": "Copied in Notion",
+      "note": "Lesson video 2 of 3: 9 verbs with examples (same Notion row)",
+      "open_url": "https://www.youtube.com/watch?v=kcu-l-uhaQQ"
+    },
+    {
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=akVLp0R-hiU",
+      "backup": "Copied in Notion",
+      "note": "Lesson video 3 of 3: 15 verbs with examples (same Notion row)",
+      "open_url": "https://www.youtube.com/watch?v=akVLp0R-hiU"
+    }
+  ]
+}
