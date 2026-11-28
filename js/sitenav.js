@@ -133,7 +133,6 @@
   function render() { applyView(); var o = panel && panel.classList.contains('open'); applyHub(); drawHeader(); drawActions(); drawPanel(); setOpen(!!o); }
   var st = document.createElement('style');
   st.textContent = ':root{color-scheme:light}html.locked .hdr,html.locked .sn,html.locked .mp{display:none!important}'
-    + '#lock-btn,#upd-btn{display:none!important}'
     + '.hdr{position:sticky;top:0;z-index:70;display:flex;align-items:center;gap:6px;height:42px;padding:0 6px;background:#fff;color:#0f172a;border-bottom:1px solid #cbd5e1;box-shadow:0 1px 6px rgba(15,23,42,.08);font-size:16px}'
     + '.hdr .ht{flex:1;min-width:0;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 6px}'
     + '.hb{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-width:40px;height:40px;padding:0 6px;border:0;border-radius:12px;background:transparent;color:#0f172a;font:inherit;font-size:14px;font-weight:600;cursor:pointer}.hb:hover,.hb:focus-visible{background:#e2e8f0;outline:none}.hb-m{background:#0f172a;color:#fff}.hb-m:hover,.hb-m:focus-visible{background:#1e293b}'
