@@ -1,0 +1,571 @@
+{
+ "id": 11,
+ "level": "a2",
+ "title": "Session 11: weil and dass (subordinate clauses)",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=QHNftQD-2HE",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=QHNftQD-2HE"
+ },
+ "vocab": [
+  {
+   "id": "nomen",
+   "label": "Nouns",
+   "words": [
+    {
+     "de": "Meinung",
+     "ar": "الرأي",
+     "audio": "audio/a2/s11/vocab/01-meinung.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Wahrheit",
+     "ar": "الحقيقة",
+     "audio": "audio/a2/s11/vocab/02-wahrheit.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Krankheit",
+     "ar": "المرض",
+     "audio": "audio/a2/s11/vocab/03-krankheit.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Verspätung",
+     "ar": "التأخير",
+     "audio": "audio/a2/s11/vocab/04-verspaetung.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Gefühl",
+     "ar": "الشعور / الإحساس",
+     "audio": "audio/a2/s11/vocab/05-gefuehl.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Antwort",
+     "ar": "الإجابة",
+     "audio": "audio/a2/s11/vocab/06-antwort.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Nachricht",
+     "ar": "الرسالة / الخبر",
+     "audio": "audio/a2/s11/vocab/07-nachricht.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Stau",
+     "ar": "الزحمة المرورية",
+     "audio": "audio/a2/s11/vocab/08-stau.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Hilfe",
+     "ar": "المساعدة",
+     "audio": "audio/a2/s11/vocab/09-hilfe.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Pause",
+     "ar": "الاستراحة / البريك",
+     "audio": "audio/a2/s11/vocab/10-pause.mp3",
+     "article": "die"
+    }
+   ]
+  },
+  {
+   "id": "adj",
+   "label": "Adjectives",
+   "words": [
+    {
+     "de": "sicher",
+     "ar": "متأكد / آمن",
+     "audio": "audio/a2/s11/vocab/11-sicher.mp3"
+    },
+    {
+     "de": "froh",
+     "ar": "مبسوط / فرحان",
+     "audio": "audio/a2/s11/vocab/12-froh.mp3"
+    },
+    {
+     "de": "traurig",
+     "ar": "حزين",
+     "audio": "audio/a2/s11/vocab/13-traurig.mp3"
+    },
+    {
+     "de": "wichtig",
+     "ar": "مهم",
+     "audio": "audio/a2/s11/vocab/14-wichtig.mp3"
+    },
+    {
+     "de": "möglich",
+     "ar": "ممكن",
+     "audio": "audio/a2/s11/vocab/15-moeglich.mp3"
+    },
+    {
+     "de": "unmöglich",
+     "ar": "مستحيل",
+     "audio": "audio/a2/s11/vocab/16-unmoeglich.mp3"
+    },
+    {
+     "de": "müde",
+     "ar": "تعبان",
+     "audio": "audio/a2/s11/vocab/17-muede.mp3"
+    },
+    {
+     "de": "pünktlich",
+     "ar": "في المعاد",
+     "audio": "audio/a2/s11/vocab/18-puenktlich.mp3"
+    },
+    {
+     "de": "wütend",
+     "ar": "متعصب / غاضب",
+     "audio": "audio/a2/s11/vocab/19-wuetend.mp3"
+    },
+    {
+     "de": "zufrieden",
+     "ar": "راضي / مبسوط",
+     "audio": "audio/a2/s11/vocab/20-zufrieden.mp3"
+    }
+   ]
+  },
+  {
+   "id": "verben",
+   "label": "Opinion and info verbs",
+   "words": [
+    {
+     "de": "glauben",
+     "ar": "يعتقد / يظن",
+     "audio": "audio/a2/s11/vocab/21-glauben.mp3"
+    },
+    {
+     "de": "denken",
+     "ar": "يفكر / يعتقد",
+     "audio": "audio/a2/s11/vocab/22-denken.mp3"
+    },
+    {
+     "de": "meinen",
+     "ar": "يعتقد / يقصد",
+     "audio": "audio/a2/s11/vocab/23-meinen.mp3"
+    },
+    {
+     "de": "hoffen",
+     "ar": "يأمل / يتمنى",
+     "audio": "audio/a2/s11/vocab/24-hoffen.mp3"
+    },
+    {
+     "de": "wissen",
+     "ar": "يعرف (ich weiß)",
+     "audio": "audio/a2/s11/vocab/25-wissen.mp3"
+    },
+    {
+     "de": "sagen",
+     "ar": "يقول",
+     "audio": "audio/a2/s11/vocab/26-sagen.mp3"
+    },
+    {
+     "de": "erklären",
+     "ar": "يشرح / يوضح",
+     "audio": "audio/a2/s11/vocab/27-erklaeren.mp3"
+    },
+    {
+     "de": "sich freuen",
+     "ar": "يفرح / يتبسط",
+     "audio": "audio/a2/s11/vocab/28-sich-freuen.mp3"
+    },
+    {
+     "de": "weil",
+     "ar": "عشان / لأن (الفعل في الآخر)",
+     "audio": "audio/a2/s11/vocab/29-weil.mp3"
+    },
+    {
+     "de": "dass",
+     "ar": "إن / أن (الفعل في الآخر)",
+     "audio": "audio/a2/s11/vocab/30-dass.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Ich komme nicht, weil ich krank bin.",
+   "ar": "مش هاجي عشان أنا مريض.",
+   "audio": "audio/a2/s11/s01-ich-komme-nicht-weil-ich-krank-bin.mp3"
+  },
+  {
+   "de": "Ich weiß, dass du den Schlüssel vergessen hast.",
+   "ar": "عارف إنك نسيت المفتاح.",
+   "audio": "audio/a2/s11/s02-ich-weiss-dass-du-den-schluessel-vergessen-h.mp3"
+  },
+  {
+   "de": "Wir nehmen ein Taxi, weil der Bus Verspätung hat.",
+   "ar": "هناخد تاكسي عشان الأتوبيس متأخر.",
+   "audio": "audio/a2/s11/s03-wir-nehmen-ein-taxi-weil-der-bus-verspaetung.mp3"
+  },
+  {
+   "de": "Thomas freut sich, weil er eine 1 bekommen hat.",
+   "ar": "توماس مبسوط عشان جاب تقدير امتياز.",
+   "audio": "audio/a2/s11/s04-thomas-freut-sich-weil-er-eine-1-bekommen-ha.mp3"
+  },
+  {
+   "de": "Der Arzt meint, dass ich zwei Tage im Bett bleiben muss.",
+   "ar": "الدكتور بيقول إني لازم أفضل في السرير يومين.",
+   "audio": "audio/a2/s11/s05-der-arzt-meint-dass-ich-zwei-tage-im-bett-bl.mp3"
+  },
+  {
+   "de": "Wir hoffen, dass du morgen kommst.",
+   "ar": "بنتمنى إنك تيجي بكرة.",
+   "audio": "audio/a2/s11/s06-wir-hoffen-dass-du-morgen-kommst.mp3"
+  },
+  {
+   "de": "Ich muss mich beeilen, weil ich spät aufgestanden bin.",
+   "ar": "لازم أستعجل عشان قمت متأخر.",
+   "audio": "audio/a2/s11/s07-ich-muss-mich-beeilen-weil-ich-spaet-aufgest.mp3"
+  },
+  {
+   "de": "Der Lehrer sagt, dass wir morgen keinen Unterricht haben.",
+   "ar": "المدرس قال إن مفيش حصص بكرة.",
+   "audio": "audio/a2/s11/s08-der-lehrer-sagt-dass-wir-morgen-keinen-unter.mp3"
+  },
+  {
+   "de": "Ich gehe früh schlafen, weil ich morgen früh aufstehen muss.",
+   "ar": "هنام بدري عشان لازم أقوم بدري بكرة.",
+   "audio": "audio/a2/s11/s09-ich-gehe-frueh-schlafen-weil-ich-morgen-frue.mp3"
+  },
+  {
+   "de": "Er glaubt, dass die deutsche Sprache sehr logisch ist.",
+   "ar": "هو معتقد إن اللغة الألمانية منطقية جدًا.",
+   "audio": "audio/a2/s11/s10-er-glaubt-dass-die-deutsche-sprache-sehr-log.mp3"
+  },
+  {
+   "de": "Ich kaufe eine Pizza, weil ich Hunger habe.",
+   "ar": "بشتري بيتزا عشان أنا جعان.",
+   "audio": "audio/a2/s11/s11-ich-kaufe-eine-pizza-weil-ich-hunger-habe.mp3"
+  },
+  {
+   "de": "Ich denke, dass Deutsch schön ist.",
+   "ar": "شايف إن الألماني جميل.",
+   "audio": "audio/a2/s11/s12-ich-denke-dass-deutsch-schoen-ist.mp3"
+  },
+  {
+   "de": "Er trinkt Wasser, weil er Durst hat.",
+   "ar": "بيشرب مية عشان عطشان.",
+   "audio": "audio/a2/s11/s13-er-trinkt-wasser-weil-er-durst-hat.mp3"
+  },
+  {
+   "de": "Maria ist sehr froh, dass sie die Prüfung bestanden hat.",
+   "ar": "ماريا مبسوطة جدًا إنها نجحت في الامتحان.",
+   "audio": "audio/a2/s11/s14-maria-ist-sehr-froh-dass-sie-die-pruefung-be.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "Meinung",
+   "ar": "الرأي",
+   "audio": "audio/a2/s11/vocab/01-meinung.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Wahrheit",
+   "ar": "الحقيقة",
+   "audio": "audio/a2/s11/vocab/02-wahrheit.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Krankheit",
+   "ar": "المرض",
+   "audio": "audio/a2/s11/vocab/03-krankheit.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Verspätung",
+   "ar": "التأخير",
+   "audio": "audio/a2/s11/vocab/04-verspaetung.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Gefühl",
+   "ar": "الشعور / الإحساس",
+   "audio": "audio/a2/s11/vocab/05-gefuehl.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Antwort",
+   "ar": "الإجابة",
+   "audio": "audio/a2/s11/vocab/06-antwort.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Nachricht",
+   "ar": "الرسالة / الخبر",
+   "audio": "audio/a2/s11/vocab/07-nachricht.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Stau",
+   "ar": "الزحمة المرورية",
+   "audio": "audio/a2/s11/vocab/08-stau.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Hilfe",
+   "ar": "المساعدة",
+   "audio": "audio/a2/s11/vocab/09-hilfe.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Pause",
+   "ar": "الاستراحة / البريك",
+   "audio": "audio/a2/s11/vocab/10-pause.mp3",
+   "article": "die"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Ich komme heute nicht zur Arbeit, ________ ich starkes Fieber habe.",
+   "options": [
+    "weil",
+    "dass",
+    "deshalb"
+   ],
+   "answer": 0,
+   "why": "السبب = weil، والفعل بيروح آخر الجملة الفرعية.",
+   "ar": "مش هروح الشغل النهاردة عشان عندي سخونية شديدة."
+  },
+  {
+   "prompt": "Der Lehrer sagt, ________ wir morgen keinen Unterricht haben.",
+   "options": [
+    "dass",
+    "weil",
+    "denn"
+   ],
+   "answer": 0,
+   "why": "بعد أفعال القول والمعلومة = dass.",
+   "ar": "المدرس قال إن مفيش حصص بكرة."
+  },
+  {
+   "prompt": "Maria ist sehr froh, ________ sie die Prüfung bestanden hat.",
+   "options": [
+    "dass",
+    "weil",
+    "denn"
+   ],
+   "answer": 0,
+   "why": "بعد أفعال الشعور بنستخدم dass (وممكن weil للسبب)، والأصل هنا dass.",
+   "ar": "ماريا مبسوطة إنها نجحت في الامتحان."
+  },
+  {
+   "prompt": "Weißt du, ________ Ali einen neuen Wagen gekauft hat?",
+   "options": [
+    "dass",
+    "weil",
+    "als"
+   ],
+   "answer": 0,
+   "why": "بعد wissen = dass، والفعل المساعد hat في الآخر.",
+   "ar": "عارف إن علي اشترى عربية جديدة؟"
+  },
+  {
+   "prompt": "Ich gehe früh schlafen, ________ ich morgen sehr früh aufstehen muss.",
+   "options": [
+    "weil",
+    "dass",
+    "trotzdem"
+   ],
+   "answer": 0,
+   "why": "السبب = weil، والفعل الشكلي muss في الآخر.",
+   "ar": "هنام بدري عشان لازم أقوم بدري بكرة."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "حلقة ١١ في المستوى التاني: الجمل الفرعية بـ weil وdass. القاعدة الذهبية: الفعل المصرّف بيروح في الآخر. هتتعلم تقول السبب (weil) وتنقل رأي أو معلومة (dass) بعد أفعال زي glauben وhoffen وwissen."
+ },
+ "grammar": [
+  {
+   "title": "weil: السبب (الفعل في الآخر)",
+   "rule": "weil بتفتح جملة فرعية: الفعل المصرّف بيروح في آخر الجملة، ودايمًا فيه فاصلة قبل الرابط.",
+   "forms": [
+    "..., weil + Subjekt + ... + Verb"
+   ],
+   "examples": [
+    {
+     "de": "Wir nehmen ein Taxi, weil der Bus Verspätung hat.",
+     "ar": "هناخد تاكسي عشان الأتوبيس متأخر."
+    },
+    {
+     "de": "Ich gehe früh schlafen, weil ich früh aufstehen muss.",
+     "ar": "هنام بدري عشان لازم أقوم بدري."
+    }
+   ]
+  },
+  {
+   "title": "dass: الرأي والمعلومة",
+   "rule": "dass بتيجي بعد أفعال الرأي والقول والمعرفة (glauben, denken, meinen, hoffen, wissen, sagen) وبرضه الفعل في الآخر.",
+   "forms": [
+    "..., dass + Subjekt + ... + Verb"
+   ],
+   "examples": [
+    {
+     "de": "Wir hoffen, dass du morgen kommst.",
+     "ar": "بنتمنى إنك تيجي بكرة."
+    },
+    {
+     "de": "Er glaubt, dass Deutsch logisch ist.",
+     "ar": "هو معتقد إن الألماني منطقي."
+    }
+   ]
+  },
+  {
+   "title": "الماضي التام والشكلية في الجملة الفرعية",
+   "rule": "مع Perfekt الفعل المساعد (bin/hat) هو اللي في الآخر، ومع فعل شكلي الشكلي (muss/kann) هو اللي في الآخر.",
+   "forms": [
+    "..., weil ich spät aufgestanden bin",
+    "..., weil ich aufstehen muss"
+   ],
+   "examples": [
+    {
+     "de": "Ich muss mich beeilen, weil ich spät aufgestanden bin.",
+     "ar": "لازم أستعجل عشان قمت متأخر."
+    },
+    {
+     "de": "Ali ist glücklich, weil sein Freund pünktlich angekommen ist.",
+     "ar": "علي مبسوط عشان صاحبه وصل في المعاد."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "kann",
+     "nicht kommen",
+     "weil",
+     "ich",
+     "krank bin",
+     "Ich"
+    ],
+    "answer": "Ich kann nicht kommen, weil ich krank bin.",
+    "ar": "مش أقدر أجي عشان أنا مريض."
+   },
+   {
+    "tiles": [
+     "weiß",
+     "dass",
+     "du",
+     "deinen Schlüssel",
+     "vergessen hast",
+     "Ich"
+    ],
+    "answer": "Ich weiß, dass du deinen Schlüssel vergessen hast.",
+    "ar": "عارف إنك نسيت مفتاحك."
+   },
+   {
+    "tiles": [
+     "nehmen",
+     "ein Taxi",
+     "weil",
+     "der Bus",
+     "Verspätung hat",
+     "Wir"
+    ],
+    "answer": "Wir nehmen ein Taxi, weil der Bus Verspätung hat.",
+    "ar": "هناخد تاكسي عشان الأتوبيس متأخر."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Ich komme nicht, weil ich krank bin.",
+     "Ich komme nicht, weil ich bin krank."
+    ],
+    "answer": 0,
+    "why": "في الجملة الفرعية بعد weil الفعل المصرّف بيروح في الآخر: krank bin.",
+    "ar": "مش هاجي عشان أنا مريض."
+   },
+   {
+    "options": [
+     "Ich weiß, dass du den Schlüssel vergessen hast.",
+     "Ich weiß, dass du den Schlüssel hast vergessen."
+    ],
+    "answer": 0,
+    "why": "في الماضي التام مع dass الفعل المساعد hast في الآخر بعد التصريف الثالث.",
+    "ar": "عارف إنك نسيت المفتاح."
+   },
+   {
+    "options": [
+     "Thomas freut sich, weil er eine 1 bekommen hat.",
+     "Thomas freut sich, weil er hat eine 1 bekommen."
+    ],
+    "answer": 0,
+    "why": "الفعل المساعد hat في نهاية الجملة الفرعية، مش بعد الفاعل.",
+    "ar": "توماس مبسوط عشان جاب امتياز."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "مش هاجي عشان أنا مريض.",
+    "de": "Ich komme nicht, weil ich krank bin.",
+    "audio": "audio/a2/s11/tr1.mp3"
+   },
+   {
+    "ar": "عارف إنك نسيت مفتاحك.",
+    "de": "Ich weiß, dass du deinen Schlüssel vergessen hast.",
+    "audio": "audio/a2/s11/tr2.mp3"
+   },
+   {
+    "ar": "بنتمنى إنك تيجي بكرة.",
+    "de": "Wir hoffen, dass du morgen kommst.",
+    "audio": "audio/a2/s11/tr3.mp3"
+   },
+   {
+    "ar": "الدكتور قال إني لازم أرتاح يومين.",
+    "de": "Der Arzt meint, dass ich zwei Tage im Bett bleiben muss.",
+    "audio": "audio/a2/s11/tr4.mp3"
+   },
+   {
+    "ar": "بشتري بيتزا عشان أنا جعان.",
+    "de": "Ich kaufe eine Pizza, weil ich Hunger habe.",
+    "audio": "audio/a2/s11/tr5.mp3"
+   },
+   {
+    "ar": "هو معتقد إن الألماني منطقي جدًا.",
+    "de": "Er glaubt, dass die deutsche Sprache sehr logisch ist.",
+    "audio": "audio/a2/s11/tr6.mp3"
+   }
+  ]
+ }
+}
