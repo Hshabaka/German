@@ -1,0 +1,430 @@
+{
+  "id": 1,
+  "level": "b1",
+  "title": "Episode 1: Sentence connectors (Nebensätze und Hauptsätze)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=cOGCH6tJ1Xc",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel",
+    "open_url": "https://www.youtube.com/watch?v=cOGCH6tJ1Xc"
+  },
+  "vocab": [
+    {
+      "id": "konj",
+      "label": "New B1 connectors",
+      "words": [
+        {
+          "de": "obwohl",
+          "ar": "رغم أن",
+          "audio": "audio/b1/s01/vocab/01-obwohl.mp3"
+        },
+        {
+          "de": "damit",
+          "ar": "عشان / لكي",
+          "audio": "audio/b1/s01/vocab/02-damit.mp3"
+        },
+        {
+          "de": "da",
+          "ar": "بما أن (سبب رسمي)",
+          "audio": "audio/b1/s01/vocab/03-da.mp3"
+        },
+        {
+          "de": "trotzdem",
+          "ar": "بالرغم من ذلك",
+          "audio": "audio/b1/s01/vocab/04-trotzdem.mp3"
+        }
+      ]
+    },
+    {
+      "id": "woerter",
+      "label": "New words",
+      "words": [
+        {
+          "de": "Erfahrung",
+          "ar": "الخبرة",
+          "audio": "audio/b1/s01/vocab/05-erfahrung.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Herausforderung",
+          "ar": "التحدي",
+          "audio": "audio/b1/s01/vocab/06-herausforderung.mp3",
+          "article": "die"
+        },
+        {
+          "de": "sich bewerben",
+          "ar": "يتقدم لوظيفة",
+          "audio": "audio/b1/s01/vocab/07-sich-bewerben.mp3"
+        },
+        {
+          "de": "erreichen",
+          "ar": "يصل لـ / يحقق",
+          "audio": "audio/b1/s01/vocab/08-erreichen.mp3"
+        },
+        {
+          "de": "optimistisch",
+          "ar": "متفائل",
+          "audio": "audio/b1/s01/vocab/09-optimistisch.mp3"
+        },
+        {
+          "de": "Entscheidung",
+          "ar": "القرار",
+          "audio": "audio/b1/s01/vocab/10-entscheidung.mp3",
+          "article": "die"
+        },
+        {
+          "de": "möglich",
+          "ar": "ممكن",
+          "audio": "audio/b1/s01/vocab/11-moeglich.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich lerne jeden Tag fleißig Deutsch, damit ich bald in Berlin arbeiten kann.",
+      "ar": "بذاكر ألماني باجتهاد كل يوم عشان أقدر أشتغل قريب في برلين.",
+      "audio": "audio/b1/s01/s01-ich-lerne-jeden-tag-fleissig-deutsch-damit-i.mp3"
+    },
+    {
+      "de": "Obwohl die Grammatik manchmal kompliziert ist, gebe ich nicht auf.",
+      "ar": "رغم إن القواعد أحيانًا معقدة، أنا مش هستسلم.",
+      "audio": "audio/b1/s01/s02-obwohl-die-grammatik-manchmal-kompliziert-is.mp3"
+    },
+    {
+      "de": "Die Sprache ist schwer. Trotzdem macht mir das Lernen viel Spaß.",
+      "ar": "اللغة صعبة. بالرغم من كدة المذاكرة ممتعة جدًا بالنسبة لي.",
+      "audio": "audio/b1/s01/s03-die-sprache-ist-schwer-trotzdem-macht-mir-da.mp3"
+    },
+    {
+      "de": "Da ich im Sommer die B1-Prüfung habe, muss ich mich jetzt konzentrieren.",
+      "ar": "بما إن عندي امتحان B1 في الصيف، لازم أركز دلوقتي.",
+      "audio": "audio/b1/s01/s04-da-ich-im-sommer-die-b1-pruefung-habe-muss-i.mp3"
+    },
+    {
+      "de": "Ich weiß, dass der Weg lang ist, aber ich bin sicher, dass ich es schaffe.",
+      "ar": "أنا عارف إن الطريق طويل، بس متأكد إن هقدر أحقق ده.",
+      "audio": "audio/b1/s01/s05-ich-weiss-dass-der-weg-lang-ist-aber-ich-bin.mp3"
+    },
+    {
+      "de": "Wenn ich die Prüfung bestehe, werde ich eine große Party machen.",
+      "ar": "لو نجحت في الامتحان، هعمل حفلة كبيرة.",
+      "audio": "audio/b1/s01/s06-wenn-ich-die-pruefung-bestehe-werde-ich-eine.mp3"
+    },
+    {
+      "de": "Ich frage mich nur, ob das Leben in Deutschland so schön ist, wie ich denke.",
+      "ar": "أنا بس بتساءل لو الحياة في ألمانيا جميلة زي ما أنا فاكر.",
+      "audio": "audio/b1/s01/s07-ich-frage-mich-nur-ob-das-leben-in-deutschla.mp3"
+    },
+    {
+      "de": "Da ich viel Erfahrung habe, bin ich optimistisch.",
+      "ar": "بما إن عندي خبرة كبيرة، أنا متفائل.",
+      "audio": "audio/b1/s01/s08-da-ich-viel-erfahrung-habe-bin-ich-optimisti.mp3"
+    },
+    {
+      "de": "Obwohl die Stelle eine Herausforderung ist, bewerbe ich mich.",
+      "ar": "رغم إن الوظيفة دي تحدي، أنا هقدم عليها.",
+      "audio": "audio/b1/s01/s09-obwohl-die-stelle-eine-herausforderung-ist-b.mp3"
+    },
+    {
+      "de": "Ich bereite mich gut vor, damit ich meinen Erfolg erreiche.",
+      "ar": "بجهز نفسي كويس عشان أحقق نجاحي.",
+      "audio": "audio/b1/s01/s10-ich-bereite-mich-gut-vor-damit-ich-meinen-er.mp3"
+    },
+    {
+      "de": "Die Entscheidung ist schwer. Trotzdem treffe ich sie heute.",
+      "ar": "القرار صعب. بالرغم من كدة هاخده النهارده.",
+      "audio": "audio/b1/s01/s11-die-entscheidung-ist-schwer-trotzdem-treffe-.mp3"
+    },
+    {
+      "de": "Ich weiß nicht, ob alles möglich ist.",
+      "ar": "أنا مش عارف لو كل حاجة ممكنة.",
+      "audio": "audio/b1/s01/s12-ich-weiss-nicht-ob-alles-moeglich-ist.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Erfahrung",
+      "ar": "الخبرة",
+      "audio": "audio/b1/s01/vocab/05-erfahrung.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Herausforderung",
+      "ar": "التحدي",
+      "audio": "audio/b1/s01/vocab/06-herausforderung.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Entscheidung",
+      "ar": "القرار",
+      "audio": "audio/b1/s01/vocab/10-entscheidung.mp3",
+      "article": "die"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich frage mich, _______ alles am Ende gut wird.",
+      "options": [
+        "ob",
+        "dass",
+        "trotzdem"
+      ],
+      "answer": 0,
+      "why": "سؤال غير مباشر (هل) = ob.",
+      "ar": "بتساءل لو كل حاجة هتبقى كويسة في الآخر."
+    },
+    {
+      "prompt": "_______ die Stelle eine Herausforderung ist, bewerbe ich mich.",
+      "options": [
+        "Obwohl",
+        "Trotzdem",
+        "Damit"
+      ],
+      "answer": 0,
+      "why": "تناقض جوه نفس الجملة والفعل في الآخر = Obwohl.",
+      "ar": "رغم إن الوظيفة تحدي، هقدم عليها."
+    },
+    {
+      "prompt": "Er lernt viel, _______ er die B1-Prüfung besteht.",
+      "options": [
+        "damit",
+        "da",
+        "wenn"
+      ],
+      "answer": 0,
+      "why": "الهدف من المذاكرة = damit.",
+      "ar": "بذاكر كتير عشان ينجح في امتحان B1."
+    },
+    {
+      "prompt": "Der Weg ist lang. _______ gebe ich nicht auf.",
+      "options": [
+        "Trotzdem",
+        "Obwohl",
+        "Dass"
+      ],
+      "answer": 0,
+      "why": "جملتين منفصلتين والفعل رقم 2 = البلطجية Trotzdem.",
+      "ar": "الطريق طويل. بالرغم من كدة مش هستسلم."
+    },
+    {
+      "prompt": "_______ ich die Chance habe, treffe ich die Entscheidung.",
+      "options": [
+        "Wenn",
+        "Ob",
+        "Dass"
+      ],
+      "answer": 0,
+      "why": "شرط/زمن (لما تيجي الفرصة) = wenn.",
+      "ar": "لما تيجي الفرصة، هاخد القرار."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "أول حلقات B1: روابط الجمل الجديدة obwohl (رغم أن) وdamit (عشان) وda (بما أن) والبلطجية trotzdem، مع الفرق بين روابط الـ Nebensatz (الفعل في الآخر) وروابط الـ Hauptsatz (الفعل رقم 2)."
+  },
+  "grammar": [
+    {
+      "title": "مغناطيس الآخر: روابط الـ Nebensatz",
+      "rule": "obwohl وdamit وda (زي dass وweil وwenn وob بالظبط) بتحدف الفعل المصرف في آخر الجملة.",
+      "forms": [
+        "obwohl - رغم أن",
+        "damit - عشان",
+        "da - بما أن"
+      ],
+      "examples": [
+        {
+          "de": "Obwohl ich müde bin, lerne ich Deutsch.",
+          "ar": "رغم إني تعبان، بذاكر ألماني."
+        },
+        {
+          "de": "Ich lerne viel, damit ich die Prüfung bestehe.",
+          "ar": "بذاكر كتير عشان أنجح في الامتحان."
+        }
+      ]
+    },
+    {
+      "title": "obwohl: التناقض",
+      "rule": "لما يكون فيه عقبة بس النتيجة عكس المتوقع: رغم إني تعبان بذاكر.",
+      "forms": [
+        "Obwohl ..., ... (الفعل آخر الجملة الفرعية)"
+      ],
+      "examples": [
+        {
+          "de": "Obwohl es regnet, geht er spazieren.",
+          "ar": "رغم إنها بتمطر، هو بيتمشى."
+        },
+        {
+          "de": "Obwohl das B1 schwer ist, verstehe ich alles.",
+          "ar": "رغم إن الـ B1 صعب، أنا فاهم كل حاجة."
+        }
+      ]
+    },
+    {
+      "title": "damit الهدف و da السبب الشيك",
+      "rule": "damit = الهدف أو النية من الفعل. da = توأم weil بس أشيك في الكتابة وبيحب يبدأ بيها الجملة.",
+      "forms": [
+        "damit - عشان",
+        "da - بما أن"
+      ],
+      "examples": [
+        {
+          "de": "Ich spreche langsam, damit du mich verstehst.",
+          "ar": "بتكلم ببطء عشان تفهمني."
+        },
+        {
+          "de": "Da ich krank bin, bleibe ich im Bett.",
+          "ar": "بما إني تعبان، هفضل في السرير."
+        }
+      ]
+    },
+    {
+      "title": "trotzdem البلطجية",
+      "rule": "نفس معنى obwohl بس جملة منفصلة: بتيجي أول الجملة التانية وبتسحب الفعل بعدها على طول (رقم 2). لازم نقطة قبلها.",
+      "forms": [
+        ".... Trotzdem + الفعل + ..."
+      ],
+      "examples": [
+        {
+          "de": "Es regnet. Trotzdem geht er spazieren.",
+          "ar": "الدنيا بتمطر. بالرغم من كدة هو بيتمشى."
+        },
+        {
+          "de": "Der Kurs ist teuer. Trotzdem besuche ich ihn.",
+          "ar": "الكورس غالي. بالرغم من كدة هحضره."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "lerne viel,",
+          "Ich",
+          "damit ich",
+          "die Prüfung bestehe."
+        ],
+        "answer": "Ich lerne viel, damit ich die Prüfung bestehe.",
+        "ar": "بذاكر كتير عشان أنجح في الامتحان."
+      },
+      {
+        "tiles": [
+          "Obwohl ich müde bin,",
+          "lerne ich",
+          "Deutsch."
+        ],
+        "answer": "Obwohl ich müde bin, lerne ich Deutsch.",
+        "ar": "رغم إني تعبان، بذاكر ألماني."
+      },
+      {
+        "tiles": [
+          "Da ich krank bin,",
+          "bleibe ich",
+          "im Bett."
+        ],
+        "answer": "Da ich krank bin, bleibe ich im Bett.",
+        "ar": "بما إني تعبان، هفضل في السرير."
+      },
+      {
+        "tiles": [
+          "Ich bin müde.",
+          "Trotzdem lerne ich",
+          "Deutsch."
+        ],
+        "answer": "Ich bin müde. Trotzdem lerne ich Deutsch.",
+        "ar": "أنا تعبان. بالرغم من كدة بذاكر ألماني."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich glaube, dass er keine Zeit hat.",
+          "Ich glaube, dass er hat keine Zeit."
+        ],
+        "answer": 0,
+        "why": "بعد dass الفعل المصرف بيروح الآخر.",
+        "ar": "أنا فاكر إنه معندوش وقت."
+      },
+      {
+        "options": [
+          "Obwohl es kalt ist, gehe ich spazieren.",
+          "Obwohl es ist kalt, gehe ich spazieren."
+        ],
+        "answer": 0,
+        "why": "obwohl مغناطيس: الفعل في آخر جملتها.",
+        "ar": "رغم إن الجو سقيع، هو بيتمشى."
+      },
+      {
+        "options": [
+          "Da ich viel Erfahrung habe, bin ich optimistisch.",
+          "Da ich habe viel Erfahrung, bin ich optimistisch."
+        ],
+        "answer": 0,
+        "why": "da زي weil بالظبط: الفعل في الآخر.",
+        "ar": "بما إن عندي خبرة كبيرة، أنا متفائل."
+      },
+      {
+        "options": [
+          "Ich habe viel gearbeitet. Trotzdem bin ich fit.",
+          "Trotzdem ich habe viel gearbeitet, bin ich fit."
+        ],
+        "answer": 0,
+        "why": "trotzdem بتبدأ جملة جديدة والفعل بعدها على طول (رقم 2)، مش رابط جملة فرعية.",
+        "ar": "اشتغل كتير. بالرغم من كدة أنا فورمة."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "رغم أن القرار صعب، أنا سأتخذه.",
+        "de": "Obwohl die Entscheidung schwer ist, treffe ich sie.",
+        "audio": "audio/b1/s01/tr1.mp3"
+      },
+      {
+        "ar": "أنا أذاكر لكي أحقق أهدافي.",
+        "de": "Ich lerne, damit ich meine Ziele erreiche.",
+        "audio": "audio/b1/s01/tr2.mp3"
+      },
+      {
+        "ar": "بما أنني متفائل، سأتقدم للوظيفة.",
+        "de": "Da ich optimistisch bin, bewerbe ich mich.",
+        "audio": "audio/b1/s01/tr3.mp3"
+      },
+      {
+        "ar": "لو نجحت في الامتحان، هعمل حفلة كبيرة.",
+        "de": "Wenn ich die Prüfung bestehe, werde ich eine große Party machen.",
+        "audio": "audio/b1/s01/tr4.mp3"
+      }
+    ]
+  }
+}
