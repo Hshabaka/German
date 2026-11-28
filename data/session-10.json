@@ -1,0 +1,705 @@
+{
+  "id": 10,
+  "level": "a1",
+  "title": "Session 10: The capstone: introducing yourself",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=NCcN5KY9HVE",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "about-me",
+      "label": "About me",
+      "words": [
+        {
+          "de": "heißen",
+          "ar": "يُسمى",
+          "audio": "audio/s10/vocab/01-heissen.mp3"
+        },
+        {
+          "de": "kommen aus",
+          "ar": "يأتي من",
+          "audio": "audio/s10/vocab/02-kommen-aus.mp3"
+        },
+        {
+          "de": "wohnen in",
+          "ar": "يسكن في",
+          "audio": "audio/s10/vocab/03-wohnen-in.mp3"
+        },
+        {
+          "de": "arbeiten als",
+          "ar": "يعمل كـ",
+          "audio": "audio/s10/vocab/04-arbeiten-als.mp3"
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "label": "Marital status",
+      "words": [
+        {
+          "de": "ledig",
+          "ar": "أعزب / عزباء",
+          "audio": "audio/s10/vocab/05-ledig.mp3"
+        },
+        {
+          "de": "verheiratet",
+          "ar": "متزوج / متزوجة",
+          "audio": "audio/s10/vocab/06-verheiratet.mp3"
+        },
+        {
+          "de": "Kind",
+          "ar": "الطفل",
+          "audio": "audio/s10/vocab/07-das-kind.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Kinder",
+          "ar": "الأطفال",
+          "audio": "audio/s10/vocab/08-die-kinder.mp3",
+          "article": "die"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "label": "Languages",
+      "words": [
+        {
+          "de": "Sprache",
+          "ar": "اللغة",
+          "audio": "audio/s10/vocab/09-die-sprache.mp3",
+          "article": "die"
+        },
+        {
+          "de": "sprechen",
+          "ar": "يتحدث",
+          "audio": "audio/s10/vocab/10-sprechen.mp3"
+        },
+        {
+          "de": "Arabisch",
+          "ar": "العربية",
+          "audio": "audio/s10/vocab/11-arabisch.mp3"
+        },
+        {
+          "de": "Englisch",
+          "ar": "الإنجليزية",
+          "audio": "audio/s10/vocab/12-englisch.mp3"
+        }
+      ]
+    },
+    {
+      "id": "jobs",
+      "label": "Jobs",
+      "words": [
+        {
+          "de": "Lehrer",
+          "ar": "مدرس",
+          "audio": "audio/s10/vocab/13-der-lehrer.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Student",
+          "ar": "طالب",
+          "audio": "audio/s10/vocab/14-der-student.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Arzt",
+          "ar": "طبيب",
+          "audio": "audio/s10/vocab/15-der-arzt.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Ingenieur",
+          "ar": "مهندس",
+          "audio": "audio/s10/vocab/16-der-ingenieur.mp3",
+          "article": "der"
+        }
+      ]
+    },
+    {
+      "id": "sie-forms",
+      "label": "Sie (she)",
+      "words": [
+        {
+          "de": "sie heißt",
+          "ar": "هي اسمها",
+          "audio": "audio/s10/vocab/17-sie-heisst.mp3"
+        },
+        {
+          "de": "sie kommt",
+          "ar": "هي تأتي",
+          "audio": "audio/s10/vocab/18-sie-kommt.mp3"
+        },
+        {
+          "de": "sie wohnt",
+          "ar": "هي تسكن",
+          "audio": "audio/s10/vocab/19-sie-wohnt.mp3"
+        },
+        {
+          "de": "sie spricht",
+          "ar": "هي تتحدث",
+          "audio": "audio/s10/vocab/20-sie-spricht.mp3"
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "label": "Questions",
+      "words": [
+        {
+          "de": "Wie heißt du?",
+          "ar": "اسمك إيه؟",
+          "audio": "audio/s10/vocab/21-wie-heisst-du.mp3"
+        },
+        {
+          "de": "Wie alt bist du?",
+          "ar": "عندك كام سنة؟",
+          "audio": "audio/s10/vocab/22-wie-alt-bist-du.mp3"
+        },
+        {
+          "de": "Woher kommst du?",
+          "ar": "انت منين؟",
+          "audio": "audio/s10/vocab/23-woher-kommst-du.mp3"
+        },
+        {
+          "de": "Wo wohnst du?",
+          "ar": "ساكن فين؟",
+          "audio": "audio/s10/vocab/24-wo-wohnst-du.mp3"
+        },
+        {
+          "de": "Was bist du von Beruf?",
+          "ar": "شغال إيه؟",
+          "audio": "audio/s10/vocab/25-was-bist-du-von-beruf.mp3"
+        },
+        {
+          "de": "studieren",
+          "ar": "يدرس في الجامعة",
+          "audio": "audio/s10/vocab/26-studieren.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich heiße Abdelrahman.",
+      "ar": "أنا اسمي عبدالرحمن.",
+      "audio": "audio/s10/s01-ich-heisse-abdelrahman.mp3"
+    },
+    {
+      "de": "Ich bin 20 Jahre alt.",
+      "ar": "أنا عندي ٢٠ سنة.",
+      "audio": "audio/s10/s02-ich-bin-20-jahre-alt.mp3"
+    },
+    {
+      "de": "Ich komme aus Ägypten.",
+      "ar": "أنا من مصر.",
+      "audio": "audio/s10/s03-ich-komme-aus-aegypten.mp3"
+    },
+    {
+      "de": "Ich wohne in Kairo.",
+      "ar": "أنا ساكن في القاهرة.",
+      "audio": "audio/s10/s04-ich-wohne-in-kairo.mp3"
+    },
+    {
+      "de": "Ich bin Lehrer.",
+      "ar": "أنا مدرس.",
+      "audio": "audio/s10/s05-ich-bin-lehrer.mp3"
+    },
+    {
+      "de": "Ich arbeite als Lehrer.",
+      "ar": "أنا شغال كمدرس.",
+      "audio": "audio/s10/s06-ich-arbeite-als-lehrer.mp3"
+    },
+    {
+      "de": "Ich bin Student an der Uni.",
+      "ar": "أنا طالب في الجامعة.",
+      "audio": "audio/s10/s07-ich-bin-student-an-der-uni.mp3"
+    },
+    {
+      "de": "Sie heißt Sarah.",
+      "ar": "هي اسمها سارة.",
+      "audio": "audio/s10/s08-sie-heisst-sarah.mp3"
+    },
+    {
+      "de": "Sie kommt aus Ägypten und sie wohnt in Kairo.",
+      "ar": "هي من مصر وساكنة في القاهرة.",
+      "audio": "audio/s10/s09-sie-kommt-aus-aegypten.mp3"
+    },
+    {
+      "de": "Sie ist ledig.",
+      "ar": "هي عزباء.",
+      "audio": "audio/s10/s10-sie-ist-ledig.mp3"
+    },
+    {
+      "de": "Sie ist verheiratet und sie hat Kinder.",
+      "ar": "هي متزوجة وعندها أطفال.",
+      "audio": "audio/s10/s11-sie-ist-verheiratet.mp3"
+    },
+    {
+      "de": "Sie hat keine Kinder.",
+      "ar": "هي ماعندهاش أطفال.",
+      "audio": "audio/s10/s12-sie-hat-keine-kinder.mp3"
+    },
+    {
+      "de": "Sie spricht Arabisch und Englisch.",
+      "ar": "هي بتتكلم عربي وإنجليزي.",
+      "audio": "audio/s10/s13-sie-spricht-arabisch-englisch.mp3"
+    },
+    {
+      "de": "Sie lernt eine neue Sprache.",
+      "ar": "هي بتتعلم لغة جديدة.",
+      "audio": "audio/s10/s14-sie-lernt-eine-neue-sprache.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "heißen",
+      "ar": "يُسمى",
+      "audio": "audio/s10/vocab/01-heissen.mp3"
+    },
+    {
+      "de": "kommen aus",
+      "ar": "يأتي من",
+      "audio": "audio/s10/vocab/02-kommen-aus.mp3"
+    },
+    {
+      "de": "wohnen in",
+      "ar": "يسكن في",
+      "audio": "audio/s10/vocab/03-wohnen-in.mp3"
+    },
+    {
+      "de": "ledig",
+      "ar": "أعزب",
+      "audio": "audio/s10/vocab/05-ledig.mp3"
+    },
+    {
+      "de": "verheiratet",
+      "ar": "متزوج",
+      "audio": "audio/s10/vocab/06-verheiratet.mp3"
+    },
+    {
+      "de": "Kind",
+      "article": "das",
+      "ar": "الطفل",
+      "audio": "audio/s10/vocab/07-das-kind.mp3"
+    },
+    {
+      "de": "Sprache",
+      "article": "die",
+      "ar": "اللغة",
+      "audio": "audio/s10/vocab/09-die-sprache.mp3"
+    },
+    {
+      "de": "Arabisch",
+      "ar": "العربية",
+      "audio": "audio/s10/vocab/11-arabisch.mp3"
+    },
+    {
+      "de": "Englisch",
+      "ar": "الإنجليزية",
+      "audio": "audio/s10/vocab/12-englisch.mp3"
+    },
+    {
+      "de": "Lehrer",
+      "article": "der",
+      "ar": "مدرس",
+      "audio": "audio/s10/vocab/13-der-lehrer.mp3"
+    },
+    {
+      "de": "Arzt",
+      "article": "der",
+      "ar": "طبيب",
+      "audio": "audio/s10/vocab/15-der-arzt.mp3"
+    },
+    {
+      "de": "sie spricht",
+      "ar": "هي تتحدث",
+      "audio": "audio/s10/vocab/20-sie-spricht.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich ______ 20 Jahre alt.",
+      "options": [
+        "bin",
+        "heiße",
+        "habe"
+      ],
+      "answer": 0,
+      "why": "العمر بـ sein: Ich bin 20 Jahre alt.",
+      "ar": "أنا عندي ٢٠ سنة."
+    },
+    {
+      "prompt": "Ich ______ in Kairo.",
+      "options": [
+        "wohne",
+        "komme",
+        "bin"
+      ],
+      "answer": 0,
+      "why": "السكن في مكان: wohnen in.",
+      "ar": "أنا ساكن في القاهرة."
+    },
+    {
+      "prompt": "Ich ______ aus Ägypten.",
+      "options": [
+        "komme",
+        "wohne",
+        "bin"
+      ],
+      "answer": 0,
+      "why": "الأصل/البلد: kommen aus.",
+      "ar": "أنا من مصر."
+    },
+    {
+      "prompt": "Ich bin Student ______ der Uni.",
+      "options": [
+        "an",
+        "in",
+        "auf"
+      ],
+      "answer": 0,
+      "why": "طالب في الجامعة: an der Uni.",
+      "ar": "أنا طالب في الجامعة."
+    },
+    {
+      "prompt": "أي جملة صحيحة للتعريف بالعمر؟",
+      "options": [
+        "Ich bin 20 Jahre alt.",
+        "Ich habe 20 Jahre.",
+        "Ich heiße 20 Jahre."
+      ],
+      "answer": 0,
+      "why": "bin + Jahre alt.",
+      "ar": "صيغة العمر الصحيحة."
+    },
+    {
+      "prompt": "Sie ______ aus Ägypten. (هي)",
+      "options": [
+        "kommt",
+        "komme",
+        "kommen"
+      ],
+      "answer": 0,
+      "why": "هي: الفعل ياخد t: kommt.",
+      "ar": "هي من مصر."
+    },
+    {
+      "prompt": "Sie hat ______ Kinder. (ليس لديها)",
+      "options": [
+        "keine",
+        "nicht",
+        "nein"
+      ],
+      "answer": 0,
+      "why": "نفي الاسم: keine.",
+      "ar": "هي ماعندهاش أطفال."
+    },
+    {
+      "prompt": "______ heißt du?",
+      "options": [
+        "Wie",
+        "Wo",
+        "Was"
+      ],
+      "answer": 0,
+      "why": "السؤال عن الاسم: Wie heißt du.",
+      "ar": "اسمك إيه؟"
+    },
+    {
+      "prompt": "______ kommst du?",
+      "options": [
+        "Woher",
+        "Wo",
+        "Wie"
+      ],
+      "answer": 0,
+      "why": "منين: Woher.",
+      "ar": "انت منين؟"
+    },
+    {
+      "prompt": "Sie ______ Arabisch und Englisch.",
+      "options": [
+        "spricht",
+        "spreche",
+        "sprechen"
+      ],
+      "answer": 0,
+      "why": "هي: spricht.",
+      "ar": "هي بتتكلم عربي وإنجليزي."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "درس التتويج: بقيت تقدر تقدم نفسك كاملاً — Ich heiße، Ich bin 20 Jahre alt، Ich komme aus، Ich wohne in، Ich bin Lehrer. وكمان تقدم غيرك بضمير هي (Sie): sie heißt، sie kommt، sie spricht. مع مكعبات الحالة الاجتماعية (ledig/verheiratet) واللغات."
+  },
+  "grammar": [
+    {
+      "title": "التعريف بالنفس: heißen و sein",
+      "rule": "الاسم بـ heißen: Ich heiße Abdelrahman. والعمر والمهنة بـ sein: Ich bin 20 Jahre alt، Ich bin Lehrer.",
+      "forms": [
+        "ich heiße",
+        "ich bin ... Jahre alt",
+        "ich bin + مهنة"
+      ],
+      "examples": [
+        {
+          "de": "Ich heiße Abdelrahman.",
+          "ar": "اسمي عبدالرحمن."
+        },
+        {
+          "de": "Ich bin 20 Jahre alt.",
+          "ar": "عندي ٢٠ سنة."
+        }
+      ]
+    },
+    {
+      "title": "kommen aus و wohnen in",
+      "rule": "البلد اللي جاي منها: kommen aus (Ich komme aus Ägypten). والسكن: wohnen in (Ich wohne in Kairo).",
+      "forms": [
+        "ich komme aus + بلد",
+        "ich wohne in + مدينة"
+      ],
+      "examples": [
+        {
+          "de": "Ich komme aus Ägypten.",
+          "ar": "أنا من مصر."
+        },
+        {
+          "de": "Ich wohne in Kairo.",
+          "ar": "أنا ساكن في القاهرة."
+        }
+      ]
+    },
+    {
+      "title": "sie (هي): الفعل ياخد t",
+      "rule": "مع هي بنغير نهاية الفعل العادي بـ t: Ich komme تبقى Sie kommt، Ich wohne تبقى Sie wohnt، Ich bin تبقى Sie ist.",
+      "forms": [
+        "ich komme → sie kommt",
+        "ich wohne → sie wohnt",
+        "ich bin → sie ist"
+      ],
+      "examples": [
+        {
+          "de": "Sie kommt aus Ägypten.",
+          "ar": "هي من مصر."
+        },
+        {
+          "de": "Sie spricht Arabisch und Englisch.",
+          "ar": "هي بتتكلم عربي وإنجليزي."
+        }
+      ]
+    },
+    {
+      "title": "kein: نفي الاسم",
+      "rule": "عشان ننفي اسم (زي الأطفال) بنستخدم keine: Sie hat keine Kinder (ماعندهاش أطفال).",
+      "forms": [
+        "kein + اسم",
+        "keine Kinder"
+      ],
+      "examples": [
+        {
+          "de": "Sie hat keine Kinder.",
+          "ar": "هي ماعندهاش أطفال."
+        },
+        {
+          "de": "Sie ist verheiratet und sie hat Kinder.",
+          "ar": "هي متزوجة وعندها أطفال."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Lehrer",
+          "bin",
+          "Ich",
+          "und",
+          "Deutsch",
+          "lerne",
+          "ich"
+        ],
+        "answer": "Ich bin Lehrer und ich lerne Deutsch.",
+        "ar": "أنا مدرس وبتعلم ألماني."
+      },
+      {
+        "tiles": [
+          "kann",
+          "damit",
+          "ich",
+          "Deutsch",
+          "lerne",
+          "Ich",
+          "sprechen"
+        ],
+        "answer": "Ich lerne Deutsch, damit ich sprechen kann.",
+        "ar": "بتعلم ألماني عشان أقدر أتكلم."
+      },
+      {
+        "tiles": [
+          "heiße",
+          "Ich",
+          "Abdelrahman"
+        ],
+        "answer": "Ich heiße Abdelrahman.",
+        "ar": "اسمي عبدالرحمن."
+      },
+      {
+        "tiles": [
+          "kommt",
+          "aus",
+          "Ägypten",
+          "Sie"
+        ],
+        "answer": "Sie kommt aus Ägypten.",
+        "ar": "هي من مصر."
+      },
+      {
+        "tiles": [
+          "spricht",
+          "Arabisch",
+          "Englisch",
+          "und",
+          "Sie"
+        ],
+        "answer": "Sie spricht Arabisch und Englisch.",
+        "ar": "هي بتتكلم عربي وإنجليزي."
+      },
+      {
+        "tiles": [
+          "Student",
+          "an",
+          "der",
+          "Uni",
+          "bin",
+          "Ich"
+        ],
+        "answer": "Ich bin Student an der Uni.",
+        "ar": "أنا طالب في الجامعة."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich komme aus Ägypten.",
+          "Ich komme in Ägypten."
+        ],
+        "answer": 0,
+        "why": "البلد الأصل: aus مش in.",
+        "ar": "أنا من مصر."
+      },
+      {
+        "options": [
+          "Ich bin Lehrer an der Uni.",
+          "Ich bin Lehrer an die Uni."
+        ],
+        "answer": 0,
+        "why": "an der Uni.",
+        "ar": "أنا مدرس في الجامعة."
+      },
+      {
+        "options": [
+          "Ich muss Deutsch lernen.",
+          "Ich muss lerne Deutsch."
+        ],
+        "answer": 0,
+        "why": "بعد muss المصدر: lernen.",
+        "ar": "لازم أتعلم ألماني."
+      },
+      {
+        "options": [
+          "...damit ich sprechen kann.",
+          "...damit ich kann sprechen."
+        ],
+        "answer": 0,
+        "why": "damit بترمي المتصرف في الآخر.",
+        "ar": "عشان أقدر أتكلم."
+      },
+      {
+        "options": [
+          "Sie wohnt in Kairo.",
+          "Sie wohne in Kairo."
+        ],
+        "answer": 0,
+        "why": "هي: wohnt.",
+        "ar": "هي ساكنة في القاهرة."
+      },
+      {
+        "options": [
+          "Ich bin 20 Jahre alt.",
+          "Ich habe 20 Jahre."
+        ],
+        "answer": 0,
+        "why": "العمر بـ sein.",
+        "ar": "عندي ٢٠ سنة."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "اسمي عبد الرحمن، أنا من مصر ولكن أسكن في برلين.",
+        "de": "Ich heiße Abdelrahman, ich komme aus Ägypten, aber ich wohne in Berlin.",
+        "audio": "audio/s10/tr1.mp3"
+      },
+      {
+        "ar": "أنا طالب في الجامعة ويجب أن أتحدث الألمانية معك الآن.",
+        "de": "Ich bin Student an der Uni und ich muss jetzt Deutsch mit dir sprechen.",
+        "audio": "audio/s10/tr2.mp3"
+      },
+      {
+        "ar": "هذا ليس سهلاً بالنسبة لي، لكن يجب أن أتعلم لكي أستطيع التحدث.",
+        "de": "Das ist nicht einfach für mich, aber ich muss lernen, damit ich sprechen kann.",
+        "audio": "audio/s10/tr3.mp3"
+      },
+      {
+        "ar": "هي متزوجة وعندها أطفال.",
+        "de": "Sie ist verheiratet und sie hat Kinder.",
+        "audio": "audio/s10/tr4.mp3"
+      },
+      {
+        "ar": "هي بتتعلم لغة جديدة.",
+        "de": "Sie lernt eine neue Sprache.",
+        "audio": "audio/s10/tr5.mp3"
+      },
+      {
+        "ar": "أنا شغال كمدرس.",
+        "de": "Ich arbeite als Lehrer.",
+        "audio": "audio/s10/tr6.mp3"
+      }
+    ]
+  }
+}
