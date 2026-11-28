@@ -1,0 +1,692 @@
+{
+ "id": "session-5",
+ "level": "A1",
+ "title": "Session 5: Obligation and need",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=8BFgyj-Pfec",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=8BFgyj-Pfec"
+ },
+ "vocab": [
+  {
+   "id": "modals",
+   "label": "Modal verbs",
+   "words": [
+    {
+     "de": "muss",
+     "ar": "يجب أن / لازم",
+     "audio": "audio/s5/vocab/01-muss.mp3"
+    },
+    {
+     "de": "kann",
+     "ar": "يستطيع / ممكن",
+     "audio": "audio/s5/vocab/02-kann.mp3"
+    },
+    {
+     "de": "will",
+     "ar": "يريد / عايز",
+     "audio": "audio/s5/vocab/03-will.mp3"
+    },
+    {
+     "de": "soll",
+     "ar": "ينبغي",
+     "audio": "audio/s5/vocab/04-soll.mp3"
+    }
+   ]
+  },
+  {
+   "id": "nouns",
+   "label": "Things we need",
+   "words": [
+    {
+     "de": "das Ticket",
+     "ar": "التذكرة",
+     "audio": "audio/s5/vocab/05-das-ticket.mp3"
+    },
+    {
+     "de": "das Buch",
+     "ar": "الكتاب",
+     "audio": "audio/s5/vocab/06-das-buch.mp3"
+    },
+    {
+     "de": "das Handy",
+     "ar": "الموبايل",
+     "audio": "audio/s5/vocab/07-das-handy.mp3"
+    },
+    {
+     "de": "das Wasser",
+     "ar": "الماء",
+     "audio": "audio/s5/vocab/08-das-wasser.mp3"
+    }
+   ]
+  },
+  {
+   "id": "verbs",
+   "label": "New verbs",
+   "words": [
+    {
+     "de": "kaufen",
+     "ar": "يشتري",
+     "audio": "audio/s5/vocab/09-kaufen.mp3"
+    },
+    {
+     "de": "essen",
+     "ar": "يأكل",
+     "audio": "audio/s5/vocab/10-essen.mp3"
+    },
+    {
+     "de": "bezahlen",
+     "ar": "يدفع",
+     "audio": "audio/s5/vocab/11-bezahlen.mp3"
+    },
+    {
+     "de": "gehen",
+     "ar": "يذهب",
+     "audio": "audio/s5/vocab/12-gehen.mp3"
+    }
+   ]
+  },
+  {
+   "id": "travel",
+   "label": "Travel words",
+   "words": [
+    {
+     "de": "reisen",
+     "ar": "يسافر",
+     "audio": "audio/s5/vocab/13-reisen.mp3"
+    },
+    {
+     "de": "fliegen",
+     "ar": "يسافر بالطيران",
+     "audio": "audio/s5/vocab/14-fliegen.mp3"
+    },
+    {
+     "de": "fahren",
+     "ar": "يسافر بالسيارة / القطار",
+     "audio": "audio/s5/vocab/15-fahren.mp3"
+    },
+    {
+     "de": "heute",
+     "ar": "اليوم",
+     "audio": "audio/s5/vocab/16-heute.mp3"
+    },
+    {
+     "de": "am Wochenende",
+     "ar": "في عطلة نهاية الأسبوع",
+     "audio": "audio/s5/vocab/17-am-wochenende.mp3"
+    },
+    {
+     "de": "mit der Familie",
+     "ar": "مع العائلة",
+     "audio": "audio/s5/vocab/18-mit-der-familie.mp3"
+    }
+   ]
+  },
+  {
+   "id": "wir-forms",
+   "label": "Verbs with wir",
+   "words": [
+    {
+     "de": "wir reisen",
+     "ar": "احنا بنسافر",
+     "audio": "audio/s5/vocab/19-wir-reisen.mp3"
+    },
+    {
+     "de": "wir können",
+     "ar": "احنا نقدر",
+     "audio": "audio/s5/vocab/20-wir-koennen.mp3"
+    },
+    {
+     "de": "wir müssen",
+     "ar": "احنا لازم",
+     "audio": "audio/s5/vocab/21-wir-muessen.mp3"
+    },
+    {
+     "de": "wir fliegen",
+     "ar": "احنا بنطير",
+     "audio": "audio/s5/vocab/22-wir-fliegen.mp3"
+    },
+    {
+     "de": "wir fahren",
+     "ar": "احنا بنروح بالعربية",
+     "audio": "audio/s5/vocab/23-wir-fahren.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Ich muss jetzt Deutsch sprechen.",
+   "ar": "لازم دلوقتي أتكلم ألماني.",
+   "audio": "audio/s5/s01-ich-muss-jetzt-deutsch-sprechen.mp3"
+  },
+  {
+   "de": "Entschuldigung, das ist schwer, aber ich muss es lernen.",
+   "ar": "معلش، ده صعب بس لازم أتعلمه.",
+   "audio": "audio/s5/s02-entschuldigung-das-ist-schwer.mp3"
+  },
+  {
+   "de": "Das ist nicht billig, aber ich muss es bezahlen.",
+   "ar": "ده مش رخيص بس لازم أدفع تمنه.",
+   "audio": "audio/s5/s03-das-ist-nicht-billig.mp3"
+  },
+  {
+   "de": "Ich muss das Ticket kaufen.",
+   "ar": "لازم أشتري التذكرة.",
+   "audio": "audio/s5/s04-ich-muss-das-ticket-kaufen.mp3"
+  },
+  {
+   "de": "Ich will das Handy kaufen.",
+   "ar": "عايز أشتري الموبايل.",
+   "audio": "audio/s5/s05-ich-will-das-handy-kaufen.mp3"
+  },
+  {
+   "de": "Ich soll das Buch lesen.",
+   "ar": "ينبغي أقرا الكتاب.",
+   "audio": "audio/s5/s06-ich-soll-das-buch-lesen.mp3"
+  },
+  {
+   "de": "Das Wasser ist teuer, aber ich muss es kaufen.",
+   "ar": "المية غالية، بس لازم أشتريها.",
+   "audio": "audio/s5/s07-das-wasser-ist-teuer.mp3"
+  },
+  {
+   "de": "Ich muss das Buch lesen.",
+   "ar": "لازم أقرا الكتاب.",
+   "audio": "audio/s5/s08-ich-muss-das-buch-lesen.mp3"
+  },
+  {
+   "de": "Ich reise nach Deutschland.",
+   "ar": "أنا بسافر ألمانيا.",
+   "audio": "audio/s5/s09-ich-reise-nach-deutschland.mp3"
+  },
+  {
+   "de": "Ich kann nach Deutschland reisen.",
+   "ar": "أقدر أسافر ألمانيا.",
+   "audio": "audio/s5/s10-ich-kann-nach-deutschland-reisen.mp3"
+  },
+  {
+   "de": "Wir reisen nach Deutschland.",
+   "ar": "احنا بنسافر ألمانيا.",
+   "audio": "audio/s5/s11-wir-reisen-nach-deutschland.mp3"
+  },
+  {
+   "de": "Wir fliegen heute mit der Familie.",
+   "ar": "هنطير النهاردة مع العيلة.",
+   "audio": "audio/s5/s12-wir-fliegen-heute-mit-der-familie.mp3"
+  },
+  {
+   "de": "Wir können nicht am Wochenende reisen.",
+   "ar": "مش نقدر نسافر في الويك إند.",
+   "audio": "audio/s5/s13-wir-koennen-nicht-am-wochenende-reisen.mp3"
+  },
+  {
+   "de": "Wir fahren heute, aber das ist sehr teuer.",
+   "ar": "هنروح بالعربية النهاردة، بس ده غالي جدًا.",
+   "audio": "audio/s5/s14-wir-fahren-heute.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "muss",
+   "ar": "لازم",
+   "audio": "audio/s5/vocab/01-muss.mp3"
+  },
+  {
+   "de": "will",
+   "ar": "عايز",
+   "audio": "audio/s5/vocab/03-will.mp3"
+  },
+  {
+   "de": "soll",
+   "ar": "ينبغي",
+   "audio": "audio/s5/vocab/04-soll.mp3"
+  },
+  {
+   "de": "das Ticket",
+   "ar": "التذكرة",
+   "audio": "audio/s5/vocab/05-das-ticket.mp3"
+  },
+  {
+   "de": "das Handy",
+   "ar": "الموبايل",
+   "audio": "audio/s5/vocab/07-das-handy.mp3"
+  },
+  {
+   "de": "das Wasser",
+   "ar": "الماء",
+   "audio": "audio/s5/vocab/08-das-wasser.mp3"
+  },
+  {
+   "de": "bezahlen",
+   "ar": "يدفع",
+   "audio": "audio/s5/vocab/11-bezahlen.mp3"
+  },
+  {
+   "de": "gehen",
+   "ar": "يذهب",
+   "audio": "audio/s5/vocab/12-gehen.mp3"
+  },
+  {
+   "de": "reisen",
+   "ar": "يسافر",
+   "audio": "audio/s5/vocab/13-reisen.mp3"
+  },
+  {
+   "de": "fliegen",
+   "ar": "يسافر بالطيران",
+   "audio": "audio/s5/vocab/14-fliegen.mp3"
+  },
+  {
+   "de": "fahren",
+   "ar": "يسافر بالعربية",
+   "audio": "audio/s5/vocab/15-fahren.mp3"
+  },
+  {
+   "de": "heute",
+   "ar": "اليوم",
+   "audio": "audio/s5/vocab/16-heute.mp3"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Ich ______ jetzt Deutsch sprechen, ich habe einen Test.",
+   "options": [
+    "kann",
+    "muss",
+    "will"
+   ],
+   "answer": 1,
+   "why": "عنده اختبار، يبقى لازم يتكلم: muss.",
+   "ar": "لازم أتكلم ألماني دلوقتي، عندي اختبار."
+  },
+  {
+   "prompt": "Ich ........ mit dir sprechen, hast du Zeit?",
+   "options": [
+    "muss",
+    "kann",
+    "soll"
+   ],
+   "answer": 1,
+   "why": "السؤال عن الإمكانية (عندك وقت؟): kann.",
+   "ar": "أقدر أتكلم معاك، عندك وقت؟"
+  },
+  {
+   "prompt": "Das Wasser ist teuer, aber ich ........ es kaufen.",
+   "options": [
+    "muss",
+    "will",
+    "kann"
+   ],
+   "answer": 0,
+   "why": "غالي بس ضروري: muss.",
+   "ar": "المية غالية، بس لازم أشتريها."
+  },
+  {
+   "prompt": "اختار الجملة الصح: \"الأكل مش كويس، بس لازم أكله\"",
+   "options": [
+    "Das Essen ist nicht gut, aber ich muss es essen.",
+    "Das Essen ist nicht gut, aber ich esse es muss.",
+    "Das Essen ist nicht gut, aber ich muss essen es."
+   ],
+   "answer": 0,
+   "why": "بعد muss الفعل الأساسي بيروح آخر الجملة في المصدر: es essen.",
+   "ar": "الأكل مش كويس، بس لازم أكله."
+  },
+  {
+   "prompt": "مع muss الفعل الأساسي بيكون...",
+   "options": [
+    "آخر الجملة في المصدر",
+    "بعد muss على طول",
+    "أول الجملة"
+   ],
+   "answer": 0,
+   "why": "الفعل المودال بيتصرف، والفعل الأساسي بيروح آخر الجملة في المصدر.",
+   "ar": "قاعدة ترتيب الجملة مع الأفعال المودالية."
+  },
+  {
+   "prompt": "في جملة \"Ich muss es kaufen\" كلمة es معناها إيه؟",
+   "options": [
+    "أنا",
+    "هو / ها (الشيء)",
+    "أنت"
+   ],
+   "answer": 1,
+   "why": "es ضمير بيرجع للشيء اللي هنشتريه.",
+   "ar": "معنى الضمير es."
+  },
+  {
+   "prompt": "Wir ______ nach Deutschland.",
+   "options": [
+    "reist",
+    "reisen",
+    "reise"
+   ],
+   "answer": 1,
+   "why": "مع wir الفعل بيفضل في المصدر: reisen.",
+   "ar": "احنا بنسافر ألمانيا."
+  },
+  {
+   "prompt": "______ fliegen heute mit der Familie.",
+   "options": [
+    "Ich",
+    "Du",
+    "Wir"
+   ],
+   "answer": 2,
+   "why": "fliegen من غير تغيير = wir (أو sie/Sie). السياق: مع العيلة.",
+   "ar": "احنا هنطير النهاردة مع العيلة."
+  },
+  {
+   "prompt": "اختار الصح:",
+   "options": [
+    "Ich muss Deutsch lernen.",
+    "Ich muss Deutsch lerne.",
+    "Ich muss Deutsch lernst."
+   ],
+   "answer": 0,
+   "why": "بعد muss المصدر: lernen.",
+   "ar": "لازم أتعلم ألماني."
+  },
+  {
+   "prompt": "ترجم: لازم أدفع تمن التذكرة",
+   "options": [
+    "Ich muss das Ticket bezahlen.",
+    "Ich kann das Ticket bezahlen.",
+    "Ich will das Ticket bezahlen."
+   ],
+   "answer": 0,
+   "why": "لازم = muss.",
+   "ar": "لازم أدفع تمن التذكرة."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "الجلسة دي بتضيف أفعال الضرورة والرغبة: muss (لازم)، will (عايز)، soll (ينبغي) جنب kann اللي اتعلمناه. وفي الجزء التاني بتفتح ضمير جديد: wir (احنا)، ومعاه كلمات السفر: reisen وfliegen وfahren. اتفرج على فيديو الدرس الخامس، راجع الجداول تحته، وبعدين كمّل التدريب.",
+  "challenge": {
+   "title": "Writing challenge (Barbarys Schreib-Challenge) ✍️",
+   "intro": "Translate these sentences into German:",
+   "items": [
+    "لازم أشتري التذكرة النهاردة.",
+    "احنا نقدر نطير مع العيلة في الويك إند.",
+    "المية غالية، بس لازم أشتريها."
+   ],
+   "note": "Build 3 long sentences with 'Wir können / Wir müssen ... und / aber das ist ... für uns' and the adjectives toll, langweilig, billig, teuer."
+  }
+ },
+ "grammar": [
+  {
+   "title": "muss, kann, will, soll: أفعال الضرورة والرغبة",
+   "rule": "أربع أفعال مودالية بتتحط مكان الفعل المصرف: muss (لازم)، kann (أقدر)، will (عايز)، soll (ينبغي). والفعل الأساسي بيروح آخر الجملة في المصدر.",
+   "forms": [
+    "ich muss / du musst / er muss",
+    "ich kann / du kannst / er kann",
+    "ich will / du willst / er will",
+    "ich soll / du sollst / er soll"
+   ],
+   "examples": [
+    {
+     "de": "Ich muss das Ticket kaufen.",
+     "ar": "لازم أشتري التذكرة."
+    },
+    {
+     "de": "Ich will das Handy kaufen.",
+     "ar": "عايز أشتري الموبايل."
+    }
+   ]
+  },
+  {
+   "title": "ترتيب الجملة مع الأفعال المودالية",
+   "rule": "الفعل المودال (muss/kann/will/soll) بيتصرف في مكانه التاني في الجملة، والفعل الأساسي بيروح الآخر خالص في شكل المصدر: Ich muss jetzt Deutsch sprechen.",
+   "forms": [
+    "Ich muss es lernen.",
+    "Ich muss es bezahlen.",
+    "Ich kann nach Deutschland reisen.",
+    "Wir können nicht reisen."
+   ],
+   "examples": [
+    {
+     "de": "Das ist nicht billig, aber ich muss es bezahlen.",
+     "ar": "ده مش رخيص بس لازم أدفع تمنه."
+    },
+    {
+     "de": "Entschuldigung, das ist schwer, aber ich muss es lernen.",
+     "ar": "معلش، ده صعب بس لازم أتعلمه."
+    }
+   ]
+  },
+  {
+   "title": "wir: الفعل بيرجع للمصدر",
+   "rule": "مع الضمير wir (احنا) الفعل بيفضل زي المصدر بينتهي بـ -en، يعني مفيش تعب في التصريف: ich reise بس wir reisen، وich kann بس wir können.",
+   "forms": [
+    "ich reise → wir reisen",
+    "ich kann → wir können",
+    "ich muss → wir müssen",
+    "ich fliege → wir fliegen"
+   ],
+   "examples": [
+    {
+     "de": "Wir reisen nach Deutschland.",
+     "ar": "احنا بنسافر ألمانيا."
+    },
+    {
+     "de": "Wir fliegen heute mit der Familie.",
+     "ar": "هنطير النهاردة مع العيلة."
+    }
+   ]
+  },
+  {
+   "title": "reisen, fliegen, fahren: إزاي بتسافر",
+   "rule": "reisen = يسافر بشكل عام، fliegen = يسافر بالطيران، fahren = يسافر بالسيارة أو القطار. ومعاهم كلمات الزمان: heute (النهاردة) و am Wochenende (الويك إند).",
+   "forms": [
+    "Ich reise nach Deutschland.",
+    "Wir fliegen heute.",
+    "Wir fahren am Wochenende.",
+    "Wir reisen mit der Familie."
+   ],
+   "examples": [
+    {
+     "de": "Wir können nicht am Wochenende reisen.",
+     "ar": "مش نقدر نسافر في الويك إند."
+    },
+    {
+     "de": "Wir fahren heute, aber das ist sehr teuer.",
+     "ar": "هنروح بالعربية النهاردة، بس ده غالي جدًا."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "lernen",
+     "Deutsch",
+     "jetzt",
+     "muss",
+     "Ich"
+    ],
+    "answer": "Ich muss jetzt Deutsch lernen.",
+    "ar": "لازم أتعلم ألماني دلوقتي."
+   },
+   {
+    "tiles": [
+     "ist",
+     "Das",
+     "teuer",
+     "aber",
+     "ich",
+     "muss",
+     "es",
+     "kaufen"
+    ],
+    "answer": "Das ist teuer, aber ich muss es kaufen.",
+    "ar": "ده غالي، بس لازم أشتريه."
+   },
+   {
+    "tiles": [
+     "reise",
+     "nach",
+     "Deutschland",
+     "Ich"
+    ],
+    "answer": "Ich reise nach Deutschland.",
+    "ar": "أنا بسافر ألمانيا."
+   },
+   {
+    "tiles": [
+     "der",
+     "Familie",
+     "mit",
+     "heute",
+     "fliegen",
+     "Wir"
+    ],
+    "answer": "Wir fliegen heute mit der Familie.",
+    "ar": "هنطير النهاردة مع العيلة."
+   },
+   {
+    "tiles": [
+     "reisen",
+     "Deutschland",
+     "nach",
+     "kann",
+     "Ich"
+    ],
+    "answer": "Ich kann nach Deutschland reisen.",
+    "ar": "أقدر أسافر ألمانيا."
+   },
+   {
+    "tiles": [
+     "reisen",
+     "Wochenende",
+     "am",
+     "nicht",
+     "können",
+     "Wir"
+    ],
+    "answer": "Wir können nicht am Wochenende reisen.",
+    "ar": "مش نقدر نسافر في الويك إند."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Ich muss Deutsch lerne.",
+     "Ich muss Deutsch lernen."
+    ],
+    "answer": 1,
+    "why": "بعد muss الفعل في المصدر: lernen مش lerne.",
+    "ar": "لازم أتعلم ألماني."
+   },
+   {
+    "options": [
+     "Wir reist nach Deutschland.",
+     "Wir reisen nach Deutschland."
+    ],
+    "answer": 1,
+    "why": "مع wir الفعل في المصدر: reisen.",
+    "ar": "احنا بنسافر ألمانيا."
+   },
+   {
+    "options": [
+     "Ich muss bezahlen es.",
+     "Ich muss es bezahlen."
+    ],
+    "answer": 1,
+    "why": "الضمير es بيجي قبل الفعل الأساسي: es bezahlen.",
+    "ar": "لازم أدفع تمنه."
+   },
+   {
+    "options": [
+     "Wir kann reisen.",
+     "Wir können reisen."
+    ],
+    "answer": 1,
+    "why": "مع wir: können مش kann.",
+    "ar": "احنا نقدر نسافر."
+   },
+   {
+    "options": [
+     "Ich will das Handy kaufe.",
+     "Ich will das Handy kaufen."
+    ],
+    "answer": 1,
+    "why": "بعد will المصدر: kaufen.",
+    "ar": "عايز أشتري الموبايل."
+   },
+   {
+    "options": [
+     "Wir fährt heute.",
+     "Wir fahren heute."
+    ],
+    "answer": 1,
+    "why": "مع wir المصدر: fahren مش fährt.",
+    "ar": "احنا رايحين النهاردة."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "أنا لازم أتعلم ألماني أكتر.",
+    "de": "Ich muss mehr Deutsch lernen.",
+    "audio": "audio/s5/tr1.mp3"
+   },
+   {
+    "ar": "الموبايل ده غالي جدًا بالنسبة لي، بس لازم أشتريه.",
+    "de": "Das Handy ist sehr teuer für mich, aber ich muss es kaufen.",
+    "audio": "audio/s5/tr2.mp3"
+   },
+   {
+    "ar": "أنا أقدر أتكلم ألماني، بس لازم أتعلم أكتر.",
+    "de": "Ich kann Deutsch sprechen, aber ich muss mehr lernen.",
+    "audio": "audio/s5/tr3.mp3"
+   },
+   {
+    "ar": "احنا بنسافر ألمانيا في الويك إند.",
+    "de": "Wir reisen am Wochenende nach Deutschland.",
+    "audio": "audio/s5/tr4.mp3"
+   },
+   {
+    "ar": "احنا مش نقدر نسافر النهاردة.",
+    "de": "Wir können heute nicht reisen.",
+    "audio": "audio/s5/tr5.mp3"
+   },
+   {
+    "ar": "معذرة، مش أقدر أتكلم معاك دلوقتي، لأن لازم أشتري مية.",
+    "de": "Entschuldigung, ich kann jetzt nicht mit dir sprechen, aber ich muss Wasser kaufen.",
+    "audio": "audio/s5/tr6.mp3"
+   }
+  ]
+ }
+}
