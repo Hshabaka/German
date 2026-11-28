@@ -1,0 +1,764 @@
+{
+  "id": 16,
+  "level": "a1",
+  "title": "Session 16: At the doctor and describing pain",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=CkMhpS9I5II",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "request",
+      "label": "Asking for an appointment",
+      "words": [
+        {
+          "de": "Ich hätte gerne",
+          "ar": "أود (طلب مؤدب)",
+          "audio": "audio/s16/vocab/01-ich-haette-gerne.mp3"
+        },
+        {
+          "de": "Termin",
+          "ar": "الموعد",
+          "audio": "audio/s16/vocab/02-termin.mp3",
+          "article": "der"
+        },
+        {
+          "de": "bei Ihnen",
+          "ar": "عندكم / عند حضرتك",
+          "audio": "audio/s16/vocab/03-bei-ihnen.mp3"
+        },
+        {
+          "de": "Wie kann ich Ihnen helfen?",
+          "ar": "إزاي أقدر أساعد حضرتك؟",
+          "audio": "audio/s16/vocab/04-wie-kann-ich-ihnen-helfen.mp3"
+        },
+        {
+          "de": "helfen",
+          "ar": "يساعد",
+          "audio": "audio/s16/vocab/05-helfen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "complaints",
+      "label": "Complaints and pain",
+      "words": [
+        {
+          "de": "Beschwerden",
+          "ar": "الشكاوى",
+          "audio": "audio/s16/vocab/06-beschwerden.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Welche Beschwerden haben Sie?",
+          "ar": "إيه اللي تعبان منه؟",
+          "audio": "audio/s16/vocab/07-welche-beschwerden-haben-sie.mp3"
+        },
+        {
+          "de": "Schmerzen",
+          "ar": "الآلام",
+          "audio": "audio/s16/vocab/08-schmerzen.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Kopfschmerzen",
+          "ar": "صداع",
+          "audio": "audio/s16/vocab/09-kopfschmerzen.mp3"
+        },
+        {
+          "de": "Bauchschmerzen",
+          "ar": "ألم في البطن",
+          "audio": "audio/s16/vocab/10-bauchschmerzen.mp3"
+        },
+        {
+          "de": "Magenschmerzen",
+          "ar": "ألم في المعدة",
+          "audio": "audio/s16/vocab/11-magenschmerzen.mp3"
+        },
+        {
+          "de": "Halsschmerzen",
+          "ar": "ألم في الحلق",
+          "audio": "audio/s16/vocab/12-halsschmerzen.mp3"
+        },
+        {
+          "de": "Rückenschmerzen",
+          "ar": "ألم في الظهر",
+          "audio": "audio/s16/vocab/13-rueckenschmerzen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "label": "Body and symptoms",
+      "words": [
+        {
+          "de": "Hals",
+          "ar": "الحلق/الرقبة",
+          "audio": "audio/s16/vocab/14-hals.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Rücken",
+          "ar": "الظهر",
+          "audio": "audio/s16/vocab/15-ruecken.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Bauch",
+          "ar": "البطن",
+          "audio": "audio/s16/vocab/16-bauch.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Fieber",
+          "ar": "الحمى",
+          "audio": "audio/s16/vocab/17-fieber.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Husten",
+          "ar": "الكحة",
+          "audio": "audio/s16/vocab/18-husten.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Medikament",
+          "ar": "الدواء",
+          "audio": "audio/s16/vocab/19-medikament.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Krankenhaus",
+          "ar": "المستشفى",
+          "audio": "audio/s16/vocab/20-krankenhaus.mp3",
+          "article": "das"
+        },
+        {
+          "de": "schlimm",
+          "ar": "سيء/شديد",
+          "audio": "audio/s16/vocab/21-schlimm.mp3"
+        }
+      ]
+    },
+    {
+      "id": "duration",
+      "label": "How long?",
+      "words": [
+        {
+          "de": "Seit wann haben Sie Schmerzen?",
+          "ar": "من إمتى بتتألم؟",
+          "audio": "audio/s16/vocab/22-seit-wann-haben-sie-schmerzen.mp3"
+        },
+        {
+          "de": "seit",
+          "ar": "منذ",
+          "audio": "audio/s16/vocab/23-seit.mp3"
+        },
+        {
+          "de": "Seit zwei Tagen",
+          "ar": "منذ يومين",
+          "audio": "audio/s16/vocab/24-seit-zwei-tagen.mp3"
+        },
+        {
+          "de": "Seit gestern",
+          "ar": "منذ إمبارح",
+          "audio": "audio/s16/vocab/25-seit-gestern.mp3"
+        },
+        {
+          "de": "gestern",
+          "ar": "إمبارح",
+          "audio": "audio/s16/vocab/26-gestern.mp3"
+        },
+        {
+          "de": "wann",
+          "ar": "إمتى",
+          "audio": "audio/s16/vocab/27-wann.mp3"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "label": "Review words",
+      "words": [
+        {
+          "de": "damit",
+          "ar": "لكي",
+          "audio": "audio/s16/vocab/28-damit.mp3"
+        },
+        {
+          "de": "Licht",
+          "ar": "النور",
+          "audio": "audio/s16/vocab/29-licht.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Tablet",
+          "ar": "التابلت",
+          "audio": "audio/s16/vocab/30-tablet.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Küche",
+          "ar": "المطبخ",
+          "audio": "audio/s16/vocab/31-kueche.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Bad",
+          "ar": "الحمام",
+          "audio": "audio/s16/vocab/32-bad.mp3",
+          "article": "das"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich hätte gerne einen Termin bei Ihnen.",
+      "ar": "أود موعد عندكم.",
+      "audio": "audio/s16/s01-ich-haette-gerne-einen-termin-bei-ihnen.mp3"
+    },
+    {
+      "de": "Wie kann ich Ihnen helfen?",
+      "ar": "إزاي أقدر أساعد حضرتك؟",
+      "audio": "audio/s16/s02-wie-kann-ich-ihnen-helfen.mp3"
+    },
+    {
+      "de": "Welche Beschwerden haben Sie?",
+      "ar": "إيه شكواك؟",
+      "audio": "audio/s16/s03-welche-beschwerden-haben-sie.mp3"
+    },
+    {
+      "de": "Ich habe Kopfschmerzen, Bauchschmerzen und Magenschmerzen.",
+      "ar": "عندي صداع وألم في البطن وألم في المعدة.",
+      "audio": "audio/s16/s04-ich-habe-kopfschmerzen-bauchschmerzen-und-ma.mp3"
+    },
+    {
+      "de": "Seit wann haben Sie Schmerzen?",
+      "ar": "من إمتى بتتألم؟",
+      "audio": "audio/s16/s05-seit-wann-haben-sie-schmerzen.mp3"
+    },
+    {
+      "de": "Seit zwei Tagen.",
+      "ar": "منذ يومين.",
+      "audio": "audio/s16/s06-seit-zwei-tagen.mp3"
+    },
+    {
+      "de": "Seit gestern.",
+      "ar": "منذ إمبارح.",
+      "audio": "audio/s16/s07-seit-gestern.mp3"
+    },
+    {
+      "de": "Sie hätte gerne einen Termin im Krankenhaus.",
+      "ar": "هي عايزة موعد في المستشفى.",
+      "audio": "audio/s16/s08-sie-haette-gerne-einen-termin-im-krankenhaus.mp3"
+    },
+    {
+      "de": "Welche Beschwerden hat sie?",
+      "ar": "إيه شكواها؟",
+      "audio": "audio/s16/s09-welche-beschwerden-hat-sie.mp3"
+    },
+    {
+      "de": "Sie hat seit gestern Halsschmerzen.",
+      "ar": "عندها ألم في الحلق من إمبارح.",
+      "audio": "audio/s16/s10-sie-hat-seit-gestern-halsschmerzen.mp3"
+    },
+    {
+      "de": "Sie hat Rückenschmerzen und Fieber.",
+      "ar": "عندها ألم في الظهر وحمى.",
+      "audio": "audio/s16/s11-sie-hat-rueckenschmerzen-und-fieber.mp3"
+    },
+    {
+      "de": "Sie hat schlimmen Husten.",
+      "ar": "عندها كحة شديدة.",
+      "audio": "audio/s16/s12-sie-hat-schlimmen-husten.mp3"
+    },
+    {
+      "de": "Seit wann hat sie Schmerzen?",
+      "ar": "من إمتى وهي بتتألم؟",
+      "audio": "audio/s16/s13-seit-wann-hat-sie-schmerzen.mp3"
+    },
+    {
+      "de": "Ich habe seit zwei Tagen Bauchschmerzen.",
+      "ar": "عندي ألم في البطن من يومين.",
+      "audio": "audio/s16/s14-ich-habe-seit-zwei-tagen-bauchschmerzen.mp3"
+    },
+    {
+      "de": "Er hat schlimmen Husten und Fieber.",
+      "ar": "عنده كحة شديدة وحمى.",
+      "audio": "audio/s16/s15-er-hat-schlimmen-husten-und-fieber.mp3"
+    },
+    {
+      "de": "Sie hat Kopfschmerzen und Fieber.",
+      "ar": "عندها صداع وحمى.",
+      "audio": "audio/s16/s16-sie-hat-kopfschmerzen-und-fieber.mp3"
+    },
+    {
+      "de": "Wir müssen den Termin absagen.",
+      "ar": "لازم نلغي الموعد.",
+      "audio": "audio/s16/s17-wir-muessen-den-termin-absagen.mp3"
+    },
+    {
+      "de": "Mach das Licht an, damit ich lesen kann.",
+      "ar": "شغل النور عشان أقدر أقرا.",
+      "audio": "audio/s16/s18-mach-das-licht-an-damit-ich-lesen-kann.mp3"
+    },
+    {
+      "de": "Guten Tag! Wie kann ich Ihnen helfen?",
+      "ar": "يوم سعيد! إزاي أقدر أساعد حضرتك؟",
+      "audio": "audio/s16/s19-guten-tag-wie-kann-ich-ihnen-helfen.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Termin",
+      "ar": "الموعد",
+      "audio": "audio/s16/vocab/02-termin.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Beschwerden",
+      "ar": "الشكاوى",
+      "audio": "audio/s16/vocab/06-beschwerden.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Schmerzen",
+      "ar": "الآلام",
+      "audio": "audio/s16/vocab/08-schmerzen.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Kopfschmerzen",
+      "ar": "صداع",
+      "audio": "audio/s16/vocab/09-kopfschmerzen.mp3"
+    },
+    {
+      "de": "Bauchschmerzen",
+      "ar": "ألم في البطن",
+      "audio": "audio/s16/vocab/10-bauchschmerzen.mp3"
+    },
+    {
+      "de": "Hals",
+      "ar": "الحلق/الرقبة",
+      "audio": "audio/s16/vocab/14-hals.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Rücken",
+      "ar": "الظهر",
+      "audio": "audio/s16/vocab/15-ruecken.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Fieber",
+      "ar": "الحمى",
+      "audio": "audio/s16/vocab/17-fieber.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Husten",
+      "ar": "الكحة",
+      "audio": "audio/s16/vocab/18-husten.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Krankenhaus",
+      "ar": "المستشفى",
+      "audio": "audio/s16/vocab/20-krankenhaus.mp3",
+      "article": "das"
+    },
+    {
+      "de": "schlimm",
+      "ar": "سيء/شديد",
+      "audio": "audio/s16/vocab/21-schlimm.mp3"
+    },
+    {
+      "de": "seit",
+      "ar": "منذ",
+      "audio": "audio/s16/vocab/23-seit.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich ___ gerne einen Termin bei Ihnen.",
+      "options": [
+        "hätte",
+        "habe",
+        "hat"
+      ],
+      "answer": 0,
+      "why": "التعبير المؤدب: Ich hätte gerne.",
+      "ar": "أود."
+    },
+    {
+      "prompt": "Sie ___ gerne einen Termin.",
+      "options": [
+        "hätte",
+        "hat",
+        "habe"
+      ],
+      "answer": 0,
+      "why": "مع sie: hätte gerne ثابتة.",
+      "ar": "هي تود."
+    },
+    {
+      "prompt": "Welche Beschwerden ___ Sie?",
+      "options": [
+        "haben",
+        "hat",
+        "habe"
+      ],
+      "answer": 0,
+      "why": "مع Sie الرسمية: haben.",
+      "ar": "شكواك."
+    },
+    {
+      "prompt": "Ich habe ___ zwei Tagen Bauchschmerzen.",
+      "options": [
+        "seit",
+        "von",
+        "für"
+      ],
+      "answer": 0,
+      "why": "المدة: seit + Dativ.",
+      "ar": "من يومين."
+    },
+    {
+      "prompt": "Sie ___ seit gestern Halsschmerzen.",
+      "options": [
+        "hat",
+        "haben",
+        "habe"
+      ],
+      "answer": 0,
+      "why": "مع sie (هي): hat.",
+      "ar": "عندها."
+    },
+    {
+      "prompt": "Er hat schlimmen ___.",
+      "options": [
+        "Husten",
+        "Hustens",
+        "Huste"
+      ],
+      "answer": 0,
+      "why": "schlimmen Husten (مفعول مذكر).",
+      "ar": "كحة شديدة."
+    },
+    {
+      "prompt": "Sie hat Rückenschmerzen ___ Fieber.",
+      "options": [
+        "und",
+        "aber",
+        "damit"
+      ],
+      "answer": 0,
+      "why": "und = و.",
+      "ar": "وحمى."
+    },
+    {
+      "prompt": "Mach das Licht an, ___ ich lesen kann.",
+      "options": [
+        "damit",
+        "und",
+        "aber"
+      ],
+      "answer": 0,
+      "why": "damit = لكي، والفعل في الآخر.",
+      "ar": "عشان."
+    },
+    {
+      "prompt": "Wir ___ den Termin absagen.",
+      "options": [
+        "müssen",
+        "muss",
+        "musst"
+      ],
+      "answer": 0,
+      "why": "مع wir: müssen.",
+      "ar": "لازم نلغي."
+    },
+    {
+      "prompt": "Er trägt die Jacke ___ als das Hemd.",
+      "options": [
+        "lieber",
+        "gern",
+        "besser"
+      ],
+      "answer": 0,
+      "why": "gern → lieber.",
+      "ar": "أفضل."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلمك تطلب موعد عند الدكتور بأدب (Ich hätte gerne)، وتوصف الألم (العضو + Schmerzen)، وتجاوب على seit wann، مع haben مع sie/er ومراجعة الدروس 1-16."
+  },
+  "grammar": [
+    {
+      "title": "طلب موعد بأدب",
+      "rule": "Ich hätte gerne ... تعبير مؤدب. مع sie: Sie hätte gerne ... من غير تغيير. والسؤال: Wie kann ich Ihnen helfen?",
+      "forms": [
+        "Ich hätte gerne einen Termin bei Ihnen.",
+        "Sie hätte gerne einen Termin."
+      ],
+      "examples": [
+        {
+          "de": "Ich hätte gerne einen Termin bei Ihnen.",
+          "ar": "أود موعد عندكم."
+        }
+      ]
+    },
+    {
+      "title": "الألم = العضو + Schmerzen",
+      "rule": "بنجيب اسم العضو وبنلزق Schmerzen: Kopf+schmerzen، Bauch+schmerzen، Hals+schmerzen، Rücken+schmerzen.",
+      "forms": [
+        "Kopfschmerzen",
+        "Bauchschmerzen",
+        "Halsschmerzen",
+        "Rückenschmerzen"
+      ],
+      "examples": [
+        {
+          "de": "Sie hat seit gestern Halsschmerzen.",
+          "ar": "عندها ألم حلق من إمبارح."
+        }
+      ]
+    },
+    {
+      "title": "haben مع Sie/sie/er",
+      "rule": "مع Sie الرسمية: haben. مع sie (هي) وer: hat. وhätte gerne بتفضل زي ما هي.",
+      "forms": [
+        "Sie haben",
+        "sie hat",
+        "er hat"
+      ],
+      "examples": [
+        {
+          "de": "Welche Beschwerden hat sie?",
+          "ar": "إيه شكواها؟"
+        }
+      ]
+    },
+    {
+      "title": "seit wann؟ seit + مدة",
+      "rule": "السؤال: Seit wann ...? والرد: Seit zwei Tagen / Seit gestern. ملاحظة ترتيب الجملة: ملف الدرس (PDF 16-2) بيقول إن المدة تيجي قبل العرض: Ich habe seit zwei Tagen Bauchschmerzen. ده الترتيب الطبيعي اللي بنتدرب عليه. الترتيب التاني (Ich habe Bauchschmerzen seit zwei Tagen) كمان صحيح نحويًا لأن ترتيب الجملة في الألماني ميل مش قانون صارم (مصدر: deutschplus.net/pages/Satzgliedstellung)، بس احنا بنستخدم ترتيب الملف.",
+      "forms": [
+        "Seit wann haben Sie Schmerzen?",
+        "Seit zwei Tagen",
+        "Seit gestern"
+      ],
+      "examples": [
+        {
+          "de": "Ich habe seit zwei Tagen Bauchschmerzen.",
+          "ar": "عندي ألم بطن من يومين."
+        }
+      ]
+    },
+    {
+      "title": "مراجعة الدروس 1-16: damit",
+      "rule": "damit = لكي وبيرمي الفعل المتصرف في الآخر: Mach das Licht an, damit ich lesen kann. وwir: müssen.",
+      "forms": [
+        "..., damit ich lesen kann",
+        "Wir müssen den Termin absagen"
+      ],
+      "examples": [
+        {
+          "de": "Mach das Licht an, damit ich lesen kann.",
+          "ar": "شغل النور عشان أقدر أقرا."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Ich",
+          "hätte",
+          "gerne",
+          "einen",
+          "Termin"
+        ],
+        "answer": "Ich hätte gerne einen Termin",
+        "ar": "أود موعد."
+      },
+      {
+        "tiles": [
+          "Sie",
+          "hat",
+          "seit",
+          "gestern",
+          "Halsschmerzen"
+        ],
+        "answer": "Sie hat seit gestern Halsschmerzen",
+        "ar": "عندها ألم حلق من إمبارح."
+      },
+      {
+        "tiles": [
+          "Er",
+          "hat",
+          "schlimmen",
+          "Husten",
+          "und",
+          "Fieber"
+        ],
+        "answer": "Er hat schlimmen Husten und Fieber",
+        "ar": "عنده كحة شديدة وحمى."
+      },
+      {
+        "tiles": [
+          "Seit",
+          "wann",
+          "haben",
+          "Sie",
+          "Schmerzen"
+        ],
+        "answer": "Seit wann haben Sie Schmerzen",
+        "ar": "من إمتى بتتألم؟"
+      },
+      {
+        "tiles": [
+          "Welche",
+          "Beschwerden",
+          "haben",
+          "Sie"
+        ],
+        "answer": "Welche Beschwerden haben Sie",
+        "ar": "إيه شكواك؟"
+      },
+      {
+        "tiles": [
+          "Ich",
+          "habe",
+          "seit",
+          "zwei",
+          "Tagen",
+          "Bauchschmerzen"
+        ],
+        "answer": "Ich habe seit zwei Tagen Bauchschmerzen",
+        "ar": "ألم بطن من يومين."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich habe Kopfschmerzen.",
+          "Ich bin Kopfschmerzen."
+        ],
+        "answer": 0,
+        "why": "الألم بنقول عنه habe (عندي) مش bin.",
+        "ar": "عندي صداع."
+      },
+      {
+        "options": [
+          "Welche Beschwerden haben Sie?",
+          "Welche Beschwerden Sie haben?"
+        ],
+        "answer": 0,
+        "why": "سؤال W: الفعل رقم 2.",
+        "ar": "شكواك؟"
+      },
+      {
+        "options": [
+          "Sie hätte gerne einen Termin.",
+          "Sie möchte gerne einen Termin."
+        ],
+        "answer": 0,
+        "why": "استخدم التعبير المؤدب: hätte gerne.",
+        "ar": "تود."
+      },
+      {
+        "options": [
+          "Sie hat Fieber.",
+          "Sie haben Fieber."
+        ],
+        "answer": 0,
+        "why": "مع sie (هي): hat.",
+        "ar": "عندها حمى."
+      },
+      {
+        "options": [
+          "Leider muss ich diesen Termin absagen.",
+          "Leider ich muss diesen Termin absagen."
+        ],
+        "answer": 0,
+        "why": "بعد Leider الفعل رقم 2.",
+        "ar": "للأسف."
+      },
+      {
+        "options": [
+          "Das Auto ist teuer, aber ich muss es kaufen.",
+          "Das Auto ist teuer, aber ich muss das kaufen es."
+        ],
+        "answer": 0,
+        "why": "es بدل التكرار.",
+        "ar": "لازم أشتريها."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "أود موعد عندكم.",
+        "de": "Ich hätte gerne einen Termin bei Ihnen.",
+        "audio": "audio/s16/tr1.mp3"
+      },
+      {
+        "ar": "إيه شكواك؟",
+        "de": "Welche Beschwerden haben Sie?",
+        "audio": "audio/s16/tr2.mp3"
+      },
+      {
+        "ar": "عندي صداع منذ يومين.",
+        "de": "Ich habe seit zwei Tagen Kopfschmerzen.",
+        "audio": "audio/s16/tr3.mp3"
+      },
+      {
+        "ar": "هي عندها ألم في الظهر وحمى.",
+        "de": "Sie hat Rückenschmerzen und Fieber.",
+        "audio": "audio/s16/tr4.mp3"
+      },
+      {
+        "ar": "من إمتى بتتألم؟",
+        "de": "Seit wann haben Sie Schmerzen?",
+        "audio": "audio/s16/tr5.mp3"
+      },
+      {
+        "ar": "هو عنده كحة شديدة.",
+        "de": "Er hat schlimmen Husten.",
+        "audio": "audio/s16/tr6.mp3"
+      }
+    ]
+  }
+}
