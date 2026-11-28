@@ -4,6 +4,10 @@
   var BASE = (document.currentScript && document.currentScript.src) ? document.currentScript.src.replace(/js\/gate\.js[^\/]*$/, '') : '';
   var root = document.documentElement;
   var KEY = 'german-unlocked';
+  var KEY_P = 'german-unlocked-v2';
+  function savePersistent() { try { if (gateData) localStorage.setItem(KEY_P, gateData.hash); } catch (e) {} }
+  function readPersistent() { try { return localStorage.getItem(KEY_P) || ''; } catch (e) { return ''; } }
+  function clearPersistent() { try { localStorage.removeItem(KEY_P); } catch (e) {} }
   function hex(buf) { return Array.prototype.map.call(new Uint8Array(buf), function (b) { return ('0' + b.toString(16)).slice(-2); }).join(''); }
   function unhex(h) { var a = new Uint8Array(h.length / 2); for (var i = 0; i < a.length; i++) a[i] = parseInt(h.substr(i * 2, 2), 16); return a; }
   function mk(tag, attrs, text) { var e = document.createElement(tag); for (var k in (attrs || {})) e.setAttribute(k, attrs[k]); if (text) e.textContent = text; return e; }
@@ -14,8 +18,8 @@
       return crypto.subtle.deriveBits({ name: 'PBKDF2', salt: unhex(gateData.salt), iterations: gateData.iter, hash: 'SHA-256' }, k, 256);
     }).then(function (bits) { return hex(bits) === gateData.hash; });
   }
-  function unlock() { try { sessionStorage.setItem(KEY, '1'); } catch (e) {} root.classList.remove('locked'); var g = document.getElementById('gate'); if (g) g.remove(); addLockButton(); }
-  function lock() { try { sessionStorage.removeItem(KEY); } catch (e) {} var b = document.getElementById('lock-btn'); if (b) b.remove(); var u = document.getElementById('upd-btn'); if (u) u.remove(); showGate(); }
+  function unlock() { try { sessionStorage.setItem(KEY, '1'); } catch (e) {} savePersistent(); root.classList.remove('locked'); var g = document.getElementById('gate'); if (g) g.remove(); addLockButton(); }
+  function lock() { try { sessionStorage.removeItem(KEY); } catch (e) {} clearPersistent(); var b = document.getElementById('lock-btn'); if (b) b.remove(); var u = document.getElementById('upd-btn'); if (u) u.remove(); showGate(); }
   function addLockButton() {
     if (document.getElementById('lock-btn')) return;
     var b = mk('button', { id: 'lock-btn', type: 'button', 'aria-label': 'Lock screen' }, 'Lock 🔒');
@@ -63,9 +67,18 @@
   }
   function start() {
     var unlocked = false; try { unlocked = sessionStorage.getItem(KEY) === '1'; } catch (e) {}
-    if (unlocked) { root.classList.remove('locked'); addLockButton(); } else showGate();
+    var persisted = readPersistent();
+    /* Remembered unlock is validated against the live gate policy before any content shows:
+       the page stays locked until data/gate.json arrives and the stored value matches.
+       A changed code (or unreachable policy) keeps the gate closed. */
+    if (persisted) {
+      fetch(BASE + 'data/gate.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+        if (d && persisted === d.hash) { gateData = d; try { sessionStorage.setItem(KEY, '1'); } catch (e) {} root.classList.remove('locked'); addLockButton(); }
+        else { clearPersistent(); if (!d) { showGate(); } else { gateData = d; showGate(); } }
+      }).catch(function () { showGate(); });
+    } else if (unlocked) { root.classList.remove('locked'); addLockButton(); } else showGate();
     if ('serviceWorker' in navigator) { try { navigator.serviceWorker.register(BASE + 'sw.js', { updateViaCache: 'none' }).then(function (r) { return r.update(); }).catch(function () {}); } catch (e) {} }
-    fetch(BASE + 'data/gate.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { gateData = d; }).catch(function () {});
+    if (!persisted) { fetch(BASE + 'data/gate.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { gateData = d; }).catch(function () {}); }
   }
   if (document.body) start(); else document.addEventListener('DOMContentLoaded', start);
 })();
