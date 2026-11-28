@@ -1,0 +1,636 @@
+{
+  "id": 17,
+  "level": "a1",
+  "title": "Session 17: Master class (part 1)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=m_4BqV0xBiA",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "cases",
+      "label": "The three cases",
+      "words": [
+        {
+          "de": "Nominativ",
+          "ar": "الحالة الأساسية (وصف)",
+          "audio": "audio/s17/vocab/01-nominativ.mp3"
+        },
+        {
+          "de": "Akkusativ",
+          "ar": "الحالة اللي بيقع عليها الفعل",
+          "audio": "audio/s17/vocab/02-akkusativ.mp3"
+        },
+        {
+          "de": "Dativ",
+          "ar": "الحالة المستفيدة",
+          "audio": "audio/s17/vocab/03-dativ.mp3"
+        },
+        {
+          "de": "der → den",
+          "ar": "المذكر في Akkusativ",
+          "audio": "audio/s17/vocab/04-der-den.mp3"
+        },
+        {
+          "de": "der → dem",
+          "ar": "المذكر في Dativ",
+          "audio": "audio/s17/vocab/05-der-dem.mp3"
+        }
+      ]
+    },
+    {
+      "id": "nouns",
+      "label": "Masculine nouns",
+      "words": [
+        {
+          "de": "Mann",
+          "ar": "الرجل",
+          "audio": "audio/s17/vocab/06-mann.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Hund",
+          "ar": "الكلب",
+          "audio": "audio/s17/vocab/07-hund.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Arzt",
+          "ar": "الطبيب",
+          "audio": "audio/s17/vocab/08-arzt.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Lehrer",
+          "ar": "المعلم",
+          "audio": "audio/s17/vocab/09-lehrer.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Kaffee",
+          "ar": "القهوة",
+          "audio": "audio/s17/vocab/10-kaffee.mp3",
+          "article": "der"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "label": "Verbs",
+      "words": [
+        {
+          "de": "sehen",
+          "ar": "يشوف (Akkusativ)",
+          "audio": "audio/s17/vocab/11-sehen.mp3"
+        },
+        {
+          "de": "helfen",
+          "ar": "يساعد (Dativ)",
+          "audio": "audio/s17/vocab/12-helfen.mp3"
+        },
+        {
+          "de": "fragen",
+          "ar": "يسأل (Akkusativ)",
+          "audio": "audio/s17/vocab/13-fragen.mp3"
+        },
+        {
+          "de": "antworten",
+          "ar": "يجاوب (Dativ)",
+          "audio": "audio/s17/vocab/14-antworten.mp3"
+        }
+      ]
+    },
+    {
+      "id": "wir",
+      "label": "Wir forms",
+      "words": [
+        {
+          "de": "Wir sehen",
+          "ar": "إحنا بنشوف",
+          "audio": "audio/s17/vocab/15-wir-sehen.mp3"
+        },
+        {
+          "de": "Wir helfen",
+          "ar": "إحنا بنساعد",
+          "audio": "audio/s17/vocab/16-wir-helfen.mp3"
+        },
+        {
+          "de": "Wir antworten",
+          "ar": "إحنا بنجاوب",
+          "audio": "audio/s17/vocab/17-wir-antworten.mp3"
+        },
+        {
+          "de": "hier",
+          "ar": "هنا",
+          "audio": "audio/s17/vocab/18-hier.mp3"
+        },
+        {
+          "de": "klein",
+          "ar": "صغير",
+          "audio": "audio/s17/vocab/19-klein.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Der Mann ist hier.",
+      "ar": "الرجل هنا.",
+      "audio": "audio/s17/s01-der-mann-ist-hier.mp3"
+    },
+    {
+      "de": "Wir sehen den Mann.",
+      "ar": "إحنا بنشوف الرجل.",
+      "audio": "audio/s17/s02-wir-sehen-den-mann.mp3"
+    },
+    {
+      "de": "Wir helfen dem Mann.",
+      "ar": "إحنا بنساعد الرجل.",
+      "audio": "audio/s17/s03-wir-helfen-dem-mann.mp3"
+    },
+    {
+      "de": "Der Hund ist klein.",
+      "ar": "الكلب صغير.",
+      "audio": "audio/s17/s04-der-hund-ist-klein.mp3"
+    },
+    {
+      "de": "Wir sehen den Hund.",
+      "ar": "إحنا بنشوف الكلب.",
+      "audio": "audio/s17/s05-wir-sehen-den-hund.mp3"
+    },
+    {
+      "de": "Der Arzt fragt den Mann.",
+      "ar": "الدكتور بيسأل الرجل.",
+      "audio": "audio/s17/s06-der-arzt-fragt-den-mann.mp3"
+    },
+    {
+      "de": "Wir antworten dem Arzt.",
+      "ar": "إحنا بنجاوب الدكتور.",
+      "audio": "audio/s17/s07-wir-antworten-dem-arzt.mp3"
+    },
+    {
+      "de": "Der Lehrer ist hier.",
+      "ar": "المعلم هنا.",
+      "audio": "audio/s17/s08-der-lehrer-ist-hier.mp3"
+    },
+    {
+      "de": "Wir sehen den Lehrer.",
+      "ar": "إحنا بنشوف المعلم.",
+      "audio": "audio/s17/s09-wir-sehen-den-lehrer.mp3"
+    },
+    {
+      "de": "Wir helfen dem Lehrer.",
+      "ar": "إحنا بنساعد المعلم.",
+      "audio": "audio/s17/s10-wir-helfen-dem-lehrer.mp3"
+    },
+    {
+      "de": "Der Arzt ist hier.",
+      "ar": "الدكتور هنا.",
+      "audio": "audio/s17/s11-der-arzt-ist-hier.mp3"
+    },
+    {
+      "de": "Wir antworten dem Lehrer.",
+      "ar": "إحنا بنجاوب المعلم.",
+      "audio": "audio/s17/s12-wir-antworten-dem-lehrer.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Mann",
+      "ar": "الرجل",
+      "audio": "audio/s17/vocab/06-mann.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Hund",
+      "ar": "الكلب",
+      "audio": "audio/s17/vocab/07-hund.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Arzt",
+      "ar": "الطبيب",
+      "audio": "audio/s17/vocab/08-arzt.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Lehrer",
+      "ar": "المعلم",
+      "audio": "audio/s17/vocab/09-lehrer.mp3",
+      "article": "der"
+    },
+    {
+      "de": "sehen",
+      "ar": "يشوف (Akkusativ)",
+      "audio": "audio/s17/vocab/11-sehen.mp3"
+    },
+    {
+      "de": "helfen",
+      "ar": "يساعد (Dativ)",
+      "audio": "audio/s17/vocab/12-helfen.mp3"
+    },
+    {
+      "de": "fragen",
+      "ar": "يسأل (Akkusativ)",
+      "audio": "audio/s17/vocab/13-fragen.mp3"
+    },
+    {
+      "de": "antworten",
+      "ar": "يجاوب (Dativ)",
+      "audio": "audio/s17/vocab/14-antworten.mp3"
+    },
+    {
+      "de": "der → den",
+      "ar": "المذكر في Akkusativ",
+      "audio": "audio/s17/vocab/04-der-den.mp3"
+    },
+    {
+      "de": "der → dem",
+      "ar": "المذكر في Dativ",
+      "audio": "audio/s17/vocab/05-der-dem.mp3"
+    },
+    {
+      "de": "Wir sehen",
+      "ar": "إحنا بنشوف",
+      "audio": "audio/s17/vocab/15-wir-sehen.mp3"
+    },
+    {
+      "de": "Wir helfen",
+      "ar": "إحنا بنساعد",
+      "audio": "audio/s17/vocab/16-wir-helfen.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Der Mann ___ hier.",
+      "options": [
+        "ist",
+        "sehen",
+        "den"
+      ],
+      "answer": 0,
+      "why": "الوصف: Nominativ der Mann + ist.",
+      "ar": "الرجل هنا."
+    },
+    {
+      "prompt": "Wir sehen ___ Mann.",
+      "options": [
+        "den",
+        "der",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "sehen يقع على الرجل: Akkusativ.",
+      "ar": "بنشوف الرجل."
+    },
+    {
+      "prompt": "Wir helfen ___ Mann.",
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "answer": 0,
+      "why": "helfen = مستفيد: Dativ.",
+      "ar": "بنساعد الرجل."
+    },
+    {
+      "prompt": "___ Hund ist klein.",
+      "options": [
+        "Der",
+        "Den",
+        "Dem"
+      ],
+      "answer": 0,
+      "why": "وصف الكلب: Nominativ.",
+      "ar": "الكلب صغير."
+    },
+    {
+      "prompt": "Wir sehen ___ Hund.",
+      "options": [
+        "den",
+        "der",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "Akkusativ.",
+      "ar": "بنشوف."
+    },
+    {
+      "prompt": "Der Arzt fragt ___ Mann.",
+      "options": [
+        "den",
+        "dem",
+        "der"
+      ],
+      "answer": 0,
+      "why": "fragen: Akkusativ.",
+      "ar": "بيسأل الرجل."
+    },
+    {
+      "prompt": "Wir antworten ___ Arzt.",
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "answer": 0,
+      "why": "antworten: Dativ.",
+      "ar": "بنجاوب."
+    },
+    {
+      "prompt": "Wir helfen ___ Lehrer.",
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "answer": 0,
+      "why": "Dativ.",
+      "ar": "بنساعد المعلم."
+    },
+    {
+      "prompt": "Wir sehen ___ Lehrer.",
+      "options": [
+        "den",
+        "dem",
+        "der"
+      ],
+      "answer": 0,
+      "why": "Akkusativ.",
+      "ar": "بنشوف المعلم."
+    },
+    {
+      "prompt": "___ Arzt fragt den Mann.",
+      "options": [
+        "Der",
+        "Den",
+        "Dem"
+      ],
+      "answer": 0,
+      "why": "الدكتور هو الفاعل: Nominativ.",
+      "ar": "الدكتور."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتكسر عقدة الحالات: Nominativ للوصف، Akkusativ لما الفعل بيقع على الشيء (den)، Dativ للمستفيد (dem)، بالمنطق مش بالحفظ، مع المذكر وwir."
+  },
+  "grammar": [
+    {
+      "title": "Nominativ: الوصف",
+      "rule": "لما بتوصف الشيء أو بتتكلم عنه، بيفضل في حالته الأساسية والمذكر بيفضل der.",
+      "forms": [
+        "der Mann",
+        "der Hund"
+      ],
+      "examples": [
+        {
+          "de": "Der Mann ist hier.",
+          "ar": "الرجل هنا."
+        }
+      ]
+    },
+    {
+      "title": "Akkusativ: الفعل بيقع على الشيء",
+      "rule": "لما بتعمل فعل بالشيء (زي الرؤية)، المذكر بيتحول من der لـ den.",
+      "forms": [
+        "der → den",
+        "sehen",
+        "fragen"
+      ],
+      "examples": [
+        {
+          "de": "Wir sehen den Mann.",
+          "ar": "بنشوف الرجل."
+        },
+        {
+          "de": "Der Arzt fragt den Mann.",
+          "ar": "الدكتور بيسأل الرجل."
+        }
+      ]
+    },
+    {
+      "title": "Dativ: المستفيد",
+      "rule": "لما بتعمل حاجة لمصلحة الشيء، المذكر بيتحول من der لـ dem.",
+      "forms": [
+        "der → dem",
+        "helfen",
+        "antworten"
+      ],
+      "examples": [
+        {
+          "de": "Wir helfen dem Mann.",
+          "ar": "بنساعد الرجل."
+        },
+        {
+          "de": "Wir antworten dem Arzt.",
+          "ar": "بنجاوب الدكتور."
+        }
+      ]
+    },
+    {
+      "title": "افهم بالعربي الأول",
+      "rule": "مفيش حفظ: اسأل نفسك: بتوصف؟ بتعمل بالشيء؟ ولا بتفيده؟ ومن ده تختار der / den / dem.",
+      "forms": [
+        "وصف → der",
+        "فعل واقع → den",
+        "مستفيد → dem"
+      ],
+      "examples": [
+        {
+          "de": "Wir sehen den Lehrer.",
+          "ar": "بنشوف المعلم."
+        },
+        {
+          "de": "Wir helfen dem Lehrer.",
+          "ar": "بنساعد المعلم."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Der",
+          "Mann",
+          "ist",
+          "hier"
+        ],
+        "answer": "Der Mann ist hier",
+        "ar": "الرجل هنا."
+      },
+      {
+        "tiles": [
+          "Wir",
+          "sehen",
+          "den",
+          "Mann"
+        ],
+        "answer": "Wir sehen den Mann",
+        "ar": "بنشوف الرجل."
+      },
+      {
+        "tiles": [
+          "Wir",
+          "helfen",
+          "dem",
+          "Mann"
+        ],
+        "answer": "Wir helfen dem Mann",
+        "ar": "بنساعد الرجل."
+      },
+      {
+        "tiles": [
+          "Der",
+          "Arzt",
+          "fragt",
+          "den",
+          "Mann"
+        ],
+        "answer": "Der Arzt fragt den Mann",
+        "ar": "الدكتور بيسأل الرجل."
+      },
+      {
+        "tiles": [
+          "Wir",
+          "antworten",
+          "dem",
+          "Arzt"
+        ],
+        "answer": "Wir antworten dem Arzt",
+        "ar": "بنجاوب الدكتور."
+      },
+      {
+        "tiles": [
+          "Wir",
+          "sehen",
+          "den",
+          "Hund"
+        ],
+        "answer": "Wir sehen den Hund",
+        "ar": "بنشوف الكلب."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Wir sehen den Mann.",
+          "Wir sehen der Mann."
+        ],
+        "answer": 0,
+        "why": "sehen: Akkusativ → den.",
+        "ar": "بنشوف."
+      },
+      {
+        "options": [
+          "Wir helfen dem Mann.",
+          "Wir helfen den Mann."
+        ],
+        "answer": 0,
+        "why": "helfen: Dativ → dem.",
+        "ar": "بنساعد."
+      },
+      {
+        "options": [
+          "Der Hund ist klein.",
+          "Den Hund ist klein."
+        ],
+        "answer": 0,
+        "why": "الوصف: der.",
+        "ar": "الكلب."
+      },
+      {
+        "options": [
+          "Wir antworten dem Arzt.",
+          "Wir antworten den Arzt."
+        ],
+        "answer": 0,
+        "why": "antworten: Dativ.",
+        "ar": "بنجاوب."
+      },
+      {
+        "options": [
+          "Der Arzt fragt den Mann.",
+          "Den Arzt fragt der Mann."
+        ],
+        "answer": 0,
+        "why": "الفاعل der.",
+        "ar": "الدكتور بيسأل."
+      },
+      {
+        "options": [
+          "Wir sehen den Lehrer.",
+          "Wir sehen dem Lehrer."
+        ],
+        "answer": 0,
+        "why": "sehen: den.",
+        "ar": "بنشوف."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "الرجل هنا.",
+        "de": "Der Mann ist hier.",
+        "audio": "audio/s17/tr1.mp3"
+      },
+      {
+        "ar": "نحن نرى الرجل.",
+        "de": "Wir sehen den Mann.",
+        "audio": "audio/s17/tr2.mp3"
+      },
+      {
+        "ar": "نحن نساعد الرجل.",
+        "de": "Wir helfen dem Mann.",
+        "audio": "audio/s17/tr3.mp3"
+      },
+      {
+        "ar": "الطبيب يسأل الرجل.",
+        "de": "Der Arzt fragt den Mann.",
+        "audio": "audio/s17/tr4.mp3"
+      },
+      {
+        "ar": "نحن نجيب الطبيب.",
+        "de": "Wir antworten dem Arzt.",
+        "audio": "audio/s17/tr5.mp3"
+      },
+      {
+        "ar": "نحن نرى الكلب.",
+        "de": "Wir sehen den Hund.",
+        "audio": "audio/s17/tr6.mp3"
+      }
+    ]
+  }
+}
