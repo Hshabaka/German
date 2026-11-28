@@ -1,0 +1,697 @@
+{
+  "id": 9,
+  "level": "a1",
+  "title": "Session 9: The full family of modal verbs",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=lj_KLme_pMk",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "new-modals",
+      "label": "New modals",
+      "words": [
+        {
+          "de": "möchten",
+          "ar": "يود / يرغب (بأدب)",
+          "audio": "audio/s9/vocab/01-moechten.mp3"
+        },
+        {
+          "de": "wollen",
+          "ar": "يريد (تصميم)",
+          "audio": "audio/s9/vocab/02-wollen.mp3"
+        },
+        {
+          "de": "dürfen",
+          "ar": "مسموح له",
+          "audio": "audio/s9/vocab/03-duerfen.mp3"
+        },
+        {
+          "de": "sollen",
+          "ar": "ينبغي عليه (تكليف)",
+          "audio": "audio/s9/vocab/04-sollen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "ich-forms",
+      "label": "Ich forms",
+      "words": [
+        {
+          "de": "ich möchte",
+          "ar": "أنا أود",
+          "audio": "audio/s9/vocab/05-ich-moechte.mp3"
+        },
+        {
+          "de": "ich will",
+          "ar": "أنا أريد",
+          "audio": "audio/s9/vocab/06-ich-will.mp3"
+        },
+        {
+          "de": "ich darf",
+          "ar": "مسموح لي",
+          "audio": "audio/s9/vocab/07-ich-darf.mp3"
+        },
+        {
+          "de": "ich soll",
+          "ar": "ينبغي علي",
+          "audio": "audio/s9/vocab/08-ich-soll.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sie-they",
+      "label": "Sie (they)",
+      "words": [
+        {
+          "de": "sie möchten",
+          "ar": "هم يودون",
+          "audio": "audio/s9/vocab/09-sie-moechten.mp3"
+        },
+        {
+          "de": "sie wollen",
+          "ar": "هم يريدون",
+          "audio": "audio/s9/vocab/10-sie-wollen.mp3"
+        },
+        {
+          "de": "sie dürfen",
+          "ar": "مسموح لهم",
+          "audio": "audio/s9/vocab/11-sie-duerfen.mp3"
+        },
+        {
+          "de": "sie sollen",
+          "ar": "ينبغي عليهم",
+          "audio": "audio/s9/vocab/12-sie-sollen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "label": "Health words",
+      "words": [
+        {
+          "de": "rauchen",
+          "ar": "يدخن",
+          "audio": "audio/s9/vocab/13-rauchen.mp3"
+        },
+        {
+          "de": "nehmen",
+          "ar": "ياخد",
+          "audio": "audio/s9/vocab/14-nehmen.mp3"
+        },
+        {
+          "de": "Medikament",
+          "ar": "الدواء",
+          "audio": "audio/s9/vocab/15-das-medikament.mp3",
+          "article": "das"
+        },
+        {
+          "de": "im Bett bleiben",
+          "ar": "البقاء في السرير",
+          "audio": "audio/s9/vocab/16-im-bett-bleiben.mp3"
+        }
+      ]
+    },
+    {
+      "id": "du-forms",
+      "label": "Du forms",
+      "words": [
+        {
+          "de": "du möchtest",
+          "ar": "انت بتود",
+          "audio": "audio/s9/vocab/17-du-moechtest.mp3"
+        },
+        {
+          "de": "du willst",
+          "ar": "انت عايز",
+          "audio": "audio/s9/vocab/18-du-willst.mp3"
+        },
+        {
+          "de": "du darfst",
+          "ar": "مسموح لك",
+          "audio": "audio/s9/vocab/19-du-darfst.mp3"
+        },
+        {
+          "de": "viel Wasser",
+          "ar": "مية كتير",
+          "audio": "audio/s9/vocab/20-viel-wasser.mp3"
+        },
+        {
+          "de": "du sollst",
+          "ar": "ينبغي عليك",
+          "audio": "audio/s9/vocab/25-du-sollst.mp3"
+        }
+      ]
+    },
+    {
+      "id": "ihr-forms",
+      "label": "Ihr forms",
+      "words": [
+        {
+          "de": "ihr möchtet",
+          "ar": "أنتم بتودوا",
+          "audio": "audio/s9/vocab/21-ihr-moechtet.mp3"
+        },
+        {
+          "de": "ihr wollt",
+          "ar": "أنتم عايزين",
+          "audio": "audio/s9/vocab/22-ihr-wollt.mp3"
+        },
+        {
+          "de": "ihr dürft",
+          "ar": "مسموح لكم",
+          "audio": "audio/s9/vocab/23-ihr-duerft.mp3"
+        },
+        {
+          "de": "ihr sollt",
+          "ar": "ينبغي عليكم",
+          "audio": "audio/s9/vocab/24-ihr-sollt.mp3"
+        }
+      ]
+    },
+    {
+      "id": "health-and-daily",
+      "label": "Health and daily",
+      "words": [
+        {
+          "de": "kochen",
+          "ar": "يطبخ",
+          "audio": "audio/s9/vocab/26-kochen.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich möchte Deutsch lernen.",
+      "ar": "أنا أود أتعلم ألماني.",
+      "audio": "audio/s9/s01-ich-moechte-deutsch-lernen.mp3"
+    },
+    {
+      "de": "Ich möchte Kaffee trinken.",
+      "ar": "أنا أود أشرب قهوة.",
+      "audio": "audio/s9/s02-ich-moechte-kaffee-trinken.mp3"
+    },
+    {
+      "de": "Ich will morgen mit dir reisen.",
+      "ar": "عايز أسافر معاك بكرة.",
+      "audio": "audio/s9/s03-ich-will-morgen-mit-dir-reisen.mp3"
+    },
+    {
+      "de": "Ich will das Essen kochen.",
+      "ar": "عايز أطبخ الأكل.",
+      "audio": "audio/s9/s04-ich-will-das-essen-kochen.mp3"
+    },
+    {
+      "de": "Ich darf das essen.",
+      "ar": "مسموح لي آكل ده.",
+      "audio": "audio/s9/s05-ich-darf-das-essen.mp3"
+    },
+    {
+      "de": "Ich darf nicht schlafen.",
+      "ar": "مش مسموح لي أنام.",
+      "audio": "audio/s9/s06-ich-darf-nicht-schlafen.mp3"
+    },
+    {
+      "de": "Ich soll schlafen gehen.",
+      "ar": "ينبغي علي أروح أنام.",
+      "audio": "audio/s9/s07-ich-soll-schlafen-gehen.mp3"
+    },
+    {
+      "de": "Ich soll Deutsch lernen.",
+      "ar": "ينبغي علي أتعلم ألماني.",
+      "audio": "audio/s9/s08-ich-soll-deutsch-lernen.mp3"
+    },
+    {
+      "de": "Sie möchten viel Wasser trinken.",
+      "ar": "هم يودون شرب مية كتير.",
+      "audio": "audio/s9/s09-sie-moechten-viel-wasser.mp3"
+    },
+    {
+      "de": "Sie wollen nicht im Bett bleiben.",
+      "ar": "هم مش عايزين يفضلوا في السرير.",
+      "audio": "audio/s9/s10-sie-wollen-nicht-im-bett.mp3"
+    },
+    {
+      "de": "Sie dürfen nicht rauchen.",
+      "ar": "مش مسموح لهم بالتدخين.",
+      "audio": "audio/s9/s11-sie-duerfen-nicht-rauchen.mp3"
+    },
+    {
+      "de": "Sie sollen das Medikament nehmen.",
+      "ar": "ينبغي عليهم أخد الدواء.",
+      "audio": "audio/s9/s12-sie-sollen-das-medikament.mp3"
+    },
+    {
+      "de": "Sie sollen im Bett bleiben.",
+      "ar": "ينبغي عليهم البقاء في السرير.",
+      "audio": "audio/s9/s13-sie-sollen-im-bett-bleiben.mp3"
+    },
+    {
+      "de": "Die Frau will das Medikament nehmen.",
+      "ar": "الست عايزة تاخد الدواء.",
+      "audio": "audio/s9/s14-die-frau-will-das-medikament.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "möchten",
+      "ar": "يود (بأدب)",
+      "audio": "audio/s9/vocab/01-moechten.mp3"
+    },
+    {
+      "de": "wollen",
+      "ar": "يريد",
+      "audio": "audio/s9/vocab/02-wollen.mp3"
+    },
+    {
+      "de": "dürfen",
+      "ar": "مسموح",
+      "audio": "audio/s9/vocab/03-duerfen.mp3"
+    },
+    {
+      "de": "sollen",
+      "ar": "ينبغي",
+      "audio": "audio/s9/vocab/04-sollen.mp3"
+    },
+    {
+      "de": "rauchen",
+      "ar": "يدخن",
+      "audio": "audio/s9/vocab/13-rauchen.mp3"
+    },
+    {
+      "de": "nehmen",
+      "ar": "ياخد",
+      "audio": "audio/s9/vocab/14-nehmen.mp3"
+    },
+    {
+      "de": "Medikament",
+      "article": "das",
+      "ar": "الدواء",
+      "audio": "audio/s9/vocab/15-das-medikament.mp3"
+    },
+    {
+      "de": "im Bett bleiben",
+      "ar": "يفضل في السرير",
+      "audio": "audio/s9/vocab/16-im-bett-bleiben.mp3"
+    },
+    {
+      "de": "ich möchte",
+      "ar": "أنا أود",
+      "audio": "audio/s9/vocab/05-ich-moechte.mp3"
+    },
+    {
+      "de": "ich darf",
+      "ar": "مسموح لي",
+      "audio": "audio/s9/vocab/07-ich-darf.mp3"
+    },
+    {
+      "de": "sie wollen",
+      "ar": "هم يريدون",
+      "audio": "audio/s9/vocab/10-sie-wollen.mp3"
+    },
+    {
+      "de": "viel Wasser",
+      "ar": "مية كتير",
+      "audio": "audio/s9/vocab/20-viel-wasser.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich ______ morgen nach Deutschland reisen.",
+      "options": [
+        "will",
+        "willst",
+        "wollen"
+      ],
+      "answer": 0,
+      "why": "تصريف ich: will.",
+      "ar": "عايز أسافر ألمانيا بكرة."
+    },
+    {
+      "prompt": "Ali ist krank. Er ______ das Medikament nehmen.",
+      "options": [
+        "soll",
+        "sollst",
+        "sollt"
+      ],
+      "answer": 0,
+      "why": "er = ich: soll.",
+      "ar": "علي مريض. ينبغي عليه ياخد الدواء."
+    },
+    {
+      "prompt": "Wir ______ viel Wasser trinken.",
+      "options": [
+        "möchten",
+        "möchte",
+        "möchtest"
+      ],
+      "answer": 0,
+      "why": "مع wir المصدر: möchten.",
+      "ar": "احنا بنود نشرب مية كتير."
+    },
+    {
+      "prompt": "Du ______ hier nicht rauchen!",
+      "options": [
+        "darfst",
+        "darf",
+        "dürfen"
+      ],
+      "answer": 0,
+      "why": "تصريف du: darfst.",
+      "ar": "مش مسموح لك التدخين هنا!"
+    },
+    {
+      "prompt": "Die Kinder ______ nicht im Bett bleiben.",
+      "options": [
+        "wollen",
+        "will",
+        "wollt"
+      ],
+      "answer": 0,
+      "why": "الأطفال = sie (هم): wollen.",
+      "ar": "الأطفال مش عايزين يفضلوا في السرير."
+    },
+    {
+      "prompt": "Herr Ahmed, ______ Sie das essen?",
+      "options": [
+        "dürfen",
+        "darf",
+        "dürft"
+      ],
+      "answer": 0,
+      "why": "حضرتك = Sie: dürfen.",
+      "ar": "يا أستاذ أحمد، مسموح لحضرتك تأكل ده؟"
+    },
+    {
+      "prompt": "Ich ______ Kaffee trinken. (طلب بأدب)",
+      "options": [
+        "möchte",
+        "will",
+        "darf"
+      ],
+      "answer": 0,
+      "why": "الطلب المؤدب: möchte.",
+      "ar": "أود أشرب قهوة."
+    },
+    {
+      "prompt": "Sie ______ nicht rauchen. (غير مسموح لهم)",
+      "options": [
+        "dürfen",
+        "darf",
+        "darfst"
+      ],
+      "answer": 0,
+      "why": "هم: dürfen.",
+      "ar": "مش مسموح لهم بالتدخين."
+    },
+    {
+      "prompt": "Er soll im Bett ______.",
+      "options": [
+        "bleiben",
+        "bleibt",
+        "bleibe"
+      ],
+      "answer": 0,
+      "why": "الفعل الأساسي في المصدر آخر الجملة: bleiben.",
+      "ar": "ينبغي عليه يفضل في السرير."
+    },
+    {
+      "prompt": "______ du morgen reisen?",
+      "options": [
+        "Willst",
+        "Will",
+        "Wollen"
+      ],
+      "answer": 0,
+      "why": "سؤال لـ du: Willst.",
+      "ar": "عايز تسافر بكرة؟"
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتكمل عائلة الأفعال المساعدة كلها: möchten (طلب مؤدب)، wollen (تصميم)، dürfen (سماح)، sollen (تكليف). والقاعدة الذهبية: تصريف ich هو نفسه تصريف er/sie/es في كل الأفعال المساعدة. ومعهم مكعبات الصحة: rauchen، nehmen، das Medikament، im Bett bleiben."
+  },
+  "grammar": [
+    {
+      "title": "القاعدة الذهبية: ich = er/sie/es",
+      "rule": "في كل الأفعال المساعدة، تصريف أنا (ich) هو بالظبط تصريف هو/هي (er/sie/es): ich will يبقى er will، ich darf يبقى sie darf. احفظ تصريف أنا وانت كده حفظت هو/هي.",
+      "forms": [
+        "ich will / er will",
+        "ich darf / sie darf",
+        "ich soll / es soll"
+      ],
+      "examples": [
+        {
+          "de": "Er soll das Medikament nehmen.",
+          "ar": "ينبغي عليه ياخد الدواء."
+        },
+        {
+          "de": "Sie will das Essen kochen.",
+          "ar": "هي عايزة تطبخ الأكل."
+        }
+      ]
+    },
+    {
+      "title": "möchten: الطلب المؤدب",
+      "rule": "möchten معناها يود/يرغب، وهي الأسلوب المؤدب للطلبات: Ich möchte Kaffee trinken. أشيك من will.",
+      "forms": [
+        "ich möchte",
+        "du möchtest",
+        "wir möchten"
+      ],
+      "examples": [
+        {
+          "de": "Ich möchte Deutsch lernen.",
+          "ar": "أود أتعلم ألماني."
+        },
+        {
+          "de": "Wir möchten viel Wasser trinken.",
+          "ar": "بنود نشرب مية كتير."
+        }
+      ]
+    },
+    {
+      "title": "dürfen: السماح",
+      "rule": "dürfen معناها مسموح: Ich darf das essen (مسموح لي آكل ده)، والنفي: Ich darf nicht schlafen (مش مسموح لي أنام).",
+      "forms": [
+        "ich darf",
+        "du darfst",
+        "sie dürfen"
+      ],
+      "examples": [
+        {
+          "de": "Du darfst hier nicht rauchen!",
+          "ar": "مش مسموح لك التدخين هنا!"
+        },
+        {
+          "de": "Sie dürfen nicht rauchen.",
+          "ar": "مش مسموح لهم بالتدخين."
+        }
+      ]
+    },
+    {
+      "title": "sollen: التكليف",
+      "rule": "sollen معناها ينبغي، تكليف أو نصيحة من حد تاني (زي الدكتور): Sie sollen das Medikament nehmen (الدكتور اللي قالهم).",
+      "forms": [
+        "ich soll",
+        "du sollst",
+        "sie sollen"
+      ],
+      "examples": [
+        {
+          "de": "Ich soll schlafen gehen.",
+          "ar": "ينبغي علي أروح أنام."
+        },
+        {
+          "de": "Sie sollen im Bett bleiben.",
+          "ar": "ينبغي عليهم يفضلوا في السرير."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "trinken",
+          "ich",
+          "Kaffee",
+          "möchte"
+        ],
+        "answer": "Ich möchte Kaffee trinken.",
+        "ar": "أود أشرب قهوة."
+      },
+      {
+        "tiles": [
+          "rauchen",
+          "dürfen",
+          "nicht",
+          "sie"
+        ],
+        "answer": "Sie dürfen nicht rauchen.",
+        "ar": "مش مسموح لهم بالتدخين."
+      },
+      {
+        "tiles": [
+          "im Bett",
+          "bleiben",
+          "soll",
+          "er"
+        ],
+        "answer": "Er soll im Bett bleiben.",
+        "ar": "ينبغي عليه يفضل في السرير."
+      },
+      {
+        "tiles": [
+          "das Medikament",
+          "nehmen",
+          "die Frau",
+          "will"
+        ],
+        "answer": "Die Frau will das Medikament nehmen.",
+        "ar": "الست عايزة تاخد الدواء."
+      },
+      {
+        "tiles": [
+          "morgen",
+          "reisen",
+          "du",
+          "willst"
+        ],
+        "answer": "Willst du morgen reisen?",
+        "ar": "عايز تسافر بكرة؟"
+      },
+      {
+        "tiles": [
+          "Wasser",
+          "viel",
+          "trinken",
+          "möchten",
+          "Sie"
+        ],
+        "answer": "Sie möchten viel Wasser trinken.",
+        "ar": "هم يودون شرب مية كتير."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Er will das Essen kochen.",
+          "Er will das Essen kocht."
+        ],
+        "answer": 0,
+        "why": "الفعل الأساسي بيرجع للمصدر: kochen.",
+        "ar": "هو عايز يطبخ الأكل."
+      },
+      {
+        "options": [
+          "Ich darf nicht schlafen.",
+          "Ich darfst nicht schlafen."
+        ],
+        "answer": 0,
+        "why": "تصريف ich مع dürfen: darf.",
+        "ar": "مش مسموح لي أنام."
+      },
+      {
+        "options": [
+          "Sie möchte Deutsch lernen.",
+          "Sie möchtet Deutsch lernen."
+        ],
+        "answer": 0,
+        "why": "تصريف هي = تصريف أنا: möchte.",
+        "ar": "هي بتود تتعلم ألماني."
+      },
+      {
+        "options": [
+          "Wir sollen das Medikament nehmen.",
+          "Wir sollen nehmen das Medikament."
+        ],
+        "answer": 0,
+        "why": "الفعل الأساسي بيترمي في الآخر.",
+        "ar": "ينبغي علينا ناخد الدواء."
+      },
+      {
+        "options": [
+          "Du darfst hier nicht rauchen.",
+          "Du darf hier nicht rauchen."
+        ],
+        "answer": 0,
+        "why": "تصريف du: darfst.",
+        "ar": "مش مسموح لك التدخين هنا."
+      },
+      {
+        "options": [
+          "Sie wollen das Handy kaufen.",
+          "Sie will das Handy kaufen."
+        ],
+        "answer": 0,
+        "why": "هم: wollen.",
+        "ar": "هم عايزين يشتروا الموبايل."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "أنا أود أشرب قهوة.",
+        "de": "Ich möchte Kaffee trinken.",
+        "audio": "audio/s9/tr1.mp3"
+      },
+      {
+        "ar": "مش مسموح لهم بالتدخين.",
+        "de": "Sie dürfen nicht rauchen.",
+        "audio": "audio/s9/tr2.mp3"
+      },
+      {
+        "ar": "ينبغي عليهم أخد الدواء.",
+        "de": "Sie sollen das Medikament nehmen.",
+        "audio": "audio/s9/tr3.mp3"
+      },
+      {
+        "ar": "عايز تسافر بكرة؟",
+        "de": "Willst du morgen reisen?",
+        "audio": "audio/s9/tr4.mp3"
+      },
+      {
+        "ar": "أنا عايز أطبخ الأكل.",
+        "de": "Ich will das Essen kochen.",
+        "audio": "audio/s9/tr5.mp3"
+      },
+      {
+        "ar": "هم يودون شرب مية كتير.",
+        "de": "Sie möchten viel Wasser trinken.",
+        "audio": "audio/s9/tr6.mp3"
+      }
+    ]
+  }
+}
