@@ -1,0 +1,771 @@
+{
+  "id": 21,
+  "level": "a1",
+  "title": "Session 21: The weather",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=iEWaYQ5D8Tk",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "phrases",
+      "label": "Everyday expressions",
+      "words": [
+        {
+          "de": "Was bedeutet das?",
+          "ar": "إيه معنى ده؟",
+          "audio": "audio/s21/vocab/01-was-bedeutet-das.mp3"
+        },
+        {
+          "de": "Ich bin sehr beschäftigt",
+          "ar": "أنا مشغول جدًا",
+          "audio": "audio/s21/vocab/02-ich-bin-sehr-beschaeftigt.mp3"
+        },
+        {
+          "de": "Ich bin ein bisschen beschäftigt",
+          "ar": "أنا مشغول شوية",
+          "audio": "audio/s21/vocab/03-ich-bin-ein-bisschen-beschaeftigt.mp3"
+        },
+        {
+          "de": "beschäftigt",
+          "ar": "مشغول",
+          "audio": "audio/s21/vocab/04-beschaeftigt.mp3"
+        },
+        {
+          "de": "ein bisschen",
+          "ar": "شوية",
+          "audio": "audio/s21/vocab/05-ein-bisschen.mp3"
+        },
+        {
+          "de": "Entschuldigung",
+          "ar": "عفوًا",
+          "audio": "audio/s21/vocab/06-entschuldigung.mp3"
+        },
+        {
+          "de": "bedeutet",
+          "ar": "يعني",
+          "audio": "audio/s21/vocab/07-bedeutet.mp3"
+        }
+      ]
+    },
+    {
+      "id": "imperative",
+      "label": "Come along!",
+      "words": [
+        {
+          "de": "Komm mit!",
+          "ar": "تعال معايا! (لواحد)",
+          "audio": "audio/s21/vocab/08-komm-mit.mp3"
+        },
+        {
+          "de": "Kommt mit!",
+          "ar": "تعالوا معايا! (لجمع)",
+          "audio": "audio/s21/vocab/09-kommt-mit.mp3"
+        },
+        {
+          "de": "Kommen Sie mit!",
+          "ar": "تفضل معايا! (رسمي)",
+          "audio": "audio/s21/vocab/10-kommen-sie-mit.mp3"
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "label": "Weather",
+      "words": [
+        {
+          "de": "Das Wetter ist gut",
+          "ar": "الطقس كويس",
+          "audio": "audio/s21/vocab/11-das-wetter-ist-gut.mp3"
+        },
+        {
+          "de": "Das Wetter ist sehr schlecht",
+          "ar": "الطقس وحش جدًا",
+          "audio": "audio/s21/vocab/12-das-wetter-ist-sehr-schlecht.mp3"
+        },
+        {
+          "de": "Mir ist kalt",
+          "ar": "أنا بردان",
+          "audio": "audio/s21/vocab/13-mir-ist-kalt.mp3"
+        },
+        {
+          "de": "Ihm ist kalt",
+          "ar": "هو بردان",
+          "audio": "audio/s21/vocab/14-ihm-ist-kalt.mp3"
+        },
+        {
+          "de": "Wetter",
+          "ar": "الطقس",
+          "audio": "audio/s21/vocab/15-wetter.mp3",
+          "article": "das"
+        },
+        {
+          "de": "kalt",
+          "ar": "بارد",
+          "audio": "audio/s21/vocab/16-kalt.mp3"
+        },
+        {
+          "de": "schlecht",
+          "ar": "وحش",
+          "audio": "audio/s21/vocab/17-schlecht.mp3"
+        },
+        {
+          "de": "heiß",
+          "ar": "حار",
+          "audio": "audio/s21/vocab/18-heiss.mp3"
+        },
+        {
+          "de": "warm",
+          "ar": "دافئ",
+          "audio": "audio/s21/vocab/19-warm.mp3"
+        },
+        {
+          "de": "sonnig",
+          "ar": "مشمس",
+          "audio": "audio/s21/vocab/20-sonnig.mp3"
+        },
+        {
+          "de": "regnen",
+          "ar": "يمطر",
+          "audio": "audio/s21/vocab/21-regnen.mp3"
+        },
+        {
+          "de": "Es regnet",
+          "ar": "بتمطر",
+          "audio": "audio/s21/vocab/22-es-regnet.mp3"
+        }
+      ]
+    },
+    {
+      "id": "seasons",
+      "label": "Seasons",
+      "words": [
+        {
+          "de": "Sommer",
+          "ar": "الصيف",
+          "audio": "audio/s21/vocab/23-sommer.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Winter",
+          "ar": "الشتاء",
+          "audio": "audio/s21/vocab/24-winter.mp3",
+          "article": "der"
+        },
+        {
+          "de": "im Sommer",
+          "ar": "في الصيف",
+          "audio": "audio/s21/vocab/25-im-sommer.mp3"
+        },
+        {
+          "de": "im Winter",
+          "ar": "في الشتاء",
+          "audio": "audio/s21/vocab/26-im-winter.mp3"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "label": "Review words",
+      "words": [
+        {
+          "de": "Wohnung",
+          "ar": "الشقة",
+          "audio": "audio/s21/vocab/27-wohnung.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Balkon",
+          "ar": "البلكونة",
+          "audio": "audio/s21/vocab/28-balkon.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Zimmer",
+          "ar": "الأوضة",
+          "audio": "audio/s21/vocab/29-zimmer.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Wasser",
+          "ar": "الميه",
+          "audio": "audio/s21/vocab/30-wasser.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Kinder",
+          "ar": "الأطفال",
+          "audio": "audio/s21/vocab/31-kinder.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Hemd",
+          "ar": "القميص",
+          "audio": "audio/s21/vocab/32-hemd.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Schuhe",
+          "ar": "الجزم",
+          "audio": "audio/s21/vocab/33-schuhe.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Wochenende",
+          "ar": "الويك إند",
+          "audio": "audio/s21/vocab/34-wochenende.mp3",
+          "article": "das"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Was bedeutet das?",
+      "ar": "إيه معنى ده؟",
+      "audio": "audio/s21/s01-was-bedeutet-das.mp3"
+    },
+    {
+      "de": "Ich bin sehr beschäftigt.",
+      "ar": "أنا مشغول جدًا.",
+      "audio": "audio/s21/s02-ich-bin-sehr-beschaeftigt.mp3"
+    },
+    {
+      "de": "Ich bin ein bisschen beschäftigt.",
+      "ar": "أنا مشغول شوية.",
+      "audio": "audio/s21/s03-ich-bin-ein-bisschen-beschaeftigt.mp3"
+    },
+    {
+      "de": "Komm mit!",
+      "ar": "تعال معايا!",
+      "audio": "audio/s21/s04-komm-mit.mp3"
+    },
+    {
+      "de": "Kommt mit!",
+      "ar": "تعالوا معايا!",
+      "audio": "audio/s21/s05-kommt-mit.mp3"
+    },
+    {
+      "de": "Kommen Sie mit!",
+      "ar": "تفضل معايا!",
+      "audio": "audio/s21/s06-kommen-sie-mit.mp3"
+    },
+    {
+      "de": "Das Wetter ist gut.",
+      "ar": "الطقس كويس.",
+      "audio": "audio/s21/s07-das-wetter-ist-gut.mp3"
+    },
+    {
+      "de": "Das Wetter ist sehr schlecht.",
+      "ar": "الطقس وحش جدًا.",
+      "audio": "audio/s21/s08-das-wetter-ist-sehr-schlecht.mp3"
+    },
+    {
+      "de": "Mir ist kalt.",
+      "ar": "أنا بردان.",
+      "audio": "audio/s21/s09-mir-ist-kalt.mp3"
+    },
+    {
+      "de": "Er ist heute ein bisschen beschäftigt.",
+      "ar": "هو مشغول شوية النهارده.",
+      "audio": "audio/s21/s10-er-ist-heute-ein-bisschen-beschaeftigt.mp3"
+    },
+    {
+      "de": "Im Sommer ist das Wetter sehr heiß.",
+      "ar": "في الصيف الطقس حار جدًا.",
+      "audio": "audio/s21/s11-im-sommer-ist-das-wetter-sehr-heiss.mp3"
+    },
+    {
+      "de": "Im Winter ist das Wetter sehr kalt.",
+      "ar": "في الشتا الطقس بارد جدًا.",
+      "audio": "audio/s21/s12-im-winter-ist-das-wetter-sehr-kalt.mp3"
+    },
+    {
+      "de": "Es regnet heute und das Wetter ist schlecht.",
+      "ar": "النهارده بتمطر والطقس وحش.",
+      "audio": "audio/s21/s13-es-regnet-heute-und-das-wetter-ist-schlecht.mp3"
+    },
+    {
+      "de": "Das Wetter ist warm und sonnig, er kommt mit.",
+      "ar": "الطقس دافئ ومشمس، هو هييجي معانا.",
+      "audio": "audio/s21/s14-das-wetter-ist-warm-und-sonnig-er-kommt-mit.mp3"
+    },
+    {
+      "de": "Entschuldigung, aber er ist beschäftigt und das Wetter ist schlecht.",
+      "ar": "عفوًا، بس هو مشغول والطقس وحش.",
+      "audio": "audio/s21/s15-entschuldigung-aber-er-ist-beschaeftigt-und-.mp3"
+    },
+    {
+      "de": "Ihm ist kalt.",
+      "ar": "هو بردان.",
+      "audio": "audio/s21/s16-ihm-ist-kalt.mp3"
+    },
+    {
+      "de": "Kommst du heute mit?",
+      "ar": "هتيجي معانا النهارده؟",
+      "audio": "audio/s21/s17-kommst-du-heute-mit.mp3"
+    },
+    {
+      "de": "Sie müssen viel Wasser trinken.",
+      "ar": "لازم تشرب ميه كتير.",
+      "audio": "audio/s21/s18-sie-muessen-viel-wasser-trinken.mp3"
+    },
+    {
+      "de": "Das ist kein Balkon, das ist ein Zimmer.",
+      "ar": "ده مش بلكونة، ده أوضة.",
+      "audio": "audio/s21/s19-das-ist-kein-balkon-das-ist-ein-zimmer.mp3"
+    },
+    {
+      "de": "Leider kann ich dieses Mal nicht kommen.",
+      "ar": "للأسف ما أقدرش آجي المرة دي.",
+      "audio": "audio/s21/s20-leider-kann-ich-dieses-mal-nicht-kommen.mp3"
+    },
+    {
+      "de": "Das Buch gehört den Kindern.",
+      "ar": "الكتاب للأطفال.",
+      "audio": "audio/s21/s21-das-buch-gehoert-den-kindern.mp3"
+    },
+    {
+      "de": "Warum lernen Sie zusammen Deutsch?",
+      "ar": "ليه بتتعلموا ألماني مع بعض؟",
+      "audio": "audio/s21/s22-warum-lernen-sie-zusammen-deutsch.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Sommer",
+      "ar": "الصيف",
+      "audio": "audio/s21/vocab/23-sommer.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Winter",
+      "ar": "الشتاء",
+      "audio": "audio/s21/vocab/24-winter.mp3",
+      "article": "der"
+    },
+    {
+      "de": "heiß",
+      "ar": "حار",
+      "audio": "audio/s21/vocab/18-heiss.mp3"
+    },
+    {
+      "de": "warm",
+      "ar": "دافئ",
+      "audio": "audio/s21/vocab/19-warm.mp3"
+    },
+    {
+      "de": "sonnig",
+      "ar": "مشمس",
+      "audio": "audio/s21/vocab/20-sonnig.mp3"
+    },
+    {
+      "de": "regnen",
+      "ar": "يمطر",
+      "audio": "audio/s21/vocab/21-regnen.mp3"
+    },
+    {
+      "de": "kalt",
+      "ar": "بارد",
+      "audio": "audio/s21/vocab/16-kalt.mp3"
+    },
+    {
+      "de": "Wetter",
+      "ar": "الطقس",
+      "audio": "audio/s21/vocab/15-wetter.mp3",
+      "article": "das"
+    },
+    {
+      "de": "beschäftigt",
+      "ar": "مشغول",
+      "audio": "audio/s21/vocab/04-beschaeftigt.mp3"
+    },
+    {
+      "de": "Komm mit!",
+      "ar": "تعال معايا! (لواحد)",
+      "audio": "audio/s21/vocab/08-komm-mit.mp3"
+    },
+    {
+      "de": "Mir ist kalt",
+      "ar": "أنا بردان",
+      "audio": "audio/s21/vocab/13-mir-ist-kalt.mp3"
+    },
+    {
+      "de": "Ihm ist kalt",
+      "ar": "هو بردان",
+      "audio": "audio/s21/vocab/14-ihm-ist-kalt.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Was ___ das?",
+      "options": [
+        "bedeutet",
+        "bedeuten",
+        "bedeutest"
+      ],
+      "answer": 0,
+      "why": "Was bedeutet das? سؤال المعنى.",
+      "ar": "إيه معنى ده؟"
+    },
+    {
+      "prompt": "___ mit! (لجمع)",
+      "options": [
+        "Kommt",
+        "Komm",
+        "Kommen"
+      ],
+      "answer": 0,
+      "why": "للجمع: Kommt mit!",
+      "ar": "تعالوا."
+    },
+    {
+      "prompt": "___ Sie mit! (رسمي)",
+      "options": [
+        "Kommen",
+        "Kommt",
+        "Komm"
+      ],
+      "answer": 0,
+      "why": "مع Sie: Kommen Sie mit!",
+      "ar": "تفضل."
+    },
+    {
+      "prompt": "Mir ist ___.",
+      "options": [
+        "kalt",
+        "bin",
+        "kaltes"
+      ],
+      "answer": 0,
+      "why": "Mir ist kalt = البرد بالنسبة لي (Dativ).",
+      "ar": "بردان."
+    },
+    {
+      "prompt": "___ ist kalt. (هو بردان)",
+      "options": [
+        "Ihm",
+        "Er",
+        "Ihn"
+      ],
+      "answer": 0,
+      "why": "Er ← Ihm في Dativ.",
+      "ar": "هو بردان."
+    },
+    {
+      "prompt": "Es ___ heute.",
+      "options": [
+        "regnet",
+        "regnen",
+        "regne"
+      ],
+      "answer": 0,
+      "why": "مع Es: regnet.",
+      "ar": "بتمطر."
+    },
+    {
+      "prompt": "Im Sommer ist das Wetter sehr ___.",
+      "options": [
+        "heiß",
+        "kalter",
+        "regnet"
+      ],
+      "answer": 0,
+      "why": "الصيف: heiß.",
+      "ar": "حار."
+    },
+    {
+      "prompt": "Ich bin ein ___ beschäftigt.",
+      "options": [
+        "bisschen",
+        "bisschens",
+        "sehr bisschen"
+      ],
+      "answer": 0,
+      "why": "ein bisschen = شوية.",
+      "ar": "شوية."
+    },
+    {
+      "prompt": "Wir helfen ___ Mann.",
+      "options": [
+        "dem",
+        "den",
+        "die"
+      ],
+      "answer": 0,
+      "why": "helfen = Dativ.",
+      "ar": "نساعد."
+    },
+    {
+      "prompt": "Die Jacke ist schöner ___ das Hemd.",
+      "options": [
+        "als",
+        "wie",
+        "und"
+      ],
+      "answer": 0,
+      "why": "als للمقارنة.",
+      "ar": "أجمل من."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلمك تسأل عن المعنى (Was bedeutet das?)، تقول إنك مشغول، تدعو حد يجي معاك (Komm mit)، وتتكلم عن الطقس والفصول (Mir ist kalt / Es regnet)، مع مراجعة الدروس 1-21."
+  },
+  "grammar": [
+    {
+      "title": "Was bedeutet das؟ والانشغال",
+      "rule": "Was bedeutet das? سؤال المعنى لما تسمع كلمة مش فاهمها. وللانشغال: Ich bin sehr / ein bisschen beschäftigt.",
+      "forms": [
+        "Was bedeutet das?",
+        "Ich bin sehr beschäftigt",
+        "Ich bin ein bisschen beschäftigt"
+      ],
+      "examples": [
+        {
+          "de": "Ich bin ein bisschen beschäftigt.",
+          "ar": "أنا مشغول شوية."
+        }
+      ]
+    },
+    {
+      "title": "Komm mit! الأمر من kommen",
+      "rule": "لواحد: Komm mit! لجمع: Kommt mit! رسمي: Kommen Sie mit!",
+      "forms": [
+        "Komm mit!",
+        "Kommt mit!",
+        "Kommen Sie mit!"
+      ],
+      "examples": [
+        {
+          "de": "Kommt mit!",
+          "ar": "تعالوا معايا!"
+        }
+      ]
+    },
+    {
+      "title": "الطقس: Es regnet و Mir ist kalt",
+      "rule": "الألماني مبيقولش \"أنا بارد\" بيقول \"البرد بالنسبة لي\": Mir ist kalt (Dativ). ومع هو: Ihm ist kalt. والمطر: Es regnet.",
+      "forms": [
+        "Ich → Mir ist kalt",
+        "Er → Ihm ist kalt",
+        "Es regnet"
+      ],
+      "examples": [
+        {
+          "de": "Mir ist kalt.",
+          "ar": "أنا بردان."
+        },
+        {
+          "de": "Ihm ist kalt.",
+          "ar": "هو بردان."
+        }
+      ]
+    },
+    {
+      "title": "مراجعة الدروس 1-21",
+      "rule": "مراجعة: wie alt bist du؟ (bist)، als في المقارنة، helfen + Dativ (dem Mann/dem Kind)، damit، Wann/Wohin، muss ich بعد Leider، den للمذكر Akk، seine مع Tasche (مؤنث)، seit wann؟، lieber، ترتيب Sie müssen viel Wasser trinken، Das ist kein Balkon.",
+      "forms": [
+        "bist du",
+        "teurer",
+        "dem Mann",
+        "damit",
+        "muss ich",
+        "den Kaffee",
+        "seine Tasche",
+        "seit wann",
+        "lieber"
+      ],
+      "examples": [
+        {
+          "de": "Das Buch gehört den Kindern.",
+          "ar": "الكتاب للأطفال."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Was",
+          "bedeutet",
+          "das"
+        ],
+        "answer": "Was bedeutet das",
+        "ar": "إيه معنى ده؟"
+      },
+      {
+        "tiles": [
+          "Im",
+          "Sommer",
+          "ist",
+          "das",
+          "Wetter",
+          "sehr",
+          "heiß"
+        ],
+        "answer": "Im Sommer ist das Wetter sehr heiß",
+        "ar": "في الصيف الطقس حار جدًا."
+      },
+      {
+        "tiles": [
+          "Ihm",
+          "ist",
+          "kalt"
+        ],
+        "answer": "Ihm ist kalt",
+        "ar": "هو بردان."
+      },
+      {
+        "tiles": [
+          "Kommt",
+          "mit"
+        ],
+        "answer": "Kommt mit",
+        "ar": "تعالوا معايا!"
+      },
+      {
+        "tiles": [
+          "Sie",
+          "müssen",
+          "viel",
+          "Wasser",
+          "trinken"
+        ],
+        "answer": "Sie müssen viel Wasser trinken",
+        "ar": "لازم تشرب ميه كتير."
+      },
+      {
+        "tiles": [
+          "Warum",
+          "lernen",
+          "Sie",
+          "zusammen",
+          "Deutsch"
+        ],
+        "answer": "Warum lernen Sie zusammen Deutsch",
+        "ar": "ليه بتتعلموا ألماني مع بعض؟"
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich bin 25 Jahre alt.",
+          "Ich habe 25 Jahre."
+        ],
+        "answer": 0,
+        "why": "العمر مع bin.",
+        "ar": "عمري."
+      },
+      {
+        "options": [
+          "Wir helfen dem Kind.",
+          "Wir helfen der Kind."
+        ],
+        "answer": 0,
+        "why": "محايد Dativ: dem.",
+        "ar": "نساعد."
+      },
+      {
+        "options": [
+          "Kommen Sie mit?",
+          "Kommst Sie mit?"
+        ],
+        "answer": 0,
+        "why": "مع Sie: kommen.",
+        "ar": "تيجي؟"
+      },
+      {
+        "options": [
+          "Die Jacke ist schöner als das Hemd.",
+          "Die Jacke ist schöner als der Hemd."
+        ],
+        "answer": 0,
+        "why": "Hemd محايد: das.",
+        "ar": "أجمل."
+      },
+      {
+        "options": [
+          "Mir ist kalt.",
+          "Ich bin kalt."
+        ],
+        "answer": 0,
+        "why": "البرد بالنسبة لي: Mir ist kalt.",
+        "ar": "بردان."
+      },
+      {
+        "options": [
+          "Es regnet.",
+          "Es regnen."
+        ],
+        "answer": 0,
+        "why": "مع Es: regnet.",
+        "ar": "بتمطر."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "ماذا يعني هذا؟",
+        "de": "Was bedeutet das?",
+        "audio": "audio/s21/tr1.mp3"
+      },
+      {
+        "ar": "في الصيف الطقس حار جدًا.",
+        "de": "Im Sommer ist das Wetter sehr heiß.",
+        "audio": "audio/s21/tr2.mp3"
+      },
+      {
+        "ar": "هو يشعر بالبرد.",
+        "de": "Ihm ist kalt.",
+        "audio": "audio/s21/tr3.mp3"
+      },
+      {
+        "ar": "تعالوا معي!",
+        "de": "Kommt mit!",
+        "audio": "audio/s21/tr4.mp3"
+      },
+      {
+        "ar": "أنا مشغول قليلًا.",
+        "de": "Ich bin ein bisschen beschäftigt.",
+        "audio": "audio/s21/tr5.mp3"
+      },
+      {
+        "ar": "اليوم تمطر والطقس سيئ.",
+        "de": "Es regnet heute und das Wetter ist schlecht.",
+        "audio": "audio/s21/tr6.mp3"
+      }
+    ]
+  }
+}
