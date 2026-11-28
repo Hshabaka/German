@@ -1,0 +1,1111 @@
+{
+  "id": 18,
+  "level": "a1",
+  "title": "Session 18: Master class (part 2)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=qAB1dWpJiqk",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "rules",
+      "label": "Case rules",
+      "words": [
+        {
+          "de": "Nominativ",
+          "ar": "وصف",
+          "audio": "audio/s18/vocab/01-nominativ.mp3"
+        },
+        {
+          "de": "Akkusativ",
+          "ar": "الفعل بيقع",
+          "audio": "audio/s18/vocab/02-akkusativ.mp3"
+        },
+        {
+          "de": "Dativ",
+          "ar": "لمصلحة",
+          "audio": "audio/s18/vocab/03-dativ.mp3"
+        },
+        {
+          "de": "die → die → der",
+          "ar": "المؤنث: Nom ثابت / Akk ثابت / Dat der",
+          "audio": "audio/s18/vocab/04-die-die-der.mp3"
+        },
+        {
+          "de": "er / ihn / ihm",
+          "ar": "ضمائر المذكر",
+          "audio": "audio/s18/vocab/05-er-ihn-ihm.mp3"
+        },
+        {
+          "de": "sie / sie / ihr",
+          "ar": "ضمائر المؤنث",
+          "audio": "audio/s18/vocab/06-sie-sie-ihr.mp3"
+        },
+        {
+          "de": "kein / keinen / keinem",
+          "ar": "نفي المذكر",
+          "audio": "audio/s18/vocab/07-kein-keinen-keinem.mp3"
+        },
+        {
+          "de": "keine / keiner",
+          "ar": "نفي المؤنث",
+          "audio": "audio/s18/vocab/08-keine-keiner.mp3"
+        }
+      ]
+    },
+    {
+      "id": "lesson18",
+      "label": "Lesson words",
+      "words": [
+        {
+          "de": "Frau",
+          "ar": "المرأة/الزوجة",
+          "audio": "audio/s18/vocab/09-frau.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Lehrerin",
+          "ar": "المعلمة",
+          "audio": "audio/s18/vocab/10-lehrerin.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Schule",
+          "ar": "المدرسة",
+          "audio": "audio/s18/vocab/11-schule.mp3",
+          "article": "die"
+        },
+        {
+          "de": "fragen",
+          "ar": "يسأل (Akkusativ)",
+          "audio": "audio/s18/vocab/12-fragen.mp3"
+        },
+        {
+          "de": "antworten",
+          "ar": "يجاوب (Dativ)",
+          "audio": "audio/s18/vocab/13-antworten.mp3"
+        },
+        {
+          "de": "Ihr seht",
+          "ar": "إنتم بتشوفوا",
+          "audio": "audio/s18/vocab/14-ihr-seht.mp3"
+        },
+        {
+          "de": "Ihr helft",
+          "ar": "إنتم بتساعدوا",
+          "audio": "audio/s18/vocab/15-ihr-helft.mp3"
+        },
+        {
+          "de": "Ihr fragt",
+          "ar": "إنتم بتسألوا",
+          "audio": "audio/s18/vocab/16-ihr-fragt.mp3"
+        },
+        {
+          "de": "Ihr antwortet",
+          "ar": "إنتم بتجاوبوا",
+          "audio": "audio/s18/vocab/17-ihr-antwortet.mp3"
+        }
+      ]
+    },
+    {
+      "id": "masc",
+      "label": "Masculine (der) nouns",
+      "words": [
+        {
+          "de": "Apfel",
+          "ar": "التفاحة",
+          "audio": "audio/s18/vocab/18-apfel.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Tisch",
+          "ar": "الطاولة",
+          "audio": "audio/s18/vocab/19-tisch.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Hund",
+          "ar": "الكلب",
+          "audio": "audio/s18/vocab/20-hund.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Computer",
+          "ar": "الكمبيوتر",
+          "audio": "audio/s18/vocab/21-computer.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Stuhl",
+          "ar": "الكرسي",
+          "audio": "audio/s18/vocab/22-stuhl.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Saft",
+          "ar": "العصير",
+          "audio": "audio/s18/vocab/23-saft.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Kuchen",
+          "ar": "الكيك",
+          "audio": "audio/s18/vocab/24-kuchen.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Ball",
+          "ar": "الكرة",
+          "audio": "audio/s18/vocab/25-ball.mp3",
+          "article": "der"
+        }
+      ]
+    },
+    {
+      "id": "fem",
+      "label": "Feminine (die) nouns",
+      "words": [
+        {
+          "de": "Torte",
+          "ar": "التورتة",
+          "audio": "audio/s18/vocab/26-torte.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Jacke",
+          "ar": "الجاكيت",
+          "audio": "audio/s18/vocab/27-jacke.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Flasche",
+          "ar": "الزجاجة",
+          "audio": "audio/s18/vocab/28-flasche.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Uhr",
+          "ar": "الساعة",
+          "audio": "audio/s18/vocab/29-uhr.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Brille",
+          "ar": "النظارة",
+          "audio": "audio/s18/vocab/30-brille.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Gitarre",
+          "ar": "الجيتار",
+          "audio": "audio/s18/vocab/31-gitarre.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Tür",
+          "ar": "الباب",
+          "audio": "audio/s18/vocab/32-tuer.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Kamera",
+          "ar": "الكاميرا",
+          "audio": "audio/s18/vocab/33-kamera.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Mutter",
+          "ar": "الأم",
+          "article": "die",
+          "audio": "audio/s18/vocab/54-mutter.mp3"
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "label": "Test words",
+      "words": [
+        {
+          "de": "Kaffee",
+          "ar": "القهوة",
+          "audio": "audio/s18/vocab/34-kaffee.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Pizza",
+          "ar": "البيتزا",
+          "audio": "audio/s18/vocab/35-pizza.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Blume",
+          "ar": "الوردة",
+          "audio": "audio/s18/vocab/36-blume.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Freund",
+          "ar": "الصديق",
+          "audio": "audio/s18/vocab/37-freund.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Freundin",
+          "ar": "الصديقة",
+          "audio": "audio/s18/vocab/38-freundin.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Tasche",
+          "ar": "الشنطة",
+          "audio": "audio/s18/vocab/39-tasche.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Wasser",
+          "ar": "الميه",
+          "audio": "audio/s18/vocab/40-wasser.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Essen",
+          "ar": "الأكل",
+          "audio": "audio/s18/vocab/41-essen.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Sterne",
+          "ar": "النجوم",
+          "audio": "audio/s18/vocab/42-sterne.mp3"
+        },
+        {
+          "de": "weil",
+          "ar": "لأن",
+          "audio": "audio/s18/vocab/43-weil.mp3"
+        },
+        {
+          "de": "ein / einen / einem",
+          "ar": "أداة نكرة مذكر",
+          "audio": "audio/s18/vocab/44-ein-einen-einem.mp3"
+        },
+        {
+          "de": "eine / einer",
+          "ar": "أداة نكرة مؤنث",
+          "audio": "audio/s18/vocab/45-eine-einer.mp3"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "label": "Verbs",
+      "words": [
+        {
+          "de": "essen",
+          "ar": "يأكل",
+          "audio": "audio/s18/vocab/46-essen.mp3"
+        },
+        {
+          "de": "kaufen",
+          "ar": "يشتري",
+          "audio": "audio/s18/vocab/47-kaufen.mp3"
+        },
+        {
+          "de": "brauchen",
+          "ar": "يحتاج",
+          "audio": "audio/s18/vocab/48-brauchen.mp3"
+        },
+        {
+          "de": "lieben",
+          "ar": "يحب",
+          "audio": "audio/s18/vocab/49-lieben.mp3"
+        },
+        {
+          "de": "trinken",
+          "ar": "يشرب",
+          "audio": "audio/s18/vocab/50-trinken.mp3"
+        },
+        {
+          "de": "spielen",
+          "ar": "يلعب",
+          "audio": "audio/s18/vocab/51-spielen.mp3"
+        },
+        {
+          "de": "sehen",
+          "ar": "يشوف",
+          "audio": "audio/s18/vocab/52-sehen.mp3"
+        },
+        {
+          "de": "geben",
+          "ar": "يعطي",
+          "audio": "audio/s18/vocab/53-geben.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Die Frau kommt heute.",
+      "ar": "المرأة جاية النهارده.",
+      "audio": "audio/s18/s01-die-frau-kommt-heute.mp3"
+    },
+    {
+      "de": "Ihr seht die Frau.",
+      "ar": "إنتم بتشوفوا المرأة.",
+      "audio": "audio/s18/s02-ihr-seht-die-frau.mp3"
+    },
+    {
+      "de": "Ihr helft der Frau.",
+      "ar": "إنتم بتساعدوا المرأة.",
+      "audio": "audio/s18/s03-ihr-helft-der-frau.mp3"
+    },
+    {
+      "de": "Die Lehrerin ist sehr gut.",
+      "ar": "المعلمة كويسة جدًا.",
+      "audio": "audio/s18/s04-die-lehrerin-ist-sehr-gut.mp3"
+    },
+    {
+      "de": "Ihr fragt die Lehrerin.",
+      "ar": "إنتم بتسألوا المعلمة.",
+      "audio": "audio/s18/s05-ihr-fragt-die-lehrerin.mp3"
+    },
+    {
+      "de": "Ihr antwortet der Lehrerin.",
+      "ar": "إنتم بتجاوبوا المعلمة.",
+      "audio": "audio/s18/s06-ihr-antwortet-der-lehrerin.mp3"
+    },
+    {
+      "de": "Der Apfel ist lecker.",
+      "ar": "التفاحة لذيذة.",
+      "audio": "audio/s18/s07-der-apfel-ist-lecker.mp3"
+    },
+    {
+      "de": "Ich esse den Apfel.",
+      "ar": "أنا آكل التفاحة.",
+      "audio": "audio/s18/s08-ich-esse-den-apfel.mp3"
+    },
+    {
+      "de": "Ich gebe dem Apfel 5 Sterne.",
+      "ar": "أنا أعطي التفاحة 5 نجوم.",
+      "audio": "audio/s18/s09-ich-gebe-dem-apfel-5-sterne.mp3"
+    },
+    {
+      "de": "Der Tisch ist groß.",
+      "ar": "الطاولة كبيرة.",
+      "audio": "audio/s18/s10-der-tisch-ist-gross.mp3"
+    },
+    {
+      "de": "Ich kaufe den Tisch.",
+      "ar": "أنا أشتري الطاولة.",
+      "audio": "audio/s18/s11-ich-kaufe-den-tisch.mp3"
+    },
+    {
+      "de": "Ich gebe dem Tisch 5 Sterne.",
+      "ar": "أنا أعطي الطاولة 5 نجوم.",
+      "audio": "audio/s18/s12-ich-gebe-dem-tisch-5-sterne.mp3"
+    },
+    {
+      "de": "Der Hund ist süß.",
+      "ar": "الكلب لطيف.",
+      "audio": "audio/s18/s13-der-hund-ist-suess.mp3"
+    },
+    {
+      "de": "Ich liebe den Hund.",
+      "ar": "أنا أحب الكلب.",
+      "audio": "audio/s18/s14-ich-liebe-den-hund.mp3"
+    },
+    {
+      "de": "Ich gebe dem Hund das Essen.",
+      "ar": "أنا أعطي الكلب الطعام.",
+      "audio": "audio/s18/s15-ich-gebe-dem-hund-das-essen.mp3"
+    },
+    {
+      "de": "Der Computer ist schnell.",
+      "ar": "الكمبيوتر سريع.",
+      "audio": "audio/s18/s16-der-computer-ist-schnell.mp3"
+    },
+    {
+      "de": "Ich kaufe den Computer.",
+      "ar": "أنا أشتري الكمبيوتر.",
+      "audio": "audio/s18/s17-ich-kaufe-den-computer.mp3"
+    },
+    {
+      "de": "Ich gebe dem Computer 5 Sterne.",
+      "ar": "أنا أعطي الكمبيوتر 5 نجوم.",
+      "audio": "audio/s18/s18-ich-gebe-dem-computer-5-sterne.mp3"
+    },
+    {
+      "de": "Der Stuhl ist bequem.",
+      "ar": "الكرسي مريح.",
+      "audio": "audio/s18/s19-der-stuhl-ist-bequem.mp3"
+    },
+    {
+      "de": "Ich brauche den Stuhl.",
+      "ar": "أنا أحتاج الكرسي.",
+      "audio": "audio/s18/s20-ich-brauche-den-stuhl.mp3"
+    },
+    {
+      "de": "Ich gebe dem Stuhl 5 Sterne.",
+      "ar": "أنا أعطي الكرسي 5 نجوم.",
+      "audio": "audio/s18/s21-ich-gebe-dem-stuhl-5-sterne.mp3"
+    },
+    {
+      "de": "Der Saft ist kalt.",
+      "ar": "العصير بارد.",
+      "audio": "audio/s18/s22-der-saft-ist-kalt.mp3"
+    },
+    {
+      "de": "Ich trinke den Saft.",
+      "ar": "أنا أشرب العصير.",
+      "audio": "audio/s18/s23-ich-trinke-den-saft.mp3"
+    },
+    {
+      "de": "Ich gebe dem Saft 5 Sterne.",
+      "ar": "أنا أعطي العصير 5 نجوم.",
+      "audio": "audio/s18/s24-ich-gebe-dem-saft-5-sterne.mp3"
+    },
+    {
+      "de": "Der Kuchen ist süß.",
+      "ar": "الكيك حلو.",
+      "audio": "audio/s18/s25-der-kuchen-ist-suess.mp3"
+    },
+    {
+      "de": "Ich esse den Kuchen.",
+      "ar": "أنا آكل الكيك.",
+      "audio": "audio/s18/s26-ich-esse-den-kuchen.mp3"
+    },
+    {
+      "de": "Ich gebe dem Kuchen 5 Sterne.",
+      "ar": "أنا أعطي الكيك 5 نجوم.",
+      "audio": "audio/s18/s27-ich-gebe-dem-kuchen-5-sterne.mp3"
+    },
+    {
+      "de": "Der Ball ist neu.",
+      "ar": "الكرة جديدة.",
+      "audio": "audio/s18/s28-der-ball-ist-neu.mp3"
+    },
+    {
+      "de": "Ich kaufe den Ball.",
+      "ar": "أنا أشتري الكرة.",
+      "audio": "audio/s18/s29-ich-kaufe-den-ball.mp3"
+    },
+    {
+      "de": "Ich gebe dem Ball 5 Sterne.",
+      "ar": "أنا أعطي الكرة 5 نجوم.",
+      "audio": "audio/s18/s30-ich-gebe-dem-ball-5-sterne.mp3"
+    },
+    {
+      "de": "Die Torte ist lecker.",
+      "ar": "التورتة لذيذة.",
+      "audio": "audio/s18/s31-die-torte-ist-lecker.mp3"
+    },
+    {
+      "de": "Ich esse die Torte.",
+      "ar": "أنا آكل التورتة.",
+      "audio": "audio/s18/s32-ich-esse-die-torte.mp3"
+    },
+    {
+      "de": "Ich gebe der Torte 5 Sterne.",
+      "ar": "أنا أعطي التورتة 5 نجوم.",
+      "audio": "audio/s18/s33-ich-gebe-der-torte-5-sterne.mp3"
+    },
+    {
+      "de": "Die Jacke ist warm.",
+      "ar": "الجاكيت دافئ.",
+      "audio": "audio/s18/s34-die-jacke-ist-warm.mp3"
+    },
+    {
+      "de": "Ich brauche die Jacke.",
+      "ar": "أنا أحتاج الجاكيت.",
+      "audio": "audio/s18/s35-ich-brauche-die-jacke.mp3"
+    },
+    {
+      "de": "Ich gebe der Jacke 5 Sterne.",
+      "ar": "أنا أعطي الجاكيت 5 نجوم.",
+      "audio": "audio/s18/s36-ich-gebe-der-jacke-5-sterne.mp3"
+    },
+    {
+      "de": "Die Flasche ist leer.",
+      "ar": "الزجاجة فاضية.",
+      "audio": "audio/s18/s37-die-flasche-ist-leer.mp3"
+    },
+    {
+      "de": "Ich kaufe die Flasche.",
+      "ar": "أنا أشتري الزجاجة.",
+      "audio": "audio/s18/s38-ich-kaufe-die-flasche.mp3"
+    },
+    {
+      "de": "Ich gebe der Flasche 5 Sterne.",
+      "ar": "أنا أعطي الزجاجة 5 نجوم.",
+      "audio": "audio/s18/s39-ich-gebe-der-flasche-5-sterne.mp3"
+    },
+    {
+      "de": "Die Uhr ist teuer.",
+      "ar": "الساعة غالية.",
+      "audio": "audio/s18/s40-die-uhr-ist-teuer.mp3"
+    },
+    {
+      "de": "Ich kaufe die Uhr.",
+      "ar": "أنا أشتري الساعة.",
+      "audio": "audio/s18/s41-ich-kaufe-die-uhr.mp3"
+    },
+    {
+      "de": "Ich gebe der Uhr 5 Sterne.",
+      "ar": "أنا أعطي الساعة 5 نجوم.",
+      "audio": "audio/s18/s42-ich-gebe-der-uhr-5-sterne.mp3"
+    },
+    {
+      "de": "Die Brille ist neu.",
+      "ar": "النظارة جديدة.",
+      "audio": "audio/s18/s43-die-brille-ist-neu.mp3"
+    },
+    {
+      "de": "Ich brauche die Brille.",
+      "ar": "أنا أحتاج النظارة.",
+      "audio": "audio/s18/s44-ich-brauche-die-brille.mp3"
+    },
+    {
+      "de": "Ich gebe der Brille 5 Sterne.",
+      "ar": "أنا أعطي النظارة 5 نجوم.",
+      "audio": "audio/s18/s45-ich-gebe-der-brille-5-sterne.mp3"
+    },
+    {
+      "de": "Die Gitarre ist schön.",
+      "ar": "الجيتار جميل.",
+      "audio": "audio/s18/s46-die-gitarre-ist-schoen.mp3"
+    },
+    {
+      "de": "Ich liebe die Gitarre.",
+      "ar": "أنا أحب الجيتار.",
+      "audio": "audio/s18/s47-ich-liebe-die-gitarre.mp3"
+    },
+    {
+      "de": "Ich gebe der Gitarre 5 Sterne.",
+      "ar": "أنا أعطي الجيتار 5 نجوم.",
+      "audio": "audio/s18/s48-ich-gebe-der-gitarre-5-sterne.mp3"
+    },
+    {
+      "de": "Die Tür ist offen.",
+      "ar": "الباب مفتوح.",
+      "audio": "audio/s18/s49-die-tuer-ist-offen.mp3"
+    },
+    {
+      "de": "Ich sehe die Tür.",
+      "ar": "أنا أشوف الباب.",
+      "audio": "audio/s18/s50-ich-sehe-die-tuer.mp3"
+    },
+    {
+      "de": "Ich gebe der Tür 5 Sterne.",
+      "ar": "أنا أعطي الباب 5 نجوم.",
+      "audio": "audio/s18/s51-ich-gebe-der-tuer-5-sterne.mp3"
+    },
+    {
+      "de": "Die Kamera ist gut.",
+      "ar": "الكاميرا كويسة.",
+      "audio": "audio/s18/s52-die-kamera-ist-gut.mp3"
+    },
+    {
+      "de": "Ich brauche die Kamera.",
+      "ar": "أنا أحتاج الكاميرا.",
+      "audio": "audio/s18/s53-ich-brauche-die-kamera.mp3"
+    },
+    {
+      "de": "Ich gebe der Kamera 5 Sterne.",
+      "ar": "أنا أعطي الكاميرا 5 نجوم.",
+      "audio": "audio/s18/s54-ich-gebe-der-kamera-5-sterne.mp3"
+    },
+    {
+      "de": "Ich gebe meinem Freund einen Apfel, weil der Apfel lecker ist.",
+      "ar": "أنا أعطي صديقي تفاحة لأن التفاحة لذيذة.",
+      "audio": "audio/s18/s55-ich-gebe-meinem-freund-einen-apfel-weil-der-.mp3"
+    },
+    {
+      "de": "Ich gebe meiner Freundin keine Tasche, weil die Tasche teuer ist.",
+      "ar": "أنا ما أعطيش صديقتي شنطة لأن الشنطة غالية.",
+      "audio": "audio/s18/s56-ich-gebe-meiner-freundin-keine-tasche-weil-d.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Frau",
+      "ar": "المرأة/الزوجة",
+      "audio": "audio/s18/vocab/09-frau.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Lehrerin",
+      "ar": "المعلمة",
+      "audio": "audio/s18/vocab/10-lehrerin.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Schule",
+      "ar": "المدرسة",
+      "audio": "audio/s18/vocab/11-schule.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Apfel",
+      "ar": "التفاحة",
+      "audio": "audio/s18/vocab/18-apfel.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Tisch",
+      "ar": "الطاولة",
+      "audio": "audio/s18/vocab/19-tisch.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Torte",
+      "ar": "التورتة",
+      "audio": "audio/s18/vocab/26-torte.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Jacke",
+      "ar": "الجاكيت",
+      "audio": "audio/s18/vocab/27-jacke.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Uhr",
+      "ar": "الساعة",
+      "audio": "audio/s18/vocab/29-uhr.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Kaffee",
+      "ar": "القهوة",
+      "audio": "audio/s18/vocab/34-kaffee.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Pizza",
+      "ar": "البيتزا",
+      "audio": "audio/s18/vocab/35-pizza.mp3",
+      "article": "die"
+    },
+    {
+      "de": "fragen",
+      "ar": "يسأل (Akkusativ)",
+      "audio": "audio/s18/vocab/12-fragen.mp3"
+    },
+    {
+      "de": "antworten",
+      "ar": "يجاوب (Dativ)",
+      "audio": "audio/s18/vocab/13-antworten.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich trinke ___ Kaffee.",
+      "options": [
+        "den",
+        "der",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "Kaffee مذكر، trinken = Akkusativ → den.",
+      "ar": "أنا أشرب القهوة."
+    },
+    {
+      "prompt": "Ich gebe ___ Pizza 5 Sterne.",
+      "options": [
+        "der",
+        "die",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "Pizza مؤنث والمستفيد Dativ → der.",
+      "ar": "أنا أعطي البيتزا نجوم."
+    },
+    {
+      "prompt": "Hier ist ___ Tisch.",
+      "options": [
+        "ein",
+        "einen",
+        "einem"
+      ],
+      "answer": 0,
+      "why": "Nominativ مذكر → ein.",
+      "ar": "هنا طاولة."
+    },
+    {
+      "prompt": "Ich brauche ___ Jacke.",
+      "options": [
+        "die",
+        "der",
+        "den"
+      ],
+      "answer": 0,
+      "why": "مؤنث في Akkusativ ما بيتغيرش.",
+      "ar": "أنا أحتاج الجاكيت."
+    },
+    {
+      "prompt": "Ich gebe ___ Hund das Essen.",
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "answer": 0,
+      "why": "المذكر المستفيد Dativ → dem.",
+      "ar": "أنا أعطي الكلب الأكل."
+    },
+    {
+      "prompt": "Ich kaufe ___ Blume.",
+      "options": [
+        "eine",
+        "einer",
+        "einen"
+      ],
+      "answer": 0,
+      "why": "مؤنث Akkusativ: eine.",
+      "ar": "أنا أشتري وردة."
+    },
+    {
+      "prompt": "Ihr helft ___ Frau.",
+      "options": [
+        "der",
+        "die",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "helfen = Dativ والمؤنث → der.",
+      "ar": "إنتم بتساعدوا المرأة."
+    },
+    {
+      "prompt": "Ihr seht ___ Frau.",
+      "options": [
+        "die",
+        "der",
+        "den"
+      ],
+      "answer": 0,
+      "why": "sehen = Akkusativ، المؤنث ثابت.",
+      "ar": "إنتم بتشوفوا المرأة."
+    },
+    {
+      "prompt": "Der Saft ist kalt. → ___ ist kalt.",
+      "options": [
+        "Er",
+        "Ihn",
+        "Ihm"
+      ],
+      "answer": 0,
+      "why": "الفاعل المذكر: er.",
+      "ar": "هو بارد."
+    },
+    {
+      "prompt": "Ich esse die Pizza. → Ich esse ___.",
+      "options": [
+        "sie",
+        "ihr",
+        "er"
+      ],
+      "answer": 0,
+      "why": "مؤنث Akkusativ: sie.",
+      "ar": "أنا آكلها."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتكمل الحالات مع المؤنث: die ثابتة في Nom وAkk وبتتحول لـ der في Dativ، مع تطبيق مكثف على 16 كلمة مذكر ومؤنث (معرفة ونكرة ونفي وضمائر) وweil."
+  },
+  "grammar": [
+    {
+      "title": "القاعدة العامة: Nom / Akk / Dat",
+      "rule": "1) بتوصف الشيء: Nominativ. 2) بتعمل بيه حاجة: Akkusativ. 3) بتعمل لمصلحته: Dativ. الأدوات والضمائر المؤنثة بتفضل زي ما هي في Akkusativ، وبتتغير بس في Dativ.",
+      "forms": [
+        "وصف = Nom",
+        "فعل واقع = Akk",
+        "مصلحة = Dat"
+      ],
+      "examples": [
+        {
+          "de": "Der Apfel ist lecker.",
+          "ar": "التفاحة لذيذة."
+        },
+        {
+          "de": "Ich esse den Apfel.",
+          "ar": "أنا آكل التفاحة."
+        }
+      ]
+    },
+    {
+      "title": "المؤنث: die ثابت ثم der",
+      "rule": "المؤنث: Nom die، Akk die (من غير تغيير)، Dat der. ومع Ihr: Ihr seht die Frau / Ihr helft der Frau.",
+      "forms": [
+        "die Frau → die Frau → der Frau",
+        "die Lehrerin → die Lehrerin → der Lehrerin"
+      ],
+      "examples": [
+        {
+          "de": "Ihr fragt die Lehrerin.",
+          "ar": "إنتم بتسألوا المعلمة."
+        },
+        {
+          "de": "Ihr antwortet der Lehrerin.",
+          "ar": "إنتم بتجاوبوا المعلمة."
+        }
+      ]
+    },
+    {
+      "title": "جدول المذكر: معرفة/نكرة/نفي/ضمائر (PDF 18-2)",
+      "rule": "لكل كلمة مذكرة: Nom / Akk / Dat. المعرفة: der / den / dem. النكرة: ein / einen / einem. النفي: kein / keinen / keinem. الضمائر: er / ihn / ihm.",
+      "forms": [
+        "Apfel: ein Apfel / einen Apfel / einem Apfel | kein Apfel / keinen Apfel / keinem Apfel | er / ihn / ihm",
+        "Tisch: ein Tisch / einen Tisch / einem Tisch | kein Tisch / keinen Tisch / keinem Tisch | er / ihn / ihm",
+        "Hund: ein Hund / einen Hund / einem Hund | kein Hund / keinen Hund / keinem Hund | er / ihn / ihm",
+        "Computer: ein Computer / einen Computer / einem Computer | kein Computer / keinen Computer / keinem Computer | er / ihn / ihm",
+        "Stuhl: ein Stuhl / einen Stuhl / einem Stuhl | kein Stuhl / keinen Stuhl / keinem Stuhl | er / ihn / ihm",
+        "Saft: ein Saft / einen Saft / einem Saft | kein Saft / keinen Saft / keinem Saft | er / ihn / ihm",
+        "Kuchen: ein Kuchen / einen Kuchen / einem Kuchen | kein Kuchen / keinen Kuchen / keinem Kuchen | er / ihn / ihm",
+        "Ball: ein Ball / einen Ball / einem Ball | kein Ball / keinen Ball / keinem Ball | er / ihn / ihm"
+      ],
+      "examples": [
+        {
+          "de": "Ich esse keinen Apfel.",
+          "ar": "أنا ما باكلش تفاحة."
+        },
+        {
+          "de": "Ich gebe ihm 5 Sterne.",
+          "ar": "أنا أعطيه 5 نجوم."
+        }
+      ]
+    },
+    {
+      "title": "جدول المؤنث: معرفة/نكرة/نفي/ضمائر (PDF 18-2)",
+      "rule": "لكل كلمة مؤنثة: المعرفة: die / die / der. النكرة: eine / eine / einer. النفي: keine / keine / keiner. الضمائر: sie / sie / ihr.",
+      "forms": [
+        "Torte: eine Torte / eine Torte / einer Torte | keine Torte / keine Torte / keiner Torte | sie / sie / ihr",
+        "Jacke: eine Jacke / eine Jacke / einer Jacke | keine Jacke / keine Jacke / keiner Jacke | sie / sie / ihr",
+        "Flasche: eine Flasche / eine Flasche / einer Flasche | keine Flasche / keine Flasche / keiner Flasche | sie / sie / ihr",
+        "Uhr: eine Uhr / eine Uhr / einer Uhr | keine Uhr / keine Uhr / keiner Uhr | sie / sie / ihr",
+        "Brille: eine Brille / eine Brille / einer Brille | keine Brille / keine Brille / keiner Brille | sie / sie / ihr",
+        "Gitarre: eine Gitarre / eine Gitarre / einer Gitarre | keine Gitarre / keine Gitarre / keiner Gitarre | sie / sie / ihr",
+        "Tür: eine Tür / eine Tür / einer Tür | keine Tür / keine Tür / keiner Tür | sie / sie / ihr",
+        "Kamera: eine Kamera / eine Kamera / einer Kamera | keine Kamera / keine Kamera / keiner Kamera | sie / sie / ihr"
+      ],
+      "examples": [
+        {
+          "de": "Ich esse keine Torte.",
+          "ar": "أنا ما باكلش تورتة."
+        },
+        {
+          "de": "Ich gebe ihr 5 Sterne.",
+          "ar": "أنا أعطيها 5 نجوم."
+        }
+      ]
+    },
+    {
+      "title": "weil والفعل في الآخر",
+      "rule": "weil بيرمي الفعل المتصرف في آخر الجملة: ..., weil der Apfel lecker ist.",
+      "forms": [
+        "Ich gebe meinem Freund einen Apfel, weil der Apfel lecker ist.",
+        "Ich gebe meiner Freundin keine Tasche, weil die Tasche teuer ist."
+      ],
+      "examples": [
+        {
+          "de": "Ich gebe meiner Freundin keine Tasche, weil die Tasche teuer ist.",
+          "ar": "ما أعطيش صديقتي شنطة لأن الشنطة غالية."
+        }
+      ]
+    },
+    {
+      "title": "ملاحظات على ملف الـ PDF 18-2",
+      "rule": "ملف التدريبات بيذكر إن Ich spiele den Ball ممكن تتقال أحيانًا، لكن اخترنا Ich kaufe den Ball (اختيار الملف المفضل). وأسئلة الاختبار والكلمات الشاذة (der Chef، das Bett...) متغطية في الأسئلة والإجابات، مش كمقاطع صوت.",
+      "forms": [
+        "Ich kaufe den Ball (المفضّل في الملف)"
+      ],
+      "examples": []
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Die",
+          "Frau",
+          "kommt",
+          "heute"
+        ],
+        "answer": "Die Frau kommt heute",
+        "ar": "المرأة جاية النهارده."
+      },
+      {
+        "tiles": [
+          "Ihr",
+          "seht",
+          "die",
+          "Frau"
+        ],
+        "answer": "Ihr seht die Frau",
+        "ar": "إنتم بتشوفوا المرأة."
+      },
+      {
+        "tiles": [
+          "Ihr",
+          "helft",
+          "der",
+          "Frau"
+        ],
+        "answer": "Ihr helft der Frau",
+        "ar": "إنتم بتساعدوا المرأة."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "esse",
+          "den",
+          "Apfel"
+        ],
+        "answer": "Ich esse den Apfel",
+        "ar": "أنا آكل التفاحة."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "gebe",
+          "der",
+          "Torte",
+          "5",
+          "Sterne"
+        ],
+        "answer": "Ich gebe der Torte 5 Sterne",
+        "ar": "أنا أعطي التورتة 5 نجوم."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "gebe",
+          "dem",
+          "Hund",
+          "das",
+          "Essen"
+        ],
+        "answer": "Ich gebe dem Hund das Essen",
+        "ar": "أنا أعطي الكلب الأكل."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ihr helft der Frau.",
+          "Ihr helft die Frau."
+        ],
+        "answer": 0,
+        "why": "helfen = Dativ: der.",
+        "ar": "بتساعدوا."
+      },
+      {
+        "options": [
+          "Ihr seht die Frau.",
+          "Ihr seht der Frau."
+        ],
+        "answer": 0,
+        "why": "sehen = Akkusativ: die.",
+        "ar": "بتشوفوا."
+      },
+      {
+        "options": [
+          "Ich esse den Apfel.",
+          "Ich esse dem Apfel."
+        ],
+        "answer": 0,
+        "why": "essen = Akkusativ: den.",
+        "ar": "آكل."
+      },
+      {
+        "options": [
+          "Ich gebe der Torte 5 Sterne.",
+          "Ich gebe die Torte 5 Sterne."
+        ],
+        "answer": 0,
+        "why": "المستفيد Dativ: der.",
+        "ar": "أعطي."
+      },
+      {
+        "options": [
+          "Ich kaufe keine Torte.",
+          "Ich kaufe keinen Torte."
+        ],
+        "answer": 0,
+        "why": "مؤنث: keine.",
+        "ar": "ما أشتريش."
+      },
+      {
+        "options": [
+          "Ich liebe ihn.",
+          "Ich liebe er."
+        ],
+        "answer": 0,
+        "why": "Akkusativ: ihn.",
+        "ar": "أحبه."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "المرأة تأتي اليوم.",
+        "de": "Die Frau kommt heute.",
+        "audio": "audio/s18/tr1.mp3"
+      },
+      {
+        "ar": "أنتم تساعدون المرأة.",
+        "de": "Ihr helft der Frau.",
+        "audio": "audio/s18/tr2.mp3"
+      },
+      {
+        "ar": "أنا آكل التفاحة.",
+        "de": "Ich esse den Apfel.",
+        "audio": "audio/s18/tr3.mp3"
+      },
+      {
+        "ar": "أنا أعطي التورتة 5 نجوم.",
+        "de": "Ich gebe der Torte 5 Sterne.",
+        "audio": "audio/s18/tr4.mp3"
+      },
+      {
+        "ar": "أنا لا أشتري طاولة.",
+        "de": "Ich kaufe keinen Tisch.",
+        "audio": "audio/s18/tr5.mp3"
+      },
+      {
+        "ar": "أنا أحتاجها.",
+        "de": "Ich brauche sie.",
+        "audio": "audio/s18/tr6.mp3"
+      }
+    ]
+  }
+}
