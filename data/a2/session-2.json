@@ -1,0 +1,621 @@
+{
+ "id": 2,
+ "level": "a2",
+ "title": "Session 2: My packed schedule (appointments and modal verbs)",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=yzEfK7ZPBzE",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=yzEfK7ZPBzE"
+ },
+ "vocab": [
+  {
+   "id": "modalverben",
+   "label": "Modal verbs",
+   "words": [
+    {
+     "de": "müssen",
+     "ar": "يجب (إلزام قوي / ضرورة)",
+     "audio": "audio/a2/s2/vocab/01-muessen.mp3"
+    },
+    {
+     "de": "können",
+     "ar": "يستطيع (قدرة / إمكانية)",
+     "audio": "audio/a2/s2/vocab/02-koennen.mp3"
+    },
+    {
+     "de": "wollen",
+     "ar": "يريد (خطة / رغبة قوية)",
+     "audio": "audio/a2/s2/vocab/03-wollen.mp3"
+    },
+    {
+     "de": "dürfen",
+     "ar": "يسمح له (إذن)",
+     "audio": "audio/a2/s2/vocab/04-duerfen.mp3"
+    },
+    {
+     "de": "sollen",
+     "ar": "ينبغي (نصيحة)",
+     "audio": "audio/a2/s2/vocab/05-sollen.mp3"
+    }
+   ]
+  },
+  {
+   "id": "termine",
+   "label": "Appointments and work",
+   "words": [
+    {
+     "de": "Termin",
+     "ar": "المعاد (رسمي / مع دكتور)",
+     "audio": "audio/a2/s2/vocab/06-termin.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Verabredung",
+     "ar": "المعاد (شخصي / مع صاحب)",
+     "audio": "audio/a2/s2/vocab/07-verabredung.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Arzt",
+     "ar": "الدكتور",
+     "audio": "audio/a2/s2/vocab/08-arzt.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Ärztin",
+     "ar": "الدكتورة",
+     "audio": "audio/a2/s2/vocab/09-aerztin.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Arbeit",
+     "ar": "الشغل",
+     "audio": "audio/a2/s2/vocab/10-arbeit.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Kalender",
+     "ar": "النتيجة / التقويم",
+     "audio": "audio/a2/s2/vocab/11-kalender.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Freizeit",
+     "ar": "وقت الفراغ",
+     "audio": "audio/a2/s2/vocab/12-freizeit.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Wochenende",
+     "ar": "أجازة آخر الأسبوع",
+     "audio": "audio/a2/s2/vocab/13-wochenende.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Montag",
+     "ar": "يوم الاتنين",
+     "audio": "audio/a2/s2/vocab/14-montag.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Freitag",
+     "ar": "يوم الجمعة",
+     "audio": "audio/a2/s2/vocab/15-freitag.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Uhr",
+     "ar": "الساعة (الآلة أو التوقيت)",
+     "audio": "audio/a2/s2/vocab/16-uhr.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Stunde",
+     "ar": "الساعة (مدة = 60 دقيقة)",
+     "audio": "audio/a2/s2/vocab/17-stunde.mp3",
+     "article": "die"
+    }
+   ]
+  },
+  {
+   "id": "aktionen",
+   "label": "Actions and descriptions",
+   "words": [
+    {
+     "de": "sich treffen",
+     "ar": "يتقابل",
+     "audio": "audio/a2/s2/vocab/18-sich-treffen.mp3"
+    },
+    {
+     "de": "absagen",
+     "ar": "يلغي (معاد)",
+     "audio": "audio/a2/s2/vocab/19-absagen.mp3"
+    },
+    {
+     "de": "verschieben",
+     "ar": "يؤجل",
+     "audio": "audio/a2/s2/vocab/20-verschieben.mp3"
+    },
+    {
+     "de": "arbeiten",
+     "ar": "يشتغل",
+     "audio": "audio/a2/s2/vocab/21-arbeiten.mp3"
+    },
+    {
+     "de": "kommen",
+     "ar": "ييجي",
+     "audio": "audio/a2/s2/vocab/22-kommen.mp3"
+    },
+    {
+     "de": "gehen",
+     "ar": "يروح",
+     "audio": "audio/a2/s2/vocab/23-gehen.mp3"
+    },
+    {
+     "de": "leider",
+     "ar": "للأسف",
+     "audio": "audio/a2/s2/vocab/24-leider.mp3"
+    },
+    {
+     "de": "dringend",
+     "ar": "عاجل",
+     "audio": "audio/a2/s2/vocab/25-dringend.mp3"
+    },
+    {
+     "de": "wichtig",
+     "ar": "مهم",
+     "audio": "audio/a2/s2/vocab/26-wichtig.mp3"
+    },
+    {
+     "de": "heute",
+     "ar": "النهاردة",
+     "audio": "audio/a2/s2/vocab/27-heute.mp3"
+    },
+    {
+     "de": "morgen",
+     "ar": "بكرة",
+     "audio": "audio/a2/s2/vocab/28-morgen.mp3"
+    },
+    {
+     "de": "spät",
+     "ar": "متأخر",
+     "audio": "audio/a2/s2/vocab/29-spaet.mp3"
+    },
+    {
+     "de": "früh",
+     "ar": "بدري",
+     "audio": "audio/a2/s2/vocab/30-frueh.mp3"
+    },
+    {
+     "de": "zusammen",
+     "ar": "مع بعض",
+     "audio": "audio/a2/s2/vocab/31-zusammen.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Ich muss heute von 8 bis 16 Uhr arbeiten.",
+   "ar": "لازم أشتغل النهاردة من 8 لـ 4.",
+   "audio": "audio/a2/s2/s01-ich-muss-heute-von-8-bis-16-uhr-arbeiten.mp3"
+  },
+  {
+   "de": "Ich kann am Freitag leider nicht kommen.",
+   "ar": "للأسف مش أقدر أجي يوم الجمعة.",
+   "audio": "audio/a2/s2/s02-ich-kann-am-freitag-leider-nicht-kommen.mp3"
+  },
+  {
+   "de": "Wollen wir uns um 19 Uhr treffen?",
+   "ar": "عايزين نتقابل الساعة 7؟",
+   "audio": "audio/a2/s2/s03-wollen-wir-uns-um-19-uhr-treffen.mp3"
+  },
+  {
+   "de": "Ich muss zum Arzt.",
+   "ar": "لازم أروح للدكتور.",
+   "audio": "audio/a2/s2/s04-ich-muss-zum-arzt.mp3"
+  },
+  {
+   "de": "Hast du am Freitag Zeit?",
+   "ar": "عندك وقت يوم الجمعة؟",
+   "audio": "audio/a2/s2/s05-hast-du-am-freitag-zeit.mp3"
+  },
+  {
+   "de": "Nein, ich habe leider einen Termin.",
+   "ar": "لا، للأسف عندي معاد.",
+   "audio": "audio/a2/s2/s06-nein-ich-habe-leider-einen-termin.mp3"
+  },
+  {
+   "de": "Ich kann heute leider nicht.",
+   "ar": "مش أقدر النهاردة للأسف.",
+   "audio": "audio/a2/s2/s07-ich-kann-heute-leider-nicht.mp3"
+  },
+  {
+   "de": "Wollen wir uns am Montag treffen?",
+   "ar": "نتقابل يوم الاتنين؟",
+   "audio": "audio/a2/s2/s08-wollen-wir-uns-am-montag-treffen.mp3"
+  },
+  {
+   "de": "Es tut mir leid, ich kann heute nicht kommen.",
+   "ar": "آسف، مش أقدر أجي النهاردة.",
+   "audio": "audio/a2/s2/s09-es-tut-mir-leid-ich-kann-heute-nicht-kommen.mp3"
+  },
+  {
+   "de": "Ich muss jetzt gehen. Ich habe einen Termin beim Arzt.",
+   "ar": "لازم أمشي دلوقتي. عندي معاد عند الدكتور.",
+   "audio": "audio/a2/s2/s10-ich-muss-jetzt-gehen-ich-habe-einen-termin-b.mp3"
+  },
+  {
+   "de": "Ich muss mich beeilen!",
+   "ar": "لازم أستعجل!",
+   "audio": "audio/a2/s2/s11-ich-muss-mich-beeilen.mp3"
+  },
+  {
+   "de": "Ich muss leider bis 16 Uhr arbeiten.",
+   "ar": "لازم أشتغل للأسف لحد الساعة 4.",
+   "audio": "audio/a2/s2/s12-ich-muss-leider-bis-16-uhr-arbeiten.mp3"
+  },
+  {
+   "de": "Wollen wir uns morgen am Nachmittag treffen?",
+   "ar": "نتقابل بكرة العصر؟",
+   "audio": "audio/a2/s2/s13-wollen-wir-uns-morgen-am-nachmittag-treffen.mp3"
+  },
+  {
+   "de": "Nein, ich muss leider arbeiten.",
+   "ar": "لا، لازم أشتغل للأسف.",
+   "audio": "audio/a2/s2/s14-nein-ich-muss-leider-arbeiten.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "Termin",
+   "ar": "المعاد (رسمي / مع دكتور)",
+   "audio": "audio/a2/s2/vocab/06-termin.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Verabredung",
+   "ar": "المعاد (شخصي / مع صاحب)",
+   "audio": "audio/a2/s2/vocab/07-verabredung.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Arzt",
+   "ar": "الدكتور",
+   "audio": "audio/a2/s2/vocab/08-arzt.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Ärztin",
+   "ar": "الدكتورة",
+   "audio": "audio/a2/s2/vocab/09-aerztin.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Arbeit",
+   "ar": "الشغل",
+   "audio": "audio/a2/s2/vocab/10-arbeit.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Kalender",
+   "ar": "النتيجة / التقويم",
+   "audio": "audio/a2/s2/vocab/11-kalender.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Freizeit",
+   "ar": "وقت الفراغ",
+   "audio": "audio/a2/s2/vocab/12-freizeit.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Wochenende",
+   "ar": "أجازة آخر الأسبوع",
+   "audio": "audio/a2/s2/vocab/13-wochenende.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Montag",
+   "ar": "يوم الاتنين",
+   "audio": "audio/a2/s2/vocab/14-montag.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Freitag",
+   "ar": "يوم الجمعة",
+   "audio": "audio/a2/s2/vocab/15-freitag.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Uhr",
+   "ar": "الساعة (الآلة أو التوقيت)",
+   "audio": "audio/a2/s2/vocab/16-uhr.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Stunde",
+   "ar": "الساعة (مدة = 60 دقيقة)",
+   "audio": "audio/a2/s2/vocab/17-stunde.mp3",
+   "article": "die"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Es tut mir leid, ich ________ heute nicht kommen. (عدم استطاعة)",
+   "options": [
+    "kann",
+    "muss",
+    "will"
+   ],
+   "answer": 0,
+   "why": "المعنى عدم استطاعة = können، ومع ich تبقى kann.",
+   "ar": "آسف، مش أقدر أجي النهاردة."
+  },
+  {
+   "prompt": "________ wir am Wochenende zusammen Fußball spielen? (اقتراح)",
+   "options": [
+    "Wollen",
+    "Müssen",
+    "Können"
+   ],
+   "answer": 0,
+   "why": "الاقتراح أو الرغبة = wollen، ومع wir بتفضل wollen.",
+   "ar": "عايزين نلعب كورة مع بعض آخر الأسبوع؟"
+  },
+  {
+   "prompt": "Ich ________ jetzt gehen. Ich habe einen Termin beim Arzt. (إلزام)",
+   "options": [
+    "muss",
+    "kann",
+    "will"
+   ],
+   "answer": 0,
+   "why": "إلزام وضرورة = müssen، ومع ich تبقى muss.",
+   "ar": "لازم أمشي دلوقتي، عندي معاد عند الدكتور."
+  },
+  {
+   "prompt": "________ du heute Abend arbeiten? (سؤال عن التزام)",
+   "options": [
+    "Musst",
+    "Kannst",
+    "Willst"
+   ],
+   "answer": 0,
+   "why": "سؤال عن التزام = müssen، ومع du تبقى musst.",
+   "ar": "لازم تشتغل النهاردة بالليل؟"
+  },
+  {
+   "prompt": "Mona hat heute um 18 Uhr viel Zeit.",
+   "options": [
+    "falsch",
+    "richtig"
+   ],
+   "answer": 0,
+   "why": "falsch: مونا لازم تشتغل في المكتب لحد الساعة 19.",
+   "ar": "مونا عندها وقت كتير النهاردة الساعة 6."
+  },
+  {
+   "prompt": "Mona und Sara wollen sich vielleicht morgen treffen.",
+   "options": [
+    "richtig",
+    "falsch"
+   ],
+   "answer": 0,
+   "why": "richtig: مونا بتسأل Wollen wir uns morgen treffen?",
+   "ar": "مونا وسارة ممكن يتقابلوا بكرة."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "تاني حلقة في المستوى التاني: جدول المواعيد الزحمة والأفعال الشكلية. هتتعلم تعتذر بأدب بكلمة leider، وتحدد التزاماتك بالوقت، وتقترح معاد بسؤال Wollen wir uns treffen. والمكعب الكبير: قاعدة الكماشة، الفعل الشكلي في المركز التاني والفعل الأساسي في النهاية."
+ },
+ "grammar": [
+  {
+   "title": "الأفعال الشكلية: قاعدة الكماشة",
+   "rule": "الفعل الشكلي هو المدير: بيتصرّف ويجي في المركز التاني، وبياخد الفعل الأساسي يرميه في نهاية الجملة في المصدر من غير تصريف.",
+   "forms": [
+    "müssen",
+    "können",
+    "wollen",
+    "dürfen",
+    "sollen"
+   ],
+   "examples": [
+    {
+     "de": "Ich muss heute arbeiten.",
+     "ar": "لازم أشتغل النهاردة."
+    },
+    {
+     "de": "Ich kann am Freitag leider nicht kommen.",
+     "ar": "للأسف مش أقدر أجي يوم الجمعة."
+    }
+   ]
+  },
+  {
+   "title": "سؤال الاقتراح",
+   "rule": "الفعل الشكلي في المركز الأول والفعل الأساسي في النهاية، وماتنساش تصريف الضمير المنعكس (sich treffen ← uns مع wir).",
+   "forms": [
+    "Wollen wir uns ... treffen?"
+   ],
+   "examples": [
+    {
+     "de": "Wollen wir uns um 19 Uhr treffen?",
+     "ar": "عايزين نتقابل الساعة 7؟"
+    },
+    {
+     "de": "Wollen wir uns am Montag treffen?",
+     "ar": "نتقابل يوم الاتنين؟"
+    }
+   ]
+  },
+  {
+   "title": "صياعة الألمان: حذف فعل الحركة",
+   "rule": "لو السياق فيه اتجاه لمكان معروف، ممكن نحذف فعل الحركة (gehen/fahren) خالص، ودي الصيغة الأصح والأكثر استخدامًا.",
+   "forms": [
+    "Ich muss zum Arzt.",
+    "Ich muss zum Arzt gehen."
+   ],
+   "examples": [
+    {
+     "de": "Ich muss zum Arzt.",
+     "ar": "لازم أروح للدكتور."
+    }
+   ]
+  },
+  {
+   "title": "أدوات الوقت",
+   "rule": "um مع الساعات، am مع الأيام وأجزاء اليوم، von ... bis لتحديد المدة.",
+   "forms": [
+    "um 19 Uhr",
+    "am Freitag",
+    "von 8 bis 16 Uhr"
+   ],
+   "examples": [
+    {
+     "de": "Ich muss heute von 8 bis 16 Uhr arbeiten.",
+     "ar": "لازم أشتغل النهاردة من 8 لـ 4."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "muss",
+     "heute",
+     "zum Arzt",
+     "Ich"
+    ],
+    "answer": "Ich muss heute zum Arzt.",
+    "ar": "لازم أروح للدكتور النهاردة."
+   },
+   {
+    "tiles": [
+     "Wollen",
+     "wir",
+     "uns",
+     "am Freitag",
+     "um 19 Uhr",
+     "treffen"
+    ],
+    "answer": "Wollen wir uns am Freitag um 19 Uhr treffen?",
+    "ar": "عايزين نتقابل يوم الجمعة الساعة 7؟"
+   },
+   {
+    "tiles": [
+     "muss",
+     "mich",
+     "beeilen",
+     "Ich"
+    ],
+    "answer": "Ich muss mich beeilen!",
+    "ar": "لازم أستعجل!"
+   },
+   {
+    "tiles": [
+     "muss",
+     "leider",
+     "bis 16 Uhr",
+     "arbeiten",
+     "Ich"
+    ],
+    "answer": "Ich muss leider bis 16 Uhr arbeiten.",
+    "ar": "لازم أشتغل للأسف لحد الساعة 4."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Wollen wir uns am Montag treffen?",
+     "Wollen wir uns treffen am Montag?"
+    ],
+    "answer": 0,
+    "why": "الكماشة: الفعل الأساسي (treffen) بيروح في نهاية الجملة بعد كل الظروف.",
+    "ar": "نتقابل يوم الاتنين؟"
+   },
+   {
+    "options": [
+     "Ich muss mich beeilen.",
+     "Ich muss beeilen mich."
+    ],
+    "answer": 0,
+    "why": "الضمير المنعكس بيجي بعد الفعل المصرّف مباشرة، مش بيروح نهاية الجملة.",
+    "ar": "لازم أستعجل."
+   },
+   {
+    "options": [
+     "Ich muss heute arbeiten.",
+     "Ich müssen heute arbeiten."
+    ],
+    "answer": 0,
+    "why": "müssen مع ich بتتصرّف muss، المصدر الكامل مبيجيش في المركز التاني.",
+    "ar": "لازم أشتغل النهاردة."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "لازم أشتغل النهاردة.",
+    "de": "Ich muss heute arbeiten.",
+    "audio": "audio/a2/s2/tr1.mp3"
+   },
+   {
+    "ar": "مش أقدر أجي يوم الجمعة.",
+    "de": "Ich kann am Freitag nicht kommen.",
+    "audio": "audio/a2/s2/tr2.mp3"
+   },
+   {
+    "ar": "عايزين نتقابل الساعة 7؟",
+    "de": "Wollen wir uns um 19 Uhr treffen?",
+    "audio": "audio/a2/s2/tr3.mp3"
+   },
+   {
+    "ar": "عندي معاد عند الدكتور.",
+    "de": "Ich habe einen Termin beim Arzt.",
+    "audio": "audio/a2/s2/tr4.mp3"
+   },
+   {
+    "ar": "لازم ألغي المعاد للأسف.",
+    "de": "Ich muss den Termin leider absagen.",
+    "audio": "audio/a2/s2/tr5.mp3"
+   },
+   {
+    "ar": "عندك وقت بكرة؟",
+    "de": "Hast du morgen Zeit?",
+    "audio": "audio/a2/s2/tr6.mp3"
+   }
+  ]
+ }
+}
