@@ -1,0 +1,885 @@
+{
+  "id": 23,
+  "level": "a1",
+  "title": "Session 23: Where and where to? (place prepositions)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=YEyE6Vh1IEQ",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "preps",
+      "label": "Place prepositions",
+      "words": [
+        {
+          "de": "auf",
+          "ar": "على / في (سطح أو مكان مفتوح)",
+          "audio": "audio/s23/vocab/01-auf.mp3"
+        },
+        {
+          "de": "in",
+          "ar": "في / إلى (مكان مغلق)",
+          "audio": "audio/s23/vocab/02-in.mp3"
+        },
+        {
+          "de": "an",
+          "ar": "عند / بجانب",
+          "audio": "audio/s23/vocab/03-an.mp3"
+        },
+        {
+          "de": "Wohin?",
+          "ar": "لفين؟ (حركة، Akkusativ)",
+          "audio": "audio/s23/vocab/04-wohin.mp3"
+        },
+        {
+          "de": "Wo?",
+          "ar": "فين؟ (ثبات، Dativ)",
+          "audio": "audio/s23/vocab/05-wo.mp3"
+        },
+        {
+          "de": "im",
+          "ar": "في الـ (in + dem)",
+          "audio": "audio/s23/vocab/06-im.mp3"
+        },
+        {
+          "de": "am",
+          "ar": "عند الـ (an + dem)",
+          "audio": "audio/s23/vocab/07-am.mp3"
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "label": "Places and things",
+      "words": [
+        {
+          "de": "Markt",
+          "ar": "السوق",
+          "audio": "audio/s23/vocab/08-markt.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Supermarkt",
+          "ar": "السوبرماركت",
+          "audio": "audio/s23/vocab/09-supermarkt.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Wohnung",
+          "ar": "الشقة",
+          "audio": "audio/s23/vocab/10-wohnung.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Tisch",
+          "ar": "الطاولة",
+          "audio": "audio/s23/vocab/11-tisch.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Zimmer",
+          "ar": "الأوضة",
+          "audio": "audio/s23/vocab/12-zimmer.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Bett",
+          "ar": "السرير",
+          "audio": "audio/s23/vocab/13-bett.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Tür",
+          "ar": "الباب",
+          "audio": "audio/s23/vocab/14-tuer.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Party",
+          "ar": "الحفلة",
+          "audio": "audio/s23/vocab/15-party.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Heft",
+          "ar": "الكراس",
+          "audio": "audio/s23/vocab/16-heft.mp3",
+          "article": "das"
+        },
+        {
+          "de": "YouTube",
+          "ar": "يوتيوب",
+          "audio": "audio/s23/vocab/17-youtube.mp3"
+        },
+        {
+          "de": "Insta",
+          "ar": "إنستا",
+          "audio": "audio/s23/vocab/18-insta.mp3"
+        }
+      ]
+    },
+    {
+      "id": "motion",
+      "label": "Movement vs staying",
+      "words": [
+        {
+          "de": "gehen",
+          "ar": "يروح (حركة)",
+          "audio": "audio/s23/vocab/19-gehen.mp3"
+        },
+        {
+          "de": "legen",
+          "ar": "يحط (حركة)",
+          "audio": "audio/s23/vocab/20-legen.mp3"
+        },
+        {
+          "de": "sein",
+          "ar": "يكون (ثبات)",
+          "audio": "audio/s23/vocab/21-sein.mp3"
+        },
+        {
+          "de": "liegen",
+          "ar": "يكون موضوع (ثبات)",
+          "audio": "audio/s23/vocab/22-liegen.mp3"
+        },
+        {
+          "de": "sitzen",
+          "ar": "يقعد (ثبات)",
+          "audio": "audio/s23/vocab/23-sitzen.mp3"
+        },
+        {
+          "de": "stehen",
+          "ar": "يقف (ثبات)",
+          "audio": "audio/s23/vocab/24-stehen.mp3"
+        },
+        {
+          "de": "einkaufen",
+          "ar": "يتسوق",
+          "audio": "audio/s23/vocab/25-einkaufen.mp3"
+        },
+        {
+          "de": "rausgehen",
+          "ar": "يطلع برّه",
+          "audio": "audio/s23/vocab/26-rausgehen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "fixed",
+      "label": "Fixed expressions with auf",
+      "words": [
+        {
+          "de": "warten auf",
+          "ar": "يستنى",
+          "audio": "audio/s23/vocab/27-warten-auf.mp3"
+        },
+        {
+          "de": "sich freuen auf",
+          "ar": "يتطلع لـ",
+          "audio": "audio/s23/vocab/28-sich-freuen-auf.mp3"
+        },
+        {
+          "de": "Auf jeden Fall",
+          "ar": "بالتأكيد",
+          "audio": "audio/s23/vocab/29-auf-jeden-fall.mp3"
+        },
+        {
+          "de": "Auf Wiedersehen",
+          "ar": "إلى اللقاء",
+          "audio": "audio/s23/vocab/30-auf-wiedersehen.mp3"
+        },
+        {
+          "de": "Ich warte auf dich",
+          "ar": "أنا مستنيك",
+          "audio": "audio/s23/vocab/31-ich-warte-auf-dich.mp3"
+        },
+        {
+          "de": "Er freut sich auf das Wochenende",
+          "ar": "هو متطلع للويك إند",
+          "audio": "audio/s23/vocab/32-er-freut-sich-auf-das-wochenende.mp3"
+        }
+      ]
+    },
+    {
+      "id": "links",
+      "label": "Linking words",
+      "words": [
+        {
+          "de": "danach",
+          "ar": "بعد كده",
+          "audio": "audio/s23/vocab/33-danach.mp3"
+        },
+        {
+          "de": "entweder ... oder",
+          "ar": "يا ... يا",
+          "audio": "audio/s23/vocab/34-entweder-oder.mp3"
+        },
+        {
+          "de": "sobald",
+          "ar": "أول ما",
+          "audio": "audio/s23/vocab/35-sobald.mp3"
+        },
+        {
+          "de": "damit",
+          "ar": "لكي",
+          "audio": "audio/s23/vocab/36-damit.mp3"
+        },
+        {
+          "de": "weil",
+          "ar": "لأن",
+          "audio": "audio/s23/vocab/37-weil.mp3"
+        },
+        {
+          "de": "jetzt",
+          "ar": "دلوقتي",
+          "audio": "audio/s23/vocab/38-jetzt.mp3"
+        },
+        {
+          "de": "Sitzt du oder stehst du?",
+          "ar": "بتقعد ولا واقف؟",
+          "audio": "audio/s23/vocab/39-sitzt-du-oder-stehst-du.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich gehe auf den Markt.",
+      "ar": "أنا رايح السوق.",
+      "audio": "audio/s23/s01-ich-gehe-auf-den-markt.mp3"
+    },
+    {
+      "de": "Ich bin auf dem Markt.",
+      "ar": "أنا في السوق.",
+      "audio": "audio/s23/s02-ich-bin-auf-dem-markt.mp3"
+    },
+    {
+      "de": "Ich lege das Buch auf den Tisch.",
+      "ar": "أنا بحط الكتاب على الطاولة.",
+      "audio": "audio/s23/s03-ich-lege-das-buch-auf-den-tisch.mp3"
+    },
+    {
+      "de": "Wir gehen auf eine Party.",
+      "ar": "إحنا رايحين حفلة.",
+      "audio": "audio/s23/s04-wir-gehen-auf-eine-party.mp3"
+    },
+    {
+      "de": "Ich bin auf YouTube.",
+      "ar": "أنا على يوتيوب.",
+      "audio": "audio/s23/s05-ich-bin-auf-youtube.mp3"
+    },
+    {
+      "de": "Ich warte auf dich.",
+      "ar": "أنا مستنيك.",
+      "audio": "audio/s23/s06-ich-warte-auf-dich.mp3"
+    },
+    {
+      "de": "Er freut sich auf das Wochenende.",
+      "ar": "هو متطلع للويك إند.",
+      "audio": "audio/s23/s07-er-freut-sich-auf-das-wochenende.mp3"
+    },
+    {
+      "de": "Ich warte auf dich, weil ich Zeit habe.",
+      "ar": "أنا مستنيك لأن عندي وقت.",
+      "audio": "audio/s23/s08-ich-warte-auf-dich-weil-ich-zeit-habe.mp3"
+    },
+    {
+      "de": "Ich gehe in den Supermarkt.",
+      "ar": "أنا رايح السوبرماركت.",
+      "audio": "audio/s23/s09-ich-gehe-in-den-supermarkt.mp3"
+    },
+    {
+      "de": "Ich bin im Zimmer.",
+      "ar": "أنا في الأوضة.",
+      "audio": "audio/s23/s10-ich-bin-im-zimmer.mp3"
+    },
+    {
+      "de": "Ich sitze am Tisch.",
+      "ar": "أنا قاعد عند الطاولة.",
+      "audio": "audio/s23/s11-ich-sitze-am-tisch.mp3"
+    },
+    {
+      "de": "Ich gehe an die Tür.",
+      "ar": "أنا رايح عند الباب.",
+      "audio": "audio/s23/s12-ich-gehe-an-die-tuer.mp3"
+    },
+    {
+      "de": "Wo bist du jetzt?",
+      "ar": "إنت فين دلوقتي؟",
+      "audio": "audio/s23/s13-wo-bist-du-jetzt.mp3"
+    },
+    {
+      "de": "Ich bin in dem Zimmer.",
+      "ar": "أنا في الأوضة.",
+      "audio": "audio/s23/s14-ich-bin-in-dem-zimmer.mp3"
+    },
+    {
+      "de": "Sitzt du oder stehst du?",
+      "ar": "بتقعد ولا واقف؟",
+      "audio": "audio/s23/s15-sitzt-du-oder-stehst-du.mp3"
+    },
+    {
+      "de": "Was liegt auf dem Tisch?",
+      "ar": "إيه الموضوع على الطاولة؟",
+      "audio": "audio/s23/s16-was-liegt-auf-dem-tisch.mp3"
+    },
+    {
+      "de": "Das Handy liegt auf dem Tisch.",
+      "ar": "الموبايل على الطاولة.",
+      "audio": "audio/s23/s17-das-handy-liegt-auf-dem-tisch.mp3"
+    },
+    {
+      "de": "Gehst du jetzt raus?",
+      "ar": "هتطلع دلوقتي؟",
+      "audio": "audio/s23/s18-gehst-du-jetzt-raus.mp3"
+    },
+    {
+      "de": "Ja, ich gehe in den Supermarkt. Danach gehe ich auf den Markt.",
+      "ar": "أيوه، رايح السوبرماركت. وبعدها السوق.",
+      "audio": "audio/s23/s19-ja-ich-gehe-in-den-supermarkt-danach-gehe-ic.mp3"
+    },
+    {
+      "de": "Wohin gehst du?",
+      "ar": "رايح فين؟",
+      "audio": "audio/s23/s20-wohin-gehst-du.mp3"
+    },
+    {
+      "de": "Wo bist du?",
+      "ar": "إنت فين؟",
+      "audio": "audio/s23/s21-wo-bist-du.mp3"
+    },
+    {
+      "de": "Ich bin im Supermarkt.",
+      "ar": "أنا في السوبرماركت.",
+      "audio": "audio/s23/s22-ich-bin-im-supermarkt.mp3"
+    },
+    {
+      "de": "Ich gehe in die Wohnung.",
+      "ar": "أنا داخل الشقة.",
+      "audio": "audio/s23/s23-ich-gehe-in-die-wohnung.mp3"
+    },
+    {
+      "de": "Ich bin in der Wohnung.",
+      "ar": "أنا في الشقة.",
+      "audio": "audio/s23/s24-ich-bin-in-der-wohnung.mp3"
+    },
+    {
+      "de": "Das Buch liegt auf dem Tisch.",
+      "ar": "الكتاب على الطاولة.",
+      "audio": "audio/s23/s25-das-buch-liegt-auf-dem-tisch.mp3"
+    },
+    {
+      "de": "Ich gehe in den Supermarkt, danach gehe ich auf den Markt.",
+      "ar": "رايح السوبرماركت وبعدها رايح السوق.",
+      "audio": "audio/s23/s26-ich-gehe-in-den-supermarkt-danach-gehe-ich-a.mp3"
+    },
+    {
+      "de": "Wir gehen auf den Markt.",
+      "ar": "إحنا رايحين السوق.",
+      "audio": "audio/s23/s27-wir-gehen-auf-den-markt.mp3"
+    },
+    {
+      "de": "Er geht in die Wohnung.",
+      "ar": "هو داخل الشقة.",
+      "audio": "audio/s23/s28-er-geht-in-die-wohnung.mp3"
+    },
+    {
+      "de": "Ich lege das Buch entweder auf den Tisch oder auf das Bett, damit ich etwas lesen kann.",
+      "ar": "بحط الكتاب يا على الطاولة يا على السرير عشان أقرأ حاجة.",
+      "audio": "audio/s23/s29-ich-lege-das-buch-entweder-auf-den-tisch-ode.mp3"
+    },
+    {
+      "de": "Sobald ich fertig bin, gehe ich in den Supermarkt.",
+      "ar": "أول ما أخلص هروح السوبرماركت.",
+      "audio": "audio/s23/s30-sobald-ich-fertig-bin-gehe-ich-in-den-superm.mp3"
+    },
+    {
+      "de": "Ich sitze am Tisch in dem Zimmer.",
+      "ar": "أنا قاعد عند الطاولة في الأوضة.",
+      "audio": "audio/s23/s31-ich-sitze-am-tisch-in-dem-zimmer.mp3"
+    },
+    {
+      "de": "Auf jeden Fall.",
+      "ar": "بالتأكيد.",
+      "audio": "audio/s23/s32-auf-jeden-fall.mp3"
+    },
+    {
+      "de": "Auf Wiedersehen.",
+      "ar": "إلى اللقاء.",
+      "audio": "audio/s23/s33-auf-wiedersehen.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Markt",
+      "ar": "السوق",
+      "audio": "audio/s23/vocab/08-markt.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Supermarkt",
+      "ar": "السوبرماركت",
+      "audio": "audio/s23/vocab/09-supermarkt.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Wohnung",
+      "ar": "الشقة",
+      "audio": "audio/s23/vocab/10-wohnung.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Tisch",
+      "ar": "الطاولة",
+      "audio": "audio/s23/vocab/11-tisch.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Zimmer",
+      "ar": "الأوضة",
+      "audio": "audio/s23/vocab/12-zimmer.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Bett",
+      "ar": "السرير",
+      "audio": "audio/s23/vocab/13-bett.mp3",
+      "article": "das"
+    },
+    {
+      "de": "warten auf",
+      "ar": "يستنى",
+      "audio": "audio/s23/vocab/27-warten-auf.mp3"
+    },
+    {
+      "de": "danach",
+      "ar": "بعد كده",
+      "audio": "audio/s23/vocab/33-danach.mp3"
+    },
+    {
+      "de": "auf",
+      "ar": "على / في (سطح أو مكان مفتوح)",
+      "audio": "audio/s23/vocab/01-auf.mp3"
+    },
+    {
+      "de": "in",
+      "ar": "في / إلى (مكان مغلق)",
+      "audio": "audio/s23/vocab/02-in.mp3"
+    },
+    {
+      "de": "Wohin?",
+      "ar": "لفين؟ (حركة، Akkusativ)",
+      "audio": "audio/s23/vocab/04-wohin.mp3"
+    },
+    {
+      "de": "Wo?",
+      "ar": "فين؟ (ثبات، Dativ)",
+      "audio": "audio/s23/vocab/05-wo.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich gehe auf ___ Markt.",
+      "options": [
+        "den",
+        "dem",
+        "der"
+      ],
+      "answer": 0,
+      "why": "حركة (gehen) = Akkusativ → den.",
+      "ar": "رايح السوق."
+    },
+    {
+      "prompt": "Ich bin auf ___ Markt.",
+      "options": [
+        "dem",
+        "den",
+        "die"
+      ],
+      "answer": 0,
+      "why": "ثبات (sein) = Dativ → dem.",
+      "ar": "في السوق."
+    },
+    {
+      "prompt": "Ich lege das Handy auf ___ Tisch.",
+      "options": [
+        "den",
+        "dem",
+        "das"
+      ],
+      "answer": 0,
+      "why": "legen = حركة: den.",
+      "ar": "بحط الموبايل."
+    },
+    {
+      "prompt": "Das Handy liegt auf ___ Tisch.",
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "answer": 0,
+      "why": "liegen = ثبات: dem.",
+      "ar": "الموبايل على الطاولة."
+    },
+    {
+      "prompt": "Ich warte ___ dich.",
+      "options": [
+        "auf",
+        "für",
+        "in"
+      ],
+      "answer": 0,
+      "why": "warten auf + Akkusativ.",
+      "ar": "مستنيك."
+    },
+    {
+      "prompt": "Er geht in ___ Wohnung.",
+      "options": [
+        "die",
+        "der",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "حركة + مؤنث: die.",
+      "ar": "داخل الشقة."
+    },
+    {
+      "prompt": "Ich bin in ___ Wohnung.",
+      "options": [
+        "der",
+        "die",
+        "den"
+      ],
+      "answer": 0,
+      "why": "ثبات + مؤنث: der.",
+      "ar": "في الشقة."
+    },
+    {
+      "prompt": "___ bist du? (ثبات)",
+      "options": [
+        "Wo",
+        "Wohin",
+        "Wann"
+      ],
+      "answer": 0,
+      "why": "مع sein: Wo.",
+      "ar": "إنت فين؟"
+    },
+    {
+      "prompt": "___ gehst du? (حركة)",
+      "options": [
+        "Wohin",
+        "Wo",
+        "Was"
+      ],
+      "answer": 0,
+      "why": "مع gehen: Wohin.",
+      "ar": "رايح فين؟"
+    },
+    {
+      "prompt": "Danach ___ ich in den Supermarkt.",
+      "options": [
+        "gehe",
+        "ich",
+        "gehen"
+      ],
+      "answer": 0,
+      "why": "بعد danach الفعل فورًا.",
+      "ar": "بعدها."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلمك المكان: Wohin؟ (حركة، Akkusativ) وWo؟ (ثبات، Dativ) مع auf وin وan، وأفعال legen/liegen وsitzen وwarten auf، وdanach."
+  },
+  "grammar": [
+    {
+      "title": "auf: أماكن مفتوحة وأسطح",
+      "rule": "auf = على/في مكان مفتوح أو سطح. حركة → Akkusativ (auf den Markt). ثبات → Dativ (auf dem Markt). وضع شيء على سطح: auf den Tisch.",
+      "forms": [
+        "Ich gehe auf den Markt.",
+        "Ich bin auf dem Markt.",
+        "Ich lege das Buch auf den Tisch.",
+        "Wir gehen auf eine Party / Ich bin auf YouTube / Insta"
+      ],
+      "examples": [
+        {
+          "de": "Ich gehe auf den Markt.",
+          "ar": "رايح السوق."
+        },
+        {
+          "de": "Ich bin auf dem Markt.",
+          "ar": "في السوق."
+        }
+      ]
+    },
+    {
+      "title": "auf مع أفعال ثابتة (Akkusativ دايمًا)",
+      "rule": "warten auf و sich freuen auf بعدهم Akkusativ. تعبيرات: Auf jeden Fall = بالتأكيد، Auf Wiedersehen = إلى اللقاء.",
+      "forms": [
+        "Ich warte auf dich.",
+        "Er freut sich auf das Wochenende.",
+        "Auf jeden Fall",
+        "Auf Wiedersehen"
+      ],
+      "examples": [
+        {
+          "de": "Ich warte auf dich, weil ich Zeit habe.",
+          "ar": "مستنيك لأن عندي وقت."
+        }
+      ]
+    },
+    {
+      "title": "in و an: مغلق وعند",
+      "rule": "in للأماكن المغلقة. حركة → Akkusativ (in den Supermarkt)، ثبات → Dativ (im Zimmer = in dem Zimmer). an = جنب/عند: Ich sitze am Tisch (an dem). Ich gehe an die Tür.",
+      "forms": [
+        "in den Supermarkt / im Supermarkt",
+        "in die Wohnung / in der Wohnung",
+        "am Tisch",
+        "an die Tür"
+      ],
+      "examples": [
+        {
+          "de": "Ich gehe in den Supermarkt.",
+          "ar": "رايح السوبرماركت."
+        },
+        {
+          "de": "Ich bin im Zimmer.",
+          "ar": "في الأوضة."
+        }
+      ]
+    },
+    {
+      "title": "Wohin؟ Wo؟ الحركة والثبات",
+      "rule": "Wohin؟ مع حركة (gehen, legen) = Akkusativ. Wo؟ مع ثبات (sein, liegen, sitzen) = Dativ. المؤنث: Akk die، Dat der.",
+      "forms": [
+        "Wohin gehst du? → Ich gehe in den Supermarkt.",
+        "Wo bist du? → Ich bin im Supermarkt."
+      ],
+      "examples": [
+        {
+          "de": "Wo bist du jetzt?",
+          "ar": "إنت فين دلوقتي؟"
+        }
+      ]
+    },
+    {
+      "title": "danach والفعل فورًا",
+      "rule": "بعد danach ييجي الفعل فورًا وبعدين الفاعل: Danach gehe ich auf den Markt. وبنربط بـ entweder ... oder و sobald و damit.",
+      "forms": [
+        "Danach gehe ich ...",
+        "entweder ... oder ...",
+        "sobald ich fertig bin, gehe ich ..."
+      ],
+      "examples": [
+        {
+          "de": "Ich gehe in den Supermarkt, danach gehe ich auf den Markt.",
+          "ar": "السوبرماركت وبعدها السوق."
+        }
+      ]
+    },
+    {
+      "title": "ملاحظات على ملف الـ PDF (تصحيحات المصدر)",
+      "rule": "ملف الدرس 23-1 بيعرض الجملة الغلط \"Er wartet auf dich\" لكن مفتاح الإجابة بيصححها من \"für dich\" لـ \"auf dich\"، فاتعلمنا الغلط الصح: warten auf (مش für). وفي ملف 23-2 الجملة الثالثة (Das Handy liegt auf dem Tisch,danach...) غلطتها مسافة ناقصة بعد الفاصلة بس، مش قاعدة، فمتعاملناش معاها كخطأ نحوي. وجملة Ich sitze an den Tisch -> an dem Tisch صح لأن الجلوس ثبات (Dativ).",
+      "forms": [
+        "warten auf (مش für)",
+        "فاصلة + مسافة",
+        "sitzen = Dativ"
+      ],
+      "examples": []
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Ich",
+          "gehe",
+          "auf",
+          "den",
+          "Markt"
+        ],
+        "answer": "Ich gehe auf den Markt",
+        "ar": "أنا رايح السوق."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "bin",
+          "auf",
+          "dem",
+          "Markt"
+        ],
+        "answer": "Ich bin auf dem Markt",
+        "ar": "أنا في السوق."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "lege",
+          "das",
+          "Buch",
+          "auf",
+          "den",
+          "Tisch"
+        ],
+        "answer": "Ich lege das Buch auf den Tisch",
+        "ar": "بحط الكتاب على الطاولة."
+      },
+      {
+        "tiles": [
+          "Das",
+          "Handy",
+          "liegt",
+          "auf",
+          "dem",
+          "Tisch"
+        ],
+        "answer": "Das Handy liegt auf dem Tisch",
+        "ar": "الموبايل على الطاولة."
+      },
+      {
+        "tiles": [
+          "Danach",
+          "gehe",
+          "ich",
+          "auf",
+          "den",
+          "Markt"
+        ],
+        "answer": "Danach gehe ich auf den Markt",
+        "ar": "بعدها بروح السوق."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "bin",
+          "im",
+          "Supermarkt"
+        ],
+        "answer": "Ich bin im Supermarkt",
+        "ar": "أنا في السوبرماركت."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich bin auf dem Markt.",
+          "Ich bin auf den Markt."
+        ],
+        "answer": 0,
+        "why": "ثبات: dem.",
+        "ar": "في السوق."
+      },
+      {
+        "options": [
+          "Er wartet auf dich.",
+          "Er wartet für dich."
+        ],
+        "answer": 0,
+        "why": "warten auf.",
+        "ar": "مستنيك."
+      },
+      {
+        "options": [
+          "Ich lege das Heft auf den Tisch.",
+          "Ich lege das Heft auf dem Tisch."
+        ],
+        "answer": 0,
+        "why": "legen = حركة: den.",
+        "ar": "بحط."
+      },
+      {
+        "options": [
+          "Ich gehe in den Supermarkt.",
+          "Ich gehe in dem Supermarkt."
+        ],
+        "answer": 0,
+        "why": "حركة: den.",
+        "ar": "رايح."
+      },
+      {
+        "options": [
+          "Ich sitze an dem Tisch.",
+          "Ich sitze an den Tisch."
+        ],
+        "answer": 0,
+        "why": "جلوس = ثبات: dem.",
+        "ar": "قاعد."
+      },
+      {
+        "options": [
+          "Danach gehe ich in den Supermarkt.",
+          "Danach ich gehe in den Supermarkt."
+        ],
+        "answer": 0,
+        "why": "الفعل بعد danach.",
+        "ar": "بعدها."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "أنا أذهب إلى السوق.",
+        "de": "Ich gehe auf den Markt.",
+        "audio": "audio/s23/tr1.mp3"
+      },
+      {
+        "ar": "أنا في السوق.",
+        "de": "Ich bin auf dem Markt.",
+        "audio": "audio/s23/tr2.mp3"
+      },
+      {
+        "ar": "أنا أضع الكتاب على الطاولة.",
+        "de": "Ich lege das Buch auf den Tisch.",
+        "audio": "audio/s23/tr3.mp3"
+      },
+      {
+        "ar": "أنا أذهب إلى السوبرماركت.",
+        "de": "Ich gehe in den Supermarkt.",
+        "audio": "audio/s23/tr4.mp3"
+      },
+      {
+        "ar": "الموبايل موضوع على الطاولة.",
+        "de": "Das Handy liegt auf dem Tisch.",
+        "audio": "audio/s23/tr5.mp3"
+      },
+      {
+        "ar": "أنا أنتظرك.",
+        "de": "Ich warte auf dich.",
+        "audio": "audio/s23/tr6.mp3"
+      }
+    ]
+  }
+}
