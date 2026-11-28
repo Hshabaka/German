@@ -1,0 +1,482 @@
+{
+ "id": 8,
+ "level": "a2",
+ "title": "Sessions 8+9: My childhood (simple past and als)",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=OV-YNgG31Ic",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=OV-YNgG31Ic"
+ },
+ "vocab": [
+  {
+   "id": "kindheit",
+   "label": "Childhood words",
+   "words": [
+    {
+     "de": "Kindheit",
+     "ar": "الطفولة",
+     "audio": "audio/a2/s8/vocab/01-kindheit.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Fahrrad",
+     "ar": "العجلة",
+     "audio": "audio/a2/s8/vocab/02-fahrrad.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Schule",
+     "ar": "المدرسة",
+     "audio": "audio/a2/s8/vocab/03-schule.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Spielzeug",
+     "ar": "اللعبة",
+     "audio": "audio/a2/s8/vocab/04-spielzeug.mp3",
+     "article": "das"
+    }
+   ]
+  },
+  {
+   "id": "verben",
+   "label": "Verbs",
+   "words": [
+    {
+     "de": "lernen",
+     "ar": "يتعلم / يذاكر",
+     "audio": "audio/a2/s8/vocab/05-lernen.mp3"
+    },
+    {
+     "de": "schwimmen",
+     "ar": "يعوم",
+     "audio": "audio/a2/s8/vocab/06-schwimmen.mp3"
+    },
+    {
+     "de": "spielen",
+     "ar": "يلعب",
+     "audio": "audio/a2/s8/vocab/07-spielen.mp3"
+    },
+    {
+     "de": "klein",
+     "ar": "صغير (في السن / الحجم)",
+     "audio": "audio/a2/s8/vocab/08-klein.mp3"
+    }
+   ]
+  },
+  {
+   "id": "prateritum",
+   "label": "Past forms (Präteritum)",
+   "words": [
+    {
+     "de": "war",
+     "ar": "كان",
+     "audio": "audio/a2/s8/vocab/09-war.mp3"
+    },
+    {
+     "de": "hatte",
+     "ar": "كان عنده",
+     "audio": "audio/a2/s8/vocab/10-hatte.mp3"
+    },
+    {
+     "de": "musste",
+     "ar": "كان يجب",
+     "audio": "audio/a2/s8/vocab/11-musste.mp3"
+    },
+    {
+     "de": "konnte",
+     "ar": "كان يستطيع",
+     "audio": "audio/a2/s8/vocab/12-konnte.mp3"
+    },
+    {
+     "de": "wollte",
+     "ar": "كان يريد",
+     "audio": "audio/a2/s8/vocab/13-wollte.mp3"
+    },
+    {
+     "de": "durfte",
+     "ar": "كان مسموح له",
+     "audio": "audio/a2/s8/vocab/14-durfte.mp3"
+    },
+    {
+     "de": "sollte",
+     "ar": "كان يفترض",
+     "audio": "audio/a2/s8/vocab/15-sollte.mp3"
+    },
+    {
+     "de": "als",
+     "ar": "لما / عندما (رابط زمن)",
+     "audio": "audio/a2/s8/vocab/16-als.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Als ich klein war, hatte ich ein Fahrrad.",
+   "ar": "لما كنت صغير، كان عندي عجلة.",
+   "audio": "audio/a2/s8/s01-als-ich-klein-war-hatte-ich-ein-fahrrad.mp3"
+  },
+  {
+   "de": "Als ich klein war, konnte ich nicht schwimmen.",
+   "ar": "لما كنت صغير، مكنتش أقدر أعوم.",
+   "audio": "audio/a2/s8/s02-als-ich-klein-war-konnte-ich-nicht-schwimmen.mp3"
+  },
+  {
+   "de": "Ich musste gestern sehr viel lernen.",
+   "ar": "كان لازم أذاكر كتير جدًا إمبارح.",
+   "audio": "audio/a2/s8/s03-ich-musste-gestern-sehr-viel-lernen.mp3"
+  },
+  {
+   "de": "Meine Schwester war krank, sie konnte nicht zur Schule gehen.",
+   "ar": "أختي كانت مريضة، مقدرتش تروح المدرسة.",
+   "audio": "audio/a2/s8/s04-meine-schwester-war-krank-sie-konnte-nicht-z.mp3"
+  },
+  {
+   "de": "Als ich 10 Jahre alt war, musste ich lernen.",
+   "ar": "لما كان عندي 10 سنين، كان لازم أذاكر.",
+   "audio": "audio/a2/s8/s05-als-ich-10-jahre-alt-war-musste-ich-lernen.mp3"
+  },
+  {
+   "de": "Als wir in der Schule waren, konnten wir gut spielen.",
+   "ar": "لما كنا في المدرسة، كنا نقدر نلعب كويس.",
+   "audio": "audio/a2/s8/s06-als-wir-in-der-schule-waren-konnten-wir-gut-.mp3"
+  },
+  {
+   "de": "Ich konnte schwimmen.",
+   "ar": "كنت أقدر أعوم.",
+   "audio": "audio/a2/s8/s07-ich-konnte-schwimmen.mp3"
+  },
+  {
+   "de": "Ich wollte spielen.",
+   "ar": "كنت عايز ألعب.",
+   "audio": "audio/a2/s8/s08-ich-wollte-spielen.mp3"
+  },
+  {
+   "de": "Du solltest lernen.",
+   "ar": "كان يفترض تذاكر.",
+   "audio": "audio/a2/s8/s09-du-solltest-lernen.mp3"
+  },
+  {
+   "de": "Ich wollte ein Fahrrad.",
+   "ar": "كنت عايز عجلة.",
+   "audio": "audio/a2/s8/s10-ich-wollte-ein-fahrrad.mp3"
+  },
+  {
+   "de": "Heute muss ich arbeiten, aber damals hatte ich viel Freizeit.",
+   "ar": "النهاردة لازم أشتغل، لكن زمان كان عندي وقت فراغ كتير.",
+   "audio": "audio/a2/s8/s11-heute-muss-ich-arbeiten-aber-damals-hatte-ic.mp3"
+  },
+  {
+   "de": "Gestern bin ich um 8 Uhr aufgestanden.",
+   "ar": "إمبارح قمت الساعة 8.",
+   "audio": "audio/a2/s8/s12-gestern-bin-ich-um-8-uhr-aufgestanden.mp3"
+  },
+  {
+   "de": "Am Wochenende habe ich Pizza gegessen.",
+   "ar": "آخر الأسبوع أكلت بيتزا.",
+   "audio": "audio/a2/s8/s13-am-wochenende-habe-ich-pizza-gegessen.mp3"
+  },
+  {
+   "de": "Als ich klein war, hatte ich ein Spielzeug.",
+   "ar": "لما كنت صغير، كان عندي لعبة.",
+   "audio": "audio/a2/s8/s14-als-ich-klein-war-hatte-ich-ein-spielzeug.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "Kindheit",
+   "ar": "الطفولة",
+   "audio": "audio/a2/s8/vocab/01-kindheit.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Fahrrad",
+   "ar": "العجلة",
+   "audio": "audio/a2/s8/vocab/02-fahrrad.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Schule",
+   "ar": "المدرسة",
+   "audio": "audio/a2/s8/vocab/03-schule.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Spielzeug",
+   "ar": "اللعبة",
+   "audio": "audio/a2/s8/vocab/04-spielzeug.mp3",
+   "article": "das"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Ich ________ gestern sehr müde.",
+   "options": [
+    "war",
+    "hatte",
+    "musste"
+   ],
+   "answer": 0,
+   "why": "التعب وصف للحالة = war (كان).",
+   "ar": "كنت متعب جدًا إمبارح."
+  },
+  {
+   "prompt": "Wir ________ ein kleines Fahrrad.",
+   "options": [
+    "hatten",
+    "waren",
+    "konnten"
+   ],
+   "answer": 0,
+   "why": "امتلاك حاجة = hatte (كان عنده).",
+   "ar": "كان عندنا عجلة صغيرة."
+  },
+  {
+   "prompt": "Ali ________ 10 Jahre alt.",
+   "options": [
+    "war",
+    "hatte",
+    "konnte"
+   ],
+   "answer": 0,
+   "why": "السن وصف = war.",
+   "ar": "علي كان عنده 10 سنين."
+  },
+  {
+   "prompt": "Als ich klein war, ________ ich nicht schwimmen.",
+   "options": [
+    "konnte",
+    "musste",
+    "wollte"
+   ],
+   "answer": 0,
+   "why": "عدم القدرة = konnte.",
+   "ar": "لما كنت صغير مكنتش أقدر أعوم."
+  },
+  {
+   "prompt": "Meine Schwester war krank, sie ________ nicht zur Schule gehen.",
+   "options": [
+    "konnte",
+    "musste",
+    "durfte"
+   ],
+   "answer": 0,
+   "why": "مقدرتش = konnte (مش قدرة).",
+   "ar": "أختي كانت مريضة مقدرتش تروح المدرسة."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "حلقتي ٨ و٩ في صفحة واحدة: أيام الطفولة والماضي البسيط. هتتعلم كان/كان عنده (war/hatte) والأفعال الشكلية في الماضي (musste/konnte/wollte)، وتحكي عن زمان برابط als اللي بيرمي الفعل في الآخر."
+ },
+ "grammar": [
+  {
+   "title": "war / hatte: كان / كان عنده",
+   "rule": "تصريف أنا (ich) هو نفس تصريف هو/هي (er/sie/es) في الماضي البسيط: war للوصف والحالة، وhadte للامتلاك.",
+   "forms": [
+    "ich/er war",
+    "ich/er hatte"
+   ],
+   "examples": [
+    {
+     "de": "Ich war gestern sehr müde.",
+     "ar": "كنت متعب جدًا إمبارح."
+    },
+    {
+     "de": "Wir hatten ein kleines Fahrrad.",
+     "ar": "كان عندنا عجلة صغيرة."
+    }
+   ]
+  },
+  {
+   "title": "musste / konnte: شيل الأوملاوت",
+   "rule": "الأفعال الشكلية في الماضي البسيط: شيل الأوملاوت وضيف -te. müssen ← musste، können ← konnte، وmöchten ملهاش ماضي خاص فنستخدم wollte.",
+   "forms": [
+    "muss - musste",
+    "kann - konnte",
+    "will - wollte",
+    "darf - durfte",
+    "soll - sollte",
+    "möchte - wollte"
+   ],
+   "examples": [
+    {
+     "de": "Ich kann schwimmen. - Ich konnte schwimmen.",
+     "ar": "أقدر أعوم. - كنت أقدر أعوم."
+    },
+    {
+     "de": "Ich möchte ein Fahrrad. - Ich wollte ein Fahrrad.",
+     "ar": "عايز عجلة. - كنت عايز عجلة."
+    }
+   ]
+  },
+  {
+   "title": "als: رابط الزمن",
+   "rule": "als بترمي الفعل في آخر الجملة الأولى، والجملة التانية بتبدأ بالفعل فورًا بعد الفاصلة.",
+   "forms": [
+    "Als + فعل في الآخر, فعل في الأول"
+   ],
+   "examples": [
+    {
+     "de": "Als ich klein war, hatte ich ein Fahrrad.",
+     "ar": "لما كنت صغير، كان عندي عجلة."
+    },
+    {
+     "de": "Als wir in der Schule waren, konnten wir gut spielen.",
+     "ar": "لما كنا في المدرسة، كنا نقدر نلعب كويس."
+    }
+   ]
+  },
+  {
+   "title": "تصريف الأفعال الشكلية كامل",
+   "rule": "في الحاضر والماضي: ich وer/sie/es الفعل واحد من غير نهاية. في الماضي بنشيل الأوملاوت ونضيف -te: konnte/musste/wollte/durfte/sollte.",
+   "forms": [
+    "ich kann - ich konnte",
+    "du kannst - du konntest",
+    "wir können - wir konnten"
+   ],
+   "examples": [
+    {
+     "de": "Du sollst lernen. - Du solltest lernen.",
+     "ar": "يفترض تذاكر. - كان يفترض تذاكر."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "war",
+     "klein",
+     "hatte",
+     "ich",
+     "ein Spielzeug",
+     "Als",
+     "ich"
+    ],
+    "answer": "Als ich klein war, hatte ich ein Spielzeug.",
+    "ar": "لما كنت صغير كان عندي لعبة."
+   },
+   {
+    "tiles": [
+     "war",
+     "10 Jahre alt",
+     "musste",
+     "ich",
+     "lernen",
+     "Als",
+     "ich"
+    ],
+    "answer": "Als ich 10 Jahre alt war, musste ich lernen.",
+    "ar": "لما كان عندي 10 سنين كان لازم أذاكر."
+   },
+   {
+    "tiles": [
+     "waren",
+     "in der Schule",
+     "konnten",
+     "wir",
+     "gut spielen",
+     "Als",
+     "wir"
+    ],
+    "answer": "Als wir in der Schule waren, konnten wir gut spielen.",
+    "ar": "لما كنا في المدرسة كنا نقدر نلعب كويس."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Als ich 10 Jahre alt war, hatte ich ein schönes Fahrrad.",
+     "Als ich 10 Jahre alt war, ich hatte ein schönes Fahrrad."
+    ],
+    "answer": 0,
+    "why": "بعد فاصلة als الجملة التانية بتبدأ بالفعل فورًا: hatte ich مش ich hatte.",
+    "ar": "لما كان عندي 10 سنين كان عندي عجلة حلوة."
+   },
+   {
+    "options": [
+     "Jeden Tag habe ich mit meinen Freunden gespielt.",
+     "Jeden Tag bin ich mit meinen Freunden gespielt."
+    ],
+    "answer": 0,
+    "why": "spielen فعل سكون (مش حركة لمكان) بياخد haben في الماضي التام.",
+    "ar": "كل يوم كنت بلعب مع أصحابي."
+   },
+   {
+    "options": [
+     "Heute muss ich von 8 bis 16 Uhr arbeiten.",
+     "Heute ich muss von 8 bis 16 Uhr arbeiten."
+    ],
+    "answer": 0,
+    "why": "الفعل دايمًا في المركز التاني: heute muss ich.",
+    "ar": "النهاردة لازم أشتغل من 8 لـ 4."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "لما كنت صغير، كان عندي عجلة.",
+    "de": "Als ich klein war, hatte ich ein Fahrrad.",
+    "audio": "audio/a2/s8/tr1.mp3"
+   },
+   {
+    "ar": "لما كنت صغير، مكنتش أقدر أعوم.",
+    "de": "Als ich klein war, konnte ich nicht schwimmen.",
+    "audio": "audio/a2/s8/tr2.mp3"
+   },
+   {
+    "ar": "كان لازم أذاكر كتير.",
+    "de": "Ich musste viel lernen.",
+    "audio": "audio/a2/s8/tr3.mp3"
+   },
+   {
+    "ar": "كنت عايز ألعب، مش أذاكر.",
+    "de": "Ich wollte spielen, nicht lernen.",
+    "audio": "audio/a2/s8/tr4.mp3"
+   },
+   {
+    "ar": "لما كان عندي 10 سنين، كان لازم أروح المدرسة.",
+    "de": "Als ich 10 Jahre alt war, musste ich zur Schule gehen.",
+    "audio": "audio/a2/s8/tr5.mp3"
+   },
+   {
+    "ar": "النهاردة لازم أشتغل كتير.",
+    "de": "Heute muss ich viel arbeiten.",
+    "audio": "audio/a2/s8/tr6.mp3"
+   }
+  ]
+ }
+}
