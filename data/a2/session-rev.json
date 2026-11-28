@@ -1,0 +1,516 @@
+{
+  "id": "rev",
+  "level": "a2",
+  "title": "Review: Goethe Station 1 (Lessons 1-5)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=TVAKhcR3Shw",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel",
+    "open_url": "https://www.youtube.com/watch?v=TVAKhcR3Shw"
+  },
+  "vocab": [
+    {
+      "id": "reflexiv",
+      "label": "Reflexive verbs (lesson 1)",
+      "words": [
+        {
+          "de": "sich waschen",
+          "ar": "يغتسل",
+          "audio": "audio/a2/srev/vocab/01-sich-waschen.mp3"
+        },
+        {
+          "de": "sich anziehen",
+          "ar": "يلبس",
+          "audio": "audio/a2/srev/vocab/02-sich-anziehen.mp3"
+        },
+        {
+          "de": "sich beeilen",
+          "ar": "يستعجل",
+          "audio": "audio/a2/srev/vocab/03-sich-beeilen.mp3"
+        },
+        {
+          "de": "sich treffen",
+          "ar": "يتقابل",
+          "audio": "audio/a2/srev/vocab/04-sich-treffen.mp3"
+        },
+        {
+          "de": "sich fertig machen",
+          "ar": "يجهز نفسه",
+          "audio": "audio/a2/srev/vocab/05-sich-fertig-machen.mp3"
+        },
+        {
+          "de": "sich die Zähne putzen",
+          "ar": "يغسل سنانه",
+          "audio": "audio/a2/srev/vocab/06-sich-die-zaehne-putzen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "modal",
+      "label": "Modal verbs (lesson 2)",
+      "words": [
+        {
+          "de": "müssen",
+          "ar": "لازم",
+          "audio": "audio/a2/srev/vocab/07-muessen.mp3"
+        },
+        {
+          "de": "können",
+          "ar": "يقدر",
+          "audio": "audio/a2/srev/vocab/08-koennen.mp3"
+        },
+        {
+          "de": "wollen",
+          "ar": "عايز",
+          "audio": "audio/a2/srev/vocab/09-wollen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "konnektoren",
+      "label": "Connectors (lesson 3)",
+      "words": [
+        {
+          "de": "denn",
+          "ar": "لأن",
+          "audio": "audio/a2/srev/vocab/10-denn.mp3"
+        },
+        {
+          "de": "aber",
+          "ar": "لكن",
+          "audio": "audio/a2/srev/vocab/11-aber.mp3"
+        },
+        {
+          "de": "oder",
+          "ar": "أو",
+          "audio": "audio/a2/srev/vocab/12-oder.mp3"
+        },
+        {
+          "de": "sondern",
+          "ar": "بل / لكن بعد النفي",
+          "audio": "audio/a2/srev/vocab/13-sondern.mp3"
+        },
+        {
+          "de": "und",
+          "ar": "و",
+          "audio": "audio/a2/srev/vocab/14-und.mp3"
+        }
+      ]
+    },
+    {
+      "id": "story",
+      "label": "Words from the story (lessons 4-5)",
+      "words": [
+        {
+          "de": "Terminplan",
+          "ar": "جدول المواعيد",
+          "audio": "audio/a2/srev/vocab/15-terminplan.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Mantel",
+          "ar": "البالطو",
+          "audio": "audio/a2/srev/vocab/16-mantel.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Onkel",
+          "ar": "العم / الخال",
+          "audio": "audio/a2/srev/vocab/17-onkel.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Tante",
+          "ar": "العمة / الخالة",
+          "audio": "audio/a2/srev/vocab/18-tante.mp3",
+          "article": "die"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Jeden Morgen stehe ich um 7 Uhr auf.",
+      "ar": "كل يوم الصبح بصحى الساعة 7.",
+      "audio": "audio/a2/srev/s01-jeden-morgen-stehe-ich-um-7-uhr-auf.mp3"
+    },
+    {
+      "de": "Zuerst wasche ich mich.",
+      "ar": "أول حاجة بغتسل.",
+      "audio": "audio/a2/srev/s02-zuerst-wasche-ich-mich.mp3"
+    },
+    {
+      "de": "Ich muss heute von 9 bis 17 Uhr arbeiten.",
+      "ar": "لازم اشتغل النهارده من 9 لـ 5.",
+      "audio": "audio/a2/srev/s03-ich-muss-heute-von-9-bis-17-uhr-arbeiten.mp3"
+    },
+    {
+      "de": "Tut mir leid, ich kann heute nicht kommen.",
+      "ar": "متزعلش، مش هقدر ايجي النهارده.",
+      "audio": "audio/a2/srev/s04-tut-mir-leid-ich-kann-heute-nicht-kommen.mp3"
+    },
+    {
+      "de": "Wir können uns morgen treffen.",
+      "ar": "ممكن نتقابل بكرة.",
+      "audio": "audio/a2/srev/s05-wir-koennen-uns-morgen-treffen.mp3"
+    },
+    {
+      "de": "Ich finde diesen Mantel sehr schön.",
+      "ar": "شايف البالطو ده حلو أوي.",
+      "audio": "audio/a2/srev/s06-ich-finde-diesen-mantel-sehr-schoen.mp3"
+    },
+    {
+      "de": "Ich besuche meinen Onkel und meine Tante.",
+      "ar": "بزور عمي وعمتي.",
+      "audio": "audio/a2/srev/s07-ich-besuche-meinen-onkel-und-meine-tante.mp3"
+    },
+    {
+      "de": "Ich wasche mich jetzt, dann ziehe ich mir den Pullover an.",
+      "ar": "بغتسل دلوقتي، وبعدين البس البلوفر.",
+      "audio": "audio/a2/srev/s08-ich-wasche-mich-jetzt-dann-ziehe-ich-mir-den.mp3"
+    },
+    {
+      "de": "Welchen Pullover ziehst du dir an?",
+      "ar": "هتلبس أنهي بلوفر؟",
+      "audio": "audio/a2/srev/s09-welchen-pullover-ziehst-du-dir-an.mp3"
+    },
+    {
+      "de": "Ich bringe meinen Bruder mit.",
+      "ar": "هجيب أخويا معايا.",
+      "audio": "audio/a2/srev/s10-ich-bringe-meinen-bruder-mit.mp3"
+    },
+    {
+      "de": "Wir treffen uns nicht heute, sondern morgen.",
+      "ar": "مش هنتقابل النهارده، بل بكرة.",
+      "audio": "audio/a2/srev/s11-wir-treffen-uns-nicht-heute-sondern-morgen.mp3"
+    },
+    {
+      "de": "Morgen repariert mein Vater sein Auto.",
+      "ar": "بكرة أبويا هيصلح عربيته.",
+      "audio": "audio/a2/srev/s12-morgen-repariert-mein-vater-sein-auto.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Terminplan",
+      "ar": "جدول المواعيد",
+      "audio": "audio/a2/srev/vocab/15-terminplan.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Mantel",
+      "ar": "البالطو",
+      "audio": "audio/a2/srev/vocab/16-mantel.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Onkel",
+      "ar": "العم / الخال",
+      "audio": "audio/a2/srev/vocab/17-onkel.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Tante",
+      "ar": "العمة / الخالة",
+      "audio": "audio/a2/srev/vocab/18-tante.mp3",
+      "article": "die"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Er kann heute nicht kommen. Warum? Er muss ______.",
+      "options": [
+        "arbeiten",
+        "schlafen",
+        "spielen"
+      ],
+      "answer": 0,
+      "why": "من النص: جدوله زحمة ولازم يشتغل من 9 لـ 17.",
+      "ar": "مش هقدر ايجي لأنه لازم يشتغل."
+    },
+    {
+      "prompt": "Ich komme heute nicht, ______ ich bin krank.",
+      "options": [
+        "denn",
+        "aber",
+        "oder"
+      ],
+      "answer": 0,
+      "why": "السبب بعد النقطة = denn.",
+      "ar": "مش هاجي النهارده لأني تعبان."
+    },
+    {
+      "prompt": "Wir gehen nicht ins Kino, ______ wir bleiben zu Hause.",
+      "options": [
+        "sondern",
+        "aber",
+        "denn"
+      ],
+      "answer": 0,
+      "why": "تصحيح النفي (مش كده... بل كده) = sondern.",
+      "ar": "مش هنروح السينما، بل هنقعد في البيت."
+    },
+    {
+      "prompt": "Ich finde das Hemd schön, ______ es ist sehr teuer.",
+      "options": [
+        "aber",
+        "denn",
+        "oder"
+      ],
+      "answer": 0,
+      "why": "تناقض بين حلو وغالي = aber.",
+      "ar": "القميص حلو، لكن غالي أوي."
+    },
+    {
+      "prompt": "Ich besuche heute ______ Onkel.",
+      "options": [
+        "meinen",
+        "mein",
+        "meinem"
+      ],
+      "answer": 0,
+      "why": "العم مذكر der، وفي الأكوزاتيف المذكر بس هو اللي ياخد en: meinen.",
+      "ar": "هزور عمي النهارده."
+    },
+    {
+      "prompt": "Der Tisch ist schön. Ich kaufe ______.",
+      "options": [
+        "ihn",
+        "es",
+        "sie"
+      ],
+      "answer": 0,
+      "why": "التعويض عن der Tisch في الأكوزاتيف = ihn.",
+      "ar": "الترابيزة حلوة. هشتريها."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "مراجعة شاملة على الدروس من 1 لـ 5 بمحاكاة امتحان جوته: الأفعال المنعكسة، الأفعال الشكلية، الروابط الخمسة، أسماء الإشارة dieser/welcher، وأدوات الملكية في الأكوزاتيف. مع نص قراءة وتحدي ترجمة مترابط."
+  },
+  "grammar": [
+    {
+      "title": "الأفعال المنعكسة: mich وال mir؟",
+      "rule": "اسأل نفسك: فيه مفعول (حاجة تانية) في الجملة؟ لو آه يبقى الضمير داتيف (mir/dir)، لو لأ يبقى أكوزاتيف (mich/dich).",
+      "forms": [
+        "ich - mich/mir",
+        "du - dich/dir",
+        "er/sie/es - sich",
+        "wir - uns"
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche mich.",
+          "ar": "بغتسل."
+        },
+        {
+          "de": "Ich putze mir die Zähne.",
+          "ar": "بغسل سناني."
+        }
+      ]
+    },
+    {
+      "title": "الأفعال الشكلية والكماشة",
+      "rule": "müssen لازم، können يقدر، wollen عايز. الفعل الشكلي يتصرف في مكان الفعل، والفعل الأصلي يروح الآخر في المصدر.",
+      "forms": [
+        "ich kann",
+        "du musst",
+        "wir wollen"
+      ],
+      "examples": [
+        {
+          "de": "Ich muss heute arbeiten.",
+          "ar": "لازم اشتغل النهارده."
+        },
+        {
+          "de": "Wollen wir uns am Wochenende treffen?",
+          "ar": "عايزين نتقابل في الويك إند؟"
+        }
+      ]
+    },
+    {
+      "title": "الروابط الخمسة",
+      "rule": "denn للسبب، aber للتناقض، oder للتخيير، sondern للتصحيح بعد النفي، und للإضافة. وكلهم مبيأثروش في ترتيب الجملة.",
+      "forms": [
+        "denn - لأن",
+        "aber - لكن",
+        "sondern - بل",
+        "oder - أو",
+        "und - و"
+      ],
+      "examples": [
+        {
+          "de": "Ich kann nicht kommen, denn ich muss arbeiten.",
+          "ar": "مش هقدر ايجي، لأني لازم اشتغل."
+        },
+        {
+          "de": "Wir treffen uns nicht heute, sondern morgen.",
+          "ar": "مش هنتقابل النهارده، بل بكرة."
+        }
+      ]
+    },
+    {
+      "title": "dieser/welcher والملكية في الأكوزاتيف",
+      "rule": "dies- و welch- بياخدوا نهايات الأداة: dieser/welcher للمذكر، وفي الأكوزاتيف diesen/welchen. والملكية زيها: mein يبقى meinen مع المذكر بس.",
+      "forms": [
+        "dieser Mantel",
+        "diesen Mantel",
+        "meinen Onkel"
+      ],
+      "examples": [
+        {
+          "de": "Welchen Pullover ziehst du dir an?",
+          "ar": "هتلبس أنهي بلوفر؟"
+        },
+        {
+          "de": "Ich bringe meinen Bruder mit.",
+          "ar": "هجيب أخويا معايا."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "wasche",
+          "mich",
+          "Zuerst",
+          "ich"
+        ],
+        "answer": "Zuerst wasche ich mich.",
+        "ar": "أول حاجة بغتسل."
+      },
+      {
+        "tiles": [
+          "kann",
+          "heute",
+          "nicht kommen",
+          "Ich"
+        ],
+        "answer": "Ich kann heute nicht kommen.",
+        "ar": "مش هقدر ايجي النهارده."
+      },
+      {
+        "tiles": [
+          "treffen",
+          "uns",
+          "morgen",
+          "Wir"
+        ],
+        "answer": "Wir treffen uns morgen.",
+        "ar": "هنتقابل بكرة."
+      },
+      {
+        "tiles": [
+          "besuche",
+          "meinen Onkel",
+          "Ich",
+          "heute"
+        ],
+        "answer": "Ich besuche heute meinen Onkel.",
+        "ar": "هزور عمي النهارده."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich wasche mich jeden Tag.",
+          "Ich wasche sich jeden Tag."
+        ],
+        "answer": 0,
+        "why": "الفاعل ich يبقى الضمير المنعكس mich؛ sich للـ er/sie/es.",
+        "ar": "بغتسل كل يوم."
+      },
+      {
+        "options": [
+          "Ich besuche meinen Onkel.",
+          "Ich besuche mein Onkel."
+        ],
+        "answer": 0,
+        "why": "المذكر der في الأكوزاتيف ياخد en: meinen Onkel.",
+        "ar": "بزور عمي."
+      },
+      {
+        "options": [
+          "Wir treffen uns nicht heute, sondern morgen.",
+          "Wir treffen uns nicht heute, aber morgen."
+        ],
+        "answer": 0,
+        "why": "بعد النفي، التصحيح دايمًا sondern مش aber.",
+        "ar": "مش هنتقابل النهارده، بل بكرة."
+      },
+      {
+        "options": [
+          "Ich ziehe mir den Pullover an.",
+          "Ich ziehe mich den Pullover an."
+        ],
+        "answer": 0,
+        "why": "لما بتلبس حاجة (مفعول) يبقى الضمير داتيف: mir/dir مش mich/dich.",
+        "ar": "بلبس البلوفر."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "متى تجهز نفسك؟",
+        "de": "Wann machst du dich fertig?",
+        "audio": "audio/a2/srev/tr1.mp3"
+      },
+      {
+        "ar": "أنا أغتسل الآن، ثم أرتدي البلوفر.",
+        "de": "Ich wasche mich jetzt, dann ziehe ich mir den Pullover an.",
+        "audio": "audio/a2/srev/tr2.mp3"
+      },
+      {
+        "ar": "أنا سأحضر أخي معي.",
+        "de": "Ich bringe meinen Bruder mit.",
+        "audio": "audio/a2/srev/tr3.mp3"
+      },
+      {
+        "ar": "للأسف لا أستطيع المجيء، لأنني يجب أن أزور عمي.",
+        "de": "Ich kann leider nicht kommen, denn ich muss meinen Onkel besuchen.",
+        "audio": "audio/a2/srev/tr4.mp3"
+      },
+      {
+        "ar": "نحن لن نتقابل اليوم، بل غدًا.",
+        "de": "Wir treffen uns nicht heute, sondern morgen.",
+        "audio": "audio/a2/srev/tr5.mp3"
+      },
+      {
+        "ar": "غدًا أبي سيصلح سيارته.",
+        "de": "Morgen repariert mein Vater sein Auto.",
+        "audio": "audio/a2/srev/tr6.mp3"
+      }
+    ]
+  }
+}
