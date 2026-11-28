@@ -4,11 +4,13 @@
 (function () {
   'use strict';
 
-  var SN = parseInt(document.body && document.body.getAttribute('data-session'), 10) || 1;
+  var LV = (document.body && document.body.getAttribute('data-level')) || 'a1';
+  var SID = String((document.body && document.body.getAttribute('data-session')) || '1');
+  var SN = parseInt(SID, 10) || 1; // numeric sessions only; nonnumeric ids ('rev', '15a') keep SID
   var CONFIG = {
-    sessionUrl: 'data/session-' + SN + '.json',
+    sessionUrl: LV === 'a1' ? 'data/session-' + SN + '.json' : 'data/' + LV + '/session-' + SID + '.json',
     progressEndpoint: null, // set to the intermediary URL when it exists, e.g. 'https://<worker>/progress'
-    localKey: SN === 1 ? 'german-site.progress.v1' : 'german-site.progress.s' + SN + '.v1'
+    localKey: LV === 'a1' ? (SN === 1 ? 'german-site.progress.v1' : 'german-site.progress.s' + SN + '.v1') : 'german-site.progress.' + LV + 's' + SID + '.v1'
   };
 
   var arNum = function (n) { return String(n); };
@@ -279,7 +281,8 @@
   var NV = { state: 'loading', url: null, expires: 0, video: null, wrap: null, busy: false };
   var REG = { yt: '', nr: '' };
   fetch('data/registry.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (g) {
-    var l = g && g.levels && g.levels.a1 && g.levels.a1.lessons && g.levels.a1.lessons[SN - 1];
+    var ll = g && g.levels && g.levels[LV] && g.levels[LV].lessons || [];
+    var l = ll.filter(function (x) { return String(x.sid != null ? x.sid : x.n) === SID; })[0] || null;
     if (l && /^https:\/\/app\.notion\.com\//.test(l.notion_row || '')) REG.nr = l.notion_row;
     if (l && /^https:\/\/www\.youtube\.com\//.test(l.youtube || '') && l.youtube !== REG.yt) { REG.yt = l.youtube; if (state.session) render(); } else if (state.session) render();
   }).catch(function () {});
@@ -287,7 +290,7 @@
   function fetchVideoUrl(done) {
     fetch('data/video-urls.json?t=' + Date.now(), { cache: 'no-store' })
       .then(function (r) { return r.ok ? r.json() : null; })
-      .then(function (d) { var e = d && d['session-' + SN]; done(e && e.url && e.expires_at > nowSec() ? e : null); })
+      .then(function (d) { var k = LV === 'a1' ? 'session-' + SN : LV + '-session-' + SID; var e = d && d[k]; done(e && e.url && e.expires_at > nowSec() ? e : null); })
       .catch(function () { done(null); });
   }
   function swapVideo(e) {
@@ -306,6 +309,15 @@
     if (NV.busy) return; NV.busy = true;
     fetchVideoUrl(function (e) { NV.busy = false; if (e) swapVideo(e); });
   }
+  function sessionVideos() {
+    var s = state.session || {};
+    var list = [];
+    if (Array.isArray(s.videos) && s.videos.length) list = s.videos.slice();
+    else if (s.video) list = [s.video];
+    var seen = {}, out = [];
+    list.forEach(function (v) { var u = v && v.open_url; if (u && !seen[u]) { seen[u] = 1; out.push(v); } });
+    return out;
+  }
   function ytRow() {
     var yt = REG.yt || (state.session && state.session.video && state.session.video.open_url) || '';
     if (!/^https:\/\/www\.youtube\.com\//.test(yt)) return null;
@@ -315,15 +327,15 @@
     if (!REG.nr) return null;
     return el('a', { href: REG.nr, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:3px 11px;border-radius:999px;background:#fff;color:#111;border:1px solid #111;text-decoration:none;margin-inline-start:8px;font-size:13px', 'aria-label': 'Open the session in Notion' }, [el('span', { style: 'display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;border-radius:3px;border:1.3px solid #111;font:700 11px serif', 'aria-hidden': 'true' }, ['N']), 'Notion ↗']);
   }
-  function ytFrame() {
-    var yt = REG.yt || (state.session && state.session.video && state.session.video.open_url) || '';
+  function ytFrame(u0) {
+    var yt = u0 || REG.yt || (state.session && state.session.video && state.session.video.open_url) || '';
     var u = youtubeEmbed(yt);
     if (!u) return null;
     return el('div', { class: 'video-wrap lv-wrap' }, [el('iframe', { src: u + '?rel=0&playsinline=1', title: 'Session video on YouTube', style: 'width:100%;aspect-ratio:16/9;border:0;display:block', allow: 'accelerometer; encrypted-media; picture-in-picture; fullscreen', allowfullscreen: '', referrerpolicy: 'strict-origin-when-cross-origin' })]);
   }
   var AUD = { list: [], el: null, cache: {} };
   fetch('data/audio.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (g) {
-    var l = g && g.a1; if (l && l.length) { AUD.list = l; if (state.session) render(); }
+    var l = g && (g[LV] || (LV === 'a1' ? g.a1 : null)); if (l && l.length) { AUD.list = l; if (state.session) render(); }
   }).catch(function () {});
   function sessionNo() {
     var m = state.session && /(\d+)\s*$/.exec(String(state.session.id || ''));
@@ -360,13 +372,21 @@
   }
   function videoBlock() {
     var kids = [];
-    var yf = ytFrame();
-    if (yf) {
-      kids.push(yf);
+    var vids = sessionVideos();
+    var first = ytFrame(vids.length ? vids[0].open_url : null);
+    if (first) {
+      kids.push(first);
       var row = el('p', { class: 'caption', style: 'margin:8px 0 0;display:flex;flex-wrap:wrap;gap:8px;align-items:center' }, []);
       var yr = ytRow(); if (yr) { var a = yr.firstChild; a.style.marginInlineStart = '0'; row.appendChild(a); }
       var nr = notionRow(); if (nr) row.appendChild(nr);
       kids.push(row);
+      vids.slice(1).forEach(function (v, i) {
+        var f = ytFrame(v.open_url); if (!f) return;
+        kids.push(f);
+        if (v.note) kids.push(el('p', { class: 'caption', style: 'margin:4px 0 0' }, [v.note]));
+        var yl = /^https:\/\/www\.youtube\.com\//.test(v.open_url || '') ? el('p', { class: 'caption', style: 'margin:4px 0 8px' }, [el('a', { href: v.open_url, target: '_blank', rel: 'noopener', style: 'display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:3px 11px;border-radius:999px;background:#c4302b;color:#fff;text-decoration:none;font-size:13px', 'aria-label': 'Open video ' + (i + 2) + ' on YouTube' }, ['\u25b6 YouTube ' + (i + 2) + ' \u2197'])]) : null;
+        if (yl) kids.push(yl);
+      });
       var ar = audioRow(); if (ar) kids.push(ar);
       return el('div', { class: 'lv' }, kids);
     }
@@ -382,6 +402,7 @@
     return el('div', { class: 'lv' }, kids);
   }
   function startVideo(retry) {
+    if (state.session && state.session.video && state.session.video.provider === 'none') return;
     if (!retry) NV.state = 'loading';
     fetchVideoUrl(function (e) {
       if (!e) { NV.state = 'unavailable'; if (state.session) render(); return; }
@@ -403,7 +424,11 @@
   function renderLesson(s) {
     var vid = s.video || {};
     var children = [];
-    children.push(videoBlock());
+    if (vid.provider === 'none') {
+      children.push(el('p', { class: 'caption' }, ['This lesson is PDF-based; there is no video.']));
+    } else {
+      children.push(videoBlock());
+    }
     if (s.lesson && s.lesson.summary) children.push(el('p', {}, [s.lesson.summary]));
     if (s.lesson && s.lesson.challenge) {
       var ch = s.lesson.challenge;
