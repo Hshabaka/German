@@ -1,0 +1,670 @@
+{
+  "id": 26,
+  "level": "a1",
+  "title": "Session 26: The quick storytelling past",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=jw0wNnRmsDw",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "war",
+      "label": "war (was)",
+      "words": [
+        {
+          "de": "bin → war",
+          "ar": "أنا → كنت",
+          "audio": "audio/s26/vocab/01-bin-war.mp3"
+        },
+        {
+          "de": "war",
+          "ar": "كان",
+          "audio": "audio/s26/vocab/02-war.mp3"
+        },
+        {
+          "de": "waren",
+          "ar": "كانوا / كنا",
+          "audio": "audio/s26/vocab/03-waren.mp3"
+        },
+        {
+          "de": "Ich war",
+          "ar": "أنا كنت",
+          "audio": "audio/s26/vocab/04-ich-war.mp3"
+        },
+        {
+          "de": "Wir waren",
+          "ar": "إحنا كنا",
+          "audio": "audio/s26/vocab/05-wir-waren.mp3"
+        },
+        {
+          "de": "krank",
+          "ar": "عيّان",
+          "audio": "audio/s26/vocab/06-krank.mp3"
+        },
+        {
+          "de": "beim Arzt",
+          "ar": "عند الدكتور",
+          "audio": "audio/s26/vocab/07-beim-arzt.mp3"
+        }
+      ]
+    },
+    {
+      "id": "hatte",
+      "label": "hatte (had)",
+      "words": [
+        {
+          "de": "habe → hatte",
+          "ar": "عندي → كان عندي",
+          "audio": "audio/s26/vocab/08-habe-hatte.mp3"
+        },
+        {
+          "de": "hatte",
+          "ar": "كان عنده",
+          "audio": "audio/s26/vocab/09-hatte.mp3"
+        },
+        {
+          "de": "hatten",
+          "ar": "كان عندهم",
+          "audio": "audio/s26/vocab/10-hatten.mp3"
+        },
+        {
+          "de": "Ich hatte",
+          "ar": "أنا كان عندي",
+          "audio": "audio/s26/vocab/11-ich-hatte.mp3"
+        },
+        {
+          "de": "Wir hatten",
+          "ar": "إحنا كان عندنا",
+          "audio": "audio/s26/vocab/12-wir-hatten.mp3"
+        },
+        {
+          "de": "Kopfschmerzen",
+          "ar": "صداع",
+          "audio": "audio/s26/vocab/13-kopfschmerzen.mp3"
+        },
+        {
+          "de": "Angst",
+          "ar": "الخوف",
+          "audio": "audio/s26/vocab/14-angst.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Zeit",
+          "ar": "الوقت",
+          "audio": "audio/s26/vocab/15-zeit.mp3",
+          "article": "die"
+        }
+      ]
+    },
+    {
+      "id": "childhood",
+      "label": "Childhood words",
+      "words": [
+        {
+          "de": "früher",
+          "ar": "زمان / سابقًا",
+          "audio": "audio/s26/vocab/16-frueher.mp3"
+        },
+        {
+          "de": "Auto",
+          "ar": "العربية",
+          "audio": "audio/s26/vocab/17-auto.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Hund",
+          "ar": "الكلب",
+          "audio": "audio/s26/vocab/18-hund.mp3",
+          "article": "der"
+        },
+        {
+          "de": "glücklich",
+          "ar": "سعيد",
+          "audio": "audio/s26/vocab/19-gluecklich.mp3"
+        },
+        {
+          "de": "klein",
+          "ar": "صغير",
+          "audio": "audio/s26/vocab/20-klein.mp3"
+        },
+        {
+          "de": "Stress",
+          "ar": "التوتر",
+          "audio": "audio/s26/vocab/21-stress.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Deutschland",
+          "ar": "ألمانيا",
+          "audio": "audio/s26/vocab/22-deutschland.mp3"
+        },
+        {
+          "de": "Berlin",
+          "ar": "برلين",
+          "audio": "audio/s26/vocab/23-berlin.mp3"
+        },
+        {
+          "de": "gestern",
+          "ar": "إمبارح",
+          "audio": "audio/s26/vocab/24-gestern.mp3"
+        },
+        {
+          "de": "heute",
+          "ar": "النهارده",
+          "audio": "audio/s26/vocab/25-heute.mp3"
+        }
+      ]
+    },
+    {
+      "id": "neg",
+      "label": "Negation",
+      "words": [
+        {
+          "de": "keinen Stress",
+          "ar": "من غير توتر",
+          "audio": "audio/s26/vocab/26-keinen-stress.mp3"
+        },
+        {
+          "de": "einen Hund",
+          "ar": "كلب (Akkusativ)",
+          "audio": "audio/s26/vocab/27-einen-hund.mp3"
+        },
+        {
+          "de": "nicht in Deutschland",
+          "ar": "مش في ألمانيا",
+          "audio": "audio/s26/vocab/28-nicht-in-deutschland.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich bin heute in Berlin.",
+      "ar": "أنا النهارده في برلين.",
+      "audio": "audio/s26/s01-ich-bin-heute-in-berlin.mp3"
+    },
+    {
+      "de": "Ich war gestern in Berlin.",
+      "ar": "أنا كنت إمبارح في برلين.",
+      "audio": "audio/s26/s02-ich-war-gestern-in-berlin.mp3"
+    },
+    {
+      "de": "Ich war krank.",
+      "ar": "أنا كنت عيّان.",
+      "audio": "audio/s26/s03-ich-war-krank.mp3"
+    },
+    {
+      "de": "Ich habe heute Zeit.",
+      "ar": "عندي النهارده وقت.",
+      "audio": "audio/s26/s04-ich-habe-heute-zeit.mp3"
+    },
+    {
+      "de": "Ich hatte gestern Zeit.",
+      "ar": "كان عندي إمبارح وقت.",
+      "audio": "audio/s26/s05-ich-hatte-gestern-zeit.mp3"
+    },
+    {
+      "de": "Ich hatte Kopfschmerzen.",
+      "ar": "كان عندي صداع.",
+      "audio": "audio/s26/s06-ich-hatte-kopfschmerzen.mp3"
+    },
+    {
+      "de": "Ich war beim Arzt und ich hatte Angst.",
+      "ar": "كنت عند الدكتور وكنت خايف.",
+      "audio": "audio/s26/s07-ich-war-beim-arzt-und-ich-hatte-angst.mp3"
+    },
+    {
+      "de": "Wir waren früher klein.",
+      "ar": "إحنا كنا صغيرين زمان.",
+      "audio": "audio/s26/s08-wir-waren-frueher-klein.mp3"
+    },
+    {
+      "de": "Wir waren sehr glücklich.",
+      "ar": "إحنا كنا سعداء جدًا.",
+      "audio": "audio/s26/s09-wir-waren-sehr-gluecklich.mp3"
+    },
+    {
+      "de": "Wir waren nicht in Deutschland.",
+      "ar": "إحنا ما كناش في ألمانيا.",
+      "audio": "audio/s26/s10-wir-waren-nicht-in-deutschland.mp3"
+    },
+    {
+      "de": "Wir hatten einen Hund.",
+      "ar": "كان عندنا كلب.",
+      "audio": "audio/s26/s11-wir-hatten-einen-hund.mp3"
+    },
+    {
+      "de": "Wir hatten ein Auto.",
+      "ar": "كان عندنا عربية.",
+      "audio": "audio/s26/s12-wir-hatten-ein-auto.mp3"
+    },
+    {
+      "de": "Wir hatten keinen Stress.",
+      "ar": "ما كانش عندنا توتر.",
+      "audio": "audio/s26/s13-wir-hatten-keinen-stress.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "früher",
+      "ar": "زمان / سابقًا",
+      "audio": "audio/s26/vocab/16-frueher.mp3"
+    },
+    {
+      "de": "glücklich",
+      "ar": "سعيد",
+      "audio": "audio/s26/vocab/19-gluecklich.mp3"
+    },
+    {
+      "de": "klein",
+      "ar": "صغير",
+      "audio": "audio/s26/vocab/20-klein.mp3"
+    },
+    {
+      "de": "Stress",
+      "ar": "التوتر",
+      "audio": "audio/s26/vocab/21-stress.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Auto",
+      "ar": "العربية",
+      "audio": "audio/s26/vocab/17-auto.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Hund",
+      "ar": "الكلب",
+      "audio": "audio/s26/vocab/18-hund.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Angst",
+      "ar": "الخوف",
+      "audio": "audio/s26/vocab/14-angst.mp3",
+      "article": "die"
+    },
+    {
+      "de": "war",
+      "ar": "كان",
+      "audio": "audio/s26/vocab/02-war.mp3"
+    },
+    {
+      "de": "waren",
+      "ar": "كانوا / كنا",
+      "audio": "audio/s26/vocab/03-waren.mp3"
+    },
+    {
+      "de": "hatte",
+      "ar": "كان عنده",
+      "audio": "audio/s26/vocab/09-hatte.mp3"
+    },
+    {
+      "de": "hatten",
+      "ar": "كان عندهم",
+      "audio": "audio/s26/vocab/10-hatten.mp3"
+    },
+    {
+      "de": "Zeit",
+      "ar": "الوقت",
+      "audio": "audio/s26/vocab/15-zeit.mp3",
+      "article": "die"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich ___ gestern in Berlin.",
+      "options": [
+        "war",
+        "bin",
+        "hatte"
+      ],
+      "answer": 0,
+      "why": "ماضي sein مع ich: war.",
+      "ar": "كنت."
+    },
+    {
+      "prompt": "Ich ___ gestern Zeit.",
+      "options": [
+        "hatte",
+        "habe",
+        "war"
+      ],
+      "answer": 0,
+      "why": "ماضي haben مع ich: hatte.",
+      "ar": "كان عندي."
+    },
+    {
+      "prompt": "Wir ___ früher klein.",
+      "options": [
+        "waren",
+        "war",
+        "hatten"
+      ],
+      "answer": 0,
+      "why": "مع wir: waren.",
+      "ar": "كنا."
+    },
+    {
+      "prompt": "Wir ___ einen Hund.",
+      "options": [
+        "hatten",
+        "hatte",
+        "waren"
+      ],
+      "answer": 0,
+      "why": "مع wir: hatten.",
+      "ar": "كان عندنا."
+    },
+    {
+      "prompt": "Wir hatten ___ Hund.",
+      "options": [
+        "einen",
+        "ein",
+        "eine"
+      ],
+      "answer": 0,
+      "why": "hatten + Akkusativ: einen.",
+      "ar": "كلب."
+    },
+    {
+      "prompt": "Wir hatten ___ Stress.",
+      "options": [
+        "keinen",
+        "kein",
+        "keine"
+      ],
+      "answer": 0,
+      "why": "النفي المذكر Akkusativ: keinen.",
+      "ar": "من غير توتر."
+    },
+    {
+      "prompt": "Wir hatten ___ Auto.",
+      "options": [
+        "ein",
+        "einen",
+        "eine"
+      ],
+      "answer": 0,
+      "why": "محايد: ein.",
+      "ar": "عربية."
+    },
+    {
+      "prompt": "Ich ___ krank.",
+      "options": [
+        "war",
+        "hatte",
+        "habe"
+      ],
+      "answer": 0,
+      "why": "الحالة: war.",
+      "ar": "كنت عيان."
+    },
+    {
+      "prompt": "Ich hatte ___.",
+      "options": [
+        "Kopfschmerzen",
+        "krank",
+        "in Berlin"
+      ],
+      "answer": 0,
+      "why": "hatte + اسم: Kopfschmerzen.",
+      "ar": "صداع."
+    },
+    {
+      "prompt": "Wir waren ___ in Deutschland.",
+      "options": [
+        "nicht",
+        "kein",
+        "keinen"
+      ],
+      "answer": 0,
+      "why": "النفي مع war: nicht.",
+      "ar": "ما كناش."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلمك ماضي الحكايات السريع (Präteritum) لفعلين بس: war (كان) وhatte (كان عنده)، مع ich وwir، وبتحكي عن ذكريات الطفولة."
+  },
+  "grammar": [
+    {
+      "title": "war: ماضي sein",
+      "rule": "bin → war. مع wir: waren. ماضي الحكايات السريع (Präteritum) بنركز فيه على فعلين بس: war وhatte.",
+      "forms": [
+        "ich bin → ich war",
+        "wir sind → wir waren"
+      ],
+      "examples": [
+        {
+          "de": "Ich war gestern in Berlin.",
+          "ar": "كنت إمبارح في برلين."
+        },
+        {
+          "de": "Wir waren sehr glücklich.",
+          "ar": "كنا سعداء."
+        }
+      ]
+    },
+    {
+      "title": "hatte: ماضي haben",
+      "rule": "habe → hatte. مع wir: hatten. وبعده Akkusativ زي haben: einen Hund، keinen Stress.",
+      "forms": [
+        "ich habe → ich hatte",
+        "wir haben → wir hatten"
+      ],
+      "examples": [
+        {
+          "de": "Wir hatten einen Hund.",
+          "ar": "كان عندنا كلب."
+        },
+        {
+          "de": "Wir hatten keinen Stress.",
+          "ar": "ما كانش عندنا توتر."
+        }
+      ]
+    },
+    {
+      "title": "Perfekt ولا Präteritum؟",
+      "rule": "الدرس اللي فات: Perfekt لأحداث (إحنا عملنا إيه). النهارده: war وhatte بس لوصف كنا فين وكان عندنا إيه.",
+      "forms": [
+        "Perfekt: Ich habe gespielt",
+        "Präteritum: Ich war / Ich hatte"
+      ],
+      "examples": [
+        {
+          "de": "Ich war beim Arzt und ich hatte Angst.",
+          "ar": "كنت عند الدكتور وخايف."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Ich",
+          "war",
+          "gestern",
+          "in",
+          "Berlin"
+        ],
+        "answer": "Ich war gestern in Berlin",
+        "ar": "كنت إمبارح في برلين."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "hatte",
+          "gestern",
+          "Zeit"
+        ],
+        "answer": "Ich hatte gestern Zeit",
+        "ar": "كان عندي وقت."
+      },
+      {
+        "tiles": [
+          "Wir",
+          "waren",
+          "früher",
+          "klein"
+        ],
+        "answer": "Wir waren früher klein",
+        "ar": "كنا صغيرين زمان."
+      },
+      {
+        "tiles": [
+          "Wir",
+          "hatten",
+          "einen",
+          "Hund"
+        ],
+        "answer": "Wir hatten einen Hund",
+        "ar": "كان عندنا كلب."
+      },
+      {
+        "tiles": [
+          "Wir",
+          "hatten",
+          "keinen",
+          "Stress"
+        ],
+        "answer": "Wir hatten keinen Stress",
+        "ar": "ما كانش عندنا توتر."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "war",
+          "beim",
+          "Arzt",
+          "und",
+          "ich",
+          "hatte",
+          "Angst"
+        ],
+        "answer": "Ich war beim Arzt und ich hatte Angst",
+        "ar": "كنت عند الدكتور وخايف."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich war gestern in Berlin.",
+          "Ich bin gestern in Berlin."
+        ],
+        "answer": 0,
+        "why": "ماضي: war.",
+        "ar": "كنت."
+      },
+      {
+        "options": [
+          "Wir waren sehr glücklich.",
+          "Wir war sehr glücklich."
+        ],
+        "answer": 0,
+        "why": "مع wir: waren.",
+        "ar": "كنا."
+      },
+      {
+        "options": [
+          "Wir hatten einen Hund.",
+          "Wir hatten ein Hund."
+        ],
+        "answer": 0,
+        "why": "Hund مذكر Akk: einen.",
+        "ar": "كلب."
+      },
+      {
+        "options": [
+          "Wir hatten keinen Stress.",
+          "Wir hatten kein Stress."
+        ],
+        "answer": 0,
+        "why": "مذكر Akk: keinen.",
+        "ar": "توتر."
+      },
+      {
+        "options": [
+          "Ich hatte gestern Zeit.",
+          "Ich habe gestern Zeit."
+        ],
+        "answer": 0,
+        "why": "ماضي: hatte.",
+        "ar": "كان عندي."
+      },
+      {
+        "options": [
+          "Wir hatten ein Auto.",
+          "Wir hatte ein Auto."
+        ],
+        "answer": 0,
+        "why": "مع wir: hatten.",
+        "ar": "عربية."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "أنا كنت أمس في برلين.",
+        "de": "Ich war gestern in Berlin.",
+        "audio": "audio/s26/tr1.mp3"
+      },
+      {
+        "ar": "كان لدي صداع.",
+        "de": "Ich hatte Kopfschmerzen.",
+        "audio": "audio/s26/tr2.mp3"
+      },
+      {
+        "ar": "نحن كنا سعداء جدًا.",
+        "de": "Wir waren sehr glücklich.",
+        "audio": "audio/s26/tr3.mp3"
+      },
+      {
+        "ar": "كان لدينا كلب.",
+        "de": "Wir hatten einen Hund.",
+        "audio": "audio/s26/tr4.mp3"
+      },
+      {
+        "ar": "لم يكن لدينا توتر.",
+        "de": "Wir hatten keinen Stress.",
+        "audio": "audio/s26/tr5.mp3"
+      },
+      {
+        "ar": "كنت عند الطبيب وكنت خائفًا.",
+        "de": "Ich war beim Arzt und ich hatte Angst.",
+        "audio": "audio/s26/tr6.mp3"
+      }
+    ]
+  }
+}
