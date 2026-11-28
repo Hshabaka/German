@@ -1,0 +1,687 @@
+{
+  "id": 6,
+  "level": "a1",
+  "title": "Session 6: Travel and being able to buy things",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=TUWARNtdnWU",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "shopping",
+      "label": "Shopping words",
+      "words": [
+        {
+          "de": "Handy",
+          "ar": "الموبايل",
+          "audio": "audio/s6/vocab/01-das-handy.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Ticket",
+          "ar": "التذكرة",
+          "audio": "audio/s6/vocab/02-das-ticket.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Buch",
+          "ar": "الكتاب",
+          "audio": "audio/s6/vocab/03-das-buch.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Auto",
+          "ar": "العربية",
+          "audio": "audio/s6/vocab/04-das-auto.mp3",
+          "article": "das"
+        }
+      ]
+    },
+    {
+      "id": "routine",
+      "label": "Daily routine",
+      "words": [
+        {
+          "de": "arbeiten gehen",
+          "ar": "يذهب للشغل",
+          "audio": "audio/s6/vocab/05-arbeiten-gehen.mp3"
+        },
+        {
+          "de": "einkaufen gehen",
+          "ar": "يذهب للتسوق",
+          "audio": "audio/s6/vocab/06-einkaufen-gehen.mp3"
+        },
+        {
+          "de": "schlafen gehen",
+          "ar": "يذهب للنوم",
+          "audio": "audio/s6/vocab/07-schlafen-gehen.mp3"
+        },
+        {
+          "de": "reisen",
+          "ar": "يسافر",
+          "audio": "audio/s6/vocab/08-reisen.mp3"
+        },
+        {
+          "de": "lernen",
+          "ar": "يتعلم",
+          "audio": "audio/s6/vocab/21-lernen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "describing",
+      "label": "Describing",
+      "words": [
+        {
+          "de": "teuer",
+          "ar": "غالي",
+          "audio": "audio/s6/vocab/09-teuer.mp3"
+        },
+        {
+          "de": "einfach",
+          "ar": "سهل",
+          "audio": "audio/s6/vocab/10-einfach.mp3"
+        },
+        {
+          "de": "schwierig",
+          "ar": "صعب",
+          "audio": "audio/s6/vocab/11-schwierig.mp3"
+        },
+        {
+          "de": "sehr",
+          "ar": "جداً",
+          "audio": "audio/s6/vocab/12-sehr.mp3"
+        }
+      ]
+    },
+    {
+      "id": "er-sie",
+      "label": "Er and Sie",
+      "words": [
+        {
+          "de": "er muss",
+          "ar": "هو لازم",
+          "audio": "audio/s6/vocab/13-er-muss.mp3"
+        },
+        {
+          "de": "sie muss",
+          "ar": "هي لازم",
+          "audio": "audio/s6/vocab/14-sie-muss.mp3"
+        },
+        {
+          "de": "er kann",
+          "ar": "هو يقدر",
+          "audio": "audio/s6/vocab/15-er-kann.mp3"
+        },
+        {
+          "de": "sie kann",
+          "ar": "هي تقدر",
+          "audio": "audio/s6/vocab/16-sie-kann.mp3"
+        }
+      ]
+    },
+    {
+      "id": "small-words",
+      "label": "Small words",
+      "words": [
+        {
+          "de": "für mich",
+          "ar": "بالنسبة لي",
+          "audio": "audio/s6/vocab/17-fuer-mich.mp3"
+        },
+        {
+          "de": "für dich",
+          "ar": "بالنسبة لك",
+          "audio": "audio/s6/vocab/18-fuer-dich.mp3"
+        },
+        {
+          "de": "Entschuldigung",
+          "ar": "معذرة",
+          "audio": "audio/s6/vocab/19-entschuldigung.mp3"
+        },
+        {
+          "de": "es",
+          "ar": "ـه / ـها (للأشياء)",
+          "audio": "audio/s6/vocab/20-es.mp3"
+        },
+        {
+          "de": "jetzt",
+          "ar": "دلوقتي",
+          "audio": "audio/s6/vocab/24-jetzt.mp3"
+        },
+        {
+          "de": "mit dir",
+          "ar": "معاك",
+          "audio": "audio/s6/vocab/22-mit-dir.mp3"
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "label": "Shopping",
+      "words": [
+        {
+          "de": "kaufen",
+          "ar": "يشتري",
+          "audio": "audio/s6/vocab/23-kaufen.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich gehe schlafen.",
+      "ar": "أنا داخل أنام.",
+      "audio": "audio/s6/s01-ich-gehe-schlafen.mp3"
+    },
+    {
+      "de": "Ich muss Deutsch lernen.",
+      "ar": "لازم أتعلم ألماني.",
+      "audio": "audio/s6/s02-ich-muss-deutsch-lernen.mp3"
+    },
+    {
+      "de": "Ich muss mit dir reisen.",
+      "ar": "لازم أسافر معاك.",
+      "audio": "audio/s6/s03-ich-muss-mit-dir-reisen.mp3"
+    },
+    {
+      "de": "Ich muss schlafen gehen.",
+      "ar": "لازم أروح أنام.",
+      "audio": "audio/s6/s04-ich-muss-schlafen-gehen.mp3"
+    },
+    {
+      "de": "Ich muss das kaufen.",
+      "ar": "لازم أشتري ده.",
+      "audio": "audio/s6/s05-ich-muss-das-kaufen.mp3"
+    },
+    {
+      "de": "Das Auto ist sehr teuer für mich, aber ich muss es kaufen.",
+      "ar": "العربية غالية جداً بالنسبة لي، بس لازم أشتريها.",
+      "audio": "audio/s6/s06-das-auto-ist-sehr-teuer.mp3"
+    },
+    {
+      "de": "Er muss arbeiten gehen.",
+      "ar": "هو لازم يروح الشغل.",
+      "audio": "audio/s6/s07-er-muss-arbeiten-gehen.mp3"
+    },
+    {
+      "de": "Sie muss einkaufen gehen.",
+      "ar": "هي لازم تروح تتسوق.",
+      "audio": "audio/s6/s08-sie-muss-einkaufen-gehen.mp3"
+    },
+    {
+      "de": "Das Handy ist sehr teuer, aber er muss es kaufen.",
+      "ar": "الموبايل غالي جداً، بس هو لازم يشتريه.",
+      "audio": "audio/s6/s09-das-handy-ist-sehr-teuer.mp3"
+    },
+    {
+      "de": "Das Ticket ist sehr teuer, aber sie muss es kaufen.",
+      "ar": "التذكرة غالية جداً، بس هي لازم تشتريها.",
+      "audio": "audio/s6/s10-das-ticket-ist-sehr-teuer.mp3"
+    },
+    {
+      "de": "Entschuldigung, er muss jetzt arbeiten gehen.",
+      "ar": "معذرة، هو لازم يروح الشغل دلوقتي.",
+      "audio": "audio/s6/s11-entschuldigung-er-muss-jetzt.mp3"
+    },
+    {
+      "de": "Ich kann nicht mit dir reisen.",
+      "ar": "مش أقدر أسافر معاك.",
+      "audio": "audio/s6/s12-ich-kann-nicht-mit-dir-reisen.mp3"
+    },
+    {
+      "de": "Sie muss jetzt einkaufen gehen.",
+      "ar": "هي لازم تروح تتسوق دلوقتي.",
+      "audio": "audio/s6/s13-sie-muss-jetzt-einkaufen-gehen.mp3"
+    },
+    {
+      "de": "Er kann nicht mit dir reisen.",
+      "ar": "هو مش يقدر يسافر معاك.",
+      "audio": "audio/s6/s14-er-kann-nicht-mit-dir-reisen.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Handy",
+      "article": "das",
+      "ar": "الموبايل",
+      "audio": "audio/s6/vocab/01-das-handy.mp3"
+    },
+    {
+      "de": "Ticket",
+      "article": "das",
+      "ar": "التذكرة",
+      "audio": "audio/s6/vocab/02-das-ticket.mp3"
+    },
+    {
+      "de": "Buch",
+      "article": "das",
+      "ar": "الكتاب",
+      "audio": "audio/s6/vocab/03-das-buch.mp3"
+    },
+    {
+      "de": "Auto",
+      "article": "das",
+      "ar": "العربية",
+      "audio": "audio/s6/vocab/04-das-auto.mp3"
+    },
+    {
+      "de": "arbeiten gehen",
+      "ar": "يروح الشغل",
+      "audio": "audio/s6/vocab/05-arbeiten-gehen.mp3"
+    },
+    {
+      "de": "einkaufen gehen",
+      "ar": "يروح يتسوق",
+      "audio": "audio/s6/vocab/06-einkaufen-gehen.mp3"
+    },
+    {
+      "de": "schlafen gehen",
+      "ar": "يروح ينام",
+      "audio": "audio/s6/vocab/07-schlafen-gehen.mp3"
+    },
+    {
+      "de": "teuer",
+      "ar": "غالي",
+      "audio": "audio/s6/vocab/09-teuer.mp3"
+    },
+    {
+      "de": "einfach",
+      "ar": "سهل",
+      "audio": "audio/s6/vocab/10-einfach.mp3"
+    },
+    {
+      "de": "schwierig",
+      "ar": "صعب",
+      "audio": "audio/s6/vocab/11-schwierig.mp3"
+    },
+    {
+      "de": "Entschuldigung",
+      "ar": "معذرة",
+      "audio": "audio/s6/vocab/19-entschuldigung.mp3"
+    },
+    {
+      "de": "er muss",
+      "ar": "هو لازم",
+      "audio": "audio/s6/vocab/13-er-muss.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Er ______ arbeiten gehen, er hat viel zu tun.",
+      "options": [
+        "muss",
+        "müsse",
+        "musst"
+      ],
+      "answer": 0,
+      "why": "تصريف muss مع er زي ich بالظبط: er muss.",
+      "ar": "هو لازم يروح الشغل، عنده شغل كتير."
+    },
+    {
+      "prompt": "Sie ______ einkaufen gehen, der Kühlschrank ist leer.",
+      "options": [
+        "muss",
+        "musst",
+        "müssen"
+      ],
+      "answer": 0,
+      "why": "مع sie (هي) الفعل المودال زي ich: sie muss.",
+      "ar": "هي لازم تروح تتسوق، التلاجة فاضية."
+    },
+    {
+      "prompt": "Das Handy ist teuer, aber ich muss ______ kaufen.",
+      "options": [
+        "es",
+        "das",
+        "ihn"
+      ],
+      "answer": 0,
+      "why": "بنعوض عن das Handy بـ es في تاني جملة.",
+      "ar": "الموبايل غالي، بس لازم أشتريه."
+    },
+    {
+      "prompt": "Das Ticket ist teuer, aber sie muss ______ kaufen.",
+      "options": [
+        "es",
+        "sie",
+        "das"
+      ],
+      "answer": 0,
+      "why": "das Ticket حيادي، التعويض بـ es.",
+      "ar": "التذكرة غالية، بس هي لازم تشتريها."
+    },
+    {
+      "prompt": "Ich ______ nicht mit dir reisen, ich muss arbeiten.",
+      "options": [
+        "kann",
+        "muss",
+        "will"
+      ],
+      "answer": 0,
+      "why": "مش قادر = kann nicht.",
+      "ar": "مش أقدر أسافر معاك، لازم أشتغل."
+    },
+    {
+      "prompt": "Das ist sehr einfach ______ mich, aber schwierig für dich.",
+      "options": [
+        "für",
+        "mit",
+        "zu"
+      ],
+      "answer": 0,
+      "why": "für mich = بالنسبة لي، für بييجي بعدها mich/dich.",
+      "ar": "ده سهل جداً بالنسبة لي، بس صعب بالنسبة لك."
+    },
+    {
+      "prompt": "______, er muss jetzt arbeiten gehen!",
+      "options": [
+        "Entschuldigung",
+        "Danke",
+        "Bitte"
+      ],
+      "answer": 0,
+      "why": "الاعتذار قبل ما نرفض طلب: Entschuldigung.",
+      "ar": "معذرة، هو لازم يروح الشغل دلوقتي!"
+    },
+    {
+      "prompt": "Ich gehe ______. Ich bin müde.",
+      "options": [
+        "schlafen",
+        "arbeiten",
+        "einkaufen"
+      ],
+      "answer": 0,
+      "why": "تعبان يبقى رايح ينام: schlafen gehen.",
+      "ar": "أنا داخل أنام. أنا تعبان."
+    },
+    {
+      "prompt": "Sie ______ jetzt einkaufen gehen.",
+      "options": [
+        "muss",
+        "musst",
+        "müsst"
+      ],
+      "answer": 0,
+      "why": "sie muss، نفس تصريف ich.",
+      "ar": "هي لازم تروح تتسوق دلوقتي."
+    },
+    {
+      "prompt": "Das Auto ist sehr ______ für mich: 50.000 Euro!",
+      "options": [
+        "teuer",
+        "einfach",
+        "schwierig"
+      ],
+      "answer": 0,
+      "why": "50 ألف يورو يبقى غالي: teuer.",
+      "ar": "العربية غالية جداً بالنسبة لي: ٥٠ ألف يورو!"
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتخرجنا من دايرة 'أنا' وبتفتح هو (er) وهي (sie). الحلو إن الأفعال المودالية مع er/sie بتتصرف زي ich بالظبط: er muss زي ich muss. وكمان حركة صياعة الألمان: التعويض بـ es بدل ما نكرر اسم الحاجة، مع مكعبات التسوق والروتين: das Handy، das Ticket، das Auto، arbeiten gehen، einkaufen gehen."
+  },
+  "grammar": [
+    {
+      "title": "er/sie: نفس تصريف ich",
+      "rule": "الأفعال المودالية مع هو (er) وهي (sie) بتتصرف زي أنا (ich) بالظبط، مفيش أي تغيير: ich muss يبقى er muss وsie muss.",
+      "forms": [
+        "ich muss / er muss / sie muss",
+        "ich kann / er kann / sie kann"
+      ],
+      "examples": [
+        {
+          "de": "Er muss arbeiten gehen.",
+          "ar": "هو لازم يروح الشغل."
+        },
+        {
+          "de": "Sie muss einkaufen gehen.",
+          "ar": "هي لازم تروح تتسوق."
+        }
+      ]
+    },
+    {
+      "title": "التعويض بـ es",
+      "rule": "بدل ما نكرر اسم الحاجة في الجملة التانية، بنعوض عنها بـ es: Das Auto ist teuer, aber ich muss es kaufen. دي حركة بتخليك تتكلم زي النيتف.",
+      "forms": [
+        "das Handy → es",
+        "das Ticket → es",
+        "das Auto → es"
+      ],
+      "examples": [
+        {
+          "de": "Das Handy ist sehr teuer, aber er muss es kaufen.",
+          "ar": "الموبايل غالي جداً، بس هو لازم يشتريه."
+        },
+        {
+          "de": "Das Ticket ist sehr teuer, aber sie muss es kaufen.",
+          "ar": "التذكرة غالية جداً، بس هي لازم تشتريها."
+        }
+      ]
+    },
+    {
+      "title": "gehen + فعل: الروتين اليومي",
+      "rule": "gehen بتتلم على فعل في المصدر وتعمل مكعب واحد معناه يروح يعمل حاجة: arbeiten gehen (يروح الشغل)، einkaufen gehen (يروح يتسوق)، schlafen gehen (يروح ينام). ومع مودال بيروح الاتنين آخر الجملة.",
+      "forms": [
+        "arbeiten gehen",
+        "einkaufen gehen",
+        "schlafen gehen"
+      ],
+      "examples": [
+        {
+          "de": "Er muss arbeiten gehen.",
+          "ar": "هو لازم يروح الشغل."
+        },
+        {
+          "de": "Ich gehe schlafen.",
+          "ar": "أنا داخل أنام."
+        }
+      ]
+    },
+    {
+      "title": "für mich / für dich",
+      "rule": "بعد für الضمير بيبقى mich (لي) أو dich (لك): Das ist einfach für mich, aber schwierig für dich.",
+      "forms": [
+        "für mich = بالنسبة لي",
+        "für dich = بالنسبة لك"
+      ],
+      "examples": [
+        {
+          "de": "Das ist sehr einfach für mich.",
+          "ar": "ده سهل جداً بالنسبة لي."
+        },
+        {
+          "de": "Das ist sehr schwierig für dich.",
+          "ar": "ده صعب جداً بالنسبة لك."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "gehe",
+          "schlafen",
+          "Ich"
+        ],
+        "answer": "Ich gehe schlafen.",
+        "ar": "أنا داخل أنام."
+      },
+      {
+        "tiles": [
+          "muss",
+          "arbeiten",
+          "gehen",
+          "Er"
+        ],
+        "answer": "Er muss arbeiten gehen.",
+        "ar": "هو لازم يروح الشغل."
+      },
+      {
+        "tiles": [
+          "einkaufen",
+          "muss",
+          "Sie",
+          "gehen"
+        ],
+        "answer": "Sie muss einkaufen gehen.",
+        "ar": "هي لازم تروح تتسوق."
+      },
+      {
+        "tiles": [
+          "ist",
+          "Das",
+          "Handy",
+          "teuer",
+          "sehr"
+        ],
+        "answer": "Das Handy ist sehr teuer.",
+        "ar": "الموبايل غالي جداً."
+      },
+      {
+        "tiles": [
+          "kann",
+          "nicht",
+          "mit",
+          "dir",
+          "reisen",
+          "Ich"
+        ],
+        "answer": "Ich kann nicht mit dir reisen.",
+        "ar": "مش أقدر أسافر معاك."
+      },
+      {
+        "tiles": [
+          "muss",
+          "es",
+          "kaufen",
+          "aber",
+          "ich"
+        ],
+        "answer": "Aber ich muss es kaufen.",
+        "ar": "بس لازم أشتريه."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Er muss arbeiten gehen.",
+          "Er müssen arbeiten gehen."
+        ],
+        "answer": 0,
+        "why": "مع er الفعل المودال زي ich: er muss مش er müssen.",
+        "ar": "هو لازم يروح الشغل."
+      },
+      {
+        "options": [
+          "Sie muss einkaufen gehen.",
+          "Sie musst einkaufen gehen."
+        ],
+        "answer": 0,
+        "why": "sie muss زي ich muss، musst دي لـ du.",
+        "ar": "هي لازم تروح تتسوق."
+      },
+      {
+        "options": [
+          "Ich muss es kaufen.",
+          "Ich muss das Handy kaufen das Handy."
+        ],
+        "answer": 0,
+        "why": "منكررش الاسم، بنعوض بـ es.",
+        "ar": "لازم أشتريه."
+      },
+      {
+        "options": [
+          "Das ist einfach für mich.",
+          "Das ist einfach für ich."
+        ],
+        "answer": 0,
+        "why": "بعد für ييجي mich مش ich.",
+        "ar": "ده سهل بالنسبة لي."
+      },
+      {
+        "options": [
+          "Ich gehe schlafen.",
+          "Ich schlafen gehe."
+        ],
+        "answer": 0,
+        "why": "الفعل المصرف gehe في المكان التاني.",
+        "ar": "أنا داخل أنام."
+      },
+      {
+        "options": [
+          "Er kann nicht mit dir reisen.",
+          "Er kann nicht mit du reisen."
+        ],
+        "answer": 0,
+        "why": "بعد mit ييجي dir مش du.",
+        "ar": "هو مش يقدر يسافر معاك."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "هو لازم يروح الشغل دلوقتي.",
+        "de": "Er muss jetzt arbeiten gehen.",
+        "audio": "audio/s6/tr1.mp3"
+      },
+      {
+        "ar": "هي لازم تروح تتسوق.",
+        "de": "Sie muss einkaufen gehen.",
+        "audio": "audio/s6/tr2.mp3"
+      },
+      {
+        "ar": "العربية غالية، بس لازم أشتريها.",
+        "de": "Das Auto ist teuer, aber ich muss es kaufen.",
+        "audio": "audio/s6/tr3.mp3"
+      },
+      {
+        "ar": "أنا داخل أنام.",
+        "de": "Ich gehe schlafen.",
+        "audio": "audio/s6/tr4.mp3"
+      },
+      {
+        "ar": "مش أقدر أسافر معاك.",
+        "de": "Ich kann nicht mit dir reisen.",
+        "audio": "audio/s6/tr5.mp3"
+      },
+      {
+        "ar": "ده سهل بالنسبة لي، بس صعب بالنسبة لك.",
+        "de": "Das ist einfach für mich, aber schwierig für dich.",
+        "audio": "audio/s6/tr6.mp3"
+      }
+    ]
+  }
+}
