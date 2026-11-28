@@ -1,0 +1,1205 @@
+{
+  "id": 28,
+  "level": "a1",
+  "title": "Session 28: The form and the conversation",
+  "video": {
+    "provider": "none",
+    "url": "",
+    "backup": "Copied in Notion",
+    "note": "No video for this session (registry has none)."
+  },
+  "vocab": [
+    {
+      "id": "forms",
+      "label": "Official situations (PDF 28-1)",
+      "words": [
+        {
+          "de": "Formular",
+          "ar": "الاستمارة",
+          "audio": "audio/s28/vocab/01-formular.mp3",
+          "article": "das"
+        },
+        {
+          "de": "ausfüllen",
+          "ar": "يملا بيانات (فعل منفصل)",
+          "audio": "audio/s28/vocab/02-ausfuellen.mp3"
+        },
+        {
+          "de": "Ausweis",
+          "ar": "البطاقة/الهوية",
+          "audio": "audio/s28/vocab/03-ausweis.mp3",
+          "article": "der"
+        },
+        {
+          "de": "buchstabieren",
+          "ar": "يهجّي",
+          "audio": "audio/s28/vocab/04-buchstabieren.mp3"
+        },
+        {
+          "de": "unterschreiben",
+          "ar": "يوقّع",
+          "audio": "audio/s28/vocab/05-unterschreiben.mp3"
+        },
+        {
+          "de": "Karte",
+          "ar": "الكارت",
+          "audio": "audio/s28/vocab/06-karte.mp3",
+          "article": "die"
+        },
+        {
+          "de": "ziehen",
+          "ar": "يسحب",
+          "audio": "audio/s28/vocab/07-ziehen.mp3"
+        },
+        {
+          "de": "Postleitzahl",
+          "ar": "الرمز البريدي (PLZ)",
+          "audio": "audio/s28/vocab/08-postleitzahl.mp3",
+          "article": "die"
+        },
+        {
+          "de": "bitte",
+          "ar": "من فضلك",
+          "audio": "audio/s28/vocab/09-bitte.mp3"
+        },
+        {
+          "de": "Sie",
+          "ar": "حضرتك",
+          "audio": "audio/s28/vocab/10-sie.mp3"
+        }
+      ]
+    },
+    {
+      "id": "formfields",
+      "label": "Form fields (exam training)",
+      "words": [
+        {
+          "de": "Vorname",
+          "ar": "الاسم الأول",
+          "audio": "audio/s28/vocab/11-vorname.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Nachname",
+          "ar": "اسم العيلة",
+          "audio": "audio/s28/vocab/12-nachname.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Geburtsdatum",
+          "ar": "تاريخ الميلاد",
+          "audio": "audio/s28/vocab/13-geburtsdatum.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Geburtsort",
+          "ar": "مكان الميلاد",
+          "audio": "audio/s28/vocab/14-geburtsort.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Land",
+          "ar": "البلد",
+          "audio": "audio/s28/vocab/15-land.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Straße",
+          "ar": "الشارع",
+          "audio": "audio/s28/vocab/16-strasse.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Hausnummer",
+          "ar": "رقم المنزل",
+          "audio": "audio/s28/vocab/17-hausnummer.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Wohnort",
+          "ar": "مكان السكن",
+          "audio": "audio/s28/vocab/18-wohnort.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Beruf",
+          "ar": "المهنة",
+          "audio": "audio/s28/vocab/19-beruf.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Telefonnummer",
+          "ar": "رقم التليفون",
+          "audio": "audio/s28/vocab/20-telefonnummer.mp3",
+          "article": "die"
+        },
+        {
+          "de": "E-Mail-Adresse",
+          "ar": "الإيميل",
+          "audio": "audio/s28/vocab/21-e-mail-adresse.mp3",
+          "article": "die"
+        }
+      ]
+    },
+    {
+      "id": "cards",
+      "label": "Exam cards (Frage stellen)",
+      "words": [
+        {
+          "de": "Kaffee",
+          "ar": "قهوة",
+          "audio": "audio/s28/vocab/22-kaffee.mp3"
+        },
+        {
+          "de": "Wasser",
+          "ar": "ميه",
+          "audio": "audio/s28/vocab/23-wasser.mp3"
+        },
+        {
+          "de": "Familie",
+          "ar": "عيلة",
+          "audio": "audio/s28/vocab/24-familie.mp3"
+        },
+        {
+          "de": "Wochenende",
+          "ar": "ويك إند",
+          "audio": "audio/s28/vocab/25-wochenende.mp3"
+        },
+        {
+          "de": "Sport",
+          "ar": "رياضة",
+          "audio": "audio/s28/vocab/26-sport.mp3"
+        },
+        {
+          "de": "Musik",
+          "ar": "موسيقى",
+          "audio": "audio/s28/vocab/27-musik.mp3"
+        },
+        {
+          "de": "Urlaub",
+          "ar": "إجازة",
+          "audio": "audio/s28/vocab/28-urlaub.mp3"
+        },
+        {
+          "de": "Auto",
+          "ar": "عربية",
+          "audio": "audio/s28/vocab/29-auto.mp3"
+        },
+        {
+          "de": "Bus",
+          "ar": "أتوبيس",
+          "audio": "audio/s28/vocab/30-bus.mp3"
+        },
+        {
+          "de": "Restaurant",
+          "ar": "مطعم",
+          "audio": "audio/s28/vocab/31-restaurant.mp3"
+        },
+        {
+          "de": "Kino",
+          "ar": "سينما",
+          "audio": "audio/s28/vocab/32-kino.mp3"
+        },
+        {
+          "de": "Geburtstag",
+          "ar": "عيد ميلاد",
+          "audio": "audio/s28/vocab/33-geburtstag.mp3"
+        },
+        {
+          "de": "Wohnung",
+          "ar": "شقة",
+          "audio": "audio/s28/vocab/34-wohnung.mp3"
+        },
+        {
+          "de": "Arbeit",
+          "ar": "شغل",
+          "audio": "audio/s28/vocab/35-arbeit.mp3"
+        },
+        {
+          "de": "Schule",
+          "ar": "مدرسة",
+          "audio": "audio/s28/vocab/36-schule.mp3"
+        },
+        {
+          "de": "Einkaufen",
+          "ar": "تسوق",
+          "audio": "audio/s28/vocab/37-einkaufen.mp3"
+        },
+        {
+          "de": "Fußball",
+          "ar": "كورة",
+          "audio": "audio/s28/vocab/38-fussball.mp3"
+        },
+        {
+          "de": "Buch",
+          "ar": "كتاب",
+          "audio": "audio/s28/vocab/39-buch.mp3"
+        },
+        {
+          "de": "Reise",
+          "ar": "سفر",
+          "audio": "audio/s28/vocab/40-reise.mp3"
+        },
+        {
+          "de": "Ferien",
+          "ar": "إجازات",
+          "audio": "audio/s28/vocab/41-ferien.mp3"
+        }
+      ]
+    },
+    {
+      "id": "polite",
+      "label": "Bitte cards",
+      "words": [
+        {
+          "de": "Fenster",
+          "ar": "الشباك",
+          "audio": "audio/s28/vocab/42-fenster.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Tür",
+          "ar": "الباب",
+          "audio": "audio/s28/vocab/43-tuer.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Stift",
+          "ar": "القلم",
+          "audio": "audio/s28/vocab/44-stift.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Handy",
+          "ar": "الموبايل",
+          "audio": "audio/s28/vocab/45-handy.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Hilfe",
+          "ar": "المساعدة",
+          "audio": "audio/s28/vocab/46-hilfe.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Tasche",
+          "ar": "الشنطة",
+          "audio": "audio/s28/vocab/47-tasche.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Geld",
+          "ar": "الفلوس",
+          "audio": "audio/s28/vocab/48-geld.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Uhr",
+          "ar": "الساعة",
+          "audio": "audio/s28/vocab/49-uhr.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Adresse",
+          "ar": "العنوان",
+          "audio": "audio/s28/vocab/50-adresse.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Telefon",
+          "ar": "التليفون",
+          "audio": "audio/s28/vocab/51-telefon.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Supermarkt",
+          "ar": "السوبرماركت",
+          "audio": "audio/s28/vocab/52-supermarkt.mp3",
+          "article": "der"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Füllen Sie bitte das Formular aus!",
+      "ar": "من فضلك املا الاستمارة!",
+      "audio": "audio/s28/s01-fuellen-sie-bitte-das-formular-aus.mp3"
+    },
+    {
+      "de": "Haben Sie einen Ausweis?",
+      "ar": "معاك بطاقة هوية؟",
+      "audio": "audio/s28/s02-haben-sie-einen-ausweis.mp3"
+    },
+    {
+      "de": "Können Sie bitte Ihren Namen buchstabieren?",
+      "ar": "ممكن من فضلك تهجّي اسمك؟",
+      "audio": "audio/s28/s03-koennen-sie-bitte-ihren-namen-buchstabieren.mp3"
+    },
+    {
+      "de": "Unterschreiben Sie bitte hier!",
+      "ar": "من فضلك وقّع هنا!",
+      "audio": "audio/s28/s04-unterschreiben-sie-bitte-hier.mp3"
+    },
+    {
+      "de": "Wie ist Ihre Postleitzahl?",
+      "ar": "إيه الرمز البريدي بتاعك؟",
+      "audio": "audio/s28/s05-wie-ist-ihre-postleitzahl.mp3"
+    },
+    {
+      "de": "Ziehen Sie bitte eine Karte!",
+      "ar": "من فضلك اسحب كارت!",
+      "audio": "audio/s28/s06-ziehen-sie-bitte-eine-karte.mp3"
+    },
+    {
+      "de": "Trinken Sie gern Kaffee?",
+      "ar": "بتحب تشرب قهوة؟",
+      "audio": "audio/s28/s07-trinken-sie-gern-kaffee.mp3"
+    },
+    {
+      "de": "Möchten Sie ein Glas Wasser?",
+      "ar": "تحب كوباية ميه؟",
+      "audio": "audio/s28/s08-moechten-sie-ein-glas-wasser.mp3"
+    },
+    {
+      "de": "Wie groß ist Ihre Familie?",
+      "ar": "عيلتك كبيرة قد إيه؟",
+      "audio": "audio/s28/s09-wie-gross-ist-ihre-familie.mp3"
+    },
+    {
+      "de": "Was machen Sie am Wochenende?",
+      "ar": "بتعمل إيه في الويك إند؟",
+      "audio": "audio/s28/s10-was-machen-sie-am-wochenende.mp3"
+    },
+    {
+      "de": "Machen Sie gern Sport?",
+      "ar": "بتحب الرياضة؟",
+      "audio": "audio/s28/s11-machen-sie-gern-sport.mp3"
+    },
+    {
+      "de": "Hören Sie gern Musik?",
+      "ar": "بتحب تسمع موسيقى؟",
+      "audio": "audio/s28/s12-hoeren-sie-gern-musik.mp3"
+    },
+    {
+      "de": "Wohin fahren Sie im Urlaub?",
+      "ar": "بتسافر فين في الإجازة؟",
+      "audio": "audio/s28/s13-wohin-fahren-sie-im-urlaub.mp3"
+    },
+    {
+      "de": "Haben Sie ein Auto?",
+      "ar": "عندك عربية؟",
+      "audio": "audio/s28/s14-haben-sie-ein-auto.mp3"
+    },
+    {
+      "de": "Fahren Sie oft mit dem Bus?",
+      "ar": "بتركب الأتوبيس كتير؟",
+      "audio": "audio/s28/s15-fahren-sie-oft-mit-dem-bus.mp3"
+    },
+    {
+      "de": "Gehen Sie gern ins Restaurant?",
+      "ar": "بتحب تروح المطعم؟",
+      "audio": "audio/s28/s16-gehen-sie-gern-ins-restaurant.mp3"
+    },
+    {
+      "de": "Wie oft gehen Sie ins Kino?",
+      "ar": "بتروح السينما كام مرة؟",
+      "audio": "audio/s28/s17-wie-oft-gehen-sie-ins-kino.mp3"
+    },
+    {
+      "de": "Wann haben Sie Geburtstag?",
+      "ar": "عيد ميلادك إمتى؟",
+      "audio": "audio/s28/s18-wann-haben-sie-geburtstag.mp3"
+    },
+    {
+      "de": "Wie ist Ihre Wohnung?",
+      "ar": "شقتك عاملة إزاي؟",
+      "audio": "audio/s28/s19-wie-ist-ihre-wohnung.mp3"
+    },
+    {
+      "de": "Was sind Sie von Beruf?",
+      "ar": "إيه مهنتك؟",
+      "audio": "audio/s28/s20-was-sind-sie-von-beruf.mp3"
+    },
+    {
+      "de": "Gehen Sie noch zur Schule?",
+      "ar": "لسه بتروح المدرسة؟",
+      "audio": "audio/s28/s21-gehen-sie-noch-zur-schule.mp3"
+    },
+    {
+      "de": "Wo kaufen Sie gern ein?",
+      "ar": "بتحب تتسوق منين؟",
+      "audio": "audio/s28/s22-wo-kaufen-sie-gern-ein.mp3"
+    },
+    {
+      "de": "Spielen Sie gern Fußball?",
+      "ar": "بتحب تلعب كورة؟",
+      "audio": "audio/s28/s23-spielen-sie-gern-fussball.mp3"
+    },
+    {
+      "de": "Lesen Sie gern Bücher?",
+      "ar": "بتحب تقرا كتب؟",
+      "audio": "audio/s28/s24-lesen-sie-gern-buecher.mp3"
+    },
+    {
+      "de": "Reisen Sie gern?",
+      "ar": "بتحب السفر؟",
+      "audio": "audio/s28/s25-reisen-sie-gern.mp3"
+    },
+    {
+      "de": "Was machen Sie in den Ferien?",
+      "ar": "بتعمل إيه في الإجازة؟",
+      "audio": "audio/s28/s26-was-machen-sie-in-den-ferien.mp3"
+    },
+    {
+      "de": "Kann ich bitte Wasser haben?",
+      "ar": "ممكن ميه من فضلك؟",
+      "audio": "audio/s28/s27-kann-ich-bitte-wasser-haben.mp3"
+    },
+    {
+      "de": "Ich möchte bitte einen Kaffee.",
+      "ar": "عايز قهوة من فضلك.",
+      "audio": "audio/s28/s28-ich-moechte-bitte-einen-kaffee.mp3"
+    },
+    {
+      "de": "Können Sie bitte das Fenster öffnen?",
+      "ar": "ممكن تفتح الشباك؟",
+      "audio": "audio/s28/s29-koennen-sie-bitte-das-fenster-oeffnen.mp3"
+    },
+    {
+      "de": "Können Sie bitte die Tür schließen?",
+      "ar": "ممكن تقفل الباب؟",
+      "audio": "audio/s28/s30-koennen-sie-bitte-die-tuer-schliessen.mp3"
+    },
+    {
+      "de": "Haben Sie bitte einen Stift für mich?",
+      "ar": "معاك قلم من فضلك؟",
+      "audio": "audio/s28/s31-haben-sie-bitte-einen-stift-fuer-mich.mp3"
+    },
+    {
+      "de": "Kann ich bitte das Buch haben?",
+      "ar": "ممكن الكتاب من فضلك؟",
+      "audio": "audio/s28/s32-kann-ich-bitte-das-buch-haben.mp3"
+    },
+    {
+      "de": "Kann ich bitte Ihr Handy benutzen?",
+      "ar": "ممكن أستخدم موبايلك؟",
+      "audio": "audio/s28/s33-kann-ich-bitte-ihr-handy-benutzen.mp3"
+    },
+    {
+      "de": "Können Sie mir bitte helfen?",
+      "ar": "ممكن تساعدني من فضلك؟",
+      "audio": "audio/s28/s34-koennen-sie-mir-bitte-helfen.mp3"
+    },
+    {
+      "de": "Können Sie mir bitte die Tasche geben?",
+      "ar": "ممكن تدّيني الشنطة؟",
+      "audio": "audio/s28/s35-koennen-sie-mir-bitte-die-tasche-geben.mp3"
+    },
+    {
+      "de": "Können Sie mir bitte Geld wechseln?",
+      "ar": "ممكن تصرفلي فلوس؟",
+      "audio": "audio/s28/s36-koennen-sie-mir-bitte-geld-wechseln.mp3"
+    },
+    {
+      "de": "Können Sie mir bitte sagen, wie spät es ist?",
+      "ar": "ممكن تقولي الساعة كام؟",
+      "audio": "audio/s28/s37-koennen-sie-mir-bitte-sagen-wie-spaet-es-ist.mp3"
+    },
+    {
+      "de": "Können Sie mir bitte Ihre Adresse geben?",
+      "ar": "ممكن تدّيني عنوانك؟",
+      "audio": "audio/s28/s38-koennen-sie-mir-bitte-ihre-adresse-geben.mp3"
+    },
+    {
+      "de": "Können Sie mir bitte Ihre Telefonnummer geben?",
+      "ar": "ممكن تدّيني رقم تليفونك؟",
+      "audio": "audio/s28/s39-koennen-sie-mir-bitte-ihre-telefonnummer-geb.mp3"
+    },
+    {
+      "de": "Wie heißen Sie?",
+      "ar": "اسمك إيه؟",
+      "audio": "audio/s28/s40-wie-heissen-sie.mp3"
+    },
+    {
+      "de": "Ich heiße Nour.",
+      "ar": "اسمي نور.",
+      "audio": "audio/s28/s41-ich-heisse-nour.mp3"
+    },
+    {
+      "de": "Mein Name ist Omar.",
+      "ar": "اسمي عمر.",
+      "audio": "audio/s28/s42-mein-name-ist-omar.mp3"
+    },
+    {
+      "de": "Woher kommen Sie?",
+      "ar": "جاي منين؟",
+      "audio": "audio/s28/s43-woher-kommen-sie.mp3"
+    },
+    {
+      "de": "Ich komme aus Ägypten.",
+      "ar": "أنا من مصر.",
+      "audio": "audio/s28/s44-ich-komme-aus-aegypten.mp3"
+    },
+    {
+      "de": "Ich komme aus Syrien.",
+      "ar": "أنا من سوريا.",
+      "audio": "audio/s28/s45-ich-komme-aus-syrien.mp3"
+    },
+    {
+      "de": "Am Wochenende spiele ich Fußball.",
+      "ar": "في الويك إند بلعب كورة.",
+      "audio": "audio/s28/s46-am-wochenende-spiele-ich-fussball.mp3"
+    },
+    {
+      "de": "Ich treffe meine Freunde.",
+      "ar": "بقابل أصحابي.",
+      "audio": "audio/s28/s47-ich-treffe-meine-freunde.mp3"
+    },
+    {
+      "de": "Was essen Sie gern?",
+      "ar": "بتحب تاكل إيه؟",
+      "audio": "audio/s28/s48-was-essen-sie-gern.mp3"
+    },
+    {
+      "de": "Ich esse gern Pizza.",
+      "ar": "بحب آكل بيتزا.",
+      "audio": "audio/s28/s49-ich-esse-gern-pizza.mp3"
+    },
+    {
+      "de": "Ich esse gern Reis mit Hähnchen.",
+      "ar": "بحب آكل رز بفراخ.",
+      "audio": "audio/s28/s50-ich-esse-gern-reis-mit-haehnchen.mp3"
+    },
+    {
+      "de": "Was trinken Sie zum Frühstück?",
+      "ar": "بتشرب إيه في الفطار؟",
+      "audio": "audio/s28/s51-was-trinken-sie-zum-fruehstueck.mp3"
+    },
+    {
+      "de": "Ich trinke Tee zum Frühstück.",
+      "ar": "بشرب شاي في الفطار.",
+      "audio": "audio/s28/s52-ich-trinke-tee-zum-fruehstueck.mp3"
+    },
+    {
+      "de": "Ich trinke Kaffee mit Milch.",
+      "ar": "بشرب قهوة بلبن.",
+      "audio": "audio/s28/s53-ich-trinke-kaffee-mit-milch.mp3"
+    },
+    {
+      "de": "Wo arbeiten Sie?",
+      "ar": "بتشتغل فين؟",
+      "audio": "audio/s28/s54-wo-arbeiten-sie.mp3"
+    },
+    {
+      "de": "Ich arbeite in einem Büro.",
+      "ar": "بشتغل في مكتب.",
+      "audio": "audio/s28/s55-ich-arbeite-in-einem-buero.mp3"
+    },
+    {
+      "de": "Ich arbeite in einem Restaurant.",
+      "ar": "بشتغل في مطعم.",
+      "audio": "audio/s28/s56-ich-arbeite-in-einem-restaurant.mp3"
+    },
+    {
+      "de": "Wie kommen Sie zur Arbeit?",
+      "ar": "بتروح الشغل إزاي؟",
+      "audio": "audio/s28/s57-wie-kommen-sie-zur-arbeit.mp3"
+    },
+    {
+      "de": "Ich fahre mit dem Bus.",
+      "ar": "بروح بالأتوبيس.",
+      "audio": "audio/s28/s58-ich-fahre-mit-dem-bus.mp3"
+    },
+    {
+      "de": "Ich fahre mit dem Auto.",
+      "ar": "بروح بالعربية.",
+      "audio": "audio/s28/s59-ich-fahre-mit-dem-auto.mp3"
+    },
+    {
+      "de": "Wie ist das Wetter heute?",
+      "ar": "الطقس عامل إيه النهارده؟",
+      "audio": "audio/s28/s60-wie-ist-das-wetter-heute.mp3"
+    },
+    {
+      "de": "Das Wetter ist schön und warm.",
+      "ar": "الطقس حلو ودافئ.",
+      "audio": "audio/s28/s61-das-wetter-ist-schoen-und-warm.mp3"
+    },
+    {
+      "de": "Es regnet.",
+      "ar": "بتمطر.",
+      "audio": "audio/s28/s62-es-regnet.mp3"
+    },
+    {
+      "de": "Mein Geburtstag ist am 5. Mai.",
+      "ar": "عيد ميلادي يوم 5 مايو.",
+      "audio": "audio/s28/s63-mein-geburtstag-ist-am-5-mai.mp3"
+    },
+    {
+      "de": "Ich habe im Dezember Geburtstag.",
+      "ar": "عيد ميلادي في ديسمبر.",
+      "audio": "audio/s28/s64-ich-habe-im-dezember-geburtstag.mp3"
+    },
+    {
+      "de": "Wo wohnen Sie?",
+      "ar": "ساكن فين؟",
+      "audio": "audio/s28/s65-wo-wohnen-sie.mp3"
+    },
+    {
+      "de": "Ich wohne in Berlin.",
+      "ar": "أنا ساكن في برلين.",
+      "audio": "audio/s28/s66-ich-wohne-in-berlin.mp3"
+    },
+    {
+      "de": "Ich wohne in einer kleinen Wohnung in Hamburg.",
+      "ar": "أنا ساكن في شقة صغيرة في هامبورج.",
+      "audio": "audio/s28/s67-ich-wohne-in-einer-kleinen-wohnung-in-hambur.mp3"
+    },
+    {
+      "de": "Was kaufen Sie gern im Supermarkt?",
+      "ar": "بتحب تشتري إيه من السوبرماركت؟",
+      "audio": "audio/s28/s68-was-kaufen-sie-gern-im-supermarkt.mp3"
+    },
+    {
+      "de": "Ich kaufe gern Obst und Gemüse.",
+      "ar": "بحب أشتري فاكهة وخضار.",
+      "audio": "audio/s28/s69-ich-kaufe-gern-obst-und-gemuese.mp3"
+    },
+    {
+      "de": "Ich kaufe Brot und Milch.",
+      "ar": "بشتري عيش ولبن.",
+      "audio": "audio/s28/s70-ich-kaufe-brot-und-milch.mp3"
+    },
+    {
+      "de": "Welche Kleidung tragen Sie gern?",
+      "ar": "بتحب تلبس إيه؟",
+      "audio": "audio/s28/s71-welche-kleidung-tragen-sie-gern.mp3"
+    },
+    {
+      "de": "Ich trage gern Jeans und ein T-Shirt.",
+      "ar": "بحب ألبس جينز وتيشيرت.",
+      "audio": "audio/s28/s72-ich-trage-gern-jeans-und-ein-t-shirt.mp3"
+    },
+    {
+      "de": "Ich trage gern einen Pullover.",
+      "ar": "بحب ألبس بلوفر.",
+      "audio": "audio/s28/s73-ich-trage-gern-einen-pullover.mp3"
+    },
+    {
+      "de": "Wie spät ist es jetzt?",
+      "ar": "الساعة كام دلوقتي؟",
+      "audio": "audio/s28/s74-wie-spaet-ist-es-jetzt.mp3"
+    },
+    {
+      "de": "Es ist zehn Uhr.",
+      "ar": "الساعة عشرة.",
+      "audio": "audio/s28/s75-es-ist-zehn-uhr.mp3"
+    },
+    {
+      "de": "Es ist halb drei.",
+      "ar": "الساعة اتنين ونص.",
+      "audio": "audio/s28/s76-es-ist-halb-drei.mp3"
+    },
+    {
+      "de": "Telefonieren Sie oft mit Ihrer Familie?",
+      "ar": "بتكلم عيلتك كتير؟",
+      "audio": "audio/s28/s77-telefonieren-sie-oft-mit-ihrer-familie.mp3"
+    },
+    {
+      "de": "Ja, ich telefoniere jeden Tag mit meiner Familie.",
+      "ar": "أيوه، بكلم عيلتي كل يوم.",
+      "audio": "audio/s28/s78-ja-ich-telefoniere-jeden-tag-mit-meiner-fami.mp3"
+    },
+    {
+      "de": "Ich telefoniere einmal in der Woche.",
+      "ar": "بكلمهم مرة في الأسبوع.",
+      "audio": "audio/s28/s79-ich-telefoniere-einmal-in-der-woche.mp3"
+    },
+    {
+      "de": "Waren Sie schon im Urlaub in Deutschland?",
+      "ar": "روحت إجازة في ألمانيا قبل كده؟",
+      "audio": "audio/s28/s80-waren-sie-schon-im-urlaub-in-deutschland.mp3"
+    },
+    {
+      "de": "Ja, ich war letztes Jahr in Hamburg.",
+      "ar": "أيوه، كنت السنة اللي فاتت في هامبورج.",
+      "audio": "audio/s28/s81-ja-ich-war-letztes-jahr-in-hamburg.mp3"
+    },
+    {
+      "de": "Nein, aber ich möchte gern nach Deutschland reisen.",
+      "ar": "لأ، بس عايز أسافر ألمانيا.",
+      "audio": "audio/s28/s82-nein-aber-ich-moechte-gern-nach-deutschland-.mp3"
+    },
+    {
+      "de": "Haben Sie ein Telefon zu Hause?",
+      "ar": "عندك تليفون في البيت؟",
+      "audio": "audio/s28/s83-haben-sie-ein-telefon-zu-hause.mp3"
+    },
+    {
+      "de": "Was machen Sie gern in der Freizeit?",
+      "ar": "بتحب تعمل إيه في وقت الفراغ؟",
+      "audio": "audio/s28/s84-was-machen-sie-gern-in-der-freizeit.mp3"
+    },
+    {
+      "de": "Ich lese gern Bücher.",
+      "ar": "بحب أقرا كتب.",
+      "audio": "audio/s28/s85-ich-lese-gern-buecher.mp3"
+    },
+    {
+      "de": "Ich höre gern Musik.",
+      "ar": "بحب أسمع موسيقى.",
+      "audio": "audio/s28/s86-ich-hoere-gern-musik.mp3"
+    },
+    {
+      "de": "Wo ist hier ein Supermarkt?",
+      "ar": "فين سوبرماركت هنا؟",
+      "audio": "audio/s28/s87-wo-ist-hier-ein-supermarkt.mp3"
+    },
+    {
+      "de": "Kennen Sie ein gutes Restaurant hier?",
+      "ar": "تعرف مطعم كويس هنا؟",
+      "audio": "audio/s28/s88-kennen-sie-ein-gutes-restaurant-hier.mp3"
+    },
+    {
+      "de": "Ich wohne in einer Wohnung in Hamburg.",
+      "ar": "أنا ساكن في شقة في هامبورج.",
+      "audio": "audio/s28/s89-ich-wohne-in-einer-wohnung-in-hamburg.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Formular",
+      "ar": "الاستمارة",
+      "audio": "audio/s28/vocab/01-formular.mp3",
+      "article": "das"
+    },
+    {
+      "de": "ausfüllen",
+      "ar": "يملا بيانات (فعل منفصل)",
+      "audio": "audio/s28/vocab/02-ausfuellen.mp3"
+    },
+    {
+      "de": "Ausweis",
+      "ar": "البطاقة/الهوية",
+      "audio": "audio/s28/vocab/03-ausweis.mp3",
+      "article": "der"
+    },
+    {
+      "de": "buchstabieren",
+      "ar": "يهجّي",
+      "audio": "audio/s28/vocab/04-buchstabieren.mp3"
+    },
+    {
+      "de": "unterschreiben",
+      "ar": "يوقّع",
+      "audio": "audio/s28/vocab/05-unterschreiben.mp3"
+    },
+    {
+      "de": "Karte",
+      "ar": "الكارت",
+      "audio": "audio/s28/vocab/06-karte.mp3",
+      "article": "die"
+    },
+    {
+      "de": "ziehen",
+      "ar": "يسحب",
+      "audio": "audio/s28/vocab/07-ziehen.mp3"
+    },
+    {
+      "de": "Postleitzahl",
+      "ar": "الرمز البريدي",
+      "audio": "audio/s28/vocab/08-postleitzahl.mp3",
+      "article": "die"
+    },
+    {
+      "de": "bitte",
+      "ar": "من فضلك",
+      "audio": "audio/s28/vocab/09-bitte.mp3"
+    },
+    {
+      "de": "Vorname",
+      "ar": "الاسم الأول",
+      "audio": "audio/s28/vocab/11-vorname.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Nachname",
+      "ar": "اسم العيلة",
+      "audio": "audio/s28/vocab/12-nachname.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Geburtsdatum",
+      "ar": "تاريخ الميلاد",
+      "audio": "audio/s28/vocab/13-geburtsdatum.mp3",
+      "article": "das"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ Sie bitte das Formular aus!",
+      "options": [
+        "Füllen",
+        "Ausfüllen",
+        "Füllt"
+      ],
+      "answer": 0,
+      "why": "أمر رسمي: الفعل في الأول وaus في الآخر.",
+      "ar": "املا."
+    },
+    {
+      "prompt": "Füllen Sie bitte das Formular ___!",
+      "options": [
+        "aus",
+        "ausfüllen",
+        "ab"
+      ],
+      "answer": 0,
+      "why": "ausfüllen منفصل.",
+      "ar": "املا."
+    },
+    {
+      "prompt": "___ Sie einen Ausweis?",
+      "options": [
+        "Haben",
+        "Habt",
+        "Hast"
+      ],
+      "answer": 0,
+      "why": "سؤال رسمي مع Sie: Haben.",
+      "ar": "معاك هوية؟"
+    },
+    {
+      "prompt": "Können Sie bitte Ihren Namen ___?",
+      "options": [
+        "buchstabieren",
+        "buchstabiert",
+        "buchstabierst"
+      ],
+      "answer": 0,
+      "why": "بعد Können: المصدر.",
+      "ar": "تهجّي."
+    },
+    {
+      "prompt": "___ Sie bitte hier!",
+      "options": [
+        "Unterschreiben",
+        "Unterschreibt",
+        "Unterschreibst"
+      ],
+      "answer": 0,
+      "why": "أمر رسمي.",
+      "ar": "وقّع."
+    },
+    {
+      "prompt": "Wie ist Ihre ___?",
+      "options": [
+        "Postleitzahl",
+        "Postleitzahlen",
+        "Postleitzahls"
+      ],
+      "answer": 0,
+      "why": "سؤال عن PLZ.",
+      "ar": "الرمز."
+    },
+    {
+      "prompt": "___ Sie bitte eine Karte!",
+      "options": [
+        "Ziehen",
+        "Zieht",
+        "Zieh"
+      ],
+      "answer": 0,
+      "why": "أمر رسمي.",
+      "ar": "اسحب."
+    },
+    {
+      "prompt": "Kann ich bitte Wasser ___?",
+      "options": [
+        "haben",
+        "habe",
+        "hat"
+      ],
+      "answer": 0,
+      "why": "بعد Kann: المصدر.",
+      "ar": "ميه."
+    },
+    {
+      "prompt": "Können Sie ___ bitte helfen?",
+      "options": [
+        "mir",
+        "mich",
+        "ich"
+      ],
+      "answer": 0,
+      "why": "helfen = Dativ: mir.",
+      "ar": "تساعدني."
+    },
+    {
+      "prompt": "Ich ___ gern Bücher.",
+      "options": [
+        "lese",
+        "liest",
+        "lesen"
+      ],
+      "answer": 0,
+      "why": "مع ich: lese.",
+      "ar": "بقرأ."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتغطي المواقف الرسمية (استمارة، هوية، توقيع، سحب كارت) بأمر الاحترام مع Sie، وبتدرب على أسئلة وإجابات وطلبات امتحان المحادثة."
+  },
+  "grammar": [
+    {
+      "title": "أمر الاحترام مع Sie",
+      "rule": "الفعل في الأول (بنهاية en) + Sie + bitte. الفعل المنفصل ausfüllen: Füllen في الأول وaus في الآخر.",
+      "forms": [
+        "Füllen Sie bitte das Formular aus!",
+        "Unterschreiben Sie bitte hier!",
+        "Ziehen Sie bitte eine Karte!"
+      ],
+      "examples": [
+        {
+          "de": "Füllen Sie bitte das Formular aus!",
+          "ar": "املا الاستمارة!"
+        }
+      ]
+    },
+    {
+      "title": "أسئلة اللجنة الرسمية",
+      "rule": "أسئلة بتسمعها في أي إجراء رسمي.",
+      "forms": [
+        "Haben Sie einen Ausweis?",
+        "Können Sie bitte Ihren Namen buchstabieren?",
+        "Wie ist Ihre Postleitzahl?"
+      ],
+      "examples": [
+        {
+          "de": "Haben Sie einen Ausweis?",
+          "ar": "معاك هوية؟"
+        }
+      ]
+    },
+    {
+      "title": "امتحان المحادثة: ثلاث مهام",
+      "rule": "1) Frage stellen: بتاخد كارت كلمة وبتسأل سؤال. 2) Antworten: بتجاوب على سؤال. 3) Bitte: بتطلب حاجة بأدب (Können Sie ... bitte ...?). كل الأسئلة والإجابات النموذجية متسجلة في الجمل، والبدائل (modelAlt) في صفحة التدريب.",
+      "forms": [
+        "Kaffee → Trinken Sie gern Kaffee? / Wie viel Kaffee trinken Sie am Tag?",
+        "Wasser → Möchten Sie ein Glas Wasser? / Trinken Sie viel Wasser?",
+        "Familie → Wie groß ist Ihre Familie? / Haben Sie Geschwister?",
+        "Sport → Machen Sie gern Sport? / Welchen Sport machen Sie?",
+        "Musik → Hören Sie gern Musik? / Was für Musik hören Sie gern?",
+        "Urlaub → Wohin fahren Sie im Urlaub? / Wann haben Sie Urlaub?",
+        "Wohnung → Wie ist Ihre Wohnung? / Wo wohnen Sie?",
+        "Arbeit → Was sind Sie von Beruf? / Wo arbeiten Sie?",
+        "Reise → Reisen Sie gern? / Wohin möchten Sie reisen?"
+      ],
+      "examples": [
+        {
+          "de": "Können Sie mir bitte helfen?",
+          "ar": "ممكن تساعدني؟"
+        }
+      ]
+    },
+    {
+      "title": "ملاحظة على المصدر: صفحة التدريب",
+      "rule": "تدريب الاستمارة (8 تمارين + الاختبار النهائي) بيشتغل بالصوت والإملاء في صفحة تدريب الامتحان نفسها (materials/a1/lesson-28-exam-training.html)، فمش اتحولت لمقاطع صوت هنا. الجمل النموذجية بس هي اللي في الصوت.",
+      "forms": [
+        "8 تمارين استمارة + استمارة نهائية",
+        "20 كارت أسئلة",
+        "15 سؤال إجابة",
+        "13 كارت طلب",
+        "8 مهام امتحان نهائي"
+      ],
+      "examples": []
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Füllen",
+          "Sie",
+          "bitte",
+          "das",
+          "Formular",
+          "aus"
+        ],
+        "answer": "Füllen Sie bitte das Formular aus",
+        "ar": "املا الاستمارة."
+      },
+      {
+        "tiles": [
+          "Haben",
+          "Sie",
+          "einen",
+          "Ausweis"
+        ],
+        "answer": "Haben Sie einen Ausweis",
+        "ar": "معاك هوية؟"
+      },
+      {
+        "tiles": [
+          "Unterschreiben",
+          "Sie",
+          "bitte",
+          "hier"
+        ],
+        "answer": "Unterschreiben Sie bitte hier",
+        "ar": "وقّع هنا."
+      },
+      {
+        "tiles": [
+          "Ziehen",
+          "Sie",
+          "bitte",
+          "eine",
+          "Karte"
+        ],
+        "answer": "Ziehen Sie bitte eine Karte",
+        "ar": "اسحب كارت."
+      },
+      {
+        "tiles": [
+          "Wie",
+          "ist",
+          "Ihre",
+          "Postleitzahl"
+        ],
+        "answer": "Wie ist Ihre Postleitzahl",
+        "ar": "الرمز البريدي؟"
+      },
+      {
+        "tiles": [
+          "Kann",
+          "ich",
+          "bitte",
+          "Wasser",
+          "haben"
+        ],
+        "answer": "Kann ich bitte Wasser haben",
+        "ar": "ممكن ميه؟"
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Füllen Sie bitte das Formular aus!",
+          "Füllen Sie bitte das Formular!"
+        ],
+        "answer": 0,
+        "why": "ausfüllen: aus في الآخر.",
+        "ar": "املا."
+      },
+      {
+        "options": [
+          "Haben Sie einen Ausweis?",
+          "Sie haben einen Ausweis?"
+        ],
+        "answer": 0,
+        "why": "السؤال: الفعل في الأول.",
+        "ar": "هوية؟"
+      },
+      {
+        "options": [
+          "Können Sie mir bitte helfen?",
+          "Können Sie mich bitte helfen?"
+        ],
+        "answer": 0,
+        "why": "helfen = Dativ.",
+        "ar": "تساعدني."
+      },
+      {
+        "options": [
+          "Ziehen Sie bitte eine Karte!",
+          "Ziehen Sie bitte ein Karte!"
+        ],
+        "answer": 0,
+        "why": "Karte مؤنث: eine.",
+        "ar": "كارت."
+      },
+      {
+        "options": [
+          "Wie ist Ihre Postleitzahl?",
+          "Wie ist Ihr Postleitzahl?"
+        ],
+        "answer": 0,
+        "why": "Postleitzahl مؤنث: Ihre.",
+        "ar": "الرمز."
+      },
+      {
+        "options": [
+          "Ich arbeite in einem Büro.",
+          "Ich arbeite in ein Büro."
+        ],
+        "answer": 0,
+        "why": "in + Dativ: einem.",
+        "ar": "مكتب."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "من فضلك املأ الاستمارة!",
+        "de": "Füllen Sie bitte das Formular aus!",
+        "audio": "audio/s28/tr1.mp3"
+      },
+      {
+        "ar": "هل لديك بطاقة هوية؟",
+        "de": "Haben Sie einen Ausweis?",
+        "audio": "audio/s28/tr2.mp3"
+      },
+      {
+        "ar": "من فضلك وقّع هنا!",
+        "de": "Unterschreiben Sie bitte hier!",
+        "audio": "audio/s28/tr3.mp3"
+      },
+      {
+        "ar": "من فضلك اسحب كارتًا!",
+        "de": "Ziehen Sie bitte eine Karte!",
+        "audio": "audio/s28/tr4.mp3"
+      },
+      {
+        "ar": "هل يمكنك مساعدتي من فضلك؟",
+        "de": "Können Sie mir bitte helfen?",
+        "audio": "audio/s28/tr5.mp3"
+      },
+      {
+        "ar": "اسمي نور.",
+        "de": "Ich heiße Nour.",
+        "audio": "audio/s28/tr6.mp3"
+      }
+    ]
+  }
+}
