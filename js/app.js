@@ -172,6 +172,14 @@
     box.appendChild(el('span', { class: 'audio-err', role: 'status' }, ['Audio is not available right now']));
   }
 
+  /* A2/B1 clips ship only as AUDIO_DATA chunks (no raw mp3 fallback), so a
+     clip whose key is not loaded is shown as unavailable before any click.
+     A1 keeps its historic behavior (chunk or raw-path fallback) untouched. */
+  function chunkOnlyAudioNow() { return LV !== 'a1' || sessionNo() >= 9; } /* A1 s1-8 keep chunk-or-raw-path fallback; A1 s9+ and A2/B1 are chunk-only */
+  function clipReady(src) { return !!(window.AUDIO_DATA && Object.prototype.hasOwnProperty.call(window.AUDIO_DATA, src)); }
+  function clipPlayable(src) { return !!src && (!chunkOnlyAudioNow() || clipReady(src)); }
+  function noAudioChip() { return el('span', { class: 'noaudio', role: 'status', 'aria-label': 'Audio not available yet', title: 'No audio yet' }, ['No audio']); }
+
   function setSync(s) { state.syncState = s; }
 
   function youtubeEmbed(url) {
@@ -542,8 +550,8 @@
         el('span', { class: 'word-de', dir: 'ltr' }, [articleSpan(w.article), w.de]),
         el('span', { class: 'word-ar ar-text' }, [w.ar])
       ]);
-      if (w.audio) return tapRow(li, w.audio, 'Play: ' + w.de);
-      li.appendChild(el('span', { class: 'noaudio', title: 'No audio yet' }, ['No audio']));
+      if (clipPlayable(w.audio)) return tapRow(li, w.audio, 'Play: ' + w.de);
+      li.appendChild(noAudioChip());
       return li;
     }
     var list;
@@ -568,8 +576,8 @@
           el('span', { class: 'sentence-ar ar-text' }, [sent.ar])
         ])
       ]);
-      if (sent.audio) return tapRow(li, sent.audio, 'Play: ' + sent.de);
-      li.appendChild(el('span', { class: 'noaudio', title: 'No audio yet' }, ['No audio']));
+      if (clipPlayable(sent.audio)) return tapRow(li, sent.audio, 'Play: ' + sent.de);
+      li.appendChild(noAudioChip());
       return li;
     }));
     return panel('speaker', 'Listening to sentences', 'Listen, then repeat out loud', [list], 'tone-night', 'span-12', null);
@@ -600,7 +608,7 @@
       ]),
       el('div', { class: 'flash-scene' }, [flash]),
       el('div', { class: 'card-actions' }, [
-        card.audio ? audioButton(card.audio, 'Listen: ' + card.de) : null,
+        clipPlayable(card.audio) ? audioButton(card.audio, 'Listen: ' + card.de) : noAudioChip(),
         el('button', { class: 'btn btn-secondary', type: 'button', onclick: function () { state.revealed = !state.revealed; render(); } }, [state.revealed ? 'Hide' : 'Show meaning']),
         el('button', {
           class: 'btn btn-primary', type: 'button', onclick: function () {
@@ -843,7 +851,11 @@
       var open = !!state.shown[i];
       return el('div', { class: 'quiz-q ctl tr' }, [
         el('div', { class: 'quiz-prompt' }, [el('span', { class: 'quiz-num' }, [String(i + 1)]), el('span', { class: 'ar-text' }, [it.ar])]),
-        open ? tapRow(el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [el('span', {}, [it.de])]), it.audio || ('audio/tr' + (i + 1) + '.mp3'), 'Play: ' + it.de) : null,
+        open ? (function () {
+          var trSrc = it.audio || ('audio/tr' + (i + 1) + '.mp3');
+          var box = el('div', { class: 'feedback reveal', 'data-kind': 'correct', dir: 'ltr' }, [el('span', {}, [it.de])]);
+          return clipPlayable(trSrc) ? tapRow(box, trSrc, 'Play: ' + it.de) : (box.appendChild(noAudioChip()), box);
+        })() : null,
         speechBlock(it, i),
         el('div', { class: 'bq-act' }, [micBtn(it, i), el('button', { class: 'btn btn-secondary reveal-btn', type: 'button', 'aria-label': open ? 'Hide answer' : 'Show answer', 'aria-expanded': String(open), title: open ? 'Hide answer' : 'Show answer', onclick: function () { state.shown[i] = !state.shown[i]; render(); } }, [icon(open ? 'up' : 'down', 20)])])
       ]);
