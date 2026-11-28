@@ -1,0 +1,542 @@
+{
+ "id": 6,
+ "level": "a2",
+ "title": "Sessions 6+7: What did you do yesterday? (Perfekt without ge-)",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=sLagWE-CZyQ",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=sLagWE-CZyQ"
+ },
+ "vocab": [
+  {
+   "id": "rebellen",
+   "label": "Rebel verbs (no ge-)",
+   "words": [
+    {
+     "de": "telefonieren",
+     "ar": "يتصل تليفونيًا (telefoniert)",
+     "audio": "audio/a2/s6/vocab/01-telefonieren.mp3"
+    },
+    {
+     "de": "studieren",
+     "ar": "يدرس في الجامعة (studiert)",
+     "audio": "audio/a2/s6/vocab/02-studieren.mp3"
+    },
+    {
+     "de": "passieren",
+     "ar": "يحصل (passiert - مع sein)",
+     "audio": "audio/a2/s6/vocab/03-passieren.mp3"
+    },
+    {
+     "de": "reparieren",
+     "ar": "يصلح (repariert)",
+     "audio": "audio/a2/s6/vocab/04-reparieren.mp3"
+    },
+    {
+     "de": "fotografieren",
+     "ar": "يصوّر (fotografiert)",
+     "audio": "audio/a2/s6/vocab/05-fotografieren.mp3"
+    },
+    {
+     "de": "besuchen",
+     "ar": "يزور (besucht)",
+     "audio": "audio/a2/s6/vocab/06-besuchen.mp3"
+    },
+    {
+     "de": "bezahlen",
+     "ar": "يدفع الحساب (bezahlt)",
+     "audio": "audio/a2/s6/vocab/07-bezahlen.mp3"
+    },
+    {
+     "de": "verkaufen",
+     "ar": "يبيع (verkauft)",
+     "audio": "audio/a2/s6/vocab/08-verkaufen.mp3"
+    },
+    {
+     "de": "verstehen",
+     "ar": "يفهم (verstanden - شاذ)",
+     "audio": "audio/a2/s6/vocab/09-verstehen.mp3"
+    },
+    {
+     "de": "vergessen",
+     "ar": "ينسى (vergessen - شاذ)",
+     "audio": "audio/a2/s6/vocab/10-vergessen.mp3"
+    },
+    {
+     "de": "erzählen",
+     "ar": "يحكي قصة (erzählt)",
+     "audio": "audio/a2/s6/vocab/11-erzaehlen.mp3"
+    }
+   ]
+  },
+  {
+   "id": "nomen",
+   "label": "Nouns",
+   "words": [
+    {
+     "de": "Unfall",
+     "ar": "الحادثة",
+     "audio": "audio/a2/s6/vocab/12-unfall.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Geschichte",
+     "ar": "القصة",
+     "audio": "audio/a2/s6/vocab/13-geschichte.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Besuch",
+     "ar": "الزيارة",
+     "audio": "audio/a2/s6/vocab/14-besuch.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Erlebnis",
+     "ar": "التجربة / الحدث",
+     "audio": "audio/a2/s6/vocab/15-erlebnis.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Geldbeutel",
+     "ar": "محفظة الفلوس",
+     "audio": "audio/a2/s6/vocab/16-geldbeutel.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Tasche",
+     "ar": "الشنطة",
+     "audio": "audio/a2/s6/vocab/17-tasche.mp3",
+     "article": "die"
+    }
+   ]
+  },
+  {
+   "id": "konnektoren",
+   "label": "Story connectors",
+   "words": [
+    {
+     "de": "zuerst",
+     "ar": "الأول",
+     "audio": "audio/a2/s6/vocab/18-zuerst.mp3"
+    },
+    {
+     "de": "dann / danach",
+     "ar": "بعد كده",
+     "audio": "audio/a2/s6/vocab/19-dann-danach.mp3"
+    },
+    {
+     "de": "plötzlich",
+     "ar": "فجأة",
+     "audio": "audio/a2/s6/vocab/20-ploetzlich.mp3"
+    },
+    {
+     "de": "endlich",
+     "ar": "أخيرًا",
+     "audio": "audio/a2/s6/vocab/21-endlich.mp3"
+    },
+    {
+     "de": "gestern",
+     "ar": "إمبارح",
+     "audio": "audio/a2/s6/vocab/22-gestern.mp3"
+    },
+    {
+     "de": "vorgestern",
+     "ar": "أول إمبارح",
+     "audio": "audio/a2/s6/vocab/23-vorgestern.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Was hast du gestern gemacht?",
+   "ar": "عملت ايه إمبارح؟",
+   "audio": "audio/a2/s6/s01-was-hast-du-gestern-gemacht.mp3"
+  },
+  {
+   "de": "Gestern war ein voller Tag. Ich habe viel gemacht.",
+   "ar": "إمبارح كان يوم مليان. عملت حاجات كتير.",
+   "audio": "audio/a2/s6/s02-gestern-war-ein-voller-tag-ich-habe-viel-gem.mp3"
+  },
+  {
+   "de": "Was ist passiert?",
+   "ar": "حصل ايه؟",
+   "audio": "audio/a2/s6/s03-was-ist-passiert.mp3"
+  },
+  {
+   "de": "Ich habe leider meinen Geldbeutel verloren.",
+   "ar": "للأسف ضيّعت محفظتي.",
+   "audio": "audio/a2/s6/s04-ich-habe-leider-meinen-geldbeutel-verloren.mp3"
+  },
+  {
+   "de": "Ich habe gestern mit Ali telefoniert.",
+   "ar": "كلمت علي في التليفون إمبارح.",
+   "audio": "audio/a2/s6/s05-ich-habe-gestern-mit-ali-telefoniert.mp3"
+  },
+  {
+   "de": "Wir haben unseren Onkel besucht.",
+   "ar": "زرنا عمنا.",
+   "audio": "audio/a2/s6/s06-wir-haben-unseren-onkel-besucht.mp3"
+  },
+  {
+   "de": "Ich habe meine Tasche vergessen.",
+   "ar": "نسيت شنطتي.",
+   "audio": "audio/a2/s6/s07-ich-habe-meine-tasche-vergessen.mp3"
+  },
+  {
+   "de": "Zuerst bin ich aufgestanden.",
+   "ar": "الأول قمت من السرير.",
+   "audio": "audio/a2/s6/s08-zuerst-bin-ich-aufgestanden.mp3"
+  },
+  {
+   "de": "Danach habe ich telefoniert.",
+   "ar": "بعد كده اتصلت تليفونيًا.",
+   "audio": "audio/a2/s6/s09-danach-habe-ich-telefoniert.mp3"
+  },
+  {
+   "de": "Zuerst bin ich um 7 Uhr aufgestanden.",
+   "ar": "الأول قمت الساعة 7.",
+   "audio": "audio/a2/s6/s10-zuerst-bin-ich-um-7-uhr-aufgestanden.mp3"
+  },
+  {
+   "de": "Danach habe ich mein Zimmer aufgeräumt.",
+   "ar": "بعد كده رتبت أوضتي.",
+   "audio": "audio/a2/s6/s11-danach-habe-ich-mein-zimmer-aufgeraeumt.mp3"
+  },
+  {
+   "de": "Am Mittag haben wir mit Ali telefoniert.",
+   "ar": "الضهر كلمنا علي تليفونيًا.",
+   "audio": "audio/a2/s6/s12-am-mittag-haben-wir-mit-ali-telefoniert.mp3"
+  },
+  {
+   "de": "Aber ich habe leider meine Tasche vergessen!",
+   "ar": "لكن للأسف نسيت شنطتي!",
+   "audio": "audio/a2/s6/s13-aber-ich-habe-leider-meine-tasche-vergessen.mp3"
+  },
+  {
+   "de": "Am Nachmittag habe ich meinen Onkel besucht.",
+   "ar": "العصر زرت عمي.",
+   "audio": "audio/a2/s6/s14-am-nachmittag-habe-ich-meinen-onkel-besucht.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "Unfall",
+   "ar": "الحادثة",
+   "audio": "audio/a2/s6/vocab/12-unfall.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Geschichte",
+   "ar": "القصة",
+   "audio": "audio/a2/s6/vocab/13-geschichte.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Besuch",
+   "ar": "الزيارة",
+   "audio": "audio/a2/s6/vocab/14-besuch.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Erlebnis",
+   "ar": "التجربة / الحدث",
+   "audio": "audio/a2/s6/vocab/15-erlebnis.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Geldbeutel",
+   "ar": "محفظة الفلوس",
+   "audio": "audio/a2/s6/vocab/16-geldbeutel.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Tasche",
+   "ar": "الشنطة",
+   "audio": "audio/a2/s6/vocab/17-tasche.mp3",
+   "article": "die"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "auf|räumen في الماضي:",
+   "options": [
+    "aufgeräumt",
+    "geräumt auf",
+    "aufräumt"
+   ],
+   "answer": 0,
+   "why": "فعل منفصل عادي بياخد ge في النص: aufgeräumt.",
+   "ar": "رتّب."
+  },
+  {
+   "prompt": "studieren في الماضي:",
+   "options": [
+    "studiert",
+    "gestudiert",
+    "studieret"
+   ],
+   "answer": 0,
+   "why": "أي فعل بينتهي بـ -ieren بيرفض ge: studiert.",
+   "ar": "درس في الجامعة."
+  },
+  {
+   "prompt": "besuchen في الماضي:",
+   "options": [
+    "besucht",
+    "gebesucht",
+    "besuchte ge"
+   ],
+   "answer": 0,
+   "why": "الأفعال اللي بتبدأ بـ be/ver/er/ent بتنفصلش وبتاخدش ge: besucht.",
+   "ar": "زار."
+  },
+  {
+   "prompt": "vergessen في الماضي:",
+   "options": [
+    "vergessen",
+    "vergesset",
+    "gevergessen"
+   ],
+   "answer": 0,
+   "why": "فعل شاذ من عائلة ver-: بيفضل زي ما هو vergessen.",
+   "ar": "نسي."
+  },
+  {
+   "prompt": "Zuerst ________ ich um 7 Uhr aufgestanden.",
+   "options": [
+    "bin",
+    "habe",
+    "war"
+   ],
+   "answer": 0,
+   "why": "aufstehen فعل حركة/تغيير حالة بياخد sein في الماضي: bin.",
+   "ar": "الأول قمت الساعة 7."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "حلقتي ٦ و٧ في صفحة واحدة: الماضي المركب من غير البادئة. هتتعلم الأفعال المتمردة اللي مبتاخدش ge (عيلة -ieren وبادئات be/ver/er/ent)، وتحكي قصة يومك بالترتيب بكلمات السرد zuerst وdanach وplötzlich."
+ },
+ "grammar": [
+  {
+   "title": "الأفعال المتمردة: من غير ge-",
+   "rule": "في A1 اتعلمنا haben/sein + ge- في الآخر. في A2 فيه عائلتين بيرفضوا ge: أفعال -ieren (بتاخد t بس) والأفعال اللي بتبدأ بـ be/ver/er/ent (مبتنفصلش ومبتاخدش ge).",
+   "forms": [
+    "telefonieren - telefoniert",
+    "studieren - studiert",
+    "besuchen - besucht",
+    "verkaufen - verkauft"
+   ],
+   "examples": [
+    {
+     "de": "Ich habe gestern mit Ali telefoniert.",
+     "ar": "كلمت علي تليفونيًا إمبارح."
+    },
+    {
+     "de": "Wir haben unseren Onkel besucht.",
+     "ar": "زرنا عمنا."
+    }
+   ]
+  },
+  {
+   "title": "الشواذ اللي لازم تتحفظ",
+   "rule": "بعض أفعال ver- شاذة وبتتغير شكلها: verstehen - verstanden، vergessen - vergessen. دي بتتحفظ زي ما هي.",
+   "forms": [
+    "verstehen - verstanden",
+    "vergessen - vergessen"
+   ],
+   "examples": [
+    {
+     "de": "Ich habe meine Tasche vergessen.",
+     "ar": "نسيت شنطتي."
+    },
+    {
+     "de": "Ich habe dich nicht verstanden.",
+     "ar": "مافهمتكش."
+    }
+   ]
+  },
+  {
+   "title": "صياغة السرد: احكي قصة",
+   "rule": "كلمات zuerst وdann وdanach بتاخد المركز الأول، والفعل المساعد (haben/sein) بييجي بعدها مباشرة في المركز التاني، والفعل الأساسي في الآخر.",
+   "forms": [
+    "zuerst",
+    "dann / danach",
+    "plötzlich",
+    "endlich"
+   ],
+   "examples": [
+    {
+     "de": "Zuerst bin ich um 7 Uhr aufgestanden.",
+     "ar": "الأول قمت الساعة 7."
+    },
+    {
+     "de": "Danach habe ich mein Zimmer aufgeräumt.",
+     "ar": "بعد كده رتبت أوضتي."
+    }
+   ]
+  },
+  {
+   "title": "haben ولا sein؟",
+   "rule": "أفعال الحركة وتغيير الحالة (z.B. aufstehen, passieren) بتاخد sein في الماضي، والباقي haben.",
+   "forms": [
+    "ich bin aufgestanden",
+    "ich habe telefoniert",
+    "es ist passiert"
+   ],
+   "examples": [
+    {
+     "de": "Zuerst bin ich aufgestanden.",
+     "ar": "الأول قمت."
+    },
+    {
+     "de": "Was ist passiert?",
+     "ar": "حصل ايه؟"
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "bin",
+     "ich",
+     "um 7 Uhr",
+     "aufgestanden",
+     "Zuerst"
+    ],
+    "answer": "Zuerst bin ich um 7 Uhr aufgestanden.",
+    "ar": "الأول قمت الساعة 7."
+   },
+   {
+    "tiles": [
+     "habe",
+     "ich",
+     "mein Zimmer",
+     "aufgeräumt",
+     "Danach"
+    ],
+    "answer": "Danach habe ich mein Zimmer aufgeräumt.",
+    "ar": "بعد كده رتبت أوضتي."
+   },
+   {
+    "tiles": [
+     "haben",
+     "wir",
+     "mit Ali",
+     "telefoniert",
+     "Am Mittag"
+    ],
+    "answer": "Am Mittag haben wir mit Ali telefoniert.",
+    "ar": "الضهر كلمنا علي تليفونيًا."
+   },
+   {
+    "tiles": [
+     "habe",
+     "leider",
+     "meine Tasche",
+     "vergessen",
+     "Aber",
+     "ich"
+    ],
+    "answer": "Aber ich habe leider meine Tasche vergessen!",
+    "ar": "لكن للأسف نسيت شنطتي!"
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Ich habe gestern mit Ali telefoniert.",
+     "Ich habe gestern mit Ali getelefoniert."
+    ],
+    "answer": 0,
+    "why": "أفعال -ieren مبتاخدش ge أبدًا: telefoniert مش getelefoniert.",
+    "ar": "كلمت علي إمبارح."
+   },
+   {
+    "options": [
+     "Wir haben unseren Onkel besucht.",
+     "Wir haben unseren Onkel gebesucht."
+    ],
+    "answer": 0,
+    "why": "الأفعال اللي بتبدأ بـ be- مبتاخدش ge: besucht.",
+    "ar": "زرنا عمنا."
+   },
+   {
+    "options": [
+     "Zuerst bin ich aufgestanden.",
+     "Zuerst ich bin aufgestanden."
+    ],
+    "answer": 0,
+    "why": "zuerst بتاخد المركز الأول، والفعل المساعد بعدها مباشرة في المركز التاني.",
+    "ar": "الأول قمت."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "عملت ايه إمبارح؟",
+    "de": "Was hast du gestern gemacht?",
+    "audio": "audio/a2/s6/tr1.mp3"
+   },
+   {
+    "ar": "كلمت صاحبي في التليفون إمبارح.",
+    "de": "Ich habe gestern mit meinem Freund telefoniert.",
+    "audio": "audio/a2/s6/tr2.mp3"
+   },
+   {
+    "ar": "نسيت موبايلي عنده.",
+    "de": "Ich habe mein Handy bei ihm vergessen.",
+    "audio": "audio/a2/s6/tr3.mp3"
+   },
+   {
+    "ar": "الأول قمت، وبعد كده رتبت أوضتي.",
+    "de": "Zuerst bin ich aufgestanden, danach habe ich mein Zimmer aufgeräumt.",
+    "audio": "audio/a2/s6/tr4.mp3"
+   },
+   {
+    "ar": "زرنا عمنا الأسبوع اللي فات.",
+    "de": "Wir haben letzte Woche unseren Onkel besucht.",
+    "audio": "audio/a2/s6/tr5.mp3"
+   },
+   {
+    "ar": "حصل ايه إمبارح؟",
+    "de": "Was ist gestern passiert?",
+    "audio": "audio/a2/s6/tr6.mp3"
+   }
+  ]
+ }
+}
