@@ -1,0 +1,516 @@
+{
+ "id": 1,
+ "level": "a2",
+ "title": "Session 1: Morning routine and reflexive verbs",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=BAaqfxrvtn4",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=BAaqfxrvtn4"
+ },
+ "vocab": [
+  {
+   "id": "reflexive",
+   "label": "Reflexive verbs",
+   "words": [
+    {
+     "de": "sich waschen",
+     "ar": "يغتسل / يغسل",
+     "audio": "audio/a2/s1/vocab/01-sich-waschen.mp3"
+    },
+    {
+     "de": "sich duschen",
+     "ar": "يستحم",
+     "audio": "audio/a2/s1/vocab/02-sich-duschen.mp3"
+    },
+    {
+     "de": "sich anziehen",
+     "ar": "يرتدي ملابسه / يلبس",
+     "audio": "audio/a2/s1/vocab/03-sich-anziehen.mp3"
+    },
+    {
+     "de": "sich umziehen",
+     "ar": "يغير ملابسه",
+     "audio": "audio/a2/s1/vocab/04-sich-umziehen.mp3"
+    },
+    {
+     "de": "sich rasieren",
+     "ar": "يحلق ذقنه",
+     "audio": "audio/a2/s1/vocab/05-sich-rasieren.mp3"
+    },
+    {
+     "de": "sich kämmen",
+     "ar": "يمشط شعره",
+     "audio": "audio/a2/s1/vocab/06-sich-kaemmen.mp3"
+    },
+    {
+     "de": "sich die Zähne putzen",
+     "ar": "يغسل أسنانه",
+     "audio": "audio/a2/s1/vocab/07-sich-die-zaehne-putzen.mp3"
+    },
+    {
+     "de": "sich beeilen",
+     "ar": "يستعجل",
+     "audio": "audio/a2/s1/vocab/08-sich-beeilen.mp3"
+    }
+   ]
+  },
+  {
+   "id": "body-clothes",
+   "label": "Body and clothes",
+   "words": [
+    {
+     "de": "Kopf",
+     "ar": "الرأس",
+     "audio": "audio/a2/s1/vocab/09-kopf.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Gesicht",
+     "ar": "الوجه",
+     "audio": "audio/a2/s1/vocab/10-gesicht.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Haare",
+     "ar": "الشعر",
+     "audio": "audio/a2/s1/vocab/11-haare.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Zähne",
+     "ar": "الأسنان",
+     "audio": "audio/a2/s1/vocab/12-zaehne.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Hände",
+     "ar": "اليدين",
+     "audio": "audio/a2/s1/vocab/13-haende.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Pullover",
+     "ar": "البلوفر",
+     "audio": "audio/a2/s1/vocab/14-pullover.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Jacke",
+     "ar": "الجاكيت",
+     "audio": "audio/a2/s1/vocab/15-jacke.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Hemd",
+     "ar": "القميص",
+     "audio": "audio/a2/s1/vocab/16-hemd.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Hose",
+     "ar": "البنطلون",
+     "audio": "audio/a2/s1/vocab/17-hose.mp3",
+     "article": "die"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Ich wasche mich.",
+   "ar": "أنا أغتسل.",
+   "audio": "audio/a2/s1/s01-ich-wasche-mich.mp3"
+  },
+  {
+   "de": "Ich ziehe mich an.",
+   "ar": "أنا بلبس ملابسي.",
+   "audio": "audio/a2/s1/s02-ich-ziehe-mich-an.mp3"
+  },
+  {
+   "de": "Ich wasche mir den Kopf.",
+   "ar": "أنا بغسل دماغي.",
+   "audio": "audio/a2/s1/s03-ich-wasche-mir-den-kopf.mp3"
+  },
+  {
+   "de": "Ich ziehe mir den Pullover an.",
+   "ar": "أنا بلبس البلوفر.",
+   "audio": "audio/a2/s1/s04-ich-ziehe-mir-den-pullover-an.mp3"
+  },
+  {
+   "de": "Ich mache mich um 7 Uhr fertig.",
+   "ar": "بجهز نفسي الساعة 7.",
+   "audio": "audio/a2/s1/s05-ich-mache-mich-um-7-uhr-fertig.mp3"
+  },
+  {
+   "de": "Ich ziehe mir einen Pullover und eine Hose an.",
+   "ar": "بلبس بلوفر وبنطلون.",
+   "audio": "audio/a2/s1/s06-ich-ziehe-mir-einen-pullover-und-eine-hose-a.mp3"
+  },
+  {
+   "de": "Meine Schwester duscht sich am Morgen.",
+   "ar": "أختي بتستحم الصبح.",
+   "audio": "audio/a2/s1/s07-meine-schwester-duscht-sich-am-morgen.mp3"
+  },
+  {
+   "de": "Putzt du dir die Zähne?",
+   "ar": "بتغسل أسنانك؟",
+   "audio": "audio/a2/s1/s08-putzt-du-dir-die-zaehne.mp3"
+  },
+  {
+   "de": "Wann duschst du dich?",
+   "ar": "بتستحم امتى؟",
+   "audio": "audio/a2/s1/s09-wann-duschst-du-dich.mp3"
+  },
+  {
+   "de": "Was ziehst du dir an?",
+   "ar": "بتلبس ايه؟",
+   "audio": "audio/a2/s1/s10-was-ziehst-du-dir-an.mp3"
+  },
+  {
+   "de": "Ich dusche mich am Morgen.",
+   "ar": "بستحم الصبح.",
+   "audio": "audio/a2/s1/s11-ich-dusche-mich-am-morgen.mp3"
+  },
+  {
+   "de": "Wann machst du dich morgens fertig?",
+   "ar": "بتجهز نفسك امتى الصبح؟",
+   "audio": "audio/a2/s1/s12-wann-machst-du-dich-morgens-fertig.mp3"
+  },
+  {
+   "de": "Was ziehst du dir heute an?",
+   "ar": "بتلبس ايه النهاردة؟",
+   "audio": "audio/a2/s1/s13-was-ziehst-du-dir-heute-an.mp3"
+  },
+  {
+   "de": "Ich ziehe mir heute den Pullover an.",
+   "ar": "بلبس البلوفر النهاردة.",
+   "audio": "audio/a2/s1/s14-ich-ziehe-mir-heute-den-pullover-an.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "Kopf",
+   "ar": "الرأس",
+   "audio": "audio/a2/s1/vocab/09-kopf.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Gesicht",
+   "ar": "الوجه",
+   "audio": "audio/a2/s1/vocab/10-gesicht.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Haare",
+   "ar": "الشعر",
+   "audio": "audio/a2/s1/vocab/11-haare.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Zähne",
+   "ar": "الأسنان",
+   "audio": "audio/a2/s1/vocab/12-zaehne.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Hände",
+   "ar": "اليدين",
+   "audio": "audio/a2/s1/vocab/13-haende.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Pullover",
+   "ar": "البلوفر",
+   "audio": "audio/a2/s1/vocab/14-pullover.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Jacke",
+   "ar": "الجاكيت",
+   "audio": "audio/a2/s1/vocab/15-jacke.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Hemd",
+   "ar": "القميص",
+   "audio": "audio/a2/s1/vocab/16-hemd.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Hose",
+   "ar": "البنطلون",
+   "audio": "audio/a2/s1/vocab/17-hose.mp3",
+   "article": "die"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Ich wasche ________ jeden Morgen schnell.",
+   "options": [
+    "mich",
+    "mir",
+    "dich"
+   ],
+   "answer": 0,
+   "why": "مفيش مفعول به في الجملة، فالفعل واقع عليك كلك = Akkusativ: mich.",
+   "ar": "أنا أغتسل بسرعة كل صباح."
+  },
+  {
+   "prompt": "Ich wasche ________ das Gesicht.",
+   "options": [
+    "mir",
+    "mich",
+    "sich"
+   ],
+   "answer": 0,
+   "why": "فيه مفعول به (das Gesicht)، فالضمير المنعكس بيتحول لداتيف: mir.",
+   "ar": "أنا بغسل وشي."
+  },
+  {
+   "prompt": "Ahmed zieht ________ eine Jacke an.",
+   "options": [
+    "sich",
+    "mich",
+    "dich"
+   ],
+   "answer": 0,
+   "why": "مع er/sie/es (أحمد) الضمير المنعكس ثابت دايمًا: sich.",
+   "ar": "أحمد بيلبس جاكيت."
+  },
+  {
+   "prompt": "Warum beeilst du ________ so sehr?",
+   "options": [
+    "dich",
+    "dir",
+    "sich"
+   ],
+   "answer": 0,
+   "why": "sich beeilen مفيش معاه مفعول، ومع du تبقى dich (Akkusativ).",
+   "ar": "ليه بتستعجل كده؟"
+  },
+  {
+   "prompt": "Ziehst du ________ das blaue Hemd an?",
+   "options": [
+    "dir",
+    "dich",
+    "mir"
+   ],
+   "answer": 0,
+   "why": "فيه مفعول (das blaue Hemd)، ومع du في الداتيف: dir.",
+   "ar": "هتلبس القميص الأزرق؟"
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "أول حلقة في المستوى التاني: روتين الصباح والأفعال المنعكسة. هتتعلم تتكلم عن الغسيل واللبس والحلاقة وتمشيط الشعر، والمكعب الجديد الكبير: الفرق بين mich/mir و dich/dir — لو الفعل واقع عليك كلك يبقى أكوزاتيف، ولو فيه جزء منك أو حاجة محددة يبقى داتيف، وساعتها ممنوع mein/dein مع أجزاء الجسم."
+ },
+ "grammar": [
+  {
+   "title": "الأفعال المنعكسة (Reflexive Verben)",
+   "rule": "أفعال الشخص بيعملها على نفسه. الضمير المنعكس بيتصرف حسب الفاعل: ich/mich-mir، du/dich-dir، وهو ثابت (sich) مع er/sie/es وSie، و(uns) مع wir، و(euch) مع ihr.",
+   "forms": [
+    "ich — mich / mir",
+    "du — dich / dir",
+    "er/sie/es/Sie — sich",
+    "wir — uns",
+    "ihr — euch"
+   ],
+   "examples": [
+    {
+     "de": "Ich wasche mich.",
+     "ar": "أنا أغتسل."
+    },
+    {
+     "de": "Wir beeilen uns.",
+     "ar": "إحنا بنستعجل."
+    }
+   ]
+  },
+  {
+   "title": "القاعدة 1: الفعل واقع عليك كلك = Akkusativ",
+   "rule": "لو مفيش مفعول به في الجملة، يبقى الفعل واقع عليك أنت كلّك، والضمير المنعكس ياخد الأكوزاتيف: mich / dich / sich.",
+   "forms": [
+    "mich",
+    "dich",
+    "sich"
+   ],
+   "examples": [
+    {
+     "de": "Ich ziehe mich an.",
+     "ar": "أنا بلبس ملابسي."
+    },
+    {
+     "de": "Warum beeilst du dich so sehr?",
+     "ar": "ليه بتستعجل كده؟"
+    }
+   ]
+  },
+  {
+   "title": "القاعدة 2: فيه مفعول أو جزء منك = Dativ",
+   "rule": "لو فيه حاجة محددة في الجملة (مفعول به)، هي اللي تاخد الأكوزاتيف، والضمير المنعكس يتزحلق للداتيف: mir / dir / sich.",
+   "forms": [
+    "mir",
+    "dir",
+    "sich"
+   ],
+   "examples": [
+    {
+     "de": "Ich wasche mir den Kopf.",
+     "ar": "أنا بغسل دماغي."
+    },
+    {
+     "de": "Ich ziehe mir den Pullover an.",
+     "ar": "أنا بلبس البلوفر."
+    }
+   ]
+  },
+  {
+   "title": "تريكة: ممنوع mein / dein مع أجزاء الجسم",
+   "rule": "لما تستخدم الضمير المنعكس في الداتيف (mir/dir) إنت كده حددت إن الحاجة بتاعتك، فممنوع تستخدم أدوات الملكية مع أجزاء الجسم أو الملابس، ويكفي أداة التعريف العادية (der/die/das).",
+   "forms": [
+    "✘ meinen Kopf",
+    "✔ den Kopf",
+    "✘ seine Hände",
+    "✔ die Hände"
+   ],
+   "examples": [
+    {
+     "de": "Ich wasche mir den Kopf.",
+     "ar": "أنا بغسل دماغي."
+    },
+    {
+     "de": "Er wäscht sich die Hände.",
+     "ar": "هو بيغسل إيديه."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "duscht",
+     "sich",
+     "am Morgen",
+     "Meine Schwester"
+    ],
+    "answer": "Meine Schwester duscht sich am Morgen.",
+    "ar": "أختي بتستحم الصبح."
+   },
+   {
+    "tiles": [
+     "ziehe",
+     "mir",
+     "heute",
+     "den Pullover",
+     "an",
+     "Ich"
+    ],
+    "answer": "Ich ziehe mir heute den Pullover an.",
+    "ar": "بلبس البلوفر النهاردة."
+   },
+   {
+    "tiles": [
+     "Putzt",
+     "du",
+     "dir",
+     "die Zähne"
+    ],
+    "answer": "Putzt du dir die Zähne?",
+    "ar": "بتغسل أسنانك؟"
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Ich wasche mir den Kopf.",
+     "Ich wasche mir meinen Kopf."
+    ],
+    "answer": 0,
+    "why": "مع الضمير المنعكس في الداتيف (mir) ممنوع أداة ملكية مع أجزاء الجسم؛ بنستخدم أداة التعريف العادية: den Kopf.",
+    "ar": "أنا بغسل دماغي."
+   },
+   {
+    "options": [
+     "Ich ziehe mich an.",
+     "Ich anziehe mich."
+    ],
+    "answer": 0,
+    "why": "الفعل المنفصل: البادئة an بتروح آخر الجملة، والفعل ziehe في مكانه التاني.",
+    "ar": "أنا بلبس ملابسي."
+   },
+   {
+    "options": [
+     "Er wäscht sich die Hände.",
+     "Er wäscht sich seine Hände."
+    ],
+    "answer": 0,
+    "why": "نفس القاعدة: مع sich في الداتيف منستخدمش seine مع أجزاء الجسم، نقول die Hände.",
+    "ar": "هو بيغسل إيديه."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "أنا بستحم الصبح.",
+    "de": "Ich dusche mich am Morgen.",
+    "audio": "audio/a2/s1/tr1.mp3"
+   },
+   {
+    "ar": "هي بتغير ملابسها.",
+    "de": "Sie zieht sich um.",
+    "audio": "audio/a2/s1/tr2.mp3"
+   },
+   {
+    "ar": "متى بتجهز نفسك؟",
+    "de": "Wann machst du dich fertig?",
+    "audio": "audio/a2/s1/tr3.mp3"
+   },
+   {
+    "ar": "أنا بحلق ذقني كل يوم.",
+    "de": "Ich rasiere mich jeden Tag.",
+    "audio": "audio/a2/s1/tr4.mp3"
+   },
+   {
+    "ar": "هو بيمشط شعره.",
+    "de": "Er kämmt sich die Haare.",
+    "audio": "audio/a2/s1/tr5.mp3"
+   },
+   {
+    "ar": "إحنا بنستعجل.",
+    "de": "Wir beeilen uns.",
+    "audio": "audio/a2/s1/tr6.mp3"
+   }
+  ]
+ }
+}
