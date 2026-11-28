@@ -1,0 +1,436 @@
+{
+  "id": 5,
+  "level": "b1",
+  "title": "Episode 5 part 1: lassen (leave, let, quit)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=VTkR7CJonvc",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel (part 1 of 2)",
+    "open_url": "https://www.youtube.com/watch?v=VTkR7CJonvc"
+  },
+  "vocab": [
+    {
+      "id": "lassen",
+      "label": "lassen and its forms",
+      "words": [
+        {
+          "de": "lassen",
+          "ar": "يسيب / يخلي / يسمح / يبطل",
+          "audio": "audio/b1/s05/vocab/01-lassen.mp3"
+        },
+        {
+          "de": "ließ",
+          "ar": "ساب (ماضي بسيط)",
+          "audio": "audio/b1/s05/vocab/02-liess.mp3"
+        },
+        {
+          "de": "gelassen",
+          "ar": "سايب (Perfekt)",
+          "audio": "audio/b1/s05/vocab/03-gelassen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "woerter",
+      "label": "Words from the lesson",
+      "words": [
+        {
+          "de": "reparieren",
+          "ar": "يصلح",
+          "audio": "audio/b1/s05/vocab/04-reparieren.mp3"
+        },
+        {
+          "de": "rauchen",
+          "ar": "يدخن",
+          "audio": "audio/b1/s05/vocab/05-rauchen.mp3"
+        },
+        {
+          "de": "Rauchen",
+          "ar": "التدخين",
+          "audio": "audio/b1/s05/vocab/06-rauchen.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Pizzaessen",
+          "ar": "أكل البيتزا",
+          "audio": "audio/b1/s05/vocab/07-pizzaessen.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Kaffeetrinken",
+          "ar": "شرب القهوة",
+          "audio": "audio/b1/s05/vocab/08-kaffeetrinken.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Magenschmerzen",
+          "ar": "ألم المعدة",
+          "audio": "audio/b1/s05/vocab/09-magenschmerzen.mp3",
+          "article": "die (Plural)"
+        },
+        {
+          "de": "absagen",
+          "ar": "يلغي",
+          "audio": "audio/b1/s05/vocab/10-absagen.mp3"
+        },
+        {
+          "de": "kaputt",
+          "ar": "بايز",
+          "audio": "audio/b1/s05/vocab/11-kaputt.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich lasse das Auto reparieren.",
+      "ar": "هخلي العربية تتصلح (عند الميكانيكي).",
+      "audio": "audio/b1/s05/s01-ich-lasse-das-auto-reparieren.mp3"
+    },
+    {
+      "de": "Ich muss das Auto reparieren lassen.",
+      "ar": "لازم أخلي العربية تتصلح.",
+      "audio": "audio/b1/s05/s02-ich-muss-das-auto-reparieren-lassen.mp3"
+    },
+    {
+      "de": "Ich kann das Auto reparieren lassen.",
+      "ar": "أقدر أخلي العربية تتصلح.",
+      "audio": "audio/b1/s05/s03-ich-kann-das-auto-reparieren-lassen.mp3"
+    },
+    {
+      "de": "Ich lasse das Auto hier.",
+      "ar": "هسيب العربية هنا.",
+      "audio": "audio/b1/s05/s04-ich-lasse-das-auto-hier.mp3"
+    },
+    {
+      "de": "Ich lasse meinen Bruder das Auto fahren.",
+      "ar": "هسمح لأخويا يسوق العربية.",
+      "audio": "audio/b1/s05/s05-ich-lasse-meinen-bruder-das-auto-fahren.mp3"
+    },
+    {
+      "de": "Ich lasse das Autofahren.",
+      "ar": "هبطل سواقة خالص.",
+      "audio": "audio/b1/s05/s06-ich-lasse-das-autofahren.mp3"
+    },
+    {
+      "de": "Lassen wir das Auto hier!",
+      "ar": "يلا بينا نسيب العربية هنا!",
+      "audio": "audio/b1/s05/s07-lassen-wir-das-auto-hier.mp3"
+    },
+    {
+      "de": "Das Wetter ist heute sehr schlecht, deshalb lasse ich das Handy zu Hause.",
+      "ar": "الجو وحش أوي النهارده، عشان كده هسيب الموبايل في البيت.",
+      "audio": "audio/b1/s05/s08-das-wetter-ist-heute-sehr-schlecht-deshalb-l.mp3"
+    },
+    {
+      "de": "Ich habe keine Zeit, deshalb lasse ich das Essen kochen.",
+      "ar": "معنديش وقت، عشان كده هخلي الأكل يتطبخ.",
+      "audio": "audio/b1/s05/s09-ich-habe-keine-zeit-deshalb-lasse-ich-das-es.mp3"
+    },
+    {
+      "de": "Der Arzt lässt mich nicht rauchen, weil Rauchen ungesund ist.",
+      "ar": "الدكتور مش سايبني أدخن، لأن التدخين مش صحي.",
+      "audio": "audio/b1/s05/s10-der-arzt-laesst-mich-nicht-rauchen-weil-rauc.mp3"
+    },
+    {
+      "de": "Ich habe Magenschmerzen, deshalb lasse ich das Pizzaessen.",
+      "ar": "معدتي وجعاني، عشان كده هبطل أكل بيتزا.",
+      "audio": "audio/b1/s05/s11-ich-habe-magenschmerzen-deshalb-lasse-ich-da.mp3"
+    },
+    {
+      "de": "Lassen wir den Termin am Mittwoch absagen!",
+      "ar": "يلا بينا نلغي موعد يوم الأربع!",
+      "audio": "audio/b1/s05/s12-lassen-wir-den-termin-am-mittwoch-absagen.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Rauchen",
+      "ar": "التدخين",
+      "audio": "audio/b1/s05/vocab/06-rauchen.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Pizzaessen",
+      "ar": "أكل البيتزا",
+      "audio": "audio/b1/s05/vocab/07-pizzaessen.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Kaffeetrinken",
+      "ar": "شرب القهوة",
+      "audio": "audio/b1/s05/vocab/08-kaffeetrinken.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Magenschmerzen",
+      "ar": "ألم المعدة",
+      "audio": "audio/b1/s05/vocab/09-magenschmerzen.mp3",
+      "article": "die (Plural)"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "أي جملة صحيحة للتكليف (حد يعملي الحاجة)؟",
+      "options": [
+        "Ich lasse das Auto reparieren.",
+        "Ich lasse das Auto zu reparieren.",
+        "Ich lasse reparieren das Auto."
+      ],
+      "answer": 0,
+      "why": "الفعل التاني في الآخر، مصدر بدون zu.",
+      "ar": "هخلي العربية تتصلح."
+    },
+    {
+      "prompt": "_______ wir am Wochenende Pizza essen!",
+      "options": [
+        "Lassen",
+        "Lass",
+        "Lässt"
+      ],
+      "answer": 0,
+      "why": "صيغة الاقتراح (يلا بينا) مع wir = Lassen wir.",
+      "ar": "يلا بينا ناكل بيتزا في الويك إند!"
+    },
+    {
+      "prompt": "Mein Handy ist kaputt. Ich muss es _______.",
+      "options": [
+        "reparieren lassen",
+        "zu reparieren lassen",
+        "reparieren zu lassen"
+      ],
+      "answer": 0,
+      "why": "lassen من الـ VIP بدون zu، والفعلين في الآخر: reparieren lassen.",
+      "ar": "الموبايل بايز، لازم أصلحه."
+    },
+    {
+      "prompt": "Der Arzt lässt mich nicht _______.",
+      "options": [
+        "rauchen",
+        "zu rauchen",
+        "geraucht"
+      ],
+      "answer": 0,
+      "why": "lassen بدون zu: الفعل التاني مصدر خالص.",
+      "ar": "الدكتور مش سايبني أدخن."
+    },
+    {
+      "prompt": "Ich habe Kopfschmerzen, deshalb lasse ich _______.",
+      "options": [
+        "das Kaffeetrinken",
+        "den Kaffee trinken",
+        "trinken"
+      ],
+      "answer": 0,
+      "why": "معنى يبطل = lassen + اسم بكابيتال.",
+      "ar": "دماغي وجعاني، عشان كده هبطل شرب قهوة."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الحلقة ٥ جزء ١ من B1: فعل lassen بمعانيه الخمسة - يسيب في مكان، التكليف، السماح، يبطل عادة، والاقتراح يلا بينا. وهو من أفعال الـ VIP: الفعل التاني بعده بدون zu أبدًا."
+  },
+  "grammar": [
+    {
+      "title": "معاني lassen الخمسة",
+      "rule": "1) يترك في مكان 2) التكليف (حد يعمل الحاجة) 3) يسمح لشخص 4) يبطل عادة (مع اسم بكابيتال) 5) الاقتراح يلا بينا.",
+      "forms": [
+        "Ich lasse das Auto hier.",
+        "Ich lasse das Auto reparieren.",
+        "Ich lasse das Autofahren."
+      ],
+      "examples": [
+        {
+          "de": "Ich lasse meinen Bruder das Auto fahren.",
+          "ar": "هسمح لأخويا يسوق العربية."
+        },
+        {
+          "de": "Lassen wir das Auto hier!",
+          "ar": "يلا بينا نسيب العربية هنا!"
+        }
+      ]
+    },
+    {
+      "title": "lassen من الـ VIP",
+      "rule": "الفعل التاني بعد lassen مصدر في الآخر من غير zu أبدًا، حتى مع فعل شكلي: reparieren lassen.",
+      "forms": [
+        "Ich lasse das Auto reparieren.",
+        "Ich muss das Auto reparieren lassen."
+      ],
+      "examples": [
+        {
+          "de": "Ich kann das Auto reparieren lassen.",
+          "ar": "أقدر أخلي العربية تتصلح."
+        }
+      ]
+    },
+    {
+      "title": "تصريف lassen",
+      "rule": "المضارع: lasse/lässt/lässt. الماضي البسيط: ließ. والتام: hat gelassen.",
+      "forms": [
+        "ich lasse - du lässt",
+        "er ließ",
+        "sie hat gelassen"
+      ],
+      "examples": [
+        {
+          "de": "Er ließ das Auto in der Werkstatt.",
+          "ar": "ساب العربية في الورشة."
+        }
+      ]
+    },
+    {
+      "title": "يبطل = lassen + اسم",
+      "rule": "معنى يقلع عن عادة: lassen + المصدر المؤسم بكابيتال: das Rauchen وdas Pizzaessen وdas Kaffeetrinken.",
+      "forms": [
+        "das Rauchen",
+        "das Pizzaessen",
+        "das Kaffeetrinken"
+      ],
+      "examples": [
+        {
+          "de": "Ich habe Magenschmerzen, deshalb lasse ich das Pizzaessen.",
+          "ar": "معدتي وجعاني، عشان كده هبطل أكل بيتزا."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "lasse",
+          "das Auto",
+          "reparieren.",
+          "Ich"
+        ],
+        "answer": "Ich lasse das Auto reparieren.",
+        "ar": "هخلي العربية تتصلح."
+      },
+      {
+        "tiles": [
+          "muss",
+          "das Auto",
+          "reparieren lassen.",
+          "Ich"
+        ],
+        "answer": "Ich muss das Auto reparieren lassen.",
+        "ar": "لازم أخلي العربية تتصلح."
+      },
+      {
+        "tiles": [
+          "Lassen wir",
+          "den Termin",
+          "am Mittwoch absagen!"
+        ],
+        "answer": "Lassen wir den Termin am Mittwoch absagen!",
+        "ar": "يلا بينا نلغي موعد يوم الأربع!"
+      },
+      {
+        "tiles": [
+          "lässt",
+          "mich nicht",
+          "Der Arzt",
+          "rauchen."
+        ],
+        "answer": "Der Arzt lässt mich nicht rauchen.",
+        "ar": "الدكتور مش سايبني أدخن."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Deshalb lasse ich das Auto hier.",
+          "Deshalb ich lasse das Auto hier."
+        ],
+        "answer": 0,
+        "why": "بعد deshalb الفعل رقم 2 والفاعل وراه (شقلبة).",
+        "ar": "عشان كده هسيب العربية هنا."
+      },
+      {
+        "options": [
+          "Der Arzt lässt mich nicht rauchen.",
+          "Der Arzt lässt mich nicht zu rauchen."
+        ],
+        "answer": 0,
+        "why": "lassen من أفعال الـ VIP: مبتاخدش zu أبدًا.",
+        "ar": "الدكتور مش سايبني أدخن."
+      },
+      {
+        "options": [
+          "Lassen wir einen Termin beim Arzt machen!",
+          "Lassen wir machen einen Termin beim Arzt!"
+        ],
+        "answer": 0,
+        "why": "في الاقتراح الفعل التاني يروح الآخر خالص.",
+        "ar": "يلا بينا نعمل ميعاد عند الدكتور!"
+      },
+      {
+        "options": [
+          "Ich bin krank, weil ich viel rauche.",
+          "Ich bin krank, weil ich rauche viel."
+        ],
+        "answer": 0,
+        "why": "بعد weil الفعل المصرف في الآخر.",
+        "ar": "أنا تعبان لأني بدخن كتير."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "الجو سيء جدًا اليوم، لذلك سأترك الموبايل في المنزل.",
+        "de": "Das Wetter ist heute sehr schlecht, deshalb lasse ich das Handy zu Hause.",
+        "audio": "audio/b1/s05/tr1.mp3"
+      },
+      {
+        "ar": "أنا ليس لدي وقت، لذلك سأجعل الأكل يُطبخ.",
+        "de": "Ich habe keine Zeit, deshalb lasse ich das Essen kochen.",
+        "audio": "audio/b1/s05/tr2.mp3"
+      },
+      {
+        "ar": "الطبيب لا يسمح لي أن أدخن، لأن التدخين غير صحي.",
+        "de": "Der Arzt lässt mich nicht rauchen, weil Rauchen ungesund ist.",
+        "audio": "audio/b1/s05/tr3.mp3"
+      },
+      {
+        "ar": "أنا عندي ألم في المعدة، لذلك سأبطل أكل البيتزا.",
+        "de": "Ich habe Magenschmerzen, deshalb lasse ich das Pizzaessen.",
+        "audio": "audio/b1/s05/tr4.mp3"
+      },
+      {
+        "ar": "يلا بينا نلغي الموعد يوم الأربعاء!",
+        "de": "Lassen wir den Termin am Mittwoch absagen!",
+        "audio": "audio/b1/s05/tr5.mp3"
+      }
+    ]
+  }
+}
