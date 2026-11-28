@@ -1,0 +1,715 @@
+{
+  "id": 22,
+  "level": "a1",
+  "title": "Session 22: When? (time prepositions)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=vCJjuJCrjXs",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "preps",
+      "label": "Time prepositions",
+      "words": [
+        {
+          "de": "um",
+          "ar": "في (الساعة)",
+          "audio": "audio/s22/vocab/01-um.mp3"
+        },
+        {
+          "de": "am",
+          "ar": "في (يوم/وقت من اليوم)",
+          "audio": "audio/s22/vocab/02-am.mp3"
+        },
+        {
+          "de": "im",
+          "ar": "في (شهر/فصل)",
+          "audio": "audio/s22/vocab/03-im.mp3"
+        },
+        {
+          "de": "von ... bis",
+          "ar": "من ... إلى",
+          "audio": "audio/s22/vocab/04-von-bis.mp3"
+        },
+        {
+          "de": "Wann?",
+          "ar": "إمتى؟",
+          "audio": "audio/s22/vocab/05-wann.mp3"
+        }
+      ]
+    },
+    {
+      "id": "clock",
+      "label": "Clock and day parts",
+      "words": [
+        {
+          "de": "um acht Uhr",
+          "ar": "الساعة 8",
+          "audio": "audio/s22/vocab/06-um-acht-uhr.mp3"
+        },
+        {
+          "de": "um neun Uhr",
+          "ar": "الساعة 9",
+          "audio": "audio/s22/vocab/07-um-neun-uhr.mp3"
+        },
+        {
+          "de": "Uhr",
+          "ar": "الساعة",
+          "audio": "audio/s22/vocab/08-uhr.mp3",
+          "article": "die"
+        },
+        {
+          "de": "am Morgen",
+          "ar": "في الصباح",
+          "audio": "audio/s22/vocab/09-am-morgen.mp3"
+        },
+        {
+          "de": "Morgen",
+          "ar": "الصباح",
+          "audio": "audio/s22/vocab/10-morgen.mp3",
+          "article": "der"
+        }
+      ]
+    },
+    {
+      "id": "days",
+      "label": "Days",
+      "words": [
+        {
+          "de": "am Montag",
+          "ar": "يوم الاثنين",
+          "audio": "audio/s22/vocab/11-am-montag.mp3"
+        },
+        {
+          "de": "Montag",
+          "ar": "الاثنين",
+          "audio": "audio/s22/vocab/12-montag.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Dienstag",
+          "ar": "الثلاثاء",
+          "audio": "audio/s22/vocab/13-dienstag.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Freitag",
+          "ar": "الجمعة",
+          "audio": "audio/s22/vocab/14-freitag.mp3",
+          "article": "der"
+        },
+        {
+          "de": "von Montag bis Freitag",
+          "ar": "من الاثنين للجمعة",
+          "audio": "audio/s22/vocab/15-von-montag-bis-freitag.mp3"
+        }
+      ]
+    },
+    {
+      "id": "months",
+      "label": "Months and seasons",
+      "words": [
+        {
+          "de": "im Sommer",
+          "ar": "في الصيف",
+          "audio": "audio/s22/vocab/16-im-sommer.mp3"
+        },
+        {
+          "de": "im August",
+          "ar": "في أغسطس",
+          "audio": "audio/s22/vocab/17-im-august.mp3"
+        },
+        {
+          "de": "im Januar",
+          "ar": "في يناير",
+          "audio": "audio/s22/vocab/18-im-januar.mp3"
+        },
+        {
+          "de": "Januar",
+          "ar": "يناير",
+          "audio": "audio/s22/vocab/19-januar.mp3",
+          "article": "der"
+        },
+        {
+          "de": "August",
+          "ar": "أغسطس",
+          "audio": "audio/s22/vocab/20-august.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Sommer",
+          "ar": "الصيف",
+          "audio": "audio/s22/vocab/21-sommer.mp3",
+          "article": "der"
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "label": "Events",
+      "words": [
+        {
+          "de": "Urlaub",
+          "ar": "الإجازة",
+          "audio": "audio/s22/vocab/22-urlaub.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Party",
+          "ar": "الحفلة",
+          "audio": "audio/s22/vocab/23-party.mp3",
+          "article": "die"
+        },
+        {
+          "de": "beginnen",
+          "ar": "يبدأ",
+          "audio": "audio/s22/vocab/24-beginnen.mp3"
+        },
+        {
+          "de": "reisen",
+          "ar": "يسافر",
+          "audio": "audio/s22/vocab/25-reisen.mp3"
+        },
+        {
+          "de": "arbeiten",
+          "ar": "يشتغل",
+          "audio": "audio/s22/vocab/26-arbeiten.mp3"
+        },
+        {
+          "de": "Ihr habt",
+          "ar": "إنتم عندكم",
+          "audio": "audio/s22/vocab/27-ihr-habt.mp3"
+        },
+        {
+          "de": "Ihr reist",
+          "ar": "إنتم بتسافروا",
+          "audio": "audio/s22/vocab/28-ihr-reist.mp3"
+        },
+        {
+          "de": "Ihr arbeitet",
+          "ar": "إنتم بتشتغلوا",
+          "audio": "audio/s22/vocab/29-ihr-arbeitet.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Um acht Uhr.",
+      "ar": "الساعة 8.",
+      "audio": "audio/s22/s01-um-acht-uhr.mp3"
+    },
+    {
+      "de": "Ich arbeite um acht Uhr.",
+      "ar": "أنا بشتغل الساعة 8.",
+      "audio": "audio/s22/s02-ich-arbeite-um-acht-uhr.mp3"
+    },
+    {
+      "de": "Am Montag.",
+      "ar": "يوم الاثنين.",
+      "audio": "audio/s22/s03-am-montag.mp3"
+    },
+    {
+      "de": "Ich komme am Montag.",
+      "ar": "أنا هاجي يوم الاثنين.",
+      "audio": "audio/s22/s04-ich-komme-am-montag.mp3"
+    },
+    {
+      "de": "Am Morgen.",
+      "ar": "في الصباح.",
+      "audio": "audio/s22/s05-am-morgen.mp3"
+    },
+    {
+      "de": "Im Sommer.",
+      "ar": "في الصيف.",
+      "audio": "audio/s22/s06-im-sommer.mp3"
+    },
+    {
+      "de": "Ich reise im Sommer.",
+      "ar": "أنا بسافر في الصيف.",
+      "audio": "audio/s22/s07-ich-reise-im-sommer.mp3"
+    },
+    {
+      "de": "Im August.",
+      "ar": "في أغسطس.",
+      "audio": "audio/s22/s08-im-august.mp3"
+    },
+    {
+      "de": "Von Montag bis Freitag.",
+      "ar": "من الاثنين للجمعة.",
+      "audio": "audio/s22/s09-von-montag-bis-freitag.mp3"
+    },
+    {
+      "de": "Ich arbeite von Montag bis Freitag.",
+      "ar": "أنا بشتغل من الاثنين للجمعة.",
+      "audio": "audio/s22/s10-ich-arbeite-von-montag-bis-freitag.mp3"
+    },
+    {
+      "de": "Ihr habt am Dienstag eine Party.",
+      "ar": "إنتم عندكم حفلة يوم الثلاثاء.",
+      "audio": "audio/s22/s11-ihr-habt-am-dienstag-eine-party.mp3"
+    },
+    {
+      "de": "Die Party beginnt um neun Uhr.",
+      "ar": "الحفلة بتبدأ الساعة 9.",
+      "audio": "audio/s22/s12-die-party-beginnt-um-neun-uhr.mp3"
+    },
+    {
+      "de": "Ihr habt im Januar Urlaub.",
+      "ar": "إنتم عندكم إجازة في يناير.",
+      "audio": "audio/s22/s13-ihr-habt-im-januar-urlaub.mp3"
+    },
+    {
+      "de": "Ihr reist am Freitag.",
+      "ar": "إنتم بتسافروا يوم الجمعة.",
+      "audio": "audio/s22/s14-ihr-reist-am-freitag.mp3"
+    },
+    {
+      "de": "Ihr arbeitet von Dienstag bis Freitag.",
+      "ar": "إنتم بتشتغلوا من الثلاثاء للجمعة.",
+      "audio": "audio/s22/s15-ihr-arbeitet-von-dienstag-bis-freitag.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Dienstag",
+      "ar": "الثلاثاء",
+      "audio": "audio/s22/vocab/13-dienstag.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Freitag",
+      "ar": "الجمعة",
+      "audio": "audio/s22/vocab/14-freitag.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Januar",
+      "ar": "يناير",
+      "audio": "audio/s22/vocab/19-januar.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Urlaub",
+      "ar": "الإجازة",
+      "audio": "audio/s22/vocab/22-urlaub.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Party",
+      "ar": "الحفلة",
+      "audio": "audio/s22/vocab/23-party.mp3",
+      "article": "die"
+    },
+    {
+      "de": "beginnen",
+      "ar": "يبدأ",
+      "audio": "audio/s22/vocab/24-beginnen.mp3"
+    },
+    {
+      "de": "um",
+      "ar": "في (الساعة)",
+      "audio": "audio/s22/vocab/01-um.mp3"
+    },
+    {
+      "de": "am",
+      "ar": "في (يوم/وقت من اليوم)",
+      "audio": "audio/s22/vocab/02-am.mp3"
+    },
+    {
+      "de": "im",
+      "ar": "في (شهر/فصل)",
+      "audio": "audio/s22/vocab/03-im.mp3"
+    },
+    {
+      "de": "von ... bis",
+      "ar": "من ... إلى",
+      "audio": "audio/s22/vocab/04-von-bis.mp3"
+    },
+    {
+      "de": "Montag",
+      "ar": "الاثنين",
+      "audio": "audio/s22/vocab/12-montag.mp3",
+      "article": "der"
+    },
+    {
+      "de": "reisen",
+      "ar": "يسافر",
+      "audio": "audio/s22/vocab/25-reisen.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich arbeite ___ acht Uhr.",
+      "options": [
+        "um",
+        "am",
+        "im"
+      ],
+      "answer": 0,
+      "why": "الساعة: um.",
+      "ar": "الساعة 8."
+    },
+    {
+      "prompt": "Ich komme ___ Montag.",
+      "options": [
+        "am",
+        "um",
+        "im"
+      ],
+      "answer": 0,
+      "why": "اليوم: am.",
+      "ar": "يوم الاثنين."
+    },
+    {
+      "prompt": "Ich reise ___ Sommer.",
+      "options": [
+        "im",
+        "am",
+        "um"
+      ],
+      "answer": 0,
+      "why": "الفصل: im.",
+      "ar": "في الصيف."
+    },
+    {
+      "prompt": "Ihr habt ___ Januar Urlaub.",
+      "options": [
+        "im",
+        "am",
+        "um"
+      ],
+      "answer": 0,
+      "why": "الشهر: im.",
+      "ar": "في يناير."
+    },
+    {
+      "prompt": "Die Party beginnt ___ neun Uhr.",
+      "options": [
+        "um",
+        "am",
+        "im"
+      ],
+      "answer": 0,
+      "why": "الساعة: um.",
+      "ar": "الساعة 9."
+    },
+    {
+      "prompt": "Ihr habt ___ Dienstag eine Party.",
+      "options": [
+        "am",
+        "im",
+        "um"
+      ],
+      "answer": 0,
+      "why": "اليوم: am.",
+      "ar": "يوم الثلاثاء."
+    },
+    {
+      "prompt": "Ihr reist ___ Freitag.",
+      "options": [
+        "am",
+        "um",
+        "im"
+      ],
+      "answer": 0,
+      "why": "اليوم: am.",
+      "ar": "الجمعة."
+    },
+    {
+      "prompt": "Ich arbeite ___ Montag ___ Freitag.",
+      "options": [
+        "von / bis",
+        "am / im",
+        "um / am"
+      ],
+      "answer": 0,
+      "why": "فترة: von ... bis.",
+      "ar": "من الاثنين للجمعة."
+    },
+    {
+      "prompt": "___ August",
+      "options": [
+        "Im",
+        "Am",
+        "Um"
+      ],
+      "answer": 0,
+      "why": "الشهر: im.",
+      "ar": "في أغسطس."
+    },
+    {
+      "prompt": "___ Morgen",
+      "options": [
+        "Am",
+        "Im",
+        "Um"
+      ],
+      "answer": 0,
+      "why": "وقت من اليوم: am.",
+      "ar": "في الصباح."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلمك تجاوب على Wann؟ بحروف الجر الزمنية: um للساعات، am للأيام وأوقات اليوم، im للشهور والفصول، von ... bis للفترات، مع ضمير ihr."
+  },
+  "grammar": [
+    {
+      "title": "um للساعات",
+      "rule": "الساعات بتاخد um.",
+      "forms": [
+        "um acht Uhr",
+        "um neun Uhr"
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite um acht Uhr.",
+          "ar": "بشتغل الساعة 8."
+        }
+      ]
+    },
+    {
+      "title": "am للأيام وأوقات اليوم",
+      "rule": "الأيام وأوقات اليوم بتاخد am.",
+      "forms": [
+        "am Montag",
+        "am Dienstag",
+        "am Freitag",
+        "am Morgen"
+      ],
+      "examples": [
+        {
+          "de": "Ich komme am Montag.",
+          "ar": "هاجي الاثنين."
+        },
+        {
+          "de": "Ihr reist am Freitag.",
+          "ar": "بتسافروا الجمعة."
+        }
+      ]
+    },
+    {
+      "title": "im للشهور والفصول",
+      "rule": "الشهور والفصول بتاخد im.",
+      "forms": [
+        "im Sommer",
+        "im August",
+        "im Januar"
+      ],
+      "examples": [
+        {
+          "de": "Ich reise im Sommer.",
+          "ar": "بسافر في الصيف."
+        },
+        {
+          "de": "Ihr habt im Januar Urlaub.",
+          "ar": "عندكم إجازة في يناير."
+        }
+      ]
+    },
+    {
+      "title": "von ... bis للفترات",
+      "rule": "لفترة من وقت لوقت: von ... bis.",
+      "forms": [
+        "von Montag bis Freitag",
+        "von Dienstag bis Freitag"
+      ],
+      "examples": [
+        {
+          "de": "Ihr arbeitet von Dienstag bis Freitag.",
+          "ar": "بتشتغلوا من الثلاثاء للجمعة."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Ich",
+          "arbeite",
+          "um",
+          "acht",
+          "Uhr"
+        ],
+        "answer": "Ich arbeite um acht Uhr",
+        "ar": "أنا بشتغل الساعة 8."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "komme",
+          "am",
+          "Montag"
+        ],
+        "answer": "Ich komme am Montag",
+        "ar": "هاجي يوم الاثنين."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "reise",
+          "im",
+          "Sommer"
+        ],
+        "answer": "Ich reise im Sommer",
+        "ar": "بسافر في الصيف."
+      },
+      {
+        "tiles": [
+          "Die",
+          "Party",
+          "beginnt",
+          "um",
+          "neun",
+          "Uhr"
+        ],
+        "answer": "Die Party beginnt um neun Uhr",
+        "ar": "الحفلة بتبدأ الساعة 9."
+      },
+      {
+        "tiles": [
+          "Ihr",
+          "habt",
+          "im",
+          "Januar",
+          "Urlaub"
+        ],
+        "answer": "Ihr habt im Januar Urlaub",
+        "ar": "عندكم إجازة في يناير."
+      },
+      {
+        "tiles": [
+          "Ihr",
+          "arbeitet",
+          "von",
+          "Dienstag",
+          "bis",
+          "Freitag"
+        ],
+        "answer": "Ihr arbeitet von Dienstag bis Freitag",
+        "ar": "من الثلاثاء للجمعة."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich arbeite um acht Uhr.",
+          "Ich arbeite am acht Uhr."
+        ],
+        "answer": 0,
+        "why": "الساعة: um.",
+        "ar": "الساعة 8."
+      },
+      {
+        "options": [
+          "Ich komme am Montag.",
+          "Ich komme im Montag."
+        ],
+        "answer": 0,
+        "why": "اليوم: am.",
+        "ar": "الاثنين."
+      },
+      {
+        "options": [
+          "Ich reise im Sommer.",
+          "Ich reise am Sommer."
+        ],
+        "answer": 0,
+        "why": "الفصل: im.",
+        "ar": "الصيف."
+      },
+      {
+        "options": [
+          "Ihr habt im Januar Urlaub.",
+          "Ihr habt am Januar Urlaub."
+        ],
+        "answer": 0,
+        "why": "الشهر: im.",
+        "ar": "يناير."
+      },
+      {
+        "options": [
+          "Ihr arbeitet von Dienstag bis Freitag.",
+          "Ihr arbeitet um Dienstag bis Freitag."
+        ],
+        "answer": 0,
+        "why": "فترة: von ... bis.",
+        "ar": "من ... إلى."
+      },
+      {
+        "options": [
+          "Die Party beginnt um neun Uhr.",
+          "Die Party beginnt am neun Uhr."
+        ],
+        "answer": 0,
+        "why": "الساعة: um.",
+        "ar": "الساعة 9."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "في تمام الساعة الثامنة.",
+        "de": "Um acht Uhr.",
+        "audio": "audio/s22/tr1.mp3"
+      },
+      {
+        "ar": "أنا آتي يوم الاثنين.",
+        "de": "Ich komme am Montag.",
+        "audio": "audio/s22/tr2.mp3"
+      },
+      {
+        "ar": "أنا أسافر في الصيف.",
+        "de": "Ich reise im Sommer.",
+        "audio": "audio/s22/tr3.mp3"
+      },
+      {
+        "ar": "من الاثنين إلى الجمعة.",
+        "de": "Von Montag bis Freitag.",
+        "audio": "audio/s22/tr4.mp3"
+      },
+      {
+        "ar": "أنتم لديكم حفلة يوم الثلاثاء.",
+        "de": "Ihr habt am Dienstag eine Party.",
+        "audio": "audio/s22/tr5.mp3"
+      },
+      {
+        "ar": "الحفلة تبدأ في الساعة التاسعة.",
+        "de": "Die Party beginnt um neun Uhr.",
+        "audio": "audio/s22/tr6.mp3"
+      }
+    ]
+  }
+}
