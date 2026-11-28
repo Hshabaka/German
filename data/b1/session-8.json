@@ -1,0 +1,447 @@
+{
+  "id": 8,
+  "level": "b1",
+  "title": "Episode 8: One word instead of a preposition (Pronominaladverbien)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=-sPST_wpZDc",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel",
+    "open_url": "https://www.youtube.com/watch?v=-sPST_wpZDc"
+  },
+  "vocab": [
+    {
+      "id": "verben",
+      "label": "Verbs with fixed prepositions",
+      "words": [
+        {
+          "de": "sich freuen auf",
+          "ar": "يفرح بـ / يتطلع لـ (حاجة جاية)",
+          "audio": "audio/b1/s08/vocab/01-sich-freuen-auf.mp3"
+        },
+        {
+          "de": "sich freuen über",
+          "ar": "يسعد بـ (حاجة حصلت)",
+          "audio": "audio/b1/s08/vocab/02-sich-freuen-ueber.mp3"
+        },
+        {
+          "de": "sich ärgern über",
+          "ar": "يتضايق من",
+          "audio": "audio/b1/s08/vocab/03-sich-aergern-ueber.mp3"
+        },
+        {
+          "de": "sich erinnern an",
+          "ar": "يتذكر",
+          "audio": "audio/b1/s08/vocab/04-sich-erinnern-an.mp3"
+        },
+        {
+          "de": "sich konzentrieren auf",
+          "ar": "يركز على",
+          "audio": "audio/b1/s08/vocab/05-sich-konzentrieren-auf.mp3"
+        },
+        {
+          "de": "sich kümmern um",
+          "ar": "يهتم بـ",
+          "audio": "audio/b1/s08/vocab/06-sich-kuemmern-um.mp3"
+        },
+        {
+          "de": "träumen von",
+          "ar": "يحلم بـ",
+          "audio": "audio/b1/s08/vocab/07-traeumen-von.mp3"
+        },
+        {
+          "de": "sich beschweren über",
+          "ar": "يشتكي من",
+          "audio": "audio/b1/s08/vocab/08-sich-beschweren-ueber.mp3"
+        },
+        {
+          "de": "sich bedanken für",
+          "ar": "يشكر على",
+          "audio": "audio/b1/s08/vocab/09-sich-bedanken-fuer.mp3"
+        },
+        {
+          "de": "Angst haben vor",
+          "ar": "يخاف من",
+          "audio": "audio/b1/s08/vocab/10-angst-haben-vor.mp3"
+        }
+      ]
+    },
+    {
+      "id": "woerter",
+      "label": "Nouns",
+      "words": [
+        {
+          "de": "Entscheidung",
+          "ar": "القرار",
+          "audio": "audio/b1/s08/vocab/11-entscheidung.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Vorbereitung",
+          "ar": "التحضير / الاستعداد",
+          "audio": "audio/b1/s08/vocab/12-vorbereitung.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Erfahrung",
+          "ar": "الخبرة / التجربة",
+          "audio": "audio/b1/s08/vocab/13-erfahrung.mp3",
+          "article": "die"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Worauf wartest du?",
+      "ar": "بتستنى إيه؟",
+      "audio": "audio/b1/s08/s01-worauf-wartest-du.mp3"
+    },
+    {
+      "de": "Ich warte auf den Bus.",
+      "ar": "بستنى الأوتوبيس.",
+      "audio": "audio/b1/s08/s02-ich-warte-auf-den-bus.mp3"
+    },
+    {
+      "de": "Ich warte darauf.",
+      "ar": "بستناه.",
+      "audio": "audio/b1/s08/s03-ich-warte-darauf.mp3"
+    },
+    {
+      "de": "Woran denkst du?",
+      "ar": "بتفكر في إيه؟",
+      "audio": "audio/b1/s08/s04-woran-denkst-du.mp3"
+    },
+    {
+      "de": "Ich denke an die Prüfung.",
+      "ar": "بفكر في الامتحان.",
+      "audio": "audio/b1/s08/s05-ich-denke-an-die-pruefung.mp3"
+    },
+    {
+      "de": "Ich denke daran.",
+      "ar": "بفكر فيه.",
+      "audio": "audio/b1/s08/s06-ich-denke-daran.mp3"
+    },
+    {
+      "de": "Worüber ärgerst du dich?",
+      "ar": "متضايق من إيه؟",
+      "audio": "audio/b1/s08/s07-worueber-aergerst-du-dich.mp3"
+    },
+    {
+      "de": "Ich ärgere mich darüber.",
+      "ar": "متضايق من كده.",
+      "audio": "audio/b1/s08/s08-ich-aergere-mich-darueber.mp3"
+    },
+    {
+      "de": "Mein Laptop ist kaputt. Ich muss mich darum kümmern.",
+      "ar": "اللابتوب بتاعي بايز. لازم أهتم بالموضوع.",
+      "audio": "audio/b1/s08/s09-mein-laptop-ist-kaputt-ich-muss-mich-darum-k.mp3"
+    },
+    {
+      "de": "Ich freue mich sehr darauf.",
+      "ar": "مبسوط أوي بيها (لسه جاية).",
+      "audio": "audio/b1/s08/s10-ich-freue-mich-sehr-darauf.mp3"
+    },
+    {
+      "de": "Ich habe mich sehr darüber gefreut.",
+      "ar": "فرحت أوي بيها (حصلت).",
+      "audio": "audio/b1/s08/s11-ich-habe-mich-sehr-darueber-gefreut.mp3"
+    },
+    {
+      "de": "Auf wen wartest du?",
+      "ar": "بتستنى مين؟",
+      "audio": "audio/b1/s08/s12-auf-wen-wartest-du.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Entscheidung",
+      "ar": "القرار",
+      "audio": "audio/b1/s08/vocab/11-entscheidung.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Vorbereitung",
+      "ar": "التحضير / الاستعداد",
+      "audio": "audio/b1/s08/vocab/12-vorbereitung.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Erfahrung",
+      "ar": "الخبرة / التجربة",
+      "audio": "audio/b1/s08/vocab/13-erfahrung.mp3",
+      "article": "die"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Morgen fahre ich endlich in den Urlaub. Ich freue mich sehr _______.",
+      "options": [
+        "darauf",
+        "darüber",
+        "daran"
+      ],
+      "answer": 0,
+      "why": "الفرحة بحاجة في المستقبل = freuen auf = darauf.",
+      "ar": "فرحان أوي بالأجازة الجاية."
+    },
+    {
+      "prompt": "_______ hast du dich so geärgert? - Über das schlechte Wetter!",
+      "options": [
+        "Worüber",
+        "Wovon",
+        "Wofür"
+      ],
+      "answer": 0,
+      "why": "الفعل ärgern بياخد über، يبقى السؤال Worüber.",
+      "ar": "متضايق من إيه؟ من الجو الوحش!"
+    },
+    {
+      "prompt": "Der Test ist morgen. Hast du _______ gedacht?",
+      "options": [
+        "daran",
+        "darauf",
+        "darüber"
+      ],
+      "answer": 0,
+      "why": "الفعل denken بياخد an = daran.",
+      "ar": "فكرت فيه؟"
+    },
+    {
+      "prompt": "_______ wartet ihr hier? - Auf den Bus in die Stadt.",
+      "options": [
+        "Worauf",
+        "Wofür",
+        "Woran"
+      ],
+      "answer": 0,
+      "why": "warten بياخد auf = Worauf.",
+      "ar": "مستنيين إيه؟"
+    },
+    {
+      "prompt": "Ich habe ein schönes Geschenk bekommen. Ich habe mich sehr _______ gefreut.",
+      "options": [
+        "darüber",
+        "darauf",
+        "dafür"
+      ],
+      "answer": 0,
+      "why": "الهدية وصلت بالفعل = freuen über = darüber.",
+      "ar": "فرحت أوي بالهدية."
+    },
+    {
+      "prompt": "_______ denkst du gerade? - An meinen Freund Ali.",
+      "options": [
+        "An wen",
+        "Woran",
+        "Über wen"
+      ],
+      "answer": 0,
+      "why": "فخ B1: على شخص عاقل بنسأل بحرف الجر + wen مش Wo-.",
+      "ar": "بتفكر في مين؟ في صاحبي علي."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الحلقة ٨ من B1: ظروف حروف الجر - كلمة واحدة بدل حرف الجر للأشياء (darauf/woran)، تريكة حرف r، وفخ العاقل وغير العاقل. مع أهم أفعال B1 اللي ليها حرف جر ثابت."
+  },
+  "grammar": [
+    {
+      "title": "الفكرة: كلمة واحدة بدل حرف الجر",
+      "rule": "للأشياء (غير العاقل): دا + حرف الجر في الرد (darauf/daran/darüber)، وWo + حرف الجر في السؤال (worauf/woran/worüber).",
+      "forms": [
+        "darauf - drauf",
+        "worauf - على إيه"
+      ],
+      "examples": [
+        {
+          "de": "Ich warte auf den Bus. - Ich warte darauf.",
+          "ar": "بستنى الأوتوبيس - بستناه."
+        },
+        {
+          "de": "Worauf wartest du?",
+          "ar": "بتستنى إيه؟"
+        }
+      ]
+    },
+    {
+      "title": "حرف r السحري",
+      "rule": "لو حرف الجر بيبدأ بحرف متحرك (a/o/u...) لازم r في النص عشان النطق: darauf وdarüber وdarin وworan.",
+      "forms": [
+        "auf - darauf",
+        "über - darüber",
+        "an - daran",
+        "in - darin"
+      ],
+      "examples": [
+        {
+          "de": "Ich denke daran.",
+          "ar": "بفكر فيه."
+        }
+      ]
+    },
+    {
+      "title": "فخ B1: العاقل وغير العاقل",
+      "rule": "للأشخاص ممنوع Da-/Wo-: بنسأل بحرف الجر + wen/wem ونرد بحرف الجر + ضمير: Auf wen wartest du? - Auf ihn.",
+      "forms": [
+        "Auf wen? - auf ihn",
+        "An wen? - an Ali"
+      ],
+      "examples": [
+        {
+          "de": "An wen denkst du? - An meinen Freund Ali.",
+          "ar": "بتفكر في مين؟ في صاحبي علي."
+        }
+      ]
+    },
+    {
+      "title": "احفظ الفعل بحرف الجر بتاعه",
+      "rule": "freuen auf (مستقبل) وfreuen über (حصل) وärgern über وerinnern an وkonzentrieren auf وkümmern um وträumen von وbeschweren über وbedanken für وAngst vor.",
+      "forms": [
+        "sich freuen auf/über",
+        "sich kümmern um",
+        "Angst haben vor"
+      ],
+      "examples": [
+        {
+          "de": "Ich freue mich sehr darauf.",
+          "ar": "مبسوط أوي بيها (جاية)."
+        },
+        {
+          "de": "Ich habe mich sehr darüber gefreut.",
+          "ar": "فرحت أوي بيها (حصلت)."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "warte",
+          "darauf.",
+          "Ich"
+        ],
+        "answer": "Ich warte darauf.",
+        "ar": "بستناه."
+      },
+      {
+        "tiles": [
+          "denke",
+          "daran.",
+          "Ich"
+        ],
+        "answer": "Ich denke daran.",
+        "ar": "بفكر فيه."
+      },
+      {
+        "tiles": [
+          "freue mich",
+          "sehr",
+          "Ich",
+          "darauf."
+        ],
+        "answer": "Ich freue mich sehr darauf.",
+        "ar": "مبسوط أوي بيها."
+      },
+      {
+        "tiles": [
+          "muss mich",
+          "darum kümmern.",
+          "Ich"
+        ],
+        "answer": "Ich muss mich darum kümmern.",
+        "ar": "لازم أهتم بالموضوع."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Wir sprechen darüber.",
+          "Wir sprechen über darüber."
+        ],
+        "answer": 0,
+        "why": "اختصار واحد بس: dar- بدل حرف الجر، مش الاتنين مع بعض.",
+        "ar": "بنتكلم عن الموضوع."
+      },
+      {
+        "options": [
+          "Sie interessiert sich dafür.",
+          "Sie interessiert sich daran."
+        ],
+        "answer": 0,
+        "why": "interessieren بياخد für = dafür.",
+        "ar": "هي مهتمة بالتاريخ الألماني."
+      },
+      {
+        "options": [
+          "Er konzentriert sich darauf.",
+          "Er konzentriert sich darum."
+        ],
+        "answer": 0,
+        "why": "konzentrieren بياخد auf = darauf.",
+        "ar": "هو بيركز على شغله."
+      },
+      {
+        "options": [
+          "Ich danke ihm dafür.",
+          "Ich danke ihn dafür."
+        ],
+        "answer": 0,
+        "why": "danken فعل داتيف: ihm مش ihn.",
+        "ar": "بشكره عليه."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "فيم تفكر؟ أفكر في الامتحان.",
+        "de": "Woran denkst du? Ich denke an die Prüfung.",
+        "audio": "audio/b1/s08/tr1.mp3"
+      },
+      {
+        "ar": "مِمَّ تتضايق؟ أتضايق من الضوضاء.",
+        "de": "Worüber ärgerst du dich? Ich ärgere mich über den Lärm.",
+        "audio": "audio/b1/s08/tr2.mp3"
+      },
+      {
+        "ar": "اللابتوب معطل، يجب أن أحل هذا الأمر.",
+        "de": "Mein Laptop ist kaputt. Ich muss mich darum kümmern.",
+        "audio": "audio/b1/s08/tr3.mp3"
+      },
+      {
+        "ar": "على من تنتظر؟",
+        "de": "Auf wen wartest du?",
+        "audio": "audio/b1/s08/tr4.mp3"
+      }
+    ]
+  }
+}
