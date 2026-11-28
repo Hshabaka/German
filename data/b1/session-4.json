@@ -1,0 +1,456 @@
+{
+  "id": 4,
+  "level": "b1",
+  "title": "Episode 4: Saying \"in order to\" (um ... zu / damit)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=XTuHDywWZc0",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel",
+    "open_url": "https://www.youtube.com/watch?v=XTuHDywWZc0"
+  },
+  "vocab": [
+    {
+      "id": "konj",
+      "label": "Purpose connectors",
+      "words": [
+        {
+          "de": "um ... zu",
+          "ar": "عشان (نفس الفاعل)",
+          "audio": "audio/b1/s04/vocab/01-um-zu.mp3"
+        },
+        {
+          "de": "damit",
+          "ar": "عشان (فاعل مختلف)",
+          "audio": "audio/b1/s04/vocab/02-damit.mp3"
+        },
+        {
+          "de": "Wozu?",
+          "ar": "عشان إيه؟",
+          "audio": "audio/b1/s04/vocab/03-wozu.mp3"
+        }
+      ]
+    },
+    {
+      "id": "woerter",
+      "label": "New words",
+      "words": [
+        {
+          "de": "Zutaten",
+          "ar": "المكونات",
+          "audio": "audio/b1/s04/vocab/04-zutaten.mp3",
+          "article": "die (Plural)"
+        },
+        {
+          "de": "Stelle",
+          "ar": "الوظيفة",
+          "audio": "audio/b1/s04/vocab/05-stelle.mp3",
+          "article": "die"
+        },
+        {
+          "de": "sparen",
+          "ar": "يوفر فلوس",
+          "audio": "audio/b1/s04/vocab/06-sparen.mp3"
+        },
+        {
+          "de": "Reise",
+          "ar": "الرحلة",
+          "audio": "audio/b1/s04/vocab/07-reise.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Umwelt",
+          "ar": "البيئة",
+          "audio": "audio/b1/s04/vocab/08-umwelt.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Fahrrad",
+          "ar": "العجلة",
+          "audio": "audio/b1/s04/vocab/09-fahrrad.mp3",
+          "article": "das"
+        },
+        {
+          "de": "pünktlich",
+          "ar": "في الموعد",
+          "audio": "audio/b1/s04/vocab/10-puenktlich.mp3"
+        },
+        {
+          "de": "Bahnhof",
+          "ar": "محطة القطر",
+          "audio": "audio/b1/s04/vocab/11-bahnhof.mp3",
+          "article": "der"
+        },
+        {
+          "de": "feiern",
+          "ar": "يحتفل",
+          "audio": "audio/b1/s04/vocab/12-feiern.mp3"
+        },
+        {
+          "de": "stolz",
+          "ar": "فخور",
+          "audio": "audio/b1/s04/vocab/13-stolz.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Wir kaufen Zutaten, um ein gesundes Abendessen zu kochen.",
+      "ar": "بنشتري المكونات عشان نطبخ عشا صحي.",
+      "audio": "audio/b1/s04/s01-wir-kaufen-zutaten-um-ein-gesundes-abendesse.mp3"
+    },
+    {
+      "de": "Ich lerne jeden Tag Deutsch, um eine bessere Stelle zu finden.",
+      "ar": "بذاكر ألماني كل يوم عشان ألاقي وظيفة أحسن.",
+      "audio": "audio/b1/s04/s02-ich-lerne-jeden-tag-deutsch-um-eine-bessere-.mp3"
+    },
+    {
+      "de": "Sie spart viel Geld, um im Sommer eine Reise zu machen.",
+      "ar": "هي بتوفر فلوس كتير عشان تعمل رحلة في الصيف.",
+      "audio": "audio/b1/s04/s03-sie-spart-viel-geld-um-im-sommer-eine-reise-.mp3"
+    },
+    {
+      "de": "Ich gehe früh ins Bett, um morgen fit für die Prüfung zu sein.",
+      "ar": "بنام بدري عشان أبقى فورمة للامتحان بكرة.",
+      "audio": "audio/b1/s04/s04-ich-gehe-frueh-ins-bett-um-morgen-fit-fuer-d.mp3"
+    },
+    {
+      "de": "Er nimmt oft das Fahrrad, um die Umwelt zu schützen.",
+      "ar": "هو بياخد العجلة كتير عشان يحمي البيئة.",
+      "audio": "audio/b1/s04/s05-er-nimmt-oft-das-fahrrad-um-die-umwelt-zu-sc.mp3"
+    },
+    {
+      "de": "Wir nehmen ein Taxi, um pünktlich am Bahnhof anzukommen.",
+      "ar": "بناخد تاكسي عشان نوصل محطة القطر في الموعد.",
+      "audio": "audio/b1/s04/s06-wir-nehmen-ein-taxi-um-puenktlich-am-bahnhof.mp3"
+    },
+    {
+      "de": "Ich spreche langsam, damit du mich besser verstehst.",
+      "ar": "بتكلم ببطء عشان تفهمني أحسن.",
+      "audio": "audio/b1/s04/s07-ich-spreche-langsam-damit-du-mich-besser-ver.mp3"
+    },
+    {
+      "de": "Ich arbeite viel, damit meine Familie ein gutes Leben hat.",
+      "ar": "بشتغل كتير عشان عيلتي تعيش حياة كويسة.",
+      "audio": "audio/b1/s04/s08-ich-arbeite-viel-damit-meine-familie-ein-gut.mp3"
+    },
+    {
+      "de": "Ich lerne fleißig Deutsch, um in Deutschland zu leben.",
+      "ar": "بذاكر ألماني بجد عشان أعيش في ألمانيا.",
+      "audio": "audio/b1/s04/s09-ich-lerne-fleissig-deutsch-um-in-deutschland.mp3"
+    },
+    {
+      "de": "Ich werde morgen nach Berlin fahren, um meinen Freund zu besuchen.",
+      "ar": "هسافر برلين بكرة عشان أزور صاحبي.",
+      "audio": "audio/b1/s04/s10-ich-werde-morgen-nach-berlin-fahren-um-meine.mp3"
+    },
+    {
+      "de": "Sobald ich die Prüfung bestehe, werde ich eine große Party machen.",
+      "ar": "أول ما أنجح في الامتحان، هعمل حفلة كبيرة.",
+      "audio": "audio/b1/s04/s11-sobald-ich-die-pruefung-bestehe-werde-ich-ei.mp3"
+    },
+    {
+      "de": "Ich mache das alles, damit meine Familie stolz auf mich ist.",
+      "ar": "بعمل ده كله عشان عيلتي تفتخر بيا.",
+      "audio": "audio/b1/s04/s12-ich-mache-das-alles-damit-meine-familie-stol.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Zutaten",
+      "ar": "المكونات",
+      "audio": "audio/b1/s04/vocab/04-zutaten.mp3",
+      "article": "die (Plural)"
+    },
+    {
+      "de": "Stelle",
+      "ar": "الوظيفة",
+      "audio": "audio/b1/s04/vocab/05-stelle.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Reise",
+      "ar": "الرحلة",
+      "audio": "audio/b1/s04/vocab/07-reise.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Umwelt",
+      "ar": "البيئة",
+      "audio": "audio/b1/s04/vocab/08-umwelt.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Fahrrad",
+      "ar": "العجلة",
+      "audio": "audio/b1/s04/vocab/09-fahrrad.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Bahnhof",
+      "ar": "محطة القطر",
+      "audio": "audio/b1/s04/vocab/11-bahnhof.mp3",
+      "article": "der"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich lerne jeden Tag Deutsch, _______ eine bessere Stelle zu finden.",
+      "options": [
+        "um",
+        "damit",
+        "dass"
+      ],
+      "answer": 0,
+      "why": "نفس الفاعل (أنا) في الجملتين = um ... zu.",
+      "ar": "بذاكر عشان ألاقي وظيفة أحسن."
+    },
+    {
+      "prompt": "Ich spreche langsam, _______ du mich besser verstehst.",
+      "options": [
+        "damit",
+        "um",
+        "zu"
+      ],
+      "answer": 0,
+      "why": "الفاعل اختلف (أنا/أنت) = damit وبس؛ um ... zu ممنوع هنا.",
+      "ar": "بتكلم ببطء عشان تفهمني."
+    },
+    {
+      "prompt": "Wir gehen in den Supermarkt, _______.",
+      "options": [
+        "um einzukaufen",
+        "um zu einkaufen",
+        "damit einkaufen"
+      ],
+      "answer": 0,
+      "why": "الفعل المنفصل einkaufen بيتحشر مع zu: einzukaufen.",
+      "ar": "بنروح السوبر ماركت عشان نتسوق."
+    },
+    {
+      "prompt": "Ich gehe früh ins Bett, um morgen fit für die Prüfung _______.",
+      "options": [
+        "zu sein",
+        "sein",
+        "zu haben"
+      ],
+      "answer": 0,
+      "why": "فعل sein في الآخر مع zu: zu sein.",
+      "ar": "بنام بدري عشان أبقى فورمة للامتحان."
+    },
+    {
+      "prompt": "Ich arbeite viel, _______ meine Familie ein gutes Leben hat.",
+      "options": [
+        "damit",
+        "um ... zu",
+        "dass"
+      ],
+      "answer": 0,
+      "why": "الفاعل اتغير من أنا لعيلتي = damit.",
+      "ar": "بشتغل كتير عشان عيلتي تعيش كويس."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الحلقة ٤ من B1: إزاي تقول عشان. um ... zu لما الفاعل واحد (مع تريكة الفعل المنفصل anzukommen)، ودamit لما الفاعل يختلف. مع كلمات البيئة والفلوس والشغل ومشروع التخرج المصغر."
+  },
+  "grammar": [
+    {
+      "title": "um ... zu: الهدف لما الفاعل واحد",
+      "rule": "اسأل Wozu? (عشان إيه؟). لو الفاعل نفسه في الجملتين، اختصر بـ um ... zu والفعل الأخير في المصدر مع zu.",
+      "forms": [
+        "um ... zu + Infinitiv",
+        "anzukommen (منفصل)"
+      ],
+      "examples": [
+        {
+          "de": "Ich lerne jeden Tag Deutsch, um eine bessere Stelle zu finden.",
+          "ar": "بذاكر عشان ألاقي وظيفة أحسن."
+        },
+        {
+          "de": "Wir nehmen ein Taxi, um pünktlich am Bahnhof anzukommen.",
+          "ar": "بناخد تاكسي عشان نوصل في الموعد."
+        }
+      ]
+    },
+    {
+      "title": "damit: لما الفاعل يختلف",
+      "rule": "لو فاعل الجملة الأولى غير التانية، um ... zu ممنوع: لازم damit والفعل في الآخر.",
+      "forms": [
+        "damit + فاعل تاني + فعل في الآخر"
+      ],
+      "examples": [
+        {
+          "de": "Ich spreche langsam, damit du mich besser verstehst.",
+          "ar": "بتكلم ببطء عشان تفهمني."
+        },
+        {
+          "de": "Ich arbeite viel, damit meine Familie ein gutes Leben hat.",
+          "ar": "بشتغل عشان عيلتي تعيش كويس."
+        }
+      ]
+    },
+    {
+      "title": "الفعل المنفصل مع um ... zu",
+      "rule": "الـ zu بتتحشر في نص الفعل المنفصل: anzukommen وeinzukaufen.",
+      "forms": [
+        "ankommen - anzukommen",
+        "einkaufen - einzukaufen"
+      ],
+      "examples": [
+        {
+          "de": "Wir gehen in den Supermarkt, um einzukaufen.",
+          "ar": "بنروح السوبر ماركت عشان نتسوق."
+        }
+      ]
+    },
+    {
+      "title": "القطعة الذهبية: الجمل بتسلم بعضها",
+      "rule": "um ... zu لتوحيد الفاعل، damit لاختلافه، sobald بترمي الفعل الآخر، deshalb بتشقلب الفاعل والفعل.",
+      "forms": [
+        "Sobald ich bestehe, werde ich ...",
+        "deshalb lerne ich ..."
+      ],
+      "examples": [
+        {
+          "de": "Sobald ich die Prüfung bestehe, werde ich eine große Party machen, um mit meinen Freunden zu feiern.",
+          "ar": "أول ما أنجح، هعمل حفلة كبيرة عشان أحتفل مع أصحابي."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "kaufen Zutaten,",
+          "Wir",
+          "um ein gesundes Abendessen",
+          "zu kochen."
+        ],
+        "answer": "Wir kaufen Zutaten, um ein gesundes Abendessen zu kochen.",
+        "ar": "بنشتري المكونات عشان نطبخ عشا صحي."
+      },
+      {
+        "tiles": [
+          "lerne jeden Tag Deutsch,",
+          "Ich",
+          "um eine bessere Stelle",
+          "zu finden."
+        ],
+        "answer": "Ich lerne jeden Tag Deutsch, um eine bessere Stelle zu finden.",
+        "ar": "بذاكر ألماني كل يوم عشان ألاقي وظيفة أحسن."
+      },
+      {
+        "tiles": [
+          "nehmen ein Taxi,",
+          "Wir",
+          "um pünktlich am Bahnhof",
+          "anzukommen."
+        ],
+        "answer": "Wir nehmen ein Taxi, um pünktlich am Bahnhof anzukommen.",
+        "ar": "بناخد تاكسي عشان نوصل في الموعد."
+      },
+      {
+        "tiles": [
+          "arbeite viel,",
+          "Ich",
+          "damit meine Familie",
+          "ein gutes Leben hat."
+        ],
+        "answer": "Ich arbeite viel, damit meine Familie ein gutes Leben hat.",
+        "ar": "بشتغل كتير عشان عيلتي تعيش كويسة."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich lerne Deutsch, um eine bessere Stelle zu finden.",
+          "Ich lerne Deutsch, um eine bessere Stelle finden."
+        ],
+        "answer": 0,
+        "why": "um ... zu: الـ zu ملزومة قبل الفعل الأخير.",
+        "ar": "بذاكر عشان ألاقي وظيفة أحسن."
+      },
+      {
+        "options": [
+          "Ich spreche langsam, damit du mich besser verstehst.",
+          "Ich spreche langsam, um mich besser zu verstehen."
+        ],
+        "answer": 0,
+        "why": "الفاعل مختلف (أنا/أنت) = damit وبس.",
+        "ar": "بتكلم ببطء عشان تفهمني."
+      },
+      {
+        "options": [
+          "Wir gehen in den Supermarkt, um einzukaufen.",
+          "Wir gehen in den Supermarkt, um zu einkaufen."
+        ],
+        "answer": 0,
+        "why": "الفعل المنفصل بيتحشر: einzukaufen مش zu einkaufen.",
+        "ar": "بنروح السوبر ماركت عشان نتسوق."
+      },
+      {
+        "options": [
+          "Sie spart Geld, um im Sommer eine Reise zu machen.",
+          "Sie spart Geld, damit sie im Sommer eine Reise zu machen hat."
+        ],
+        "answer": 0,
+        "why": "بعد damit الفعل المصرف في الآخر: macht مش zu machen hat.",
+        "ar": "بتوفر فلوس عشان تعمل رحلة في الصيف."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "أنا سأسافر غدًا إلى برلين، لكي أزور صديقي.",
+        "de": "Ich werde morgen nach Berlin fahren, um meinen Freund zu besuchen.",
+        "audio": "audio/b1/s04/tr1.mp3"
+      },
+      {
+        "ar": "أنا أوفر المال، لأنني أريد أن أشتري سيارة، لكي تستطيع زوجتي أن تذهب إلى العمل.",
+        "de": "Ich spare Geld, weil ich ein Auto kaufen will, damit meine Frau zur Arbeit fahren kann.",
+        "audio": "audio/b1/s04/tr2.mp3"
+      },
+      {
+        "ar": "أنا أسافر بالقطار إلى برلين، لكي أصل في الموعد.",
+        "de": "Ich fahre mit dem Zug nach Berlin, um pünktlich anzukommen.",
+        "audio": "audio/b1/s04/tr3.mp3"
+      },
+      {
+        "ar": "أنا أذهب مع كلبي إلى الحديقة، لكي يستطيع هو أن يلعب.",
+        "de": "Ich gehe mit meinem Hund in den Park, damit er spielen kann.",
+        "audio": "audio/b1/s04/tr4.mp3"
+      }
+    ]
+  }
+}
