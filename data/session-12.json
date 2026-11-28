@@ -1,0 +1,707 @@
+{
+  "id": 12,
+  "level": "a1",
+  "title": "Session 12: Numbers and age",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=KIS8k1rgO4E",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "numbers-0-5",
+      "label": "Numbers 0–5",
+      "words": [
+        {
+          "de": "null",
+          "ar": "صفر",
+          "audio": "audio/s12/vocab/01-null.mp3"
+        },
+        {
+          "de": "eins",
+          "ar": "واحد",
+          "audio": "audio/s12/vocab/02-eins.mp3"
+        },
+        {
+          "de": "zwei",
+          "ar": "اتنين",
+          "audio": "audio/s12/vocab/03-zwei.mp3"
+        },
+        {
+          "de": "drei",
+          "ar": "تلاتة",
+          "audio": "audio/s12/vocab/04-drei.mp3"
+        },
+        {
+          "de": "vier",
+          "ar": "أربعة",
+          "audio": "audio/s12/vocab/05-vier.mp3"
+        },
+        {
+          "de": "fünf",
+          "ar": "خمسة",
+          "audio": "audio/s12/vocab/06-fuenf.mp3"
+        }
+      ]
+    },
+    {
+      "id": "numbers-10-100",
+      "label": "Numbers 10–100",
+      "words": [
+        {
+          "de": "zehn",
+          "ar": "عشرة",
+          "audio": "audio/s12/vocab/07-zehn.mp3"
+        },
+        {
+          "de": "zwanzig",
+          "ar": "عشرين",
+          "audio": "audio/s12/vocab/08-zwanzig.mp3"
+        },
+        {
+          "de": "dreißig",
+          "ar": "تلاتين",
+          "audio": "audio/s12/vocab/09-dreissig.mp3"
+        },
+        {
+          "de": "vierzig",
+          "ar": "أربعين",
+          "audio": "audio/s12/vocab/10-vierzig.mp3"
+        },
+        {
+          "de": "fünfzig",
+          "ar": "خمسين",
+          "audio": "audio/s12/vocab/11-fuenfzig.mp3"
+        },
+        {
+          "de": "hundert",
+          "ar": "مية",
+          "audio": "audio/s12/vocab/12-hundert.mp3"
+        }
+      ]
+    },
+    {
+      "id": "jobs",
+      "label": "Jobs",
+      "words": [
+        {
+          "de": "Beruf",
+          "ar": "المهنة",
+          "audio": "audio/s12/vocab/13-beruf.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Arzt",
+          "ar": "الطبيب",
+          "audio": "audio/s12/vocab/14-arzt.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Ärztin",
+          "ar": "الطبيبة",
+          "audio": "audio/s12/vocab/15-aerztin.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Ingenieur",
+          "ar": "المهندس",
+          "audio": "audio/s12/vocab/16-ingenieur.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Verkäufer",
+          "ar": "البائع",
+          "audio": "audio/s12/vocab/17-verkaeufer.mp3",
+          "article": "der"
+        }
+      ]
+    },
+    {
+      "id": "personal-data",
+      "label": "Personal data",
+      "words": [
+        {
+          "de": "Telefonnummer",
+          "ar": "رقم التليفون",
+          "audio": "audio/s12/vocab/18-telefonnummer.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Adresse",
+          "ar": "العنوان",
+          "audio": "audio/s12/vocab/19-adresse.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Hausnummer",
+          "ar": "رقم المنزل",
+          "audio": "audio/s12/vocab/20-hausnummer.mp3",
+          "article": "die"
+        }
+      ]
+    },
+    {
+      "id": "questions-du",
+      "label": "Questions with du",
+      "words": [
+        {
+          "de": "Wie alt bist du?",
+          "ar": "عندك كام سنة؟",
+          "audio": "audio/s12/vocab/21-wie-alt-bist-du.mp3"
+        },
+        {
+          "de": "Wie ist deine Telefonnummer?",
+          "ar": "إيه رقم تليفونك؟",
+          "audio": "audio/s12/vocab/22-wie-ist-deine-telefonnummer.mp3"
+        },
+        {
+          "de": "Wie ist deine Adresse?",
+          "ar": "إيه عنوانك؟",
+          "audio": "audio/s12/vocab/23-wie-ist-deine-adresse.mp3"
+        },
+        {
+          "de": "Was bist du von Beruf?",
+          "ar": "إيه مهنتك؟",
+          "audio": "audio/s12/vocab/24-was-bist-du-von-beruf.mp3"
+        }
+      ]
+    },
+    {
+      "id": "key-phrases",
+      "label": "Key phrases",
+      "words": [
+        {
+          "de": "Ich bin 20 Jahre alt",
+          "ar": "عمري 20 سنة",
+          "audio": "audio/s12/vocab/25-ich-bin-20-jahre-alt.mp3"
+        },
+        {
+          "de": "Meine Telefonnummer ist ...",
+          "ar": "رقم تليفوني هو ...",
+          "audio": "audio/s12/vocab/26-meine-telefonnummer-ist.mp3"
+        },
+        {
+          "de": "Du arbeitest als Ingenieur",
+          "ar": "انت شغال كمهندس",
+          "audio": "audio/s12/vocab/27-du-arbeitest-als-ingenieur.mp3"
+        },
+        {
+          "de": "Deine Hausnummer ist 15",
+          "ar": "رقم منزلك 15",
+          "audio": "audio/s12/vocab/28-deine-hausnummer-ist-15.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich bin 20 Jahre alt.",
+      "ar": "عمري 20 سنة.",
+      "audio": "audio/s12/s01-ich-bin-20-jahre-alt.mp3"
+    },
+    {
+      "de": "Wie alt bist du?",
+      "ar": "عندك كام سنة؟",
+      "audio": "audio/s12/s02-wie-alt-bist-du.mp3"
+    },
+    {
+      "de": "Du bist 25 Jahre alt.",
+      "ar": "عمرك 25 سنة.",
+      "audio": "audio/s12/s03-du-bist-25-jahre-alt.mp3"
+    },
+    {
+      "de": "Was bist du von Beruf?",
+      "ar": "إيه مهنتك؟",
+      "audio": "audio/s12/s04-was-bist-du-von-beruf.mp3"
+    },
+    {
+      "de": "Du bist Arzt.",
+      "ar": "انت طبيب.",
+      "audio": "audio/s12/s05-du-bist-arzt.mp3"
+    },
+    {
+      "de": "Du arbeitest als Ingenieur.",
+      "ar": "انت شغال كمهندس.",
+      "audio": "audio/s12/s06-du-arbeitest-als-ingenieur.mp3"
+    },
+    {
+      "de": "Du bist Verkäufer von Beruf.",
+      "ar": "وظيفتك بائع.",
+      "audio": "audio/s12/s07-du-bist-verkaeufer-von-beruf.mp3"
+    },
+    {
+      "de": "Wie ist deine Telefonnummer?",
+      "ar": "إيه رقم تليفونك؟",
+      "audio": "audio/s12/s08-wie-ist-deine-telefonnummer.mp3"
+    },
+    {
+      "de": "Meine Telefonnummer ist 0157 23 45.",
+      "ar": "رقم تليفوني هو 0157 23 45.",
+      "audio": "audio/s12/s09-meine-telefonnummer-ist-0157-23-45.mp3"
+    },
+    {
+      "de": "Wie ist deine Adresse?",
+      "ar": "إيه عنوانك؟",
+      "audio": "audio/s12/s10-wie-ist-deine-adresse.mp3"
+    },
+    {
+      "de": "Deine Hausnummer ist 15.",
+      "ar": "رقم منزلك 15.",
+      "audio": "audio/s12/s11-deine-hausnummer-ist-15.mp3"
+    },
+    {
+      "de": "Ich bin 30 Jahre alt.",
+      "ar": "عمري 30 سنة.",
+      "audio": "audio/s12/s12-ich-bin-30-jahre-alt.mp3"
+    },
+    {
+      "de": "Sie ist Ärztin von Beruf.",
+      "ar": "هي دكتورة كمهنة.",
+      "audio": "audio/s12/s13-sie-ist-aerztin-von-beruf.mp3"
+    },
+    {
+      "de": "Du bist 22 Jahre alt und Verkäufer.",
+      "ar": "عمرك 22 سنة وانت بائع.",
+      "audio": "audio/s12/s14-du-bist-22-jahre-alt-und-verkaeufer.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "null",
+      "ar": "صفر",
+      "audio": "audio/s12/vocab/01-null.mp3"
+    },
+    {
+      "de": "eins",
+      "ar": "واحد",
+      "audio": "audio/s12/vocab/02-eins.mp3"
+    },
+    {
+      "de": "zwei",
+      "ar": "اتنين",
+      "audio": "audio/s12/vocab/03-zwei.mp3"
+    },
+    {
+      "de": "drei",
+      "ar": "تلاتة",
+      "audio": "audio/s12/vocab/04-drei.mp3"
+    },
+    {
+      "de": "zwanzig",
+      "ar": "عشرين",
+      "audio": "audio/s12/vocab/08-zwanzig.mp3"
+    },
+    {
+      "de": "hundert",
+      "ar": "مية",
+      "audio": "audio/s12/vocab/12-hundert.mp3"
+    },
+    {
+      "de": "Arzt",
+      "ar": "الطبيب",
+      "audio": "audio/s12/vocab/14-arzt.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Ärztin",
+      "ar": "الطبيبة",
+      "audio": "audio/s12/vocab/15-aerztin.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Beruf",
+      "ar": "المهنة",
+      "audio": "audio/s12/vocab/13-beruf.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Adresse",
+      "ar": "العنوان",
+      "audio": "audio/s12/vocab/19-adresse.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Wie alt bist du?",
+      "ar": "عندك كام سنة؟",
+      "audio": "audio/s12/vocab/21-wie-alt-bist-du.mp3"
+    },
+    {
+      "de": "Was bist du von Beruf?",
+      "ar": "إيه مهنتك؟",
+      "audio": "audio/s12/vocab/24-was-bist-du-von-beruf.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich ___ 20 Jahre alt.",
+      "options": [
+        "bin",
+        "habe",
+        "kann"
+      ],
+      "answer": 0,
+      "why": "مع العمر بنستخدم bin (يكون)، مش habe (يمتلك) - دي أشهر غلطة.",
+      "ar": "عمري 20 سنة."
+    },
+    {
+      "prompt": "Wie alt ___ du?",
+      "options": [
+        "bist",
+        "bin",
+        "ist"
+      ],
+      "answer": 0,
+      "why": "مع du دايما bist.",
+      "ar": "عندك كام سنة؟"
+    },
+    {
+      "prompt": "Was ___ du von Beruf?",
+      "options": [
+        "bist",
+        "ist",
+        "habe"
+      ],
+      "answer": 0,
+      "why": "السؤال عن مهنة الشخص اللي قدامك: Was bist du von Beruf?",
+      "ar": "إيه مهنتك؟"
+    },
+    {
+      "prompt": "Du arbeitest ___ Ingenieur.",
+      "options": [
+        "als",
+        "wie",
+        "von"
+      ],
+      "answer": 0,
+      "why": "als معناها \"كـ/بصفة\" مع المهنة.",
+      "ar": "انت شغال كمهندس."
+    },
+    {
+      "prompt": "dreißig يعني كام؟",
+      "options": [
+        "30",
+        "13",
+        "40"
+      ],
+      "answer": 0,
+      "why": "dreißig = تلاتين (30).",
+      "ar": "دريزيش = 30"
+    },
+    {
+      "prompt": "___ Ärztin (الطبيبة)",
+      "options": [
+        "die",
+        "der",
+        "das"
+      ],
+      "answer": 0,
+      "why": "الطبيبة مؤنث: die Ärztin.",
+      "ar": "أداة die للمؤنث."
+    },
+    {
+      "prompt": "Wie ist ___ Telefonnummer?",
+      "options": [
+        "deine",
+        "meine",
+        "du"
+      ],
+      "answer": 0,
+      "why": "بنسأل الشخص قدامنا: deine = بتاعتك.",
+      "ar": "إيه رقم تليفونك؟"
+    },
+    {
+      "prompt": "Deine Hausnummer ___ 15.",
+      "options": [
+        "ist",
+        "bist",
+        "bin"
+      ],
+      "answer": 0,
+      "why": "الرقم غائب/شيء: ist.",
+      "ar": "رقم منزلك 15."
+    },
+    {
+      "prompt": "\"von Beruf\" معناها إيه؟",
+      "options": [
+        "كمهنة/وظيفة",
+        "في المكتب",
+        "بدون شغل"
+      ],
+      "answer": 0,
+      "why": "von Beruf = كمهنة: Du bist Verkäufer von Beruf.",
+      "ar": "معنى von Beruf."
+    },
+    {
+      "prompt": "zwanzig يعني كام؟",
+      "options": [
+        "20",
+        "12",
+        "50"
+      ],
+      "answer": 0,
+      "why": "zwanzig = عشرين (20).",
+      "ar": "تسفانتسيش = 20"
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتثبّت الأرقام من null لحد hundert وبتعلّمك تقول عمرك صح بـ bin (مش habe - الغلطة المشهورة)، وتسأل اللي قدامك عن سنه وتليفونه وعنوانه ومهنته بضمير du، مع أدوات der/die لكلمات المهن والبيانات."
+  },
+  "grammar": [
+    {
+      "title": "bin / bist مع العمر (أوعى habe!)",
+      "rule": "في الألماني العمر بيتقال بفعل \"يكون\": Ich bin 20 Jahre alt. استخدام habe (يمتلك) مع العمر غلطة شائعة جدًا.",
+      "forms": [
+        "ich bin",
+        "du bist",
+        "er/sie ist"
+      ],
+      "examples": [
+        {
+          "de": "Ich bin 20 Jahre alt.",
+          "ar": "عمري 20 سنة."
+        },
+        {
+          "de": "Du bist 25 Jahre alt.",
+          "ar": "عمرك 25 سنة."
+        }
+      ]
+    },
+    {
+      "title": "أسئلة للي قدامك بضمير du",
+      "rule": "عشان تسأل الشخص اللي قدامك: Wie + ist + deine + الاسم للأشياء، و Wie/Was + bist + du للشخص نفسه.",
+      "forms": [
+        "Wie alt bist du?",
+        "Wie ist deine Telefonnummer?",
+        "Wie ist deine Adresse?",
+        "Was bist du von Beruf?"
+      ],
+      "examples": [
+        {
+          "de": "Wie ist deine Adresse?",
+          "ar": "إيه عنوانك؟"
+        },
+        {
+          "de": "Was bist du von Beruf?",
+          "ar": "إيه مهنتك؟"
+        }
+      ]
+    },
+    {
+      "title": "als = \"كـ / بصفة\" مع المهن",
+      "rule": "لما تقول إن حد شغال في مهنة: arbeiten + als + المهنة من غير أداة.",
+      "forms": [
+        "Du arbeitest als Ingenieur."
+      ],
+      "examples": [
+        {
+          "de": "Du arbeitest als Ingenieur.",
+          "ar": "انت شغال كمهندس."
+        }
+      ]
+    },
+    {
+      "title": "von Beruf = كمهنة",
+      "rule": "von Beruf بتيجي بعد المهنة عشان تقول \"دي وظيفته\": Du bist Verkäufer von Beruf.",
+      "forms": [
+        "Was bist du von Beruf?",
+        "Du bist Verkäufer von Beruf.",
+        "Sie ist Ärztin von Beruf."
+      ],
+      "examples": [
+        {
+          "de": "Du bist Verkäufer von Beruf.",
+          "ar": "وظيفتك بائع."
+        },
+        {
+          "de": "Sie ist Ärztin von Beruf.",
+          "ar": "هي دكتورة كمهنة."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Ich",
+          "bin",
+          "20",
+          "Jahre",
+          "alt"
+        ],
+        "answer": "Ich bin 20 Jahre alt",
+        "ar": "عمري 20 سنة."
+      },
+      {
+        "tiles": [
+          "Wie",
+          "alt",
+          "bist",
+          "du"
+        ],
+        "answer": "Wie alt bist du",
+        "ar": "عندك كام سنة؟"
+      },
+      {
+        "tiles": [
+          "Du",
+          "arbeitest",
+          "als",
+          "Ingenieur"
+        ],
+        "answer": "Du arbeitest als Ingenieur",
+        "ar": "انت شغال كمهندس."
+      },
+      {
+        "tiles": [
+          "Wie",
+          "ist",
+          "deine",
+          "Adresse"
+        ],
+        "answer": "Wie ist deine Adresse",
+        "ar": "إيه عنوانك؟"
+      },
+      {
+        "tiles": [
+          "Deine",
+          "Hausnummer",
+          "ist",
+          "15"
+        ],
+        "answer": "Deine Hausnummer ist 15",
+        "ar": "رقم منزلك 15."
+      },
+      {
+        "tiles": [
+          "Was",
+          "bist",
+          "du",
+          "von",
+          "Beruf"
+        ],
+        "answer": "Was bist du von Beruf",
+        "ar": "إيه مهنتك؟"
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich bin 20 Jahre alt.",
+          "Ich habe 20 Jahre."
+        ],
+        "answer": 0,
+        "why": "العمر مع bin مش habe.",
+        "ar": "عمري 20 سنة."
+      },
+      {
+        "options": [
+          "Wie alt bist du?",
+          "Wie alt ist du?"
+        ],
+        "answer": 0,
+        "why": "مع du: bist.",
+        "ar": "عندك كام سنة؟"
+      },
+      {
+        "options": [
+          "Du arbeitest als Ingenieur.",
+          "Du arbeitest wie Ingenieur."
+        ],
+        "answer": 0,
+        "why": "\"كـ\" = als مش wie.",
+        "ar": "انت شغال كمهندس."
+      },
+      {
+        "options": [
+          "Was bist du von Beruf?",
+          "Was ist du von Beruf?"
+        ],
+        "answer": 0,
+        "why": "مع du: bist.",
+        "ar": "إيه مهنتك؟"
+      },
+      {
+        "options": [
+          "Wie ist deine Telefonnummer?",
+          "Wie bist deine Telefonnummer?"
+        ],
+        "answer": 0,
+        "why": "الرقم شيء: ist.",
+        "ar": "إيه رقم تليفونك؟"
+      },
+      {
+        "options": [
+          "Du bist 25 Jahre alt.",
+          "Du hast 25 Jahre alt."
+        ],
+        "answer": 0,
+        "why": "العمر مع bist مش hast.",
+        "ar": "عمرك 25 سنة."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "عمري 20 سنة.",
+        "de": "Ich bin 20 Jahre alt.",
+        "audio": "audio/s12/tr1.mp3"
+      },
+      {
+        "ar": "عندك كام سنة؟",
+        "de": "Wie alt bist du?",
+        "audio": "audio/s12/tr2.mp3"
+      },
+      {
+        "ar": "إيه مهنتك؟",
+        "de": "Was bist du von Beruf?",
+        "audio": "audio/s12/tr3.mp3"
+      },
+      {
+        "ar": "أنا طبيب.",
+        "de": "Ich bin Arzt.",
+        "audio": "audio/s12/tr4.mp3"
+      },
+      {
+        "ar": "إيه رقم تليفونك؟",
+        "de": "Wie ist deine Telefonnummer?",
+        "audio": "audio/s12/tr5.mp3"
+      },
+      {
+        "ar": "أنا مهندس كمهنة.",
+        "de": "Ich bin Ingenieur von Beruf.",
+        "audio": "audio/s12/tr6.mp3"
+      }
+    ]
+  }
+}
