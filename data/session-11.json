@@ -1,0 +1,659 @@
+{
+  "id": 11,
+  "level": "a1",
+  "title": "Session 11: The world of nouns and articles",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=vMHOoXtAtN0",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "der-words",
+      "label": "der words",
+      "words": [
+        {
+          "de": "Tisch",
+          "ar": "الترابيزة",
+          "audio": "audio/s11/vocab/01-der-tisch.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Balkon",
+          "ar": "البلكونة",
+          "audio": "audio/s11/vocab/02-der-balkon.mp3",
+          "article": "der"
+        }
+      ]
+    },
+    {
+      "id": "das-words",
+      "label": "das words",
+      "words": [
+        {
+          "de": "Haus",
+          "ar": "المنزل",
+          "audio": "audio/s11/vocab/03-das-haus.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Zimmer",
+          "ar": "الأوضة",
+          "audio": "audio/s11/vocab/04-das-zimmer.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Bad",
+          "ar": "الحمام",
+          "audio": "audio/s11/vocab/05-das-bad.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Bett",
+          "ar": "السرير",
+          "audio": "audio/s11/vocab/06-das-bett.mp3",
+          "article": "das"
+        }
+      ]
+    },
+    {
+      "id": "die-words",
+      "label": "die words",
+      "words": [
+        {
+          "de": "Wohnung",
+          "ar": "الشقة",
+          "audio": "audio/s11/vocab/07-die-wohnung.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Küche",
+          "ar": "المطبخ",
+          "audio": "audio/s11/vocab/08-die-kueche.mp3",
+          "article": "die"
+        }
+      ]
+    },
+    {
+      "id": "article-trio",
+      "label": "The article game",
+      "words": [
+        {
+          "de": "der / die / das",
+          "ar": "الـ (معرفة)",
+          "audio": "audio/s11/vocab/09-der-die-das.mp3"
+        },
+        {
+          "de": "ein / eine",
+          "ar": "نكرة",
+          "audio": "audio/s11/vocab/10-ein-eine.mp3"
+        },
+        {
+          "de": "kein / keine",
+          "ar": "نفي النكرة",
+          "audio": "audio/s11/vocab/11-kein-keine.mp3"
+        },
+        {
+          "de": "brauchen",
+          "ar": "يحتاج",
+          "audio": "audio/s11/vocab/12-brauchen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "describing",
+      "label": "Describing",
+      "words": [
+        {
+          "de": "groß",
+          "ar": "كبير",
+          "audio": "audio/s11/vocab/13-gross.mp3"
+        },
+        {
+          "de": "klein",
+          "ar": "صغير",
+          "audio": "audio/s11/vocab/14-klein.mp3"
+        },
+        {
+          "de": "hell",
+          "ar": "منور",
+          "audio": "audio/s11/vocab/15-hell.mp3"
+        },
+        {
+          "de": "dunkel",
+          "ar": "ضلمة",
+          "audio": "audio/s11/vocab/16-dunkel.mp3"
+        },
+        {
+          "de": "schön",
+          "ar": "جميل",
+          "audio": "audio/s11/vocab/17-schoen.mp3"
+        },
+        {
+          "de": "kaufen",
+          "ar": "يشتري",
+          "audio": "audio/s11/vocab/18-kaufen.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Das ist der Tisch.",
+      "ar": "دي الترابيزة (معرفة).",
+      "audio": "audio/s11/s01-das-ist-der-tisch.mp3"
+    },
+    {
+      "de": "Das ist ein Tisch.",
+      "ar": "دي ترابيزة (نكرة).",
+      "audio": "audio/s11/s02-das-ist-ein-tisch.mp3"
+    },
+    {
+      "de": "Das ist kein Tisch.",
+      "ar": "دي مش ترابيزة (نفي).",
+      "audio": "audio/s11/s03-das-ist-kein-tisch.mp3"
+    },
+    {
+      "de": "Das ist das Haus.",
+      "ar": "ده المنزل.",
+      "audio": "audio/s11/s04-das-ist-das-haus.mp3"
+    },
+    {
+      "de": "Das ist ein Haus.",
+      "ar": "ده منزل.",
+      "audio": "audio/s11/s05-das-ist-ein-haus.mp3"
+    },
+    {
+      "de": "Das ist kein Haus.",
+      "ar": "ده مش منزل.",
+      "audio": "audio/s11/s06-das-ist-kein-haus.mp3"
+    },
+    {
+      "de": "Das ist die Wohnung.",
+      "ar": "دي الشقة.",
+      "audio": "audio/s11/s07-das-ist-die-wohnung.mp3"
+    },
+    {
+      "de": "Das ist eine Wohnung.",
+      "ar": "دي شقة.",
+      "audio": "audio/s11/s08-das-ist-eine-wohnung.mp3"
+    },
+    {
+      "de": "Das ist keine Wohnung.",
+      "ar": "دي مش شقة.",
+      "audio": "audio/s11/s09-das-ist-keine-wohnung.mp3"
+    },
+    {
+      "de": "Wir kaufen ein Haus.",
+      "ar": "احنا بنشتري منزل.",
+      "audio": "audio/s11/s10-wir-kaufen-ein-haus.mp3"
+    },
+    {
+      "de": "Die Wohnung ist sehr groß und hell.",
+      "ar": "الشقة كبيرة جداً ومنورة.",
+      "audio": "audio/s11/s11-die-wohnung-ist-gross-hell.mp3"
+    },
+    {
+      "de": "Wir haben ein Zimmer und eine Küche.",
+      "ar": "عندنا أوضة ومطبخ.",
+      "audio": "audio/s11/s12-wir-haben-zimmer-kueche.mp3"
+    },
+    {
+      "de": "Das ist das Bad. Es ist klein, aber schön.",
+      "ar": "ده الحمام. صغير بس جميل.",
+      "audio": "audio/s11/s13-das-ist-das-bad.mp3"
+    },
+    {
+      "de": "Das ist kein Balkon, das ist ein Zimmer.",
+      "ar": "دي مش بلكونة، دي أوضة.",
+      "audio": "audio/s11/s14-das-ist-kein-balkon.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Tisch",
+      "article": "der",
+      "ar": "الترابيزة",
+      "audio": "audio/s11/vocab/01-der-tisch.mp3"
+    },
+    {
+      "de": "Balkon",
+      "article": "der",
+      "ar": "البلكونة",
+      "audio": "audio/s11/vocab/02-der-balkon.mp3"
+    },
+    {
+      "de": "Haus",
+      "article": "das",
+      "ar": "المنزل",
+      "audio": "audio/s11/vocab/03-das-haus.mp3"
+    },
+    {
+      "de": "Zimmer",
+      "article": "das",
+      "ar": "الأوضة",
+      "audio": "audio/s11/vocab/04-das-zimmer.mp3"
+    },
+    {
+      "de": "Bad",
+      "article": "das",
+      "ar": "الحمام",
+      "audio": "audio/s11/vocab/05-das-bad.mp3"
+    },
+    {
+      "de": "Bett",
+      "article": "das",
+      "ar": "السرير",
+      "audio": "audio/s11/vocab/06-das-bett.mp3"
+    },
+    {
+      "de": "Wohnung",
+      "article": "die",
+      "ar": "الشقة",
+      "audio": "audio/s11/vocab/07-die-wohnung.mp3"
+    },
+    {
+      "de": "Küche",
+      "article": "die",
+      "ar": "المطبخ",
+      "audio": "audio/s11/vocab/08-die-kueche.mp3"
+    },
+    {
+      "de": "ein / eine",
+      "ar": "نكرة",
+      "audio": "audio/s11/vocab/10-ein-eine.mp3"
+    },
+    {
+      "de": "kein / keine",
+      "ar": "نفي النكرة",
+      "audio": "audio/s11/vocab/11-kein-keine.mp3"
+    },
+    {
+      "de": "groß",
+      "ar": "كبير",
+      "audio": "audio/s11/vocab/13-gross.mp3"
+    },
+    {
+      "de": "hell",
+      "ar": "منور",
+      "audio": "audio/s11/vocab/15-hell.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Das ist ______ Tisch. (نكرة)",
+      "options": [
+        "ein",
+        "eine",
+        "der"
+      ],
+      "answer": 0,
+      "why": "der Tisch مذكر، النكرة: ein.",
+      "ar": "دي ترابيزة."
+    },
+    {
+      "prompt": "Das ist ______ Wohnung. (نكرة)",
+      "options": [
+        "eine",
+        "ein",
+        "die"
+      ],
+      "answer": 0,
+      "why": "die بتحب حرف e: eine.",
+      "ar": "دي شقة."
+    },
+    {
+      "prompt": "Das ist ______ Haus. (نفي)",
+      "options": [
+        "kein",
+        "keine",
+        "nicht"
+      ],
+      "answer": 0,
+      "why": "das Haus محايد، النفي: kein.",
+      "ar": "ده مش منزل."
+    },
+    {
+      "prompt": "Das ist ______ Wohnung. (نفي)",
+      "options": [
+        "keine",
+        "kein",
+        "nicht"
+      ],
+      "answer": 0,
+      "why": "مؤنث: keine.",
+      "ar": "دي مش شقة."
+    },
+    {
+      "prompt": "Das ist ______ Balkon. (معرفة)",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "why": "der Balkon مذكر.",
+      "ar": "دي البلكونة."
+    },
+    {
+      "prompt": "Das ist ______ Bad. (معرفة)",
+      "options": [
+        "das",
+        "der",
+        "die"
+      ],
+      "answer": 0,
+      "why": "das Bad محايد.",
+      "ar": "ده الحمام."
+    },
+    {
+      "prompt": "Das ist ______ Küche. (معرفة)",
+      "options": [
+        "die",
+        "der",
+        "das"
+      ],
+      "answer": 0,
+      "why": "die Küche مؤنث.",
+      "ar": "ده المطبخ."
+    },
+    {
+      "prompt": "Wir kaufen ______ Haus.",
+      "options": [
+        "ein",
+        "eine",
+        "das"
+      ],
+      "answer": 0,
+      "why": "بنشتري منزل (نكرة): ein.",
+      "ar": "احنا بنشتري منزل."
+    },
+    {
+      "prompt": "Wir haben ein Zimmer und ______ Küche.",
+      "options": [
+        "eine",
+        "ein",
+        "kein"
+      ],
+      "answer": 0,
+      "why": "المطبخ مؤنث: eine.",
+      "ar": "عندنا أوضة ومطبخ."
+    },
+    {
+      "prompt": "Das ist kein Balkon, das ist ______ Zimmer.",
+      "options": [
+        "ein",
+        "eine",
+        "der"
+      ],
+      "answer": 0,
+      "why": "الأوضة محايدة: ein.",
+      "ar": "دي مش بلكونة، دي أوضة."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "أهم درس في الألماني: عالم الأسماء والأدوات. der/das في النكرة بتبقى ein وفي النفي kein، وdie بتحب حرف e: eine وkeine. بنطبق على السكن والأثاث: das Zimmer، das Bad، die Küche، das Bett، der Balkon، وبنوصف بيتنا بـ groß/klein/hell/dunkel."
+  },
+  "grammar": [
+    {
+      "title": "der و das: ein و kein",
+      "rule": "الكلمات المذكرة (der) والمحايدة (das) في النكرة بتاخد ein وفي النفي kein: Das ist ein Tisch / Das ist kein Haus.",
+      "forms": [
+        "der → ein → kein",
+        "das → ein → kein"
+      ],
+      "examples": [
+        {
+          "de": "Das ist ein Tisch.",
+          "ar": "دي ترابيزة."
+        },
+        {
+          "de": "Das ist kein Haus.",
+          "ar": "ده مش منزل."
+        }
+      ]
+    },
+    {
+      "title": "die: eine و keine",
+      "rule": "الأداة die بتحب حرف الـ e: في النكرة eine وفي النفي keine: Das ist eine Wohnung / Das ist keine Wohnung.",
+      "forms": [
+        "die → eine → keine"
+      ],
+      "examples": [
+        {
+          "de": "Das ist eine Wohnung.",
+          "ar": "دي شقة."
+        },
+        {
+          "de": "Das ist keine Wohnung.",
+          "ar": "دي مش شقة."
+        }
+      ]
+    },
+    {
+      "title": "معرفة أو نكرة؟",
+      "rule": "لو بنتكلم عن حاجة محددة بنستخدم der/die/das: Die Wohnung ist sehr groß. لو حاجة عامة أول مرة نذكرها: ein/eine: Wir kaufen ein Haus.",
+      "forms": [
+        "محددة: der/die/das",
+        "عامة: ein/eine"
+      ],
+      "examples": [
+        {
+          "de": "Die Wohnung ist sehr groß und hell.",
+          "ar": "الشقة كبيرة جداً ومنورة."
+        },
+        {
+          "de": "Wir kaufen ein Haus.",
+          "ar": "احنا بنشتري منزل."
+        }
+      ]
+    },
+    {
+      "title": "التعويض عن das بـ es",
+      "rule": "الكلمة اللي أداتها das بنعوض عنها بـ es: Das ist das Bad. Es ist klein, aber schön.",
+      "forms": [
+        "das Bad → es",
+        "das Haus → es"
+      ],
+      "examples": [
+        {
+          "de": "Das ist das Bad. Es ist klein, aber schön.",
+          "ar": "ده الحمام. صغير بس جميل."
+        },
+        {
+          "de": "Das Haus ist teuer, aber wir kaufen es.",
+          "ar": "المنزل غالي، بس احنا هنشتريه."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "ist",
+          "ein",
+          "Tisch",
+          "Das"
+        ],
+        "answer": "Das ist ein Tisch.",
+        "ar": "دي ترابيزة."
+      },
+      {
+        "tiles": [
+          "ist",
+          "keine",
+          "Wohnung",
+          "Das"
+        ],
+        "answer": "Das ist keine Wohnung.",
+        "ar": "دي مش شقة."
+      },
+      {
+        "tiles": [
+          "kaufen",
+          "ein",
+          "Haus",
+          "Wir"
+        ],
+        "answer": "Wir kaufen ein Haus.",
+        "ar": "احنا بنشتري منزل."
+      },
+      {
+        "tiles": [
+          "haben",
+          "Zimmer",
+          "ein",
+          "Küche",
+          "eine",
+          "und",
+          "Wir"
+        ],
+        "answer": "Wir haben ein Zimmer und eine Küche.",
+        "ar": "عندنا أوضة ومطبخ."
+      },
+      {
+        "tiles": [
+          "ist",
+          "groß",
+          "sehr",
+          "hell",
+          "Wohnung",
+          "Die",
+          "und"
+        ],
+        "answer": "Die Wohnung ist sehr groß und hell.",
+        "ar": "الشقة كبيرة جداً ومنورة."
+      },
+      {
+        "tiles": [
+          "brauchen",
+          "Bett",
+          "ein",
+          "Wir"
+        ],
+        "answer": "Wir brauchen ein Bett.",
+        "ar": "احنا محتاجين سرير."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Das ist eine Wohnung.",
+          "Das ist ein Wohnung."
+        ],
+        "answer": 0,
+        "why": "المؤنث: eine.",
+        "ar": "دي شقة."
+      },
+      {
+        "options": [
+          "Das ist kein Tisch.",
+          "Das ist keine Tisch."
+        ],
+        "answer": 0,
+        "why": "المذكر: kein.",
+        "ar": "دي مش ترابيزة."
+      },
+      {
+        "options": [
+          "Das ist die Küche.",
+          "Das ist der Küche."
+        ],
+        "answer": 0,
+        "why": "المطبخ مؤنث: die.",
+        "ar": "ده المطبخ."
+      },
+      {
+        "options": [
+          "Wir kaufen ein Haus.",
+          "Wir kaufen eine Haus."
+        ],
+        "answer": 0,
+        "why": "المحايد: ein.",
+        "ar": "احنا بنشتري منزل."
+      },
+      {
+        "options": [
+          "Das ist das Bad.",
+          "Das ist die Bad."
+        ],
+        "answer": 0,
+        "why": "الحمام محايد: das.",
+        "ar": "ده الحمام."
+      },
+      {
+        "options": [
+          "Das ist keine Wohnung.",
+          "Das ist nicht Wohnung."
+        ],
+        "answer": 0,
+        "why": "نفي الاسم: keine مش nicht.",
+        "ar": "دي مش شقة."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "دي شقة.",
+        "de": "Das ist eine Wohnung.",
+        "audio": "audio/s11/tr1.mp3"
+      },
+      {
+        "ar": "ده مش منزل.",
+        "de": "Das ist kein Haus.",
+        "audio": "audio/s11/tr2.mp3"
+      },
+      {
+        "ar": "احنا بنشتري منزل.",
+        "de": "Wir kaufen ein Haus.",
+        "audio": "audio/s11/tr3.mp3"
+      },
+      {
+        "ar": "الشقة كبيرة جداً ومنورة.",
+        "de": "Die Wohnung ist sehr groß und hell.",
+        "audio": "audio/s11/tr4.mp3"
+      },
+      {
+        "ar": "ده الحمام. صغير بس جميل.",
+        "de": "Das ist das Bad. Es ist klein, aber schön.",
+        "audio": "audio/s11/tr5.mp3"
+      },
+      {
+        "ar": "دي مش بلكونة، دي أوضة.",
+        "de": "Das ist kein Balkon, das ist ein Zimmer.",
+        "audio": "audio/s11/tr6.mp3"
+      }
+    ]
+  }
+}
