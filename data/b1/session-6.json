@@ -1,0 +1,428 @@
+{
+  "id": 6,
+  "level": "b1",
+  "title": "Episode 6: Wishes, advice and regret (Konjunktiv II)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=X75P57-PzlE",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel",
+    "open_url": "https://www.youtube.com/watch?v=X75P57-PzlE"
+  },
+  "vocab": [
+    {
+      "id": "direkt",
+      "label": "The three direct forms",
+      "words": [
+        {
+          "de": "würde",
+          "ar": "ياريت (مع الأفعال العادية)",
+          "audio": "audio/b1/s06/vocab/01-wuerde.mp3"
+        },
+        {
+          "de": "hätte",
+          "ar": "ياريت كان عندي (ملكية)",
+          "audio": "audio/b1/s06/vocab/02-haette.mp3"
+        },
+        {
+          "de": "wäre",
+          "ar": "ياريتني كنت (كينونة)",
+          "audio": "audio/b1/s06/vocab/03-waere.mp3"
+        }
+      ]
+    },
+    {
+      "id": "modal",
+      "label": "Modal verbs in Konjunktiv II",
+      "words": [
+        {
+          "de": "könnte",
+          "ar": "كان ممكن أقدر",
+          "audio": "audio/b1/s06/vocab/04-koennte.mp3"
+        },
+        {
+          "de": "müsste",
+          "ar": "كان المفروض (ضرورة)",
+          "audio": "audio/b1/s06/vocab/05-muesste.mp3"
+        },
+        {
+          "de": "sollte",
+          "ar": "المفروض (نصيحة)",
+          "audio": "audio/b1/s06/vocab/06-sollte.mp3"
+        },
+        {
+          "de": "dürfte",
+          "ar": "ممكن بأدب / محتمل",
+          "audio": "audio/b1/s06/vocab/07-duerfte.mp3"
+        },
+        {
+          "de": "wollte",
+          "ar": "كنت عايز",
+          "audio": "audio/b1/s06/vocab/08-wollte.mp3"
+        },
+        {
+          "de": "möchte",
+          "ar": "حابب بأدب",
+          "audio": "audio/b1/s06/vocab/09-moechte.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich würde gerne ein neues Auto kaufen.",
+      "ar": "ياريتني أشتري عربية جديدة.",
+      "audio": "audio/b1/s06/s01-ich-wuerde-gerne-ein-neues-auto-kaufen.mp3"
+    },
+    {
+      "de": "Wir würden gerne eine Weltreise machen.",
+      "ar": "ياريتنا نعمل رحلة حول العالم.",
+      "audio": "audio/b1/s06/s02-wir-wuerden-gerne-eine-weltreise-machen.mp3"
+    },
+    {
+      "de": "Ich hätte gerne viel Geld.",
+      "ar": "ياريت كان معايا فلوس كتير.",
+      "audio": "audio/b1/s06/s03-ich-haette-gerne-viel-geld.mp3"
+    },
+    {
+      "de": "Wir hätten gerne ein großes Haus.",
+      "ar": "ياريت كان عندنا بيت كبير.",
+      "audio": "audio/b1/s06/s04-wir-haetten-gerne-ein-grosses-haus.mp3"
+    },
+    {
+      "de": "Ich wäre jetzt gerne zu Hause.",
+      "ar": "ياريتني في البيت دلوقتي.",
+      "audio": "audio/b1/s06/s05-ich-waere-jetzt-gerne-zu-hause.mp3"
+    },
+    {
+      "de": "Wir wären jetzt gerne in Berlin.",
+      "ar": "ياريتنا دلوقتي في برلين.",
+      "audio": "audio/b1/s06/s06-wir-waeren-jetzt-gerne-in-berlin.mp3"
+    },
+    {
+      "de": "Ich könnte dir heute helfen.",
+      "ar": "ياريتني أقدر أساعدك النهارده.",
+      "audio": "audio/b1/s06/s07-ich-koennte-dir-heute-helfen.mp3"
+    },
+    {
+      "de": "Du müsstest mehr schlafen.",
+      "ar": "كان المفروض تنام أكتر.",
+      "audio": "audio/b1/s06/s08-du-muesstest-mehr-schlafen.mp3"
+    },
+    {
+      "de": "Du solltest mehr Wasser trinken.",
+      "ar": "المفروض تشرب مية أكتر (نصيحة).",
+      "audio": "audio/b1/s06/s09-du-solltest-mehr-wasser-trinken.mp3"
+    },
+    {
+      "de": "Dürfte ich kurz stören?",
+      "ar": "ممكن أزعجك لحظة؟",
+      "audio": "audio/b1/s06/s10-duerfte-ich-kurz-stoeren.mp3"
+    },
+    {
+      "de": "Ich wollte fragen, ob du Zeit hast.",
+      "ar": "كنت حابب أسأل لو عندك وقت.",
+      "audio": "audio/b1/s06/s11-ich-wollte-fragen-ob-du-zeit-hast.mp3"
+    },
+    {
+      "de": "Ich möchte einen Kaffee trinken.",
+      "ar": "حابب أشرب قهوة.",
+      "audio": "audio/b1/s06/s12-ich-moechte-einen-kaffee-trinken.mp3"
+    },
+    {
+      "de": "Ich hätte gestern gelernt.",
+      "ar": "ياريتني كنت ذاكرت إمبارح.",
+      "audio": "audio/b1/s06/s13-ich-haette-gestern-gelernt.mp3"
+    },
+    {
+      "de": "Ich wäre pünktlich gekommen.",
+      "ar": "ياريتني كنت جيت في الميعاد.",
+      "audio": "audio/b1/s06/s14-ich-waere-puenktlich-gekommen.mp3"
+    }
+  ],
+  "cards": [],
+  "quiz": [
+    {
+      "prompt": "Ich habe kein Geld. Ich _______ gerne ein Auto kaufen.",
+      "options": [
+        "würde",
+        "werde",
+        "hatte"
+      ],
+      "answer": 0,
+      "why": "تمني مع فعل عادي = würde + المصدر في الآخر.",
+      "ar": "ياريتني أشتري عربية."
+    },
+    {
+      "prompt": "Wir haben keine Zeit. Wir _______ gerne mehr Zeit.",
+      "options": [
+        "hätten",
+        "wären",
+        "würden"
+      ],
+      "answer": 0,
+      "why": "تمني ملكية = hätten مباشرة من غير würden.",
+      "ar": "ياريت كان عندنا وقت أكتر."
+    },
+    {
+      "prompt": "Es ist kalt. Du _______ eine Jacke anziehen.",
+      "options": [
+        "solltest",
+        "müsstest",
+        "konntest"
+      ],
+      "answer": 0,
+      "why": "نصيحة = solltest.",
+      "ar": "الجو سقيع. المفروض تلبس جاكيت."
+    },
+    {
+      "prompt": "Schade! Ich _______ gestern nicht gelernt.",
+      "options": [
+        "hätte",
+        "wäre",
+        "würde"
+      ],
+      "answer": 0,
+      "why": "ندم على الماضي مع lernen (haben) = hätte + Partizip II.",
+      "ar": "يا خسارة! ياريتني كنت ذاكرت إمبارح."
+    },
+    {
+      "prompt": "Ich bin krank. Ich _______ gerne im Bett bleiben.",
+      "options": [
+        "würde",
+        "wäre",
+        "hätte"
+      ],
+      "answer": 0,
+      "why": "bleiben فعل عادي في التمني = würde.",
+      "ar": "أنا تعبان. ياريتني أفضل في السرير."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الحلقة ٦ من B1: التمني والنصيحة والندم (Konjunktiv II). würde مع الأفعال العادية، hätte للملكية، wäre للكينونة، صيغ الشكلية könnte/müsste/sollte/dürfte/wollte/möchte، والندم على الماضي بـ hätte/wäre + التصريف التالت."
+  },
+  "grammar": [
+    {
+      "title": "würden: التمني مع أي فعل عادي",
+      "rule": "würde + المصدر في الآخر = ياريت + الفعل. التصريف: würde/würdest/würde/würden/würdet/würden.",
+      "forms": [
+        "ich würde",
+        "du würdest",
+        "wir würden"
+      ],
+      "examples": [
+        {
+          "de": "Ich würde gerne ein neues Auto kaufen.",
+          "ar": "ياريتني أشتري عربية جديدة."
+        },
+        {
+          "de": "Wir würden gerne eine Weltreise machen.",
+          "ar": "ياريتنا نعمل رحلة حول العالم."
+        }
+      ]
+    },
+    {
+      "title": "hätte و wäre: مباشرة من غير würden",
+      "rule": "للملكية استخدم hätte (ياريت كان عندي) وللكينونة والمكان wäre (ياريتني كنت) مباشرة.",
+      "forms": [
+        "ich hätte gerne Geld",
+        "ich wäre gerne in Berlin"
+      ],
+      "examples": [
+        {
+          "de": "Ich hätte gerne viel Geld.",
+          "ar": "ياريت كان معايا فلوس كتير."
+        },
+        {
+          "de": "Ich wäre jetzt gerne zu Hause.",
+          "ar": "ياريتني في البيت دلوقتي."
+        }
+      ]
+    },
+    {
+      "title": "الشكلية في الـ Konjunktiv II",
+      "rule": "können←könnte، müssen←müsste، sollen←sollte (نصيحة)، dürfen←dürfte، wollen←wollte، mögen←möchte.",
+      "forms": [
+        "könnte - könntest",
+        "müsste",
+        "sollte",
+        "dürfte",
+        "wollte",
+        "möchte"
+      ],
+      "examples": [
+        {
+          "de": "Du solltest mehr Wasser trinken.",
+          "ar": "المفروض تشرب مية أكتر."
+        },
+        {
+          "de": "Ich wollte fragen, ob du Zeit hast.",
+          "ar": "كنت حابب أسأل لو عندك وقت."
+        }
+      ]
+    },
+    {
+      "title": "الندم على الماضي",
+      "rule": "hätte/wäre في المركز التاني + التصريف التالت في الآخر. أفعال الحركة تاخد wäre والباقي hätte.",
+      "forms": [
+        "hätte ... gelernt",
+        "wäre ... gefahren"
+      ],
+      "examples": [
+        {
+          "de": "Ich hätte dich angerufen.",
+          "ar": "ياريتني كنت اتصلت بيك."
+        },
+        {
+          "de": "Ich wäre pünktlich gekommen.",
+          "ar": "ياريتني كنت جيت في الميعاد."
+        }
+      ]
+    },
+    {
+      "title": "الطلب المؤدب جدًا",
+      "rule": "Dürfte ich...؟ وKönntest du...؟ وIch wollte fragen... - أسلوب أرقى للطلبات.",
+      "forms": [
+        "Dürfte ich kurz stören?",
+        "Könntest du das Fenster zumachen?"
+      ],
+      "examples": [
+        {
+          "de": "Dürfte ich kurz stören?",
+          "ar": "ممكن أزعجك لحظة؟"
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "würde gerne",
+          "ein neues Auto",
+          "Ich",
+          "kaufen."
+        ],
+        "answer": "Ich würde gerne ein neues Auto kaufen.",
+        "ar": "ياريتني أشتري عربية جديدة."
+      },
+      {
+        "tiles": [
+          "hätte gerne",
+          "Ich",
+          "viel Geld."
+        ],
+        "answer": "Ich hätte gerne viel Geld.",
+        "ar": "ياريت كان معايا فلوس كتير."
+      },
+      {
+        "tiles": [
+          "wäre jetzt gerne",
+          "Ich",
+          "zu Hause."
+        ],
+        "answer": "Ich wäre jetzt gerne zu Hause.",
+        "ar": "ياريتني في البيت دلوقتي."
+      },
+      {
+        "tiles": [
+          "hätte",
+          "gestern gelernt.",
+          "Ich"
+        ],
+        "answer": "Ich hätte gestern gelernt.",
+        "ar": "ياريتني كنت ذاكرت إمبارح."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich würde gerne ein Auto kaufen.",
+          "Ich würde gerne ein Auto gekauft."
+        ],
+        "answer": 0,
+        "why": "التمني في الحاضر = würde + مصدر، مش Partizip II.",
+        "ar": "ياريتني أشتري عربية."
+      },
+      {
+        "options": [
+          "Ich wäre nach Berlin gefahren.",
+          "Ich hätte nach Berlin gefahren."
+        ],
+        "answer": 0,
+        "why": "في الندم، أفعال الحركة تاخد wäre مش hätte.",
+        "ar": "ياريتني كنت سافرت برلين."
+      },
+      {
+        "options": [
+          "Ich hätte dich angerufen.",
+          "Ich hätte dich anrufen."
+        ],
+        "answer": 0,
+        "why": "الندم = hätte/wäre + التصريف التالت في الآخر.",
+        "ar": "ياريتني كنت اتصلت بيك."
+      },
+      {
+        "options": [
+          "Du solltest zum Arzt gehen.",
+          "Du würdest zum Arzt gehen sollen."
+        ],
+        "answer": 0,
+        "why": "النصيحة ليها صيغة مباشرة: solltest.",
+        "ar": "المفروض تروح للدكتور."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "ياريتني أشتري عربية جديدة.",
+        "de": "Ich würde gerne ein neues Auto kaufen.",
+        "audio": "audio/b1/s06/tr1.mp3"
+      },
+      {
+        "ar": "ياريت كان معايا فلوس كتير.",
+        "de": "Ich hätte gerne viel Geld.",
+        "audio": "audio/b1/s06/tr2.mp3"
+      },
+      {
+        "ar": "ياريتنا دلوقتي في برلين.",
+        "de": "Wir wären jetzt gerne in Berlin.",
+        "audio": "audio/b1/s06/tr3.mp3"
+      },
+      {
+        "ar": "ياريتني كنت اتصلت بيك.",
+        "de": "Ich hätte dich angerufen.",
+        "audio": "audio/b1/s06/tr4.mp3"
+      }
+    ]
+  }
+}
