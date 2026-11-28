@@ -677,8 +677,11 @@
     var e = p.errors.every(function (_, i) { return ans['e' + i] && ans['e' + i].result === 'correct'; });
     return b && e;
   }
+  function normBuildTokens(t) {
+    return String(t).replace(/[.,!?;:\u201e\u201c\u201d"\u00ab\u00bb]/g, '').split(/\s+/).filter(Boolean);
+  }
   function buildHint(guess, it) {
-    var g = guess.split(' '), t = it.answer.replace(/[.?]$/, '').split(' ');
+    var g = normBuildTokens(guess), t = normBuildTokens(it.answer);
     var n = 0; while (n < g.length && g[n] === t[n]) n++;
     var rule = '';
     if (/\bkann\b/.test(it.answer)) rule = ' القاعدة: kann في المركز التاني، والفعل التاني (المصدر) في آخر الجملة.';
@@ -735,7 +738,7 @@
             onclick: function () {
               var cur = ans[key]; if (!cur) return;
               var built = cur.picked.map(function (ti) { return it.tiles[ti]; }).join(' ');
-              cur.result = (built === it.answer.replace(/[.?]$/, '')) ? 'correct' : 'wrong';
+              cur.result = (normBuildTokens(built).join(' ') === normBuildTokens(it.answer).join(' ')) ? 'correct' : 'wrong';
               if (cur.result === 'correct' && drillAllDone(s)) markTracker('did-practice');
               persist(); render();
             } }, ['✓'])
