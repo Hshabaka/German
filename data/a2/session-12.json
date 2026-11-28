@@ -1,0 +1,475 @@
+{
+  "id": "12",
+  "level": "a2",
+  "title": "Episode 12: Medical basics (At the doctor)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=NQHN4liV6RQ",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel",
+    "open_url": "https://www.youtube.com/watch?v=NQHN4liV6RQ"
+  },
+  "vocab": [
+    {
+      "id": "body",
+      "label": "Body and pain",
+      "words": [
+        {
+          "de": "Kopf",
+          "ar": "الراس",
+          "audio": "audio/a2/s12/vocab/01-kopf.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Schmerzen",
+          "ar": "الآلام",
+          "audio": "audio/a2/s12/vocab/02-schmerzen.mp3",
+          "article": "die (Plural)"
+        },
+        {
+          "de": "Kopfschmerzen",
+          "ar": "الصداع",
+          "audio": "audio/a2/s12/vocab/03-kopfschmerzen.mp3",
+          "article": "die (Plural)"
+        },
+        {
+          "de": "Bauch",
+          "ar": "البطن",
+          "audio": "audio/a2/s12/vocab/04-bauch.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Bauchschmerzen",
+          "ar": "وجع البطن",
+          "audio": "audio/a2/s12/vocab/05-bauchschmerzen.mp3",
+          "article": "die (Plural)"
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "label": "Places",
+      "words": [
+        {
+          "de": "Arzt",
+          "ar": "الدكتور",
+          "audio": "audio/a2/s12/vocab/06-arzt.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Apotheke",
+          "ar": "الصيدلية",
+          "audio": "audio/a2/s12/vocab/07-apotheke.mp3",
+          "article": "die"
+        }
+      ]
+    },
+    {
+      "id": "words",
+      "label": "Words and phrases",
+      "words": [
+        {
+          "de": "Wasser",
+          "ar": "المية",
+          "audio": "audio/a2/s12/vocab/08-wasser.mp3",
+          "article": "das"
+        },
+        {
+          "de": "trinken",
+          "ar": "يشرب",
+          "audio": "audio/a2/s12/vocab/09-trinken.mp3"
+        },
+        {
+          "de": "Warum?",
+          "ar": "ليه؟",
+          "audio": "audio/a2/s12/vocab/10-warum.mp3"
+        },
+        {
+          "de": "Seit wann?",
+          "ar": "من إمتى؟",
+          "audio": "audio/a2/s12/vocab/11-seit-wann.mp3"
+        },
+        {
+          "de": "seit gestern",
+          "ar": "من إمبارح",
+          "audio": "audio/a2/s12/vocab/12-seit-gestern.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich habe Kopfschmerzen.",
+      "ar": "عندي صداع.",
+      "audio": "audio/a2/s12/s01-ich-habe-kopfschmerzen.mp3"
+    },
+    {
+      "de": "Ich habe Bauchschmerzen.",
+      "ar": "بطني بتوجعني.",
+      "audio": "audio/a2/s12/s02-ich-habe-bauchschmerzen.mp3"
+    },
+    {
+      "de": "Ich gehe zum Arzt.",
+      "ar": "أنا رايح للدكتور.",
+      "audio": "audio/a2/s12/s03-ich-gehe-zum-arzt.mp3"
+    },
+    {
+      "de": "Ich gehe zur Apotheke.",
+      "ar": "أنا رايح الصيدلية.",
+      "audio": "audio/a2/s12/s04-ich-gehe-zur-apotheke.mp3"
+    },
+    {
+      "de": "Ich trinke keinen Kaffee.",
+      "ar": "أنا مش بشرب قهوة.",
+      "audio": "audio/a2/s12/s05-ich-trinke-keinen-kaffee.mp3"
+    },
+    {
+      "de": "Ich habe Kopfschmerzen, weil ich keinen Kaffee trinke.",
+      "ar": "عندي صداع لأني مش بشرب قهوة.",
+      "audio": "audio/a2/s12/s06-ich-habe-kopfschmerzen-weil-ich-keinen-kaffe.mp3"
+    },
+    {
+      "de": "Ich trinke keinen Kaffee. Deshalb habe ich Kopfschmerzen.",
+      "ar": "أنا مش بشرب قهوة. عشان كده عندي صداع.",
+      "audio": "audio/a2/s12/s07-ich-trinke-keinen-kaffee-deshalb-habe-ich-ko.mp3"
+    },
+    {
+      "de": "Ich gehe zum Arzt, weil ich Kopfschmerzen habe.",
+      "ar": "أنا رايح للدكتور لأن عندي صداع.",
+      "audio": "audio/a2/s12/s08-ich-gehe-zum-arzt-weil-ich-kopfschmerzen-hab.mp3"
+    },
+    {
+      "de": "Warum hast du Kopfschmerzen?",
+      "ar": "ليه عندك صداع؟",
+      "audio": "audio/a2/s12/s09-warum-hast-du-kopfschmerzen.mp3"
+    },
+    {
+      "de": "Seit wann hast du Kopfschmerzen? Seit gestern.",
+      "ar": "من إمتى عندك صداع؟ من إمبارح.",
+      "audio": "audio/a2/s12/s10-seit-wann-hast-du-kopfschmerzen-seit-gestern.mp3"
+    },
+    {
+      "de": "Seit gestern habe ich Bauchschmerzen, weil ich kein Wasser trinke.",
+      "ar": "من إمبارح بطني بتوجعني لأني مش بشرب مية.",
+      "audio": "audio/a2/s12/s11-seit-gestern-habe-ich-bauchschmerzen-weil-ic.mp3"
+    },
+    {
+      "de": "Ich habe Bauchschmerzen. Deshalb gehe ich zur Apotheke.",
+      "ar": "بطني بتوجعني. عشان كده رايح الصيدلية.",
+      "audio": "audio/a2/s12/s12-ich-habe-bauchschmerzen-deshalb-gehe-ich-zur.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Kopf",
+      "ar": "الراس",
+      "audio": "audio/a2/s12/vocab/01-kopf.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Kopfschmerzen",
+      "ar": "الصداع",
+      "audio": "audio/a2/s12/vocab/03-kopfschmerzen.mp3",
+      "article": "die (Plural)"
+    },
+    {
+      "de": "Bauch",
+      "ar": "البطن",
+      "audio": "audio/a2/s12/vocab/04-bauch.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Bauchschmerzen",
+      "ar": "وجع البطن",
+      "audio": "audio/a2/s12/vocab/05-bauchschmerzen.mp3",
+      "article": "die (Plural)"
+    },
+    {
+      "de": "Arzt",
+      "ar": "الدكتور",
+      "audio": "audio/a2/s12/vocab/06-arzt.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Apotheke",
+      "ar": "الصيدلية",
+      "audio": "audio/a2/s12/vocab/07-apotheke.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Wasser",
+      "ar": "المية",
+      "audio": "audio/a2/s12/vocab/08-wasser.mp3",
+      "article": "das"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich gehe _______ Apotheke.",
+      "options": [
+        "zur",
+        "zum",
+        "zu"
+      ],
+      "answer": 0,
+      "why": "Apotheke مؤنث = zur.",
+      "ar": "أنا رايح الصيدلية."
+    },
+    {
+      "prompt": "Ich gehe _______ Arzt.",
+      "options": [
+        "zum",
+        "zur",
+        "zu"
+      ],
+      "answer": 0,
+      "why": "Arzt مذكر = zum.",
+      "ar": "أنا رايح للدكتور."
+    },
+    {
+      "prompt": "_______ hast du Bauchschmerzen? (ليه)",
+      "options": [
+        "Warum",
+        "Seit wann",
+        "Wann"
+      ],
+      "answer": 0,
+      "why": "ليه = Warum؛ Seit wann معناها من إمتى.",
+      "ar": "ليه بطنك بتوجعك؟"
+    },
+    {
+      "prompt": "Ich habe Kopfschmerzen, weil ich keinen Kaffee _______.",
+      "options": [
+        "trinke",
+        "trinken",
+        "trinkst"
+      ],
+      "answer": 0,
+      "why": "بعد weil الفعل في الآخر، مصرف مع ich = trinke.",
+      "ar": "عندي صداع لأني مش بشرب قهوة."
+    },
+    {
+      "prompt": "_______ gestern habe ich Bauchschmerzen.",
+      "options": [
+        "Seit",
+        "Von",
+        "Aus"
+      ],
+      "answer": 0,
+      "why": "من إمبارح = seit gestern، والفعل تاني كلمة.",
+      "ar": "من إمبارح بطني بتوجعني."
+    },
+    {
+      "prompt": "Ich trinke keinen Kaffee. _______ habe ich Kopfschmerzen.",
+      "options": [
+        "Deshalb",
+        "Weil",
+        "Denn"
+      ],
+      "answer": 0,
+      "why": "النتيجة = deshalb والفعل بعدها مباشرة.",
+      "ar": "مش بشرب قهوة، عشان كده عندي صداع."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الحلقة ١٢ من A2: مصطلحات طبية أساسية. الوجع = العضو + Schmerzen، zum وzur، Warum وSeit wann، وحوار عند الدكتور بـ weil وdeshalb. (محتوى من الفيديو بدون PDF - صياغة تعليمية مراجعة على التسجيل الأصلي)"
+  },
+  "grammar": [
+    {
+      "title": "الوجع = العضو + Schmerzen",
+      "rule": "الراس + الآلام = الصداع: der Kopf + die Schmerzen = die Kopfschmerzen. والبطن + الآلام = die Bauchschmerzen.",
+      "forms": [
+        "die Kopfschmerzen",
+        "die Bauchschmerzen"
+      ],
+      "examples": [
+        {
+          "de": "Ich habe Kopfschmerzen.",
+          "ar": "عندي صداع."
+        }
+      ]
+    },
+    {
+      "title": "zum و zur",
+      "rule": "رايح لـ: zum للمذكر والمحايد (zum Arzt)، zur للمؤنث (zur Apotheke). قطعة جاهزة.",
+      "forms": [
+        "zum Arzt",
+        "zur Apotheke"
+      ],
+      "examples": [
+        {
+          "de": "Ich gehe zur Apotheke.",
+          "ar": "أنا رايح الصيدلية."
+        }
+      ]
+    },
+    {
+      "title": "Warum? و Seit wann?",
+      "rule": "ليه = Warum، من إمتى = Seit wann، والرد: seit gestern. ولو الجملة بدأت بـ seit gestern الفعل تاني كلمة.",
+      "forms": [
+        "Warum?",
+        "Seit wann?",
+        "Seit gestern."
+      ],
+      "examples": [
+        {
+          "de": "Seit gestern habe ich Bauchschmerzen.",
+          "ar": "من إمبارح بطني بتوجعني."
+        }
+      ]
+    },
+    {
+      "title": "weil و deshalb",
+      "rule": "نفس قاعدة الحلقتين ١٠ و١١: الفعل في الآخر بعد weil، وبعد deshalb الفعل تاني كلمة.",
+      "forms": [
+        "..., weil ich krank bin.",
+        "Deshalb gehe ich zum Arzt."
+      ],
+      "examples": [
+        {
+          "de": "Ich trinke keinen Kaffee. Deshalb habe ich Kopfschmerzen.",
+          "ar": "مش بشرب قهوة. عشان كده عندي صداع."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "habe",
+          "Kopfschmerzen.",
+          "Ich"
+        ],
+        "answer": "Ich habe Kopfschmerzen.",
+        "ar": "عندي صداع."
+      },
+      {
+        "tiles": [
+          "gehe",
+          "zum Arzt,",
+          "Ich",
+          "weil ich Kopfschmerzen habe."
+        ],
+        "answer": "Ich gehe zum Arzt, weil ich Kopfschmerzen habe.",
+        "ar": "رايح للدكتور لأن عندي صداع."
+      },
+      {
+        "tiles": [
+          "habe",
+          "Seit gestern",
+          "ich",
+          "Bauchschmerzen."
+        ],
+        "answer": "Seit gestern habe ich Bauchschmerzen.",
+        "ar": "من إمبارح بطني بتوجعني."
+      },
+      {
+        "tiles": [
+          "trinke",
+          "keinen Kaffee.",
+          "Ich"
+        ],
+        "answer": "Ich trinke keinen Kaffee.",
+        "ar": "مش بشرب قهوة."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich habe Kopfschmerzen, weil ich keinen Kaffee trinke.",
+          "Ich habe Kopfschmerzen, weil ich trinke keinen Kaffee."
+        ],
+        "answer": 0,
+        "why": "بعد weil الفعل بيروح الآخر خالص.",
+        "ar": "عندي صداع لأني مش بشرب قهوة."
+      },
+      {
+        "options": [
+          "Ich gehe zum Arzt.",
+          "Ich gehe zur Arzt."
+        ],
+        "answer": 0,
+        "why": "Arzt مذكر = zum.",
+        "ar": "أنا رايح للدكتور."
+      },
+      {
+        "options": [
+          "Ich gehe zur Apotheke.",
+          "Ich gehe zum Apotheke."
+        ],
+        "answer": 0,
+        "why": "Apotheke مؤنث = zur.",
+        "ar": "أنا رايح الصيدلية."
+      },
+      {
+        "options": [
+          "Deshalb habe ich Kopfschmerzen.",
+          "Deshalb ich habe Kopfschmerzen."
+        ],
+        "answer": 0,
+        "why": "بعد deshalb الفعل تاني كلمة مباشرة.",
+        "ar": "عشان كده عندي صداع."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "عندي صداع.",
+        "de": "Ich habe Kopfschmerzen.",
+        "audio": "audio/a2/s12/tr1.mp3"
+      },
+      {
+        "ar": "أنا رايح الصيدلية.",
+        "de": "Ich gehe zur Apotheke.",
+        "audio": "audio/a2/s12/tr2.mp3"
+      },
+      {
+        "ar": "من إمتى عندك صداع؟",
+        "de": "Seit wann hast du Kopfschmerzen?",
+        "audio": "audio/a2/s12/tr3.mp3"
+      },
+      {
+        "ar": "بطني بتوجعني لأني مش بشرب مية.",
+        "de": "Ich habe Bauchschmerzen, weil ich kein Wasser trinke.",
+        "audio": "audio/a2/s12/tr4.mp3"
+      }
+    ]
+  },
+  "provenance": {
+    "type": "video-sourced",
+    "caveat_ar": "مفيش PDF للحلقة دي. المحتوى اتراجع على التسجيل الصوتي الأصلي: المواضيع والشرح والأمثلة مطابقة. الصياغة الألمانية المكتوبة صياغة تعليمية من إعداد المدرس، مش نسخ حرفي موثق من كلام الفيديو.",
+    "caveat_en": "No source PDF. Content reviewed against the original uploaded recording (topics, teaching, examples match); the written German is educational rendering, not verbatim-verified transcription.",
+    "source_video": "https://www.youtube.com/watch?v=NQHN4liV6RQ",
+    "source_row": "425e697c-9519-8108-8e94-eb99f30d1afd"
+  }
+}
