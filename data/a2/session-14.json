@@ -1,0 +1,455 @@
+{
+  "id": "14",
+  "level": "a2",
+  "title": "Episode 14: Condition and indirect question ob and wenn",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=VpuF2D7uheg",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel",
+    "open_url": "https://www.youtube.com/watch?v=VpuF2D7uheg"
+  },
+  "vocab": [
+    {
+      "id": "connectors",
+      "label": "Connectors",
+      "words": [
+        {
+          "de": "ob",
+          "ar": "إذا (مش عارف)",
+          "audio": "audio/a2/s14/vocab/01-ob.mp3"
+        },
+        {
+          "de": "wenn",
+          "ar": "لو / إذا (شرط)",
+          "audio": "audio/a2/s14/vocab/02-wenn.mp3"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "label": "Verbs",
+      "words": [
+        {
+          "de": "regnen",
+          "ar": "تمطر",
+          "audio": "audio/a2/s14/vocab/03-regnen.mp3"
+        },
+        {
+          "de": "wissen",
+          "ar": "يعرف",
+          "audio": "audio/a2/s14/vocab/04-wissen.mp3"
+        },
+        {
+          "de": "ich weiß nicht",
+          "ar": "مش عارف",
+          "audio": "audio/a2/s14/vocab/05-ich-weiss-nicht.mp3"
+        }
+      ]
+    },
+    {
+      "id": "nouns",
+      "label": "Nouns",
+      "words": [
+        {
+          "de": "Wetter",
+          "ar": "الجو",
+          "audio": "audio/a2/s14/vocab/06-wetter.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Zeit",
+          "ar": "الوقت",
+          "audio": "audio/a2/s14/vocab/07-zeit.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Essen",
+          "ar": "الأكل",
+          "audio": "audio/a2/s14/vocab/08-essen.mp3",
+          "article": "das"
+        }
+      ]
+    },
+    {
+      "id": "words",
+      "label": "Words",
+      "words": [
+        {
+          "de": "schlecht",
+          "ar": "وحش",
+          "audio": "audio/a2/s14/vocab/09-schlecht.mp3"
+        },
+        {
+          "de": "fertig",
+          "ar": "جاهز / خلّص",
+          "audio": "audio/a2/s14/vocab/10-fertig.mp3"
+        },
+        {
+          "de": "heute",
+          "ar": "النهارده",
+          "audio": "audio/a2/s14/vocab/11-heute.mp3"
+        },
+        {
+          "de": "morgen",
+          "ar": "بكرة",
+          "audio": "audio/a2/s14/vocab/12-morgen.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich bleibe zu Hause, wenn es regnet.",
+      "ar": "هفضل في البيت لو الدنيا بتمطر.",
+      "audio": "audio/a2/s14/s01-ich-bleibe-zu-hause-wenn-es-regnet.mp3"
+    },
+    {
+      "de": "Ich bleibe zu Hause, wenn ich krank bin.",
+      "ar": "هفضل في البيت لو كنت عيان.",
+      "audio": "audio/a2/s14/s02-ich-bleibe-zu-hause-wenn-ich-krank-bin.mp3"
+    },
+    {
+      "de": "Ich bleibe zu Hause, wenn das Wetter schlecht ist.",
+      "ar": "هفضل في البيت لو الجو وحش.",
+      "audio": "audio/a2/s14/s03-ich-bleibe-zu-hause-wenn-das-wetter-schlecht.mp3"
+    },
+    {
+      "de": "Ich bleibe zu Hause, wenn ich keine Zeit habe.",
+      "ar": "هفضل في البيت لو معنديش وقت.",
+      "audio": "audio/a2/s14/s04-ich-bleibe-zu-hause-wenn-ich-keine-zeit-habe.mp3"
+    },
+    {
+      "de": "Ich weiß nicht, ob er heute kommt.",
+      "ar": "مش عارف هو جاي النهارده ولا لأ.",
+      "audio": "audio/a2/s14/s05-ich-weiss-nicht-ob-er-heute-kommt.mp3"
+    },
+    {
+      "de": "Ich weiß nicht, ob es morgen regnet.",
+      "ar": "مش عارف هتمطر بكرة ولا لأ.",
+      "audio": "audio/a2/s14/s06-ich-weiss-nicht-ob-es-morgen-regnet.mp3"
+    },
+    {
+      "de": "Ich weiß nicht, ob sie Zeit hat.",
+      "ar": "مش عارف هي عندها وقت ولا لأ.",
+      "audio": "audio/a2/s14/s07-ich-weiss-nicht-ob-sie-zeit-hat.mp3"
+    },
+    {
+      "de": "Ich weiß nicht, ob das Essen fertig ist.",
+      "ar": "مش عارف الأكل جاهز ولا لأ.",
+      "audio": "audio/a2/s14/s08-ich-weiss-nicht-ob-das-essen-fertig-ist.mp3"
+    },
+    {
+      "de": "Ich komme, wenn das Essen fertig ist.",
+      "ar": "هاجي لو الأكل خلّص.",
+      "audio": "audio/a2/s14/s09-ich-komme-wenn-das-essen-fertig-ist.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "ob",
+      "ar": "إذا (مش عارف)",
+      "audio": "audio/a2/s14/vocab/01-ob.mp3"
+    },
+    {
+      "de": "wenn",
+      "ar": "لو / إذا (شرط)",
+      "audio": "audio/a2/s14/vocab/02-wenn.mp3"
+    },
+    {
+      "de": "Wetter",
+      "ar": "الجو",
+      "audio": "audio/a2/s14/vocab/06-wetter.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Zeit",
+      "ar": "الوقت",
+      "audio": "audio/a2/s14/vocab/07-zeit.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Essen",
+      "ar": "الأكل",
+      "audio": "audio/a2/s14/vocab/08-essen.mp3",
+      "article": "das"
+    },
+    {
+      "de": "fertig",
+      "ar": "جاهز / خلّص",
+      "audio": "audio/a2/s14/vocab/10-fertig.mp3"
+    },
+    {
+      "de": "wissen",
+      "ar": "يعرف",
+      "audio": "audio/a2/s14/vocab/04-wissen.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich bleibe zu Hause, _______ ich krank bin.",
+      "options": [
+        "wenn",
+        "ob",
+        "denn"
+      ],
+      "answer": 0,
+      "why": "شرط = wenn.",
+      "ar": "هفضل في البيت لو كنت عيان."
+    },
+    {
+      "prompt": "Ich weiß nicht, _______ er heute kommt.",
+      "options": [
+        "ob",
+        "wenn",
+        "dass"
+      ],
+      "answer": 0,
+      "why": "شك / مش عارف إذا = ob.",
+      "ar": "مش عارف هو جاي النهارده ولا لأ."
+    },
+    {
+      "prompt": "Ich weiß nicht, ob es morgen _______.",
+      "options": [
+        "regnet",
+        "regnen",
+        "regne"
+      ],
+      "answer": 0,
+      "why": "بعد ob الفعل المتصرف في الآخر: es regnet.",
+      "ar": "مش عارف هتمطر بكرة ولا لأ."
+    },
+    {
+      "prompt": "Ich komme, _______ das Essen fertig ist.",
+      "options": [
+        "wenn",
+        "ob",
+        "als"
+      ],
+      "answer": 0,
+      "why": "شرط (لما الأكل يخلص هاجي) = wenn.",
+      "ar": "هاجي لو الأكل خلّص."
+    },
+    {
+      "prompt": "Ich weiß nicht, ob sie Zeit _______.",
+      "options": [
+        "hat",
+        "habe",
+        "hast"
+      ],
+      "answer": 0,
+      "why": "sie + hat، والفعل في الآخر بعد ob.",
+      "ar": "مش عارف هي عندها وقت ولا لأ."
+    },
+    {
+      "prompt": "Ich bleibe zu Hause, wenn ich krank _______.",
+      "options": [
+        "bin",
+        "habe",
+        "ist"
+      ],
+      "answer": 0,
+      "why": "ich + bin، والفعل في الآخر بعد wenn.",
+      "ar": "هفضل في البيت لو كنت عيان."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الحلقة ١٤ من A2: الشرط والسؤال غير المباشر ob وwenn. ob للشك ولو مش عارف، وwenn للشرط، والاتنين بيودوا الفعل في الآخر. (محتوى من الفيديو بدون PDF - صياغة تعليمية مراجعة على التسجيل الأصلي)"
+  },
+  "grammar": [
+    {
+      "title": "wenn = شرط، ob = شك",
+      "rule": "الاتنين بيتترجموا لو/إذا، بس المعنى مختلف: wenn لما بتحط شرط (هعمل كذا لو حصل كذا)، ob لما بتقول مش عارف إذا. والاتنين بيودوا الفعل المتصرف في آخر الجملة.",
+      "forms": [
+        "..., wenn es regnet.",
+        "..., ob es morgen regnet."
+      ],
+      "examples": [
+        {
+          "de": "Ich bleibe zu Hause, wenn es regnet.",
+          "ar": "هفضل في البيت لو الدنيا بتمطر."
+        },
+        {
+          "de": "Ich weiß nicht, ob er heute kommt.",
+          "ar": "مش عارف هو جاي النهارده ولا لأ."
+        }
+      ]
+    },
+    {
+      "title": "الفعل في الآخر",
+      "rule": "بعد ob وwenn الفعل المتصرف بيروح آخر الجملة دايمًا.",
+      "forms": [
+        "..., ob sie Zeit hat.",
+        "..., wenn ich krank bin."
+      ],
+      "examples": [
+        {
+          "de": "Ich weiß nicht, ob das Essen fertig ist.",
+          "ar": "مش عارف الأكل جاهز ولا لأ."
+        }
+      ]
+    },
+    {
+      "title": "امتحان سريع بالعربي",
+      "rule": "اسأل نفسك: أنا بحط شرط؟ يبقى wenn. أنا بقول مش عارف إذا؟ يبقى ob.",
+      "forms": [
+        "شرط = wenn",
+        "مش عارف إذا = ob"
+      ],
+      "examples": [
+        {
+          "de": "Ich komme, wenn das Essen fertig ist.",
+          "ar": "هاجي لو الأكل خلّص. (شرط)"
+        },
+        {
+          "de": "Ich weiß nicht, ob das Essen fertig ist.",
+          "ar": "مش عارف الأكل جاهز ولا لأ. (شك)"
+        }
+      ]
+    },
+    {
+      "title": "حدود الحلقة",
+      "rule": "الحلقة بتشرح wenn كشرط بس. (wenn بتتقال كمان بمعنى كل ما، وده مش في الحلقة.)",
+      "forms": [
+        "wenn = شرط فقط هنا"
+      ],
+      "examples": [
+        {
+          "de": "Ich bleibe zu Hause, wenn das Wetter schlecht ist.",
+          "ar": "هفضل في البيت لو الجو وحش."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "bleibe",
+          "zu Hause,",
+          "Ich",
+          "wenn es regnet."
+        ],
+        "answer": "Ich bleibe zu Hause, wenn es regnet.",
+        "ar": "هفضل في البيت لو الدنيا بتمطر."
+      },
+      {
+        "tiles": [
+          "weiß",
+          "nicht,",
+          "Ich",
+          "ob er heute kommt."
+        ],
+        "answer": "Ich weiß nicht, ob er heute kommt.",
+        "ar": "مش عارف هو جاي النهارده ولا لأ."
+      },
+      {
+        "tiles": [
+          "komme,",
+          "Ich",
+          "wenn das Essen fertig ist."
+        ],
+        "answer": "Ich komme, wenn das Essen fertig ist.",
+        "ar": "هاجي لو الأكل خلّص."
+      },
+      {
+        "tiles": [
+          "weiß",
+          "nicht,",
+          "Ich",
+          "ob sie Zeit hat."
+        ],
+        "answer": "Ich weiß nicht, ob sie Zeit hat.",
+        "ar": "مش عارف هي عندها وقت ولا لأ."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich bleibe zu Hause, wenn ich krank bin.",
+          "Ich bleibe zu Hause, wenn ich bin krank."
+        ],
+        "answer": 0,
+        "why": "بعد wenn الفعل في الآخر: krank bin.",
+        "ar": "هفضل في البيت لو كنت عيان."
+      },
+      {
+        "options": [
+          "Ich weiß nicht, ob er heute kommt.",
+          "Ich weiß nicht, ob er kommt heute."
+        ],
+        "answer": 0,
+        "why": "بعد ob الفعل في الآخر: heute kommt.",
+        "ar": "مش عارف هو جاي النهارده ولا لأ."
+      },
+      {
+        "options": [
+          "Ich komme, wenn das Essen fertig ist.",
+          "Ich komme, ob das Essen fertig ist."
+        ],
+        "answer": 0,
+        "why": "دي شرط (لو الأكل خلّص) = wenn مش ob.",
+        "ar": "هاجي لو الأكل خلّص."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "مش عارف هي عندها وقت ولا لأ.",
+        "de": "Ich weiß nicht, ob sie Zeit hat.",
+        "audio": "audio/a2/s14/tr1.mp3"
+      },
+      {
+        "ar": "هاجي لو الأكل خلّص.",
+        "de": "Ich komme, wenn das Essen fertig ist.",
+        "audio": "audio/a2/s14/tr2.mp3"
+      },
+      {
+        "ar": "مش عارف هتمطر بكرة ولا لأ.",
+        "de": "Ich weiß nicht, ob es morgen regnet.",
+        "audio": "audio/a2/s14/tr3.mp3"
+      },
+      {
+        "ar": "هفضل في البيت لو كنت عيان.",
+        "de": "Ich bleibe zu Hause, wenn ich krank bin.",
+        "audio": "audio/a2/s14/tr4.mp3"
+      }
+    ]
+  },
+  "provenance": {
+    "type": "video-sourced",
+    "caveat_ar": "مفيش PDF للحلقة دي. المحتوى اتراجع على التسجيل الصوتي الأصلي: المواضيع والشرح والأمثلة والتمارين مطابقة. الصياغة الألمانية المكتوبة صياغة تعليمية من إعداد المدرس، مش نسخ حرفي موثق من كلام الفيديو. عنوان الحلقة من عنوان الفيديو على يوتيوب.",
+    "caveat_en": "No source PDF. Content reviewed against the original uploaded recording (topics, teaching, examples, exercises match); the written German is educational rendering, not verbatim-verified transcription. Lesson title from the YouTube video title.",
+    "source_video": "https://www.youtube.com/watch?v=VpuF2D7uheg",
+    "source_row": "425e697c-9519-813a-b99f-fd30707bc806"
+  }
+}
