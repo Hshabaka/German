@@ -1,0 +1,479 @@
+{
+  "id": "13",
+  "level": "a2",
+  "title": "Episode 13: Reason connectors weil and denn",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=6q9NdP5Aegc",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel",
+    "open_url": "https://www.youtube.com/watch?v=6q9NdP5Aegc"
+  },
+  "vocab": [
+    {
+      "id": "verbs",
+      "label": "Verbs",
+      "words": [
+        {
+          "de": "bleiben",
+          "ar": "يفضل / يقعد",
+          "audio": "audio/a2/s13/vocab/01-bleiben.mp3"
+        },
+        {
+          "de": "kaufen",
+          "ar": "يشتري",
+          "audio": "audio/a2/s13/vocab/02-kaufen.mp3"
+        },
+        {
+          "de": "trinken",
+          "ar": "يشرب",
+          "audio": "audio/a2/s13/vocab/03-trinken.mp3"
+        }
+      ]
+    },
+    {
+      "id": "nouns",
+      "label": "Nouns",
+      "words": [
+        {
+          "de": "Bett",
+          "ar": "السرير",
+          "audio": "audio/a2/s13/vocab/04-bett.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Kaffee",
+          "ar": "القهوة",
+          "audio": "audio/a2/s13/vocab/05-kaffee.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Wasser",
+          "ar": "المية",
+          "audio": "audio/a2/s13/vocab/06-wasser.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Durst",
+          "ar": "العطش",
+          "audio": "audio/a2/s13/vocab/07-durst.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Hunger",
+          "ar": "الجوع",
+          "audio": "audio/a2/s13/vocab/08-hunger.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Laptop",
+          "ar": "اللابتوب",
+          "audio": "audio/a2/s13/vocab/09-laptop.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Arbeit",
+          "ar": "الشغل",
+          "audio": "audio/a2/s13/vocab/10-arbeit.mp3",
+          "article": "die"
+        }
+      ]
+    },
+    {
+      "id": "words",
+      "label": "Words and phrases",
+      "words": [
+        {
+          "de": "im Bett",
+          "ar": "في السرير",
+          "audio": "audio/a2/s13/vocab/11-im-bett.mp3"
+        },
+        {
+          "de": "zu Hause",
+          "ar": "في البيت",
+          "audio": "audio/a2/s13/vocab/12-zu-hause.mp3"
+        },
+        {
+          "de": "krank",
+          "ar": "عيان",
+          "audio": "audio/a2/s13/vocab/13-krank.mp3"
+        },
+        {
+          "de": "viel",
+          "ar": "كتير",
+          "audio": "audio/a2/s13/vocab/14-viel.mp3"
+        },
+        {
+          "de": "und",
+          "ar": "و",
+          "audio": "audio/a2/s13/vocab/15-und.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich bleibe im Bett, denn ich bin krank.",
+      "ar": "هفضل في السرير لأني عيان.",
+      "audio": "audio/a2/s13/s01-ich-bleibe-im-bett-denn-ich-bin-krank.mp3"
+    },
+    {
+      "de": "Ich bleibe im Bett, weil ich krank bin.",
+      "ar": "هفضل في السرير لأني عيان.",
+      "audio": "audio/a2/s13/s02-ich-bleibe-im-bett-weil-ich-krank-bin.mp3"
+    },
+    {
+      "de": "Ich bleibe zu Hause, weil ich krank bin.",
+      "ar": "هفضل في البيت لأني عيان.",
+      "audio": "audio/a2/s13/s03-ich-bleibe-zu-hause-weil-ich-krank-bin.mp3"
+    },
+    {
+      "de": "Ich bleibe zu Hause, denn ich habe viel Arbeit.",
+      "ar": "هفضل في البيت لأن عندي شغل كتير.",
+      "audio": "audio/a2/s13/s04-ich-bleibe-zu-hause-denn-ich-habe-viel-arbei.mp3"
+    },
+    {
+      "de": "Ich trinke den Kaffee, weil ich Kopfschmerzen habe.",
+      "ar": "هشرب القهوة لأن عندي صداع.",
+      "audio": "audio/a2/s13/s05-ich-trinke-den-kaffee-weil-ich-kopfschmerzen.mp3"
+    },
+    {
+      "de": "Ich trinke Wasser, weil ich Durst habe.",
+      "ar": "أنا بشرب مية لأني عطشان.",
+      "audio": "audio/a2/s13/s06-ich-trinke-wasser-weil-ich-durst-habe.mp3"
+    },
+    {
+      "de": "Ich trinke Wasser, denn ich bin krank.",
+      "ar": "أنا بشرب مية لأني عيان.",
+      "audio": "audio/a2/s13/s07-ich-trinke-wasser-denn-ich-bin-krank.mp3"
+    },
+    {
+      "de": "Ich kaufe den Laptop, denn ich habe viel Arbeit.",
+      "ar": "هشتري اللابتوب لأن عندي شغل كتير.",
+      "audio": "audio/a2/s13/s08-ich-kaufe-den-laptop-denn-ich-habe-viel-arbe.mp3"
+    },
+    {
+      "de": "Ich kaufe den Laptop, weil ich viel Arbeit habe.",
+      "ar": "هشتري اللابتوب لأن عندي شغل كتير.",
+      "audio": "audio/a2/s13/s09-ich-kaufe-den-laptop-weil-ich-viel-arbeit-ha.mp3"
+    },
+    {
+      "de": "Ich bleibe im Bett, weil ich krank bin, und ich trinke den Kaffee, weil ich Kopfschmerzen habe.",
+      "ar": "هفضل في السرير لأني عيان، وهشرب القهوة لأن عندي صداع.",
+      "audio": "audio/a2/s13/s10-ich-bleibe-im-bett-weil-ich-krank-bin-und-ic.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Bett",
+      "ar": "السرير",
+      "audio": "audio/a2/s13/vocab/04-bett.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Kaffee",
+      "ar": "القهوة",
+      "audio": "audio/a2/s13/vocab/05-kaffee.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Wasser",
+      "ar": "المية",
+      "audio": "audio/a2/s13/vocab/06-wasser.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Durst",
+      "ar": "العطش",
+      "audio": "audio/a2/s13/vocab/07-durst.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Hunger",
+      "ar": "الجوع",
+      "audio": "audio/a2/s13/vocab/08-hunger.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Laptop",
+      "ar": "اللابتوب",
+      "audio": "audio/a2/s13/vocab/09-laptop.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Arbeit",
+      "ar": "الشغل",
+      "audio": "audio/a2/s13/vocab/10-arbeit.mp3",
+      "article": "die"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich bleibe im Bett, _______ ich bin krank.",
+      "options": [
+        "denn",
+        "weil",
+        "deshalb"
+      ],
+      "answer": 0,
+      "why": "denn بيربط من غير ما يغير الترتيب: ich bin krank زي ما هي.",
+      "ar": "هفضل في السرير لأني عيان."
+    },
+    {
+      "prompt": "Ich bleibe zu Hause, weil ich krank _______.",
+      "options": [
+        "bin",
+        "habe",
+        "ist"
+      ],
+      "answer": 0,
+      "why": "بعد weil الفعل في الآخر: krank bin.",
+      "ar": "هفضل في البيت لأني عيان."
+    },
+    {
+      "prompt": "Ich trinke _______ Kaffee.",
+      "options": [
+        "den",
+        "der",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "بعمل بيه فعل = أكوزاتيف مذكر = den.",
+      "ar": "بشرب القهوة."
+    },
+    {
+      "prompt": "Ich kaufe den Laptop, _______ ich viel Arbeit habe.",
+      "options": [
+        "weil",
+        "denn",
+        "deshalb"
+      ],
+      "answer": 0,
+      "why": "الفعل habe في الآخر = weil.",
+      "ar": "هشتري اللابتوب لأن عندي شغل كتير."
+    },
+    {
+      "prompt": "Ich trinke Wasser, weil ich _______ habe.",
+      "options": [
+        "Durst",
+        "Hunger",
+        "Kaffee"
+      ],
+      "answer": 0,
+      "why": "العطش = der Durst.",
+      "ar": "بشرب مية لأني عطشان."
+    },
+    {
+      "prompt": "Ich bleibe zu Hause, denn ich _______ viel Arbeit.",
+      "options": [
+        "habe",
+        "bin",
+        "hast"
+      ],
+      "answer": 0,
+      "why": "denn ما بتغيرش الترتيب: ich habe viel Arbeit.",
+      "ar": "هفضل في البيت لأن عندي شغل كتير."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الحلقة ١٣ من A2: روابط السبب والتعليل weil وdenn. الاتنين معناهم لأن، والفرق في مكان الفعل، مع مراجعة der-den والجملة الطويلة بـ und. (محتوى من الفيديو بدون PDF - صياغة تعليمية مراجعة على التسجيل الأصلي)"
+  },
+  "grammar": [
+    {
+      "title": "denn و weil: الاتنين يعني لأن",
+      "rule": "denn بيربط بس وما بيغيرش ترتيب الجملة التانية. weil بيودي الفعل في الآخر.",
+      "forms": [
+        "..., denn ich bin krank.",
+        "..., weil ich krank bin."
+      ],
+      "examples": [
+        {
+          "de": "Ich bleibe im Bett, denn ich bin krank.",
+          "ar": "هفضل في السرير لأني عيان."
+        }
+      ]
+    },
+    {
+      "title": "der بتبقى den",
+      "rule": "في جملة فيها حاجة بنعمل فيها فعل (أكوزاتيف)، المذكر بيتغير من der لـ den.",
+      "forms": [
+        "der Kaffee - den Kaffee",
+        "der Laptop - den Laptop"
+      ],
+      "examples": [
+        {
+          "de": "Ich trinke den Kaffee, weil ich Kopfschmerzen habe.",
+          "ar": "هشرب القهوة لأن عندي صداع."
+        }
+      ]
+    },
+    {
+      "title": "الجملة الطويلة بـ und",
+      "rule": "نقدر نربط جملتين بـ und وكل واحدة تحتفظ برابطها: weil... und ...weil...",
+      "forms": [
+        "..., weil ich krank bin, und ..., weil ich Kopfschmerzen habe."
+      ],
+      "examples": [
+        {
+          "de": "Ich bleibe im Bett, weil ich krank bin, und ich trinke den Kaffee, weil ich Kopfschmerzen habe.",
+          "ar": "هفضل في السرير لأني عيان، وهشرب القهوة لأن عندي صداع."
+        }
+      ]
+    },
+    {
+      "title": "حدود الحلقة",
+      "rule": "الحلقة دي ما بتحددش مين الأحسن في الكلام بين denn وweil. استخدم الاتنين كويس، وركز على مكان الفعل.",
+      "forms": [
+        "denn = ربط فقط",
+        "weil = الفعل في الآخر"
+      ],
+      "examples": [
+        {
+          "de": "Ich kaufe den Laptop, denn ich habe viel Arbeit.",
+          "ar": "هشتري اللابتوب لأن عندي شغل كتير."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "bleibe",
+          "im Bett,",
+          "Ich",
+          "denn ich bin krank."
+        ],
+        "answer": "Ich bleibe im Bett, denn ich bin krank.",
+        "ar": "هفضل في السرير لأني عيان."
+      },
+      {
+        "tiles": [
+          "bleibe",
+          "zu Hause,",
+          "Ich",
+          "weil ich krank bin."
+        ],
+        "answer": "Ich bleibe zu Hause, weil ich krank bin.",
+        "ar": "هفضل في البيت لأني عيان."
+      },
+      {
+        "tiles": [
+          "trinke",
+          "den Kaffee,",
+          "Ich",
+          "weil ich Kopfschmerzen habe."
+        ],
+        "answer": "Ich trinke den Kaffee, weil ich Kopfschmerzen habe.",
+        "ar": "هشرب القهوة لأن عندي صداع."
+      },
+      {
+        "tiles": [
+          "kaufe",
+          "den Laptop,",
+          "Ich",
+          "denn ich habe viel Arbeit."
+        ],
+        "answer": "Ich kaufe den Laptop, denn ich habe viel Arbeit.",
+        "ar": "هشتري اللابتوب لأن عندي شغل كتير."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich bleibe im Bett, denn ich bin krank.",
+          "Ich bleibe im Bett, denn ich krank bin."
+        ],
+        "answer": 0,
+        "why": "denn ما بتوديش الفعل الآخر: ich bin krank زي ما هي.",
+        "ar": "هفضل في السرير لأني عيان."
+      },
+      {
+        "options": [
+          "Ich bleibe im Bett, weil ich krank bin.",
+          "Ich bleibe im Bett, weil ich bin krank."
+        ],
+        "answer": 0,
+        "why": "بعد weil الفعل في الآخر: krank bin.",
+        "ar": "هفضل في السرير لأني عيان."
+      },
+      {
+        "options": [
+          "Ich trinke den Kaffee.",
+          "Ich trinke der Kaffee."
+        ],
+        "answer": 0,
+        "why": "بعمل بيه فعل = der بتبقى den.",
+        "ar": "بشرب القهوة."
+      },
+      {
+        "options": [
+          "Ich trinke Wasser, weil ich Durst habe.",
+          "Ich trinke Wasser, weil ich habe Durst."
+        ],
+        "answer": 0,
+        "why": "بعد weil الفعل في الآخر: Durst habe.",
+        "ar": "بشرب مية لأني عطشان."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "هفضل في السرير لأني عيان.",
+        "de": "Ich bleibe im Bett, weil ich krank bin.",
+        "audio": "audio/a2/s13/tr1.mp3"
+      },
+      {
+        "ar": "أنا بشرب مية لأني عطشان.",
+        "de": "Ich trinke Wasser, weil ich Durst habe.",
+        "audio": "audio/a2/s13/tr2.mp3"
+      },
+      {
+        "ar": "هشتري اللابتوب لأن عندي شغل كتير.",
+        "de": "Ich kaufe den Laptop, denn ich habe viel Arbeit.",
+        "audio": "audio/a2/s13/tr3.mp3"
+      },
+      {
+        "ar": "هفضل في البيت لأني عيان.",
+        "de": "Ich bleibe zu Hause, weil ich krank bin.",
+        "audio": "audio/a2/s13/tr4.mp3"
+      }
+    ]
+  },
+  "provenance": {
+    "type": "video-sourced",
+    "caveat_ar": "مفيش PDF للحلقة دي. المحتوى اتراجع على التسجيل الصوتي الأصلي: المواضيع والشرح والأمثلة مطابقة. الصياغة الألمانية المكتوبة صياغة تعليمية من إعداد المدرس، مش نسخ حرفي موثق من كلام الفيديو. عنوان الحلقة من عنوان الفيديو على يوتيوب.",
+    "caveat_en": "No source PDF. Content reviewed against the original uploaded recording (topics, teaching, examples match); the written German is educational rendering, not verbatim-verified transcription. Lesson title from the YouTube video title.",
+    "source_video": "https://www.youtube.com/watch?v=6q9NdP5Aegc",
+    "source_row": "425e697c-9519-811f-9ad4-f1a74515e6db"
+  }
+}
