@@ -1,0 +1,693 @@
+{
+  "id": 24,
+  "level": "a1",
+  "title": "Session 24: How to talk about the future",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=1kqgVosjOTo",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "futur",
+      "label": "Formal future (werden)",
+      "words": [
+        {
+          "de": "werden",
+          "ar": "هـ (فعل المستقبل)",
+          "audio": "audio/s24/vocab/01-werden.mp3"
+        },
+        {
+          "de": "Ich werde",
+          "ar": "أنا هـ",
+          "audio": "audio/s24/vocab/02-ich-werde.mp3"
+        },
+        {
+          "de": "Du wirst",
+          "ar": "إنت هـ",
+          "audio": "audio/s24/vocab/03-du-wirst.mp3"
+        },
+        {
+          "de": "Wir werden",
+          "ar": "إحنا هـ",
+          "audio": "audio/s24/vocab/04-wir-werden.mp3"
+        },
+        {
+          "de": "Futur I",
+          "ar": "المستقبل الرسمي",
+          "audio": "audio/s24/vocab/05-futur-i.mp3"
+        },
+        {
+          "de": "morgen",
+          "ar": "بكرة",
+          "audio": "audio/s24/vocab/06-morgen.mp3"
+        },
+        {
+          "de": "heute",
+          "ar": "النهارده",
+          "audio": "audio/s24/vocab/07-heute.mp3"
+        },
+        {
+          "de": "nächste Woche",
+          "ar": "الأسبوع الجاي",
+          "audio": "audio/s24/vocab/08-naechste-woche.mp3"
+        },
+        {
+          "de": "nächsten Monat",
+          "ar": "الشهر الجاي",
+          "audio": "audio/s24/vocab/09-naechsten-monat.mp3"
+        }
+      ]
+    },
+    {
+      "id": "street",
+      "label": "Street German (present + time word)",
+      "words": [
+        {
+          "de": "Ich gehe heute einkaufen",
+          "ar": "أنا هروح أتسوق النهارده",
+          "audio": "audio/s24/vocab/10-ich-gehe-heute-einkaufen.mp3"
+        },
+        {
+          "de": "einkaufen",
+          "ar": "يتسوق",
+          "audio": "audio/s24/vocab/11-einkaufen.mp3"
+        },
+        {
+          "de": "ins Kino gehen",
+          "ar": "يروح السينما",
+          "audio": "audio/s24/vocab/12-ins-kino-gehen.mp3"
+        },
+        {
+          "de": "nach Berlin fahren",
+          "ar": "يسافر برلين",
+          "audio": "audio/s24/vocab/13-nach-berlin-fahren.mp3"
+        },
+        {
+          "de": "Berlin",
+          "ar": "برلين",
+          "audio": "audio/s24/vocab/14-berlin.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sobald",
+      "label": "sobald",
+      "words": [
+        {
+          "de": "sobald",
+          "ar": "أول ما / بمجرد ما",
+          "audio": "audio/s24/vocab/15-sobald.mp3"
+        },
+        {
+          "de": "Zeit haben",
+          "ar": "عنده وقت",
+          "audio": "audio/s24/vocab/16-zeit-haben.mp3"
+        },
+        {
+          "de": "Geld haben",
+          "ar": "عنده فلوس",
+          "audio": "audio/s24/vocab/17-geld-haben.mp3"
+        },
+        {
+          "de": "Wetter",
+          "ar": "الطقس",
+          "audio": "audio/s24/vocab/18-wetter.mp3",
+          "article": "das"
+        },
+        {
+          "de": "schön",
+          "ar": "جميل",
+          "audio": "audio/s24/vocab/19-schoen.mp3"
+        },
+        {
+          "de": "nach Hause kommen",
+          "ar": "يرجع البيت",
+          "audio": "audio/s24/vocab/20-nach-hause-kommen.mp3"
+        },
+        {
+          "de": "aufwachen",
+          "ar": "يصحى",
+          "audio": "audio/s24/vocab/21-aufwachen.mp3"
+        },
+        {
+          "de": "kochen",
+          "ar": "يطبخ",
+          "audio": "audio/s24/vocab/22-kochen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "birthday",
+      "label": "Birthday words",
+      "words": [
+        {
+          "de": "Geburtstag",
+          "ar": "عيد الميلاد",
+          "audio": "audio/s24/vocab/23-geburtstag.mp3",
+          "article": "der"
+        },
+        {
+          "de": "feiern",
+          "ar": "يحتفل",
+          "audio": "audio/s24/vocab/24-feiern.mp3"
+        },
+        {
+          "de": "Geschenk",
+          "ar": "الهدية",
+          "audio": "audio/s24/vocab/25-geschenk.mp3",
+          "article": "das"
+        },
+        {
+          "de": "einladen",
+          "ar": "يدعو",
+          "audio": "audio/s24/vocab/26-einladen.mp3"
+        },
+        {
+          "de": "bald",
+          "ar": "قريب",
+          "audio": "audio/s24/vocab/27-bald.mp3"
+        },
+        {
+          "de": "Freunde",
+          "ar": "الأصدقاء",
+          "audio": "audio/s24/vocab/28-freunde.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Party",
+          "ar": "الحفلة",
+          "audio": "audio/s24/vocab/29-party.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Du wirst bald deinen Geburtstag feiern",
+          "ar": "إنت هتحتفل بعيد ميلادك قريب",
+          "audio": "audio/s24/vocab/30-du-wirst-bald-deinen-geburtstag-feiern.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich werde morgen arbeiten.",
+      "ar": "أنا هشتغل بكرة.",
+      "audio": "audio/s24/s01-ich-werde-morgen-arbeiten.mp3"
+    },
+    {
+      "de": "Ich werde heute einkaufen.",
+      "ar": "أنا هتسوق النهارده.",
+      "audio": "audio/s24/s02-ich-werde-heute-einkaufen.mp3"
+    },
+    {
+      "de": "Wir werden nächste Woche ins Kino gehen.",
+      "ar": "إحنا هنروح السينما الأسبوع الجاي.",
+      "audio": "audio/s24/s03-wir-werden-naechste-woche-ins-kino-gehen.mp3"
+    },
+    {
+      "de": "Ich gehe heute einkaufen.",
+      "ar": "أنا هروح أتسوق النهارده.",
+      "audio": "audio/s24/s04-ich-gehe-heute-einkaufen.mp3"
+    },
+    {
+      "de": "Ich gehe heute einkaufen, sobald ich Zeit habe.",
+      "ar": "هروح أتسوق النهارده أول ما يبقى عندي وقت.",
+      "audio": "audio/s24/s05-ich-gehe-heute-einkaufen-sobald-ich-zeit-hab.mp3"
+    },
+    {
+      "de": "Wir fahren nächsten Monat nach Berlin, sobald das Wetter schön ist.",
+      "ar": "هنسافر برلين الشهر الجاي أول ما الطقس يبقى حلو.",
+      "audio": "audio/s24/s06-wir-fahren-naechsten-monat-nach-berlin-sobal.mp3"
+    },
+    {
+      "de": "Du wirst bald deinen Geburtstag feiern.",
+      "ar": "إنت هتحتفل بعيد ميلادك قريب.",
+      "audio": "audio/s24/s07-du-wirst-bald-deinen-geburtstag-feiern.mp3"
+    },
+    {
+      "de": "Du feierst morgen deinen Geburtstag.",
+      "ar": "إنت هتحتفل بعيد ميلادك بكرة.",
+      "audio": "audio/s24/s08-du-feierst-morgen-deinen-geburtstag.mp3"
+    },
+    {
+      "de": "Du wirst die Freunde einladen, sobald du Zeit hast.",
+      "ar": "هتدعو الأصدقاء أول ما يبقى عندك وقت.",
+      "audio": "audio/s24/s09-du-wirst-die-freunde-einladen-sobald-du-zeit.mp3"
+    },
+    {
+      "de": "Du kaufst das Geschenk, sobald du Geld hast.",
+      "ar": "هتشتري الهدية أول ما يبقى معاك فلوس.",
+      "audio": "audio/s24/s10-du-kaufst-das-geschenk-sobald-du-geld-hast.mp3"
+    },
+    {
+      "de": "Du machst die Party, sobald das Wetter gut ist.",
+      "ar": "هتعمل الحفلة أول ما الطقس يبقى كويس.",
+      "audio": "audio/s24/s11-du-machst-die-party-sobald-das-wetter-gut-is.mp3"
+    },
+    {
+      "de": "Wir gehen nächste Woche ins Kino, sobald wir Geld haben.",
+      "ar": "هنروح السينما الأسبوع الجاي أول ما يبقى معانا فلوس.",
+      "audio": "audio/s24/s12-wir-gehen-naechste-woche-ins-kino-sobald-wir.mp3"
+    },
+    {
+      "de": "Ich koche morgen Abend, sobald ich nach Hause komme.",
+      "ar": "هطبخ بكرة بالليل أول ما أرجع البيت.",
+      "audio": "audio/s24/s13-ich-koche-morgen-abend-sobald-ich-nach-hause.mp3"
+    },
+    {
+      "de": "Ich lerne morgen Deutsch, sobald ich aufwache.",
+      "ar": "هذاكر ألماني بكرة أول ما أصحى.",
+      "audio": "audio/s24/s14-ich-lerne-morgen-deutsch-sobald-ich-aufwache.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "werden",
+      "ar": "هـ (فعل المستقبل)",
+      "audio": "audio/s24/vocab/01-werden.mp3"
+    },
+    {
+      "de": "Geburtstag",
+      "ar": "عيد الميلاد",
+      "audio": "audio/s24/vocab/23-geburtstag.mp3",
+      "article": "der"
+    },
+    {
+      "de": "feiern",
+      "ar": "يحتفل",
+      "audio": "audio/s24/vocab/24-feiern.mp3"
+    },
+    {
+      "de": "Geschenk",
+      "ar": "الهدية",
+      "audio": "audio/s24/vocab/25-geschenk.mp3",
+      "article": "das"
+    },
+    {
+      "de": "einladen",
+      "ar": "يدعو",
+      "audio": "audio/s24/vocab/26-einladen.mp3"
+    },
+    {
+      "de": "bald",
+      "ar": "قريب",
+      "audio": "audio/s24/vocab/27-bald.mp3"
+    },
+    {
+      "de": "sobald",
+      "ar": "أول ما / بمجرد ما",
+      "audio": "audio/s24/vocab/15-sobald.mp3"
+    },
+    {
+      "de": "einkaufen",
+      "ar": "يتسوق",
+      "audio": "audio/s24/vocab/11-einkaufen.mp3"
+    },
+    {
+      "de": "morgen",
+      "ar": "بكرة",
+      "audio": "audio/s24/vocab/06-morgen.mp3"
+    },
+    {
+      "de": "nächste Woche",
+      "ar": "الأسبوع الجاي",
+      "audio": "audio/s24/vocab/08-naechste-woche.mp3"
+    },
+    {
+      "de": "Zeit haben",
+      "ar": "عنده وقت",
+      "audio": "audio/s24/vocab/16-zeit-haben.mp3"
+    },
+    {
+      "de": "aufwachen",
+      "ar": "يصحى",
+      "audio": "audio/s24/vocab/21-aufwachen.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich ___ morgen arbeiten.",
+      "options": [
+        "werde",
+        "werden",
+        "wirst"
+      ],
+      "answer": 0,
+      "why": "werden مع ich: werde + مصدر في الآخر.",
+      "ar": "هشتغل."
+    },
+    {
+      "prompt": "Du ___ bald deinen Geburtstag feiern.",
+      "options": [
+        "wirst",
+        "werde",
+        "werden"
+      ],
+      "answer": 0,
+      "why": "مع du: wirst.",
+      "ar": "هتحتفل."
+    },
+    {
+      "prompt": "Wir ___ nächste Woche ins Kino gehen.",
+      "options": [
+        "werden",
+        "werde",
+        "wirst"
+      ],
+      "answer": 0,
+      "why": "مع wir: werden.",
+      "ar": "هنروح."
+    },
+    {
+      "prompt": "Ich ___ heute einkaufen. (لغة الشارع)",
+      "options": [
+        "gehe",
+        "werde",
+        "wirst"
+      ],
+      "answer": 0,
+      "why": "الشارع: مضارع + كلمة وقت.",
+      "ar": "هروح."
+    },
+    {
+      "prompt": "Du ___ morgen deinen Geburtstag. (شارع)",
+      "options": [
+        "feierst",
+        "wirst feiern",
+        "feiern"
+      ],
+      "answer": 0,
+      "why": "مضارع عادي + morgen.",
+      "ar": "بتحتفل."
+    },
+    {
+      "prompt": "Ich gehe einkaufen, ___ ich Zeit habe.",
+      "options": [
+        "sobald",
+        "damit",
+        "aber"
+      ],
+      "answer": 0,
+      "why": "sobald = أول ما.",
+      "ar": "أول ما."
+    },
+    {
+      "prompt": "..., sobald ich Zeit ___.",
+      "options": [
+        "habe",
+        "hat",
+        "ich habe"
+      ],
+      "answer": 0,
+      "why": "sobald بترمي الفعل في الآخر.",
+      "ar": "عندي."
+    },
+    {
+      "prompt": "Du kaufst das Geschenk, sobald du Geld ___.",
+      "options": [
+        "hast",
+        "habe",
+        "hat"
+      ],
+      "answer": 0,
+      "why": "مع du: hast في الآخر.",
+      "ar": "عندك."
+    },
+    {
+      "prompt": "Wir fahren ___ Monat nach Berlin.",
+      "options": [
+        "nächsten",
+        "nächste",
+        "nächster"
+      ],
+      "answer": 0,
+      "why": "der Monat Akkusativ: nächsten.",
+      "ar": "الشهر الجاي."
+    },
+    {
+      "prompt": "Ich werde heute ___.",
+      "options": [
+        "einkaufen",
+        "einkaufe",
+        "einkauft"
+      ],
+      "answer": 0,
+      "why": "المصدر في آخر الجملة.",
+      "ar": "أتسوق."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلمك المستقبل: الطريقة الرسمية (werden + مصدر في الآخر) ولغة الشارع (مضارع + كلمة وقت)، وربط الأحداث بـ sobald (الفعل في الآخر)، مع عيد الميلاد. ملاحظة: جمل التمرين الأخيرة (مثل «Ich lerne morgen Deutsch, sobald ich aufwache.») جمل تدريب مؤلفة على نمط الدرس، وليست منقولة حرفيًا من ملف الدرس."
+  },
+  "grammar": [
+    {
+      "title": "المستقبل الرسمي Futur I",
+      "rule": "werden في المركز التاني + المصدر في آخر الجملة.",
+      "forms": [
+        "ich werde",
+        "du wirst",
+        "wir werden"
+      ],
+      "examples": [
+        {
+          "de": "Ich werde morgen arbeiten.",
+          "ar": "هشتغل بكرة."
+        },
+        {
+          "de": "Wir werden nächste Woche ins Kino gehen.",
+          "ar": "هنروح السينما الأسبوع الجاي."
+        }
+      ]
+    },
+    {
+      "title": "لغة الشارع: مضارع + كلمة وقت",
+      "rule": "الألمان نادرًا ما يستخدموا werden: بيستخدموا المضارع العادي + heute / morgen / nächste Woche.",
+      "forms": [
+        "Ich werde heute einkaufen → Ich gehe heute einkaufen",
+        "Du wirst feiern → Du feierst morgen"
+      ],
+      "examples": [
+        {
+          "de": "Ich gehe heute einkaufen.",
+          "ar": "هروح أتسوق."
+        },
+        {
+          "de": "Du feierst morgen deinen Geburtstag.",
+          "ar": "هتحتفل بكرة."
+        }
+      ]
+    },
+    {
+      "title": "sobald = أول ما",
+      "rule": "sobald أداة ربط زي weil: بترمي الفعل المتصرف في آخر الجملة.",
+      "forms": [
+        "..., sobald ich Zeit habe",
+        "..., sobald das Wetter schön ist",
+        "..., sobald du Geld hast"
+      ],
+      "examples": [
+        {
+          "de": "Du kaufst das Geschenk, sobald du Geld hast.",
+          "ar": "هتشتري الهدية أول ما يبقى معاك فلوس."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Ich",
+          "werde",
+          "morgen",
+          "arbeiten"
+        ],
+        "answer": "Ich werde morgen arbeiten",
+        "ar": "هشتغل بكرة."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "gehe",
+          "heute",
+          "einkaufen"
+        ],
+        "answer": "Ich gehe heute einkaufen",
+        "ar": "هروح أتسوق."
+      },
+      {
+        "tiles": [
+          "Du",
+          "wirst",
+          "bald",
+          "deinen",
+          "Geburtstag",
+          "feiern"
+        ],
+        "answer": "Du wirst bald deinen Geburtstag feiern",
+        "ar": "هتحتفل قريب."
+      },
+      {
+        "tiles": [
+          "Du",
+          "kaufst",
+          "das",
+          "Geschenk",
+          "sobald",
+          "du",
+          "Geld",
+          "hast"
+        ],
+        "answer": "Du kaufst das Geschenk sobald du Geld hast",
+        "ar": "هتشتري الهدية."
+      },
+      {
+        "tiles": [
+          "Du",
+          "machst",
+          "die",
+          "Party",
+          "sobald",
+          "das",
+          "Wetter",
+          "gut",
+          "ist"
+        ],
+        "answer": "Du machst die Party sobald das Wetter gut ist",
+        "ar": "هتعمل الحفلة."
+      },
+      {
+        "tiles": [
+          "Wir",
+          "werden",
+          "nächste",
+          "Woche",
+          "ins",
+          "Kino",
+          "gehen"
+        ],
+        "answer": "Wir werden nächste Woche ins Kino gehen",
+        "ar": "هنروح السينما."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich werde morgen arbeiten.",
+          "Ich werde morgen arbeite."
+        ],
+        "answer": 0,
+        "why": "المصدر في الآخر.",
+        "ar": "هشتغل."
+      },
+      {
+        "options": [
+          "Du wirst bald feiern.",
+          "Du werde bald feiern."
+        ],
+        "answer": 0,
+        "why": "du wirst.",
+        "ar": "هتحتفل."
+      },
+      {
+        "options": [
+          "..., sobald ich Zeit habe.",
+          "..., sobald ich habe Zeit."
+        ],
+        "answer": 0,
+        "why": "sobald: الفعل في الآخر.",
+        "ar": "أول ما."
+      },
+      {
+        "options": [
+          "Du kaufst das Geschenk, sobald du Geld hast.",
+          "Du kaufst das Geschenk, sobald du hast Geld."
+        ],
+        "answer": 0,
+        "why": "الفعل في الآخر.",
+        "ar": "هتشتري."
+      },
+      {
+        "options": [
+          "Wir werden ins Kino gehen.",
+          "Wir werden ins Kino gehst."
+        ],
+        "answer": 0,
+        "why": "المصدر gehen.",
+        "ar": "هنروح."
+      },
+      {
+        "options": [
+          "Ich gehe heute einkaufen.",
+          "Ich werde heute einkaufst."
+        ],
+        "answer": 0,
+        "why": "الشارع: مضارع عادي.",
+        "ar": "هروح."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "سأعمل غدًا.",
+        "de": "Ich werde morgen arbeiten.",
+        "audio": "audio/s24/tr1.mp3"
+      },
+      {
+        "ar": "سأذهب للتسوق اليوم، حالما يكون لدي وقت.",
+        "de": "Ich gehe heute einkaufen, sobald ich Zeit habe.",
+        "audio": "audio/s24/tr2.mp3"
+      },
+      {
+        "ar": "سنذهب إلى السينما الأسبوع القادم، حالما يكون معنا مال.",
+        "de": "Wir gehen nächste Woche ins Kino, sobald wir Geld haben.",
+        "audio": "audio/s24/tr3.mp3"
+      },
+      {
+        "ar": "سأطبخ غدًا بالليل، حالما أرجع إلى البيت.",
+        "de": "Ich koche morgen Abend, sobald ich nach Hause komme.",
+        "audio": "audio/s24/tr4.mp3"
+      },
+      {
+        "ar": "سأذاكر غدًا ألمانية، حالما أستيقظ.",
+        "de": "Ich lerne morgen Deutsch, sobald ich aufwache.",
+        "audio": "audio/s24/tr5.mp3"
+      },
+      {
+        "ar": "أنت ستشتري الهدية بمجرد أن تمتلك المال.",
+        "de": "Du kaufst das Geschenk, sobald du Geld hast.",
+        "audio": "audio/s24/tr6.mp3"
+      }
+    ]
+  }
+}
