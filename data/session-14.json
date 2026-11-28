@@ -1,0 +1,946 @@
+{
+  "id": 14,
+  "level": "a1",
+  "title": "Session 14: Comparing adjectives (bigger than / better than)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=4LOEp4zZR50",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "komparativ",
+      "label": "Comparative (-er)",
+      "words": [
+        {
+          "de": "schnell → schneller",
+          "ar": "سريع ← أسرع",
+          "audio": "audio/s14/vocab/01-schnell-schneller.mp3"
+        },
+        {
+          "de": "alt → älter",
+          "ar": "قديم/كبير ← أقدم/أكبر سنًا",
+          "audio": "audio/s14/vocab/02-alt-aelter.mp3"
+        },
+        {
+          "de": "gut → besser",
+          "ar": "جيد ← أفضل",
+          "audio": "audio/s14/vocab/03-gut-besser.mp3"
+        },
+        {
+          "de": "viel → mehr",
+          "ar": "كتير ← أكتر",
+          "audio": "audio/s14/vocab/04-viel-mehr.mp3"
+        },
+        {
+          "de": "gern → lieber",
+          "ar": "بحب ← أفضّل/أحب أكتر",
+          "audio": "audio/s14/vocab/05-gern-lieber.mp3"
+        },
+        {
+          "de": "klein → kleiner",
+          "ar": "صغير ← أصغر",
+          "audio": "audio/s14/vocab/06-klein-kleiner.mp3"
+        },
+        {
+          "de": "schön → schöner",
+          "ar": "جميل ← أجمل",
+          "audio": "audio/s14/vocab/07-schoen-schoener.mp3"
+        },
+        {
+          "de": "teuer → teurer",
+          "ar": "غالي ← أغلى",
+          "audio": "audio/s14/vocab/08-teuer-teurer.mp3"
+        },
+        {
+          "de": "jung → jünger",
+          "ar": "صغير سنًا ← أصغر سنًا",
+          "audio": "audio/s14/vocab/09-jung-juenger.mp3"
+        },
+        {
+          "de": "groß → größer",
+          "ar": "كبير ← أكبر",
+          "audio": "audio/s14/vocab/10-gross-groesser.mp3"
+        },
+        {
+          "de": "billig → billiger",
+          "ar": "رخيص ← أرخص",
+          "audio": "audio/s14/vocab/11-billig-billiger.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sup-regular",
+      "label": "Superlative regular (am ...sten)",
+      "words": [
+        {
+          "de": "am schnellsten",
+          "ar": "الأسرع",
+          "audio": "audio/s14/vocab/12-am-schnellsten.mp3"
+        },
+        {
+          "de": "am langsamsten",
+          "ar": "الأبطأ",
+          "audio": "audio/s14/vocab/13-am-langsamsten.mp3"
+        },
+        {
+          "de": "am kleinsten",
+          "ar": "الأصغر",
+          "audio": "audio/s14/vocab/14-am-kleinsten.mp3"
+        },
+        {
+          "de": "am billigsten",
+          "ar": "الأرخص",
+          "audio": "audio/s14/vocab/15-am-billigsten.mp3"
+        },
+        {
+          "de": "am schönsten",
+          "ar": "الأجمل",
+          "audio": "audio/s14/vocab/16-am-schoensten.mp3"
+        },
+        {
+          "de": "am einfachsten",
+          "ar": "الأسهل",
+          "audio": "audio/s14/vocab/17-am-einfachsten.mp3"
+        },
+        {
+          "de": "am schwersten",
+          "ar": "الأصعب",
+          "audio": "audio/s14/vocab/18-am-schwersten.mp3"
+        },
+        {
+          "de": "am wichtigsten",
+          "ar": "الأهم",
+          "audio": "audio/s14/vocab/19-am-wichtigsten.mp3"
+        },
+        {
+          "de": "am pünktlichsten",
+          "ar": "الأكتر التزامًا بالمواعيد",
+          "audio": "audio/s14/vocab/20-am-puenktlichsten.mp3"
+        },
+        {
+          "de": "am fleißigsten",
+          "ar": "الأكتر اجتهادًا",
+          "audio": "audio/s14/vocab/21-am-fleissigsten.mp3"
+        },
+        {
+          "de": "am faulsten",
+          "ar": "الأكتر كسلًا",
+          "audio": "audio/s14/vocab/22-am-faulsten.mp3"
+        },
+        {
+          "de": "am leisesten",
+          "ar": "الأهدى",
+          "audio": "audio/s14/vocab/23-am-leisesten.mp3"
+        },
+        {
+          "de": "am dunkelsten",
+          "ar": "الأكتر ظلامًا",
+          "audio": "audio/s14/vocab/24-am-dunkelsten.mp3"
+        },
+        {
+          "de": "am teuersten",
+          "ar": "الأغلى",
+          "audio": "audio/s14/vocab/25-am-teuersten.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sup-esten",
+      "label": "Superlative with -esten",
+      "words": [
+        {
+          "de": "am spätesten",
+          "ar": "الأكتر تأخرًا",
+          "audio": "audio/s14/vocab/26-am-spaetesten.mp3"
+        },
+        {
+          "de": "am lautesten",
+          "ar": "الأعلى صوتًا",
+          "audio": "audio/s14/vocab/27-am-lautesten.mp3"
+        },
+        {
+          "de": "am interessantesten",
+          "ar": "الأكتر إمتاعًا",
+          "audio": "audio/s14/vocab/28-am-interessantesten.mp3"
+        },
+        {
+          "de": "am schlechtesten",
+          "ar": "الأسوأ",
+          "audio": "audio/s14/vocab/29-am-schlechtesten.mp3"
+        },
+        {
+          "de": "am weitesten",
+          "ar": "الأبعد",
+          "audio": "audio/s14/vocab/30-am-weitesten.mp3"
+        },
+        {
+          "de": "am süßesten",
+          "ar": "الأحلى",
+          "audio": "audio/s14/vocab/31-am-suessesten.mp3"
+        },
+        {
+          "de": "am heißesten",
+          "ar": "الأكتر حرارة",
+          "audio": "audio/s14/vocab/32-am-heissesten.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sup-umlaut",
+      "label": "Superlative with umlaut",
+      "words": [
+        {
+          "de": "am größten",
+          "ar": "الأكبر",
+          "audio": "audio/s14/vocab/33-am-groessten.mp3"
+        },
+        {
+          "de": "am ältesten",
+          "ar": "الأكبر عمرًا",
+          "audio": "audio/s14/vocab/34-am-aeltesten.mp3"
+        },
+        {
+          "de": "am jüngsten",
+          "ar": "الأصغر عمرًا",
+          "audio": "audio/s14/vocab/35-am-juengsten.mp3"
+        },
+        {
+          "de": "am kältesten",
+          "ar": "الأبرد",
+          "audio": "audio/s14/vocab/36-am-kaeltesten.mp3"
+        },
+        {
+          "de": "am wärmsten",
+          "ar": "الأكتر دفئًا",
+          "audio": "audio/s14/vocab/37-am-waermsten.mp3"
+        },
+        {
+          "de": "am längsten",
+          "ar": "الأطول",
+          "audio": "audio/s14/vocab/38-am-laengsten.mp3"
+        },
+        {
+          "de": "am kürzesten",
+          "ar": "الأقصر",
+          "audio": "audio/s14/vocab/39-am-kuerzesten.mp3"
+        },
+        {
+          "de": "am stärksten",
+          "ar": "الأقوى",
+          "audio": "audio/s14/vocab/40-am-staerksten.mp3"
+        },
+        {
+          "de": "am schwächsten",
+          "ar": "الأضعف",
+          "audio": "audio/s14/vocab/41-am-schwaechsten.mp3"
+        },
+        {
+          "de": "am klügsten",
+          "ar": "الأذكى",
+          "audio": "audio/s14/vocab/42-am-kluegsten.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sup-irregular",
+      "label": "Superlative irregular",
+      "words": [
+        {
+          "de": "am besten",
+          "ar": "الأفضل",
+          "audio": "audio/s14/vocab/43-am-besten.mp3"
+        },
+        {
+          "de": "am meisten",
+          "ar": "الأكتر",
+          "audio": "audio/s14/vocab/44-am-meisten.mp3"
+        },
+        {
+          "de": "am liebsten",
+          "ar": "المفضّل الأكتر",
+          "audio": "audio/s14/vocab/45-am-liebsten.mp3"
+        },
+        {
+          "de": "am höchsten",
+          "ar": "الأعلى",
+          "audio": "audio/s14/vocab/46-am-hoechsten.mp3"
+        },
+        {
+          "de": "am nächsten",
+          "ar": "الأقرب",
+          "audio": "audio/s14/vocab/47-am-naechsten.mp3"
+        }
+      ]
+    },
+    {
+      "id": "clothes",
+      "label": "Clothes and colours",
+      "words": [
+        {
+          "de": "Kleidung",
+          "ar": "الملابس",
+          "audio": "audio/s14/vocab/48-kleidung.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Hemd",
+          "ar": "القميص",
+          "audio": "audio/s14/vocab/49-hemd.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Hose",
+          "ar": "البنطلون",
+          "audio": "audio/s14/vocab/50-hose.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Jacke",
+          "ar": "الجاكيت",
+          "audio": "audio/s14/vocab/51-jacke.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Schuhe",
+          "ar": "الحذاء (جمع)",
+          "audio": "audio/s14/vocab/52-schuhe.mp3",
+          "article": "die"
+        },
+        {
+          "de": "schwarz",
+          "ar": "أسود",
+          "audio": "audio/s14/vocab/53-schwarz.mp3"
+        },
+        {
+          "de": "weiß",
+          "ar": "أبيض",
+          "audio": "audio/s14/vocab/54-weiss.mp3"
+        },
+        {
+          "de": "tragen",
+          "ar": "يرتدي/يلبس",
+          "audio": "audio/s14/vocab/55-tragen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "connectors",
+      "label": "Link words",
+      "words": [
+        {
+          "de": "als",
+          "ar": "من (في المقارنة)",
+          "audio": "audio/s14/vocab/56-als.mp3"
+        },
+        {
+          "de": "deshalb",
+          "ar": "عشان كده",
+          "audio": "audio/s14/vocab/57-deshalb.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Der Hund ist größer als die Katze.",
+      "ar": "الكلب أكبر من القطة.",
+      "audio": "audio/s14/s01-der-hund-ist-groesser-als-die-katze.mp3"
+    },
+    {
+      "de": "Das Brot ist billiger als der Käse.",
+      "ar": "الخبز أرخص من الجبن.",
+      "audio": "audio/s14/s02-das-brot-ist-billiger-als-der-kaese.mp3"
+    },
+    {
+      "de": "Mein Zimmer ist kleiner als die Küche.",
+      "ar": "أوضتي أصغر من المطبخ.",
+      "audio": "audio/s14/s03-mein-zimmer-ist-kleiner-als-die-kueche.mp3"
+    },
+    {
+      "de": "Das Handy ist teurer als das Buch.",
+      "ar": "الموبايل أغلى من الكتاب.",
+      "audio": "audio/s14/s04-das-handy-ist-teurer-als-das-buch.mp3"
+    },
+    {
+      "de": "Ich bin jünger als mein Bruder.",
+      "ar": "أنا أصغر من أخويا.",
+      "audio": "audio/s14/s05-ich-bin-juenger-als-mein-bruder.mp3"
+    },
+    {
+      "de": "Das Wetter heute ist besser als gestern.",
+      "ar": "الطقس النهارده أحسن من إمبارح.",
+      "audio": "audio/s14/s06-das-wetter-heute-ist-besser-als-gestern.mp3"
+    },
+    {
+      "de": "Ich habe mehr Hunger als du.",
+      "ar": "أنا جعان أكتر منك.",
+      "audio": "audio/s14/s07-ich-habe-mehr-hunger-als-du.mp3"
+    },
+    {
+      "de": "Ich esse lieber Eier als Brot.",
+      "ar": "أنا بحب آكل بيض أكتر من العيش.",
+      "audio": "audio/s14/s08-ich-esse-lieber-eier-als-brot.mp3"
+    },
+    {
+      "de": "Das Auto ist schneller als das Fahrrad, deshalb ist es sehr teuer.",
+      "ar": "العربية أسرع من العجلة، عشان كده غالية جدًا.",
+      "audio": "audio/s14/s09-das-auto-ist-schneller-als-das-fahrrad-desha.mp3"
+    },
+    {
+      "de": "Mein Bruder ist älter als ich, deshalb muss er jeden Tag arbeiten.",
+      "ar": "أخويا أكبر مني، عشان كده لازم يشتغل كل يوم.",
+      "audio": "audio/s14/s10-mein-bruder-ist-aelter-als-ich-deshalb-muss-.mp3"
+    },
+    {
+      "de": "Das Essen zu Hause ist besser als im Restaurant für mich.",
+      "ar": "الأكل في البيت أحسن من المطعم بالنسبة لي.",
+      "audio": "audio/s14/s11-das-essen-zu-hause-ist-besser-als-im-restaur.mp3"
+    },
+    {
+      "de": "Sie tragen die Kleidung.",
+      "ar": "هم بيلبسوا الهدوم.",
+      "audio": "audio/s14/s12-sie-tragen-die-kleidung.mp3"
+    },
+    {
+      "de": "Das Hemd ist weiß und die Hose ist schwarz.",
+      "ar": "القميص أبيض والبنطلون أسود.",
+      "audio": "audio/s14/s13-das-hemd-ist-weiss-und-die-hose-ist-schwarz.mp3"
+    },
+    {
+      "de": "Die Jacke ist schöner als das Hemd.",
+      "ar": "الجاكيت أجمل من القميص.",
+      "audio": "audio/s14/s14-die-jacke-ist-schoener-als-das-hemd.mp3"
+    },
+    {
+      "de": "Die Schuhe sind teurer als die Jacke.",
+      "ar": "الحذاء أغلى من الجاكيت.",
+      "audio": "audio/s14/s15-die-schuhe-sind-teurer-als-die-jacke.mp3"
+    },
+    {
+      "de": "Sie tragen die Jacke lieber als das Hemd.",
+      "ar": "هم يفضلوا يلبسوا الجاكيت أكتر من القميص.",
+      "audio": "audio/s14/s16-sie-tragen-die-jacke-lieber-als-das-hemd.mp3"
+    },
+    {
+      "de": "Schwarz ist besser als Weiß.",
+      "ar": "الأسود أحسن من الأبيض.",
+      "audio": "audio/s14/s17-schwarz-ist-besser-als-weiss.mp3"
+    },
+    {
+      "de": "Die Hose ist billiger als die Schuhe.",
+      "ar": "البنطلون أرخص من الحذاء.",
+      "audio": "audio/s14/s18-die-hose-ist-billiger-als-die-schuhe.mp3"
+    },
+    {
+      "de": "Ich trinke Tee am liebsten.",
+      "ar": "أنا بحب أشرب الشاي أكتر حاجة.",
+      "audio": "audio/s14/s19-ich-trinke-tee-am-liebsten.mp3"
+    },
+    {
+      "de": "Das Buch ist am besten.",
+      "ar": "الكتاب ده الأفضل.",
+      "audio": "audio/s14/s20-das-buch-ist-am-besten.mp3"
+    },
+    {
+      "de": "Ahmed läuft am schnellsten.",
+      "ar": "أحمد بيجري الأسرع.",
+      "audio": "audio/s14/s21-ahmed-laeuft-am-schnellsten.mp3"
+    },
+    {
+      "de": "Im Sommer ist es am wärmsten.",
+      "ar": "في الصيف بيكون الأدفأ.",
+      "audio": "audio/s14/s22-im-sommer-ist-es-am-waermsten.mp3"
+    },
+    {
+      "de": "Das Haus ist am höchsten.",
+      "ar": "البيت ده الأعلى.",
+      "audio": "audio/s14/s23-das-haus-ist-am-hoechsten.mp3"
+    },
+    {
+      "de": "Im Winter ist es in Berlin am kältesten.",
+      "ar": "في الشتا برلين بتكون الأبرد.",
+      "audio": "audio/s14/s24-im-winter-ist-es-in-berlin-am-kaeltesten.mp3"
+    },
+    {
+      "de": "Deutsch lernen ist für mich am wichtigsten.",
+      "ar": "تعلم الألماني هو الأهم بالنسبة لي.",
+      "audio": "audio/s14/s25-deutsch-lernen-ist-fuer-mich-am-wichtigsten.mp3"
+    },
+    {
+      "de": "Mein Bruder ist am jüngsten in der Familie.",
+      "ar": "أخويا هو الأصغر في العيلة.",
+      "audio": "audio/s14/s26-mein-bruder-ist-am-juengsten-in-der-familie.mp3"
+    },
+    {
+      "de": "Welches Handy ist am teuersten?",
+      "ar": "أنهي موبايل هو الأغلى؟",
+      "audio": "audio/s14/s27-welches-handy-ist-am-teuersten.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "schnell → schneller",
+      "ar": "سريع ← أسرع",
+      "audio": "audio/s14/vocab/01-schnell-schneller.mp3"
+    },
+    {
+      "de": "alt → älter",
+      "ar": "قديم/كبير ← أقدم/أكبر سنًا",
+      "audio": "audio/s14/vocab/02-alt-aelter.mp3"
+    },
+    {
+      "de": "gut → besser",
+      "ar": "جيد ← أفضل",
+      "audio": "audio/s14/vocab/03-gut-besser.mp3"
+    },
+    {
+      "de": "viel → mehr",
+      "ar": "كتير ← أكتر",
+      "audio": "audio/s14/vocab/04-viel-mehr.mp3"
+    },
+    {
+      "de": "gern → lieber",
+      "ar": "بحب ← أفضّل/أحب أكتر",
+      "audio": "audio/s14/vocab/05-gern-lieber.mp3"
+    },
+    {
+      "de": "am besten",
+      "ar": "الأفضل",
+      "audio": "audio/s14/vocab/43-am-besten.mp3"
+    },
+    {
+      "de": "am liebsten",
+      "ar": "المفضّل الأكتر",
+      "audio": "audio/s14/vocab/45-am-liebsten.mp3"
+    },
+    {
+      "de": "am größten",
+      "ar": "الأكبر",
+      "audio": "audio/s14/vocab/33-am-groessten.mp3"
+    },
+    {
+      "de": "am schnellsten",
+      "ar": "الأسرع",
+      "audio": "audio/s14/vocab/12-am-schnellsten.mp3"
+    },
+    {
+      "de": "Hemd",
+      "ar": "القميص",
+      "audio": "audio/s14/vocab/49-hemd.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Hose",
+      "ar": "البنطلون",
+      "audio": "audio/s14/vocab/50-hose.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Jacke",
+      "ar": "الجاكيت",
+      "audio": "audio/s14/vocab/51-jacke.mp3",
+      "article": "die"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Der Hund ist ___ als die Katze.",
+      "options": [
+        "größer",
+        "grosser",
+        "größten"
+      ],
+      "answer": 0,
+      "why": "groß ← größer (umlaut + ß) وبعدها als.",
+      "ar": "الكلب أكبر من القطة."
+    },
+    {
+      "prompt": "Der Hund ist größer ___ die Katze.",
+      "options": [
+        "als",
+        "wie",
+        "am"
+      ],
+      "answer": 0,
+      "why": "في المقارنة بنستخدم als مش wie.",
+      "ar": "als للمقارنة."
+    },
+    {
+      "prompt": "Das Brot ist ___ als der Käse.",
+      "options": [
+        "billiger",
+        "billig",
+        "billigsten"
+      ],
+      "answer": 0,
+      "why": "صفة + er + als.",
+      "ar": "الخبز أرخص."
+    },
+    {
+      "prompt": "Das Handy ist ___ als das Buch.",
+      "options": [
+        "teurer",
+        "teuerer",
+        "teuer"
+      ],
+      "answer": 0,
+      "why": "teuer بتشيل الـ e: teurer.",
+      "ar": "الموبايل أغلى."
+    },
+    {
+      "prompt": "Ich bin ___ als mein Bruder.",
+      "options": [
+        "jünger",
+        "junger",
+        "am jüngsten"
+      ],
+      "answer": 0,
+      "why": "jung ← jünger (umlaut).",
+      "ar": "أنا أصغر."
+    },
+    {
+      "prompt": "Das Wetter ist ___ als gestern.",
+      "options": [
+        "besser",
+        "guter",
+        "am besten"
+      ],
+      "answer": 0,
+      "why": "gut شاذة: besser.",
+      "ar": "الطقس أحسن."
+    },
+    {
+      "prompt": "Ich trinke Tee ___.",
+      "options": [
+        "am liebsten",
+        "am lieber",
+        "lieber am"
+      ],
+      "answer": 0,
+      "why": "الأفضلية العليا: am liebsten.",
+      "ar": "أحب الشاي أكتر حاجة."
+    },
+    {
+      "prompt": "Das Buch ist ___.",
+      "options": [
+        "am besten",
+        "am gutsten",
+        "am bester"
+      ],
+      "answer": 0,
+      "why": "gut ← am besten (شاذة).",
+      "ar": "الكتاب الأفضل."
+    },
+    {
+      "prompt": "Ahmed läuft ___.",
+      "options": [
+        "am schnellsten",
+        "am schnellste",
+        "am schneller"
+      ],
+      "answer": 0,
+      "why": "am + sten في الآخر.",
+      "ar": "أحمد الأسرع."
+    },
+    {
+      "prompt": "Im Sommer ist es ___.",
+      "options": [
+        "am wärmsten",
+        "am warmsten",
+        "am wärmer"
+      ],
+      "answer": 0,
+      "why": "warm ← am wärmsten (umlaut).",
+      "ar": "الأدفأ."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلّمك المقارنة (Komparativ: صفة+er+als) والصيغة العليا (Superlativ: am+صفة+sten) مع Umlaut وحذف الـ e والشاذة gut/viel/gern/hoch/nah، وتطبقها على الملابس والألوان."
+  },
+  "grammar": [
+    {
+      "title": "Komparativ: صفة + er + als",
+      "rule": "للمقارنة بين حاجتين: الصفة + er + als. أمثلة: klein → kleiner als، schön → schöner als. أوعى تقول wie بعد المقارنة.",
+      "forms": [
+        "klein → kleiner als",
+        "schön → schöner als"
+      ],
+      "examples": [
+        {
+          "de": "Der Hund ist größer als die Katze.",
+          "ar": "الكلب أكبر من القطة."
+        },
+        {
+          "de": "Die Jacke ist schöner als das Hemd.",
+          "ar": "الجاكيت أجمل من القميص."
+        }
+      ]
+    },
+    {
+      "title": "Umlaut وحذف الـ e",
+      "rule": "الصفات القصيرة اللي فيها a/o/u غالبًا بتاخد نقطتين: alt → älter، groß → größer، jung → jünger. والصفات اللي آخرها er زي teuer بتشيل الـ e: teurer (مش teuerer). بعد als الفاعل Nominativ: als ich.",
+      "forms": [
+        "alt → älter",
+        "groß → größer",
+        "jung → jünger",
+        "teuer → teurer"
+      ],
+      "examples": [
+        {
+          "de": "Das Handy ist teurer als das Buch.",
+          "ar": "الموبايل أغلى من الكتاب."
+        }
+      ]
+    },
+    {
+      "title": "الشاذة: gut / viel / gern",
+      "rule": "بتتحفظ زي ما هي: gut → besser، viel → mehr، gern → lieber.",
+      "forms": [
+        "gut → besser",
+        "viel → mehr",
+        "gern → lieber"
+      ],
+      "examples": [
+        {
+          "de": "Ich habe mehr Hunger als du.",
+          "ar": "أنا جعان أكتر منك."
+        },
+        {
+          "de": "Ich esse lieber Eier als Brot.",
+          "ar": "أنا بحب آكل بيض أكتر من العيش."
+        }
+      ]
+    },
+    {
+      "title": "Superlativ: am + صفة + sten",
+      "rule": "الصيغة العليا: am + الصفة + sten. وبعد حروف t, d, s, ß, z, x, sch بنزود esten: spät → am spätesten، süß → am süßesten. وفي القصير مع a/o/u بيجيلها Umlaut: jung → am jüngsten، groß → am größten.",
+      "forms": [
+        "schnell → am schnellsten",
+        "alt → am ältesten",
+        "süß → am süßesten"
+      ],
+      "examples": [
+        {
+          "de": "Ahmed läuft am schnellsten.",
+          "ar": "أحمد بيجري الأسرع."
+        }
+      ]
+    },
+    {
+      "title": "Superlativ الشاذ",
+      "rule": "gut → am besten، viel → am meisten، gern → am liebsten، hoch → am höchsten، nah → am nächsten. أخطاء شائعة: am lieber، am gutsten، am schnellste، am warmsten، am hochsten.",
+      "forms": [
+        "am besten",
+        "am meisten",
+        "am liebsten",
+        "am höchsten",
+        "am nächsten"
+      ],
+      "examples": [
+        {
+          "de": "Ich trinke Tee am liebsten.",
+          "ar": "أنا بحب الشاي أكتر حاجة."
+        },
+        {
+          "de": "Das Haus ist am höchsten.",
+          "ar": "البيت الأعلى."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Das",
+          "Auto",
+          "ist",
+          "schneller",
+          "als",
+          "das",
+          "Fahrrad"
+        ],
+        "answer": "Das Auto ist schneller als das Fahrrad",
+        "ar": "العربية أسرع من العجلة."
+      },
+      {
+        "tiles": [
+          "Mein",
+          "Bruder",
+          "ist",
+          "älter",
+          "als",
+          "ich"
+        ],
+        "answer": "Mein Bruder ist älter als ich",
+        "ar": "أخويا أكبر مني."
+      },
+      {
+        "tiles": [
+          "Die",
+          "Jacke",
+          "ist",
+          "schöner",
+          "als",
+          "das",
+          "Hemd"
+        ],
+        "answer": "Die Jacke ist schöner als das Hemd",
+        "ar": "الجاكيت أجمل من القميص."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "trinke",
+          "Tee",
+          "am",
+          "liebsten"
+        ],
+        "answer": "Ich trinke Tee am liebsten",
+        "ar": "أنا بحب الشاي أكتر حاجة."
+      },
+      {
+        "tiles": [
+          "Das",
+          "Haus",
+          "ist",
+          "am",
+          "höchsten"
+        ],
+        "answer": "Das Haus ist am höchsten",
+        "ar": "البيت الأعلى."
+      },
+      {
+        "tiles": [
+          "Schwarz",
+          "ist",
+          "besser",
+          "als",
+          "Weiß"
+        ],
+        "answer": "Schwarz ist besser als Weiß",
+        "ar": "الأسود أحسن من الأبيض."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Mein Bruder ist jünger als ich.",
+          "Mein Bruder ist junger als ich."
+        ],
+        "answer": 0,
+        "why": "jung ← jünger (umlaut).",
+        "ar": "أخويا أصغر."
+      },
+      {
+        "options": [
+          "Er hat mehr Geld als ich.",
+          "Er hat mehr Geld als mich."
+        ],
+        "answer": 0,
+        "why": "بعد als الفاعل بيفضل Nominativ: als ich.",
+        "ar": "عنده فلوس أكتر مني."
+      },
+      {
+        "options": [
+          "Das Handy ist teurer als das Buch.",
+          "Das Handy ist teuerer als das Buch."
+        ],
+        "answer": 0,
+        "why": "teuer ← teurer.",
+        "ar": "أغلى."
+      },
+      {
+        "options": [
+          "..., deshalb kann ich es nicht kaufen.",
+          "..., deshalb ich kann es nicht kaufen."
+        ],
+        "answer": 0,
+        "why": "بعد deshalb الفعل ييجي ثاني: deshalb kann ich.",
+        "ar": "ترتيب الفعل."
+      },
+      {
+        "options": [
+          "Das Buch ist am besten.",
+          "Das Buch ist am gutsten."
+        ],
+        "answer": 0,
+        "why": "gut شاذة: am besten.",
+        "ar": "الأفضل."
+      },
+      {
+        "options": [
+          "Das Haus ist am höchsten.",
+          "Das Haus ist am hochsten."
+        ],
+        "answer": 0,
+        "why": "hoch ← am höchsten.",
+        "ar": "الأعلى."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "السيارة أسرع من الدراجة.",
+        "de": "Das Auto ist schneller als das Fahrrad.",
+        "audio": "audio/s14/tr1.mp3"
+      },
+      {
+        "ar": "أخي أكبر مني.",
+        "de": "Mein Bruder ist älter als ich.",
+        "audio": "audio/s14/tr2.mp3"
+      },
+      {
+        "ar": "الأكل في البيت أفضل من المطعم.",
+        "de": "Das Essen zu Hause ist besser als im Restaurant.",
+        "audio": "audio/s14/tr3.mp3"
+      },
+      {
+        "ar": "هذا البيت هو الأعلى.",
+        "de": "Dieses Haus ist am höchsten.",
+        "audio": "audio/s14/tr4.mp3"
+      },
+      {
+        "ar": "أنا أحب الشاي أكثر شيء.",
+        "de": "Ich trinke Tee am liebsten.",
+        "audio": "audio/s14/tr5.mp3"
+      },
+      {
+        "ar": "الحذاء أغلى من الجاكيت.",
+        "de": "Die Schuhe sind teurer als die Jacke.",
+        "audio": "audio/s14/tr6.mp3"
+      }
+    ]
+  }
+}
