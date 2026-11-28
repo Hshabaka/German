@@ -1,0 +1,704 @@
+{
+  "id": 15,
+  "level": "a1",
+  "title": "Session 15: Cancelling a formal appointment",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=iSLGFTPsFWc",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "appointment",
+      "label": "Appointments",
+      "words": [
+        {
+          "de": "Termin",
+          "ar": "الموعد",
+          "audio": "audio/s15/vocab/01-termin.mp3",
+          "article": "der"
+        },
+        {
+          "de": "absagen",
+          "ar": "يلغي (فعل منفصل)",
+          "audio": "audio/s15/vocab/02-absagen.mp3"
+        },
+        {
+          "de": "Mittwoch",
+          "ar": "الأربعاء",
+          "audio": "audio/s15/vocab/03-mittwoch.mp3"
+        },
+        {
+          "de": "leider",
+          "ar": "للأسف",
+          "audio": "audio/s15/vocab/04-leider.mp3"
+        },
+        {
+          "de": "nicht kommen",
+          "ar": "ما يجيش",
+          "audio": "audio/s15/vocab/05-nicht-kommen.mp3"
+        },
+        {
+          "de": "dieses Mal",
+          "ar": "هذه المرة",
+          "audio": "audio/s15/vocab/06-dieses-mal.mp3"
+        },
+        {
+          "de": "mit dem Chef",
+          "ar": "مع المدير",
+          "audio": "audio/s15/vocab/07-mit-dem-chef.mp3"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "label": "Work and office",
+      "words": [
+        {
+          "de": "Büro",
+          "ar": "المكتب",
+          "audio": "audio/s15/vocab/08-buero.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Chef",
+          "ar": "المدير",
+          "audio": "audio/s15/vocab/09-chef.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Arbeit",
+          "ar": "العمل",
+          "audio": "audio/s15/vocab/10-arbeit.mp3",
+          "article": "die"
+        },
+        {
+          "de": "arbeiten",
+          "ar": "يشتغل",
+          "audio": "audio/s15/vocab/11-arbeiten.mp3"
+        },
+        {
+          "de": "krank",
+          "ar": "مريض",
+          "audio": "audio/s15/vocab/12-krank.mp3"
+        },
+        {
+          "de": "heute",
+          "ar": "النهارده",
+          "audio": "audio/s15/vocab/13-heute.mp3"
+        }
+      ]
+    },
+    {
+      "id": "modals",
+      "label": "Modal verbs with er",
+      "words": [
+        {
+          "de": "Er muss",
+          "ar": "هو لازم",
+          "audio": "audio/s15/vocab/14-er-muss.mp3"
+        },
+        {
+          "de": "Er kann",
+          "ar": "هو يقدر",
+          "audio": "audio/s15/vocab/15-er-kann.mp3"
+        },
+        {
+          "de": "Ich muss",
+          "ar": "أنا لازم",
+          "audio": "audio/s15/vocab/16-ich-muss.mp3"
+        },
+        {
+          "de": "Ich kann",
+          "ar": "أنا أقدر",
+          "audio": "audio/s15/vocab/17-ich-kann.mp3"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "label": "Review words",
+      "words": [
+        {
+          "de": "Pizza",
+          "ar": "البيتزا",
+          "audio": "audio/s15/vocab/18-pizza.mp3",
+          "article": "die"
+        },
+        {
+          "de": "ledig",
+          "ar": "أعزب",
+          "audio": "audio/s15/vocab/19-ledig.mp3"
+        },
+        {
+          "de": "Hunger",
+          "ar": "الجوع",
+          "audio": "audio/s15/vocab/20-hunger.mp3",
+          "article": "der"
+        },
+        {
+          "de": "lecker",
+          "ar": "لذيذ",
+          "audio": "audio/s15/vocab/21-lecker.mp3"
+        },
+        {
+          "de": "Familie",
+          "ar": "العائلة",
+          "audio": "audio/s15/vocab/22-familie.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Bett",
+          "ar": "السرير",
+          "audio": "audio/s15/vocab/23-bett.mp3",
+          "article": "das"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich habe einen Termin.",
+      "ar": "عندي موعد.",
+      "audio": "audio/s15/s01-ich-habe-einen-termin.mp3"
+    },
+    {
+      "de": "Ich habe am Mittwoch einen Termin.",
+      "ar": "عندي موعد يوم الأربعاء.",
+      "audio": "audio/s15/s02-ich-habe-am-mittwoch-einen-termin.mp3"
+    },
+    {
+      "de": "Ich sage diesen Termin ab.",
+      "ar": "أنا بلغي الموعد ده.",
+      "audio": "audio/s15/s03-ich-sage-diesen-termin-ab.mp3"
+    },
+    {
+      "de": "Leider muss ich diesen Termin absagen.",
+      "ar": "للأسف لازم ألغي الموعد ده.",
+      "audio": "audio/s15/s04-leider-muss-ich-diesen-termin-absagen.mp3"
+    },
+    {
+      "de": "Ich kann dieses Mal nicht kommen.",
+      "ar": "ما أقدرش آجي المرة دي.",
+      "audio": "audio/s15/s05-ich-kann-dieses-mal-nicht-kommen.mp3"
+    },
+    {
+      "de": "Leider kann ich am Mittwoch nicht kommen.",
+      "ar": "للأسف ما أقدرش آجي يوم الأربعاء.",
+      "audio": "audio/s15/s06-leider-kann-ich-am-mittwoch-nicht-kommen.mp3"
+    },
+    {
+      "de": "Er hat einen Termin mit dem Chef.",
+      "ar": "عنده موعد مع المدير.",
+      "audio": "audio/s15/s07-er-hat-einen-termin-mit-dem-chef.mp3"
+    },
+    {
+      "de": "Er hat heute einen Termin.",
+      "ar": "عنده موعد النهارده.",
+      "audio": "audio/s15/s08-er-hat-heute-einen-termin.mp3"
+    },
+    {
+      "de": "Er ist krank.",
+      "ar": "هو عيان.",
+      "audio": "audio/s15/s09-er-ist-krank.mp3"
+    },
+    {
+      "de": "Er sagt diesen Termin ab.",
+      "ar": "هو بيلغي الموعد ده.",
+      "audio": "audio/s15/s10-er-sagt-diesen-termin-ab.mp3"
+    },
+    {
+      "de": "Leider muss er diesen Termin absagen.",
+      "ar": "للأسف لازم يلغي الموعد ده.",
+      "audio": "audio/s15/s11-leider-muss-er-diesen-termin-absagen.mp3"
+    },
+    {
+      "de": "Er kann heute nicht ins Büro kommen.",
+      "ar": "ما يقدرش ييجي المكتب النهارده.",
+      "audio": "audio/s15/s12-er-kann-heute-nicht-ins-buero-kommen.mp3"
+    },
+    {
+      "de": "Leider kann er dieses Mal nicht arbeiten.",
+      "ar": "للأسف ما يقدرش يشتغل المرة دي.",
+      "audio": "audio/s15/s13-leider-kann-er-dieses-mal-nicht-arbeiten.mp3"
+    },
+    {
+      "de": "Sie ist heute krank.",
+      "ar": "هي عيانة النهارده.",
+      "audio": "audio/s15/s14-sie-ist-heute-krank.mp3"
+    },
+    {
+      "de": "Sie muss den Termin absagen.",
+      "ar": "لازم تلغي الموعد.",
+      "audio": "audio/s15/s15-sie-muss-den-termin-absagen.mp3"
+    },
+    {
+      "de": "Sie kann nicht ins Büro kommen.",
+      "ar": "ما تقدرش تيجي المكتب.",
+      "audio": "audio/s15/s16-sie-kann-nicht-ins-buero-kommen.mp3"
+    },
+    {
+      "de": "Ich habe Hunger und ich möchte Pizza essen.",
+      "ar": "أنا جعان وعايز آكل بيتزا.",
+      "audio": "audio/s15/s17-ich-habe-hunger-und-ich-moechte-pizza-essen.mp3"
+    },
+    {
+      "de": "Leider muss ich jetzt schlafen gehen.",
+      "ar": "للأسف لازم أروح أنام دلوقتي.",
+      "audio": "audio/s15/s18-leider-muss-ich-jetzt-schlafen-gehen.mp3"
+    },
+    {
+      "de": "Ich habe morgen einen Termin mit dem Chef.",
+      "ar": "عندي بكرة موعد مع المدير.",
+      "audio": "audio/s15/s19-ich-habe-morgen-einen-termin-mit-dem-chef.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Termin",
+      "ar": "الموعد",
+      "audio": "audio/s15/vocab/01-termin.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Büro",
+      "ar": "المكتب",
+      "audio": "audio/s15/vocab/08-buero.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Chef",
+      "ar": "المدير",
+      "audio": "audio/s15/vocab/09-chef.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Arbeit",
+      "ar": "العمل",
+      "audio": "audio/s15/vocab/10-arbeit.mp3",
+      "article": "die"
+    },
+    {
+      "de": "arbeiten",
+      "ar": "يشتغل",
+      "audio": "audio/s15/vocab/11-arbeiten.mp3"
+    },
+    {
+      "de": "krank",
+      "ar": "مريض",
+      "audio": "audio/s15/vocab/12-krank.mp3"
+    },
+    {
+      "de": "heute",
+      "ar": "النهارده",
+      "audio": "audio/s15/vocab/13-heute.mp3"
+    },
+    {
+      "de": "absagen",
+      "ar": "يلغي (فعل منفصل)",
+      "audio": "audio/s15/vocab/02-absagen.mp3"
+    },
+    {
+      "de": "leider",
+      "ar": "للأسف",
+      "audio": "audio/s15/vocab/04-leider.mp3"
+    },
+    {
+      "de": "Er muss",
+      "ar": "هو لازم",
+      "audio": "audio/s15/vocab/14-er-muss.mp3"
+    },
+    {
+      "de": "Er kann",
+      "ar": "هو يقدر",
+      "audio": "audio/s15/vocab/15-er-kann.mp3"
+    },
+    {
+      "de": "Hunger",
+      "ar": "الجوع",
+      "audio": "audio/s15/vocab/20-hunger.mp3",
+      "article": "der"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich ___ diesen Termin absagen.",
+      "options": [
+        "muss",
+        "sage",
+        "kann ab"
+      ],
+      "answer": 0,
+      "why": "مع müssen الفعل absagen بيرجع للمصدر في الآخر.",
+      "ar": "لازم ألغي."
+    },
+    {
+      "prompt": "Ich sage diesen Termin ___.",
+      "options": [
+        "ab",
+        "absagen",
+        "ab sagen"
+      ],
+      "answer": 0,
+      "why": "الجزء ab بيترمي في آخر الجملة.",
+      "ar": "أنا بلغي الموعد."
+    },
+    {
+      "prompt": "Leider ___ ich heute nicht kommen.",
+      "options": [
+        "kann",
+        "ich",
+        "kommen"
+      ],
+      "answer": 0,
+      "why": "بعد Leider الفعل المتصرف رقم 2.",
+      "ar": "للأسف ما أقدرش."
+    },
+    {
+      "prompt": "Er ___ diesen Termin ab.",
+      "options": [
+        "sagt",
+        "sage",
+        "sagen"
+      ],
+      "answer": 0,
+      "why": "مع er: sagt.",
+      "ar": "هو بيلغي."
+    },
+    {
+      "prompt": "Er ___ heute einen Termin.",
+      "options": [
+        "hat",
+        "habe",
+        "ist"
+      ],
+      "answer": 0,
+      "why": "مع er: hat.",
+      "ar": "عنده موعد."
+    },
+    {
+      "prompt": "Er ___ krank.",
+      "options": [
+        "ist",
+        "hat",
+        "sind"
+      ],
+      "answer": 0,
+      "why": "مريض: ist krank.",
+      "ar": "هو عيان."
+    },
+    {
+      "prompt": "Leider muss er diesen Termin ___.",
+      "options": [
+        "absagen",
+        "abgesagt",
+        "sagt ab"
+      ],
+      "answer": 0,
+      "why": "بعد muss: المصدر.",
+      "ar": "لازم يلغي."
+    },
+    {
+      "prompt": "Ich kann das Essen ___.",
+      "options": [
+        "kochen",
+        "koche",
+        "kocht"
+      ],
+      "answer": 0,
+      "why": "بعد kann: المصدر.",
+      "ar": "أقدر أطبخ."
+    },
+    {
+      "prompt": "Die Jacke ist schöner ___ das Hemd.",
+      "options": [
+        "als",
+        "wie",
+        "und"
+      ],
+      "answer": 0,
+      "why": "المقارنة: als.",
+      "ar": "أجمل من."
+    },
+    {
+      "prompt": "___ Bruder heißt Ahmed.",
+      "options": [
+        "Mein",
+        "Meine",
+        "Deine"
+      ],
+      "answer": 0,
+      "why": "Bruder مذكر: Mein من غير e.",
+      "ar": "أخويا."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلمك تلغي موعد رسمي بالأفعال المنفصلة (absagen) مع müssen/können، وتتكلم عن نفسك وعن زميلك، مع مراجعة شاملة للدروس 1-14."
+  },
+  "grammar": [
+    {
+      "title": "الفعل المنفصل absagen",
+      "rule": "absagen بيتقسم: الفعل المتصرف في المركز 2 (sage/sagt) والجزء ab في آخر الجملة.",
+      "forms": [
+        "Ich sage diesen Termin ab.",
+        "Er sagt diesen Termin ab."
+      ],
+      "examples": [
+        {
+          "de": "Ich sage diesen Termin ab.",
+          "ar": "أنا بلغي الموعد ده."
+        },
+        {
+          "de": "Er sagt diesen Termin ab.",
+          "ar": "هو بيلغي الموعد ده."
+        }
+      ]
+    },
+    {
+      "title": "müssen / können + المصدر",
+      "rule": "مع الفعل المساعد، absagen يرجع قطعة واحدة في الآخر. تصريف er = تصريف ich: muss/kann.",
+      "forms": [
+        "Ich muss ... absagen",
+        "Er muss ... absagen",
+        "Er kann ... nicht kommen"
+      ],
+      "examples": [
+        {
+          "de": "Leider muss ich diesen Termin absagen.",
+          "ar": "للأسف لازم ألغي."
+        },
+        {
+          "de": "Er kann heute nicht ins Büro kommen.",
+          "ar": "ما يقدرش ييجي."
+        }
+      ]
+    },
+    {
+      "title": "Leider والمركز التاني",
+      "rule": "بعد Leider الفعل المتصرف لازم ييجي رقم 2 وبعدين الفاعل: Leider kann ich ... / Leider muss er ...",
+      "forms": [
+        "Leider kann ich heute nicht kommen.",
+        "Leider muss er diesen Termin absagen."
+      ],
+      "examples": [
+        {
+          "de": "Leider kann er dieses Mal nicht arbeiten.",
+          "ar": "للأسف ما يقدرش يشتغل."
+        }
+      ]
+    },
+    {
+      "title": "مراجعة الدروس 1-15",
+      "rule": "مراجعة: kann مع ich، für + mich (Akkusativ)، damit = لكي، kein مع المذكر، als للمقارنة، Mein مع المذكر، lieber، Sie (جمع) = möchten.",
+      "forms": [
+        "Ich kann",
+        "für mich",
+        "damit",
+        "kein Balkon",
+        "Die Wohnung ist größer als das Zimmer"
+      ],
+      "examples": [
+        {
+          "de": "Er spielt Fußball lieber als Tennis.",
+          "ar": "بيفضل الكورة عن التنس."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Ich",
+          "habe",
+          "am",
+          "Mittwoch",
+          "einen",
+          "Termin"
+        ],
+        "answer": "Ich habe am Mittwoch einen Termin",
+        "ar": "عندي موعد يوم الأربعاء."
+      },
+      {
+        "tiles": [
+          "Ich",
+          "sage",
+          "diesen",
+          "Termin",
+          "ab"
+        ],
+        "answer": "Ich sage diesen Termin ab",
+        "ar": "أنا بلغي الموعد."
+      },
+      {
+        "tiles": [
+          "Leider",
+          "muss",
+          "er",
+          "diesen",
+          "Termin",
+          "absagen"
+        ],
+        "answer": "Leider muss er diesen Termin absagen",
+        "ar": "للأسف لازم يلغي الموعد."
+      },
+      {
+        "tiles": [
+          "Er",
+          "kann",
+          "nicht",
+          "mit",
+          "dem",
+          "Chef",
+          "kommen"
+        ],
+        "answer": "Er kann nicht mit dem Chef kommen",
+        "ar": "ما يقدرش ييجي مع المدير."
+      },
+      {
+        "tiles": [
+          "Er",
+          "kann",
+          "heute",
+          "nicht",
+          "ins",
+          "Büro",
+          "kommen"
+        ],
+        "answer": "Er kann heute nicht ins Büro kommen",
+        "ar": "ما يقدرش ييجي المكتب النهارده."
+      },
+      {
+        "tiles": [
+          "Leider",
+          "kann",
+          "ich",
+          "heute",
+          "nicht",
+          "kommen"
+        ],
+        "answer": "Leider kann ich heute nicht kommen",
+        "ar": "للأسف ما أقدرش آجي النهارده."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich muss diesen Termin absagen.",
+          "Ich muss diesen Termin ab."
+        ],
+        "answer": 0,
+        "why": "مع müssen: absagen كاملة في الآخر.",
+        "ar": "لازم ألغي."
+      },
+      {
+        "options": [
+          "Er sagt diesen Termin ab.",
+          "Er absagen diesen Termin."
+        ],
+        "answer": 0,
+        "why": "absagen منفصل: sagt ... ab.",
+        "ar": "هو بيلغي."
+      },
+      {
+        "options": [
+          "Leider kann ich heute nicht kommen.",
+          "Leider ich kann heute nicht kommen."
+        ],
+        "answer": 0,
+        "why": "بعد Leider الفعل رقم 2.",
+        "ar": "للأسف ما أقدرش."
+      },
+      {
+        "options": [
+          "Das Haus ist am höchsten.",
+          "Das Haus ist am hochsten."
+        ],
+        "answer": 0,
+        "why": "hoch → höchsten.",
+        "ar": "الأعلى."
+      },
+      {
+        "options": [
+          "Er muss leider diesen Termin absagen.",
+          "Er muss leider diesen Termin sagt ab."
+        ],
+        "answer": 0,
+        "why": "بعد muss المصدر.",
+        "ar": "لازم يلغي."
+      },
+      {
+        "options": [
+          "Sie ist heute krank.",
+          "Sie hat heute krank."
+        ],
+        "answer": 0,
+        "why": "krank مع ist.",
+        "ar": "عيانة."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "عندي موعد يوم الأربعاء.",
+        "de": "Ich habe am Mittwoch einen Termin.",
+        "audio": "audio/s15/tr1.mp3"
+      },
+      {
+        "ar": "أنا بلغي هذا الموعد.",
+        "de": "Ich sage diesen Termin ab.",
+        "audio": "audio/s15/tr2.mp3"
+      },
+      {
+        "ar": "للأسف لازم ألغي هذا الموعد.",
+        "de": "Leider muss ich diesen Termin absagen.",
+        "audio": "audio/s15/tr3.mp3"
+      },
+      {
+        "ar": "هو مريض.",
+        "de": "Er ist krank.",
+        "audio": "audio/s15/tr4.mp3"
+      },
+      {
+        "ar": "لا يستطيع القدوم إلى المكتب اليوم.",
+        "de": "Er kann heute nicht ins Büro kommen.",
+        "audio": "audio/s15/tr5.mp3"
+      },
+      {
+        "ar": "عندي بكرة موعد مع المدير.",
+        "de": "Ich habe morgen einen Termin mit dem Chef.",
+        "audio": "audio/s15/tr6.mp3"
+      }
+    ]
+  }
+}
