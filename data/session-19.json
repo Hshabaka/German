@@ -1,0 +1,694 @@
+{
+  "id": 19,
+  "level": "a1",
+  "title": "Session 19: Master class (part 3: the finale)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=ZaJbDMpSyNc",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "rules",
+      "label": "Neuter and plural rules",
+      "words": [
+        {
+          "de": "das → das → dem",
+          "ar": "المحايد: Nom ثابت / Akk ثابت / Dat dem",
+          "audio": "audio/s19/vocab/01-das-das-dem.mp3"
+        },
+        {
+          "de": "die → die → den + n",
+          "ar": "الجمع: Nom ثابت / Akk ثابت / Dat den + حرف n",
+          "audio": "audio/s19/vocab/02-die-die-den-n.mp3"
+        },
+        {
+          "de": "Sie (هم)",
+          "ar": "ضمير الجمع",
+          "audio": "audio/s19/vocab/03-sie.mp3"
+        },
+        {
+          "de": "sie rufen",
+          "ar": "هم بينادوا",
+          "audio": "audio/s19/vocab/04-sie-rufen.mp3"
+        },
+        {
+          "de": "sie helfen",
+          "ar": "هم بيساعدوا",
+          "audio": "audio/s19/vocab/05-sie-helfen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "nouns",
+      "label": "Nouns",
+      "words": [
+        {
+          "de": "Kind",
+          "ar": "الطفل",
+          "audio": "audio/s19/vocab/06-kind.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Kinder",
+          "ar": "الأطفال (جمع)",
+          "audio": "audio/s19/vocab/07-kinder.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Buch",
+          "ar": "الكتاب",
+          "audio": "audio/s19/vocab/08-buch.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Bücher",
+          "ar": "الكتب (جمع)",
+          "audio": "audio/s19/vocab/09-buecher.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Kindern",
+          "ar": "للأطفال (Dativ جمع)",
+          "audio": "audio/s19/vocab/10-kindern.mp3",
+          "article": "den"
+        },
+        {
+          "de": "Handy",
+          "ar": "الموبايل",
+          "audio": "audio/s19/vocab/11-handy.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Auto",
+          "ar": "العربية",
+          "audio": "audio/s19/vocab/12-auto.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Mann",
+          "ar": "الرجل",
+          "audio": "audio/s19/vocab/13-mann.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Arzt",
+          "ar": "الطبيب",
+          "audio": "audio/s19/vocab/14-arzt.mp3",
+          "article": "der"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "label": "Verbs",
+      "words": [
+        {
+          "de": "rufen",
+          "ar": "ينادي (Akkusativ)",
+          "audio": "audio/s19/vocab/15-rufen.mp3"
+        },
+        {
+          "de": "gehören",
+          "ar": "يخص / ملك لـ (Dativ)",
+          "audio": "audio/s19/vocab/16-gehoeren.mp3"
+        },
+        {
+          "de": "lernen",
+          "ar": "يتعلم",
+          "audio": "audio/s19/vocab/17-lernen.mp3"
+        },
+        {
+          "de": "spielen",
+          "ar": "يلعب",
+          "audio": "audio/s19/vocab/18-spielen.mp3"
+        },
+        {
+          "de": "sehen",
+          "ar": "يشوف",
+          "audio": "audio/s19/vocab/19-sehen.mp3"
+        },
+        {
+          "de": "helfen",
+          "ar": "يساعد",
+          "audio": "audio/s19/vocab/20-helfen.mp3"
+        },
+        {
+          "de": "fragen",
+          "ar": "يسأل",
+          "audio": "audio/s19/vocab/21-fragen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "words",
+      "label": "Other words",
+      "words": [
+        {
+          "de": "Deutsch",
+          "ar": "الألماني",
+          "audio": "audio/s19/vocab/22-deutsch.mp3"
+        },
+        {
+          "de": "hier",
+          "ar": "هنا",
+          "audio": "audio/s19/vocab/23-hier.mp3"
+        },
+        {
+          "de": "sehr gut",
+          "ar": "كويس جدًا",
+          "audio": "audio/s19/vocab/24-sehr-gut.mp3"
+        },
+        {
+          "de": "Singular",
+          "ar": "المفرد",
+          "audio": "audio/s19/vocab/25-singular.mp3"
+        },
+        {
+          "de": "Plural",
+          "ar": "الجمع",
+          "audio": "audio/s19/vocab/26-plural.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Das Kind lernt Deutsch.",
+      "ar": "الطفل بيتعلم ألماني.",
+      "audio": "audio/s19/s01-das-kind-lernt-deutsch.mp3"
+    },
+    {
+      "de": "Sie rufen das Kind.",
+      "ar": "هم بينادوا الطفل.",
+      "audio": "audio/s19/s02-sie-rufen-das-kind.mp3"
+    },
+    {
+      "de": "Das Buch gehört dem Kind.",
+      "ar": "الكتاب بتاع الطفل.",
+      "audio": "audio/s19/s03-das-buch-gehoert-dem-kind.mp3"
+    },
+    {
+      "de": "Die Kinder spielen hier.",
+      "ar": "الأطفال بيلعبوا هنا.",
+      "audio": "audio/s19/s04-die-kinder-spielen-hier.mp3"
+    },
+    {
+      "de": "Sie rufen die Kinder.",
+      "ar": "هم بينادوا الأطفال.",
+      "audio": "audio/s19/s05-sie-rufen-die-kinder.mp3"
+    },
+    {
+      "de": "Die Bücher gehören den Kindern.",
+      "ar": "الكتب بتاعة الأطفال.",
+      "audio": "audio/s19/s06-die-buecher-gehoeren-den-kindern.mp3"
+    },
+    {
+      "de": "Wir sehen das Kind.",
+      "ar": "إحنا بنشوف الطفل.",
+      "audio": "audio/s19/s07-wir-sehen-das-kind.mp3"
+    },
+    {
+      "de": "Das Auto gehört dem Mann.",
+      "ar": "العربية بتاعة الرجل.",
+      "audio": "audio/s19/s08-das-auto-gehoert-dem-mann.mp3"
+    },
+    {
+      "de": "Sie helfen den Kindern.",
+      "ar": "هم بيساعدوا الأطفال.",
+      "audio": "audio/s19/s09-sie-helfen-den-kindern.mp3"
+    },
+    {
+      "de": "Die Bücher sind sehr gut.",
+      "ar": "الكتب كويسة جدًا.",
+      "audio": "audio/s19/s10-die-buecher-sind-sehr-gut.mp3"
+    },
+    {
+      "de": "Ihr fragt die Kinder.",
+      "ar": "إنتم بتسألوا الأطفال.",
+      "audio": "audio/s19/s11-ihr-fragt-die-kinder.mp3"
+    },
+    {
+      "de": "Das Buch gehört dem Arzt.",
+      "ar": "الكتاب بتاع الدكتور.",
+      "audio": "audio/s19/s12-das-buch-gehoert-dem-arzt.mp3"
+    },
+    {
+      "de": "Wir sehen die Kinder und wir helfen den Kindern.",
+      "ar": "إحنا بنشوف الأطفال وبنساعدهم.",
+      "audio": "audio/s19/s13-wir-sehen-die-kinder-und-wir-helfen-den-kind.mp3"
+    },
+    {
+      "de": "Das Handy gehört dem Kind.",
+      "ar": "الموبايل بتاع الطفل.",
+      "audio": "audio/s19/s14-das-handy-gehoert-dem-kind.mp3"
+    },
+    {
+      "de": "Das Handy gehört den Kindern.",
+      "ar": "الموبايل بتاع الأطفال.",
+      "audio": "audio/s19/s15-das-handy-gehoert-den-kindern.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Kind",
+      "ar": "الطفل",
+      "audio": "audio/s19/vocab/06-kind.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Kinder",
+      "ar": "الأطفال (جمع)",
+      "audio": "audio/s19/vocab/07-kinder.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Buch",
+      "ar": "الكتاب",
+      "audio": "audio/s19/vocab/08-buch.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Bücher",
+      "ar": "الكتب (جمع)",
+      "audio": "audio/s19/vocab/09-buecher.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Handy",
+      "ar": "الموبايل",
+      "audio": "audio/s19/vocab/11-handy.mp3",
+      "article": "das"
+    },
+    {
+      "de": "rufen",
+      "ar": "ينادي (Akkusativ)",
+      "audio": "audio/s19/vocab/15-rufen.mp3"
+    },
+    {
+      "de": "gehören",
+      "ar": "يخص / ملك لـ (Dativ)",
+      "audio": "audio/s19/vocab/16-gehoeren.mp3"
+    },
+    {
+      "de": "lernen",
+      "ar": "يتعلم",
+      "audio": "audio/s19/vocab/17-lernen.mp3"
+    },
+    {
+      "de": "das → das → dem",
+      "ar": "المحايد: Nom ثابت / Akk ثابت / Dat dem",
+      "audio": "audio/s19/vocab/01-das-das-dem.mp3"
+    },
+    {
+      "de": "die → die → den + n",
+      "ar": "الجمع: Nom ثابت / Akk ثابت / Dat den + حرف n",
+      "audio": "audio/s19/vocab/02-die-die-den-n.mp3"
+    },
+    {
+      "de": "Mann",
+      "ar": "الرجل",
+      "audio": "audio/s19/vocab/13-mann.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Arzt",
+      "ar": "الطبيب",
+      "audio": "audio/s19/vocab/14-arzt.mp3",
+      "article": "der"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Wir sehen ___ Kind.",
+      "options": [
+        "das",
+        "dem",
+        "den"
+      ],
+      "answer": 0,
+      "why": "sehen = Akkusativ، المحايد ثابت: das.",
+      "ar": "بنشوف الطفل."
+    },
+    {
+      "prompt": "Das Auto gehört ___ Mann.",
+      "options": [
+        "dem",
+        "das",
+        "den"
+      ],
+      "answer": 0,
+      "why": "gehören = Dativ، المذكر → dem.",
+      "ar": "العربية للرجل."
+    },
+    {
+      "prompt": "Sie helfen ___ Kindern.",
+      "options": [
+        "den",
+        "die",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "Dativ جمع: den + n.",
+      "ar": "بيساعدوا الأطفال."
+    },
+    {
+      "prompt": "___ Bücher sind sehr gut.",
+      "options": [
+        "Die",
+        "Das",
+        "Dem"
+      ],
+      "answer": 0,
+      "why": "الوصف جمع: Nominativ die.",
+      "ar": "الكتب كويسة."
+    },
+    {
+      "prompt": "Ihr fragt ___ Kinder.",
+      "options": [
+        "die",
+        "das",
+        "den"
+      ],
+      "answer": 0,
+      "why": "fragen = Akkusativ، الجمع ثابت: die.",
+      "ar": "بتسألوا الأطفال."
+    },
+    {
+      "prompt": "Das Buch gehört ___ Kind.",
+      "options": [
+        "dem",
+        "das",
+        "den"
+      ],
+      "answer": 0,
+      "why": "Dativ محايد: dem.",
+      "ar": "الكتاب للطفل."
+    },
+    {
+      "prompt": "Die Bücher gehören ___ Kindern.",
+      "options": [
+        "den",
+        "die",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "Dativ جمع: den.",
+      "ar": "الكتب للأطفال."
+    },
+    {
+      "prompt": "Sie rufen ___ Kinder.",
+      "options": [
+        "die",
+        "den",
+        "dem"
+      ],
+      "answer": 0,
+      "why": "Akkusativ جمع: die.",
+      "ar": "بينادوا الأطفال."
+    },
+    {
+      "prompt": "Das Handy gehört ___ Kindern.",
+      "options": [
+        "den",
+        "dem",
+        "das"
+      ],
+      "answer": 0,
+      "why": "جمع Dativ: den ... Kindern.",
+      "ar": "الموبايل للأطفال."
+    },
+    {
+      "prompt": "___ Kind lernt Deutsch.",
+      "options": [
+        "Das",
+        "Dem",
+        "Den"
+      ],
+      "answer": 0,
+      "why": "الفاعل المحايد: das.",
+      "ar": "الطفل بيتعلم."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتقفل لعبة الحالات: المحايد das (das / das / dem) والجمع die (die / die / den + n) مع الأفعال rufen وgehören."
+  },
+  "grammar": [
+    {
+      "title": "المحايد das",
+      "rule": "Nominativ: das. Akkusativ: das (ثابت). Dativ: dem (زي المذكر).",
+      "forms": [
+        "das Kind → das Kind → dem Kind",
+        "das Buch → das Buch → dem Buch"
+      ],
+      "examples": [
+        {
+          "de": "Das Kind lernt Deutsch.",
+          "ar": "الطفل بيتعلم."
+        },
+        {
+          "de": "Sie rufen das Kind.",
+          "ar": "بينادوا الطفل."
+        },
+        {
+          "de": "Das Buch gehört dem Kind.",
+          "ar": "الكتاب للطفل."
+        }
+      ]
+    },
+    {
+      "title": "الجمع die",
+      "rule": "Nominativ: die. Akkusativ: die (ثابت). Dativ: den + حرف n في آخر الكلمة (Kindern).",
+      "forms": [
+        "die Kinder → die Kinder → den Kindern",
+        "die Bücher → die Bücher → den Büchern"
+      ],
+      "examples": [
+        {
+          "de": "Die Kinder spielen hier.",
+          "ar": "الأطفال بيلعبوا."
+        },
+        {
+          "de": "Die Bücher gehören den Kindern.",
+          "ar": "الكتب للأطفال."
+        }
+      ]
+    },
+    {
+      "title": "rufen (Akk) و gehören (Dat)",
+      "rule": "rufen: الفعل بيقع على الشيء → Akkusativ. gehören: الشيء مستفيد/صاحب → Dativ.",
+      "forms": [
+        "Sie rufen das Kind / die Kinder",
+        "Das Buch gehört dem Kind",
+        "Die Bücher gehören den Kindern"
+      ],
+      "examples": [
+        {
+          "de": "Das Auto gehört dem Mann.",
+          "ar": "العربية للرجل."
+        }
+      ]
+    },
+    {
+      "title": "الملخص: كل الأدوات في 3 حالات",
+      "rule": "مذكر: der / den / dem. مؤنث: die / die / der. محايد: das / das / dem. جمع: die / die / den + n.",
+      "forms": [
+        "der / den / dem",
+        "die / die / der",
+        "das / das / dem",
+        "die / die / den + n"
+      ],
+      "examples": [
+        {
+          "de": "Wir sehen die Kinder und wir helfen den Kindern.",
+          "ar": "بنشوف الأطفال وبنساعدهم."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Das",
+          "Kind",
+          "lernt",
+          "Deutsch"
+        ],
+        "answer": "Das Kind lernt Deutsch",
+        "ar": "الطفل بيتعلم ألماني."
+      },
+      {
+        "tiles": [
+          "Sie",
+          "rufen",
+          "das",
+          "Kind"
+        ],
+        "answer": "Sie rufen das Kind",
+        "ar": "هم بينادوا الطفل."
+      },
+      {
+        "tiles": [
+          "Das",
+          "Buch",
+          "gehört",
+          "dem",
+          "Kind"
+        ],
+        "answer": "Das Buch gehört dem Kind",
+        "ar": "الكتاب للطفل."
+      },
+      {
+        "tiles": [
+          "Die",
+          "Kinder",
+          "spielen",
+          "hier"
+        ],
+        "answer": "Die Kinder spielen hier",
+        "ar": "الأطفال بيلعبوا هنا."
+      },
+      {
+        "tiles": [
+          "Sie",
+          "rufen",
+          "die",
+          "Kinder"
+        ],
+        "answer": "Sie rufen die Kinder",
+        "ar": "بينادوا الأطفال."
+      },
+      {
+        "tiles": [
+          "Die",
+          "Bücher",
+          "gehören",
+          "den",
+          "Kindern"
+        ],
+        "answer": "Die Bücher gehören den Kindern",
+        "ar": "الكتب للأطفال."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Die Bücher gehören den Kindern.",
+          "Die Bücher gehören die Kinder."
+        ],
+        "answer": 0,
+        "why": "جمع Dativ: den Kindern.",
+        "ar": "الكتب."
+      },
+      {
+        "options": [
+          "Das Buch gehört dem Kind.",
+          "Das Buch gehört das Kind."
+        ],
+        "answer": 0,
+        "why": "محايد Dativ: dem.",
+        "ar": "الكتاب."
+      },
+      {
+        "options": [
+          "Wir rufen das Kind.",
+          "Wir rufen den Kind."
+        ],
+        "answer": 0,
+        "why": "محايد Akkusativ ثابت: das.",
+        "ar": "بننادي."
+      },
+      {
+        "options": [
+          "Sie helfen den Kindern.",
+          "Sie helfen den Kinder."
+        ],
+        "answer": 0,
+        "why": "ناقص n في Dativ جمع.",
+        "ar": "بيساعدوا."
+      },
+      {
+        "options": [
+          "Wir sehen die Kinder.",
+          "Wir sehen den Kinder."
+        ],
+        "answer": 0,
+        "why": "Akkusativ جمع: die.",
+        "ar": "بنشوف."
+      },
+      {
+        "options": [
+          "Das Handy gehört dem Kind.",
+          "Das Handy gehört das Kind."
+        ],
+        "answer": 0,
+        "why": "Dativ: dem.",
+        "ar": "الموبايل."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "الكتاب يخص الطبيب.",
+        "de": "Das Buch gehört dem Arzt.",
+        "audio": "audio/s19/tr1.mp3"
+      },
+      {
+        "ar": "نحن نرى الأطفال ونحن نساعد الأطفال.",
+        "de": "Wir sehen die Kinder und wir helfen den Kindern.",
+        "audio": "audio/s19/tr2.mp3"
+      },
+      {
+        "ar": "الموبايل يخص الأطفال.",
+        "de": "Das Handy gehört den Kindern.",
+        "audio": "audio/s19/tr3.mp3"
+      },
+      {
+        "ar": "الأطفال يلعبون هنا.",
+        "de": "Die Kinder spielen hier.",
+        "audio": "audio/s19/tr4.mp3"
+      },
+      {
+        "ar": "هم ينادون الطفل.",
+        "de": "Sie rufen das Kind.",
+        "audio": "audio/s19/tr5.mp3"
+      },
+      {
+        "ar": "الكتب جيدة جدًا.",
+        "de": "Die Bücher sind sehr gut.",
+        "audio": "audio/s19/tr6.mp3"
+      }
+    ]
+  }
+}
