@@ -1,0 +1,468 @@
+{
+  "id": "5p2",
+  "level": "b1",
+  "title": "Episode 5 part 2: lassen in the past (Perfekt and Präteritum)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=8fWZpW-kqns",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel (part 2 of source lesson)",
+    "open_url": "https://www.youtube.com/watch?v=8fWZpW-kqns"
+  },
+  "vocab": [
+    {
+      "id": "verb",
+      "label": "The verb",
+      "words": [
+        {
+          "de": "lassen",
+          "ar": "ترك / سمح",
+          "audio": "audio/b1/s5p2/vocab/01-lassen.mp3"
+        },
+        {
+          "de": "gelassen",
+          "ar": "تصريف البيرفكت (فعل واحد بس)",
+          "audio": "audio/b1/s5p2/vocab/02-gelassen.mp3"
+        },
+        {
+          "de": "ließ",
+          "ar": "تصريف البريتريتوم مع أنا",
+          "audio": "audio/b1/s5p2/vocab/03-liess.mp3"
+        }
+      ]
+    },
+    {
+      "id": "nouns",
+      "label": "Nouns",
+      "words": [
+        {
+          "de": "Auto",
+          "ar": "العربية",
+          "audio": "audio/b1/s5p2/vocab/04-auto.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Bruder",
+          "ar": "الأخ",
+          "audio": "audio/b1/s5p2/vocab/05-bruder.mp3",
+          "article": "der"
+        }
+      ]
+    },
+    {
+      "id": "verbs",
+      "label": "Verbs",
+      "words": [
+        {
+          "de": "reparieren",
+          "ar": "يصلّح",
+          "audio": "audio/b1/s5p2/vocab/06-reparieren.mp3"
+        },
+        {
+          "de": "fahren",
+          "ar": "يسوق",
+          "audio": "audio/b1/s5p2/vocab/07-fahren.mp3"
+        }
+      ]
+    },
+    {
+      "id": "modals",
+      "label": "Modal verbs",
+      "words": [
+        {
+          "de": "müssen",
+          "ar": "لازم",
+          "audio": "audio/b1/s5p2/vocab/08-muessen.mp3"
+        },
+        {
+          "de": "können",
+          "ar": "يقدر",
+          "audio": "audio/b1/s5p2/vocab/09-koennen.mp3"
+        },
+        {
+          "de": "wollen",
+          "ar": "عايز",
+          "audio": "audio/b1/s5p2/vocab/10-wollen.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich lasse mein Auto hier.",
+      "ar": "بسيب العربية هنا.",
+      "audio": "audio/b1/s5p2/s01-ich-lasse-mein-auto-hier.mp3"
+    },
+    {
+      "de": "Ich habe mein Auto hier gelassen.",
+      "ar": "سبت العربية هنا.",
+      "audio": "audio/b1/s5p2/s02-ich-habe-mein-auto-hier-gelassen.mp3"
+    },
+    {
+      "de": "Ich lasse mein Auto reparieren.",
+      "ar": "بخلّي حد يصلّح العربية.",
+      "audio": "audio/b1/s5p2/s03-ich-lasse-mein-auto-reparieren.mp3"
+    },
+    {
+      "de": "Ich habe mein Auto reparieren lassen.",
+      "ar": "خلّيت حد يصلّح العربية.",
+      "audio": "audio/b1/s5p2/s04-ich-habe-mein-auto-reparieren-lassen.mp3"
+    },
+    {
+      "de": "Ich habe meinen Bruder das Auto fahren lassen.",
+      "ar": "سمحت لأخويا يسوق العربية.",
+      "audio": "audio/b1/s5p2/s05-ich-habe-meinen-bruder-das-auto-fahren-lasse.mp3"
+    },
+    {
+      "de": "Ich ließ meinen Bruder das Auto fahren.",
+      "ar": "سمحت لأخويا يسوق العربية (ماضي).",
+      "audio": "audio/b1/s5p2/s06-ich-liess-meinen-bruder-das-auto-fahren.mp3"
+    },
+    {
+      "de": "Ich muss mein Auto reparieren lassen.",
+      "ar": "لازم أصلّح العربية.",
+      "audio": "audio/b1/s5p2/s07-ich-muss-mein-auto-reparieren-lassen.mp3"
+    },
+    {
+      "de": "Ich habe mein Auto reparieren lassen müssen.",
+      "ar": "كان لازم أصلّح العربية.",
+      "audio": "audio/b1/s5p2/s08-ich-habe-mein-auto-reparieren-lassen-muessen.mp3"
+    },
+    {
+      "de": "Ich habe mein Auto reparieren lassen können.",
+      "ar": "كنت أقدر أصلّح العربية.",
+      "audio": "audio/b1/s5p2/s09-ich-habe-mein-auto-reparieren-lassen-koennen.mp3"
+    },
+    {
+      "de": "Ich habe mein Auto reparieren lassen wollen.",
+      "ar": "كنت عايز أصلّح العربية.",
+      "audio": "audio/b1/s5p2/s10-ich-habe-mein-auto-reparieren-lassen-wollen.mp3"
+    },
+    {
+      "de": "Ich ließ mein Auto reparieren.",
+      "ar": "خلّيت حد يصلّح العربية (ماضي).",
+      "audio": "audio/b1/s5p2/s11-ich-liess-mein-auto-reparieren.mp3"
+    },
+    {
+      "de": "Ich musste mein Auto reparieren lassen.",
+      "ar": "كان لازم أصلّح العربية (ماضي).",
+      "audio": "audio/b1/s5p2/s12-ich-musste-mein-auto-reparieren-lassen.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "lassen",
+      "ar": "ترك / سمح",
+      "audio": "audio/b1/s5p2/vocab/01-lassen.mp3"
+    },
+    {
+      "de": "gelassen",
+      "ar": "تصريف البيرفكت (فعل واحد بس)",
+      "audio": "audio/b1/s5p2/vocab/02-gelassen.mp3"
+    },
+    {
+      "de": "ließ",
+      "ar": "تصريف البريتريتوم مع أنا",
+      "audio": "audio/b1/s5p2/vocab/03-liess.mp3"
+    },
+    {
+      "de": "Auto",
+      "ar": "العربية",
+      "audio": "audio/b1/s5p2/vocab/04-auto.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Bruder",
+      "ar": "الأخ",
+      "audio": "audio/b1/s5p2/vocab/05-bruder.mp3",
+      "article": "der"
+    },
+    {
+      "de": "reparieren",
+      "ar": "يصلّح",
+      "audio": "audio/b1/s5p2/vocab/06-reparieren.mp3"
+    },
+    {
+      "de": "fahren",
+      "ar": "يسوق",
+      "audio": "audio/b1/s5p2/vocab/07-fahren.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich habe mein Auto hier _______.",
+      "options": [
+        "gelassen",
+        "lassen",
+        "gelasst"
+      ],
+      "answer": 0,
+      "why": "فعل واحد بس في الجملة = gelassen.",
+      "ar": "سبت العربية هنا."
+    },
+    {
+      "prompt": "Ich habe mein Auto reparieren _______.",
+      "options": [
+        "lassen",
+        "gelassen",
+        "zu lassen"
+      ],
+      "answer": 0,
+      "why": "فعلين في الجملة = lassen بيفضل مصدر في الآخر.",
+      "ar": "خلّيت حد يصلّح العربية."
+    },
+    {
+      "prompt": "Ich habe mein Auto reparieren lassen _______.",
+      "options": [
+        "müssen",
+        "muss",
+        "gemusst"
+      ],
+      "answer": 0,
+      "why": "تلات أفعال: الفعل الناقص في الآخر خالص بصيغة المصدر.",
+      "ar": "كان لازم أصلّح العربية."
+    },
+    {
+      "prompt": "Ich _______ mein Auto hier.",
+      "options": [
+        "ließ",
+        "lasse",
+        "gelassen"
+      ],
+      "answer": 0,
+      "why": "بريتريتوم مع أنا = ließ.",
+      "ar": "سبت العربية هنا (ماضي)."
+    },
+    {
+      "prompt": "Ich ließ mein Auto _______.",
+      "options": [
+        "reparieren",
+        "repariert",
+        "zu reparieren"
+      ],
+      "answer": 0,
+      "why": "بريتريتوم: الفعل الأساسي مصدر في الآخر.",
+      "ar": "خلّيت حد يصلّح العربية (ماضي)."
+    },
+    {
+      "prompt": "Ich _______ mein Auto reparieren lassen.",
+      "options": [
+        "musste",
+        "muss",
+        "müssen"
+      ],
+      "answer": 0,
+      "why": "في البريتريتوم الناقص هو اللي بيتصرف: musste.",
+      "ar": "كان لازم أصلّح العربية (ماضي)."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الحلقة ٥ جزء ٢ من B1: lassen في الماضي. البيرفكت: gelassen مع فعل واحد، lassen مصدر مع فعلين، والناقص في الآخر مع تلات أفعال. البريتريتوم: ließ. (محتوى من الفيديو - صياغة تعليمية مراجعة على التسجيل الأصلي؛ المدرس بيشير لـ PDF على Barbary مش مرفوع هنا)"
+  },
+  "grammar": [
+    {
+      "title": "بيرفكت مع فعل واحد: gelassen",
+      "rule": "لما يكون lassen لوحده في الجملة، البيرفكت بتاعه gelassen.",
+      "forms": [
+        "Ich habe mein Auto hier gelassen."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe mein Auto hier gelassen.",
+          "ar": "سبت العربية هنا."
+        }
+      ]
+    },
+    {
+      "title": "بيرفكت مع فعلين: lassen بيفضل مصدر",
+      "rule": "لما يكون في فعلين وواحد منهم lassen، هو بيفضل بصيغة المصدر ومش بيتغير. الفعل الأساسي في النص، وlassen في الآخر.",
+      "forms": [
+        "Ich habe mein Auto reparieren lassen.",
+        "Ich habe meinen Bruder das Auto fahren lassen."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe mein Auto reparieren lassen.",
+          "ar": "خلّيت حد يصلّح العربية."
+        }
+      ]
+    },
+    {
+      "title": "تلات أفعال: الناقص في الآخر خالص",
+      "rule": "مع فعل ناقص، الناقص بيروح آخر الجملة من غير ما يتغير. تقدر تبدّل الناقص: müssen, können, wollen.",
+      "forms": [
+        "... reparieren lassen müssen.",
+        "... reparieren lassen können.",
+        "... reparieren lassen wollen."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe mein Auto reparieren lassen müssen.",
+          "ar": "كان لازم أصلّح العربية."
+        }
+      ]
+    },
+    {
+      "title": "بريتريتوم: ließ",
+      "rule": "مع أنا الشكل هو ließ. فعل واحد عادي، وفعلين: الأساسي مصدر في الآخر. ولو فيه ناقص، الناقص هو اللي بيتصرف: musste.",
+      "forms": [
+        "Ich ließ mein Auto hier.",
+        "Ich ließ mein Auto reparieren.",
+        "Ich musste mein Auto reparieren lassen."
+      ],
+      "examples": [
+        {
+          "de": "Ich musste mein Auto reparieren lassen.",
+          "ar": "كان لازم أصلّح العربية (ماضي)."
+        }
+      ]
+    },
+    {
+      "title": "حدود الحلقة",
+      "rule": "المدرس بيشير لملف PDF بالتصريفات والتبديلات تحت الفيديو على Barbary (مش مرفوع هنا). الجمل اللي مكتوبة على نمط أمثلة التسجيل صياغة تعليمية من إعدادنا واتراجعت على التسجيل.",
+      "forms": [
+        "gelassen / lassen / ließ"
+      ],
+      "examples": [
+        {
+          "de": "Ich ließ meinen Bruder das Auto fahren.",
+          "ar": "سمحت لأخويا يسوق العربية (ماضي)."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "habe",
+          "Ich",
+          "mein Auto hier gelassen."
+        ],
+        "answer": "Ich habe mein Auto hier gelassen.",
+        "ar": "سبت العربية هنا."
+      },
+      {
+        "tiles": [
+          "habe",
+          "Ich",
+          "mein Auto reparieren lassen."
+        ],
+        "answer": "Ich habe mein Auto reparieren lassen.",
+        "ar": "خلّيت حد يصلّح العربية."
+      },
+      {
+        "tiles": [
+          "habe",
+          "Ich",
+          "mein Auto reparieren lassen müssen."
+        ],
+        "answer": "Ich habe mein Auto reparieren lassen müssen.",
+        "ar": "كان لازم أصلّح العربية."
+      },
+      {
+        "tiles": [
+          "ließ",
+          "Ich",
+          "mein Auto reparieren."
+        ],
+        "answer": "Ich ließ mein Auto reparieren.",
+        "ar": "خلّيت حد يصلّح العربية (ماضي)."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich habe mein Auto reparieren lassen.",
+          "Ich habe mein Auto reparieren gelassen."
+        ],
+        "answer": 0,
+        "why": "فعلين في الجملة: lassen بيفضل مصدر، gelassen بس لما يكون فعل واحد.",
+        "ar": "خلّيت حد يصلّح العربية."
+      },
+      {
+        "options": [
+          "Ich habe mein Auto reparieren lassen müssen.",
+          "Ich habe mein Auto reparieren lassen muss."
+        ],
+        "answer": 0,
+        "why": "الفعل الناقص في الآخر بصيغة المصدر: müssen مش muss.",
+        "ar": "كان لازم أصلّح العربية."
+      },
+      {
+        "options": [
+          "Ich ließ mein Auto reparieren.",
+          "Ich ließ mein Auto repariert."
+        ],
+        "answer": 0,
+        "why": "في البريتريتوم الفعل الأساسي بيفضل مصدر في الآخر.",
+        "ar": "خلّيت حد يصلّح العربية (ماضي)."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "سبت العربية هنا.",
+        "de": "Ich habe mein Auto hier gelassen.",
+        "audio": "audio/b1/s5p2/tr1.mp3"
+      },
+      {
+        "ar": "خلّيت حد يصلّح العربية.",
+        "de": "Ich habe mein Auto reparieren lassen.",
+        "audio": "audio/b1/s5p2/tr2.mp3"
+      },
+      {
+        "ar": "كان لازم أصلّح العربية.",
+        "de": "Ich habe mein Auto reparieren lassen müssen.",
+        "audio": "audio/b1/s5p2/tr3.mp3"
+      },
+      {
+        "ar": "سمحت لأخويا يسوق العربية.",
+        "de": "Ich ließ meinen Bruder das Auto fahren.",
+        "audio": "audio/b1/s5p2/tr4.mp3"
+      }
+    ]
+  },
+  "provenance": {
+    "type": "video-sourced",
+    "caveat_ar": "المحتوى اتراجع على التسجيل الصوتي الأصلي (المواضيع والشرح والأمثلة والتمارين مطابقة)؛ الصياغة الألمانية المكتوبة صياغة تعليمية من إعداد المدرس، مش نسخ حرفي موثق من كلام الفيديو. ملف الحلقة «ملف الحلقه الخامسه الجزء الاول.pdf» موجود على صف الجزء الأول في Notion وفيه تدريب على تصريف lassen في الماضي المخصص للدرس ده — اتعمل له مرجع مشترك. المدرس بيشير في التسجيل كمان لملف PDF بالتصريفات والتبديلات؛ مش مثبت إنه نفس الملف.",
+    "caveat_en": "Content reviewed against the original uploaded recording (topics, teaching, examples, exercises match); the written German is educational rendering, not verbatim-verified transcription. The lesson PDF (ملف الحلقه الخامسه الجزء الاول.pdf) attached on the part-1 Notion row includes the past-tense lassen practice intended for this lesson and is cross-referenced. In the recording the teacher also references a PDF with conjugations and variations; it is not proven that this is the same document.",
+    "source_video": "https://www.youtube.com/watch?v=8fWZpW-kqns",
+    "source_row": "425e697c-9519-81be-b5a8-df783171e90f",
+    "shared_pdf": {
+      "row": "425e697c-9519-81ff-a38e-fe7fd6d76462",
+      "pdf_name": "ملف الحلقه الخامسه الجزء الاول.pdf",
+      "covers": "past-tense lassen practice intended for this lesson (its own contents section 3: تدريب علي تصريف فعل lassen في الماضي عشان الدرس القادم)",
+      "identity_with_teacher_referenced_pdf": "not proven"
+    }
+  }
+}
