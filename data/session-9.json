@@ -546,7 +546,7 @@
       {
         "tiles": [
           "trinken",
-          "ich",
+          "Ich",
           "Kaffee",
           "möchte"
         ],
@@ -558,7 +558,7 @@
           "rauchen",
           "dürfen",
           "nicht",
-          "sie"
+          "Sie"
         ],
         "answer": "Sie dürfen nicht rauchen.",
         "ar": "مش مسموح لهم بالتدخين."
@@ -568,7 +568,7 @@
           "im Bett",
           "bleiben",
           "soll",
-          "er"
+          "Er"
         ],
         "answer": "Er soll im Bett bleiben.",
         "ar": "ينبغي عليه يفضل في السرير."
@@ -577,7 +577,7 @@
         "tiles": [
           "das Medikament",
           "nehmen",
-          "die Frau",
+          "Die Frau",
           "will"
         ],
         "answer": "Die Frau will das Medikament nehmen.",
@@ -588,7 +588,7 @@
           "morgen",
           "reisen",
           "du",
-          "willst"
+          "Willst"
         ],
         "answer": "Willst du morgen reisen?",
         "ar": "عايز تسافر بكرة؟"
