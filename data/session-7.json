@@ -1,0 +1,662 @@
+{
+  "id": 7,
+  "level": "a1",
+  "title": "Session 7: How to give your opinion about food",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=7DJ1JayGVm0",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "food",
+      "label": "Food",
+      "words": [
+        {
+          "de": "Brot",
+          "ar": "الخبز",
+          "audio": "audio/s7/vocab/01-das-brot.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Fleisch",
+          "ar": "اللحم",
+          "audio": "audio/s7/vocab/02-das-fleisch.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Fisch",
+          "ar": "السمك",
+          "audio": "audio/s7/vocab/03-der-fisch.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Essen",
+          "ar": "الأكل",
+          "audio": "audio/s7/vocab/04-das-essen.mp3",
+          "article": "das"
+        }
+      ]
+    },
+    {
+      "id": "needs",
+      "label": "Hunger and thirst",
+      "words": [
+        {
+          "de": "Hunger",
+          "ar": "الجوع",
+          "audio": "audio/s7/vocab/05-der-hunger.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Durst",
+          "ar": "العطش",
+          "audio": "audio/s7/vocab/06-der-durst.mp3",
+          "article": "der"
+        },
+        {
+          "de": "etwas",
+          "ar": "شيئًا / قليلاً",
+          "audio": "audio/s7/vocab/07-etwas.mp3"
+        },
+        {
+          "de": "trinken",
+          "ar": "يشرب",
+          "audio": "audio/s7/vocab/08-trinken.mp3"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "label": "Taste",
+      "words": [
+        {
+          "de": "schmecken",
+          "ar": "يعطي طعم / يعجب",
+          "audio": "audio/s7/vocab/09-schmecken.mp3"
+        },
+        {
+          "de": "lecker",
+          "ar": "لذيذ",
+          "audio": "audio/s7/vocab/10-lecker.mp3"
+        },
+        {
+          "de": "gut",
+          "ar": "كويس",
+          "audio": "audio/s7/vocab/11-gut.mp3"
+        },
+        {
+          "de": "nicht",
+          "ar": "ليس / لا",
+          "audio": "audio/s7/vocab/12-nicht.mp3"
+        }
+      ]
+    },
+    {
+      "id": "polite-sie",
+      "label": "Polite Sie",
+      "words": [
+        {
+          "de": "Sie essen",
+          "ar": "حضرتك تأكل",
+          "audio": "audio/s7/vocab/13-sie-essen.mp3"
+        },
+        {
+          "de": "Sie haben",
+          "ar": "حضرتك عندك",
+          "audio": "audio/s7/vocab/14-sie-haben.mp3"
+        },
+        {
+          "de": "Sie müssen",
+          "ar": "حضرتك يجب",
+          "audio": "audio/s7/vocab/15-sie-muessen.mp3"
+        },
+        {
+          "de": "Sie können",
+          "ar": "حضرتك تستطيع",
+          "audio": "audio/s7/vocab/16-sie-koennen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "label": "Time words",
+      "words": [
+        {
+          "de": "jeden Tag",
+          "ar": "كل يوم",
+          "audio": "audio/s7/vocab/17-jeden-tag.mp3"
+        },
+        {
+          "de": "jeden Morgen",
+          "ar": "كل صباح",
+          "audio": "audio/s7/vocab/18-jeden-morgen.mp3"
+        },
+        {
+          "de": "heute",
+          "ar": "النهاردة",
+          "audio": "audio/s7/vocab/19-heute.mp3"
+        },
+        {
+          "de": "jetzt",
+          "ar": "دلوقتي",
+          "audio": "audio/s7/vocab/20-jetzt.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich esse jeden Tag.",
+      "ar": "أنا آكل كل يوم.",
+      "audio": "audio/s7/s01-ich-esse-jeden-tag.mp3"
+    },
+    {
+      "de": "Ich muss etwas essen.",
+      "ar": "لازم آكل حاجة.",
+      "audio": "audio/s7/s02-ich-muss-etwas-essen.mp3"
+    },
+    {
+      "de": "Ich kann das essen.",
+      "ar": "أقدر آكل ده.",
+      "audio": "audio/s7/s03-ich-kann-das-essen.mp3"
+    },
+    {
+      "de": "Ich kann das nicht essen.",
+      "ar": "مش أقدر آكل ده.",
+      "audio": "audio/s7/s04-ich-kann-das-nicht-essen.mp3"
+    },
+    {
+      "de": "Das Essen schmeckt gut.",
+      "ar": "الأكل طعمه كويس.",
+      "audio": "audio/s7/s05-das-essen-schmeckt-gut.mp3"
+    },
+    {
+      "de": "Das Essen schmeckt nicht.",
+      "ar": "الأكل طعمه مش كويس.",
+      "audio": "audio/s7/s06-das-essen-schmeckt-nicht.mp3"
+    },
+    {
+      "de": "Das schmeckt mir sehr.",
+      "ar": "الأكل عجبني جداً.",
+      "audio": "audio/s7/s07-das-schmeckt-mir-sehr.mp3"
+    },
+    {
+      "de": "Ich habe Hunger.",
+      "ar": "أنا جعان.",
+      "audio": "audio/s7/s08-ich-habe-hunger.mp3"
+    },
+    {
+      "de": "Hast du Hunger?",
+      "ar": "انت جعان؟",
+      "audio": "audio/s7/s09-hast-du-hunger.mp3"
+    },
+    {
+      "de": "Sie essen jeden Morgen Brot.",
+      "ar": "حضرتك تأكل الخبز كل صباح.",
+      "audio": "audio/s7/s10-sie-essen-jeden-morgen-brot.mp3"
+    },
+    {
+      "de": "Sie müssen etwas trinken.",
+      "ar": "لازم حضرتك تشرب حاجة.",
+      "audio": "audio/s7/s11-sie-muessen-etwas-trinken.mp3"
+    },
+    {
+      "de": "Sie können das Fleisch essen.",
+      "ar": "حضرتك تستطيع أكل اللحم.",
+      "audio": "audio/s7/s12-sie-koennen-das-fleisch-essen.mp3"
+    },
+    {
+      "de": "Sie können den Fisch nicht essen.",
+      "ar": "حضرتك مش تستطيع أكل السمك.",
+      "audio": "audio/s7/s13-sie-koennen-den-fisch-nicht-essen.mp3"
+    },
+    {
+      "de": "Haben Sie Hunger?",
+      "ar": "حضرتك جعان؟",
+      "audio": "audio/s7/s14-haben-sie-hunger.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Brot",
+      "article": "das",
+      "ar": "الخبز",
+      "audio": "audio/s7/vocab/01-das-brot.mp3"
+    },
+    {
+      "de": "Fleisch",
+      "article": "das",
+      "ar": "اللحم",
+      "audio": "audio/s7/vocab/02-das-fleisch.mp3"
+    },
+    {
+      "de": "Fisch",
+      "article": "der",
+      "ar": "السمك",
+      "audio": "audio/s7/vocab/03-der-fisch.mp3"
+    },
+    {
+      "de": "Hunger",
+      "article": "der",
+      "ar": "الجوع",
+      "audio": "audio/s7/vocab/05-der-hunger.mp3"
+    },
+    {
+      "de": "Durst",
+      "article": "der",
+      "ar": "العطش",
+      "audio": "audio/s7/vocab/06-der-durst.mp3"
+    },
+    {
+      "de": "schmecken",
+      "ar": "يعجب / يعطي طعم",
+      "audio": "audio/s7/vocab/09-schmecken.mp3"
+    },
+    {
+      "de": "lecker",
+      "ar": "لذيذ",
+      "audio": "audio/s7/vocab/10-lecker.mp3"
+    },
+    {
+      "de": "trinken",
+      "ar": "يشرب",
+      "audio": "audio/s7/vocab/08-trinken.mp3"
+    },
+    {
+      "de": "etwas",
+      "ar": "حاجة / شوية",
+      "audio": "audio/s7/vocab/07-etwas.mp3"
+    },
+    {
+      "de": "jeden Tag",
+      "ar": "كل يوم",
+      "audio": "audio/s7/vocab/17-jeden-tag.mp3"
+    },
+    {
+      "de": "jeden Morgen",
+      "ar": "كل صباح",
+      "audio": "audio/s7/vocab/18-jeden-morgen.mp3"
+    },
+    {
+      "de": "Sie essen",
+      "ar": "حضرتك تأكل",
+      "audio": "audio/s7/vocab/13-sie-essen.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "______ Sie Hunger?",
+      "options": [
+        "Haben",
+        "Hast",
+        "Hat"
+      ],
+      "answer": 0,
+      "why": "مع Sie (حضرتك) الفعل في المصدر: Haben Sie.",
+      "ar": "حضرتك جعان؟"
+    },
+    {
+      "prompt": "Wir ______ heute nach Berlin.",
+      "options": [
+        "fliegen",
+        "fliegt",
+        "fliege"
+      ],
+      "answer": 0,
+      "why": "مع wir الفعل في المصدر: fliegen.",
+      "ar": "احنا هنطير برلين النهاردة."
+    },
+    {
+      "prompt": "Das Handy ist teuer, aber ich muss ______ kaufen.",
+      "options": [
+        "es",
+        "das",
+        "er"
+      ],
+      "answer": 0,
+      "why": "التعويض عن das Handy بـ es.",
+      "ar": "الموبايل غالي، بس لازم أشتريه."
+    },
+    {
+      "prompt": "Er ______ jetzt arbeiten gehen.",
+      "options": [
+        "muss",
+        "müssen",
+        "musst"
+      ],
+      "answer": 0,
+      "why": "er muss زي ich muss.",
+      "ar": "هو لازم يروح الشغل دلوقتي."
+    },
+    {
+      "prompt": "______ kannst das Essen kochen.",
+      "options": [
+        "Du",
+        "Ich",
+        "Er"
+      ],
+      "answer": 0,
+      "why": "kannst تصريف du.",
+      "ar": "انت تقدر تطبخ الأكل."
+    },
+    {
+      "prompt": "Das ist sehr einfach für ______.",
+      "options": [
+        "mich",
+        "ich",
+        "mein"
+      ],
+      "answer": 0,
+      "why": "بعد für ييجي mich.",
+      "ar": "ده سهل جداً بالنسبة لي."
+    },
+    {
+      "prompt": "Ich habe ______. Ich will Wasser.",
+      "options": [
+        "Durst",
+        "Hunger",
+        "Essen"
+      ],
+      "answer": 0,
+      "why": "عايز مية يبقى عطشان: Durst.",
+      "ar": "أنا عطشان. عايز مية."
+    },
+    {
+      "prompt": "Das Fleisch ______ sehr lecker.",
+      "options": [
+        "schmeckt",
+        "schmecken",
+        "schmeckst"
+      ],
+      "answer": 0,
+      "why": "das Fleisch مفرد: schmeckt.",
+      "ar": "اللحم طعمه لذيذ جداً."
+    },
+    {
+      "prompt": "______ du Hunger?",
+      "options": [
+        "Hast",
+        "Haben",
+        "Bist"
+      ],
+      "answer": 0,
+      "why": "سؤال لـ du: Hast du.",
+      "ar": "انت جعان؟"
+    },
+    {
+      "prompt": "Sie ______ den Fisch nicht essen.",
+      "options": [
+        "können",
+        "kannst",
+        "kann"
+      ],
+      "answer": 0,
+      "why": "مع حضرتك المصدر: können.",
+      "ar": "حضرتك مش تستطيع أكل السمك."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتعلمك تقيّم الأكل وتعبر عن الجوع والعطش: schmecken (يعجب)، Ich habe Hunger/Durst. والمكعب الجديد الكبير: Sie بمعنى حضرتك، والحلو إن الفعل معاها بيرجع للمصدر من غير أي تصريف، زي wir بالظبط. كمان فيها الاختبار الشامل للدروس 1-7."
+  },
+  "grammar": [
+    {
+      "title": "schmecken: التعبير عن الطعم",
+      "rule": "بنستخدم schmecken عشان نقول رأينا في الأكل: Das Essen schmeckt gut (طعمه كويس). ومع mir بقى معناها عجبني: Das schmeckt mir (الأكل عجبني).",
+      "forms": [
+        "das schmeckt gut",
+        "das schmeckt nicht",
+        "das schmeckt mir"
+      ],
+      "examples": [
+        {
+          "de": "Das Fleisch schmeckt sehr lecker.",
+          "ar": "اللحم طعمه لذيذ جداً."
+        },
+        {
+          "de": "Der Fisch schmeckt mir nicht.",
+          "ar": "السمك معجبنيش."
+        }
+      ]
+    },
+    {
+      "title": "Hunger und Durst: الجوع والعطش",
+      "rule": "الجوع والعطش بنعبر عنهم بـ haben: Ich habe Hunger (أنا جعان)، Ich habe Durst (أنا عطشان).",
+      "forms": [
+        "ich habe Hunger",
+        "ich habe Durst",
+        "du hast Hunger"
+      ],
+      "examples": [
+        {
+          "de": "Ich habe Hunger und das Essen schmeckt lecker.",
+          "ar": "أنا جعان والأكل طعمه لذيذ."
+        },
+        {
+          "de": "Hast du Hunger?",
+          "ar": "انت جعان؟"
+        }
+      ]
+    },
+    {
+      "title": "Sie: صيغة الاحترام",
+      "rule": "Sie (حضرتك) بنستخدمها مع الكبار والرسمي، والفعل معاها بيرجع للمصدر من غير تصريف، زي wir: Du isst بس Sie essen، Du hast بس Sie haben، Du musst بس Sie müssen.",
+      "forms": [
+        "Sie essen",
+        "Sie haben",
+        "Sie müssen / können"
+      ],
+      "examples": [
+        {
+          "de": "Sie essen jeden Morgen Brot.",
+          "ar": "حضرتك تأكل الخبز كل صباح."
+        },
+        {
+          "de": "Sie müssen etwas trinken.",
+          "ar": "لازم حضرتك تشرب حاجة."
+        }
+      ]
+    },
+    {
+      "title": "السؤال: الفعل الأول",
+      "rule": "عشان نعمل سؤال بنقدم الفعل على الفاعل: Du hast Hunger تبقى Hast du Hunger? ومع حضرتك: Haben Sie Hunger?",
+      "forms": [
+        "Hast du Hunger?",
+        "Hast du Durst?",
+        "Haben Sie Hunger?"
+      ],
+      "examples": [
+        {
+          "de": "Haben Sie Hunger?",
+          "ar": "حضرتك جعان؟"
+        },
+        {
+          "de": "Haben Sie Durst?",
+          "ar": "حضرتك عطشان؟"
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "habe",
+          "Hunger",
+          "Ich"
+        ],
+        "answer": "Ich habe Hunger.",
+        "ar": "أنا جعان."
+      },
+      {
+        "tiles": [
+          "Sie",
+          "Hunger",
+          "Haben"
+        ],
+        "answer": "Haben Sie Hunger?",
+        "ar": "حضرتك جعان؟"
+      },
+      {
+        "tiles": [
+          "einkaufen",
+          "sie",
+          "muss",
+          "gehen"
+        ],
+        "answer": "Sie muss einkaufen gehen.",
+        "ar": "هي لازم تروح تتسوق."
+      },
+      {
+        "tiles": [
+          "lecker",
+          "Das",
+          "Fleisch",
+          "schmeckt",
+          "sehr"
+        ],
+        "answer": "Das Fleisch schmeckt sehr lecker.",
+        "ar": "اللحم طعمه لذيذ جداً."
+      },
+      {
+        "tiles": [
+          "lernen",
+          "wir",
+          "Deutsch",
+          "können"
+        ],
+        "answer": "Wir können Deutsch lernen.",
+        "ar": "احنا نقدر نتعلم ألماني."
+      },
+      {
+        "tiles": [
+          "müssen",
+          "etwas",
+          "trinken",
+          "Sie"
+        ],
+        "answer": "Sie müssen etwas trinken.",
+        "ar": "لازم حضرتك تشرب حاجة."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Sie essen jeden Morgen Brot.",
+          "Sie isst jeden Morgen Brot."
+        ],
+        "answer": 0,
+        "why": "مع حضرتك المصدر: essen مش isst.",
+        "ar": "حضرتك تأكل الخبز كل صباح."
+      },
+      {
+        "options": [
+          "Haben Sie Hunger?",
+          "Hast Sie Hunger?"
+        ],
+        "answer": 0,
+        "why": "Hast لـ du بس؛ مع Sie: Haben.",
+        "ar": "حضرتك جعان؟"
+      },
+      {
+        "options": [
+          "Das Essen schmeckt gut.",
+          "Das Essen schmecken gut."
+        ],
+        "answer": 0,
+        "why": "das Essen مفرد: schmeckt.",
+        "ar": "الأكل طعمه كويس."
+      },
+      {
+        "options": [
+          "Ich habe Durst.",
+          "Ich bin Durst."
+        ],
+        "answer": 0,
+        "why": "العطش بـ haben مش sein: habe Durst.",
+        "ar": "أنا عطشان."
+      },
+      {
+        "options": [
+          "Sie können den Fisch nicht essen.",
+          "Sie kannst den Fisch nicht essen."
+        ],
+        "answer": 0,
+        "why": "مع حضرتك المصدر: können.",
+        "ar": "حضرتك مش تستطيع أكل السمك."
+      },
+      {
+        "options": [
+          "Sie müssen etwas trinken.",
+          "Sie muss etwas trinken."
+        ],
+        "answer": 0,
+        "why": "Sie هنا حضرتك: müssen.",
+        "ar": "لازم حضرتك تشرب حاجة."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "حضرتك تستطيع أكل اللحم.",
+        "de": "Sie können das Fleisch essen.",
+        "audio": "audio/s7/tr1.mp3"
+      },
+      {
+        "ar": "أنا يجب علي أن أسافر معك.",
+        "de": "Ich muss mit dir reisen.",
+        "audio": "audio/s7/tr2.mp3"
+      },
+      {
+        "ar": "السمك معجبنيش.",
+        "de": "Der Fisch schmeckt mir nicht.",
+        "audio": "audio/s7/tr3.mp3"
+      },
+      {
+        "ar": "أنا جعان.",
+        "de": "Ich habe Hunger.",
+        "audio": "audio/s7/tr4.mp3"
+      },
+      {
+        "ar": "حضرتك عطشان؟",
+        "de": "Haben Sie Durst?",
+        "audio": "audio/s7/tr5.mp3"
+      },
+      {
+        "ar": "لازم آكل حاجة.",
+        "de": "Ich muss etwas essen.",
+        "audio": "audio/s7/tr6.mp3"
+      }
+    ]
+  }
+}
