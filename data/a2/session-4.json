@@ -1,0 +1,660 @@
+{
+ "id": 4,
+ "level": "a2",
+ "title": "Session 4: This one or which one? (demonstratives and pronouns)",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=BvRUU_T8Xfk",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=BvRUU_T8Xfk"
+ },
+ "vocab": [
+  {
+   "id": "nomen",
+   "label": "Things and shopping",
+   "words": [
+    {
+     "de": "Pullover",
+     "ar": "البلوفر",
+     "audio": "audio/a2/s4/vocab/01-pullover.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Tisch",
+     "ar": "الترابيزة",
+     "audio": "audio/a2/s4/vocab/02-tisch.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Kaffee",
+     "ar": "القهوة",
+     "audio": "audio/a2/s4/vocab/03-kaffee.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Rock",
+     "ar": "الجيبة / التنورة",
+     "audio": "audio/a2/s4/vocab/04-rock.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Mantel",
+     "ar": "البالطو / المعطف",
+     "audio": "audio/a2/s4/vocab/05-mantel.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Pizza",
+     "ar": "البيتزا",
+     "audio": "audio/a2/s4/vocab/06-pizza.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Jacke",
+     "ar": "الجاكيت",
+     "audio": "audio/a2/s4/vocab/07-jacke.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Tasche",
+     "ar": "الشنطة",
+     "audio": "audio/a2/s4/vocab/08-tasche.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Hose",
+     "ar": "البنطلون",
+     "audio": "audio/a2/s4/vocab/09-hose.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Hemd",
+     "ar": "القميص",
+     "audio": "audio/a2/s4/vocab/10-hemd.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Handy",
+     "ar": "الموبايل",
+     "audio": "audio/a2/s4/vocab/11-handy.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Kleid",
+     "ar": "الفستان",
+     "audio": "audio/a2/s4/vocab/12-kleid.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Buch",
+     "ar": "الكتاب",
+     "audio": "audio/a2/s4/vocab/13-buch.mp3",
+     "article": "das"
+    },
+    {
+     "de": "T-Shirt",
+     "ar": "التيشيرت",
+     "audio": "audio/a2/s4/vocab/14-t-shirt.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Schuhe",
+     "ar": "الجزم",
+     "audio": "audio/a2/s4/vocab/15-schuhe.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Sterne",
+     "ar": "النجوم",
+     "audio": "audio/a2/s4/vocab/16-sterne.mp3",
+     "article": "die"
+    }
+   ]
+  },
+  {
+   "id": "verben",
+   "label": "Verbs",
+   "words": [
+    {
+     "de": "kaufen",
+     "ar": "يشتري",
+     "audio": "audio/a2/s4/vocab/17-kaufen.mp3"
+    },
+    {
+     "de": "brauchen",
+     "ar": "يحتاج",
+     "audio": "audio/a2/s4/vocab/18-brauchen.mp3"
+    },
+    {
+     "de": "suchen",
+     "ar": "يدور على",
+     "audio": "audio/a2/s4/vocab/19-suchen.mp3"
+    },
+    {
+     "de": "finden",
+     "ar": "يلاقي / يشوف (رأي)",
+     "audio": "audio/a2/s4/vocab/20-finden.mp3"
+    },
+    {
+     "de": "trinken",
+     "ar": "يشرب",
+     "audio": "audio/a2/s4/vocab/21-trinken.mp3"
+    },
+    {
+     "de": "essen",
+     "ar": "ياكل",
+     "audio": "audio/a2/s4/vocab/22-essen.mp3"
+    },
+    {
+     "de": "geben",
+     "ar": "يدي / يمنح",
+     "audio": "audio/a2/s4/vocab/23-geben.mp3"
+    },
+    {
+     "de": "gefallen",
+     "ar": "يعجب (Das gefällt mir)",
+     "audio": "audio/a2/s4/vocab/24-gefallen.mp3"
+    }
+   ]
+  },
+  {
+   "id": "adj",
+   "label": "Adjectives",
+   "words": [
+    {
+     "de": "heiß",
+     "ar": "سخن",
+     "audio": "audio/a2/s4/vocab/25-heiss.mp3"
+    },
+    {
+     "de": "kalt",
+     "ar": "ساقع",
+     "audio": "audio/a2/s4/vocab/26-kalt.mp3"
+    },
+    {
+     "de": "schön",
+     "ar": "جميل",
+     "audio": "audio/a2/s4/vocab/27-schoen.mp3"
+    },
+    {
+     "de": "hässlich",
+     "ar": "قبيح / وحش الشكل",
+     "audio": "audio/a2/s4/vocab/28-haesslich.mp3"
+    },
+    {
+     "de": "teuer",
+     "ar": "غالي",
+     "audio": "audio/a2/s4/vocab/29-teuer.mp3"
+    },
+    {
+     "de": "billig",
+     "ar": "رخيص",
+     "audio": "audio/a2/s4/vocab/30-billig.mp3"
+    },
+    {
+     "de": "neu",
+     "ar": "جديد",
+     "audio": "audio/a2/s4/vocab/31-neu.mp3"
+    },
+    {
+     "de": "alt",
+     "ar": "قديم",
+     "audio": "audio/a2/s4/vocab/32-alt.mp3"
+    },
+    {
+     "de": "modern",
+     "ar": "مودرن / على الموضة",
+     "audio": "audio/a2/s4/vocab/33-modern.mp3"
+    },
+    {
+     "de": "bequem",
+     "ar": "مريح",
+     "audio": "audio/a2/s4/vocab/34-bequem.mp3"
+    },
+    {
+     "de": "lecker",
+     "ar": "لذيذ",
+     "audio": "audio/a2/s4/vocab/35-lecker.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Welchen Pullover kaufst du?",
+   "ar": "بتشتري أنهي بلوفر؟",
+   "audio": "audio/a2/s4/s01-welchen-pullover-kaufst-du.mp3"
+  },
+  {
+   "de": "Ich kaufe diesen Pullover. Er ist sehr schön.",
+   "ar": "بشتري البلوفر ده. هو جميل جدًا.",
+   "audio": "audio/a2/s4/s02-ich-kaufe-diesen-pullover-er-ist-sehr-schoen.mp3"
+  },
+  {
+   "de": "Wie findest du dieses Hemd?",
+   "ar": "رأيك ايه في القميص ده؟",
+   "audio": "audio/a2/s4/s03-wie-findest-du-dieses-hemd.mp3"
+  },
+  {
+   "de": "Ich finde es teuer, aber ich kaufe es.",
+   "ar": "شايفه غالي، لكن هشتريه.",
+   "audio": "audio/a2/s4/s04-ich-finde-es-teuer-aber-ich-kaufe-es.mp3"
+  },
+  {
+   "de": "Welcher Pizza gibst du fünf Sterne?",
+   "ar": "بتدي أنهي بيتزا خمس نجوم؟",
+   "audio": "audio/a2/s4/s05-welcher-pizza-gibst-du-fuenf-sterne.mp3"
+  },
+  {
+   "de": "Ich gebe dieser Pizza fünf Sterne. Sie ist lecker!",
+   "ar": "بادي البيتزا دي خمس نجوم. هي لذيذة!",
+   "audio": "audio/a2/s4/s06-ich-gebe-dieser-pizza-fuenf-sterne-sie-ist-l.mp3"
+  },
+  {
+   "de": "Ich brauche ihn.",
+   "ar": "أنا محتاجه.",
+   "audio": "audio/a2/s4/s07-ich-brauche-ihn.mp3"
+  },
+  {
+   "de": "Ich brauche es.",
+   "ar": "أنا محتاجه (للمحايد).",
+   "audio": "audio/a2/s4/s08-ich-brauche-es.mp3"
+  },
+  {
+   "de": "Ich brauche sie.",
+   "ar": "أنا محتاجها.",
+   "audio": "audio/a2/s4/s09-ich-brauche-sie.mp3"
+  },
+  {
+   "de": "Dieser Kaffee ist kalt.",
+   "ar": "القهوة دي ساقعة.",
+   "audio": "audio/a2/s4/s10-dieser-kaffee-ist-kalt.mp3"
+  },
+  {
+   "de": "Dieses Handy ist sehr teuer.",
+   "ar": "الموبايل ده غالي جدًا.",
+   "audio": "audio/a2/s4/s11-dieses-handy-ist-sehr-teuer.mp3"
+  },
+  {
+   "de": "Ich gebe dieser Jacke fünf Sterne.",
+   "ar": "بادي الجاكيت ده خمس نجوم.",
+   "audio": "audio/a2/s4/s12-ich-gebe-dieser-jacke-fuenf-sterne.mp3"
+  },
+  {
+   "de": "Ich ziehe diese Jacke an, denn sie ist bequem.",
+   "ar": "بلبس الجاكيت ده عشان مريح.",
+   "audio": "audio/a2/s4/s13-ich-ziehe-diese-jacke-an-denn-sie-ist-bequem.mp3"
+  },
+  {
+   "de": "Jeden Morgen muss ich mich schnell waschen.",
+   "ar": "كل صباح لازم أغتسل بسرعة.",
+   "audio": "audio/a2/s4/s14-jeden-morgen-muss-ich-mich-schnell-waschen.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "Pullover",
+   "ar": "البلوفر",
+   "audio": "audio/a2/s4/vocab/01-pullover.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Tisch",
+   "ar": "الترابيزة",
+   "audio": "audio/a2/s4/vocab/02-tisch.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Kaffee",
+   "ar": "القهوة",
+   "audio": "audio/a2/s4/vocab/03-kaffee.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Rock",
+   "ar": "الجيبة / التنورة",
+   "audio": "audio/a2/s4/vocab/04-rock.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Mantel",
+   "ar": "البالطو / المعطف",
+   "audio": "audio/a2/s4/vocab/05-mantel.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Pizza",
+   "ar": "البيتزا",
+   "audio": "audio/a2/s4/vocab/06-pizza.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Jacke",
+   "ar": "الجاكيت",
+   "audio": "audio/a2/s4/vocab/07-jacke.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Tasche",
+   "ar": "الشنطة",
+   "audio": "audio/a2/s4/vocab/08-tasche.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Hose",
+   "ar": "البنطلون",
+   "audio": "audio/a2/s4/vocab/09-hose.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Hemd",
+   "ar": "القميص",
+   "audio": "audio/a2/s4/vocab/10-hemd.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Handy",
+   "ar": "الموبايل",
+   "audio": "audio/a2/s4/vocab/11-handy.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Kleid",
+   "ar": "الفستان",
+   "audio": "audio/a2/s4/vocab/12-kleid.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Buch",
+   "ar": "الكتاب",
+   "audio": "audio/a2/s4/vocab/13-buch.mp3",
+   "article": "das"
+  },
+  {
+   "de": "T-Shirt",
+   "ar": "التيشيرت",
+   "audio": "audio/a2/s4/vocab/14-t-shirt.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Schuhe",
+   "ar": "الجزم",
+   "audio": "audio/a2/s4/vocab/15-schuhe.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Sterne",
+   "ar": "النجوم",
+   "audio": "audio/a2/s4/vocab/16-sterne.mp3",
+   "article": "die"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "(der Tisch - Akk) Ich kaufe dies_____ Tisch.",
+   "options": [
+    "diesen",
+    "dieser",
+    "diesem"
+   ],
+   "answer": 0,
+   "why": "der في الأكوزاتيف (مفعول-حركة) النهاية -en: diesen.",
+   "ar": "بشتري الترابيزة دي."
+  },
+  {
+   "prompt": "(das Handy - Nom) Dies_____ Handy ist sehr teuer.",
+   "options": [
+    "dieses",
+    "diesen",
+    "diese"
+   ],
+   "answer": 0,
+   "why": "das في حالة الوصف (Nom) النهاية -es: dieses.",
+   "ar": "الموبايل ده غالي جدًا."
+  },
+  {
+   "prompt": "(die Jacke - Dat) Ich gebe dies_____ Jacke fünf Sterne.",
+   "options": [
+    "dieser",
+    "diese",
+    "diesen"
+   ],
+   "answer": 0,
+   "why": "die في الداتيف (تقييم لصالحها) ترجع لأصلها der: dieser.",
+   "ar": "بادي الجاكيت ده خمس نجوم."
+  },
+  {
+   "prompt": "(die Schuhe - Akk) Ich brauche dies_____ Schuhe.",
+   "options": [
+    "diese",
+    "diesen",
+    "dieser"
+   ],
+   "answer": 0,
+   "why": "الجمع في الأكوزاتيف زي المؤنث: diese.",
+   "ar": "محتاج الجزم دي."
+  },
+  {
+   "prompt": "(der Kaffee - Nom) Dies_____ Kaffee ist kalt.",
+   "options": [
+    "dieser",
+    "diesen",
+    "diesem"
+   ],
+   "answer": 0,
+   "why": "der في حالة الوصف (Nom) النهاية -er: dieser.",
+   "ar": "القهوة دي ساقعة."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "رابع حلقة في المستوى التاني: هذا أم أي؟ هتتعلم تسأل وتجاوب بأدوات الإشارة والاستفهام (dies- وwelch-) بنفس النهايات، وتعوّض عن الكلمة المكررة بالضمير الصح (ihn/es/sie)، وتتسوق وتقيّم حاجات بنجوم."
+ },
+ "grammar": [
+  {
+   "title": "Dies- و -Welch: التوأم",
+   "rule": "أداة الإشارة (dies-) وأداة الاستفهام (-welch) توأم، نفس النهايات بالظبط. النهاية بتعتمد على النوع (der/die/das/جمع) والحالة (Nom وصف / Akk مفعول / Dat مستفيد-تقييم).",
+   "forms": [
+    "der: -er / -en / -em",
+    "die: -e / -e / -er",
+    "das: -es / -es / -em",
+    "Pl.: -e / -e / -en"
+   ],
+   "examples": [
+    {
+     "de": "Welchen Pullover kaufst du? - Ich kaufe diesen Pullover.",
+     "ar": "بتشتري أنهي بلوفر؟ - بشتري البلوفر ده."
+    },
+    {
+     "de": "Welcher Pizza gibst du fünf Sterne? - Ich gebe dieser Pizza fünf Sterne.",
+     "ar": "بتدي أنهي بيتزا خمس نجوم؟ - بادي البيتزا دي خمس نجوم."
+    }
+   ]
+  },
+  {
+   "title": "النهايات الملونة اللي لازم تتحفظ",
+   "rule": "خمس نهايات بس: er وen وem وe وes. في الأكوزاتيف المذكر بس هو اللي بيتغير (-en)، والباقي زي الأصل.",
+   "forms": [
+    "-er",
+    "-en",
+    "-em",
+    "-e",
+    "-es"
+   ],
+   "examples": [
+    {
+     "de": "Ich kaufe diesen Tisch.",
+     "ar": "بشتري الترابيزة دي."
+    },
+    {
+     "de": "Dieses Hemd ist neu.",
+     "ar": "القميص ده جديد."
+    }
+   ]
+  },
+  {
+   "title": "ضمائر التعويض في الأكوزاتيف",
+   "rule": "عشان منكررش الكلمة، بنعوّض عنها بضمير: der تبقى ihn، وdas تبقى es، وdie (مفرد أو جمع) تبقى sie.",
+   "forms": [
+    "der - ihn",
+    "das - es",
+    "die/Pl. - sie"
+   ],
+   "examples": [
+    {
+     "de": "Wo ist der Mantel? Ich suche ihn.",
+     "ar": "فين البالطو؟ بدور عليه."
+    },
+    {
+     "de": "Das T-Shirt ist schön. Ich kaufe es.",
+     "ar": "التيشيرت جميل. هشتريه."
+    }
+   ]
+  },
+  {
+   "title": "gefällt: فعل الإعجاب بالداتيف",
+   "rule": "gefallen فعل بيطلب داتيف من نفسه: الحاجة هي الفاعل، وإنت اللي في الداتيف: Das gefällt mir (ده عجبني).",
+   "forms": [
+    "Das gefällt mir",
+    "Das gefällt dir"
+   ],
+   "examples": [
+    {
+     "de": "Dieses Kleid gefällt mir.",
+     "ar": "الفستان ده عجبني."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "kaufe",
+     "diesen",
+     "Pullover",
+     "Ich"
+    ],
+    "answer": "Ich kaufe diesen Pullover.",
+    "ar": "بشتري البلوفر ده."
+   },
+   {
+    "tiles": [
+     "ziehe",
+     "diese Jacke",
+     "an",
+     "denn",
+     "sie",
+     "ist",
+     "bequem",
+     "Ich"
+    ],
+    "answer": "Ich ziehe diese Jacke an, denn sie ist bequem.",
+    "ar": "بلبس الجاكيت ده عشان مريح."
+   },
+   {
+    "tiles": [
+     "muss",
+     "mich",
+     "schnell",
+     "waschen",
+     "Jeden Morgen",
+     "ich"
+    ],
+    "answer": "Jeden Morgen muss ich mich schnell waschen.",
+    "ar": "كل صباح لازم أغتسل بسرعة."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Ich kaufe diesen Pullover.",
+     "Ich kaufe dieser Pullover."
+    ],
+    "answer": 0,
+    "why": "der في الأكوزاتيف النهاية -en مش -er: diesen.",
+    "ar": "بشتري البلوفر ده."
+   },
+   {
+    "options": [
+     "Wo ist der Mantel? Ich suche ihn.",
+     "Wo ist der Mantel? Ich suche es."
+    ],
+    "answer": 0,
+    "why": "der في الأكوزاتيف بنعوّض عنه بـ ihn.",
+    "ar": "فين البالطو؟ بدور عليه."
+   },
+   {
+    "options": [
+     "Ich ziehe diese Jacke an, denn sie ist bequem.",
+     "Ich ziehe diese Jacke an, denn bequem ist sie."
+    ],
+    "answer": 0,
+    "why": "بعد denn ترتيب الجملة عادي: الفعل في المركز التاني (sie ist).",
+    "ar": "بلبس الجاكيت ده عشان مريح."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "رأيك ايه في القميص ده؟",
+    "de": "Wie findest du dieses Hemd?",
+    "audio": "audio/a2/s4/tr1.mp3"
+   },
+   {
+    "ar": "بشتري الفستان ده.",
+    "de": "Ich kaufe dieses Kleid.",
+    "audio": "audio/a2/s4/tr2.mp3"
+   },
+   {
+    "ar": "أنهي جاكيت هتلبس النهاردة؟",
+    "de": "Welche Jacke ziehst du dir heute an?",
+    "audio": "audio/a2/s4/tr3.mp3"
+   },
+   {
+    "ar": "مش عايز أشتري البلوفر ده، بل عايز أشتري القميص ده.",
+    "de": "Ich will diesen Pullover nicht kaufen, sondern ich will dieses Hemd kaufen.",
+    "audio": "audio/a2/s4/tr4.mp3"
+   },
+   {
+    "ar": "البيتزا دي لذيذة، باديها خمس نجوم.",
+    "de": "Diese Pizza ist lecker. Ich gebe ihr fünf Sterne.",
+    "audio": "audio/a2/s4/tr5.mp3"
+   },
+   {
+    "ar": "الكتاب ده قديم، لكن جميل.",
+    "de": "Dieses Buch ist alt, aber schön.",
+    "audio": "audio/a2/s4/tr6.mp3"
+   }
+  ]
+ }
+}
