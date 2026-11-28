@@ -1,0 +1,440 @@
+{
+  "id": 2,
+  "level": "b1",
+  "title": "Episode 2: Two verbs in one sentence (infinitive with zu)",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=hJ2hRRY4tzQ",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel",
+    "open_url": "https://www.youtube.com/watch?v=hJ2hRRY4tzQ"
+  },
+  "vocab": [
+    {
+      "id": "verbs",
+      "label": "Verbs from the video",
+      "words": [
+        {
+          "de": "beginnen",
+          "ar": "بدأ",
+          "audio": "audio/b1/s02/vocab/01-beginnen.mp3"
+        },
+        {
+          "de": "versuchen",
+          "ar": "حاول",
+          "audio": "audio/b1/s02/vocab/02-versuchen.mp3"
+        },
+        {
+          "de": "vergessen",
+          "ar": "نسي",
+          "audio": "audio/b1/s02/vocab/03-vergessen.mp3"
+        },
+        {
+          "de": "beschließen",
+          "ar": "قرر",
+          "audio": "audio/b1/s02/vocab/04-beschliessen.mp3"
+        }
+      ]
+    },
+    {
+      "id": "expressions",
+      "label": "Expressions",
+      "words": [
+        {
+          "de": "bereit sein",
+          "ar": "جاهز",
+          "audio": "audio/b1/s02/vocab/05-bereit-sein.mp3"
+        },
+        {
+          "de": "erlaubt sein",
+          "ar": "مسموح",
+          "audio": "audio/b1/s02/vocab/06-erlaubt-sein.mp3"
+        },
+        {
+          "de": "Lust haben",
+          "ar": "عندي رغبة",
+          "audio": "audio/b1/s02/vocab/07-lust-haben.mp3"
+        }
+      ]
+    },
+    {
+      "id": "words",
+      "label": "Words",
+      "words": [
+        {
+          "de": "das Essen",
+          "ar": "الأكل",
+          "audio": "audio/b1/s02/vocab/08-das-essen.mp3"
+        },
+        {
+          "de": "die Hausaufgaben",
+          "ar": "الواجب",
+          "audio": "audio/b1/s02/vocab/09-die-hausaufgaben.mp3"
+        },
+        {
+          "de": "die Tür",
+          "ar": "الباب",
+          "audio": "audio/b1/s02/vocab/10-die-tuer.mp3"
+        },
+        {
+          "de": "etwas Neues",
+          "ar": "حاجة جديدة",
+          "audio": "audio/b1/s02/vocab/11-etwas-neues.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Ich beginne, das Essen zu kochen.",
+      "ar": "ببدأ أطبخ الأكل.",
+      "audio": "audio/b1/s02/s01-ich-beginne-das-essen-zu-kochen.mp3"
+    },
+    {
+      "de": "Ich habe Lust, einzukaufen.",
+      "ar": "عندي رغبة أروح أشتري حاجات.",
+      "audio": "audio/b1/s02/s02-ich-habe-lust-einzukaufen.mp3"
+    },
+    {
+      "de": "Ich beginne, die Hausaufgaben zu schreiben.",
+      "ar": "ببدأ أكتب الواجب.",
+      "audio": "audio/b1/s02/s03-ich-beginne-die-hausaufgaben-zu-schreiben.mp3"
+    },
+    {
+      "de": "Er versucht, einen Kuchen zu backen.",
+      "ar": "هو بيحاول يعمل كيكة.",
+      "audio": "audio/b1/s02/s04-er-versucht-einen-kuchen-zu-backen.mp3"
+    },
+    {
+      "de": "Ich versuche, das Problem zu lösen.",
+      "ar": "بحاول أحل المشكلة.",
+      "audio": "audio/b1/s02/s05-ich-versuche-das-problem-zu-loesen.mp3"
+    },
+    {
+      "de": "Ich habe vergessen, die Tür zuzumachen.",
+      "ar": "نسيت أقفل الباب.",
+      "audio": "audio/b1/s02/s06-ich-habe-vergessen-die-tuer-zuzumachen.mp3"
+    },
+    {
+      "de": "Er hat beschlossen, Deutsch zu lernen.",
+      "ar": "هو قرر يتعلم ألماني.",
+      "audio": "audio/b1/s02/s07-er-hat-beschlossen-deutsch-zu-lernen.mp3"
+    },
+    {
+      "de": "Ich bin bereit, dir zu helfen.",
+      "ar": "أنا جاهز أساعدك.",
+      "audio": "audio/b1/s02/s08-ich-bin-bereit-dir-zu-helfen.mp3"
+    },
+    {
+      "de": "Ist es hier erlaubt, zu parken?",
+      "ar": "مسموح أركن هنا؟",
+      "audio": "audio/b1/s02/s09-ist-es-hier-erlaubt-zu-parken.mp3"
+    },
+    {
+      "de": "Ich habe Lust, etwas Neues zu lernen.",
+      "ar": "عندي رغبة أتعلم حاجة جديدة.",
+      "audio": "audio/b1/s02/s10-ich-habe-lust-etwas-neues-zu-lernen.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "beginnen",
+      "ar": "بدأ",
+      "audio": "audio/b1/s02/vocab/01-beginnen.mp3"
+    },
+    {
+      "de": "versuchen",
+      "ar": "حاول",
+      "audio": "audio/b1/s02/vocab/02-versuchen.mp3"
+    },
+    {
+      "de": "vergessen",
+      "ar": "نسي",
+      "audio": "audio/b1/s02/vocab/03-vergessen.mp3"
+    },
+    {
+      "de": "beschließen",
+      "ar": "قرر",
+      "audio": "audio/b1/s02/vocab/04-beschliessen.mp3"
+    },
+    {
+      "de": "bereit sein",
+      "ar": "جاهز",
+      "audio": "audio/b1/s02/vocab/05-bereit-sein.mp3"
+    },
+    {
+      "de": "erlaubt sein",
+      "ar": "مسموح",
+      "audio": "audio/b1/s02/vocab/06-erlaubt-sein.mp3"
+    },
+    {
+      "de": "Lust haben",
+      "ar": "عندي رغبة",
+      "audio": "audio/b1/s02/vocab/07-lust-haben.mp3"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ich beginne, das Essen _______ kochen.",
+      "options": [
+        "zu",
+        "zum",
+        "bei"
+      ],
+      "answer": 0,
+      "why": "الفعل التاني مصدر في الآخر وقبله zu.",
+      "ar": "ببدأ أطبخ الأكل."
+    },
+    {
+      "prompt": "Er versucht, einen Kuchen _______ backen.",
+      "options": [
+        "zu",
+        "zum",
+        "mit"
+      ],
+      "answer": 0,
+      "why": "zu + المصدر في الآخر.",
+      "ar": "هو بيحاول يعمل كيكة."
+    },
+    {
+      "prompt": "Ich habe Lust, _______.",
+      "options": [
+        "einzukaufen",
+        "zu einkaufen",
+        "einkaufen zu"
+      ],
+      "answer": 0,
+      "why": "الفعل المنفصل: zu بتدخل في النص وتلزق فيه = einzukaufen.",
+      "ar": "عندي رغبة أروح أشتري حاجات."
+    },
+    {
+      "prompt": "Ich habe vergessen, die Tür _______.",
+      "options": [
+        "zuzumachen",
+        "zu machen",
+        "machen zu"
+      ],
+      "answer": 0,
+      "why": "zumachen منفصل: zu في النص = zuzumachen.",
+      "ar": "نسيت أقفل الباب."
+    },
+    {
+      "prompt": "_______ es hier erlaubt, zu parken?",
+      "options": [
+        "Ist",
+        "Bist",
+        "Hat"
+      ],
+      "answer": 0,
+      "why": "سؤال بـ ist في الأول.",
+      "ar": "مسموح أركن هنا؟"
+    },
+    {
+      "prompt": "Ich kann Deutsch _______.",
+      "options": [
+        "lernen",
+        "zu lernen",
+        "lernen zu"
+      ],
+      "answer": 0,
+      "why": "الأفعال الناقصة زي können بتيجي من غير zu.",
+      "ar": "أقدر أتعلم ألماني."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الحلقة ٢ من B1: فعلين في جملة واحدة. الفعل الأول بيتصرف والتاني مصدر في الآخر مع zu، والفعل المنفصل بياخد zu في النص. الأفعال الناقصة من غير zu. (محتوى من الفيديو - صياغة تعليمية مراجعة على التسجيل الأصلي؛ المدرس بيشير لـ PDF على Barbary مش مرفوع هنا)"
+  },
+  "grammar": [
+    {
+      "title": "فعلين في جملة واحدة",
+      "rule": "الفعل الأول بيتصرف، والتاني بيروح الآخر في صيغة المصدر وقبله zu. الجزء التاني مفيهوش فاعل جديد، عشان كده الفعل ما بيتصرفش.",
+      "forms": [
+        "Ich beginne, ... zu kochen.",
+        "Er versucht, ... zu backen."
+      ],
+      "examples": [
+        {
+          "de": "Ich beginne, das Essen zu kochen.",
+          "ar": "ببدأ أطبخ الأكل."
+        },
+        {
+          "de": "Er hat beschlossen, Deutsch zu lernen.",
+          "ar": "هو قرر يتعلم ألماني."
+        }
+      ]
+    },
+    {
+      "title": "الفعل المنفصل: zu في النص",
+      "rule": "لو الفعل التاني منفصل، zu بتدخل بين جزئيه وتلزق فيه: einkaufen - einzukaufen، zumachen - zuzumachen.",
+      "forms": [
+        "einzukaufen",
+        "zuzumachen"
+      ],
+      "examples": [
+        {
+          "de": "Ich habe Lust, einzukaufen.",
+          "ar": "عندي رغبة أروح أشتري حاجات."
+        },
+        {
+          "de": "Ich habe vergessen, die Tür zuzumachen.",
+          "ar": "نسيت أقفل الباب."
+        }
+      ]
+    },
+    {
+      "title": "الأفعال الناقصة من غير zu",
+      "rule": "القاعدة دي للأفعال اللي في القايمة بس. الأفعال الناقصة زي können وmüssen بتيجي من غير zu، وحلقة ٣ بتشرح الفرق.",
+      "forms": [
+        "Ich kann Deutsch lernen.",
+        "Ich muss Deutsch lernen."
+      ],
+      "examples": [
+        {
+          "de": "Ich kann Deutsch lernen.",
+          "ar": "أقدر أتعلم ألماني."
+        }
+      ]
+    },
+    {
+      "title": "حدود الحلقة",
+      "rule": "قايمة الأفعال من التسجيل ومش كاملة، والجمل الألمانية صياغة تعليمية مبنية على أفعال المدرس. المدرس بيشير لملف PDF بالتبديلات تحت الفيديو على Barbary (مش مرفوع هنا).",
+      "forms": [
+        "الأفعال: beginnen, versuchen, vergessen, beschließen, bereit sein, erlaubt sein, Lust haben"
+      ],
+      "examples": [
+        {
+          "de": "Ich bin bereit, dir zu helfen.",
+          "ar": "أنا جاهز أساعدك."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "beginne,",
+          "Ich",
+          "das Essen zu kochen."
+        ],
+        "answer": "Ich beginne, das Essen zu kochen.",
+        "ar": "ببدأ أطبخ الأكل."
+      },
+      {
+        "tiles": [
+          "versucht,",
+          "Er",
+          "einen Kuchen zu backen."
+        ],
+        "answer": "Er versucht, einen Kuchen zu backen.",
+        "ar": "هو بيحاول يعمل كيكة."
+      },
+      {
+        "tiles": [
+          "habe",
+          "Ich",
+          "Lust, einzukaufen."
+        ],
+        "answer": "Ich habe Lust, einzukaufen.",
+        "ar": "عندي رغبة أروح أشتري حاجات."
+      },
+      {
+        "tiles": [
+          "bin",
+          "Ich",
+          "bereit, dir zu helfen."
+        ],
+        "answer": "Ich bin bereit, dir zu helfen.",
+        "ar": "أنا جاهز أساعدك."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Ich beginne, das Essen zu kochen.",
+          "Ich beginne, das Essen kochen."
+        ],
+        "answer": 0,
+        "why": "الفعل التاني مصدر ولازم zu قبله.",
+        "ar": "ببدأ أطبخ الأكل."
+      },
+      {
+        "options": [
+          "Ich habe vergessen, die Tür zuzumachen.",
+          "Ich habe vergessen, die Tür zu zumachen."
+        ],
+        "answer": 0,
+        "why": "الفعل المنفصل: zu في النص = zuzumachen مش zu zumachen.",
+        "ar": "نسيت أقفل الباب."
+      },
+      {
+        "options": [
+          "Ich kann Deutsch lernen.",
+          "Ich kann Deutsch zu lernen."
+        ],
+        "answer": 0,
+        "why": "الأفعال الناقصة زي können من غير zu.",
+        "ar": "أقدر أتعلم ألماني."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "نسيت أقفل الباب.",
+        "de": "Ich habe vergessen, die Tür zuzumachen.",
+        "audio": "audio/b1/s02/tr1.mp3"
+      },
+      {
+        "ar": "هو قرر يتعلم ألماني.",
+        "de": "Er hat beschlossen, Deutsch zu lernen.",
+        "audio": "audio/b1/s02/tr2.mp3"
+      },
+      {
+        "ar": "أنا جاهز أساعدك.",
+        "de": "Ich bin bereit, dir zu helfen.",
+        "audio": "audio/b1/s02/tr3.mp3"
+      },
+      {
+        "ar": "عندي رغبة أتعلم حاجة جديدة.",
+        "de": "Ich habe Lust, etwas Neues zu lernen.",
+        "audio": "audio/b1/s02/tr4.mp3"
+      }
+    ]
+  },
+  "provenance": {
+    "type": "video-sourced",
+    "caveat_ar": "مفيش ملف PDF مرفوع على صفحة الحلقة دي؛ المدرس بيشير في التسجيل لملف PDF بالتبديلات تحت الفيديو على Barbary (مش مرفوع هنا). المحتوى اتراجع على التسجيل الصوتي الأصلي: المواضيع والشرح والأمثلة والتمارين مطابقة. الصياغة الألمانية المكتوبة صياغة تعليمية من إعداد المدرس، مش نسخ حرفي موثق من كلام الفيديو. قايمة الأفعال من التسجيل ومش كاملة.",
+    "caveat_en": "No PDF is uploaded on this lesson page; the teacher references a PDF with variations under the video on Barbary (not uploaded here). Content reviewed against the original uploaded recording (topics, teaching, examples, exercises match); the written German is educational rendering, not verbatim-verified transcription. Verb list from the recording, not exhaustive.",
+    "source_video": "https://www.youtube.com/watch?v=hJ2hRRY4tzQ",
+    "source_row": "425e697c-9519-81f4-b90c-f21a2b7b44bf"
+  }
+}
