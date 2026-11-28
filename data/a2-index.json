@@ -1,0 +1,145 @@
+{
+ "level": "A2",
+ "sessions": [
+  {
+   "sid": "1",
+   "dir": "a2/s01",
+   "code": "A2-S01",
+   "route": "a2/s01/",
+   "title": "Session 1: Morning routine and reflexive verbs",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=BAaqfxrvtn4"
+   ]
+  },
+  {
+   "sid": "2",
+   "dir": "a2/s02",
+   "code": "A2-S02",
+   "route": "a2/s02/",
+   "title": "Session 2: My packed schedule (appointments and modal verbs)",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=yzEfK7ZPBzE"
+   ]
+  },
+  {
+   "sid": "3",
+   "dir": "a2/s03",
+   "code": "A2-S03",
+   "route": "a2/s03/",
+   "title": "Session 3: Plans cancelled (simple connectors)",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=fEscykc1s18"
+   ]
+  },
+  {
+   "sid": "4",
+   "dir": "a2/s04",
+   "code": "A2-S04",
+   "route": "a2/s04/",
+   "title": "Session 4: This one or which one? (demonstratives and pronouns)",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=BvRUU_T8Xfk"
+   ]
+  },
+  {
+   "sid": "5",
+   "dir": "a2/s05",
+   "code": "A2-S05",
+   "route": "a2/s05/",
+   "title": "Session 5: My family and my things (possessives)",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=-w4yDJ5muGc"
+   ]
+  },
+  {
+   "sid": "6",
+   "dir": "a2/s06",
+   "code": "A2-S06",
+   "route": "a2/s06/",
+   "title": "Sessions 6+7: What did you do yesterday? (Perfekt without ge-)",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=sLagWE-CZyQ"
+   ]
+  },
+  {
+   "sid": "8",
+   "dir": "a2/s08",
+   "code": "A2-S08",
+   "route": "a2/s08/",
+   "title": "Sessions 8+9: My childhood (simple past and als)",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=OV-YNgG31Ic"
+   ]
+  },
+  {
+   "sid": "10",
+   "dir": "a2/s10",
+   "code": "A2-S10",
+   "route": "a2/s10/",
+   "title": "Session 10: deshalb and trotzdem (strong connectors)",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=tgGlfOusotY"
+   ]
+  },
+  {
+   "sid": "11",
+   "dir": "a2/s11",
+   "code": "A2-S11",
+   "route": "a2/s11/",
+   "title": "Session 11: weil and dass (subordinate clauses)",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=QHNftQD-2HE"
+   ]
+  },
+  {
+   "sid": "12",
+   "dir": "a2/s12",
+   "code": "A2-S12",
+   "route": "a2/s12/",
+   "title": "Episode 12: Medical basics (At the doctor)",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=NQHN4liV6RQ"
+   ]
+  },
+  {
+   "sid": "13",
+   "dir": "a2/s13",
+   "code": "A2-S13",
+   "route": "a2/s13/",
+   "title": "Episode 13: Reason connectors weil and denn",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=6q9NdP5Aegc"
+   ]
+  },
+  {
+   "sid": "14",
+   "dir": "a2/s14",
+   "code": "A2-S14",
+   "route": "a2/s14/",
+   "title": "Episode 14: Condition and indirect question ob and wenn",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=VpuF2D7uheg"
+   ]
+  },
+  {
+   "sid": "15",
+   "dir": "a2/s15",
+   "code": "A2-S15",
+   "route": "a2/s15/",
+   "title": "Session 15: Where is the key? (Wechselpräpositionen 1+2)",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=D6RZP-Y79xY"
+   ]
+  },
+  {
+   "sid": "rev",
+   "dir": "a2/srev",
+   "code": "A2-Srev",
+   "route": "a2/srev/",
+   "title": "Review: Goethe Station 1 (Lessons 1-5)",
+   "video_urls": [
+    "https://www.youtube.com/watch?v=TVAKhcR3Shw"
+   ]
+  }
+ ]
+}
