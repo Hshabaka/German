@@ -1,0 +1,694 @@
+{
+  "id": 13,
+  "level": "a1",
+  "title": "Session 13: My family and my things",
+  "video": {
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=GMlUvMxIShY",
+    "backup": "Copied in Notion",
+    "note": "Lesson video from the teacher's YouTube channel."
+  },
+  "vocab": [
+    {
+      "id": "possessives-ich-du",
+      "label": "Mein and dein",
+      "words": [
+        {
+          "de": "mein",
+          "ar": "بتاعي (مذكر/محايد)",
+          "audio": "audio/s13/vocab/01-mein.mp3"
+        },
+        {
+          "de": "meine",
+          "ar": "بتاعتي (مؤنث/جمع)",
+          "audio": "audio/s13/vocab/02-meine.mp3"
+        },
+        {
+          "de": "dein",
+          "ar": "بتاعك (مذكر/محايد)",
+          "audio": "audio/s13/vocab/03-dein.mp3"
+        },
+        {
+          "de": "deine",
+          "ar": "بتاعتك (مؤنث/جمع)",
+          "audio": "audio/s13/vocab/04-deine.mp3"
+        }
+      ]
+    },
+    {
+      "id": "possessives-er-sie",
+      "label": "Sein and ihr",
+      "words": [
+        {
+          "de": "sein",
+          "ar": "بتاعه (مذكر/محايد)",
+          "audio": "audio/s13/vocab/05-sein.mp3"
+        },
+        {
+          "de": "seine",
+          "ar": "بتاعته (مؤنث/جمع)",
+          "audio": "audio/s13/vocab/06-seine.mp3"
+        },
+        {
+          "de": "ihr",
+          "ar": "بتاعها (مذكر/محايد)",
+          "audio": "audio/s13/vocab/07-ihr.mp3"
+        },
+        {
+          "de": "ihre",
+          "ar": "بتاعتها (مؤنث/جمع)",
+          "audio": "audio/s13/vocab/08-ihre.mp3"
+        }
+      ]
+    },
+    {
+      "id": "things",
+      "label": "Things",
+      "words": [
+        {
+          "de": "Buch",
+          "ar": "الكتاب",
+          "audio": "audio/s13/vocab/09-buch.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Wohnung",
+          "ar": "الشقة",
+          "audio": "audio/s13/vocab/10-wohnung.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Handy",
+          "ar": "الموبايل",
+          "audio": "audio/s13/vocab/11-handy.mp3",
+          "article": "das"
+        },
+        {
+          "de": "Tasche",
+          "ar": "الحقيبة",
+          "audio": "audio/s13/vocab/12-tasche.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Auto",
+          "ar": "العربية",
+          "audio": "audio/s13/vocab/13-auto.mp3",
+          "article": "das"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "label": "Family",
+      "words": [
+        {
+          "de": "Familie",
+          "ar": "العائلة",
+          "audio": "audio/s13/vocab/14-familie.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Vater",
+          "ar": "الأب",
+          "audio": "audio/s13/vocab/15-vater.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Mutter",
+          "ar": "الأم",
+          "audio": "audio/s13/vocab/16-mutter.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Bruder",
+          "ar": "الأخ",
+          "audio": "audio/s13/vocab/17-bruder.mp3",
+          "article": "der"
+        },
+        {
+          "de": "Schwester",
+          "ar": "الأخت",
+          "audio": "audio/s13/vocab/18-schwester.mp3",
+          "article": "die"
+        },
+        {
+          "de": "Eltern",
+          "ar": "الوالدين",
+          "audio": "audio/s13/vocab/19-eltern.mp3",
+          "article": "die"
+        }
+      ]
+    },
+    {
+      "id": "verb",
+      "label": "Verb",
+      "words": [
+        {
+          "de": "lieben",
+          "ar": "يحب",
+          "audio": "audio/s13/vocab/20-lieben.mp3"
+        }
+      ]
+    },
+    {
+      "id": "phrases",
+      "label": "Key phrases",
+      "words": [
+        {
+          "de": "Das ist mein Buch",
+          "ar": "هذا كتابي",
+          "audio": "audio/s13/vocab/21-das-ist-mein-buch.mp3"
+        },
+        {
+          "de": "Das ist seine Familie",
+          "ar": "هذه عائلته",
+          "audio": "audio/s13/vocab/22-das-ist-seine-familie.mp3"
+        },
+        {
+          "de": "Das sind ihre Eltern",
+          "ar": "هؤلاء والداها",
+          "audio": "audio/s13/vocab/23-das-sind-ihre-eltern.mp3"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "de": "Das ist mein Buch.",
+      "ar": "هذا كتابي.",
+      "audio": "audio/s13/s01-das-ist-mein-buch.mp3"
+    },
+    {
+      "de": "Das ist meine Wohnung.",
+      "ar": "هذه شقتي.",
+      "audio": "audio/s13/s02-das-ist-meine-wohnung.mp3"
+    },
+    {
+      "de": "Das ist dein Handy.",
+      "ar": "هذا موبايلك.",
+      "audio": "audio/s13/s03-das-ist-dein-handy.mp3"
+    },
+    {
+      "de": "Das ist deine Tasche.",
+      "ar": "هذه حقيبتك.",
+      "audio": "audio/s13/s04-das-ist-deine-tasche.mp3"
+    },
+    {
+      "de": "Das ist sein Auto.",
+      "ar": "هذه سيارته.",
+      "audio": "audio/s13/s05-das-ist-sein-auto.mp3"
+    },
+    {
+      "de": "Das ist seine Wohnung.",
+      "ar": "هذه شقته.",
+      "audio": "audio/s13/s06-das-ist-seine-wohnung.mp3"
+    },
+    {
+      "de": "Das ist ihr Auto.",
+      "ar": "هذه سيارتها.",
+      "audio": "audio/s13/s07-das-ist-ihr-auto.mp3"
+    },
+    {
+      "de": "Das ist ihre Tasche.",
+      "ar": "هذه حقيبتها.",
+      "audio": "audio/s13/s08-das-ist-ihre-tasche.mp3"
+    },
+    {
+      "de": "Das ist seine Familie.",
+      "ar": "هذه عائلته.",
+      "audio": "audio/s13/s09-das-ist-seine-familie.mp3"
+    },
+    {
+      "de": "Das ist sein Vater und das ist seine Mutter.",
+      "ar": "هذا والده وهذه والدته.",
+      "audio": "audio/s13/s10-das-ist-sein-vater-und-das-ist-seine-mutter.mp3"
+    },
+    {
+      "de": "Er liebt seine Eltern.",
+      "ar": "هو يحب والديه.",
+      "audio": "audio/s13/s11-er-liebt-seine-eltern.mp3"
+    },
+    {
+      "de": "Das ist ihre Familie.",
+      "ar": "هذه عائلتها.",
+      "audio": "audio/s13/s12-das-ist-ihre-familie.mp3"
+    },
+    {
+      "de": "Das ist ihr Bruder und das ist ihre Schwester.",
+      "ar": "هذا أخوها وهذه أختها.",
+      "audio": "audio/s13/s13-das-ist-ihr-bruder-und-das-ist-ihre-schwester.mp3"
+    },
+    {
+      "de": "Sie liebt ihre Familie.",
+      "ar": "هي تحب عائلتها.",
+      "audio": "audio/s13/s14-sie-liebt-ihre-familie.mp3"
+    },
+    {
+      "de": "Das sind ihre Eltern.",
+      "ar": "هؤلاء والداها.",
+      "audio": "audio/s13/s15-das-sind-ihre-eltern.mp3"
+    }
+  ],
+  "cards": [
+    {
+      "de": "Familie",
+      "ar": "العائلة",
+      "audio": "audio/s13/vocab/14-familie.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Vater",
+      "ar": "الأب",
+      "audio": "audio/s13/vocab/15-vater.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Mutter",
+      "ar": "الأم",
+      "audio": "audio/s13/vocab/16-mutter.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Bruder",
+      "ar": "الأخ",
+      "audio": "audio/s13/vocab/17-bruder.mp3",
+      "article": "der"
+    },
+    {
+      "de": "Schwester",
+      "ar": "الأخت",
+      "audio": "audio/s13/vocab/18-schwester.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Eltern",
+      "ar": "الوالدين",
+      "audio": "audio/s13/vocab/19-eltern.mp3",
+      "article": "die"
+    },
+    {
+      "de": "lieben",
+      "ar": "يحب",
+      "audio": "audio/s13/vocab/20-lieben.mp3"
+    },
+    {
+      "de": "Buch",
+      "ar": "الكتاب",
+      "audio": "audio/s13/vocab/09-buch.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Wohnung",
+      "ar": "الشقة",
+      "audio": "audio/s13/vocab/10-wohnung.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Handy",
+      "ar": "الموبايل",
+      "audio": "audio/s13/vocab/11-handy.mp3",
+      "article": "das"
+    },
+    {
+      "de": "Tasche",
+      "ar": "الحقيبة",
+      "audio": "audio/s13/vocab/12-tasche.mp3",
+      "article": "die"
+    },
+    {
+      "de": "Auto",
+      "ar": "العربية",
+      "audio": "audio/s13/vocab/13-auto.mp3",
+      "article": "das"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Das ist ___ Buch. (كتابي)",
+      "options": [
+        "mein",
+        "meine",
+        "ihre"
+      ],
+      "answer": 0,
+      "why": "Buch محايد: من غير e.",
+      "ar": "هذا كتابي."
+    },
+    {
+      "prompt": "Das ist ___ Wohnung. (شقتي)",
+      "options": [
+        "meine",
+        "mein",
+        "sein"
+      ],
+      "answer": 0,
+      "why": "Wohnung مؤنث: فيها e.",
+      "ar": "هذه شقتي."
+    },
+    {
+      "prompt": "Das ist ___ Auto. (سيارته)",
+      "options": [
+        "sein",
+        "seine",
+        "ihre"
+      ],
+      "answer": 0,
+      "why": "Auto محايد: sein.",
+      "ar": "هذه سيارته."
+    },
+    {
+      "prompt": "Das ist ___ Tasche. (حقيبتها)",
+      "options": [
+        "ihre",
+        "ihr",
+        "sein"
+      ],
+      "answer": 0,
+      "why": "Tasche مؤنث: ihre.",
+      "ar": "هذه حقيبتها."
+    },
+    {
+      "prompt": "Das ist ___ Familie. (عائلته)",
+      "options": [
+        "seine",
+        "sein",
+        "ihr"
+      ],
+      "answer": 0,
+      "why": "Familie مؤنث: seine.",
+      "ar": "هذه عائلته."
+    },
+    {
+      "prompt": "Das ist ___ Vater. (والده)",
+      "options": [
+        "sein",
+        "seine",
+        "ihre"
+      ],
+      "answer": 0,
+      "why": "Vater مذكر: sein من غير e.",
+      "ar": "هذا والده."
+    },
+    {
+      "prompt": "Das ___ ihre Eltern.",
+      "options": [
+        "sind",
+        "ist",
+        "bin"
+      ],
+      "answer": 0,
+      "why": "Eltern جمع: Das sind.",
+      "ar": "هؤلاء والداها."
+    },
+    {
+      "prompt": "Er liebt ___ Eltern.",
+      "options": [
+        "seine",
+        "sein",
+        "ihr"
+      ],
+      "answer": 0,
+      "why": "الجمع زي المؤنث: seine.",
+      "ar": "هو يحب والديه."
+    },
+    {
+      "prompt": "Sie liebt ___ Familie.",
+      "options": [
+        "ihre",
+        "ihr",
+        "seine"
+      ],
+      "answer": 0,
+      "why": "Sie = هي، Familie مؤنث: ihre.",
+      "ar": "هي تحب عائلتها."
+    },
+    {
+      "prompt": "Das ist ___ Handy. (موبايلك)",
+      "options": [
+        "dein",
+        "deine",
+        "meine"
+      ],
+      "answer": 0,
+      "why": "Handy محايد: dein.",
+      "ar": "هذا موبايلك."
+    }
+  ],
+  "tracker": [
+    {
+      "id": "read-vocab",
+      "title": "Read the words in the tabs"
+    },
+    {
+      "id": "heard-sentences",
+      "title": "Listened to the sentences and repeated them out loud"
+    },
+    {
+      "id": "did-cards",
+      "title": "Finished the word cards"
+    },
+    {
+      "id": "did-quiz",
+      "title": "Finished the short test"
+    },
+    {
+      "id": "review-1d",
+      "title": "Reviewed after 1 day"
+    },
+    {
+      "id": "review-7d",
+      "title": "Reviewed after 7 days"
+    },
+    {
+      "id": "did-practice",
+      "title": "Finished the sentence exercises (order and correct)"
+    }
+  ],
+  "lesson": {
+    "summary": "الجلسة دي بتطبّق أدوات الملكية (mein/dein/sein/ihr) على العائلة: الـ e في الآخر مع المؤنث والجمع، ومن غيرها مع المذكر والمحايد، وبتفرّق بين sein (هو) وihr (هي)."
+  },
+  "grammar": [
+    {
+      "title": "e في الآخر = مؤنث أو جمع",
+      "rule": "meine/deine/seine/ihre بتيجي مع المؤنث (die) والجمع. من غير e (mein/dein/sein/ihr) مع المذكر والمحايد (der, das).",
+      "forms": [
+        "mein / meine",
+        "dein / deine",
+        "sein / seine",
+        "ihr / ihre"
+      ],
+      "examples": [
+        {
+          "de": "Das ist mein Buch.",
+          "ar": "هذا كتابي."
+        },
+        {
+          "de": "Das ist meine Wohnung.",
+          "ar": "هذه شقتي."
+        }
+      ]
+    },
+    {
+      "title": "sein = بتاعه، ihr = بتاعها",
+      "rule": "Er (هو) بيستخدم sein/seine، و Sie (هي) بيستخدم ihr/ihre. النهاية بتتحدد بكلمة الشيء مش بالشخص.",
+      "forms": [
+        "Er → sein / seine",
+        "Sie → ihr / ihre"
+      ],
+      "examples": [
+        {
+          "de": "Das ist sein Auto.",
+          "ar": "هذه سيارته."
+        },
+        {
+          "de": "Das ist ihre Tasche.",
+          "ar": "هذه حقيبتها."
+        }
+      ]
+    },
+    {
+      "title": "العائلة والملكية",
+      "rule": "Familie مؤنث فبتاخد seine/ihre. Vater/Bruder مذكر فياخدوا sein/ihr. Mutter/Schwester مؤنث فياخدوا seine/ihre.",
+      "forms": [
+        "sein Vater / seine Mutter",
+        "ihr Bruder / ihre Schwester"
+      ],
+      "examples": [
+        {
+          "de": "Das ist sein Vater und das ist seine Mutter.",
+          "ar": "هذا والده وهذه والدته."
+        },
+        {
+          "de": "Das ist ihr Bruder und das ist ihre Schwester.",
+          "ar": "هذا أخوها وهذه أختها."
+        }
+      ]
+    },
+    {
+      "title": "Das ist / Das sind",
+      "rule": "مع المفرد: Das ist. مع الجمع (Eltern): Das sind.",
+      "forms": [
+        "Das ist seine Familie.",
+        "Das sind ihre Eltern."
+      ],
+      "examples": [
+        {
+          "de": "Das sind ihre Eltern.",
+          "ar": "هؤلاء والداها."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "build": [
+      {
+        "tiles": [
+          "Das",
+          "ist",
+          "mein",
+          "Buch"
+        ],
+        "answer": "Das ist mein Buch",
+        "ar": "هذا كتابي."
+      },
+      {
+        "tiles": [
+          "Das",
+          "ist",
+          "seine",
+          "Familie"
+        ],
+        "answer": "Das ist seine Familie",
+        "ar": "هذه عائلته."
+      },
+      {
+        "tiles": [
+          "Er",
+          "liebt",
+          "seine",
+          "Eltern"
+        ],
+        "answer": "Er liebt seine Eltern",
+        "ar": "هو يحب والديه."
+      },
+      {
+        "tiles": [
+          "Das",
+          "ist",
+          "ihre",
+          "Tasche"
+        ],
+        "answer": "Das ist ihre Tasche",
+        "ar": "هذه حقيبتها."
+      },
+      {
+        "tiles": [
+          "Sie",
+          "liebt",
+          "ihre",
+          "Familie"
+        ],
+        "answer": "Sie liebt ihre Familie",
+        "ar": "هي تحب عائلتها."
+      },
+      {
+        "tiles": [
+          "Das",
+          "sind",
+          "ihre",
+          "Eltern"
+        ],
+        "answer": "Das sind ihre Eltern",
+        "ar": "هؤلاء والداها."
+      }
+    ],
+    "errors": [
+      {
+        "options": [
+          "Das ist meine Wohnung.",
+          "Das ist mein Wohnung."
+        ],
+        "answer": 0,
+        "why": "Wohnung مؤنث: meine.",
+        "ar": "هذه شقتي."
+      },
+      {
+        "options": [
+          "Das ist seine Familie.",
+          "Das ist sein Familie."
+        ],
+        "answer": 0,
+        "why": "Familie مؤنث: seine.",
+        "ar": "هذه عائلته."
+      },
+      {
+        "options": [
+          "Das sind ihre Eltern.",
+          "Das ist ihre Eltern."
+        ],
+        "answer": 0,
+        "why": "جمع: sind.",
+        "ar": "هؤلاء والداها."
+      },
+      {
+        "options": [
+          "Das ist sein Auto.",
+          "Das ist seine Auto."
+        ],
+        "answer": 0,
+        "why": "Auto محايد: sein.",
+        "ar": "هذه سيارته."
+      },
+      {
+        "options": [
+          "Sie liebt ihre Familie.",
+          "Sie liebt ihr Familie."
+        ],
+        "answer": 0,
+        "why": "Familie مؤنث: ihre.",
+        "ar": "هي تحب عائلتها."
+      },
+      {
+        "options": [
+          "Das ist ihr Bruder.",
+          "Das ist ihre Bruder."
+        ],
+        "answer": 0,
+        "why": "Bruder مذكر: ihr.",
+        "ar": "هذا أخوها."
+      }
+    ],
+    "translate": [
+      {
+        "ar": "هذا كتابي.",
+        "de": "Das ist mein Buch.",
+        "audio": "audio/s13/tr1.mp3"
+      },
+      {
+        "ar": "هذه عائلتها.",
+        "de": "Das ist ihre Familie.",
+        "audio": "audio/s13/tr2.mp3"
+      },
+      {
+        "ar": "هو يحب والديه.",
+        "de": "Er liebt seine Eltern.",
+        "audio": "audio/s13/tr3.mp3"
+      },
+      {
+        "ar": "هذا أخوها وهذه أختها.",
+        "de": "Das ist ihr Bruder und das ist ihre Schwester.",
+        "audio": "audio/s13/tr4.mp3"
+      },
+      {
+        "ar": "هذه شقتك.",
+        "de": "Das ist deine Wohnung.",
+        "audio": "audio/s13/tr5.mp3"
+      },
+      {
+        "ar": "هؤلاء والداه.",
+        "de": "Das sind seine Eltern.",
+        "audio": "audio/s13/tr6.mp3"
+      }
+    ]
+  }
+}
