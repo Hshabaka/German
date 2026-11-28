@@ -1,0 +1,727 @@
+{
+ "id": 5,
+ "level": "a2",
+ "title": "Session 5: My family and my things (possessives)",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=-w4yDJ5muGc",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=-w4yDJ5muGc"
+ },
+ "vocab": [
+  {
+   "id": "familie",
+   "label": "People and family",
+   "words": [
+    {
+     "de": "Vater",
+     "ar": "الأب",
+     "audio": "audio/a2/s5/vocab/01-vater.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Papa",
+     "ar": "البابا",
+     "audio": "audio/a2/s5/vocab/02-papa.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Bruder",
+     "ar": "الأخ",
+     "audio": "audio/a2/s5/vocab/03-bruder.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Onkel",
+     "ar": "العم / الخال",
+     "audio": "audio/a2/s5/vocab/04-onkel.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Freund",
+     "ar": "الصاحب",
+     "audio": "audio/a2/s5/vocab/05-freund.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Mutter",
+     "ar": "الأم",
+     "audio": "audio/a2/s5/vocab/06-mutter.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Mama",
+     "ar": "الماما",
+     "audio": "audio/a2/s5/vocab/07-mama.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Schwester",
+     "ar": "الأخت",
+     "audio": "audio/a2/s5/vocab/08-schwester.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Tante",
+     "ar": "العمة / الخالة",
+     "audio": "audio/a2/s5/vocab/09-tante.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Freundin",
+     "ar": "الصاحبة",
+     "audio": "audio/a2/s5/vocab/10-freundin.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Kind",
+     "ar": "الطفل",
+     "audio": "audio/a2/s5/vocab/11-kind.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Baby",
+     "ar": "الرضيع",
+     "audio": "audio/a2/s5/vocab/12-baby.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Eltern",
+     "ar": "الوالدين",
+     "audio": "audio/a2/s5/vocab/13-eltern.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Geschwister",
+     "ar": "الإخوة",
+     "audio": "audio/a2/s5/vocab/14-geschwister.mp3",
+     "article": "die"
+    }
+   ]
+  },
+  {
+   "id": "dinge",
+   "label": "Things and food",
+   "words": [
+    {
+     "de": "Kaffee",
+     "ar": "القهوة",
+     "audio": "audio/a2/s5/vocab/15-kaffee.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Tee",
+     "ar": "الشاي",
+     "audio": "audio/a2/s5/vocab/16-tee.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Laptop",
+     "ar": "اللاب توب",
+     "audio": "audio/a2/s5/vocab/17-laptop.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Schlüssel",
+     "ar": "المفتاح",
+     "audio": "audio/a2/s5/vocab/18-schluessel.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Hund",
+     "ar": "الكلب",
+     "audio": "audio/a2/s5/vocab/19-hund.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Pizza",
+     "ar": "البيتزا",
+     "audio": "audio/a2/s5/vocab/20-pizza.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Tasche",
+     "ar": "الشنطة",
+     "audio": "audio/a2/s5/vocab/21-tasche.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Brille",
+     "ar": "النظارة",
+     "audio": "audio/a2/s5/vocab/22-brille.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Katze",
+     "ar": "القطة",
+     "audio": "audio/a2/s5/vocab/23-katze.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Auto",
+     "ar": "العربية",
+     "audio": "audio/a2/s5/vocab/24-auto.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Handy",
+     "ar": "الموبايل",
+     "audio": "audio/a2/s5/vocab/25-handy.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Buch",
+     "ar": "الكتاب",
+     "audio": "audio/a2/s5/vocab/26-buch.mp3",
+     "article": "das"
+    }
+   ]
+  },
+  {
+   "id": "verben",
+   "label": "Verbs with Akkusativ",
+   "words": [
+    {
+     "de": "besuchen",
+     "ar": "يزور",
+     "audio": "audio/a2/s5/vocab/27-besuchen.mp3"
+    },
+    {
+     "de": "reparieren",
+     "ar": "يصلح",
+     "audio": "audio/a2/s5/vocab/28-reparieren.mp3"
+    },
+    {
+     "de": "suchen",
+     "ar": "يدور على",
+     "audio": "audio/a2/s5/vocab/29-suchen.mp3"
+    },
+    {
+     "de": "finden",
+     "ar": "يلاقي",
+     "audio": "audio/a2/s5/vocab/30-finden.mp3"
+    },
+    {
+     "de": "brauchen",
+     "ar": "يحتاج",
+     "audio": "audio/a2/s5/vocab/31-brauchen.mp3"
+    },
+    {
+     "de": "trinken",
+     "ar": "يشرب",
+     "audio": "audio/a2/s5/vocab/32-trinken.mp3"
+    },
+    {
+     "de": "essen",
+     "ar": "ياكل",
+     "audio": "audio/a2/s5/vocab/33-essen.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Mein Kaffee ist heiß.",
+   "ar": "قهوتي سخنة.",
+   "audio": "audio/a2/s5/s01-mein-kaffee-ist-heiss.mp3"
+  },
+  {
+   "de": "Ich trinke meinen Kaffee.",
+   "ar": "بشرب قهوتي.",
+   "audio": "audio/a2/s5/s02-ich-trinke-meinen-kaffee.mp3"
+  },
+  {
+   "de": "Ich esse meine Pizza.",
+   "ar": "باكل البيتزا بتاعتي.",
+   "audio": "audio/a2/s5/s03-ich-esse-meine-pizza.mp3"
+  },
+  {
+   "de": "Wo ist dein Schlüssel?",
+   "ar": "فين مفتاحك؟",
+   "audio": "audio/a2/s5/s04-wo-ist-dein-schluessel.mp3"
+  },
+  {
+   "de": "Mein Schlüssel ist hier.",
+   "ar": "مفتاحي هنا.",
+   "audio": "audio/a2/s5/s05-mein-schluessel-ist-hier.mp3"
+  },
+  {
+   "de": "Ich brauche meinen Schlüssel.",
+   "ar": "محتاج مفتاحي.",
+   "audio": "audio/a2/s5/s06-ich-brauche-meinen-schluessel.mp3"
+  },
+  {
+   "de": "Besuchst du heute deinen Onkel?",
+   "ar": "هتزور عمك النهاردة؟",
+   "audio": "audio/a2/s5/s07-besuchst-du-heute-deinen-onkel.mp3"
+  },
+  {
+   "de": "Ja, ich besuche meinen Onkel.",
+   "ar": "أيوه، هزور عمي.",
+   "audio": "audio/a2/s5/s08-ja-ich-besuche-meinen-onkel.mp3"
+  },
+  {
+   "de": "Was repariert Ali?",
+   "ar": "علي بيصلح ايه؟",
+   "audio": "audio/a2/s5/s09-was-repariert-ali.mp3"
+  },
+  {
+   "de": "Ali repariert sein Auto.",
+   "ar": "علي بيصلح عربيته.",
+   "audio": "audio/a2/s5/s10-ali-repariert-sein-auto.mp3"
+  },
+  {
+   "de": "Mein Bruder repariert seinen Laptop.",
+   "ar": "أخويا بيصلح اللاب توب بتاعه.",
+   "audio": "audio/a2/s5/s11-mein-bruder-repariert-seinen-laptop.mp3"
+  },
+  {
+   "de": "Meine Mutter sucht ihre Tasche.",
+   "ar": "ماما بتدور على شنطتها.",
+   "audio": "audio/a2/s5/s12-meine-mutter-sucht-ihre-tasche.mp3"
+  },
+  {
+   "de": "Mein Vater trinkt seinen Tee.",
+   "ar": "بابا بيشرب الشاي بتاعه.",
+   "audio": "audio/a2/s5/s13-mein-vater-trinkt-seinen-tee.mp3"
+  },
+  {
+   "de": "Meine Schwester isst ihre Pizza.",
+   "ar": "أختي بتاكل البيتزا بتاعتها.",
+   "audio": "audio/a2/s5/s14-meine-schwester-isst-ihre-pizza.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "Vater",
+   "ar": "الأب",
+   "audio": "audio/a2/s5/vocab/01-vater.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Papa",
+   "ar": "البابا",
+   "audio": "audio/a2/s5/vocab/02-papa.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Bruder",
+   "ar": "الأخ",
+   "audio": "audio/a2/s5/vocab/03-bruder.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Onkel",
+   "ar": "العم / الخال",
+   "audio": "audio/a2/s5/vocab/04-onkel.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Freund",
+   "ar": "الصاحب",
+   "audio": "audio/a2/s5/vocab/05-freund.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Mutter",
+   "ar": "الأم",
+   "audio": "audio/a2/s5/vocab/06-mutter.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Mama",
+   "ar": "الماما",
+   "audio": "audio/a2/s5/vocab/07-mama.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Schwester",
+   "ar": "الأخت",
+   "audio": "audio/a2/s5/vocab/08-schwester.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Tante",
+   "ar": "العمة / الخالة",
+   "audio": "audio/a2/s5/vocab/09-tante.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Freundin",
+   "ar": "الصاحبة",
+   "audio": "audio/a2/s5/vocab/10-freundin.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Kind",
+   "ar": "الطفل",
+   "audio": "audio/a2/s5/vocab/11-kind.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Baby",
+   "ar": "الرضيع",
+   "audio": "audio/a2/s5/vocab/12-baby.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Eltern",
+   "ar": "الوالدين",
+   "audio": "audio/a2/s5/vocab/13-eltern.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Geschwister",
+   "ar": "الإخوة",
+   "audio": "audio/a2/s5/vocab/14-geschwister.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Kaffee",
+   "ar": "القهوة",
+   "audio": "audio/a2/s5/vocab/15-kaffee.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Tee",
+   "ar": "الشاي",
+   "audio": "audio/a2/s5/vocab/16-tee.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Laptop",
+   "ar": "اللاب توب",
+   "audio": "audio/a2/s5/vocab/17-laptop.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Schlüssel",
+   "ar": "المفتاح",
+   "audio": "audio/a2/s5/vocab/18-schluessel.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Hund",
+   "ar": "الكلب",
+   "audio": "audio/a2/s5/vocab/19-hund.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Pizza",
+   "ar": "البيتزا",
+   "audio": "audio/a2/s5/vocab/20-pizza.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Tasche",
+   "ar": "الشنطة",
+   "audio": "audio/a2/s5/vocab/21-tasche.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Brille",
+   "ar": "النظارة",
+   "audio": "audio/a2/s5/vocab/22-brille.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Katze",
+   "ar": "القطة",
+   "audio": "audio/a2/s5/vocab/23-katze.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Auto",
+   "ar": "العربية",
+   "audio": "audio/a2/s5/vocab/24-auto.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Handy",
+   "ar": "الموبايل",
+   "audio": "audio/a2/s5/vocab/25-handy.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Buch",
+   "ar": "الكتاب",
+   "audio": "audio/a2/s5/vocab/26-buch.mp3",
+   "article": "das"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Das ist ________ Vater. Er ist sehr nett.",
+   "options": [
+    "mein",
+    "meinen",
+    "meine"
+   ],
+   "answer": 0,
+   "why": "وصف (Nominativ) ومذكر: mein من غير نهاية.",
+   "ar": "ده بابا. هو لطيف جدًا."
+  },
+  {
+   "prompt": "Ich besuche morgen ________ Vater.",
+   "options": [
+    "meinen",
+    "mein",
+    "meine"
+   ],
+   "answer": 0,
+   "why": "فعل واقع على مذكر (der) = أكوزاتيف: meinen.",
+   "ar": "هزور بابا بكرة."
+  },
+  {
+   "prompt": "Trinkst du ________ Tee?",
+   "options": [
+    "deinen",
+    "dein",
+    "deine"
+   ],
+   "answer": 0,
+   "why": "Tee مذكر ومفعول به: deinen.",
+   "ar": "بتشرب الشاي بتاعك؟"
+  },
+  {
+   "prompt": "Mona sucht ________ Schlüssel (der).",
+   "options": [
+    "ihren",
+    "ihr",
+    "seinen"
+   ],
+   "answer": 0,
+   "why": "المفتاح مذكر مفعول به، ومونا بنت: ihren.",
+   "ar": "مونا بتدور على مفتاحها."
+  },
+  {
+   "prompt": "Ahmed findet ________ Buch (das) nicht.",
+   "options": [
+    "sein",
+    "seinen",
+    "seine"
+   ],
+   "answer": 0,
+   "why": "Buch محايد (das) مبيتحطش عليه en: sein.",
+   "ar": "أحمد مش لاقي كتابه."
+  },
+  {
+   "prompt": "Wir brauchen ________ Brille (die).",
+   "options": [
+    "unsere",
+    "unseren",
+    "unser"
+   ],
+   "answer": 0,
+   "why": "النظارة مؤنث (die) مفيش تغيير: unsere.",
+   "ar": "محتاجين نظارتنا."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "خامس حلقة في المستوى التاني: عائلتي وأشيائي. هتتعلم أدوات الملكية كلها (mein/dein/sein/ihr/unser/euer) وإمتى تضيف -en: لو الفعل واقع على كلمة مذكرة. وهتتكلم عن عيلتك وممتلكاتك بسهولة."
+ },
+ "grammar": [
+  {
+   "title": "القاعدة الذهبية: وصف ولا فعل؟",
+   "rule": "لو الشيء بيوصف (فاعل) يبقى Nominativ ومفيش تغيير. لو الفعل واقع عليه (مفعول به) يبقى Akkusativ، والمذكر بس هو اللي بياخد النهاية -en.",
+   "forms": [
+    "Nominativ: mein Vater ist nett",
+    "Akkusativ: ich besuche meinen Vater"
+   ],
+   "examples": [
+    {
+     "de": "Mein Kaffee ist heiß.",
+     "ar": "قهوتي سخنة."
+    },
+    {
+     "de": "Ich trinke meinen Kaffee.",
+     "ar": "بشرب قهوتي."
+    }
+   ]
+  },
+  {
+   "title": "جدول أدوات الملكية",
+   "rule": "mein/dein/sein/ihr/unser/euer/Ihr حسب المالك. في الأكوزاتيف المذكر بس يضاف -en (meinen/deinen/seinen...)، والمؤنث والمحايد والجمع زي ما هما.",
+   "forms": [
+    "ich: mein/meinen",
+    "du: dein/deinen",
+    "er: sein/seinen",
+    "sie: ihr/ihren",
+    "wir: unser/unseren"
+   ],
+   "examples": [
+    {
+     "de": "Ali repariert sein Auto.",
+     "ar": "علي بيصلح عربيته."
+    },
+    {
+     "de": "Sara ruft ihren Bruder an.",
+     "ar": "سارة بتكلم أخوها."
+    }
+   ]
+  },
+  {
+   "title": "sein ولا ihr؟",
+   "rule": "sein لما المالك ولد (هو)، وihr لما المالكة بنت (هي). النهاية بعد كده حسب الكلمة المملوكة.",
+   "forms": [
+    "sein- (ملكه)",
+    "ihr- (ملكها)"
+   ],
+   "examples": [
+    {
+     "de": "Herr Müller trinkt seinen Kaffee.",
+     "ar": "الأستاذ مولر بيشرب قهوته."
+    },
+    {
+     "de": "Frau Schmidt isst ihre Pizza.",
+     "ar": "الست شميدت بتاكل بيتزاها."
+    }
+   ]
+  },
+  {
+   "title": "المؤنث والمحايد ثابتين",
+   "rule": "die وdas والجمع في الأكوزاتيف زي النوميناتيف بالظبط، مفيش أي تغيير. التغيير بيحصل في der بس.",
+   "forms": [
+    "die - meine",
+    "das - mein",
+    "Pl. - meine"
+   ],
+   "examples": [
+    {
+     "de": "Ich esse meine Pizza.",
+     "ar": "باكل البيتزا بتاعتي."
+    },
+    {
+     "de": "Ahmed findet sein Buch nicht.",
+     "ar": "أحمد مش لاقي كتابه."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "trinkt",
+     "seinen",
+     "Kaffee",
+     "Mein Vater"
+    ],
+    "answer": "Mein Vater trinkt seinen Kaffee.",
+    "ar": "بابا بيشرب قهوته."
+   },
+   {
+    "tiles": [
+     "sucht",
+     "ihre",
+     "Tasche",
+     "Meine Mutter"
+    ],
+    "answer": "Meine Mutter sucht ihre Tasche.",
+    "ar": "ماما بتدور على شنطتها."
+   },
+   {
+    "tiles": [
+     "repariert",
+     "sein",
+     "Auto",
+     "Ali"
+    ],
+    "answer": "Ali repariert sein Auto.",
+    "ar": "علي بيصلح عربيته."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Ich trinke meinen Kaffee.",
+     "Ich trinke mein Kaffee."
+    ],
+    "answer": 0,
+    "why": "Kaffee مذكر ومفعول به، لازم النهاية -en: meinen.",
+    "ar": "بشرب قهوتي."
+   },
+   {
+    "options": [
+     "Mona sucht ihren Schlüssel.",
+     "Mona sucht seinen Schlüssel."
+    ],
+    "answer": 0,
+    "why": "مونا بنت، ملكها ياخد ihr مش sein؛ والمفتاح مذكر مفعول: ihren.",
+    "ar": "مونا بتدور على مفتاحها."
+   },
+   {
+    "options": [
+     "Ich esse meine Pizza.",
+     "Ich esse meinen Pizza."
+    ],
+    "answer": 0,
+    "why": "البيتزا مؤنث (die) مفيش تغيير في الأكوزاتيف: meine.",
+    "ar": "باكل البيتزا بتاعتي."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "فين مفتاحك؟",
+    "de": "Wo ist dein Schlüssel?",
+    "audio": "audio/a2/s5/tr1.mp3"
+   },
+   {
+    "ar": "بزور عمي النهاردة.",
+    "de": "Ich besuche heute meinen Onkel.",
+    "audio": "audio/a2/s5/tr2.mp3"
+   },
+   {
+    "ar": "أختي بتاكل البيتزا بتاعتها.",
+    "de": "Meine Schwester isst ihre Pizza.",
+    "audio": "audio/a2/s5/tr3.mp3"
+   },
+   {
+    "ar": "هو بيصلح العربية بتاعته.",
+    "de": "Er repariert sein Auto.",
+    "audio": "audio/a2/s5/tr4.mp3"
+   },
+   {
+    "ar": "محتاج نظارتي.",
+    "de": "Ich brauche meine Brille.",
+    "audio": "audio/a2/s5/tr5.mp3"
+   },
+   {
+    "ar": "هي بتشرب الشاي بتاعها.",
+    "de": "Sie trinkt ihren Tee.",
+    "audio": "audio/a2/s5/tr6.mp3"
+   }
+  ]
+ }
+}
