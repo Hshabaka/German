@@ -1,0 +1,554 @@
+{
+ "id": 10,
+ "level": "a2",
+ "title": "Session 10: deshalb and trotzdem (strong connectors)",
+ "video": {
+  "provider": "youtube",
+  "url": "https://www.youtube.com/watch?v=tgGlfOusotY",
+  "backup": "Copied in Notion",
+  "note": "Lesson video from the teacher's YouTube channel",
+  "open_url": "https://www.youtube.com/watch?v=tgGlfOusotY"
+ },
+ "vocab": [
+  {
+   "id": "nomen",
+   "label": "Nouns",
+   "words": [
+    {
+     "de": "Grund",
+     "ar": "السبب",
+     "audio": "audio/a2/s10/vocab/01-grund.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Folge",
+     "ar": "النتيجة",
+     "audio": "audio/a2/s10/vocab/02-folge.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Stress",
+     "ar": "الضغط العصبي",
+     "audio": "audio/a2/s10/vocab/03-stress.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Stau",
+     "ar": "الزحمة المرورية",
+     "audio": "audio/a2/s10/vocab/04-stau.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Erfolg",
+     "ar": "النجاح",
+     "audio": "audio/a2/s10/vocab/05-erfolg.mp3",
+     "article": "der"
+    },
+    {
+     "de": "Lösung",
+     "ar": "الحل",
+     "audio": "audio/a2/s10/vocab/06-loesung.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Ergebnis",
+     "ar": "النتيجة (امتحان)",
+     "audio": "audio/a2/s10/vocab/07-ergebnis.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Erkältung",
+     "ar": "نزلة البرد",
+     "audio": "audio/a2/s10/vocab/08-erkaeltung.mp3",
+     "article": "die"
+    },
+    {
+     "de": "Fieber",
+     "ar": "السخونية",
+     "audio": "audio/a2/s10/vocab/09-fieber.mp3",
+     "article": "das"
+    },
+    {
+     "de": "Anstrengung",
+     "ar": "المجهود / التعب",
+     "audio": "audio/a2/s10/vocab/10-anstrengung.mp3",
+     "article": "die"
+    }
+   ]
+  },
+  {
+   "id": "adj",
+   "label": "Adjectives and adverbs",
+   "words": [
+    {
+     "de": "müde",
+     "ar": "تعبان",
+     "audio": "audio/a2/s10/vocab/11-muede.mp3"
+    },
+    {
+     "de": "krank",
+     "ar": "مريض",
+     "audio": "audio/a2/s10/vocab/12-krank.mp3"
+    },
+    {
+     "de": "gesund",
+     "ar": "بصحة كويسة",
+     "audio": "audio/a2/s10/vocab/13-gesund.mp3"
+    },
+    {
+     "de": "gestresst",
+     "ar": "مضغوط نفسيًا",
+     "audio": "audio/a2/s10/vocab/14-gestresst.mp3"
+    },
+    {
+     "de": "fleißig",
+     "ar": "مجتهد",
+     "audio": "audio/a2/s10/vocab/15-fleissig.mp3"
+    },
+    {
+     "de": "erfolgreich",
+     "ar": "ناجح",
+     "audio": "audio/a2/s10/vocab/16-erfolgreich.mp3"
+    },
+    {
+     "de": "schwierig",
+     "ar": "صعب",
+     "audio": "audio/a2/s10/vocab/17-schwierig.mp3"
+    },
+    {
+     "de": "unzufrieden",
+     "ar": "مش مبسوط / مش راضي",
+     "audio": "audio/a2/s10/vocab/18-unzufrieden.mp3"
+    },
+    {
+     "de": "pünktlich",
+     "ar": "في المعاد بالظبط",
+     "audio": "audio/a2/s10/vocab/19-puenktlich.mp3"
+    },
+    {
+     "de": "wichtig",
+     "ar": "مهم",
+     "audio": "audio/a2/s10/vocab/20-wichtig.mp3"
+    }
+   ]
+  },
+  {
+   "id": "verben",
+   "label": "Verbs and expressions",
+   "words": [
+    {
+     "de": "absagen",
+     "ar": "يلغي (معاد)",
+     "audio": "audio/a2/s10/vocab/21-absagen.mp3"
+    },
+    {
+     "de": "bestehen",
+     "ar": "ينجح في (امتحان)",
+     "audio": "audio/a2/s10/vocab/22-bestehen.mp3"
+    },
+    {
+     "de": "verpassen",
+     "ar": "يفوّت (قطار / معاد)",
+     "audio": "audio/a2/s10/vocab/23-verpassen.mp3"
+    },
+    {
+     "de": "sich ausruhen",
+     "ar": "يرتاح",
+     "audio": "audio/a2/s10/vocab/24-sich-ausruhen.mp3"
+    },
+    {
+     "de": "Recht haben",
+     "ar": "يكون معاه حق",
+     "audio": "audio/a2/s10/vocab/25-recht-haben.mp3"
+    },
+    {
+     "de": "deshalb",
+     "ar": "عشان كده / لذلك",
+     "audio": "audio/a2/s10/vocab/26-deshalb.mp3"
+    },
+    {
+     "de": "trotzdem",
+     "ar": "برغم كده",
+     "audio": "audio/a2/s10/vocab/27-trotzdem.mp3"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "de": "Ich habe Stress. Deshalb brauche ich eine Pause.",
+   "ar": "عندي ضغط. عشان كده محتاج بريك.",
+   "audio": "audio/a2/s10/s01-ich-habe-stress-deshalb-brauche-ich-eine-pau.mp3"
+  },
+  {
+   "de": "Ich bin müde. Deshalb gehe ich früh ins Bett.",
+   "ar": "أنا تعبان. عشان كده هنام بدري.",
+   "audio": "audio/a2/s10/s02-ich-bin-muede-deshalb-gehe-ich-frueh-ins-bet.mp3"
+  },
+  {
+   "de": "Es regnet. Trotzdem gehe ich spazieren.",
+   "ar": "الدنيا بتمطر. برغم كده هتمشى.",
+   "audio": "audio/a2/s10/s03-es-regnet-trotzdem-gehe-ich-spazieren.mp3"
+  },
+  {
+   "de": "Die Aufgabe war schwer. Trotzdem habe ich es geschafft.",
+   "ar": "المهمة كانت صعبة. برغم كده قدرت أعملها.",
+   "audio": "audio/a2/s10/s04-die-aufgabe-war-schwer-trotzdem-habe-ich-es-.mp3"
+  },
+  {
+   "de": "Ich bleibe zu Hause, denn ich bin krank.",
+   "ar": "هقعد في البيت عشان أنا مريض.",
+   "audio": "audio/a2/s10/s05-ich-bleibe-zu-hause-denn-ich-bin-krank.mp3"
+  },
+  {
+   "de": "Ich bin krank. Deshalb bleibe ich zu Hause.",
+   "ar": "أنا مريض. عشان كده هقعد في البيت.",
+   "audio": "audio/a2/s10/s06-ich-bin-krank-deshalb-bleibe-ich-zu-hause.mp3"
+  },
+  {
+   "de": "Ich bleibe zu Hause, weil ich krank bin.",
+   "ar": "هقعد في البيت عشان أنا مريض.",
+   "audio": "audio/a2/s10/s07-ich-bleibe-zu-hause-weil-ich-krank-bin.mp3"
+  },
+  {
+   "de": "Ali ist krank. Deshalb bleibt er heute im Bett.",
+   "ar": "علي مريض. عشان كده فاضل في السرير النهاردة.",
+   "audio": "audio/a2/s10/s08-ali-ist-krank-deshalb-bleibt-er-heute-im-bet.mp3"
+  },
+  {
+   "de": "Das Wetter war schlecht. Trotzdem sind wir im See geschwommen.",
+   "ar": "الجو كان وحش. برغم كده عومنا في البحيرة.",
+   "audio": "audio/a2/s10/s09-das-wetter-war-schlecht-trotzdem-sind-wir-im.mp3"
+  },
+  {
+   "de": "Ich habe meinen Schlüssel verloren. Deshalb muss ich einen Schlüsseldienst anrufen.",
+   "ar": "ضيّعت مفتاحي. عشان كده لازم أكلم صانع الأقفال.",
+   "audio": "audio/a2/s10/s10-ich-habe-meinen-schluessel-verloren-deshalb-.mp3"
+  },
+  {
+   "de": "Sarah war sehr müde. Trotzdem hat sie bis 2 Uhr nachts gelesen.",
+   "ar": "سارة كانت تعبانة جدًا. برغم كده فضلت تقرا لحد الساعة 2 بالليل.",
+   "audio": "audio/a2/s10/s11-sarah-war-sehr-muede-trotzdem-hat-sie-bis-2-.mp3"
+  },
+  {
+   "de": "Ich habe Hunger. Deshalb esse ich einen Apfel.",
+   "ar": "أنا جعان. عشان كده باكل تفاحة.",
+   "audio": "audio/a2/s10/s12-ich-habe-hunger-deshalb-esse-ich-einen-apfel.mp3"
+  },
+  {
+   "de": "Er hat kein Geld. Trotzdem kauft er ein teures Handy.",
+   "ar": "هو معاهوش فلوس. برغم كده بيشتري موبايل غالي.",
+   "audio": "audio/a2/s10/s13-er-hat-kein-geld-trotzdem-kauft-er-ein-teure.mp3"
+  },
+  {
+   "de": "Wir möchten nach Deutschland reisen. Deshalb lernen wir Deutsch.",
+   "ar": "عايزين نسافر ألمانيا. عشان كده بنذاكر ألماني.",
+   "audio": "audio/a2/s10/s14-wir-moechten-nach-deutschland-reisen-deshalb.mp3"
+  }
+ ],
+ "cards": [
+  {
+   "de": "Grund",
+   "ar": "السبب",
+   "audio": "audio/a2/s10/vocab/01-grund.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Folge",
+   "ar": "النتيجة",
+   "audio": "audio/a2/s10/vocab/02-folge.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Stress",
+   "ar": "الضغط العصبي",
+   "audio": "audio/a2/s10/vocab/03-stress.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Stau",
+   "ar": "الزحمة المرورية",
+   "audio": "audio/a2/s10/vocab/04-stau.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Erfolg",
+   "ar": "النجاح",
+   "audio": "audio/a2/s10/vocab/05-erfolg.mp3",
+   "article": "der"
+  },
+  {
+   "de": "Lösung",
+   "ar": "الحل",
+   "audio": "audio/a2/s10/vocab/06-loesung.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Ergebnis",
+   "ar": "النتيجة (امتحان)",
+   "audio": "audio/a2/s10/vocab/07-ergebnis.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Erkältung",
+   "ar": "نزلة البرد",
+   "audio": "audio/a2/s10/vocab/08-erkaeltung.mp3",
+   "article": "die"
+  },
+  {
+   "de": "Fieber",
+   "ar": "السخونية",
+   "audio": "audio/a2/s10/vocab/09-fieber.mp3",
+   "article": "das"
+  },
+  {
+   "de": "Anstrengung",
+   "ar": "المجهود / التعب",
+   "audio": "audio/a2/s10/vocab/10-anstrengung.mp3",
+   "article": "die"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Ich bin sehr müde, ________ gehe ich heute nicht zum Training.",
+   "options": [
+    "deshalb",
+    "trotzdem",
+    "denn"
+   ],
+   "answer": 0,
+   "why": "الجملة التانية نتيجة للتعب = deshalb.",
+   "ar": "أنا تعبان جدًا، عشان كده مش هروح التمرين النهاردة."
+  },
+  {
+   "prompt": "Es regnet stark, ________ geht Markus ohne Regenschirm spazieren.",
+   "options": [
+    "trotzdem",
+    "deshalb",
+    "denn"
+   ],
+   "answer": 0,
+   "why": "تناقض: بتمطر بقوة وبرغم كده خارج من غير شمسية = trotzdem.",
+   "ar": "بتمطر بقوة، برغم كده ماركوس بيتمشى من غير شمسية."
+  },
+  {
+   "prompt": "Meine Schwester hat lange gelernt, ________ hat sie die Prüfung bestanden.",
+   "options": [
+    "deshalb",
+    "trotzdem",
+    "weil"
+   ],
+   "answer": 0,
+   "why": "النجاح نتيجة المذاكرة = deshalb.",
+   "ar": "أختي ذاكرت كتير، عشان كده نجحت في الامتحان."
+  },
+  {
+   "prompt": "Herr Weber hat Zahnschmerzen, ________ geht er nicht zum Arzt. Er hat Angst.",
+   "options": [
+    "trotzdem",
+    "deshalb",
+    "denn"
+   ],
+   "answer": 0,
+   "why": "تناقض: أسنانه بتوجعه وبرغم كده مش رايح للدكتور = trotzdem.",
+   "ar": "الأستاذ فيبر أسنانه بتوجعه، برغم كده مش رايح للدكتور. هو خايف."
+  },
+  {
+   "prompt": "Die Straßen sind voll, ________ komme ich wahrscheinlich zu spät.",
+   "options": [
+    "deshalb",
+    "trotzdem",
+    "aber"
+   ],
+   "answer": 0,
+   "why": "التأخير نتيجة الزحمة = deshalb.",
+   "ar": "الشوارع مليانة، عشان كده غالبًا هتأخر."
+  }
+ ],
+ "tracker": [
+  {
+   "id": "read-vocab",
+   "title": "Read the words in the tabs"
+  },
+  {
+   "id": "heard-sentences",
+   "title": "Listened to the sentences and repeated them out loud"
+  },
+  {
+   "id": "did-cards",
+   "title": "Finished the word cards"
+  },
+  {
+   "id": "did-quiz",
+   "title": "Finished the short test"
+  },
+  {
+   "id": "review-1d",
+   "title": "Reviewed after 1 day"
+  },
+  {
+   "id": "review-7d",
+   "title": "Reviewed after 7 days"
+  },
+  {
+   "id": "did-practice",
+   "title": "Finished the sentence exercises (order and correct)"
+  }
+ ],
+ "lesson": {
+  "summary": "حلقة ١٠ في المستوى التاني: الروابط القوية deshalb وtrotzdem. هتتعلم تقول النتيجة والتناقض زي الألمان، وتفتكر القاعدة الأهم: دول بياخدوا المركز الأول والفعل بيقفز وراهم في المركز التاني."
+ },
+ "grammar": [
+  {
+   "title": "deshalb: النتيجة",
+   "rule": "deshalb بتقول النتيجة، وبتاخد المركز الأول في الجملة التانية، فالفعل بيقفز بعدها فورًا في المركز التاني (Inversion).",
+   "forms": [
+    "Position 1: deshalb + Verb + Subjekt"
+   ],
+   "examples": [
+    {
+     "de": "Ich habe Stress. Deshalb brauche ich eine Pause.",
+     "ar": "عندي ضغط. عشان كده محتاج بريك."
+    },
+    {
+     "de": "Meine Schwester hat lange gelernt, deshalb hat sie die Prüfung bestanden.",
+     "ar": "أختي ذاكرت كتير، عشان كده نجحت."
+    }
+   ]
+  },
+  {
+   "title": "trotzdem: التناقض",
+   "rule": "trotzdem بتقول إن اللي حصل عكس المتوقع، ونفس قاعدة deshalb: الفعل في المركز التاني بعدها.",
+   "forms": [
+    "Position 1: trotzdem + Verb + Subjekt"
+   ],
+   "examples": [
+    {
+     "de": "Es regnet. Trotzdem gehe ich spazieren.",
+     "ar": "بتمطر. برغم كده هتمشى."
+    },
+    {
+     "de": "Die Prüfung war schwer. Trotzdem habe ich bestanden.",
+     "ar": "الامتحان كان صعب. برغم كده نجحت."
+    }
+   ]
+  },
+  {
+   "title": "التلاتة بيقولوا نفس المعنى بترتيب مختلف",
+   "rule": "denn مركز صفر (ترتيب عادي)، deshalb مركز أول (الفعل يقفز)، weil جملة جانبية (الفعل في الآخر).",
+   "forms": [
+    "denn: ..., denn ich bin krank",
+    "deshalb: Deshalb bleibe ich",
+    "weil: ..., weil ich krank bin"
+   ],
+   "examples": [
+    {
+     "de": "Ich bleibe zu Hause, denn ich bin krank.",
+     "ar": "هقعد في البيت عشان أنا مريض."
+    },
+    {
+     "de": "Ich bleibe zu Hause, weil ich krank bin.",
+     "ar": "هقعد في البيت عشان أنا مريض."
+    }
+   ]
+  }
+ ],
+ "practice": {
+  "build": [
+   {
+    "tiles": [
+     "bleibt",
+     "er",
+     "heute",
+     "im Bett",
+     "Deshalb"
+    ],
+    "answer": "Deshalb bleibt er heute im Bett.",
+    "ar": "عشان كده فاضل في السرير النهاردة."
+   },
+   {
+    "tiles": [
+     "sind",
+     "wir",
+     "im See",
+     "geschwommen",
+     "Trotzdem"
+    ],
+    "answer": "Trotzdem sind wir im See geschwommen.",
+    "ar": "برغم كده عومنا في البحيرة."
+   },
+   {
+    "tiles": [
+     "muss",
+     "ich",
+     "einen Schlüsseldienst",
+     "anrufen",
+     "Deshalb"
+    ],
+    "answer": "Deshalb muss ich einen Schlüsseldienst anrufen.",
+    "ar": "عشان كده لازم أكلم صانع الأقفال."
+   }
+  ],
+  "errors": [
+   {
+    "options": [
+     "Ich bin krank. Deshalb bleibe ich zu Hause.",
+     "Ich bin krank. Deshalb ich bleibe zu Hause."
+    ],
+    "answer": 0,
+    "why": "deshalb بتاخد المركز الأول، والفعل لازم يقفز بعدها فورًا: Deshalb bleibe ich.",
+    "ar": "أنا مريض، عشان كده هقعد في البيت."
+   },
+   {
+    "options": [
+     "Es regnet. Trotzdem gehe ich spazieren.",
+     "Es regnet. Trotzdem ich gehe spazieren."
+    ],
+    "answer": 0,
+    "why": "نفس القاعدة مع trotzdem: الفعل في المركز التاني بعدها مباشرة.",
+    "ar": "بتمطر، برغم كده هتمشى."
+   },
+   {
+    "options": [
+     "Ich habe Stress. Deshalb brauche ich eine Pause.",
+     "Ich habe Stress. Deshalb ich brauche eine Pause."
+    ],
+    "answer": 0,
+    "why": "الفعل brauche في المركز التاني بعد deshalb مباشرة.",
+    "ar": "عندي ضغط، عشان كده محتاج بريك."
+   }
+  ],
+  "translate": [
+   {
+    "ar": "أنا تعبان، عشان كده هنام بدري.",
+    "de": "Ich bin müde. Deshalb gehe ich früh ins Bett.",
+    "audio": "audio/a2/s10/tr1.mp3"
+   },
+   {
+    "ar": "بتمطر، برغم كده هتمشى.",
+    "de": "Es regnet. Trotzdem gehe ich spazieren.",
+    "audio": "audio/a2/s10/tr2.mp3"
+   },
+   {
+    "ar": "عايزين نسافر ألمانيا، عشان كده بنذاكر ألماني.",
+    "de": "Wir möchten nach Deutschland reisen. Deshalb lernen wir Deutsch.",
+    "audio": "audio/a2/s10/tr3.mp3"
+   },
+   {
+    "ar": "هي تعبانة جدًا، برغم كده مش بتنام.",
+    "de": "Sie ist sehr müde. Trotzdem geht sie nicht schlafen.",
+    "audio": "audio/a2/s10/tr4.mp3"
+   },
+   {
+    "ar": "ضيّعت مفتاحي، عشان كده لازم أكلم صانع الأقفال.",
+    "de": "Ich habe meinen Schlüssel verloren. Deshalb muss ich einen Schlüsseldienst anrufen.",
+    "audio": "audio/a2/s10/tr5.mp3"
+   },
+   {
+    "ar": "الامتحان كان صعب، برغم كده نجحت.",
+    "de": "Die Prüfung war schwer. Trotzdem habe ich die Prüfung bestanden.",
+    "audio": "audio/a2/s10/tr6.mp3"
+   }
+  ]
+ }
+}
